@@ -1,0 +1,113 @@
+{
+  "distance": [
+    160.0,
+    224.0,
+    288.0,
+    352.0,
+    416.0,
+    480.0,
+    544.0,
+    608.0,
+    672.0,
+    736.0
+  ],
+  "scores": [
+    [
+      0.7105579376220703,
+      0.9798598885536194
+    ],
+    [
+      0.7128743529319763,
+      0.9763674139976501
+    ],
+    [
+      0.8104968070983887,
+      0.9544318914413452
+    ],
+    [
+      0.8028373122215271,
+      0.9469892382621765
+    ],
+    [
+      0.7952491641044617,
+      0.8915672302246094
+    ],
+    [
+      0.6300060749053955,
+      0.9073877334594727
+    ],
+    [
+      0.17899125814437866,
+      0.9497219324111938
+    ],
+    [
+      0.10321607440710068,
+      0.9734029173851013
+    ],
+    [
+      0.21875517070293427,
+      0.9585251808166504
+    ],
+    [
+      0.7314522862434387,
+      0.9467666149139404
+    ]
+  ],
+  "rule": {
+    "rule_version": "continuity_guard_v1",
+    "presence_threshold": 0.5,
+    "window_width_native_path_pixels": 320.0,
+    "required_spaced_E_fields": 3,
+    "original_rule": {
+      "threshold": 0.5,
+      "state_order": [
+        "Endoderm_only",
+        "both_mixed",
+        "Periderm_only",
+        "neither"
+      ],
+      "window_states": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "runs": [
+        {
+          "state": 1,
+          "start": 0,
+          "stop_exclusive": 6,
+          "samples": 6
+        },
+        {
+          "state": 2,
+          "start": 6,
+          "stop_exclusive": 9,
+          "samples": 3
+        },
+        {
+          "state": 1,
+          "start": 9,
+          "stop_exclusive": 10,
+          "samples": 1
+        }
+      ],
+      "eligible_candidates": [],
+      "selected": null,
+      "policy": "First >=3-window mixed run with an earlier >=3-window E-only run and later >=3-window P-only run. No manual T or offset."
+    },
+    "candidate_audits": [],
+    "selected": null,
+    "policy": "Keep both-appearance criterion and original support requirements; reject candidates followed by an E-only run with at least3 centres spaced by one window width before their supporting Periderm run. No new candidate coordinates or offsets invented.",
+    "assumption": "Long E-only returns weigh against an early mixed burst; short E-only fields can occur within mixed tissue.",
+    "new_neural_training": false
+  },
+  "T": null,
+  "manual_T_used_by_model": false
+}

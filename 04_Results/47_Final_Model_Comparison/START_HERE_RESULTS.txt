@@ -1,0 +1,87 @@
+MODEL RESULTS — 15 November 2026
+
+The earlier good model and picture were saved and have not been overwritten.
+That picture used the MT25 root4 development image plus a continuity rule.
+It did not establish that the model worked on every new slide.
+
+DO I NEED LABELME TO USE A MODEL?
+No. To predict, the saved model needs the microscopy image only.
+Labelme is used when we prepare teaching examples or a reference for checking
+whether predictions are correct. This is why annotation came up again on 20_29.
+
+WHAT I DID TODAY
+1. Preserved the earlier model, original images and all user annotation files.
+2. Tested native, overlapping-tile and multi-scale inference and the original
+   public PAT model. These did not resolve the new root's tissue confusion.
+3. Prepared sparse assistant annotations in two 20_29 areas using Gonzalo's
+   already-stated tissue identities. They are clearly attributed to the
+   assistant, not presented as independently verified human pixel labels.
+   Uncertain transition and lateral branches were not given tissue labels.
+4. Tried 400 training updates with earlier examples mixed in, then a separate
+   400-update attempt that also preserved the earlier model's predictions on
+   old training fields. All attempts and checkpoints are saved.
+5. Neither attempt passed the predeclared checks for replacing the old model.
+   The earlier model remains the working version. The new candidate is separate.
+6. Saved image-only predictions on four comparison areas and all six preselected
+   fields from2_12. Those 2_12 images were not used in this fine-tuning or checkpoint
+   selection. Original public PAT exposure to those images is unknown.
+7. Found that the old continuity rule can suppress correct Endoderm on the new
+   branched root. A separate exploratory interpretation uses scores near the
+   primary-root centre and flags branches/transition for review. It is not raw
+   U-Net output and does not establish the true transition position.
+8. Repeated the new candidate's prediction from the full source image: the crop
+   and predicted pixels match exactly. Original-source and baseline hashes match.
+
+WHAT THE NUMBERS MEAN
+The displayed new candidate is retention step 100, chosen for the best old-root
+result among that attempt's checkpoints. It still failed the replacement gate.
+On the assistant's sparse20_29 teaching labels, Endoderm recall increased from
+31.7% to 94.2%; Periderm recall from 80.4% to 95.4%. This is TRAINING FIT.
+On the reused MT25 root4 development reference, mean Periderm/Endoderm IoU fell
+from 64.0% to 56.9% for RAW predictions. IoU measures overlap between predicted
+and reference regions; it is not overall pixel accuracy. This regression is why
+I did not replace the earlier model.
+The earlier saved workflow, including its continuity rule, had tissue mean IoU
+76.8% on this development reference. Do not compare that processed score with
+raw scores as though only the network changed.
+
+CURRENT CONCLUSION
+We have an operational, reproducible prediction workflow for exploration and
+biological review. We do not yet have evidence for a generally reliable model
+or unattended scientific measurements. The newer attempt is not an overall
+upgrade. The three-class model also lacks a separate lateral-root category.
+No more user drawing is required to open or run the saved predictions.
+
+FILES TO OPEN
+Earlier good result:
+${ROOTSPAN_PROJECT}/04_Results/40_Current_Improved_Result/OPEN_ME_root4_before_after.png
+
+New before/after, showing raw outputs separately from the OLD cleanup rule:
+${ROOTSPAN_PROJECT}/04_Results/47_Final_Model_Comparison/OPEN_ME_NEW_RESULT.png
+
+New candidate with exploratory PRIMARY-ROOT interpretation:
+${ROOTSPAN_PROJECT}/04_Results/48_Primary_Root_Interpretation/20_29_clearer/OPEN_ME_result.png
+Grey in this last picture means needs review. Its 64-pixel transition band is an
+analysis choice, not a confidence interval, and may not cover the true boundary.
+The model's boundary is still earlier than the middle you suggested.
+
+All six 2_12 checks, without accuracy claims:
+${ROOTSPAN_PROJECT}/04_Results/47_Final_Model_Comparison/2_12_not_used_in_fine_tuning/ALL_SIX_FIELDS.png
+
+REPRODUCIBILITY
+Scripts30-35 and their copies, masks, Labelme-compatible assistant JSONs,
+training plans, all checkpoints, hashes and predictions are saved locally.
+Working model shortcut:
+${ROOTSPAN_PROJECT}/06_Models/working_model.pt
+New candidate (NOT accepted as replacement):
+${ROOTSPAN_PROJECT}/06_Models/new_candidate_NOT_accepted.pt
+Reusable image-only program:
+${ROOTSPAN_PROJECT}/03_Notebooks/33_predict_image.py
+
+INDEPENDENT REVIEW
+The claude-feedback review could not run because subscription login was absent.
+No review was sent. These conclusions are project tooling's local analysis, not a joint review.
+
+RECORDS
+The text learning/progress records were updated. The Word manual was not edited
+in this run; existing Word edits remain untouched.

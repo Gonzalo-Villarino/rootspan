@@ -1,0 +1,61 @@
+{
+  "created_utc": "2026-11-16T13:01:12.679317+00:00",
+  "question": "Does explicit predicted presence of both cell appearances improve mixed-zone detection, and what is the separate effect of an additional expert negative example?",
+  "frozen_reference": "Keep user working T and reviewed interval unchanged. No thresholds fitted to this T.",
+  "runs": [
+    {
+      "name": "three_way_five_windows",
+      "change": "Same3-way classifier, add corrected Endoderm exampleE."
+    },
+    {
+      "name": "two_presence_four_windows",
+      "change": "Two sigmoid outputs from original4examples; no new Eexample."
+    },
+    {
+      "name": "two_presence_five_windows",
+      "change": "Two sigmoid outputs plus newEexample."
+    }
+  ],
+  "presence_targets": {
+    "clear_Endoderm": [
+      1,
+      0
+    ],
+    "mixed": [
+      1,
+      1
+    ],
+    "clear_Periderm": [
+      0,
+      1
+    ]
+  },
+  "presence_output_order": [
+    "Endoderm_like_main_root_cells",
+    "Periderm_like_main_root_cells"
+  ],
+  "interpretation": "Window-level appearance predictions, not detected individual cells or measured cell shapes. A positive score is learned evidence, not proof of actual cells.",
+  "fixed_threshold": 0.5,
+  "mixed_support": "Both outputs>=0.5 for at least3consecutive overlappingwindows. Need a preceding clearErun>=3 and a later clearPrun>=3. Ignore isolatedmixedwindows; noTif these conditions fail.",
+  "candidate": "First supported mixed run after clearE and before clearP; midpoint of last preceding and first mixed window centers. Nativefieldwidth320 limits localisation.",
+  "class_balance": "Appearance groupsE/M/P each one-third loss; E examples share its weight. Each output contributes equally inside window.",
+  "training": "Frozen samePATencoder,48brightness/flipversions perwindow,500AdamWupdates,lr0.02,weight_decay0.05,fixedseed1617. No model selection on reference.",
+  "evaluation": "Samefamiliarroot3nowdirectlyusedinteaching. Not independentvalidation. Publicpretrainingexposureunknown.",
+  "no_model_promotion": true,
+  "context_probe": "Removingoff-rootupperfragment/outerbands did not fix old3waymixedcall. Do not blamefragment as proven cause.",
+  "run_name": "two_presence_four_windows",
+  "unique_teaching_windows": 4,
+  "expert_examples": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "class_window_counts": [
+    2,
+    1,
+    1
+  ],
+  "encoder_sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+  "full_labels_sha256": "af254b23849b4934e1909d407b4110e2f0d1329e0a5cd634a0275d8d41e4ad14"
+}

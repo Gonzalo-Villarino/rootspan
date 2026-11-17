@@ -1,0 +1,13 @@
+Reproduce saved predictions without retraining:
+
+Use the project00_Software/ml-env/bin/python and the unchanged06_Models/Locked_Transition_v1_20261116/run_checkpoint.py.
+For each root01,root02,root06 supply the savedrootXX/image.png androotXX/image_only_route.json; choose a NEW output directory.
+
+Example for root01:
+
+${ROOTSPAN_PROJECT}/00_Software/ml-env/bin/python "${ROOTSPAN_PROJECT}/06_Models/Locked_Transition_v1_20261116/run_checkpoint.py" --image "${ROOTSPAN_PROJECT}/04_Results/74_Locked_V1_1_7_Comparison/root01/image.png" --route "${ROOTSPAN_PROJECT}/04_Results/74_Locked_V1_1_7_Comparison/root01/image_only_route.json" --output "${ROOTSPAN_PROJECT}/04_Results/74_Locked_V1_1_7_Comparison/replay_root01"
+
+Full preparation and comparison code: ${ROOTSPAN_PROJECT}/03_Notebooks/36_compare_locked_v1_fiji.py
+The default prepare phase intentionally refuses an existing output directory. All three frozen routes and their visual checks are saved, so prediction replay does not require redrawing routes.
+
+Geometry was prepared before any humanT comparison. Only right endpointJ was shared. These are assisted measurements on selected roots.

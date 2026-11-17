@@ -1,0 +1,6 @@
+{
+  "checked_by": "project tooling",
+  "source": "PREPARED_MAIN_ROOT_PATH.png",
+  "outcome": "Path follows main root across the prepared source crop and stays off lateral branches. Rectangular fields can still include branch context.",
+  "passed": true
+}

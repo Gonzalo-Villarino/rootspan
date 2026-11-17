@@ -1,0 +1,37 @@
+7_18 root 1: zero periderm is a real outcome
+17 November 2026
+
+Gonzalo confirmed that the upper root (root 1) has 0 periderm and is almost all Endoderm. In the reviewed fields he identified B as Endoderm and C as hypocotyl, and selected marker 4 (approximately original-image x = 15600) as the root–hypocotyl junction. These are his biological reference observations, not model predictions. They apply to this root only. Both reviewed field boxes fall inside V2 track 1's detection bbox; the numbered figure explicitly identifies the upper root as root 1. See the saved containment check in root1_expert_review.json.
+
+The broad C field spans the selected junction marker. Calling C hypocotyl was a regional identification, not a pixel-by-pixel outline of every part of that field. Marker 4 is retained as an approximate expert guide with unmeasured precision, not an exact junction training coordinate. We have not invented an uncertainty interval or resolved the fine anatomical boundary. This does not change the user's separate zero-periderm assessment.
+
+The current V2 run found seven root candidates, produced two provisional lengths and withheld five lengths. Root 1 was withheld because its transition candidate and automatic endpoint conflict. The app now displays Gonzalo's 0 µm separately under Your reference; the automatic estimate remains a dash in the GUI and an empty cell in the CSV. In model columns these mean the pipeline could not report a supported length. They do not mean zero. A dash in Your reference means no reference has been recorded.
+
+Why this matters
+Our workflow must allow a root with no periderm. Periderm-like tissue in the adjacent hypocotyl must not be counted as root periderm. It also must not automatically turn every missing transition into a zero: a missing transition can reflect poor imaging, a detection failure, or a root segment containing periderm throughout.
+
+What was checked
+The complained-about run reproduced the previous V2 table exactly. This was not a browser or upload problem. As a diagnostic, we also ran the published four-class PAT weights on 7_18 without training. The raw output labels much of root 1's narrow main-root region as Endoderm and the swollen right-hand region as Periderm. Gonzalo supplied the anatomical interpretation of these regions. PAT has Background, Periderm, Endoderm and Lateral root classes, but no separate hypocotyl class.
+
+This diagnostic uses the published weights with the local 1024-pixel tiling implementation (64-pixel halo, 896-pixel stride). It is not an exact reproduction of the original PAT stitching procedure. The class fractions in diagnosis.json are descriptive model outputs on an unverified centerline, not accuracy measurements or proof of periderm absence. No replacement model was released.
+
+What changed today
+The local app and exported CSV can retain an expert reference alongside the unchanged automatic result. Root 1's zero is bound to this exact source-image hash, V2 version, track ID, detection bbox, predicted T and automatic endpoint; the binding does not include every centerline coordinate. No training occurred; no model has learned this correction merely because it was recorded. Other roots have no new reference values.
+
+The CSV keeps periderm_length_um as the automatic estimate and adds expert_periderm_length_um, expert_reference_status, expert_reference_id and expert_reference_author when a matching expert reference exists. The historical run CSV and job file are preserved; the download adds the reference columns. Conflicting or unreadable reference files produce a specific error instead of silently choosing a value. The app remains a learning prototype. This is a recording/display correction, not a successful model repair or V3 release.
+
+Verification
+The computational test results are saved in verification.json and unit_tests.txt. The live API and CSV returned expert zero separately from the blank automatic value; automatic counts stayed at two. Withdrawn-experiment warnings and the empty start page were retained. Source-image, historical run and published-weight hashes were unchanged. The locked V1 bundle (40 read-only files), V2 and archived V2.1 runtime fingerprints were verified. These software checks do not validate biological accuracy. See verification.json and ROOT1_REFERENCE_IN_GUI.png.
+
+Next scientific step
+Before another model is promoted, define reference examples for (1) periderm present, (2) periderm absent, and (3) uncertain, with the main root separated from hypocotyl and lateral roots. Root 1 is now one absence example and an approximate junction guide. More independently reviewed examples are needed to test whether an automatic absence decision generalizes. The approximate junction guide would need finer review before being used as an exact training or evaluation coordinate.
+
+Use confirmed examples to develop an absence/junction decision, and evaluate it on different slides that have not been used to adjust the method. Do not hardcode root 1's zero, simply lower a threshold, or assume that the current examples prove accuracy. Because 7_18 has now been inspected during debugging, it is a development example, not an untouched final test. A new version should be promoted only if it improves the held-out comparisons without creating false zero lengths on roots that contain periderm.
+
+Saved evidence
+root1_expert_review.json: exact user confirmations and junction guide coordinates.
+published_PAT/prediction_record.json: diagnostic inference settings and weight provenance.
+diagnosis.json: existing V2 failure categories and raw PAT diagnostic outputs.
+../09_Periderm_GUI/expert_references/20261117_7_18_root01_periderm_absent.json: the separate expert reference used by the app.
+
+The Word learning manual has not been updated in this session. This plain-language record is saved here for later inclusion.

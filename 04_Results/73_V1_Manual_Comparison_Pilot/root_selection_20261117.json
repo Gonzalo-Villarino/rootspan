@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-17",
+  "slide": "1_7",
+  "user_request": "i wanna now measure root 6 bc the other are not good, will the model undeftand ew did root 1,2,6 only?",
+  "included_root_ids": [
+    1,
+    2,
+    6
+  ],
+  "excluded_root_ids": [
+    3,
+    4,
+    5
+  ],
+  "exclusion_basis": "User says other roots are not good; specific defects not yet described. Do not claim a more specific reason.",
+  "selection_before_new_slide_model_prediction": true,
+  "model_outputs_seen_for_this_slide": false,
+  "root_numbering": "Retain original source-image numbering top to bottom; match each manual ROI and future image-derived route to the same root ID. Verify coordinates when saved.",
+  "total_assessed_scope": "Three selected roots on one slide, not six independent samples or whole-slide validation. Any other roots not separately assessed remain unreviewed.",
+  "manual_reference_not_model_input": "Manual T or periderm-only ROI is never given as transition-detector input. Future inference requires a separately checked main-root path with enough E/mixed/P context. Shared expert J may be used for assisted length comparison, disclosed.",
+  "model_fixed": "Transition_v1_20261116",
+  "v2_training": false
+}

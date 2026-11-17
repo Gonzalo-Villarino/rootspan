@@ -1,0 +1,169 @@
+{
+  "created_utc": "2026-11-16T13:19:53.078494+00:00",
+  "input_image": "${ROOTSPAN_PROJECT}/04_Results/52_Reference_Check_20261116/image.png",
+  "image_sha256": "0a0ce535a2caaf6de5ae13971b29da297734d32503cb3e79787ca8df2b3b22ad",
+  "candidate_manifest": "${ROOTSPAN_PROJECT}/06_Models/20261116_Two_Appearance_Candidate/candidate_manifest.json",
+  "head_sha256": "6cce6ef74330a9de4422cdb738144f972cedff41f07d4de3e9c9869b6e4054b9",
+  "encoder_sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+  "default_model_sha256": "234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633",
+  "device": "mps",
+  "image_only_prediction": true,
+  "reference_labels_read": false,
+  "reference_T_input": false,
+  "training_occurred": false,
+  "weights_changed": false,
+  "settings_changed": false,
+  "window_width_height": [
+    320,
+    256
+  ],
+  "stride": 64,
+  "source_centers_xy": [
+    [
+      185.45587720808564,
+      408.4794883962222
+    ],
+    [
+      248.1424690762488,
+      421.3103870222747
+    ],
+    [
+      311.78795802561297,
+      427.92342142886184
+    ],
+    [
+      375.2288240514485,
+      436.34356589638963
+    ],
+    [
+      438.39769255914274,
+      446.4448894388022
+    ],
+    [
+      500.6190757107989,
+      461.39585780171353
+    ],
+    [
+      562.8150851865134,
+      476.3856604749278
+    ],
+    [
+      625.5520539738668,
+      487.9906531503406
+    ],
+    [
+      689.1922346401136,
+      494.49811037554775
+    ],
+    [
+      752.3489917478901,
+      504.84827051609136
+    ]
+  ],
+  "distance_along_local_path": [
+    160.0,
+    224.0,
+    288.0,
+    352.0,
+    416.0,
+    480.0,
+    544.0,
+    608.0,
+    672.0,
+    736.0
+  ],
+  "presence_score_order": [
+    "Endoderm_like",
+    "Periderm_like"
+  ],
+  "presence_scores": [
+    [
+      0.874513566493988,
+      0.9894601106643677
+    ],
+    [
+      0.881855309009552,
+      0.992155909538269
+    ],
+    [
+      0.9171429872512817,
+      0.9886122345924377
+    ],
+    [
+      0.9182068109512329,
+      0.9877660274505615
+    ],
+    [
+      0.9242147207260132,
+      0.9630969166755676
+    ],
+    [
+      0.7940887808799744,
+      0.9699272513389587
+    ],
+    [
+      0.36790165305137634,
+      0.993826687335968
+    ],
+    [
+      0.21623025834560394,
+      0.9958194494247437
+    ],
+    [
+      0.3799872398376465,
+      0.9890854954719543
+    ],
+    [
+      0.83016037940979,
+      0.9588044285774231
+    ]
+  ],
+  "rule": {
+    "threshold": 0.5,
+    "state_order": [
+      "Endoderm_only",
+      "both_mixed",
+      "Periderm_only",
+      "neither"
+    ],
+    "window_states": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      1
+    ],
+    "runs": [
+      {
+        "state": 1,
+        "start": 0,
+        "stop_exclusive": 6,
+        "samples": 6
+      },
+      {
+        "state": 2,
+        "start": 6,
+        "stop_exclusive": 9,
+        "samples": 3
+      },
+      {
+        "state": 1,
+        "start": 9,
+        "stop_exclusive": 10,
+        "samples": 1
+      }
+    ],
+    "eligible_candidates": [],
+    "selected": null,
+    "policy": "First >=3-window mixed run with an earlier >=3-window E-only run and later >=3-window P-only run. No manual T or offset."
+  },
+  "candidate_T_distance_pixels": null,
+  "candidate_T_image_xy": null,
+  "scope": "Different image from local appearance-head teaching; familiar development image, not a new blind test. Public PAT pretraining exposure unknown.",
+  "limits": "Rectangular windows may contain nearby lateral-root pixels; no individual-cell detector or full-root length measurement."
+}

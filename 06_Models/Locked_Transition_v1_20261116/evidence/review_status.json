@@ -1,0 +1,8 @@
+{
+  "status": "Independent review unavailable; local verification completed.",
+  "prior_review_attempt": "${ROOTSPAN_PROJECT}/04_Results/69_Transition_Continuity_Check/review/review_status.json",
+  "prior_attempt_outcome": "external reviewer subscription login required; no review sent.",
+  "checkpoint_packaging_independently_reviewed": false,
+  "biological_review": "Gonzalo approved the solid blue T on 2_12 root 1.",
+  "local_checks": "Exact image-to-score replay, exact approved T, and four saved-profile decoder replays passed."
+}

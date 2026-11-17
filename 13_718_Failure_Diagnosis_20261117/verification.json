@@ -1,0 +1,30 @@
+{
+  "api_version": "0.4.2",
+  "root1_expert_reference_um": 0,
+  "root1_automatic_um": null,
+  "automatic_status": "transition_beyond_endpoint",
+  "automatic_count_unchanged": 2,
+  "expert_reference_count": 1,
+  "csv_expert_zero_preserved": true,
+  "other_roots_expert_values_blank": true,
+  "withdrawn_csv_warnings_preserved": true,
+  "empty_start_page_has_no_selected_job": true,
+  "historical_job_csv_weights_and_source_hashes_unchanged": true,
+  "unit_tests_passed": 27,
+  "V1_files_verified_read_only": 40,
+  "V2_V21_runtime_integrity_passed": true,
+  "browser_visual_check": "ROOT1_REFERENCE_IN_GUI_FINAL.png",
+  "test_output_file": "unit_tests.txt",
+  "test_files": [
+    "test_expert_references.py",
+    "test_pipeline.py",
+    "test_pipeline_v2.py",
+    "test_pipeline_v21.py",
+    "test_pipeline_v211.py",
+    "test_reference_routes.py"
+  ],
+  "reference_error_api_and_csv_routes_tested": true,
+  "required_reference_field_validation_tested": true,
+  "csv_expert_author_verified_live": true,
+  "final_live_API_CSV_and_integrity_check_passed": true
+}

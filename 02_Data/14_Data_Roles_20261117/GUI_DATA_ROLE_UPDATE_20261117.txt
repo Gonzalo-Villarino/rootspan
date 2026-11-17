@@ -1,0 +1,1 @@
+22_22 was run with locked V1 and automatic geometry on 17 November 2026, to develop/test the GUI. It is no longer untouched evaluation material. No retraining on it occurred. Scale 0.5299 px/um explicitly confirmed by Gonzalo in this chat. 15_27 remains reserved. Previous 1_7 comparison results are preserved.

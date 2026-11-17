@@ -1,0 +1,93 @@
+{
+  "7_18": [
+    {
+      "root": 1,
+      "raw_final_mask_path_um": 0.0,
+      "P_runs": 0,
+      "cleanup_candidate_um": null,
+      "cleanup_added_path_um": 0.0,
+      "cleanup_status": "no_P_detected_not_confirmed_absence",
+      "cleanup_start_path_pixels": null,
+      "cleanup_gap_limit_pixels": 150.0,
+      "cleanup_end_gap_limit_pixels": 250.0
+    },
+    {
+      "root": 2,
+      "raw_final_mask_path_um": 28989.936097564932,
+      "P_runs": 6,
+      "cleanup_candidate_um": 29171.049634275358,
+      "cleanup_added_path_um": 181.1135367104315,
+      "cleanup_status": "experimental_only_requires_anatomical_review",
+      "cleanup_start_path_pixels": 1.4249792272819095,
+      "cleanup_gap_limit_pixels": 150.0,
+      "cleanup_end_gap_limit_pixels": 250.0,
+      "cleanup_stop_path_pixels": 15459.164180429796,
+      "cleanup_end_gap_pixels": 123.04827348986692
+    },
+    {
+      "root": 3,
+      "raw_final_mask_path_um": 4358.194127968065,
+      "P_runs": 1,
+      "cleanup_candidate_um": 4358.194127967916,
+      "cleanup_added_path_um": 0.0,
+      "cleanup_status": "experimental_only_requires_anatomical_review",
+      "cleanup_start_path_pixels": 10736.376765641955,
+      "cleanup_gap_limit_pixels": 150.0,
+      "cleanup_end_gap_limit_pixels": 250.0,
+      "cleanup_stop_path_pixels": 13045.783834052154,
+      "cleanup_end_gap_pixels": 1.8294672506381175
+    },
+    {
+      "root": 4,
+      "raw_final_mask_path_um": 69.67543805688238,
+      "P_runs": 1,
+      "cleanup_candidate_um": 69.6754380568742,
+      "cleanup_added_path_um": 0.0,
+      "cleanup_status": "experimental_only_requires_anatomical_review",
+      "cleanup_start_path_pixels": 13921.638298341295,
+      "cleanup_gap_limit_pixels": 150.0,
+      "cleanup_end_gap_limit_pixels": 250.0,
+      "cleanup_stop_path_pixels": 13958.559312967633,
+      "cleanup_end_gap_pixels": 0.0
+    },
+    {
+      "root": 5,
+      "raw_final_mask_path_um": 318.4909308027017,
+      "P_runs": 21,
+      "cleanup_candidate_um": 440.962945424098,
+      "cleanup_added_path_um": 122.47201462137501,
+      "cleanup_status": "experimental_only_requires_anatomical_review",
+      "cleanup_start_path_pixels": 13780.800220228231,
+      "cleanup_gap_limit_pixels": 150.0,
+      "cleanup_end_gap_limit_pixels": 250.0,
+      "cleanup_stop_path_pixels": 14014.466485008461,
+      "cleanup_end_gap_pixels": 0.0
+    },
+    {
+      "root": 6,
+      "raw_final_mask_path_um": 8403.668825318908,
+      "P_runs": 2,
+      "cleanup_candidate_um": 8405.553769055983,
+      "cleanup_added_path_um": 1.8849437371796498,
+      "cleanup_status": "experimental_only_requires_anatomical_review",
+      "cleanup_start_path_pixels": 9630.527755838086,
+      "cleanup_gap_limit_pixels": 150.0,
+      "cleanup_end_gap_limit_pixels": 250.0,
+      "cleanup_stop_path_pixels": 14084.630698060852,
+      "cleanup_end_gap_pixels": 0.0
+    },
+    {
+      "root": 7,
+      "raw_final_mask_path_um": 1550.597938340441,
+      "P_runs": 1,
+      "cleanup_candidate_um": 1550.5979383405247,
+      "cleanup_added_path_um": 0.0,
+      "cleanup_status": "experimental_only_requires_anatomical_review",
+      "cleanup_start_path_pixels": 13397.97653821489,
+      "cleanup_gap_limit_pixels": 150.0,
+      "cleanup_end_gap_limit_pixels": 250.0,
+      "cleanup_stop_path_pixels": 14219.638385741535,
+      "cleanup_end_gap_pixels": 0.0
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "recorded_utc": "2026-11-16T15:17:45.801775+00:00",
+  "source_slide": "2_12",
+  "previous_role": "reserved evaluation candidate; earlier U-Net predictions viewed",
+  "updated_role": "development evidence for continuity_guard_v1 after user correction",
+  "reason": "Rule design was informed by2_12failure and biological feedback. No neural weights were fitted on2_12in this experiment.",
+  "user_scope": "User asks how to fix incorrect transition and agrees to continuity-check idea.",
+  "must_not_claim": "Independent final-test performance of updated rule on2_12",
+  "older_predictions_retained": true,
+  "new_unseen_source_needed_for_later_validation": true,
+  "experiment": "${ROOTSPAN_PROJECT}/04_Results/69_Transition_Continuity_Check"
+}

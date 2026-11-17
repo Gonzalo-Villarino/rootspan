@@ -1,0 +1,180 @@
+{
+  "purpose": "Root-5 one-pair training practice; no independent validation/test.",
+  "experiment_note": "New image patch and labels from root 5 on the same slide. Same training recipe; not a one-variable comparison with root 1.",
+  "created_utc": "2026-11-15T11:55:02.852586+00:00",
+  "provenance": {
+    "patch_id": "MT25_rep3_root5_x6976_y6016",
+    "image": "${ROOTSPAN_PROJECT}/04_Results/22_Root5_Patch/MT25_rep3_root5_x6976_y6016_image.png",
+    "mask": "${ROOTSPAN_PROJECT}/04_Results/22_Root5_Patch/MT25_rep3_root5_x6976_y6016_mask.png",
+    "image_sha256": "0d55359899aa2478dc8cf8eac5eaec728077d9b207b785bcf36ecc779ecff755",
+    "mask_sha256": "cb45155094d79be14eb6619f208402927495e9e6e01486fc6c62bf694da08d3f",
+    "patch_details": "${ROOTSPAN_PROJECT}/04_Results/22_Root5_Patch/patch_details.json",
+    "patch_details_sha256": "ce4b251993e89348dc52792c69d6f6a052d0cd59b9550bba9d9f9fc81bf1e3d6",
+    "source_crop_box": [
+      6976,
+      6016,
+      8000,
+      7040
+    ],
+    "mask_pixel_counts": {
+      "0": 646324,
+      "1": 34950,
+      "2": 14130,
+      "3": 353166,
+      "255": 6
+    },
+    "source_image": "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_practice.png",
+    "full_mask": "${ROOTSPAN_PROJECT}/04_Results/21_Root5_Mask/MT25_rep3_root5_refined_GV_mask.png",
+    "mask_details": "${ROOTSPAN_PROJECT}/04_Results/21_Root5_Mask/mask_details.json",
+    "annotation_file": "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json",
+    "annotation_sha256": "626af9e59a6f65404e09552f88698834eb03f1bcc5641a8cb42230b353661f06",
+    "source_inputs_sha256": {
+      "${ROOTSPAN_PROJECT}/04_Results/21_Root5_Mask/mask_details.json": "22b604f36334fa57bf04e65dc5c772d9fd46726a8b3571ef926fba49daf9f003",
+      "${ROOTSPAN_PROJECT}/05_Notes/Visual_Guides/Root5_Patch_Review/proposal_20261115T105528Z/proposal_record.json": "686b389abb759994b506763c7d288b4edcb460d593d734c4e2fb6b5cb61added",
+      "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_practice.png": "8b60e04adb22e4a474c77613253f9d165de0dc64cd739a0e4008fec73c75cf87",
+      "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json": "626af9e59a6f65404e09552f88698834eb03f1bcc5641a8cb42230b353661f06",
+      "${ROOTSPAN_PROJECT}/04_Results/21_Root5_Mask/MT25_rep3_root5_refined_GV_mask.png": "4794cdb1c6d31328fb719100dd2cd22e795197a3209e2df9ff869119a6f264c9"
+    }
+  },
+  "training_script_sha256": "673ad5e5f95f56b7f1c4910ee7698bfc619cd5822581fb48b5aacd206978269b",
+  "model_script_sha256": "47e8efff86b1b276e0cae5f29d6cbc6c6f10a435fbf6eb3a0241c4751fbd2962",
+  "base_model_script_sha256": "5d1e3c0ae9177839234113f8a1344a5952786190da93dcdc5f48bd482b1aeec8",
+  "model_class": "ThreeClassUNet",
+  "parameter_count": 482067,
+  "python": "3.13.2",
+  "pytorch": "2.15.0",
+  "device": "mps",
+  "seed": 34,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "gradient_clip_norm": 5.0,
+  "requested_updates": 600,
+  "completed_updates": 600,
+  "max_loop_seconds": 180,
+  "loop_and_final_measure_seconds": 72.7267434589885,
+  "stop_reason": "requested_updates_completed",
+  "image_preprocessing": "RGB / 255; no resizing or augmentation",
+  "mask_to_target": {
+    "0": "ignore",
+    "1": 0,
+    "2": 1,
+    "3": 2,
+    "255": "ignore"
+  },
+  "output_channels": [
+    "Periderm",
+    "Endoderm",
+    "Background"
+  ],
+  "output_mask_codes": [
+    1,
+    2,
+    3
+  ],
+  "ignore_target": 255,
+  "before_training": {
+    "loss": 1.2523581981658936,
+    "labelled_pixel_agreement": 0.03512775764084665,
+    "labelled_pixels_assessed": 402246,
+    "confusion_rows_reference_columns_prediction": [
+      [
+        0,
+        34950,
+        0
+      ],
+      [
+        0,
+        14130,
+        0
+      ],
+      [
+        0,
+        353166,
+        0
+      ]
+    ],
+    "class_order": [
+      "Periderm",
+      "Endoderm",
+      "Background"
+    ],
+    "per_class": {
+      "Periderm": {
+        "reference_pixels": 34950,
+        "correct_pixels": 0,
+        "fraction_of_reference_pixels_matched": 0.0
+      },
+      "Endoderm": {
+        "reference_pixels": 14130,
+        "correct_pixels": 14130,
+        "fraction_of_reference_pixels_matched": 1.0
+      },
+      "Background": {
+        "reference_pixels": 353166,
+        "correct_pixels": 0,
+        "fraction_of_reference_pixels_matched": 0.0
+      }
+    },
+    "scope": "Only labelled pixels of the SAME training patch; not whole-image or new-image accuracy."
+  },
+  "after_training": {
+    "loss": 3.9340302464552224e-05,
+    "labelled_pixel_agreement": 0.9999975139591195,
+    "labelled_pixels_assessed": 402246,
+    "confusion_rows_reference_columns_prediction": [
+      [
+        34949,
+        1,
+        0
+      ],
+      [
+        0,
+        14130,
+        0
+      ],
+      [
+        0,
+        0,
+        353166
+      ]
+    ],
+    "class_order": [
+      "Periderm",
+      "Endoderm",
+      "Background"
+    ],
+    "per_class": {
+      "Periderm": {
+        "reference_pixels": 34950,
+        "correct_pixels": 34949,
+        "fraction_of_reference_pixels_matched": 0.9999713876967096
+      },
+      "Endoderm": {
+        "reference_pixels": 14130,
+        "correct_pixels": 14130,
+        "fraction_of_reference_pixels_matched": 1.0
+      },
+      "Background": {
+        "reference_pixels": 353166,
+        "correct_pixels": 353166,
+        "fraction_of_reference_pixels_matched": 1.0
+      }
+    },
+    "scope": "Only labelled pixels of the SAME training patch; not whole-image or new-image accuracy."
+  },
+  "limitations": [
+    "All measurements use labelled pixels of the training pair, not a new image or the whole patch.",
+    "Only explicit Background outlines provide background supervision. Other empty space is ignored.",
+    "One patch from one slide cannot establish generalization to new roots or slides.",
+    "Root 5 uses different image pixels and labels from root 1; their losses and percentages are not directly comparable.",
+    "600 updates is a practice budget, not a guarantee of correct boundaries in unlabelled space.",
+    "Training starts fresh; weights support prediction, not exact optimizer resumption.",
+    "A seed improves repeatability but does not guarantee identical results across devices/versions."
+  ],
+  "model_weights_sha256": "2c839805239009b2043e8a2835887399a531ea96bcf9d8d22817ad7e7d1099f7",
+  "saved_programs_sha256": {
+    "17_train_root5.py": "673ad5e5f95f56b7f1c4910ee7698bfc619cd5822581fb48b5aacd206978269b",
+    "09_three_class_unet.py": "47e8efff86b1b276e0cae5f29d6cbc6c6f10a435fbf6eb3a0241c4751fbd2962",
+    "04_small_unet.py": "5d1e3c0ae9177839234113f8a1344a5952786190da93dcdc5f48bd482b1aeec8"
+  }
+}

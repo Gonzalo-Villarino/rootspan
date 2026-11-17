@@ -1,0 +1,53 @@
+{
+  "v1": {
+    "passed": true,
+    "files": 40,
+    "version": "Transition_v1_20261116",
+    "read_only_checked": true,
+    "manifest_sha256": "d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb"
+  },
+  "v2": {
+    "version": "V2.0",
+    "runtime_sources_match_saved_version": true
+  },
+  "historical_v21_preserved": {
+    "version": "V2.1",
+    "runtime_sources_match_saved_version": true
+  },
+  "server_state": {
+    "job": null,
+    "active": null,
+    "version": "0.4.1",
+    "local_only": true,
+    "pipelines": [
+      "v1",
+      "v2"
+    ],
+    "withdrawn_pipelines": [
+      "v21"
+    ]
+  },
+  "withdrawn_v21_api_rejected": {
+    "error": "V2.1 is withdrawn: its endpoint estimates were not reliable. Use V1 or V2 for provisional checks."
+  },
+  "new_v3_release": false,
+  "word_manual_updated": false,
+  "computational_regression_tests": {
+    "passed": 17,
+    "failed": 0,
+    "command": "../00_Software/ml-env/bin/python -m unittest discover -p 'test_pipeline*.py' -v",
+    "working_directory": "09_Periderm_GUI",
+    "biological_validation": false
+  },
+  "gui_visually_checked": {
+    "empty_upload_page": true,
+    "default": "v2",
+    "v21_disabled": true,
+    "archived_v21_rows_marked_withdrawn": true,
+    "screenshot": "12_V3_Development_20261117/GUI_REVIEW_STATUS.png"
+  },
+  "claude_final_review": "completed; no blocking issue for failed-candidate disclosure and V2.1 withdrawal",
+  "final_predicate_checks_passed": 5,
+  "reviewed_report_sha256": "f73b084f66e12e0e86f318e5d86ebf1cb72948af3061ab00650d7660d61a00e4",
+  "review_receipt": "review/claude_closure_feedback.receipt.json"
+}

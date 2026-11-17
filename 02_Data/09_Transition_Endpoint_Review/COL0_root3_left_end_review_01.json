@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-11-16T11:18:51.169464+00:00",
+  "source": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.png",
+  "source_sha256": "68669ed917eeecdead464c55e853ec4a1d8f35979b9180110a64e9778f93f8de",
+  "source_box_xyxy": [
+    1720,
+    2880,
+    2950,
+    3660
+  ],
+  "figure": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root3_left_cut_end_to_review.png",
+  "figure_photo_offset": [
+    0,
+    58
+  ],
+  "candidate_left_cut_end_source_xy": [
+    1988,
+    3057
+  ],
+  "candidate_ring_radius_source_pixels": 45,
+  "coordinate_status": "Assistant-selected approximate cut-face location for expert confirmation, not yet accepted measurement endpoint. Ring is a visual pointer, not a segmentation annotation or confidence interval.",
+  "same_root_verification": "Visually followed COL0 root3 from the saved T-J route leftwards on a whole-slide overview. This is the lower sloping root in the close-up; upper root is another root.",
+  "image_processing": "Native-pixel crop, no brightness/contrast alteration; cyan ring and L? are display guides only.",
+  "question": "Is the ringed tip the left cut end to use for this photographed root section?",
+  "endpoint_confirmed": false,
+  "model_prediction": false,
+  "new_training": false,
+  "numeric_length_reported": false
+}

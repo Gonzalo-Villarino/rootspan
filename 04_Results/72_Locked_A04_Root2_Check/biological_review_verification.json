@@ -1,0 +1,17 @@
+{
+  "protected_files_unchanged": {
+    "${ROOTSPAN_PROJECT}/04_Results/72_Locked_A04_Root2_Check/inference/prediction.json": "4fd3058a2a069f3c7c70afe01001f4b15777cee464e21c77d7d026b7f5cf2f21",
+    "${ROOTSPAN_PROJECT}/04_Results/72_Locked_A04_Root2_Check/expert_appearance_review_01.json": "7de66187ed384bf0e09c02582d05c0307920716181341885e56676bb693b9d3b",
+    "${ROOTSPAN_PROJECT}/04_Results/72_Locked_A04_Root2_Check/comparison_result.json": "7f7e45870ce2a4ec8a844e341321e07a5e84cfa958c40c154e10bd1d204c052b",
+    "${ROOTSPAN_PROJECT}/04_Results/72_Locked_A04_Root2_Check/image.png": "f3f9921d19449c2122a4a14ea747b4f3af1f5a2764f8fc4f44a45138cde1b814",
+    "${ROOTSPAN_PROJECT}/04_Results/72_Locked_A04_Root2_Check/image_only_route.json": "482ad368c24fcb31b1625faec048135db44140e26b7e3153850894eb722abab6"
+  },
+  "checkpoint": {
+    "passed": true,
+    "files": 40,
+    "version": "Transition_v1_20261116",
+    "read_only_checked": true,
+    "manifest_sha256": "d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb"
+  },
+  "only_expert_review_and_interpretation_records_updated": true
+}

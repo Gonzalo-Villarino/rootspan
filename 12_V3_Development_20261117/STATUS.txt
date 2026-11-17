@@ -1,0 +1,4 @@
+REVIEW COMPLETE — V3 CANDIDATE NOT RELEASED
+17 November2026
+external reviewer subscription login works; multiple independent feedback rounds and receipts saved. Three experimental methods did not qualify for release. The expanded11-field head passed familiar-example retention but worsened T on2/3 manually referenced1_7 roots. Current V1 also had millimetre-scale T errors; V2 remains a learning prototype, not validated measurement software. V1/V2 integrity verified. V2.1 withdrawn from new GUI/API analyses, archived display/CSV labelled. Reserved15_27 unused. Word manual unchanged.
+Start with REVIEW_AND_RESULTS.txt. Failed improvement record: expanded_fields_one_seven/comparison.json. external reviewer final review: review/claude_closure_feedback.md. Local follow-up: review/post_review_record.txt. Next: expert review of true/false mixed-cell examples, separate training/evaluation slides and independent endpoint references.

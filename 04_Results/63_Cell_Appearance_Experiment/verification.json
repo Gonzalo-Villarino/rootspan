@@ -1,0 +1,36 @@
+{
+  "exact_crop_checks": [
+    {
+      "example": "A",
+      "exact_source_pixels": true
+    },
+    {
+      "example": "B",
+      "exact_source_pixels": true
+    },
+    {
+      "example": "C",
+      "exact_source_pixels": true
+    }
+  ],
+  "root3_sampling_boxes_do_not_overlap_training_windows": true,
+  "prediction_scores_finite_and_sum_to_one": true,
+  "decoder_reproduced_exactly": true,
+  "all_one_class_input_does_not_invent_transition": true,
+  "candidate_outside_expert_T_interval": true,
+  "source_and_default_weights_unchanged": true,
+  "head_training_fit_is_not_validation": true,
+  "training_examples": 3,
+  "independent_training_roots": 1,
+  "independent_training_slides": 1,
+  "new_slide_validation": false,
+  "external_review": "Unavailable: external reviewer login required, no review sent.",
+  "figures_visually_checked": [
+    "TEACHING_INPUTS.png",
+    "ROOT3_APPEARANCE_PROFILE.png",
+    "ROOT3_TRANSITION_COMPARISON.png",
+    "RESULT_TO_REVIEW.png"
+  ],
+  "RESULT_TO_REVIEW_visual_check_pending": false,
+  "result_figure_sha256": "b73a19e4a565e5689776e61cce86c4e120aed07663769be01c576ee908b35b8c"
+}

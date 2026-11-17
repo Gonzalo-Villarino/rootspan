@@ -1,0 +1,67 @@
+{
+  "purpose": "Root 4 same-slide check pair; not used to train the selected model",
+  "patch_id": "MT25_rep3_root4_x8928_y5264",
+  "source_crop_box": [
+    8928,
+    5264,
+    9952,
+    6288
+  ],
+  "size": [
+    1024,
+    1024
+  ],
+  "crop_convention": "Zero-based left/top included; right/bottom excluded",
+  "source_image": "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_practice.png",
+  "annotation_file": "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json",
+  "annotation_sha256": "87d66b81fb93204ae9a57f730345a6305c18ab7211ed892ec093a729167937ee",
+  "inputs_sha256": {
+    "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json": "87d66b81fb93204ae9a57f730345a6305c18ab7211ed892ec093a729167937ee",
+    "${ROOTSPAN_PROJECT}/04_Results/27_Root5_Lower_Background_Training/run_20261115T121005Z_d_v61wde/trial_details.json": "809d1590b041e89780d4ccb0e5a06b00e5fcb176ae21ee9da8344226ce70e6d2",
+    "${ROOTSPAN_PROJECT}/03_Notebooks/07_make_background_mask.py": "2ab7e57527d7971b8091dd53453ede6021cc5379f7e7780e57d1f77d31cde15d",
+    "${ROOTSPAN_PROJECT}/03_Notebooks/18_prepare_root4_check.py": "070a3cdaf97bf413fee51cafce36dd9afc96672ca846116257d94957375c5cb7",
+    "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_practice.png": "8b60e04adb22e4a474c77613253f9d165de0dc64cd739a0e4008fec73c75cf87"
+  },
+  "image_file": "MT25_rep3_root4_x8928_y5264_image.png",
+  "mask_file": "MT25_rep3_root4_x8928_y5264_mask.png",
+  "mask_preview_file": "MT25_rep3_root4_x8928_y5264_mask_preview.png",
+  "image_sha256": "b8ef9fcdcaeb819e41116b71082e778b1c16eff719651dbfd3248a0f6e04be75",
+  "mask_sha256": "93f8831cc67d3acc75d355a30914aecd7c0a452e13145692941233b0c4be0a63",
+  "pixel_codes": {
+    "0": "Unannotated (ignored)",
+    "1": "Periderm",
+    "2": "Endoderm",
+    "3": "Background",
+    "255": "Conflicting labels (ignored)"
+  },
+  "pixel_counts": {
+    "0": 284320,
+    "1": 27268,
+    "2": 24802,
+    "3": 712186,
+    "255": 0
+  },
+  "ignore_codes": [
+    0,
+    255
+  ],
+  "labelled_percent": 72.8851318359375,
+  "selected_model_run": "${ROOTSPAN_PROJECT}/04_Results/27_Root5_Lower_Background_Training/run_20261115T121005Z_d_v61wde",
+  "selected_model_weights_sha256": "f3e6a993a3204f5cf4059a5185bf4e1f49bae6150286d2289102a94f6d9ddbfa",
+  "training_crop_box": [
+    6976,
+    6016,
+    8000,
+    7040
+  ],
+  "overlap_with_training_crop_pixels": 0,
+  "reference_mask_method": "Program 07 full-coordinate rasterization, then exact crop",
+  "mask_role": "Comparison reference only; not a model input for prediction",
+  "limitations": [
+    "Same slide as training, not independent new-slide evaluation.",
+    "Only explicitly labelled pixels can be scored.",
+    "No automatic Background labels; no claim that every boundary is certain."
+  ],
+  "model_trained": false,
+  "prediction_performed": false
+}

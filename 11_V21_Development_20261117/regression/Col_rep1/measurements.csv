@@ -1,0 +1,7 @@
+track_id,periderm_length_um,segment_to_visible_end_um,status,endpoint_method,transition_method,notes
+1,11925.984249425777,,provisional,fluorescence_boundary_candidate,locked_v1_rule,Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation.
+2,16912.354960673696,,provisional,fluorescence_boundary_candidate,locked_v1_rule,Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation.
+3,7836.32034646886,,provisional,fluorescence_boundary_candidate,locked_v1_rule,Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation.
+4,14922.229535030427,,provisional,fluorescence_boundary_candidate,locked_v1_rule,Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation.
+5,15122.263967249648,,provisional,width_based_junction_candidate,locked_v1_rule,Automatic endpoint candidate from widening. Anatomical junction and transition need validation.
+6,9882.584333393072,,provisional,fluorescence_boundary_candidate,locked_v1_rule,Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation.

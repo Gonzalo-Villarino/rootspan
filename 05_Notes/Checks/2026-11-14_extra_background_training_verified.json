@@ -1,0 +1,33 @@
+{
+  "date_local": "2026-11-14",
+  "run_folder": "${ROOTSPAN_PROJECT}/04_Results/19_Extra_Background_Training/run_20261114T130138Z_vnurh4my",
+  "completed_updates": 600,
+  "finite_saved_weights_verified": true,
+  "weights_sha256": "6dabaf3a1774942c1b87cb532ee08fc5655b3e60bb69b2698312fadd30dd33c4",
+  "history_rows": 600,
+  "input_and_program_hashes_verified": true,
+  "same_settings_as_previous_600_update_run": true,
+  "labelled_pixels_assessed": 136002,
+  "recorded_per_class": {
+    "Periderm": {
+      "reference_pixels": 20969,
+      "correct_pixels": 20969,
+      "fraction_of_reference_pixels_matched": 1.0
+    },
+    "Endoderm": {
+      "reference_pixels": 31848,
+      "correct_pixels": 31848,
+      "fraction_of_reference_pixels_matched": 1.0
+    },
+    "Background": {
+      "reference_pixels": 83185,
+      "correct_pixels": 83185,
+      "fraction_of_reference_pixels_matched": 1.0
+    }
+  },
+  "final_recorded_loss": 6.131577538326383e-05,
+  "loop_and_final_measure_seconds": 73.83094895900285,
+  "prediction_picture_created_by_this_check": false,
+  "further_training_updates": 0,
+  "next_user_step": "Run program 11 for this saved run with output parent 20_Extra_Background_Prediction"
+}

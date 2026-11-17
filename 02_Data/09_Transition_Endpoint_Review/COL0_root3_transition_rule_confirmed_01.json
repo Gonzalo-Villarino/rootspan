@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-11-16T12:09:48.905279+00:00",
+  "boundary_confirmation_verbatim": "eft edge of the mixed-cell zone",
+  "cell_shape_instruction_verbatim": "we need to tell the model that the long square rectangular cells are endo if it sees those with the perid cells then that is T",
+  "confirmed_definition": "T is the left edge of the mixed-cell zone on the main root. Mixed zone is included in Periderm length. Left of T is Endoderm under the regional measurement convention.",
+  "biological_cues_from_user": {
+    "Endoderm": "Elongated rectangular cells.",
+    "mixed_zone": "Visible mixture of Endoderm-like and Periderm-like cell shapes.",
+    "Periderm": "Earlier user descriptions: shorter, less orderly cell shapes."
+  },
+  "scope": "These are expert criteria for this imaging assay; not a claim of universal cell identity from shape alone.",
+  "current_model_limit": "Current model learns pixel category scores from image-mask examples. A natural-language definition alone does not update trained weights. No explicit supervised mixed-zone target or cell-shape detector has been trained in this workflow.",
+  "possible_next_teaching_design": "Review clear Endoderm, mixed-zone and clear Periderm image examples, then distinguish mixed-zone appearance while keeping it included in Periderm for length reporting. This is a proposed design, not implemented or demonstrated effective.",
+  "working_root3_T_unchanged_x": 12621,
+  "new_training": false,
+  "new_labels_generated": false,
+  "current_mask_unchanged": true
+}

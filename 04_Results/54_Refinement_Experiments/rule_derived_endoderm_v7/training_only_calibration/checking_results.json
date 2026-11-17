@@ -1,0 +1,93 @@
+{
+  "threshold": 0.32,
+  "raw_metrics": {
+    "per_class": {
+      "Periderm": {
+        "reference_pixels": 37367,
+        "correct_pixels": 33579,
+        "recall": 0.8986271308908931,
+        "precision": 0.7269597973631227,
+        "iou": 0.671862182116489,
+        "reference_pixels_left_for_review": 0
+      },
+      "Endoderm": {
+        "reference_pixels": 31640,
+        "correct_pixels": 19028,
+        "recall": 0.6013906447534766,
+        "precision": 0.833976157082749,
+        "iou": 0.5370893078920628,
+        "reference_pixels_left_for_review": 0
+      },
+      "Background": {
+        "reference_pixels": 76604,
+        "correct_pixels": 76604,
+        "recall": 1.0,
+        "precision": 1.0,
+        "iou": 1.0,
+        "reference_pixels_left_for_review": 0
+      },
+      "Lateral_root": {
+        "reference_pixels": 0,
+        "correct_pixels": 0,
+        "recall": null,
+        "precision": null,
+        "iou": null,
+        "reference_pixels_left_for_review": 0
+      }
+    },
+    "tissue_mean_iou": 0.6044757450042759,
+    "scope": "Familiar development crop. Only labelled pixels scored. Review255 counts as missed, not removed from recall/IoU."
+  },
+  "rule_metrics": {
+    "per_class": {
+      "Periderm": {
+        "reference_pixels": 37367,
+        "correct_pixels": 37367,
+        "recall": 1.0,
+        "precision": 0.8297692803055537,
+        "iou": 0.8297692803055537,
+        "reference_pixels_left_for_review": 0
+      },
+      "Endoderm": {
+        "reference_pixels": 31640,
+        "correct_pixels": 19752,
+        "recall": 0.6242730720606827,
+        "precision": 1.0,
+        "iou": 0.6242730720606827,
+        "reference_pixels_left_for_review": 4222
+      },
+      "Background": {
+        "reference_pixels": 76604,
+        "correct_pixels": 76604,
+        "recall": 1.0,
+        "precision": 1.0,
+        "iou": 1.0,
+        "reference_pixels_left_for_review": 0
+      },
+      "Lateral_root": {
+        "reference_pixels": 0,
+        "correct_pixels": 0,
+        "recall": null,
+        "precision": null,
+        "iou": null,
+        "reference_pixels_left_for_review": 0
+      }
+    },
+    "tissue_mean_iou": 0.7270211761831182,
+    "scope": "Familiar development crop. Only labelled pixels scored. Review255 counts as missed, not removed from recall/IoU."
+  },
+  "raw_pass": false,
+  "rule_pass": false,
+  "rule": {
+    "applied": true,
+    "boundary_x": 336,
+    "review_half_width_pixels": 32,
+    "assumptions": "Single near-horizontal primary root spanning crop; Endoderm left, Periderm right; zero or one transition.",
+    "review255": "Predicted tissue outside the estimated main-root band, plus64px band around inferred transition. Not a confidence interval.",
+    "primary_pixels": 106005,
+    "review_pixels": 35706,
+    "reference_input": false,
+    "lateral_root_policy": "Class4excludedfrommainroot;preservedasmodelprediction. Otheroff-axis tissue leftforreview255."
+  },
+  "scope": "Familiar development check. Threshold fit only on teaching examples."
+}

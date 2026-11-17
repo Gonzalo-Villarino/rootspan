@@ -1,0 +1,27 @@
+{
+  "source": "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json",
+  "before_sha256": "626af9e59a6f65404e09552f88698834eb03f1bcc5641a8cb42230b353661f06",
+  "before_shapes": 15,
+  "authorization": "User asked assistant to draw Background polygon below root 5 in Labelme, then guide next step",
+  "method": "Native Labelme GUI",
+  "after_sha256": "d1d0213b73df742a58cf19e7924823c448ca94d245e44d69feadc181d7d1b313",
+  "after_shapes": 16,
+  "previous_15_shapes_unchanged": true,
+  "image_and_metadata_unchanged": true,
+  "added_label": "Background",
+  "added_polygon_vertices": 28,
+  "added_bounds_xyxy": [
+    6970.27421558533,
+    6777.189314319744,
+    8007.940389883705,
+    7042.329639282816
+  ],
+  "overlap_with_old_tissue_or_conflict": 0,
+  "newly_labelled_background_full_slide": 199283,
+  "newly_labelled_background_in_same_patch": 193215,
+  "old_lower_green_band_pixels": 11454,
+  "old_lower_green_band_pixels_in_new_background_region": 8697,
+  "gui_saved": true,
+  "mask_or_patch_saved": false,
+  "training_performed": false
+}

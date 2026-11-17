@@ -1,0 +1,27 @@
+{
+  "python": "3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "pandas": "3.1.1",
+  "DataFrame_applymap_available": false,
+  "source_dimensions_wh": [
+    18143,
+    10571
+  ],
+  "dimension_source": "../13_718_Failure_Diagnosis_20261117/published_PAT/prediction_record.json",
+  "orientation": "User explicitly stated hypocotyl to the right; tissue location in uncovered columns not assessed.",
+  "width_original_grid": {
+    "size": 18143,
+    "tiles": 18,
+    "padded": 18288,
+    "padding_before": 73,
+    "maximum_tile_coverage_exclusive": 18160,
+    "original_pixels_outside_coverage": 56
+  },
+  "height_original_grid": {
+    "size": 10571,
+    "tiles": 11,
+    "padded": 11176,
+    "padding_before": 303,
+    "maximum_tile_coverage_exclusive": 11104,
+    "original_pixels_outside_coverage": 0
+  }
+}

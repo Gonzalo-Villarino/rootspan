@@ -1,0 +1,28 @@
+{
+  "recorded_utc": "2026-11-16T11:11:36.650099+00:00",
+  "user_statement_verbatim": "root\u2013hypocotyl junction",
+  "confirmed_endpoint_landmark": "Root\u2013hypocotyl junction",
+  "selected_region_source_x": [
+    19400,
+    19600
+  ],
+  "selected_region_letters": [
+    "C",
+    "D"
+  ],
+  "measurement_definition": "Main-root Periderm length including the transition zone, from selected distal transition boundary to the root\u2013hypocotyl junction; do not continue measuring through the hypocotyl merely because it has Periderm.",
+  "working_transition_source_x": 12621,
+  "transition_uncertain_source_x_range": [
+    12521,
+    12721
+  ],
+  "reference_route_proposal": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/route_proposal_01/reference_route_record.json",
+  "figure": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/route_proposal_01/COL0_root3_proposed_route.png",
+  "working_endpoint_position": "Preview uses midpoint of C-D, x19500, with centreline y supplied by the proposed path; exact point not claimed to be hand-placed.",
+  "status": "Landmark confirmed; computer-proposed reference route awaiting biological review.",
+  "new_training": false,
+  "model_prediction_performed": false,
+  "length_reported": false,
+  "source_annotations_modified": false,
+  "word_manual_edited": false
+}

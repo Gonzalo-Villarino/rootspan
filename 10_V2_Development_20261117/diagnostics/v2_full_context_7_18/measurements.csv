@@ -1,0 +1,8 @@
+track_id,periderm_length_um,segment_to_visible_end_um,status,endpoint_method,notes
+1,,,transition_beyond_endpoint,width_based_junction_candidate,A transition candidate lies beyond the estimated root endpoint. Root versus hypocotyl needs review; no periderm length reported.
+2,,27715.06407608908,endpoint_uncertain,visible_right_end_only,"No root–hypocotyl junction identified. Segment length ends at the visible right edge, not a confirmed biological junction."
+3,,3849.0532200471844,endpoint_uncertain,visible_right_end_only,"No root–hypocotyl junction identified. Segment length ends at the visible right edge, not a confirmed biological junction."
+4,,,no_transition,width_based_junction_candidate,No supported transition on the complete inspection path. No length reported.
+5,,,transition_beyond_endpoint,width_based_junction_candidate,A transition candidate lies beyond the estimated root endpoint. Root versus hypocotyl needs review; no periderm length reported.
+6,8463.164178261628,,provisional,width_based_junction_candidate,Automatic widening-based endpoint; anatomical junction and transition need validation.
+7,3162.1784973418007,,provisional,width_based_junction_candidate,Automatic widening-based endpoint; anatomical junction and transition need validation.

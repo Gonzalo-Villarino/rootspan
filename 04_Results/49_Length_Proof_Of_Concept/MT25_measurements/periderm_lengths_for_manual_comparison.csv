@@ -1,0 +1,6 @@
+root_id,automatic_periderm_length_px,automatic_periderm_length_um,pixels_per_um,calibration_status,quality_control,flags,manual_length_px,manual_length_um,manual_minus_automatic_px,manual_minus_automatic_um
+1,10392.602,,,unconfirmed; pixel lengths only,pending,separate_distal_periderm_islands_discarded; detected_root_count_differs_from_expected; biological_endpoint_and_transition_review_pending,,,,
+2,75.558,,,unconfirmed; pixel lengths only,pending,separate_distal_periderm_islands_discarded; detected_root_count_differs_from_expected; biological_endpoint_and_transition_review_pending,,,,
+3,5237.591,,,unconfirmed; pixel lengths only,pending,separate_distal_periderm_islands_discarded; detected_root_count_differs_from_expected; biological_endpoint_and_transition_review_pending,,,,
+4,3595.179,,,unconfirmed; pixel lengths only,pending,separate_distal_periderm_islands_discarded; many_ambiguous_tissue_scores; detected_root_count_differs_from_expected; biological_endpoint_and_transition_review_pending,,,,
+5,7934.084,,,unconfirmed; pixel lengths only,pending,separate_distal_periderm_islands_discarded; detected_root_count_differs_from_expected; biological_endpoint_and_transition_review_pending,,,,

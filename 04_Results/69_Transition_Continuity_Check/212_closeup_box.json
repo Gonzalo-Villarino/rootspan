@@ -1,0 +1,13 @@
+{
+  "source_box_xyxy": [
+    7664,
+    202,
+    9164,
+    622
+  ],
+  "new_T_source_xy": [
+    8414.342292421163,
+    411.8250414267261
+  ],
+  "native_pixel_display": true
+}

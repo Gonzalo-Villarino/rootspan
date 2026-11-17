@@ -1,0 +1,8 @@
+track_id,periderm_length_um,segment_to_visible_end_um,status,endpoint_method,transition_method,notes
+1,5623.5297318625335,,provisional,fluorescence_boundary_candidate,locked_v1_rule,Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation.
+2,15588.192774053425,,provisional,fluorescence_boundary_candidate,locked_v1_rule,Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation.
+3,103.00439438080119,,provisional,fluorescence_boundary_candidate,two_mixed_fields_candidate,Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation.; Brief mixed appearance: only two consecutive mixed fields. Review the blue transition line.
+4,1186.3819294974137,,provisional,fluorescence_boundary_candidate,locked_v1_rule,Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation.
+5,,,transition_beyond_endpoint,fluorescence_boundary_candidate,locked_v1_rule,A transition candidate lies beyond the estimated root endpoint. Root versus hypocotyl needs review; no periderm length reported.
+6,24589.69985678623,,provisional,fluorescence_boundary_candidate,locked_v1_rule,Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation.
+7,,,no_transition,visible_right_end_only,locked_v1_rule,No supported transition on the complete inspection path. No length reported.; No Periderm-like window detected. This does not establish a zero periderm length.

@@ -1,0 +1,352 @@
+[
+  {
+    "path": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Submission_to_plant_phenomics/Revised_manuscript_&_new_data/New_Data/WOX4-data/Ling_WOX4_Request_for_Data_Analysis_and_R_Code/Re__quick_zoom_pelase!.zip",
+    "archive_members": 4,
+    "relevant_members": [
+      "periderm_length_um_boxplot.png",
+      "whole_root_length_boxplot.png"
+    ]
+  },
+  {
+    "path": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Submission_to_plant_phenomics/Revised_manuscript_&_new_data/New_Data/WOX4-data/Re___WOX4_Request_for_Data_Analysis_and_R_Code.zip",
+    "archive_members": 5,
+    "relevant_members": [
+      "WOX4_redo_boxplot.png",
+      "WOX4_redo_boxplot_with_pvalues.png",
+      "WOX4_redo_boxplot_with_sigif.png"
+    ]
+  },
+  {
+    "path": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Submission_to_plant_phenomics/Revised_manuscript_&_new_data/New_Data/Reproducibility_accessions/Re__PAT_-_revision.zip",
+    "archive_members": 6,
+    "relevant_members": [
+      "boxplot.png",
+      "boxplot_only_comparing_2020_2023_t_tests.png"
+    ]
+  },
+  {
+    "path": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Submission_to_plant_phenomics/Revised_manuscript_&_new_data/Manuscript_Rebuttals/PAT_final_resubmission_for_WB/Re__Response_to_Reviewers_-_PAT.zip",
+    "archive_members": 3,
+    "relevant_members": []
+  },
+  {
+    "path": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Submission_to_plant_phenomics/Accepeted_Forms_PlantPhenomics-D-23-00158R1.zip",
+    "archive_members": 12,
+    "relevant_members": []
+  },
+  {
+    "path": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Old_QC_LIng/QC2/QC/periderm_pl_QC_for_GV.zip",
+    "archive_members": 115,
+    "relevant_members": [
+      "periderm_pl_QC_for_GV/for_QC/13_3_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/13_3_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/13_3_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/13_3_gfp.png_5.png",
+      "periderm_pl_QC_for_GV/for_QC/13_3_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/13_3_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/15_27_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/15_27_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/15_27_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/15_27_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/15_27_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/15_27_gfp.png_5.png",
+      "periderm_pl_QC_for_GV/for_QC/17_23_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/17_23_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/17_23_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/17_23_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/17_23_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/17_23_gfp.png_5.png",
+      "periderm_pl_QC_for_GV/for_QC/18_8_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/18_8_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/18_8_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/18_8_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/18_8_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/18_8_gfp.png_5.png",
+      "periderm_pl_QC_for_GV/for_QC/19_3_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/19_3_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/19_3_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/19_3_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/19_3_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/19_3_gfp.png_5.png",
+      "periderm_pl_QC_for_GV/for_QC/1_7_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/1_7_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/1_7_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/1_7_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/1_7_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/1_7_gfp.png_5.png",
+      "periderm_pl_QC_for_GV/for_QC/1_7_gfp.png_6.png",
+      "periderm_pl_QC_for_GV/for_QC/20_29_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/20_29_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/20_29_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/20_29_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/20_29_gfp.png_5.png",
+      "periderm_pl_QC_for_GV/for_QC/20_29_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/21_12_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/21_12_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/21_12_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/21_12_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/21_12_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/21_12_gfp.png_5.png",
+      "periderm_pl_QC_for_GV/for_QC/21_12_gfp.png_6.png",
+      "periderm_pl_QC_for_GV/for_QC/22_22_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/22_22_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/22_22_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/22_22_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/22_22_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/22_22_gfp.png_5.png",
+      "periderm_pl_QC_for_GV/for_QC/23_12_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/23_12_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/23_12_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/23_12_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/23_12_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/23_12_gfp.png_5.png",
+      "periderm_pl_QC_for_GV/for_QC/25_8_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/25_8_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/25_8_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/25_8_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/25_8_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/25_8_gfp.png_5.png",
+      "periderm_pl_QC_for_GV/for_QC/26_15_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/26_15_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/26_15_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/26_15_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/26_15_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/26_15_gfp.png_5.png",
+      "periderm_pl_QC_for_GV/for_QC/26_15_gfp.png_6.png",
+      "periderm_pl_QC_for_GV/for_QC/27_10_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/27_10_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/27_10_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/27_10_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/27_10_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/28_11_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/28_11_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/28_11_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/28_11_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/28_11_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/28_11_gfp.png_5.png",
+      "periderm_pl_QC_for_GV/for_QC/28_11_gfp.png_6.png",
+      "periderm_pl_QC_for_GV/for_QC/2_12_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/2_12_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/2_12_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/2_12_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/2_12_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/2_12_gfp.png_5.png",
+      "periderm_pl_QC_for_GV/for_QC/3_23_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/3_23_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/3_23_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/3_23_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/3_23_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/3_23_gfp.png_5.png",
+      "periderm_pl_QC_for_GV/for_QC/3_23_gfp.png_6.png",
+      "periderm_pl_QC_for_GV/for_QC/4_18_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/4_18_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/4_18_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/4_18_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/4_18_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/4_18_gfp.png_5.png",
+      "periderm_pl_QC_for_GV/for_QC/4_18_gfp.png_6.png",
+      "periderm_pl_QC_for_GV/for_QC/7_18_gfp.png_0.png",
+      "periderm_pl_QC_for_GV/for_QC/7_18_gfp.png_1.png",
+      "periderm_pl_QC_for_GV/for_QC/7_18_gfp.png_2.png",
+      "periderm_pl_QC_for_GV/for_QC/7_18_gfp.png_3.png",
+      "periderm_pl_QC_for_GV/for_QC/7_18_gfp.png_4.png",
+      "periderm_pl_QC_for_GV/for_QC/7_18_gfp.png_5.png"
+    ]
+  },
+  {
+    "path": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/Json_Files/MT25_rep3.json",
+    "bytes": 53455818,
+    "keys": [
+      "version",
+      "flags",
+      "shapes",
+      "imagePath",
+      "imageData",
+      "imageHeight",
+      "imageWidth"
+    ],
+    "size": [
+      15423,
+      9543
+    ],
+    "image": "MT25_rep3.png",
+    "embedded": true,
+    "labels": {
+      "Periderm": 6,
+      "Endoderm": 6,
+      "LR": 68
+    }
+  },
+  {
+    "path": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/Json_Files/25717_gfp_saved_again.json",
+    "bytes": 64749290,
+    "keys": [
+      "version",
+      "flags",
+      "shapes",
+      "imagePath",
+      "imageData",
+      "imageHeight",
+      "imageWidth"
+    ],
+    "size": [
+      18160,
+      11577
+    ],
+    "image": "25717_gfp.png",
+    "embedded": true,
+    "labels": {
+      "Periderm": 6,
+      "Endoderm": 6,
+      "LR": 67
+    }
+  },
+  {
+    "path": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/Json_Files/25717_gfp.json",
+    "bytes": 64749290,
+    "keys": [
+      "version",
+      "flags",
+      "shapes",
+      "imagePath",
+      "imageData",
+      "imageHeight",
+      "imageWidth"
+    ],
+    "size": [
+      18160,
+      11577
+    ],
+    "image": "25717_gfp.png",
+    "embedded": true,
+    "labels": {
+      "Periderm": 6,
+      "Endoderm": 6,
+      "LR": 67
+    }
+  },
+  {
+    "path": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/Json_Files/20#MT28_gfp_saved_again_2.json",
+    "bytes": 54547052,
+    "keys": [
+      "version",
+      "flags",
+      "shapes",
+      "imagePath",
+      "imageData",
+      "imageHeight",
+      "imageWidth"
+    ],
+    "size": [
+      16787,
+      10560
+    ],
+    "image": "20#MT28_gfp.png",
+    "embedded": true,
+    "labels": {
+      "Periderm": 6,
+      "Endoderm": 6,
+      "LR": 71
+    }
+  },
+  {
+    "path": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/Json_Files/20#MT28_gfp_saved_again.json",
+    "bytes": 54547052,
+    "keys": [
+      "version",
+      "flags",
+      "shapes",
+      "imagePath",
+      "imageData",
+      "imageHeight",
+      "imageWidth"
+    ],
+    "size": [
+      16787,
+      10560
+    ],
+    "image": "20#MT28_gfp.png",
+    "embedded": true,
+    "labels": {
+      "Periderm": 6,
+      "Endoderm": 6,
+      "LR": 71
+    }
+  },
+  {
+    "path": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/Json_Files/20#MT28_gfp.json",
+    "bytes": 54547052,
+    "keys": [
+      "version",
+      "flags",
+      "shapes",
+      "imagePath",
+      "imageData",
+      "imageHeight",
+      "imageWidth"
+    ],
+    "size": [
+      16787,
+      10560
+    ],
+    "image": "20#MT28_gfp.png",
+    "embedded": true,
+    "labels": {
+      "Periderm": 6,
+      "Endoderm": 6,
+      "LR": 71
+    }
+  },
+  {
+    "path": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/rejsonfilefor6roots.zip",
+    "archive_members": 2,
+    "relevant_members": [
+      "20_MT28_gfp.png",
+      "20_MT28_gfp_1.png"
+    ]
+  },
+  {
+    "path": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/FY-GWAS_FY_Candidate_Genes/GWAS-MTs-FY/FY47_WRKYs/OUTPUT/Col_MT/COL0_Slide1.json",
+    "bytes": 73137603,
+    "keys": [
+      "version",
+      "flags",
+      "shapes",
+      "imagePath",
+      "imageData",
+      "imageHeight",
+      "imageWidth"
+    ],
+    "size": [
+      20822,
+      11587
+    ],
+    "image": "COL0_Slide1.tif",
+    "embedded": true,
+    "labels": {
+      "Periderm": 6
+    }
+  },
+  {
+    "path": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/FY-GWAS_FY_Candidate_Genes/GWAS-MTs-FY/FY47_WRKYs/OUTPUT/Col_MT/A04_Slide2.json",
+    "bytes": 71124020,
+    "keys": [
+      "version",
+      "flags",
+      "shapes",
+      "imagePath",
+      "imageData",
+      "imageHeight",
+      "imageWidth"
+    ],
+    "size": [
+      19488,
+      11556
+    ],
+    "image": "A04_Slide2.tif",
+    "embedded": true,
+    "labels": {
+      "Periderm": 6
+    }
+  }
+]

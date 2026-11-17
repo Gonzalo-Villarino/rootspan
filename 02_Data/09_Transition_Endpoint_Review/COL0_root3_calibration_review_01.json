@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-11-16T11:27:16.458030+00:00",
+  "requested_output_unit": "micrometre",
+  "pat_pixels_per_micrometre": 0.5299,
+  "micrometres_per_pixel": 1.8871485185884127,
+  "conversion": "length_um = native_pixel_length / pixels_per_micrometre",
+  "example": {
+    "pixels": 5299,
+    "micrometres": 10000.0,
+    "millimetres": 10.0
+  },
+  "recorded_sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10981931/",
+    "https://github.com/Salk-Harnessing-Plants-Initiative/PAT-Pipeline-for-Analysis-of-Periderm/blob/51cdf8966f6da17b711aeb5625205a8a2ca39467/README.md"
+  ],
+  "local_pat_readme": "${ROOTSPAN_PROJECT}/00_Software/PAT_Pinned_20261115/README.md",
+  "provenance_limit": "PAT records using this ratio. The original experimental derivation of the calibration was not established in this check.",
+  "user_previously_confirmed_for": [
+    "20_29",
+    "2_12"
+  ],
+  "confirmed_for_COL0": false,
+  "COL0_tiff_metadata_checked": {
+    "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/FY-GWAS_FY_Candidate_Genes/GWAS-MTs-FY/FY47_WRKYs/OUTPUT/Col_MT/COL0_Slide1.tif",
+    "size_pixels": [
+      20822,
+      11587
+    ],
+    "resolution": [
+      72,
+      72
+    ],
+    "resolution_unit": "inches",
+    "software": "KEYENCE Microscope",
+    "interpretation": "72 DPI metadata does not establish physical specimen pixel size."
+  },
+  "native_image_scale_rule": "Cropping and viewing zoom do not change native pixel calibration. Resampling changes the calibration of resampled pixels.",
+  "status": "Need calibrated acquisition/export scale for COL0 before reporting final micrometre lengths. Approximate 2 cm section size is not a calibration."
+}

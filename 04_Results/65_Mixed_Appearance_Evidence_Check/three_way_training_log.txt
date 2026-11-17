@@ -1,0 +1,32 @@
+Extracting frozen image features from 5 reviewed windows...
+Appearance-head update 1/500; loss 1.0972
+Appearance-head update 50/500; loss 0.2845
+Appearance-head update 100/500; loss 0.1617
+Appearance-head update 150/500; loss 0.1099
+Appearance-head update 200/500; loss 0.0819
+Appearance-head update 250/500; loss 0.0647
+Appearance-head update 300/500; loss 0.0534
+Appearance-head update 350/500; loss 0.0456
+Appearance-head update 400/500; loss 0.0398
+Appearance-head update 450/500; loss 0.0355
+Appearance-head update 500/500; loss 0.0322
+Scanning 295 fields along the previously reviewed root3 path...
+{
+  "result": "04_Results/65_Mixed_Appearance_Evidence_Check/three_way_five_windows/result.json",
+  "teaching_classes": [
+    0,
+    1,
+    2,
+    0,
+    0
+  ],
+  "ordered_counts": [
+    183,
+    6,
+    106
+  ],
+  "candidate_native_arc": 11840.0,
+  "expert_native_arc": 11918.425640533897,
+  "error_pixels": -78.42564053389651,
+  "candidate_within_reviewed_interval": true
+}

@@ -1,0 +1,24 @@
+{
+  "recorded_utc": "2026-11-16T11:05:35.144222+00:00",
+  "user_statement_verbatim": "stop between C-D",
+  "source": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.png",
+  "source_sha256": "68669ed917eeecdead464c55e853ec4a1d8f35979b9180110a64e9778f93f8de",
+  "review_figure": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root3_right_endpoint_lettered.png",
+  "user_selected_endpoint_region_letters": [
+    "C",
+    "D"
+  ],
+  "endpoint_source_x_interval": [
+    19400,
+    19600
+  ],
+  "exact_xy_endpoint": null,
+  "endpoint_landmark_identity": "Not yet specified by user; ask what biological feature determines this stopping point.",
+  "known_measurement_convention": "Main root, working distal boundary at source x12621(marker2), Periderm including transition to the right; approximate transition review zone x12521\u201312721(markers1\u20133).",
+  "measurement_status": "Two endpoint regions identified by human. Exact centreline and length not yet calculated or biologically verified.",
+  "implication_for_automation": "Selected C\u2013D interval lies before the far-right visible tissue edge. Previous automatic far-right-component endpoint is not established as the correct biological stopping landmark. Do not apply a guessed landmark rule to other roots.",
+  "annotations_changed": false,
+  "new_training": false,
+  "model_changed": false,
+  "word_manual_edited": false
+}

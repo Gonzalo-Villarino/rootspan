@@ -1,0 +1,16 @@
+{
+  "protected_files_unchanged": {
+    "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/02_Images_For_Labelme/2_12_evaluation.png": "180258992d87ea44b739bf908ebfc24f6ec665a14cfb1a7d441d75c16884fc63",
+    "${ROOTSPAN_PROJECT}/06_Models/20261116_Two_Appearance_Candidate/presence_head.pt": "6cce6ef74330a9de4422cdb738144f972cedff41f07d4de3e9c9869b6e4054b9",
+    "${ROOTSPAN_PROJECT}/00_Software/PAT_Reference/pat_state_dict.pt": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+    "${ROOTSPAN_PROJECT}/06_Models/working_model.pt": "234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633",
+    "${ROOTSPAN_PROJECT}/04_Results/68_Fixed_212_Root1_Check/expert_appearance_review_01.json": "2c6ab2b2281d0f9753fc45a2222566acc20561629733d77159f8c2b36ba47266"
+  },
+  "no_training": true,
+  "model_and_threshold_unchanged": true,
+  "route_visually_checked_before_inference": true,
+  "full_result_and_cell_detail_figures_visually_checked": true,
+  "blue_T_same_saved_coordinate_in_both_figures": true,
+  "expert_reference_is_qualitative_not_an_invented_exact_T": true,
+  "no_measured_transition_accuracy_or_length_claim": true
+}

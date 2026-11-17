@@ -1,0 +1,81 @@
+{
+  "method": "Exact additive signed decomposition on the existing V2.1 automatic polyline, using nearest segment projection of manual T/J. Reference projection is for evaluation only, never inference. Positive = automatic length longer.",
+  "reference_limit": "Only three manual ROIs on one development slide; no independent final accuracy.",
+  "rows": [
+    {
+      "root": 1,
+      "manual_T_source_xy": [
+        9691,
+        545
+      ],
+      "manual_J_source_xy": [
+        13707,
+        1517
+      ],
+      "automatic_T_source_xy": [
+        10755.070224534733,
+        958.3913470066154
+      ],
+      "automatic_J_source_xy": [
+        13592.361536659513,
+        1518.1808591469226
+      ],
+      "manual_T_projection_distance_um": 1.6199574438671485,
+      "manual_J_projection_distance_um": 43.55434066794522,
+      "length_difference_um": -2378.5797831518303,
+      "endpoint_contribution_um": -207.9361707461002,
+      "transition_contribution_um": -2170.0492593367267,
+      "route_contribution_um": -0.5943530690034599
+    },
+    {
+      "root": 2,
+      "manual_T_source_xy": [
+        7172,
+        2554
+      ],
+      "manual_J_source_xy": [
+        14129,
+        3381
+      ],
+      "automatic_T_source_xy": [
+        6174.083342295186,
+        2242.1519263457058
+      ],
+      "automatic_J_source_xy": [
+        14120.407655803912,
+        3454.6828809733975
+      ],
+      "manual_T_projection_distance_um": 1.9539937511275922,
+      "manual_J_projection_distance_um": 105.41733595122379,
+      "length_difference_um": 1877.6294141834007,
+      "endpoint_contribution_um": -103.24662439692835,
+      "transition_contribution_um": 1977.8462438972533,
+      "route_contribution_um": 3.0297946830758646
+    },
+    {
+      "root": 6,
+      "manual_T_source_xy": [
+        4950,
+        6335
+      ],
+      "manual_J_source_xy": [
+        14180,
+        6729
+      ],
+      "automatic_T_source_xy": [
+        1517.383218887394,
+        5970.497768807074
+      ],
+      "automatic_J_source_xy": [
+        14185.423495984642,
+        6745.477626093572
+      ],
+      "manual_T_projection_distance_um": 14.24464370936613,
+      "manual_J_projection_distance_um": 31.987156867003723,
+      "length_difference_um": 6654.144895693728,
+      "endpoint_contribution_um": -6.965638609280878,
+      "transition_contribution_um": 6613.449461551741,
+      "route_contribution_um": 47.66107275126937
+    }
+  ]
+}

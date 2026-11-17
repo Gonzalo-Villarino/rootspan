@@ -1,0 +1,21 @@
+{
+  "csv_browser_download_matches_saved_result": true,
+  "csv_sha256": "d2ccb55c0c1298a7662a04e49e7d6fa449cf20ff6bb55ff6f9dab477187373e1",
+  "download_path": "${HOME}/Downloads/measurements.csv",
+  "gui_upload_observed": "image.png 14964 x 1893 pixels; copy only; not analysed",
+  "real_run": "20261117T100643Z_5085d918",
+  "original_22_22_sha256": "74d1fa19155819af5c9a8c7c0e5c49b0f6ff373af656c174fc7558e0792571ee",
+  "no_training": true,
+  "unit_tests": "3 passed: scale, curved distance, connected tracks",
+  "python_syntax_checks": "passed",
+  "locked_checkpoint_files": 40,
+  "read_only_integrity_passed": true,
+  "claude_review": "unavailable: subscription login required; no review sent",
+  "code_sha256": {
+    "pipeline.py": "f726bdee85ca36915d901d41c1af0110f8ea111076054f03b0119bd05c0e51a7",
+    "server.py": "252c57ccb5c4c1643dda90c37551ec8da91368a23866becce276f9f8fdc5a37b",
+    "index.html": "a5d2b8272c301075287dcfdf14d42027f7aee9096c12d319987da6f647589a70",
+    "launch.py": "ae90d85105e45830410badc5858e40db79b2d334394c51a83fd22e2a81342306",
+    "test_pipeline.py": "016bc7354064c4fb2d2d298fadeae17c3746145c5ae2690d4c243f2a3f557075"
+  }
+}

@@ -1,0 +1,6 @@
+TRAINING AND EVALUATION
+
+01_Training_Images: shortcuts to the three slides already used for training.
+02_Evaluation_Images: two newly copied slides reserved for checking the saved model.
+
+Next learning step: inspect20_29_evaluation.png together and decide whether its cells are clear enough for you to identify the tissues. No prediction or new training has run on either evaluation slide.

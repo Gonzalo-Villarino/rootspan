@@ -1,0 +1,21 @@
+{
+  "version": "Transition_v1_20261116",
+  "input": "RGB image crop plus main-root path in crop coordinates; path must be checked separately.",
+  "window_width": 320,
+  "window_height": 256,
+  "stride_pixels": 64,
+  "tangent_half_distance": 80,
+  "sampling": "Bilinear native-pixel sampling, no geometric resize; constant-zero outside image.",
+  "normalization": "Exact frozen_core.standardize: row-energy centre, sigma12, p99.5green to160, then ImageNet RGB mean/std.",
+  "encoder": "Frozen PAT ResNet34, depth5; mean-pooled L2-normalized feature stages1–5, concatenated then L2-normalized.",
+  "head": "Frozen linear two-output sigmoid presence head",
+  "presence_threshold": 0.5,
+  "mixed_requirement": "Both predicted appearances >=0.5; long rectangular Endoderm alone is not mixed.",
+  "decoder": "continuity_guard_v1; original3-window candidate/support rules plus3E-only centres spaced320path pixels as contradiction before supporting P run.",
+  "batch_size": 8,
+  "cpu_threads": 4,
+  "device": "MPS if available, otherwise CPU",
+  "boundary_definition": "T = left edge of mixed-cell zone on main root; mixed zone included with Periderm for future regional measurements.",
+  "no_training": true,
+  "no_automatic_full_slide_length_claim": true
+}

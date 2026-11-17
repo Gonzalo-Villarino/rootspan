@@ -1,0 +1,72 @@
+{
+  "scope": "Inventory only. No training or new reference labels created. COL0 initial working T excluded because later user corrections may supersede it. Additional independent test references remain needed.",
+  "references": [
+    {
+      "image": "1_7",
+      "root": 1,
+      "T_xy": [
+        9691,
+        545
+      ],
+      "J_xy": [
+        13707,
+        1517
+      ],
+      "source_ROI": "${ROOTSPAN_PROJECT}/04_Results/73_V1_Manual_Comparison_Pilot/01_Manual_References/1_7_root01_Periderm.roi",
+      "source_ROI_sha256": "029fb4f5f53f4cc52ac330973e7b31f447b60cac74b617a622f440759ee31c7c",
+      "kind": "human segmented-line endpoints; precision not independently quantified",
+      "role": "development only; already examined in comparisons"
+    },
+    {
+      "image": "1_7",
+      "root": 2,
+      "T_xy": [
+        7172,
+        2554
+      ],
+      "J_xy": [
+        14129,
+        3381
+      ],
+      "source_ROI": "${ROOTSPAN_PROJECT}/04_Results/73_V1_Manual_Comparison_Pilot/01_Manual_References/1_7_root02_Periderm.roi",
+      "source_ROI_sha256": "977d1597733a2579fe01b9a1ef0a0a681a1fca2e2dafe4531f18a0bf453b7551",
+      "kind": "human segmented-line endpoints; precision not independently quantified",
+      "role": "development only; already examined in comparisons"
+    },
+    {
+      "image": "1_7",
+      "root": 6,
+      "T_xy": [
+        4950,
+        6335
+      ],
+      "J_xy": [
+        14180,
+        6729
+      ],
+      "source_ROI": "${ROOTSPAN_PROJECT}/04_Results/73_V1_Manual_Comparison_Pilot/01_Manual_References/1_7_root06_Periderm.roi",
+      "source_ROI_sha256": "b99d6bd5660552a63da9cae8c9e7903df58e3798306050bb2ee6d6db56b872cf",
+      "kind": "human segmented-line endpoints; precision not independently quantified",
+      "role": "development only; already examined in comparisons"
+    },
+    {
+      "image": "7_18",
+      "root": 2,
+      "J_xy": [
+        15473.583189876072,
+        1933.587076384215
+      ],
+      "kind": "user-selected marker D; approximate reference, not exact histology",
+      "role": "development reference; precision review needed before treating as exact supervised target"
+    },
+    {
+      "image": "7_18",
+      "root": 1,
+      "periderm_absent": true,
+      "J_x_approximate": 15600,
+      "J_xy": null,
+      "kind": "confirmed absence; junction x guide only, exact coordinate not approved",
+      "role": "absence example; not an exact endpoint target"
+    }
+  ]
+}

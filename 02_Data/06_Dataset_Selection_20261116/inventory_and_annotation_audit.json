@@ -1,0 +1,344 @@
+{
+  "date_local": "2026-11-16",
+  "timezone": "Europe/Zurich",
+  "unique_source_slide_count": 5,
+  "source_images": [
+    {
+      "labels": {
+        "Periderm": 6,
+        "Endoderm": 6,
+        "LR": 68
+      },
+      "structural_warnings": [],
+      "image_wh": [
+        15423,
+        9543
+      ],
+      "slide": "MT25_rep3",
+      "image": "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/01_Images/MT25_rep3.png",
+      "annotations": "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/02_Annotations/MT25_rep3.json",
+      "image_sha256": "8b60e04adb22e4a474c77613253f9d165de0dc64cd739a0e4008fec73c75cf87",
+      "annotation_sha256": "b5bf42800ace421802694830883d7e1b992088f9e3c0847fb86b407b64b33775",
+      "decoded_pixels_sha256": "199abba476ee91a31d4b6a2c5009ea1b6d42d82c5d5cf5b38aa3248481bed9d3",
+      "embedded_image_matches": true,
+      "expected_file_hashes_match": true,
+      "transition_crops": [
+        {
+          "root": 1,
+          "box": [
+            6145,
+            0,
+            7145,
+            360
+          ],
+          "archived_periderm_min_x": 6628.5714285714275
+        },
+        {
+          "root": 2,
+          "box": [
+            7632,
+            1970,
+            8632,
+            2330
+          ],
+          "archived_periderm_min_x": 8122.222222222222
+        },
+        {
+          "root": 3,
+          "box": [
+            8961,
+            3211,
+            9961,
+            3571
+          ],
+          "archived_periderm_min_x": 9444.444444444445
+        },
+        {
+          "root": 4,
+          "box": [
+            8843,
+            5583,
+            9843,
+            5943
+          ],
+          "archived_periderm_min_x": 9330.98051948052
+        },
+        {
+          "root": 5,
+          "box": [
+            7139,
+            6612,
+            8139,
+            6972
+          ],
+          "archived_periderm_min_x": 7623.264705882353
+        },
+        {
+          "root": 6,
+          "box": [
+            11003,
+            8702,
+            12003,
+            9062
+          ],
+          "archived_periderm_min_x": 11492.98245614035
+        }
+      ]
+    },
+    {
+      "labels": {
+        "Periderm": 6,
+        "Endoderm": 6,
+        "LR": 71
+      },
+      "structural_warnings": [],
+      "image_wh": [
+        16787,
+        10560
+      ],
+      "slide": "20#MT28_gfp",
+      "image": "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/01_Images/20#MT28_gfp.png",
+      "annotations": "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/02_Annotations/20#MT28_gfp.json",
+      "image_sha256": "8c14592452f6c14df7d55b093d547f7c5f60066c80e898cb9fc6f2ea571d358e",
+      "annotation_sha256": "51d04cdd0392fbf4f241f8e49e58a3e35720f15bf33d76832f6fde95d031989a",
+      "decoded_pixels_sha256": "56081820befefbed5072546b27f65490707c68c4a54c631c74cf8d74cbcceedb",
+      "embedded_image_matches": true,
+      "expected_file_hashes_match": true,
+      "transition_crops": [
+        {
+          "root": 1,
+          "box": [
+            9000,
+            524,
+            10000,
+            884
+          ],
+          "archived_periderm_min_x": 9490.196078431372
+        },
+        {
+          "root": 2,
+          "box": [
+            7861,
+            1600,
+            8861,
+            1960
+          ],
+          "archived_periderm_min_x": 8361.016949152543
+        },
+        {
+          "root": 3,
+          "box": [
+            10071,
+            4017,
+            11071,
+            4377
+          ],
+          "archived_periderm_min_x": 10559.92857142857
+        },
+        {
+          "root": 4,
+          "box": [
+            6591,
+            5620,
+            7591,
+            5980
+          ],
+          "archived_periderm_min_x": 7076.833333333332
+        },
+        {
+          "root": 5,
+          "box": [
+            7287,
+            7723,
+            8287,
+            8083
+          ],
+          "archived_periderm_min_x": 7782.785714285715
+        },
+        {
+          "root": 6,
+          "box": [
+            4652,
+            8967,
+            5652,
+            9327
+          ],
+          "archived_periderm_min_x": 5139.531746031746
+        }
+      ]
+    },
+    {
+      "labels": {
+        "Periderm": 6,
+        "Endoderm": 6,
+        "LR": 67
+      },
+      "structural_warnings": [],
+      "image_wh": [
+        18160,
+        11577
+      ],
+      "slide": "25717_gfp",
+      "image": "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/01_Images/25717_gfp.png",
+      "annotations": "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/02_Annotations/25717_gfp.json",
+      "image_sha256": "c6a95a9a360298be8e2d7ed817bea5be81215236108ddf16cebb35f67adb0a5b",
+      "annotation_sha256": "8a0f9936fa3ef90446cd6c54462341c06ef910965f14d72a7442ea2cfa866926",
+      "decoded_pixels_sha256": "c9f2e530aa80799d8c7f5ce0777132fa4782b46a687f83d6d424b1a18673aac6",
+      "embedded_image_matches": true,
+      "expected_file_hashes_match": true,
+      "transition_crops": [
+        {
+          "root": 1,
+          "box": [
+            9547,
+            1021,
+            10547,
+            1381
+          ],
+          "archived_periderm_min_x": 10033.174603174602
+        },
+        {
+          "root": 2,
+          "box": [
+            7749,
+            2646,
+            8749,
+            3006
+          ],
+          "archived_periderm_min_x": 8235.087719298244
+        },
+        {
+          "root": 3,
+          "box": [
+            8483,
+            4682,
+            9483,
+            5042
+          ],
+          "archived_periderm_min_x": 8981.818181818182
+        },
+        {
+          "root": 4,
+          "box": [
+            9441,
+            6611,
+            10441,
+            6971
+          ],
+          "archived_periderm_min_x": 9926.825396825396
+        },
+        {
+          "root": 5,
+          "box": [
+            7934,
+            8182,
+            8934,
+            8542
+          ],
+          "archived_periderm_min_x": 8423.650793650791
+        },
+        {
+          "root": 6,
+          "box": [
+            8368,
+            10211,
+            9368,
+            10571
+          ],
+          "archived_periderm_min_x": 8868.421052631578
+        }
+      ]
+    },
+    {
+      "slide": "20_29",
+      "image": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/02_Images_For_Labelme/20_29_evaluation.png",
+      "original_tiff": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/01_Original_TIFFs/20_29.tif",
+      "image_wh": [
+        14077,
+        8532
+      ],
+      "image_sha256": "df2ccc184dcbd52cdc35b8c6b8b92f32a863e678ca2a24d25aa2ba41ec11abd0",
+      "decoded_pixels_sha256": "3db828533fe4007646e1203813dd680501d43fffd6e0d52600e8cfc4fb0d23cb",
+      "expected_png_hash_matches": true,
+      "full_slide_human_json_found": false,
+      "tiff_sha256": "959023e830050b74be8fe73647b1bf55bc6a04e33c3572fa411a0f81b0e86606",
+      "tiff_png_pixel_identical_verified_today": true
+    },
+    {
+      "slide": "2_12",
+      "image": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/02_Images_For_Labelme/2_12_evaluation.png",
+      "original_tiff": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/01_Original_TIFFs/2_12.tif",
+      "image_wh": [
+        15416,
+        7516
+      ],
+      "image_sha256": "180258992d87ea44b739bf908ebfc24f6ec665a14cfb1a7d441d75c16884fc63",
+      "decoded_pixels_sha256": "f36f52a4f2b7248e01c63646667de038f273812810cf43fe7d5116d0e0a575df",
+      "expected_png_hash_matches": true,
+      "full_slide_human_json_found": false,
+      "tiff_sha256": "70a2cd1fd0f9da7c32da6e48e7650dc38d6f46d0614a64f02b03f0dee3e5bf1c",
+      "tiff_png_pixel_identical_verified_today": true
+    }
+  ],
+  "GV_current_annotation_summary": {
+    "labels": {
+      "Periderm": 6,
+      "Endoderm": 6,
+      "Background": 6
+    },
+    "structural_warnings": [],
+    "image_wh": [
+      15423,
+      9543
+    ],
+    "path": "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json",
+    "sha256": "87d66b81fb93204ae9a57f730345a6305c18ab7211ed892ec093a729167937ee"
+  },
+  "MT25_outline_position_differences": [
+    {
+      "root": 1,
+      "archived_P_start_min_x": 6628.5714285714275,
+      "GV_P_start_min_x": 7790.8038372814,
+      "GV_minus_archived_x_px": 1162.2324087099723,
+      "interpretation": "Outline position disagreement; not a true length error or a biological judgement."
+    },
+    {
+      "root": 2,
+      "archived_P_start_min_x": 8122.222222222222,
+      "GV_P_start_min_x": 7857.0715623177975,
+      "GV_minus_archived_x_px": -265.1506599044242,
+      "interpretation": "Outline position disagreement; not a true length error or a biological judgement."
+    },
+    {
+      "root": 3,
+      "archived_P_start_min_x": 9444.444444444445,
+      "GV_P_start_min_x": 7542.225448582238,
+      "GV_minus_archived_x_px": -1902.2189958622075,
+      "interpretation": "Outline position disagreement; not a true length error or a biological judgement."
+    },
+    {
+      "root": 4,
+      "archived_P_start_min_x": 9330.98051948052,
+      "GV_P_start_min_x": 9439.311314719283,
+      "GV_minus_archived_x_px": 108.33079523876404,
+      "interpretation": "Outline position disagreement; not a true length error or a biological judgement."
+    },
+    {
+      "root": 5,
+      "archived_P_start_min_x": 7623.264705882353,
+      "GV_P_start_min_x": 7250.845287832339,
+      "GV_minus_archived_x_px": -372.41941805001443,
+      "interpretation": "Outline position disagreement; not a true length error or a biological judgement."
+    },
+    {
+      "root": 6,
+      "archived_P_start_min_x": 11492.98245614035,
+      "GV_P_start_min_x": 7728.780262147688,
+      "GV_minus_archived_x_px": -3764.2021939926617,
+      "interpretation": "Outline position disagreement; not a true length error or a biological judgement."
+    }
+  ],
+  "training_run": false,
+  "sources_changed": false,
+  "audit_scope": "Dimensions, source hashes, pixel identity for archived JSONs, label counts, finite coordinates/bounds/point counts, overview and transition crop inspections. Not a complete biological or polygon topology certification."
+}

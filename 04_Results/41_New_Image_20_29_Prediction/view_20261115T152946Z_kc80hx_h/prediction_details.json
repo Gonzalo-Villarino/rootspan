@@ -1,0 +1,47 @@
+{
+  "source_image": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/02_Images_For_Labelme/20_29_evaluation.png",
+  "source_image_sha256": "df2ccc184dcbd52cdc35b8c6b8b92f32a863e678ca2a24d25aa2ba41ec11abd0",
+  "source_dimensions": [
+    14077,
+    8532
+  ],
+  "crop_box_xyxy_exclusive": [
+    7988,
+    5618,
+    9012,
+    6642
+  ],
+  "crop_pixels_resized_or_adjusted": false,
+  "crop_choice": "Fixed before predictions, using microscopy visibility only; no human tissue identity assumed.",
+  "model_run": "${ROOTSPAN_PROJECT}/04_Results/39_PAT_Transfer_Learning/run_20261115T140159Z",
+  "model_weights_sha256": "234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633",
+  "architecture": "PAT transfer model: UNet++ / ResNet34, three categories",
+  "model_checkpoint_update": 200,
+  "device": "mps",
+  "class_codes": {
+    "1": "Periderm",
+    "2": "Endoderm",
+    "3": "Background"
+  },
+  "normalization_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalization_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "training_updates_this_run": 0,
+  "reference_mask_read": false,
+  "postprocessing": "None; argmax of model category scores only.",
+  "prediction_sha256": "5c935c64ea93655bd9b26085521ecbe71be1f806dc3fa67d00f25a983915bf34",
+  "crop_sha256": "5431a97d9bc0a191a36c19fbdbde29c84b6b296c16ef970353e1719780607c59",
+  "script_sha256": "d9b08acdb6260d7b07e5eb5db53d06f6805e55293e849904695157bef0d8fe93",
+  "accuracy_measured": false,
+  "included_in_our_recent_training": false,
+  "original_PAT_training_exposure": "Not established; not a proven independent test.",
+  "scope": "One crop, not the full slide. Lateral roots have no separate class in this model.",
+  "inputs_unchanged": true
+}

@@ -1,0 +1,49 @@
+{
+  "records": [
+    {
+      "slide": "COL0_Slide1",
+      "role": "teaching_Periderm_only",
+      "image": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.png",
+      "image_sha256": "68669ed917eeecdead464c55e853ec4a1d8f35979b9180110a64e9778f93f8de",
+      "annotation": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.json",
+      "annotation_sha256": "61066ae0f8921679fba392b163de50c286f3eae449ff4b34f9614bdee23b1632",
+      "source_annotation": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/FY-GWAS_FY_Candidate_Genes/GWAS-MTs-FY/FY47_WRKYs/OUTPUT/Col_MT/COL0_Slide1.json",
+      "source_tiff": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/FY-GWAS_FY_Candidate_Genes/GWAS-MTs-FY/FY47_WRKYs/OUTPUT/Col_MT/COL0_Slide1.tif",
+      "size_wh": [
+        20822,
+        11587
+      ],
+      "RGB_pixel_sha256": "7868afb6e5ccc42b99b35b8845dd0151e2917006532823e5aeb974cae1c18401",
+      "embedded_matches_TIFF_pixels": true,
+      "polygons": 6,
+      "labels": [
+        "Periderm"
+      ],
+      "annotation_author": "Unconfirmed archive annotation; not automatically attributed to Ling or Gonzalo.",
+      "outside_polygons": "Unlabelled, never inferred as Endoderm or Background."
+    },
+    {
+      "slide": "A04_Slide2",
+      "role": "reserved_Periderm_check_only",
+      "image": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png",
+      "image_sha256": "529ad2cf67513b8a4a4bae737261ff068fca498c166a5bf2d073d59ad713fe4c",
+      "annotation": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.json",
+      "annotation_sha256": "773c134040c8561e39fd545a4ea87a10ed5bb321c1c32d1493b0c50e7ffc564b",
+      "source_annotation": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/FY-GWAS_FY_Candidate_Genes/GWAS-MTs-FY/FY47_WRKYs/OUTPUT/Col_MT/A04_Slide2.json",
+      "source_tiff": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/FY-GWAS_FY_Candidate_Genes/GWAS-MTs-FY/FY47_WRKYs/OUTPUT/Col_MT/A04_Slide2.tif",
+      "size_wh": [
+        19488,
+        11556
+      ],
+      "RGB_pixel_sha256": "10ad33141218b255875d5bbd5b08fe548c1cca3aa1199fd166e05c6e8f2d4502",
+      "embedded_matches_TIFF_pixels": true,
+      "polygons": 6,
+      "labels": [
+        "Periderm"
+      ],
+      "annotation_author": "Unconfirmed archive annotation; not automatically attributed to Ling or Gonzalo.",
+      "outside_polygons": "Unlabelled, never inferred as Endoderm or Background."
+    }
+  ],
+  "policy": "No external originals modified. Only Periderm annotations present. Roles chosen before new-model predictions. A04 is a partial class check, not complete segmentation or length validation."
+}

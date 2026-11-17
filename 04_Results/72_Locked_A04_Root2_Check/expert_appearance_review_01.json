@@ -1,0 +1,46 @@
+{
+  "recorded_utc": "2026-11-16T16:00:39.783237+00:00",
+  "expert": "Gonzalo Villarino",
+  "verbatim": "A endoderm B and C transition",
+  "fields": [
+    {
+      "name": "A",
+      "source_box_xyxy": [
+        7200,
+        2561,
+        7600,
+        2841
+      ],
+      "biological_label": "Endoderm",
+      "appearance_state": 0
+    },
+    {
+      "name": "B",
+      "source_box_xyxy": [
+        8300,
+        2490,
+        8700,
+        2770
+      ],
+      "biological_label": "Mixed / transition",
+      "appearance_state": 1
+    },
+    {
+      "name": "C",
+      "source_box_xyxy": [
+        9800,
+        2455,
+        10200,
+        2735
+      ],
+      "biological_label": "Mixed / transition",
+      "appearance_state": 1
+    }
+  ],
+  "interpretation": "A Endoderm; B and C mixed/transition appearance on the main root.",
+  "exact_T_source_xy": null,
+  "exact_T_interval": null,
+  "scope": "Qualitative field identities, not exact left-edge coordinates or pixel masks.",
+  "used_for_training": false,
+  "recorded_before_this_prediction": true
+}

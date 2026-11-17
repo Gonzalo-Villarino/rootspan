@@ -1,0 +1,16 @@
+{
+  "job_id": "20261117T125305Z_8bbe6d9a",
+  "url": "http://127.0.0.1:8765/?run=20261117T125305Z_8bbe6d9a",
+  "root_rows": 7,
+  "periderm_estimates": 7,
+  "brief_transition_flags": [
+    4
+  ],
+  "matches_standalone": true,
+  "csv_matches_saved_bytes": true,
+  "unvalidated": true,
+  "browser_verified": true,
+  "start_new_image_clears_result": true,
+  "base_url_starts_empty": true,
+  "screenshot": "GUI_V21_RESULT.png"
+}

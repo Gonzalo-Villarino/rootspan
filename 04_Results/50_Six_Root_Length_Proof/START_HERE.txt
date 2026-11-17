@@ -1,0 +1,3 @@
+Open OPEN_ME_REVIEW_AND_MEASURE.html. The six cyan lines use your saved annotations; model-only lengths are a separate comparison, still requiring biological review. Manual lengths are blank.
+The Word guide is05_Notes/06_Periderm_Length_Proof_Walkthrough.docx.
+A PNG is a picture, not a Terminal command: double-click it, or use open followed by its quoted path.

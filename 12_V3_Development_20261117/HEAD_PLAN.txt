@@ -1,0 +1,24 @@
+Single weak-label regional-head experiment, fixed before training.
+Teacher cases: COL0root3, A04root3, 2_12root1. Source-slide groups kept separate.
+Expert T values are accepted model suggestions, not blind independent labels.
+Train only fields with full +/-160px support outside +/-640px uncertainty band
+around T. This conservatively excludes 800px centre distance on either side.
+Operational targets: E-region left; Periderm-region including mixed to right.
+No mixed-cell labels are invented; binary head cannot prove mixed-cell detection.
+Sample every fifth existing64px-stride centre (320px spacing); correlated fields
+still provide only3roots/3slides. Equal weight to each root and each regional class.
+Frozen1024Dunit-normalized PAT features; new linear sigmoid regional head.
+Convex weighted BCE + .001/2 * squared weight norm; bias unpenalized.
+CPU float64, deterministic zero initialization, LBFGS max250 strong-Wolfe.
+No augmentation, no hyperparameter search, no extra source images downloaded.
+Cropped A04 and2_12teacher fields are the reviewed root regions, not whole
+hypocotyl-inclusive tracks. COL0teacher path ends at reviewed rootJ.
+Gate: leave-one-SLIDE-out3folds, candidate T within640pathpixels of acceptedT;
+no T on homogeneous left/right held-out-region control crops; preserve20_29
+abstention. Diagnostic gate, not reliable validation with n=3.
+If gate fails, stop before1_7 and do not promote candidate. If gate passes,
+train one final head onall3 and evaluate1_7once with manual references excluded
+from inference. Keep all failures. Do not tune to expected periderm lengths.
+The decoder is the already fingerprinted single-change experiment, no changes.
+The decoder-only arm failed A04 preservation and is rejected, not silently tuned.
+All fixed settings and file fingerprints are saved before each gate execution.

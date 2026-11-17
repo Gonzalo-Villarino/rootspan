@@ -1,0 +1,19 @@
+Fixed before the first no-training comparison; no threshold tuning on 1_7.
+Use V1 Periderm-presence score as operational P-region evidence (mixture included).
+One global E-left/P-right change is compared with all-E and all-P alternatives.
+Minimum support: 3 centres >=320 native pixels apart per side, E p<.5, P p>=.5.
+Require average log-loss improvement >=.02 versus the best single-region explanation.
+This threshold is an engineering assumption, not calibrated confidence.
+Evaluate approved profiles first. Stop this arm before 1_7 if an accepted T moves
+more than640px, or the20_29reviewed abstention gains a T. Also require abstention
+on all-E/all-P uniform controls. No retry/tuning after a failed gate.
+If passed: evaluate1_7once on frozenV2.1paths with originalV2.1automaticJ cap;
+manual T/J only enter the comparison after prediction. T error in path um.
+Compare V1rule, globaldecoder, and simple midpoint-of-automatic-root baseline.
+The midpoint baseline is a predeclared naive null, not a trained position model:
+the3approved reference crops have nonhomologous starts/ends, so fitting fractions
+of those crops and applying them to full roots would be invalid. Do not present
+beating this midpoint as proof of cell-shape learning. A proper fitted position
+null requires consistently defined complete-root paths first.
+This arm changes interpretation of existing scores only, not neural weights.
+A loss on a reviewed case is retained and stops this particular arm, not hidden.

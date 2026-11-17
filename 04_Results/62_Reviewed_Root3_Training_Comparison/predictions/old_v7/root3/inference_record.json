@@ -1,0 +1,26 @@
+{
+  "input_image": "${ROOTSPAN_PROJECT}/04_Results/61_Reviewed_Root3_Teaching_Correction/images/COL0_root3_reviewed_T_x12237_y5643.png",
+  "input_image_sha256": "fa8ba792538f1ac29f462b0ae36bba36a7a715ffab487d6dab3c63c2031e5c02",
+  "weights": "${ROOTSPAN_PROJECT}/04_Results/54_Refinement_Experiments/rule_derived_endoderm_v7/best_weights.pt",
+  "weights_sha256": "a25051b69f214d8c3c34952636356562d30f78a0885f9af2055a41d821af5e08",
+  "prediction_input": "RGB image only",
+  "reference_input": false,
+  "expert_T_input": false,
+  "native_crop_dimensions": [
+    768,
+    768
+  ],
+  "raw_postprocessing": "None",
+  "direction_rule_separate_from_raw": {
+    "applied": true,
+    "boundary_x": 768,
+    "review_half_width_pixels": 32,
+    "assumptions": "Single near-horizontal primary root spanning crop; Endoderm left, Periderm right; zero or one transition.",
+    "review255": "Predicted tissue outside the estimated main-root band, plus64px band around inferred transition. Not a confidence interval.",
+    "primary_pixels": 71679,
+    "review_pixels": 702,
+    "reference_input": false,
+    "lateral_root_policy": "Class4excludedfrommainroot;preservedasmodelprediction. Otheroff-axis tissue leftforreview255."
+  },
+  "device": "mps"
+}

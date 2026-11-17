@@ -1,0 +1,48 @@
+{
+  "created_utc": "2026-11-16T11:40:42.087231+00:00",
+  "user_approval_verbatim": "yes the cyan line follows the main root correctly. mabe use diffrent colors than cyan for endoderm . but that is a detail, where do we go from here?",
+  "reference_route_file": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/route_proposal_02/reference_route_record.json",
+  "source": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.png",
+  "source_sha256": "68669ed917eeecdead464c55e853ec4a1d8f35979b9180110a64e9778f93f8de",
+  "route_approved_by_user": true,
+  "reference_is_model_prediction": false,
+  "reference_is_independent_manual_trace": false,
+  "method": "Sum Euclidean distances between consecutive approved native-coordinate points. Split at the same T point for both tissue lengths. Divide pixel length by the user-confirmed pixels per micrometre.",
+  "measurements": {
+    "Periderm_T_to_J": {
+      "native_pixels": 7255.106703001658,
+      "micrometres": 13691.463866770444,
+      "millimetres": 13.691463866770444,
+      "display_micrometres_nearest_10": 13690
+    },
+    "Endoderm_L_to_T": {
+      "native_pixels": 11918.425640533886,
+      "micrometres": 22491.839291439675,
+      "millimetres": 22.491839291439675,
+      "display_micrometres_nearest_10": 22490
+    },
+    "Total_L_to_J": {
+      "native_pixels": 19173.532343535542,
+      "micrometres": 36183.30315821012,
+      "millimetres": 36.183303158210116,
+      "display_micrometres_nearest_10": 36180
+    }
+  },
+  "calibration_record": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root3_calibration_review_02.json",
+  "pixels_per_micrometre": 0.5299,
+  "boundary_status": "Working T and J selected in approximate expert-reviewed intervals. These reference values are not exact histological boundaries or independently calibrated experimental validation.",
+  "biological_scope": "Photographed main-root section only. Periderm includes transition under the user convention; root-hypocotyl junction is the right stop. Lateral roots and hypocotyl excluded.",
+  "length_plausibility_check": {
+    "user_approximate_section_length_cm": 2,
+    "calculated_section_length_cm": 3.618330315821012,
+    "status": "Calculated length is longer than the earlier rough recollection. Keep flagged for checking acquisition calibration/section length before treating as experimental result. No rescaling to force agreement."
+  },
+  "model_development_status": "COL0 has already supplied training examples. This root can help correct teaching labels and inspect model behaviour; it is not a new blind test.",
+  "known_teaching_label_issue": "Detailed expert review identifies some Periderm within a previously derived Endoderm region of root3. Correct a versioned teaching-data copy before further training; preserve prior runs.",
+  "new_training": false,
+  "original_annotations_changed": false,
+  "colours": {
+    "Endoderm_line": "green",
+    "Periderm_line": "red"
+  }
+}

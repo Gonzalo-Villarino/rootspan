@@ -1,0 +1,113 @@
+{
+  "purpose": "Root 4 prediction with the fixed root 5 model; preliminary same-slide check",
+  "created_utc": "2026-11-15T13:20:47.764360+00:00",
+  "device": "mps",
+  "python": "3.13.2",
+  "pytorch": "2.15.0",
+  "source_patch_id": "MT25_rep3_root4_x8928_y5264",
+  "source_crop_box": [
+    8928,
+    5264,
+    9952,
+    6288
+  ],
+  "patch_details": "${ROOTSPAN_PROJECT}/04_Results/31_Root4_Background_Check_Patch/patch_details.json",
+  "model_run": "${ROOTSPAN_PROJECT}/04_Results/27_Root5_Lower_Background_Training/run_20261115T121005Z_d_v61wde",
+  "inputs_sha256": {
+    "${ROOTSPAN_PROJECT}/04_Results/31_Root4_Background_Check_Patch/patch_details.json": "10901f0e32725e43a88097691d6d8219f7bcf9d7ea2efc5b906b753876948751",
+    "${ROOTSPAN_PROJECT}/04_Results/27_Root5_Lower_Background_Training/run_20261115T121005Z_d_v61wde/trial_details.json": "809d1590b041e89780d4ccb0e5a06b00e5fcb176ae21ee9da8344226ce70e6d2",
+    "${ROOTSPAN_PROJECT}/04_Results/27_Root5_Lower_Background_Training/run_20261115T121005Z_d_v61wde/model_weights.pt": "f3e6a993a3204f5cf4059a5185bf4e1f49bae6150286d2289102a94f6d9ddbfa",
+    "${ROOTSPAN_PROJECT}/04_Results/27_Root5_Lower_Background_Training/run_20261115T121005Z_d_v61wde/programs/09_three_class_unet.py": "47e8efff86b1b276e0cae5f29d6cbc6c6f10a435fbf6eb3a0241c4751fbd2962",
+    "${ROOTSPAN_PROJECT}/04_Results/27_Root5_Lower_Background_Training/run_20261115T121005Z_d_v61wde/programs/04_small_unet.py": "5d1e3c0ae9177839234113f8a1344a5952786190da93dcdc5f48bd482b1aeec8",
+    "${ROOTSPAN_PROJECT}/04_Results/31_Root4_Background_Check_Patch/MT25_rep3_root4_x8928_y5264_image.png": "b8ef9fcdcaeb819e41116b71082e778b1c16eff719651dbfd3248a0f6e04be75",
+    "${ROOTSPAN_PROJECT}/04_Results/31_Root4_Background_Check_Patch/MT25_rep3_root4_x8928_y5264_mask.png": "93f8831cc67d3acc75d355a30914aecd7c0a452e13145692941233b0c4be0a63",
+    "${ROOTSPAN_PROJECT}/03_Notebooks/11_view_three_category_prediction.py": "a7add7698e4ac317506c9b1361e2cdeecec6aceb5754ba5b09b8c1cfd193ce18",
+    "${ROOTSPAN_PROJECT}/03_Notebooks/19_predict_root4.py": "527f06d5cdd98162345fddd7e630cce7b7461b577ec1474f1835ec3eb13ed4f5"
+  },
+  "training_updates": 600,
+  "further_training_updates": 0,
+  "model_input": "RGB image only, divided by 255; no resizing or augmentation",
+  "reference_mask_used_as_model_input": false,
+  "prediction_pixels_hidden_or_replaced_using_truth": false,
+  "metrics": {
+    "labelled_pixels": 764256,
+    "class_order": [
+      "Periderm",
+      "Endoderm",
+      "Background"
+    ],
+    "confusion_rows_truth_columns_prediction": [
+      [
+        15320,
+        11057,
+        891
+      ],
+      [
+        18847,
+        5449,
+        506
+      ],
+      [
+        47,
+        260,
+        711879
+      ]
+    ],
+    "predicted_counts_on_labelled_area": {
+      "1": 34214,
+      "2": 16766,
+      "3": 713276
+    },
+    "predicted_counts_on_unlabelled_area": {
+      "1": 2750,
+      "2": 6339,
+      "3": 275231
+    },
+    "predicted_counts_on_whole_patch": {
+      "1": 36964,
+      "2": 23105,
+      "3": 988507
+    },
+    "scope": "Only labelled root-4 reference pixels; same-slide check, not training-patch accuracy.",
+    "agreement_on_labelled_pixels": 0.95864213038563,
+    "per_class": {
+      "Periderm": {
+        "reference_pixels": 27268,
+        "matched_pixels": 15320,
+        "fraction_of_reference_pixels_matched": 0.5618307173243362
+      },
+      "Endoderm": {
+        "reference_pixels": 24802,
+        "matched_pixels": 5449,
+        "fraction_of_reference_pixels_matched": 0.21970002419159745
+      },
+      "Background": {
+        "reference_pixels": 712186,
+        "matched_pixels": 711879,
+        "fraction_of_reference_pixels_matched": 0.9995689328349616
+      }
+    }
+  },
+  "prediction_codes": {
+    "1": "Periderm",
+    "2": "Endoderm",
+    "3": "Background"
+  },
+  "preview": {
+    "full_panel_scale": 0.5,
+    "closeup_scale": 1.0,
+    "closeup_box_in_patch": [
+      255,
+      338,
+      767,
+      594
+    ],
+    "selection_note": "Reference labels choose only the display crop, after prediction."
+  },
+  "limitations": [
+    "One different root on the same slide; not an independent new-slide test.",
+    "Unlabelled/conflicting reference pixels are excluded from metrics.",
+    "Per-class match fractions are not whole-image accuracy or proof of biological correctness."
+  ],
+  "prediction_sha256": "83ba8b0237c4223bcfbe317a5d798298574a753f5b78f673a0112e0e3f2c0d61"
+}

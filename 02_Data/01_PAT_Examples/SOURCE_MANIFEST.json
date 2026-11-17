@@ -1,0 +1,103 @@
+{
+  "purpose": "Small private practice dataset for learning biological image segmentation",
+  "source_drive": "SALK_DATA",
+  "copy_date_local": "2026-11-11",
+  "date_timezone": "Europe/Zurich",
+  "source_files_changed": false,
+  "examples": [
+    {
+      "example": "MT25_rep3",
+      "image_size_pixels": [
+        15423,
+        9543
+      ],
+      "labels_and_polygon_counts": {
+        "Periderm": 6,
+        "Endoderm": 6,
+        "LR": 68
+      },
+      "labelme_version": "5.1.1",
+      "embedded_image_matches_photo_pixels": true,
+      "decoded_pixels_sha256": "29d55d49fbf2ff50f19137d42f45e50f0bf574d82e91d688f782cafbe005a833",
+      "files": [
+        {
+          "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/for_gonzalo_lable/MT25_rep3.png",
+          "relative_destination": "01_Images/MT25_rep3.png",
+          "bytes": 38430943,
+          "sha256": "8b60e04adb22e4a474c77613253f9d165de0dc64cd739a0e4008fec73c75cf87"
+        },
+        {
+          "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/Json_Files/MT25_rep3.json",
+          "relative_destination": "02_Annotations/MT25_rep3.json",
+          "bytes": 53455818,
+          "sha256": "b5bf42800ace421802694830883d7e1b992088f9e3c0847fb86b407b64b33775"
+        }
+      ]
+    },
+    {
+      "example": "20#MT28_gfp",
+      "image_size_pixels": [
+        16787,
+        10560
+      ],
+      "labels_and_polygon_counts": {
+        "Periderm": 6,
+        "Endoderm": 6,
+        "LR": 71
+      },
+      "labelme_version": "5.1.1",
+      "embedded_image_matches_photo_pixels": true,
+      "decoded_pixels_sha256": "24038ec64c4a3841dc46a67564f78be34af49a8eb7029914cbd28d819aeb7fa4",
+      "files": [
+        {
+          "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/for_gonzalo_lable/20#MT28_gfp.png",
+          "relative_destination": "01_Images/20#MT28_gfp.png",
+          "bytes": 39591459,
+          "sha256": "8c14592452f6c14df7d55b093d547f7c5f60066c80e898cb9fc6f2ea571d358e"
+        },
+        {
+          "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/Json_Files/20#MT28_gfp.json",
+          "relative_destination": "02_Annotations/20#MT28_gfp.json",
+          "bytes": 54547052,
+          "sha256": "51d04cdd0392fbf4f241f8e49e58a3e35720f15bf33d76832f6fde95d031989a"
+        }
+      ]
+    },
+    {
+      "example": "25717_gfp",
+      "image_size_pixels": [
+        18160,
+        11577
+      ],
+      "labels_and_polygon_counts": {
+        "Periderm": 6,
+        "Endoderm": 6,
+        "LR": 67
+      },
+      "labelme_version": "5.1.1",
+      "embedded_image_matches_photo_pixels": true,
+      "decoded_pixels_sha256": "088e452d97511a351ed3f00e5fabb2bbec764acd92819dd1559360e0ab31058b",
+      "files": [
+        {
+          "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/for_gonzalo_lable/25717_gfp.png",
+          "relative_destination": "01_Images/25717_gfp.png",
+          "bytes": 47166945,
+          "sha256": "c6a95a9a360298be8e2d7ed817bea5be81215236108ddf16cebb35f67adb0a5b"
+        },
+        {
+          "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/Json_Files/25717_gfp.json",
+          "relative_destination": "02_Annotations/25717_gfp.json",
+          "bytes": 64749290,
+          "sha256": "8a0f9936fa3ef90446cd6c54462341c06ef910965f14d72a7442ea2cfa866926"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "The original PNGs and JSONs were copied byte for byte.",
+    "The JSON files contain an embedded copy of their image. PNG encoding differs, but decoded pixels match the companion PNG exactly.",
+    "Repeated saved_again annotation versions were not copied: their polygon data matched the original-named JSON files.",
+    "These are copies of existing annotations, not newly generated masks. Annotation correctness has not yet been visually audited.",
+    "This small collection is for learning; no model has been trained and no evaluation split has been assigned."
+  ]
+}

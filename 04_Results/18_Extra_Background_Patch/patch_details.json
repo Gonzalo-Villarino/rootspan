@@ -1,0 +1,81 @@
+{
+  "purpose": "Same practice image with refined human labels; no training occurred",
+  "patch_id": "MT25_rep3_practice_r000_c007",
+  "source_crop_box": [
+    7168,
+    0,
+    8192,
+    1024
+  ],
+  "size": [
+    1024,
+    1024
+  ],
+  "previous_pair_details": "${ROOTSPAN_PROJECT}/04_Results/11_Refined_Patch/patch_details.json",
+  "trial_record": "${ROOTSPAN_PROJECT}/04_Results/04_First_Training_Trial/run_20261113T125650Z_dqez5187/trial_details.json",
+  "mask_details": "${ROOTSPAN_PROJECT}/04_Results/17_Extra_Background_Mask/mask_details.json",
+  "full_mask": "${ROOTSPAN_PROJECT}/04_Results/17_Extra_Background_Mask/MT25_rep3_background_refined_GV_mask.png",
+  "annotation_file": "${ROOTSPAN_PROJECT}/02_Data/03_Background_Annotations/MT25_rep3_background_refined_GV.json",
+  "annotation_sha256": "f508b82e55cb2186162cebb51968386375e2144cb9690770f5bf964bb1e3786f",
+  "inputs_sha256": {
+    "${ROOTSPAN_PROJECT}/04_Results/11_Refined_Patch/patch_details.json": "978927718d8ebc2a9ef49e24994b76e64060cae3bca32c167dcafd647d9c67fa",
+    "${ROOTSPAN_PROJECT}/04_Results/17_Extra_Background_Mask/mask_details.json": "93800fe798048fe1ae8a8d10b0bce2d6f3af5fe020fad9496f927c7f552593ca",
+    "${ROOTSPAN_PROJECT}/04_Results/11_Refined_Patch/MT25_rep3_practice_r000_c007_image.png": "0efb453e036ce7ae39d775c87e8d4886c950ae5f352b6738d004bd309cacaa3c",
+    "${ROOTSPAN_PROJECT}/04_Results/11_Refined_Patch/MT25_rep3_practice_r000_c007_mask.png": "b52d8da5b66529cb1c604efb03258713605404863b87dcdd24c39b4f97059e3d",
+    "${ROOTSPAN_PROJECT}/02_Data/03_Background_Annotations/MT25_rep3_practice.png": "8b60e04adb22e4a474c77613253f9d165de0dc64cd739a0e4008fec73c75cf87",
+    "${ROOTSPAN_PROJECT}/02_Data/03_Background_Annotations/MT25_rep3_background_refined_GV.json": "f508b82e55cb2186162cebb51968386375e2144cb9690770f5bf964bb1e3786f",
+    "${ROOTSPAN_PROJECT}/04_Results/17_Extra_Background_Mask/MT25_rep3_background_refined_GV_mask.png": "0151c51e903e8868d15e267d0199f841b0c4e82a8c410048c84bde1592248ab4",
+    "${ROOTSPAN_PROJECT}/04_Results/04_First_Training_Trial/run_20261113T125650Z_dqez5187/trial_details.json": "138cf174bef9365f97319725b73e835ac22cc5dd3085fd0af48afbc7ee50764d",
+    "${ROOTSPAN_PROJECT}/04_Results/10_Refined_Mask/mask_details.json": "b4d92ebafa6af8390186683010eabf834c76528a83724ef2a0ad4380a5854619"
+  },
+  "pixel_codes": {
+    "0": "Unannotated (ignored)",
+    "1": "Periderm",
+    "2": "Endoderm",
+    "3": "Background",
+    "255": "Conflicting labels (ignored)"
+  },
+  "pixel_counts": {
+    "0": 912522,
+    "1": 20969,
+    "2": 31848,
+    "3": 83185,
+    "255": 52
+  },
+  "old_mask_pixel_counts": {
+    "0": 961367,
+    "1": 20969,
+    "2": 31848,
+    "3": 34340,
+    "255": 52
+  },
+  "label_changes": [
+    {
+      "old_code": 0,
+      "new_code": 3,
+      "pixels": 48845
+    }
+  ],
+  "changed_pixels": 48845,
+  "change_rule": "Exact crop of refined human mask; no automatic Background filling",
+  "image_identical_to_previous_training_input": true,
+  "trainable_class_codes": [
+    1,
+    2,
+    3
+  ],
+  "ignore_codes": [
+    0,
+    255
+  ],
+  "mask_reading": "Use numeric PNG values, not colour-preview RGB values",
+  "model_trained": false,
+  "limitation": "Same patch and slide as earlier training; not an independent test",
+  "script_file": "${ROOTSPAN_PROJECT}/03_Notebooks/12_make_refined_patch.py",
+  "script_sha256": "76bb71afc6f36b0b8d6f92f7df91829015a5b7f46e3036dd81de32fa33b42a22",
+  "image_file": "MT25_rep3_practice_r000_c007_image.png",
+  "mask_file": "MT25_rep3_practice_r000_c007_mask.png",
+  "mask_preview_file": "MT25_rep3_practice_r000_c007_mask_preview.png",
+  "image_sha256": "0efb453e036ce7ae39d775c87e8d4886c950ae5f352b6738d004bd309cacaa3c",
+  "mask_sha256": "d5f33a2e6058231522a20cf6053a64986b5a016ac9ef00d78542151f42e6b908"
+}

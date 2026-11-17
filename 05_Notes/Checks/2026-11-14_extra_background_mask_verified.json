@@ -1,0 +1,57 @@
+{
+  "date_local": "2026-11-14",
+  "user_completed": "Program 07 converted updated refined annotations to 17_Extra_Background_Mask",
+  "mask_details": "${ROOTSPAN_PROJECT}/04_Results/17_Extra_Background_Mask/mask_details.json",
+  "source_hashes_verified": true,
+  "full_mask_counts": {
+    "0": 141670684,
+    "1": 2899087,
+    "2": 1913090,
+    "3": 698771,
+    "255": 57
+  },
+  "full_mask_changes_from_10": [
+    {
+      "old": 0,
+      "new": 3,
+      "pixels": 68273
+    },
+    {
+      "old": 0,
+      "new": 2,
+      "pixels": 244,
+      "bounds_inclusive": [
+        2948,
+        44,
+        3050,
+        51
+      ],
+      "outside_current_training_patch": true
+    }
+  ],
+  "training_crop": [
+    7168,
+    0,
+    8192,
+    1024
+  ],
+  "training_crop_changes": [
+    {
+      "old": 0,
+      "new": 3,
+      "pixels": 48845
+    }
+  ],
+  "training_crop_counts": {
+    "0": 912522,
+    "1": 20969,
+    "2": 31848,
+    "3": 83185,
+    "255": 52
+  },
+  "training_crop_tissue_labels_unchanged": true,
+  "program_12_check_only_passed": true,
+  "patch_files_created": false,
+  "training_occurred": false,
+  "next_step": "User runs existing program 12 with previous pair 11, mask 17, new output 18_Extra_Background_Patch"
+}

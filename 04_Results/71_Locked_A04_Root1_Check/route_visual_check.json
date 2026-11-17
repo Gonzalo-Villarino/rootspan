@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "reviewer": "project tooling visual inspection",
+  "figure": "PREPARED_MAIN_ROOT_PATH.png",
+  "finding": "White path follows the continuous upper main root from crop left to right and avoids lateral branches and lower detached fragment.",
+  "limits": "Windows can still include branch context. Crop endpoints are not biological endpoints.",
+  "before_prediction": true
+}

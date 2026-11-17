@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-11-16T14:15:10.720166+00:00",
+  "protected_files_unchanged": {
+    "${ROOTSPAN_PROJECT}/04_Results/66_Fixed_20_29_Check/image.png": "0a0ce535a2caaf6de5ae13971b29da297734d32503cb3e79787ca8df2b3b22ad",
+    "${ROOTSPAN_PROJECT}/04_Results/66_Fixed_20_29_Check/prediction_before_reference_comparison.json": "183f38baf01e1bb8baf42754907ebd5334aea20027c2e04de0cb1e49b649457d",
+    "${ROOTSPAN_PROJECT}/04_Results/66_Fixed_20_29_Check/comparison_result.json": "05d03344c34d3b0880dbd795050303ce12495e891c277c042dda7a02d8636bf3",
+    "${ROOTSPAN_PROJECT}/06_Models/20261116_Two_Appearance_Candidate/presence_head.pt": "6cce6ef74330a9de4422cdb738144f972cedff41f07d4de3e9c9869b6e4054b9",
+    "${ROOTSPAN_PROJECT}/00_Software/PAT_Reference/pat_state_dict.pt": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+    "${ROOTSPAN_PROJECT}/06_Models/working_model.pt": "234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633"
+  },
+  "T_reference_image_xy_unchanged": [
+    481.5857108012179,
+    457.1568538495301
+  ],
+  "no_training": true,
+  "no_new_model_inference": true,
+  "figure_visual_inspection": "Passed: blue reference line at unchanged position; readable captions distinguish reference from missing model T. A04 source overview and A/B/C crops inspected; biological identities pending expert review."
+}

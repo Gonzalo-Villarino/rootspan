@@ -1,0 +1,28 @@
+{
+  "root_id": 6,
+  "manual_length_um": 17935.5549610925,
+  "model_assisted_length_um": 24619.081142392864,
+  "model_minus_manual_um": 6683.5261813003635,
+  "percent_difference_vs_manual": 37.26411697769542,
+  "manual_T_source_xy": [
+    4950.0,
+    6335.0
+  ],
+  "model_T_source_xy": [
+    1523.9308953248335,
+    5972.449661203779
+  ],
+  "shared_J_source_xy": [
+    14180.0,
+    6729.0
+  ],
+  "manual_T_projected_arc_pixels": 4717.853109226465,
+  "manual_T_distance_to_computer_path_pixels": 8.236951880916257,
+  "manual_T_to_J_on_computer_route_um": 18010.56423500191,
+  "model_vs_manual_T_shift_um_along_common_route": -6608.51690739095,
+  "trace_geometry_difference_um": 75.0092739094107,
+  "interpretation": "Difference from user reference, not independently established biological truth.",
+  "roi_sha256": "b99d6bd5660552a63da9cae8c9e7903df58e3798306050bb2ee6d6db56b872cf",
+  "prediction_sha256": "fb728da5006a742b079674eb80b2a7f3b471c8307ccaa03d57df6b372c0eb887",
+  "route_sha256": "feb6cf614b52d664044c5c932c7739a72f8256e58d21287e23959d4acc1b3efe"
+}

@@ -1,0 +1,56 @@
+{
+  "source": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.png",
+  "source_sha256": "68669ed917eeecdead464c55e853ec4a1d8f35979b9180110a64e9778f93f8de",
+  "source_box_xyxy": [
+    18600,
+    4200,
+    20300,
+    4890
+  ],
+  "image_transform": "Unaltered native-pixel crop; lettered guides outside microscopy pixels. No prediction shown.",
+  "figure": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root3_right_endpoint_lettered.png",
+  "photograph_offset_in_figure": [
+    0,
+    100
+  ],
+  "markers": [
+    {
+      "letter": "A",
+      "source_x": 19000,
+      "crop_x": 400
+    },
+    {
+      "letter": "B",
+      "source_x": 19200,
+      "crop_x": 600
+    },
+    {
+      "letter": "C",
+      "source_x": 19400,
+      "crop_x": 800
+    },
+    {
+      "letter": "D",
+      "source_x": 19600,
+      "crop_x": 1000
+    },
+    {
+      "letter": "E",
+      "source_x": 19800,
+      "crop_x": 1200
+    },
+    {
+      "letter": "F",
+      "source_x": 20000,
+      "crop_x": 1400
+    },
+    {
+      "letter": "G",
+      "source_x": 20200,
+      "crop_x": 1600
+    }
+  ],
+  "purpose": "Ask user where a manual Periderm length measurement should stop on the right. Do not automatically equate visible tissue edge with confirmed anatomical endpoint.",
+  "confirmed_endpoint": null,
+  "no_training": true
+}

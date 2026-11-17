@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-11-16T12:16:52.220317+00:00",
+  "source": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.png",
+  "source_sha256": "68669ed917eeecdead464c55e853ec4a1d8f35979b9180110a64e9778f93f8de",
+  "slide": "COL0_Slide1",
+  "root": 2,
+  "native_context_box_xyxy": [
+    1650,
+    1000,
+    2850,
+    3000
+  ],
+  "native_detail_box_xyxy": [
+    1880,
+    1280,
+    2200,
+    1680
+  ],
+  "native_crop_file": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root2_clear_endoderm_candidate_source_01.png",
+  "native_crop_sha256": "0630ea9e7c1054ff20eff4bc519f31df719505f02f6cb02a3e363fa7e55e601c",
+  "review_figure": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root2_clear_endoderm_candidate_review_01.png",
+  "display_only_transform": "Context downscaled to25percent; detail enlarged2x nearest neighbour. No brightness or contrast modification. Orange guide frame is not an annotation.",
+  "root_identity_check": "Followed the second root from its archived Periderm region leftward on whole-slide overview to the upward-pointing left cut end. Context shows the main axis and nearby lateral branches. Selected straight section is above first visible branch.",
+  "candidate_class": "Endoderm",
+  "biological_basis": "User confirmed elongated rectangular cells as Endoderm and suggested looking at the root end. The exact newly selected source crop is shown for expert review.",
+  "exact_selected_crop_expert_review_pending": true,
+  "not_model_prediction": true,
+  "no_new_mask": true,
+  "no_new_training": true
+}

@@ -1,0 +1,29 @@
+{
+  "recorded_utc": "2026-11-16T14:15:10.720166+00:00",
+  "expert": "Gonzalo Villarino",
+  "user_statements": [
+    "The mixed appearance in 20_29, including the left-hand purple windows",
+    "In the last pic u showed me the white lane is in the T zone",
+    "Also use the blue line vertically for T zone for consistency"
+  ],
+  "interpretation": "Expert confirms mixed appearance including the left-hand purple windows and confirms the displayed reference line lies within the transition zone.",
+  "not_established": [
+    "Exact left edge of the mixed zone",
+    "Automatic model T",
+    "Every individual cell identity or pixel accuracy",
+    "Automatic length accuracy"
+  ],
+  "reference_position_image_xy": [
+    481.5857108012179,
+    457.1568538495301
+  ],
+  "reference_position_unchanged": true,
+  "reference_origin": "Gap midpoint inferred from saved regional outlines, subsequently confirmed by expert as within the T zone.",
+  "updated_interpretation": "The prior claim that left mixed calls are necessarily biological errors is superseded by this expert review. Regional labels alone cannot establish pure versus mixed cell appearance. The unchanged detector still returned no T because its rule requires earlier clear-Endoderm support.",
+  "display_convention": "Vertical blue for T; label reference versus model explicitly. This figure contains a reference line only.",
+  "prediction_changed": false,
+  "annotations_changed": false,
+  "training_occurred": false,
+  "model_candidate_T": null,
+  "next": "Review a different root with wider context before unchanged-model inference; keep uncertain biology unlabelled."
+}

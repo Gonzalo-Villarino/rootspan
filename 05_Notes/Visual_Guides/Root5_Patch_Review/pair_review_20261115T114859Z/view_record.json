@@ -1,0 +1,18 @@
+{
+  "purpose": "Scientific comparison of saved microscopy patch and existing mask colour preview; no model prediction",
+  "patch_details": "${ROOTSPAN_PROJECT}/04_Results/22_Root5_Patch/patch_details.json",
+  "source_crop_box": [
+    6976,
+    6016,
+    8000,
+    7040
+  ],
+  "pixel_counts": {
+    "0": 646324,
+    "1": 34950,
+    "2": 14130,
+    "3": 353166,
+    "255": 6
+  },
+  "model_trained": false
+}

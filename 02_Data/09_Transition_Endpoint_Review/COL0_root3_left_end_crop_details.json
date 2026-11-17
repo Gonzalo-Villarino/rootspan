@@ -1,0 +1,13 @@
+{
+  "source": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.png",
+  "source_sha256": "68669ed917eeecdead464c55e853ec4a1d8f35979b9180110a64e9778f93f8de",
+  "source_box_xyxy": [
+    1650,
+    2750,
+    3400,
+    4500
+  ],
+  "image_transform": "Native-pixel crop only; no enhancement or prediction.",
+  "root_identity": "Followed the previously reviewed COL0 root3 visually leftwards on the whole-slide overview. Lower sloping root in this crop; nearby upper root is root2.",
+  "endpoint_status": "Awaiting biological review; no cut-end coordinate confirmed."
+}

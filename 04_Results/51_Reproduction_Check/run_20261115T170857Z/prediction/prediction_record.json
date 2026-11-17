@@ -1,0 +1,35 @@
+{
+  "source_image": "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_practice.png",
+  "source_sha256": "8b60e04adb22e4a474c77613253f9d165de0dc64cd739a0e4008fec73c75cf87",
+  "source_size_wh": [
+    15423,
+    9543
+  ],
+  "model_name": "working3",
+  "weights": "${ROOTSPAN_PROJECT}/04_Results/39_PAT_Transfer_Learning/run_20261115T140159Z/model_weights.pt",
+  "weights_sha256": "234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633",
+  "class_codes": {
+    "Background": 0,
+    "Periderm": 1,
+    "Endoderm": 2,
+    "Lateral_root": 3
+  },
+  "lateral_root_available": false,
+  "prediction_input": "Image only; no annotations read.",
+  "scores": "uint16/65535 represents P score/(P score+E score), not calibrated biological probability. Published model sigmoid; working3 model softmax.",
+  "tiling": {
+    "size": 1024,
+    "context_each_side": 64,
+    "core_stride": 896,
+    "aggregation": "Each core pixel retained once; black exterior padding. No resizing."
+  },
+  "elapsed_seconds": 18.18630858400138,
+  "device": "mps",
+  "versions": {
+    "torch": "2.15.0",
+    "smp": "0.6.0",
+    "numpy": "2.5.4"
+  },
+  "original_files_unchanged": true,
+  "evaluation": "Proof of concept; no claim of independent performance."
+}

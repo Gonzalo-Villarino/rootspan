@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RootSpan</title>
+<style>
+:root{--forest:#164b39;--ink:#172d25;--muted:#66776d;--line:#dbe5dd;--paper:#f4f6f1;--blue:#1996df;--orange:#c77d16}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input,select{font:inherit}button,a{touch-action:manipulation}header{height:80px;background:#fff;border-bottom:1px solid var(--line);padding:0 36px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:750;font-size:21px;letter-spacing:-.5px;display:flex;gap:12px;align-items:center}.logo{background:var(--forest);color:white;border-radius:12px;padding:8px 13px;font-size:23px}.badge{font-size:12px;color:var(--forest);background:#e7efe7;border:1px solid #d2e2d3;border-radius:20px;padding:6px 12px}.layout{max-width:1500px;margin:auto;display:grid;grid-template-columns:330px minmax(0,1fr);gap:30px;padding:34px 30px}aside,.panel{border:1px solid var(--line);background:white;border-radius:16px;padding:24px}aside{align-self:start;position:sticky;top:20px}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:1.5px;font-weight:750;color:var(--muted)}h1{font-size:34px;line-height:1.12;letter-spacing:-1.2px;margin:12px 0 14px}h2{font-size:21px;letter-spacing:-.4px;margin:0 0 8px}h3{font-size:16px;margin:0 0 8px}p{margin:0 0 16px}.muted{color:var(--muted)}label{font-weight:650;font-size:13px;display:block;margin-bottom:7px}.field{margin-bottom:22px}select,input[type=number]{width:100%;border:1px solid #cddace;border-radius:9px;padding:10px 12px;color:var(--ink);background:#fff}.upload{border:1.5px dashed #afc5b3;border-radius:12px;background:#f7faf5;text-align:center;padding:22px 12px;margin-top:12px;cursor:pointer}.upload input{width:100%;font-size:12px;margin-top:12px}.upload strong{display:block}.small{font-size:12px;line-height:1.5}.primary{border:0;color:white;background:var(--forest);padding:13px 18px;border-radius:10px;font-weight:650;width:100%;cursor:pointer}.primary:hover{background:#246c50}.primary:disabled{background:#9baea1;cursor:wait}.note{border-left:3px solid #cb963f;padding:10px 12px;background:#fff8e9;color:#795623;border-radius:0 8px 8px 0;font-size:12px;margin:18px 0}.intro{margin-bottom:24px}.steps{display:flex;gap:10px;flex-wrap:wrap;margin:25px 0}.step{background:white;border:1px solid var(--line);border-radius:20px;padding:7px 13px;font-size:12px}.step b{margin-right:6px;color:var(--forest)}.empty{padding:55px 35px;text-align:center}.empty svg{width:170px;margin:0 auto 20px;display:block}.results-header{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:22px}.download{border:1px solid #a9bdad;border-radius:8px;padding:9px 13px;text-decoration:none;color:var(--forest);font-size:13px;font-weight:650;white-space:nowrap}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:15px 0 22px}.metric{background:#f3f7f0;border-radius:10px;padding:14px}.metric b{font-size:26px;display:block}.metric span{font-size:12px;color:var(--muted)}.photo{background:#020b05;border-radius:10px;overflow:hidden;margin:15px 0}.photo img{display:block;width:100%}.legend{display:flex;gap:18px;font-size:12px;color:var(--muted);flex-wrap:wrap}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}.table-wrap{overflow:auto;margin:22px 0}table{width:100%;border-collapse:collapse;font-size:13px}th{text-align:left;color:var(--muted);font-weight:600;border-bottom:1px solid var(--line);padding:10px 8px}td{padding:14px 8px;border-bottom:1px solid #e7ede5;vertical-align:top}.tag{display:inline-block;padding:4px 9px;border-radius:20px;font-size:11px;font-weight:650;background:#fff1d8;color:#83571b}.tag.good{background:#e6efe7;color:#365d40}.error{background:#fff0ee;color:#8e352b;border-radius:10px;padding:14px;margin:15px 0;white-space:pre-wrap}.progress{padding:30px;border:1px solid var(--line);background:white;border-radius:16px}.spinner{display:inline-block;width:16px;height:16px;border:2px solid #c6d9c8;border-top-color:var(--forest);border-radius:50%;animation:spin 1s linear infinite;vertical-align:middle;margin-right:10px}@keyframes spin{to{transform:rotate(360deg)}}details{border-top:1px solid var(--line);padding:14px 0}summary{cursor:pointer;font-weight:600}details p{margin:12px 0;font-size:13px;color:var(--muted)}.history button{display:block;text-align:left;border:0;background:transparent;color:var(--forest);padding:9px 0;width:100%;cursor:pointer;border-bottom:1px solid #edf1eb}.history small{color:var(--muted);display:block}.path{font-size:11px;overflow-wrap:anywhere;color:var(--muted);margin-top:20px}.root-card{margin-top:18px;border-top:1px solid var(--line);padding-top:18px}.root-card a{color:var(--forest);font-size:13px}.hidden{display:none!important}@media(max-width:900px){.layout{grid-template-columns:1fr;padding:20px}aside{position:static}.metrics{grid-template-columns:repeat(3,1fr)}header{padding:0 20px}h1{font-size:29px}}@media(prefers-reduced-motion:reduce){.spinner{animation:none}}
+aside,main{min-width:0}.upload input{max-width:100%}.results-header{flex-wrap:wrap}.table-wrap{max-width:100%}@media(max-width:600px){header{gap:12px}.brand{font-size:16px;gap:7px}.logo{font-size:18px;padding:6px 10px}.badge{font-size:10px}.layout{padding:14px;gap:18px}aside,.panel{padding:18px}.metrics{gap:6px}.metric{padding:10px}.metric b{font-size:23px}.metric span{font-size:11px}.intro{margin-top:8px}}
+</style></head><body>
+<header><div class="brand"><span class="logo">⌁</span>RootSpan</div><span class="badge">Local on your Mac · Learning prototype</span></header>
+<div class="layout"><aside>
+<div class="eyebrow">New analysis</div><h2 style="margin-top:10px">Choose your image</h2><p class="muted small">RGB microscopy, with the hypocotyl on the right.</p>
+<div class="field"><div class="upload"><strong>Select your image</strong><span class="muted small">TIFF, PNG or JPEG · single plane</span><input id="file" type="file" accept=".tif,.tiff,.png,.jpg,.jpeg" aria-label="Choose a microscopy image"><div id="uploadLabel" class="small muted" aria-live="polite"></div></div></div>
+<div class="field"><label for="pipeline">Analysis version</label><select id="pipeline" style="width:100%;padding:11px;border:1px solid var(--line);border-radius:8px;background:white;font:inherit"><option value="v2">V2 + PAT · per-root estimates</option><option value="v21" disabled>V2.1 · withdrawn experiment</option><option value="v1">V1 · original</option></select><p class="small muted" style="margin-top:7px">V2 now includes per-root PAT mask estimates. This changes the measurement method; it does not train a new model. Earlier V2.1 and V3 experiments remain unreleased.</p></div>
+<input id="diagnostics" type="checkbox" checked hidden><p class="small muted">V2 calculates a periderm mask-length estimate for each traceable root. Unconfirmed endpoints do not block these estimates.</p>
+<div class="field"><label for="scale">Image scale · pixels per µm</label><input id="scale" type="number" min="0.000001" step="any" value="0.5299"><p class="small muted" style="margin-top:7px">Check this value against your microscope calibration.</p></div>
+<button class="primary" id="analyse" disabled>Analyse image</button><button class="download hidden" id="reset" style="width:100%;margin-top:10px;background:white;cursor:pointer">Start a new image</button><div id="inputError" class="error hidden" role="alert"></div>
+<div class="note">Learning prototype only. Transition estimates have shown millimetre-scale errors. Check every result against the microscopy; this is not validated for research measurements.</div>
+<details><summary>What happens automatically?</summary><p>Find root tracks → predict tissue labels → clean the mask → measure Periderm-labelled path length → report each root.</p><p>No polygons, tissue labels or manual transition points are needed. Each detected root is checked separately. V2 also runs the PAT segmentation model and cleanup, then sums the Periderm-labelled length along the detected root path. These mask-based estimates appear in the main table without requiring a confirmed transition or endpoint. Earlier transition-based measurements remain available for comparison. The withdrawn V2.1 experiment confused brightness changes with anatomy; it is available only as archived results. Endpoint and transition estimates still need biological validation. The detector weights are unchanged; no training occurs here. Possible blur, cut-off roots and unresolved touching roots can prevent measurement. Uncertain endpoints are flagged but do not suppress an otherwise calculable mask estimate. The preliminary blur check can miss poor images; it is not proof of image quality.</p></details>
+<details><summary>Your files stay here</summary><p>The app runs on this Mac. Images are not sent to a cloud service. Original files and the saved model are preserved.</p></details>
+</aside><main>
+<div class="intro"><div class="eyebrow">Microscopy → measurements</div><h1>Inspect tissue predictions.<br>Review length estimates.</h1><p class="muted">Choose an image and let the app prepare a result you can inspect and export.</p>
+<div class="steps"><span class="step"><b>1</b>Choose image</span><span class="step"><b>2</b>Analyse</span><span class="step"><b>3</b>View & export</span></div></div>
+<div id="work"><section class="panel empty"><h2>Your result will appear here</h2><p class="muted">Upload a microscopy image, then click Analyse image.</p><span class="badge">Per-root estimates · no training</span></section></div>
+</main></div>
+<script>
+const token='__TOKEN__';let state=null,selected=new URLSearchParams(location.search).get('run')||null,upload=null,uploading=false,busy=false,submitting=false,lastRender='';
+const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const names={provisional:'Provisional',endpoint_uncertain:'Endpoint uncertain',no_transition:'No supported transition',connected_group:'Connected roots',low_image_quality:'Possible blur / low detail',partial_root:'Partial root / cut off',transition_beyond_endpoint:'Transition / endpoint conflict',failed:'Could not analyse'};
+const number=n=>n==null?'—':Math.round(n).toLocaleString();
+function error(t){$('inputError').textContent=t;$('inputError').classList.toggle('hidden',!t)}
+function fileURL(job,path){return '/files/'+encodeURIComponent(job.id)+'/results/'+path.split('/').map(encodeURIComponent).join('/')}
+async function post(url,body,headers={}){let r=await fetch(url,{method:'POST',headers:{'X-Session-Token':token,...headers},body});let d=await r.json();if(!r.ok)throw Error(d.error||'Request failed');return d}
+const emptyView=$('work').innerHTML;
+function controls(){
+ const locked=busy||uploading||submitting;
+ $('analyse').disabled=locked||!upload;
+ $('analyse').textContent=busy?'Analysis in progress…':uploading?'Loading image…':'Analyse image';
+ $('file').disabled=locked;
+ $('pipeline').disabled=locked;
+ $('diagnostics').disabled=locked||$('pipeline').value!=='v2';
+ $('reset').disabled=locked;
+ $('reset').classList.toggle('hidden',!upload&&!selected&&!uploading);
+}
+function clearResult(){selected=null;history.replaceState(null,'',location.pathname);lastRender='';$('work').innerHTML=emptyView;}
+$('pipeline').onchange=controls;
+$('reset').onclick=()=>{if(busy||uploading||submitting)return;upload=null;$('file').value='';$('uploadLabel').textContent='';clearResult();error('');controls();};
+$('file').onchange=async()=>{
+ let f=$('file').files[0];if(!f)return;
+ upload=null;uploading=true;clearResult();controls();
+ $('uploadLabel').textContent='Copying image to the local app…';error('');
+ try{upload=await post('/api/upload',f,{'X-Filename':encodeURIComponent(f.name)});$('uploadLabel').textContent=upload.name+' · '+upload.size.join(' × ')+' pixels';}
+ catch(e){error(e.message);$('uploadLabel').textContent='Image was not loaded.';}
+ finally{uploading=false;controls();}
+};
+$('analyse').onclick=async()=>{
+ if(busy||uploading||submitting)return;error('');
+ try{
+  if(!upload)throw Error('Choose an image file first.');
+  let scale=Number($('scale').value);if(!Number.isFinite(scale)||scale<=0)throw Error('Enter a positive image scale.');
+  submitting=true;controls();
+  let job=await post('/api/analyse',JSON.stringify({scale,upload:upload.id,pipeline:$('pipeline').value,include_diagnostics:$('diagnostics').checked}),{'Content-Type':'application/json'});
+  selected=job.id;lastRender='';busy=true;render(job);await refresh();
+ }catch(e){error(e.message);}finally{submitting=false;controls();}
+};
+function render(job){if(!job)return;let key=job.id+job.status+job.message+JSON.stringify(job.summary?.rows?.map(r=>r.expert_reference));if(lastRender===key)return;lastRender=key;
+if(job.status==='queued'||job.status==='running'){$('work').innerHTML=`<section class="progress" aria-live="polite"><h2><span class="spinner"></span>Analysing ${esc(job.image_name)}</h2><p class="muted" style="margin-top:14px">${esc(job.message)}</p><p class="small muted">Processing stays on this Mac. The saved model is unchanged.</p></section>`;return}
+if(job.status!=='complete'){$('work').innerHTML=`<section class="panel"><h2>Analysis did not finish</h2><div class="error">${esc(job.message)}</div><p class="muted">Your original image is unchanged. Choose an appropriate image and try again.</p></section>`;return}
+let s=job.summary,rows=s.rows,hasReferences=s.expert_reference_count>0,report=s.per_root_report;const withdrawn=job.pipeline==='v21'||s.pipeline_version?.startsWith('automatic_pipeline_v2.1');let version=job.pipeline==='v21'||s.pipeline_version?.startsWith('automatic_pipeline_v2.1')?'V2.1':job.pipeline==='v2'||s.pipeline_version?.startsWith('automatic_pipeline_v2')?'V2':'V1';
+$('work').innerHTML=`<section class="panel"><div class="results-header"><div><div class="eyebrow">Analysis complete</div><h2>${esc(job.image_name)}</h2><span class="small muted">${version} pipeline · ${esc(job.scale)} pixels/µm</span></div><a class="download" download href="${fileURL(job,report?'periderm_estimates.csv':'measurements.csv')}">${withdrawn?'Export archived CSV ↓':'Export CSV ↓'}</a></div>
+<div class="metrics"><div class="metric"><b>${s.detected_groups}</b><span>root candidates found</span></div><div class="metric"><b>${report?report.numeric_count:s.provisional_lengths}</b><span>${report?'per-root values':withdrawn?'withdrawn estimates':'provisional periderm lengths'}</span></div><div class="metric"><b>${report?report.rows.filter(r=>r.value_source==='Expert correction').length:rows.filter(r=>r.status!=='provisional'||r.brief_transition_review_required).length}</b><span>${report?'expert corrections':'additional review flags'}</span></div></div>
+${withdrawn?'<div class="error">Superseded experiment: review found that the endpoint rule can confuse fading fluorescence with anatomy. These values are not reliable periderm measurements. These archived numbers are retained for traceability. The newer V3 candidate failed its improvement check and was not released.</div>':''}
+${rows.length===0?'<div class="note">No suitable long root tracks were detected. No lengths were measured.</div>':''}
+${s.per_root_report_error?`<div class="error">${esc(s.per_root_report_error)}</div>`:''}
+${report?estimateTable(job):''}
+${report?'<details><summary>Show root numbering and earlier transition markers</summary>':''}
+<div class="photo"><img src="${fileURL(job,'all_tracks.png')}" alt="Automatic root tracks with predicted transitions and measuring endpoints"></div><div class="legend"><span><i class="dot" style="background:#27b8ff"></i>Model T candidate</span><span><i class="dot" style="background:#ffa735"></i>Automatic endpoint</span><span>White = detected path</span></div>${report?'</details>':''}
+${report?'':`<div class="note">Roots are numbered from top to bottom automatically. Every length is an estimate: check both the blue transition line and the orange stopping point. A filled row does not confirm anatomical accuracy.</div>
+${hasReferences?`<p class="small muted">${s.expert_reference_count} expert reference recorded separately. Your reference does not change the model’s prediction or train the model.</p>`:''}
+<div class="table-wrap"><table><thead><tr><th>Track</th><th>Model estimate<br>(µm)</th>${hasReferences?'<th>Your reference<br>(µm)</th>':''}<th>To visible end<br>(µm)*</th><th>Model status</th></tr></thead><tbody>${rows.map(r=>`<tr><td>${r.track_id}</td><td>${number(r.periderm_length_um)}</td>${hasReferences?`<td><strong>${number(r.expert_reference?.periderm_length_um)}</strong>${r.expert_reference?`<div class="small muted">${esc(r.expert_reference.finding)}</div>`:''}</td>`:''}<td>${number(r.segment_to_visible_end_um)}</td><td><span class="tag ${''}">${esc(withdrawn?'Withdrawn estimate':r.brief_transition_review_required&&r.status==='provisional'?'Provisional · brief transition':names[r.status]||r.status)}</span><div class="small muted" style="margin-top:5px">${esc(r.notes.join(' '))}</div></td></tr>`).join('')}</tbody></table></div>
+<p class="small muted">*When the junction is not identified, this is only the predicted-T-to-visible-end segment, not a confirmed periderm length. In model columns, a dash means no supported measurement. In Your reference, a dash means no reference recorded.</p>
+`}
+${rows.filter(r=>r.image).map(r=>`<details class="root-card"><summary>Earlier transition-based view · root ${r.track_id}</summary><div class="photo"><img loading="lazy" src="${fileURL(job,r.image)}" alt="Track ${r.track_id} measurement overlay"></div>${r.closeup?`<a href="${fileURL(job,r.closeup)}" target="_blank">Open transition close-up ↗</a>`:''}</details>`).join('')}
+${diagnosticPanel(job)}
+<p class="path">Saved on this Mac:<br>${esc(job.results_folder)}</p></section>`;
+}
+function estimateTable(job){
+ const report=job.summary.per_root_report;
+ return `<h3 style="margin-top:22px">Periderm length per root</h3>
+ <p class="small muted">Mask-based estimates in µm along each detected root path. An unconfirmed endpoint does not suppress a value. Estimates can include hypocotyl or omit tissue. Expert corrections are identified below.</p>
+ <div class="table-wrap"><table><thead><tr><th>Root</th><th>Periderm estimate<br>(µm)</th><th>Source</th></tr></thead><tbody>${report.rows.map(r=>`<tr><td>${r.root}</td><td><strong>${number(r.periderm_length_um)}</strong></td><td>${esc(r.value_source)}<div class="small muted">${esc(r.review_note)}</div></td></tr>`).join('')}</tbody></table></div>
+ <p class="small muted">These are cleaned-mask length estimates, not validated transition-to-junction measurements. A model zero means no Periderm was retained on the sampled path; an expert zero means you confirmed absence. The table and browser CSV export use the same values. The CSV saved in the run folder is a dated snapshot; a later expert correction appears in a new browser export.</p>
+ <details><summary>Earlier transition-based results</summary><p>Preserved for comparison. These use a different measurement method.</p><a class="download" download href="${fileURL(job,'measurements.csv')}">Export earlier results ↓</a></details>`;
+}
+function diagnosticPanel(job){
+ const d=job.summary.model_diagnostics;
+ if(job.summary.diagnostic_error)return `<div class="error">${esc(job.summary.diagnostic_error)}</div>`;
+ if(!d)return `<p class="small muted">${job.pipeline==='v2'?'This run has no PAT cleanup comparison. A new V2 analysis can include it.':'PAT cleanup comparison is available only for V2 analyses.'}</p>`;
+ return `<details id="modelDiagnostics"><summary>PAT cleanup comparison · ${d.rows.filter(r=>r.diagnostic_status.startsWith('computed')).length} tracks with diagnostic data</summary>
+ <div class="note"><strong>The cleanup column supplies the automatic estimates in the main table.</strong> These count the portions of the detected path labelled Periderm before and after cleanup; they are not validated anatomical measurements. The path starts at the detected left end and stops at V2’s automatic endpoint; an incorrect endpoint can include hypocotyl. Zero means no Periderm label retained on this path, not confirmed biological absence.</div>
+ <p>Original PAT weights, adapted tiling, and the original cleanup rules. No new training. This comparison is experimental; it has not been promoted to a corrected model.</p>
+ <a class="download" download href="${fileURL(job,'model_diagnostics/model_label_diagnostics.csv')}">Export diagnostic CSV ↓</a>
+ <div class="table-wrap"><table><thead><tr><th>Track</th><th>Sampled path<br>(µm)</th><th>Raw P-labelled path<br>(µm)</th><th>After PAT cleanup<br>(µm)</th><th>Endpoint / limits</th></tr></thead><tbody>${d.rows.map(r=>`<tr><td>${r.track_id}</td><td>${number(r.sampled_path_um)}</td><td>${number(r.raw_P_labelled_path_um)}</td><td>${number(r.PAT_cleanup_P_labelled_path_um)}</td><td>${esc(r.path_end_type==='visible_right_end_only'?'Visible end; junction unknown':r.path_end_type==='width_based_junction_candidate'?'Automatic junction; unvalidated':r.path_end_type?'Endpoint unvalidated':'No endpoint available')}<div class="small muted">${esc(r.diagnostic_reason)}</div></td></tr>`).join('')}</tbody></table></div>
+ <p class="small muted">Red = path portions counted as Periderm. In raw overlays, green = Endoderm, purple = lateral root, grey = Background. In cleanup overlays, grey means the cleanup mask did not retain that portion.</p>
+ ${d.rows.filter(r=>r.image).map(r=>`<details><summary>Compare raw and cleaned path · track ${r.track_id}</summary><p>Raw model labels</p><div class="photo"><img loading="lazy" src="${fileURL(job,r.image)}" alt="Raw model-labelled path for track ${r.track_id}"></div><p>After original PAT cleanup</p><div class="photo"><img loading="lazy" src="${fileURL(job,r.PAT_cleanup_image)}" alt="Cleaned mask path for track ${r.track_id}"></div></details>`).join('')}</details>`;
+}
+async function refresh(){
+ try{
+  let r=await fetch('/api/state'+(selected?'?job='+encodeURIComponent(selected):''));
+  if(!r.ok){let detail=await r.json();error(detail.error||'Local app unavailable');return;}
+  state=await r.json();busy=Boolean(state.active);controls();
+  if(selected&&state.job&&state.job.id===selected)render(state.job);
+ }catch(e){error('The local app is not responding. Reopen RootSpan.command to reconnect.');}
+}
+refresh();setInterval(refresh,2500);
+</script></body></html>

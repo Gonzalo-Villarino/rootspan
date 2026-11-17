@@ -1,0 +1,23 @@
+{
+  "recorded_utc": "2026-11-16T14:49:36.586912+00:00",
+  "expert": "Gonzalo Villarino",
+  "question": "Does your agreement include the blue vertical line as a reasonable T—the left edge of the mixed-cell zone?",
+  "answer_verbatim": "yes reasonable T—the left edge of the mixed-cell zone",
+  "accepted": true,
+  "accepted_model_T_source_xy": [
+    8868.313685437299,
+    5148.609165499165
+  ],
+  "accepted_model_T_crop_xy": [
+    2068.3136854372983,
+    568.6091654991646
+  ],
+  "accepted_model_T_local_arc_pixels": 2048.0,
+  "scope": "Post-prediction visual acceptance on this specific A04 root3; not independent quantitative T accuracy or multi-image validation. Expert noted blurry source.",
+  "supersedes": "project tooling interpretation that the blue candidate is too far left and unaccepted. The expert explicitly accepts it after seeing the prediction.",
+  "previous_appearance_labels_retained": true,
+  "annotation_or_training_labels_changed": false,
+  "model_updated": false,
+  "no_retroactive_reference_error_metric": true,
+  "no_new_length_measurement": true
+}

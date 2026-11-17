@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-11-16T13:12:52.515187+00:00",
+  "question": "Looking at the main-root cells around the new blue line, is this now a reasonable left edge of the mixed-cell zone, or is it still too far left or right?",
+  "answer_verbatim": "Yes",
+  "accepted": true,
+  "scope": "Gonzalo accepts the displayed new blue line as a reasonable left edge of the mixed-cell zone on this specific COL0 root3. This is post-prediction biological review, not validation on other roots or slides.",
+  "accepted_candidate_source_xy": [
+    12545.562578291781,
+    6008.166685956561
+  ],
+  "accepted_candidate_native_arc": 11840.0,
+  "original_reference_T_unchanged": true,
+  "generalisation_established": false,
+  "new_training": false
+}

@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-11-16T15:44:41.284597+00:00",
+  "checkpoint": {
+    "passed": true,
+    "files": 40,
+    "version": "Transition_v1_20261116",
+    "read_only_checked": true,
+    "manifest_sha256": "d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb"
+  },
+  "source_unchanged": true,
+  "prediction_unchanged_during_comparison": true,
+  "expert_labels_used_for_inference": false,
+  "image_sha256": "240e1f56ce36cb879faabf22d925a27856738d98cf90ec7b5c96f6804d62ff39",
+  "route_sha256": "b49a8ba124e586e40202c59f82ba1fff7e7c575dec71ba3b1e25cf774f46c91a",
+  "prediction_sha256": "6993944b48b83472926ae93b6826eaefedef19138b1ed241935413358bd3ed27",
+  "figure_visual_qa": {
+    "passed": true,
+    "figures": [
+      "A04_ROOT1_LOCKED_RESULT.png",
+      "A04_ROOT1_T_CLOSEUP.png"
+    ],
+    "notes": "Source panels, A/B/C references and vertical solid blue T are visible, labels readable, no clipping. Close-up shows source around automatic T. Biological T acceptance pending."
+  }
+}

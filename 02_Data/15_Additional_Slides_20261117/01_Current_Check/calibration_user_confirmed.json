@@ -1,0 +1,14 @@
+{
+  "slide": "1_7",
+  "scale_pixels_per_micrometre": 0.5299,
+  "micrometres_per_pixel": 1.8871485185884127,
+  "basis": "User confirmation in this chat on 17 November 2026",
+  "verbatim": "Yes, the same scale",
+  "independently_verified_from_metadata": false,
+  "original_dimensions": [
+    15413,
+    8530
+  ],
+  "source_sha256": "487d1086e4caaca419431a487beb131f050eece8ef8347283cabdf2f8a82a604",
+  "note": "Use original pixels, not resized overview screenshots. Viewing zoom does not change the calibration. Other new slides remain unconfirmed."
+}

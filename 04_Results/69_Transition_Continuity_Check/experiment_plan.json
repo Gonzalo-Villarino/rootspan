@@ -1,0 +1,41 @@
+{
+  "recorded_utc": "2026-11-16T15:11:31.988126+00:00",
+  "status": "One specified decoder trial before evaluation; not a parameter search",
+  "motivation": "Old rule accepts an early three-window mixed burst despite a subsequent long clear-Endoderm run before supported Periderm. On2_12 that run contains38 heavily overlapping samples.",
+  "unchanged": [
+    "Image scores and all saved neural weights",
+    "Presence threshold0.5",
+    "Original three-consecutive-window mixed candidate requirement",
+    "Original earlier E-only and later P-only support requirements"
+  ],
+  "new_guard": "For each original eligible candidate, inspect E-only runs after its mixed run and before its supporting P-only run. Reject candidate if any E-only run supplies at least3 centres separated by at least320 native path pixels. Select earliest remaining original candidate; return none if none remain.",
+  "spacing_reason": "320 is the existing input-window width; avoid treating adjacent stride64 windows as separate full contexts.3 is the existing support count. This is a development heuristic, not a biological law or calibrated confidence.",
+  "assumption": "A long return to clear Endoderm is contrary evidence to an isolated early mixed call. Short pure-Endoderm fields can still occur within a mixed region.",
+  "reviewed_2_12_expected_T_not_used_by_algorithm": true,
+  "inputs": [
+    {
+      "case": "COL0_root3",
+      "prediction": "${ROOTSPAN_PROJECT}/04_Results/65_Mixed_Appearance_Evidence_Check/two_presence_five_windows/prediction_before_reference_comparison.json",
+      "sha256": "07a398c7e638dbb458a94c645f8708b9d1745a450f3ced97ada77511e32909c1"
+    },
+    {
+      "case": "20_29_root4",
+      "prediction": "${ROOTSPAN_PROJECT}/04_Results/66_Fixed_20_29_Check/prediction_before_reference_comparison.json",
+      "sha256": "183f38baf01e1bb8baf42754907ebd5334aea20027c2e04de0cb1e49b649457d"
+    },
+    {
+      "case": "A04_root3",
+      "prediction": "${ROOTSPAN_PROJECT}/04_Results/67_Fixed_A04_Root3_Check/prediction_before_comparison.json",
+      "sha256": "51d743d604db4fc121dfaf0e9e6e77e4041dc9935570ca423ac3abec2a4400ad"
+    },
+    {
+      "case": "2_12_root1",
+      "prediction": "${ROOTSPAN_PROJECT}/04_Results/68_Fixed_212_Root1_Check/prediction_before_comparison.json",
+      "sha256": "84b00fd786743a4b5aa083fdd81e4111e60a3f0146656b454b5c94ecf2877738"
+    }
+  ],
+  "regression_policy": "Check previously accepted COL0 and A04 T positions and preserve 20_29 abstention. Do not replace current default/model if these regress; save all outcomes regardless.",
+  "scientific_scope": "Designed after seeing2_12 failure and correction.2_12 now informs method development, despite no weight training; it is not an untouched holdout for this rule. Need different unseen slide for later independent evaluation.",
+  "no_new_teaching_or_pixel_labels": true,
+  "no_global_model_promotion": true
+}

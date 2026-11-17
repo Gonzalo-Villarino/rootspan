@@ -1,0 +1,45 @@
+test_bad_numeric_or_duplicate_root_rejected (test_per_root_estimates.PerRootReportChecks.test_bad_numeric_or_duplicate_root_rejected) ... ok
+test_csv_values_and_basis_match_main_report (test_per_root_estimates.PerRootReportChecks.test_csv_values_and_basis_match_main_report) ... ok
+test_expert_correction_retains_automatic_value_and_source (test_per_root_estimates.PerRootReportChecks.test_expert_correction_retains_automatic_value_and_source) ... ok
+test_failed_comparison_never_shows_stale_report (test_per_root_estimates.PerRootReportChecks.test_failed_comparison_never_shows_stale_report) ... ok
+test_missing_bindings_and_invalid_expert_value_rejected (test_per_root_estimates.PerRootReportChecks.test_missing_bindings_and_invalid_expert_value_rejected) ... ok
+test_missing_data_never_fabricates_zero (test_per_root_estimates.PerRootReportChecks.test_missing_data_never_fabricates_zero) ... ok
+test_no_mutation_of_original_measurements (test_per_root_estimates.PerRootReportChecks.test_no_mutation_of_original_measurements) ... ok
+test_reporting_error_preserves_successful_pipeline (test_per_root_estimates.PerRootReportChecks.test_reporting_error_preserves_successful_pipeline) ... ok
+test_uncertain_T_and_J_do_not_suppress_available_numbers (test_per_root_estimates.PerRootReportChecks.test_uncertain_T_and_J_do_not_suppress_available_numbers) ... ok
+test_wrong_source_and_wrong_scale_rejected (test_per_root_estimates.PerRootReportChecks.test_wrong_source_and_wrong_scale_rejected) ... ok
+test_bad_path_and_scale_refused (test_pat_diagnostics.PathMeasurements.test_bad_path_and_scale_refused) ... ok
+test_diagonal_not_skeleton_pixel_count (test_pat_diagnostics.PathMeasurements.test_diagonal_not_skeleton_pixel_count) ... ok
+test_invalid_label_refused (test_pat_diagnostics.PathMeasurements.test_invalid_label_refused) ... ok
+test_line_units_and_partition (test_pat_diagnostics.PathMeasurements.test_line_units_and_partition) ... ok
+test_low_quality_not_overridden (test_pat_diagnostics.PathMeasurements.test_low_quality_not_overridden) ... ok
+test_multiple_islands_and_only_enclosed_gaps (test_pat_diagnostics.PathMeasurements.test_multiple_islands_and_only_enclosed_gaps) ... ok
+test_no_P_is_numeric_zero_not_absence_claim (test_pat_diagnostics.PathMeasurements.test_no_P_is_numeric_zero_not_absence_claim) ... ok
+test_no_extending_far_to_endpoint (test_pat_diagnostics.PathMeasurements.test_no_extending_far_to_endpoint) ... ok
+test_polyline_vertices_not_double_counted (test_pat_diagnostics.PathMeasurements.test_polyline_vertices_not_double_counted) ... ok
+test_augment_separate_metrics_and_nonmutating_write_failure (test_diagnostic_integration.IntegrationChecks.test_augment_separate_metrics_and_nonmutating_write_failure) ... ok
+test_server_diagnostic_failure_preserves_main_result (test_diagnostic_integration.IntegrationChecks.test_server_diagnostic_failure_preserves_main_result) ... ok
+test_connected_parallel_roots (test_pipeline.PipelineChecks.test_connected_parallel_roots) ... ok
+test_curved_length (test_pipeline.PipelineChecks.test_curved_length) ... ok
+test_curved_touching_roots_separate_into_two_long_lanes (test_pipeline.PipelineChecks.test_curved_touching_roots_separate_into_two_long_lanes) ... ok
+test_large_space_between_joined_roots_is_not_filled (test_pipeline.PipelineChecks.test_large_space_between_joined_roots_is_not_filled) ... ok
+test_partial_root_at_border_is_retained_as_a_flag (test_pipeline.PipelineChecks.test_partial_root_at_border_is_retained_as_a_flag) ... ok
+test_scale (test_pipeline.PipelineChecks.test_scale) ... ok
+test_severe_blur_reduces_detail_below_guard (test_pipeline.PipelineChecks.test_severe_blur_reduces_detail_below_guard) ... ok
+test_no_junction_does_not_invent_a_measuring_endpoint (test_pipeline_v2.InspectionContextTests.test_no_junction_does_not_invent_a_measuring_endpoint) ... ok
+test_widening_keeps_same_measurement_but_preserves_inspection_tail (test_pipeline_v2.InspectionContextTests.test_widening_keeps_same_measurement_but_preserves_inspection_tail) ... ok
+test_csv_keeps_automatic_blank_and_expert_zero (test_expert_references.ExpertReferenceChecks.test_csv_keeps_automatic_blank_and_expert_zero) ... ok
+test_different_source_version_or_geometry_never_gets_reference (test_expert_references.ExpertReferenceChecks.test_different_source_version_or_geometry_never_gets_reference) ... ok
+test_duplicate_reference_does_not_silently_choose (test_expert_references.ExpertReferenceChecks.test_duplicate_reference_does_not_silently_choose) ... ok
+test_invalid_reference_fields_do_not_become_missing_measurements (test_expert_references.ExpertReferenceChecks.test_invalid_reference_fields_do_not_become_missing_measurements) ... ok
+test_malformed_reference_names_the_unreadable_file (test_expert_references.ExpertReferenceChecks.test_malformed_reference_names_the_unreadable_file) ... ok
+test_reference_is_only_attached_to_matching_row (test_expert_references.ExpertReferenceChecks.test_reference_is_only_attached_to_matching_row) ... ok
+test_withdrawn_exports_keep_warning (test_expert_references.ExpertReferenceChecks.test_withdrawn_exports_keep_warning) ... ok
+test_zero_is_retained_separately_without_changing_automatic_result (test_expert_references.ExpertReferenceChecks.test_zero_is_retained_separately_without_changing_automatic_result) ... ok
+test_api_identifies_reference_problem (test_reference_routes.ReferenceRouteChecks.test_api_identifies_reference_problem) ... ok
+test_csv_identifies_reference_problem (test_reference_routes.ReferenceRouteChecks.test_csv_identifies_reference_problem) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 1.202s
+
+OK

@@ -1,0 +1,44 @@
+{
+  "result_folder": "${ROOTSPAN_PROJECT}/04_Results/42_20_29_Transition_Prediction/view_20261115T153948Z_bmduly9w",
+  "review_date": "2026-11-15",
+  "checks": [
+    "Unchanged source and model hashes",
+    "Saved prediction/crop/script hashes match record",
+    "Exact source crop",
+    "Numeric prediction equals argmax of saved finite normalized probabilities"
+  ],
+  "predicted_pixel_counts_not_accuracy": {
+    "Periderm": 74480,
+    "Endoderm": 8713,
+    "Background": 965383
+  },
+  "strip_third_counts_not_accuracy": {
+    "left": {
+      "Periderm": 19371,
+      "Endoderm": 6724,
+      "Background": 96665
+    },
+    "middle": {
+      "Periderm": 26903,
+      "Endoderm": 1,
+      "Background": 96216
+    },
+    "right": {
+      "Periderm": 28142,
+      "Endoderm": 1978,
+      "Background": 92640
+    }
+  },
+  "visual_findings": [
+    "Coarse root versus surrounding-space separation looks plausible.",
+    "Main root is predominantly predicted Periderm. Endoderm appears at far left, a small interior island, and far right.",
+    "No convincing broad Endoderm-left / Periderm-right division matching the user's qualitative interpretation."
+  ],
+  "user_assessment_before_prediction": "Poor image clarity; more Endoderm-like cells left, more Periderm-like cells right; possible transition.",
+  "user_quality_qualification": "User reiterated that microscopy quality was very bad and difficult for both human review and model prediction.",
+  "interpretation": "Observed output is mostly Periderm with scattered Endoderm. Exact transition accuracy is inconclusive because no reliable pixel reference/boundary exists. Image quality could contribute, but this run cannot isolate quality from model limitations.",
+  "next_step": "Keep frozen model and this result. Find a clearer biologically identifiable transition before deciding whether the model requires changes. Do not force a boundary with postprocessing or refine uncertain labels to match prediction.",
+  "accuracy_measured": false,
+  "training_updates": 0,
+  "postprocessing": "None"
+}

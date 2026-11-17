@@ -1,0 +1,27 @@
+{
+  "id": "20261117_7_18_root01_periderm_absent",
+  "source_name": "7_18.tif",
+  "source_sha256": "6ff3e7e893961fbace0c99bf521d41e029cadb21c4522fc4da67f8fcb1bd5980",
+  "pipeline_version": "automatic_pipeline_v2.0_context",
+  "track_id": 1,
+  "track_signature": "61fbc19f64fcab8ea02490949d22cff935f8edc32abeede78b26b54e4b4ae479",
+  "periderm_length_um": 0.0,
+  "finding": "Periderm absent · confirmed by you",
+  "expert": "Gonzalo Villarino",
+  "expert_words": "that particular root has 0 peridem ...is alsmot all endoderm",
+  "reviewed_at_utc": "2026-11-17T14:01:48.743991+00:00",
+  "root_hypocotyl_junction_reference": {
+    "selected_marker": "4",
+    "source_x_pixels": 15600,
+    "precision": "Approximate numbered guide; user did not click an exact 2D coordinate",
+    "guide_image": "${ROOTSPAN_PROJECT}/13_718_Failure_Diagnosis_20261117/ROOT1_JUNCTION_NUMBERED.png",
+    "exact_training_coordinate_approved": false,
+    "regional_field_C_overlap": true
+  },
+  "supporting_confirmation": "Yes: B is Endoderm, C is hypocotyl",
+  "scope": "Upper root 1 on 7_18. Main-root periderm only; exclude hypocotyl. Do not apply to other roots.",
+  "used_for_training": false,
+  "automatic_prediction_overwritten": false,
+  "reference_basis": "User biological assessment of the shown images; not an independent validation study",
+  "associated_run": "20261117T134303Z_f0445b46"
+}

@@ -1,0 +1,123 @@
+{
+  "scope": "Compatibility-adjusted original PAT mask stages. Fixed V2 main-root paths used for diagnostics, not original FilFinder measurement.",
+  "rows": [
+    {
+      "root": 1,
+      "V2_status": "transition_beyond_endpoint",
+      "dominant_raw_foreground_component": 1,
+      "all_nonzero_foreground_components_on_path": [
+        1,
+        4
+      ],
+      "P_labelled_path_um_by_stage": {
+        "stitched": 1724.477210973962,
+        "processed": 1724.477210973962,
+        "binary": 0.0,
+        "closed": 0.0,
+        "measurement": 0.0
+      },
+      "note": "Fixed V2 path, not anatomical periderm measurement."
+    },
+    {
+      "root": 2,
+      "V2_status": "endpoint_uncertain",
+      "dominant_raw_foreground_component": 10,
+      "all_nonzero_foreground_components_on_path": [
+        10
+      ],
+      "P_labelled_path_um_by_stage": {
+        "stitched": 25597.642023327386,
+        "processed": 25597.642023327386,
+        "binary": 25397.638273281278,
+        "closed": 25410.873960997378,
+        "measurement": 29020.09606713042
+      },
+      "note": "Fixed V2 path, not anatomical periderm measurement."
+    },
+    {
+      "root": 3,
+      "V2_status": "endpoint_uncertain",
+      "dominant_raw_foreground_component": 63,
+      "all_nonzero_foreground_components_on_path": [
+        63
+      ],
+      "P_labelled_path_um_by_stage": {
+        "stitched": 15437.247431662096,
+        "processed": 15437.247431662096,
+        "binary": 13651.121909641268,
+        "closed": 13697.189586607099,
+        "measurement": 4330.98567516805
+      },
+      "note": "Fixed V2 path, not anatomical periderm measurement."
+    },
+    {
+      "root": 4,
+      "V2_status": "no_transition",
+      "dominant_raw_foreground_component": 87,
+      "all_nonzero_foreground_components_on_path": [
+        87,
+        88
+      ],
+      "P_labelled_path_um_by_stage": {
+        "stitched": 922.3014724577506,
+        "processed": 922.3014724577506,
+        "binary": 257.83988857995706,
+        "closed": 255.95455833950103,
+        "measurement": 255.95455833950103
+      },
+      "note": "Fixed V2 path, not anatomical periderm measurement."
+    },
+    {
+      "root": 5,
+      "V2_status": "transition_beyond_endpoint",
+      "dominant_raw_foreground_component": 137,
+      "all_nonzero_foreground_components_on_path": [
+        137,
+        222
+      ],
+      "P_labelled_path_um_by_stage": {
+        "stitched": 433.61589963778073,
+        "processed": 433.61589963778073,
+        "binary": 318.5111787642731,
+        "closed": 425.9330751672701,
+        "measurement": 314.7405031038547
+      },
+      "note": "Fixed V2 path, not anatomical periderm measurement."
+    },
+    {
+      "root": 6,
+      "V2_status": "provisional",
+      "dominant_raw_foreground_component": 201,
+      "all_nonzero_foreground_components_on_path": [
+        201
+      ],
+      "P_labelled_path_um_by_stage": {
+        "stitched": 7955.195053384401,
+        "processed": 7955.195053384401,
+        "binary": 7327.12277808346,
+        "closed": 7325.237001645721,
+        "measurement": 7721.354360297799
+      },
+      "note": "Fixed V2 path, not anatomical periderm measurement."
+    },
+    {
+      "root": 7,
+      "V2_status": "provisional",
+      "dominant_raw_foreground_component": 280,
+      "all_nonzero_foreground_components_on_path": [
+        280
+      ],
+      "P_labelled_path_um_by_stage": {
+        "stitched": 1827.8539093507318,
+        "processed": 1827.8539093507318,
+        "binary": 1805.2139019628821,
+        "closed": 1814.6450914117493,
+        "measurement": 1841.0542392144814
+      },
+      "note": "Fixed V2 path, not anatomical periderm measurement."
+    }
+  ],
+  "expert_root1_periderm_um": 0,
+  "anatomical_accuracy_not_established": true,
+  "candidate_promoted": false
+}

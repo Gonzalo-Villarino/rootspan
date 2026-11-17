@@ -1,0 +1,48 @@
+{
+  "two_presence_four_windows": {
+    "run_name": "two_presence_four_windows",
+    "teaching_windows": 4,
+    "candidate_T_distance_pixels": 11456.0,
+    "difference_from_reviewed_T_pixels": -462.4256405338965,
+    "difference_from_reviewed_T_um": -872.6658624908407,
+    "candidate_inside_reviewed_interval": false,
+    "new_error_field177_presence_scores": [
+      0.9976229071617126,
+      0.9795779585838318
+    ],
+    "new_error_field177_state": 1,
+    "region_still_familiar_teaching_check": true,
+    "independent_validation": false,
+    "default_model_promoted": false,
+    "scores_not_calibrated_confidence": true
+  },
+  "two_presence_five_windows": {
+    "run_name": "two_presence_five_windows",
+    "teaching_windows": 5,
+    "candidate_T_distance_pixels": 11840.0,
+    "difference_from_reviewed_T_pixels": -78.42564053389651,
+    "difference_from_reviewed_T_um": -148.00083135289017,
+    "candidate_inside_reviewed_interval": true,
+    "new_error_field177_presence_scores": [
+      0.9978741407394409,
+      0.17637859284877777
+    ],
+    "new_error_field177_state": 0,
+    "region_still_familiar_teaching_check": true,
+    "independent_validation": false,
+    "default_model_promoted": false,
+    "scores_not_calibrated_confidence": true
+  },
+  "three_way_four_windows": {
+    "candidate_T_distance_pixels": 11456.0,
+    "difference_from_reviewed_T_pixels": -462.4256405338965,
+    "difference_from_reviewed_T_um": -872.6658624908407,
+    "candidate_inside_reviewed_interval": false
+  },
+  "three_way_five_windows": {
+    "candidate_T_distance_pixels": 11840.0,
+    "difference_from_reviewed_T_pixels": -78.42564053389651,
+    "difference_from_reviewed_T_um": -148.00083135289017,
+    "candidate_inside_reviewed_interval": true
+  }
+}

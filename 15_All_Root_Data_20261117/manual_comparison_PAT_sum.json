@@ -1,0 +1,26 @@
+{
+  "definition": "Summed P-labelled Euclidean path after original 2D PAT stages applied to class-safe inference. No 150px 1D cleanup used in this table. Development comparison only.",
+  "rows": [
+    {
+      "root": 1,
+      "manual_um": 8002.109515014364,
+      "V2_um": 5608.445080851533,
+      "PAT_stage_P_sum_um": 5614.13045308312,
+      "absolute_error_um": 2387.9790619312435
+    },
+    {
+      "root": 2,
+      "manual_um": 13710.563359870024,
+      "V2_um": 15127.158251323985,
+      "PAT_stage_P_sum_um": 15582.63401114831,
+      "absolute_error_um": 1872.0706512782854
+    },
+    {
+      "root": 6,
+      "manual_um": 17935.5549610925,
+      "V2_um": 23897.38198203049,
+      "PAT_stage_P_sum_um": 13793.084085465385,
+      "absolute_error_um": 4142.470875627116
+    }
+  ]
+}

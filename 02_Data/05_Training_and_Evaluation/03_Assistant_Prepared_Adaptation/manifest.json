@@ -1,0 +1,49 @@
+{
+  "purpose": "Sparse assistant-prepared training labels; not an independent test or human-verified pixel ground truth.",
+  "class_codes": {
+    "Periderm": 1,
+    "Endoderm": 2,
+    "Background": 3
+  },
+  "ignore_codes": [
+    0,
+    255
+  ],
+  "original_user_files_modified": false,
+  "samples": [
+    {
+      "name": "20_29_clearer",
+      "source_image": "${ROOTSPAN_PROJECT}/04_Results/43_20_29_Clearer_Transition_Prediction/view_20261115T155056Z_vbrbuhdb/20_29_x5440_y4256_image.png",
+      "source_sha256": "0a0ce535a2caaf6de5ae13971b29da297734d32503cb3e79787ca8df2b3b22ad",
+      "image": "20_29_clearer/image.png",
+      "mask": "20_29_clearer/mask.png",
+      "annotations": "20_29_clearer/annotations_ASSISTANT.json",
+      "mask_sha256": "634882b3ede959759d805328e1ec31fb2af198c6843fcecc2c0be61dd4ed9015",
+      "counts": {
+        "0": 716578,
+        "1": 6252,
+        "2": 8888,
+        "3": 316858,
+        "255": 0
+      },
+      "basis": "Before seeing prediction, Gonzalo confirmed: clearer, Endoderm left and Periderm right; transition around middle. Exact sparse polygons drawn by assistant, not biologically certified by Gonzalo. Transition x391-724 and lateral branch not labelled."
+    },
+    {
+      "name": "20_29_periderm",
+      "source_image": "${ROOTSPAN_PROJECT}/04_Results/41_New_Image_20_29_Prediction/view_20261115T152946Z_kc80hx_h/20_29_x7988_y5618_image.png",
+      "source_sha256": "5431a97d9bc0a191a36c19fbdbde29c84b6b296c16ef970353e1719780607c59",
+      "image": "20_29_periderm/image.png",
+      "mask": "20_29_periderm/mask.png",
+      "annotations": "20_29_periderm/annotations_ASSISTANT.json",
+      "mask_sha256": "1fc9905e863939dc982eb57163e1d8a37c9a61c5692e82f4b8bbdae796a47c61",
+      "counts": {
+        "0": 671125,
+        "1": 30589,
+        "2": 0,
+        "3": 346862,
+        "255": 0
+      },
+      "basis": "Gonzalo confirmed the main root is Periderm from the cell shapes. Exact sparse polygons drawn by assistant. Upward lateral branch and other tissue excluded."
+    }
+  ]
+}

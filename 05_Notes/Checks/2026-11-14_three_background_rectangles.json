@@ -1,0 +1,37 @@
+{
+  "date_local": "2026-11-14",
+  "annotation_file": "${ROOTSPAN_PROJECT}/02_Data/03_Background_Annotations/MT25_rep3_background_refined_GV.json",
+  "annotation_sha256": "f508b82e55cb2186162cebb51968386375e2144cb9690770f5bf964bb1e3786f",
+  "source_crop_box": [
+    7168,
+    0,
+    8192,
+    1024
+  ],
+  "added_background_rectangles": 3,
+  "previous_shapes_geometry_unchanged": true,
+  "rectangles_left_to_right": [
+    {
+      "position": "left small",
+      "inside_patch": "outside",
+      "inside_patch_pixels": 0
+    },
+    {
+      "position": "middle small",
+      "inside_patch": "fully inside",
+      "inside_patch_pixels": 6205
+    },
+    {
+      "position": "right large",
+      "inside_patch": "partly inside",
+      "approx_area_percent_inside": 71.92,
+      "inside_patch_pixels": 42640
+    }
+  ],
+  "new_labelled_patch_pixels": 48845,
+  "all_new_patch_pixels_previously_unlabelled": true,
+  "new_overlap_with_existing_tissue_labels_in_patch": 0,
+  "mask_conversion_run": false,
+  "training_run": false,
+  "next_user_command": "07_make_background_mask.py with updated refined JSON and new output 04_Results/17_Extra_Background_Mask"
+}

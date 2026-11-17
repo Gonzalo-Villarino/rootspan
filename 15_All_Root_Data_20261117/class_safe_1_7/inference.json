@@ -1,0 +1,13 @@
+{
+  "padding_left_top": [
+    0,
+    0
+  ],
+  "source_size_wh": [
+    15413,
+    8530
+  ],
+  "source_sha256": "487d1086e4caaca419431a487beb131f050eece8ef8347283cabdf2f8a82a604",
+  "raw_prediction_record": "15_All_Root_Data_20261117/published_raw_1_7/prediction_record.json",
+  "scope": "Adapted class-safe inference followed by original postprocessing."
+}

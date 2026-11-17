@@ -1,0 +1,113 @@
+{
+  "scope": "Reserved local slide, Periderm-only archive check. No Endoderm/Background truth. OriginalPATexposureunknown. Length references derived from saved polygons; not independent manual centreline measurements.",
+  "prediction": "04_Results/57_A04_Reserved_Check/candidate_model_prediction",
+  "measurements": "04_Results/57_A04_Reserved_Check/candidate_model_measurements",
+  "expected_roots": 6,
+  "detected_root_records": 6,
+  "matched_length_roots": 4,
+  "median_absolute_length_difference_pct": 25.927986952769253,
+  "max_absolute_length_difference_pct": 54.34745442790143,
+  "pooled_periderm_recall": 0.97810671084129,
+  "rows": [
+    {
+      "reference_root": 1,
+      "periderm_pixels": 1383088,
+      "matched_periderm_pixels": 1363503,
+      "periderm_recall": 0.9858396573464595,
+      "archive_outline_length_px": 12847.290497279524,
+      "matched_model_root": 1,
+      "model_length_px": 18431.11981956357,
+      "signed_length_difference_pct": 43.46308915071586,
+      "absolute_length_difference_pct": 43.46308915071586,
+      "basal_endpoint_distance_px": 514.4034938008733,
+      "transition_distance_px": 5467.269964759481,
+      "model_flags": [
+        "single_E_to_P_change_assumed",
+        "biological_endpoint_and_transition_review_pending"
+      ]
+    },
+    {
+      "reference_root": 2,
+      "periderm_pixels": 900510,
+      "matched_periderm_pixels": 882012,
+      "periderm_recall": 0.9794583069593896,
+      "archive_outline_length_px": 9757.362620139904,
+      "matched_model_root": 2,
+      "model_length_px": 10576.28681995839,
+      "signed_length_difference_pct": 8.39288475482265,
+      "absolute_length_difference_pct": 8.39288475482265,
+      "basal_endpoint_distance_px": 153.76218237337648,
+      "transition_distance_px": 659.1590048906486,
+      "model_flags": [
+        "single_E_to_P_change_assumed",
+        "biological_endpoint_and_transition_review_pending"
+      ]
+    },
+    {
+      "reference_root": 3,
+      "periderm_pixels": 886256,
+      "matched_periderm_pixels": 848423,
+      "periderm_recall": 0.9573114314599844,
+      "archive_outline_length_px": 9618.496011001773,
+      "matched_model_root": 3,
+      "model_length_px": 9737.463015073268,
+      "signed_length_difference_pct": 1.2368566139178139,
+      "absolute_length_difference_pct": 1.2368566139178139,
+      "basal_endpoint_distance_px": 173.32664526799428,
+      "transition_distance_px": 34.801455533955064,
+      "model_flags": [
+        "transition_not_visible_or_entire_root_called_periderm",
+        "single_E_to_P_change_assumed",
+        "biological_endpoint_and_transition_review_pending"
+      ]
+    },
+    {
+      "reference_root": 4,
+      "periderm_pixels": 1101110,
+      "matched_periderm_pixels": 1085024,
+      "periderm_recall": 0.9853911053391577,
+      "archive_outline_length_px": 11294.746258962636,
+      "matched_model_root": null,
+      "model_length_px": null,
+      "signed_length_difference_pct": null,
+      "absolute_length_difference_pct": null,
+      "basal_endpoint_distance_px": 8941.602298573502,
+      "transition_distance_px": null,
+      "match_status": "Endpoint too far away; no accepted automatic root match."
+    },
+    {
+      "reference_root": 5,
+      "periderm_pixels": 1022467,
+      "matched_periderm_pixels": 1012300,
+      "periderm_recall": 0.99005640279833,
+      "archive_outline_length_px": 9481.625068333762,
+      "matched_model_root": null,
+      "model_length_px": null,
+      "signed_length_difference_pct": null,
+      "absolute_length_difference_pct": null,
+      "basal_endpoint_distance_px": 755.5377135227344,
+      "transition_distance_px": null,
+      "match_status": "Endpoint too far away; no accepted automatic root match."
+    },
+    {
+      "reference_root": 6,
+      "periderm_pixels": 1298589,
+      "matched_periderm_pixels": 1256437,
+      "periderm_recall": 0.967540153197047,
+      "archive_outline_length_px": 12022.153956230226,
+      "matched_model_root": 6,
+      "model_length_px": 18555.888598844598,
+      "signed_length_difference_pct": 54.34745442790143,
+      "absolute_length_difference_pct": 54.34745442790143,
+      "basal_endpoint_distance_px": 314.93322092098697,
+      "transition_distance_px": 7151.323216824247,
+      "model_flags": [
+        "transition_not_visible_or_entire_root_called_periderm",
+        "single_E_to_P_change_assumed",
+        "biological_endpoint_and_transition_review_pending"
+      ]
+    }
+  ],
+  "biological_endpoint_review": "pending",
+  "selection_policy": "This check is not used to select or tune another model in this run."
+}

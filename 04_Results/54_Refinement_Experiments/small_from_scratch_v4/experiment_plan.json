@@ -1,0 +1,48 @@
+{
+  "created_utc": "2026-11-16T08:56:13.759298+00:00",
+  "data_manifest": "${ROOTSPAN_PROJECT}/04_Results/53_Selected_Teaching_Data/manifest.json",
+  "manifest_sha256": "0394180efd4217d4e88f030385c1773918807aadb6431e1c0042bebc09e7e945",
+  "initial_weights": "None",
+  "initial_sha256": null,
+  "role": "Development-guided refinement, not blind final testing",
+  "training_sources": [
+    "20#MT28_gfp",
+    "25717_gfp",
+    "MT25_rep3"
+  ],
+  "training_root_count": 14,
+  "development_image": "${ROOTSPAN_PROJECT}/04_Results/52_Reference_Check_20261116/image.png",
+  "reference_sha256": "2be0b391887b5608527ee3315d21ab4a1130f19dca2a65dfeb8c42f0df37a6b3",
+  "dev_in_training": false,
+  "reserved_test_used": false,
+  "class_order": [
+    "Periderm",
+    "Endoderm",
+    "Background",
+    "Lateral_root"
+  ],
+  "class_codes": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unknown_and_conflicts_ignored": [
+    0,
+    255
+  ],
+  "initial_ancestry": "Fresh random initialization. No published PAT or prior local weights.",
+  "augmentation": "Native512 crop, paired rotations/flips, gain0.8-1.2. No resizing/gamma/blur.",
+  "batch": "8fields:4mixed-transition,1Periderm,1Endoderm,1LateralRoot,1explicitBackground; class-balancedCE+.5Dice.",
+  "trainable": "All parameters; GroupNorm; no BatchNorm running statistics.",
+  "learning_rate_decoder": 0.001,
+  "seed": 1611,
+  "updates_requested": 4000,
+  "selection": "Highest raw development tissue meanIoU, every200updates. Familiar development crop only, not a blind test.",
+  "target_for_success_on_this_crop": "Both tissue recalls>=.85, both tissue precisions>=.85, labelled Background recall>=.98, tissue meanIoU>=.75. Even passing is not validation on hundreds of images.",
+  "augmentation_mode": "mild",
+  "contrast_preprocessing": "grayscale_clahe",
+  "batchnorm_running_statistics": "Not applicable; GroupNorm",
+  "architecture": "SmallUNet base16 depth4 with GroupNorm",
+  "parameters": 1964148
+}

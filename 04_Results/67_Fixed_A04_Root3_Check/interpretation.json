@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-11-16T14:41:23.128840+00:00",
+  "field_findings": "Nearest scan fields agree with expert A/B Endoderm; C is called Endoderm despite mixed/transition review. Framing differs slightly.",
+  "boundary_findings": "Fixed rule selected first 3-window mixed run that has earlier E-only support and later P-only support. It allows an intervening return to E-only; here T lies before field B, which expert identified as Endoderm. This is evidence against accepting this T for measurement.",
+  "cause_not_established": "Cannot attribute discrepancy to blur alone, window context, insufficient teaching variation or decision rule alone from this one check.",
+  "next_recommendation": "Review a clearer transition example with distinct E, mixed and P fields. Preserve this result. No training until a broader reviewed teaching set and separate evaluation choice are specified.",
+  "model_or_rule_changed": false,
+  "default_model_promoted": false
+}

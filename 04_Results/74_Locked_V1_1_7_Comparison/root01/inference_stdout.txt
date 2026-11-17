@@ -1,0 +1,8 @@
+{
+  "T_source_xy": [
+    10729.043561087425,
+    948.0319107777351
+  ],
+  "output": "${ROOTSPAN_PROJECT}/04_Results/74_Locked_V1_1_7_Comparison/root01/inference"
+}
+

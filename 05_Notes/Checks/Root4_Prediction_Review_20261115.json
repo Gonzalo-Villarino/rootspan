@@ -1,0 +1,37 @@
+{
+  "prediction_folder": "${ROOTSPAN_PROJECT}/04_Results/32_Root4_Prediction/view_20261115T132047Z_70i13lvb",
+  "saved_inputs_and_prediction_hashes_verified": true,
+  "numeric_confusion_verified": [
+    [
+      15320,
+      11057,
+      891
+    ],
+    [
+      18847,
+      5449,
+      506
+    ],
+    [
+      47,
+      260,
+      711879
+    ]
+  ],
+  "class_match_percent": {
+    "Periderm": 56.183071732433625,
+    "Endoderm": 21.970002419159744,
+    "Background": 99.95689328349617
+  },
+  "labelled_background_share_percent": 93.18683791818448,
+  "overall_labelled_match_percent": 95.864213038563,
+  "labelled_tissue_correct_tissue_class_percent": 39.88669099289418,
+  "labelled_tissue_predicted_as_either_tissue_percent": 97.3170731707317,
+  "artefact_centre_reference_and_prediction": [
+    3,
+    3
+  ],
+  "further_training_updates": 0,
+  "interpretation": "Strong agreement on labelled background; poor Periderm/Endoderm distinction on another root. High overall agreement is dominated by Background. Evidence of limited transfer from one training patch, not a diagnosis of the exact visual shortcut.",
+  "next_proposal": "Keep root4 as a validation/checking example; expand training examples from other roots, then compare against the same frozen root4 reference. Future independent evaluation needs separate source slides."
+}

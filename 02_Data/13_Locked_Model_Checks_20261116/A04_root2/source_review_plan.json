@@ -1,0 +1,68 @@
+{
+  "source": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png",
+  "source_sha256": "529ad2cf67513b8a4a4bae737261ff068fca498c166a5bf2d073d59ad713fe4c",
+  "root_number_from_top": 2,
+  "source_box_xyxy": [
+    6200,
+    2000,
+    11400,
+    3400
+  ],
+  "selection": "Next root on familiar A04 slide, after checking roots 1 and 3. Selected before this root is predicted by locked v1; archived source overview used for location.",
+  "labels_pending": true,
+  "model_prediction_done": false,
+  "prepared_utc": "2026-11-16T15:57:35.810513+00:00",
+  "review_fields": [
+    {
+      "name": "A",
+      "source_box_xyxy": [
+        7200,
+        2561,
+        7600,
+        2841
+      ],
+      "biological_label": null
+    },
+    {
+      "name": "B",
+      "source_box_xyxy": [
+        8300,
+        2490,
+        8700,
+        2770
+      ],
+      "biological_label": null
+    },
+    {
+      "name": "C",
+      "source_box_xyxy": [
+        9800,
+        2455,
+        10200,
+        2735
+      ],
+      "biological_label": null
+    }
+  ],
+  "selection_detail": "Next numbered root after root 1. Detail fields placed away from conspicuous lateral junctions using source microscopy alone; no detector scores consulted.",
+  "selection_limit": "Additional root on the familiar A04 slide, not a fresh independent slide or pristine blind test. Original PAT encoder exposure unknown.",
+  "teaching_status": "The frozen appearance head was taught on COL0 roots 2 and 3, not this A04 root.",
+  "image_only_preparation": true,
+  "training_done": false,
+  "reference_status": "Awaiting expert A/B/C appearance review; old archive polygons not treated as confirmed tissue truth.",
+  "checkpoint": "${ROOTSPAN_PROJECT}/06_Models/Locked_Transition_v1_20261116",
+  "checkpoint_integrity": {
+    "passed": true,
+    "files": 40,
+    "version": "Transition_v1_20261116",
+    "read_only_checked": true,
+    "manifest_sha256": "d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb"
+  },
+  "display": "Overview downscaled; details enlarged nearest-neighbour. Native crops preserved. No brightness adjustment, sharpening, or restoration.",
+  "calibration": "A04 scale not confirmed; no micrometre lengths.",
+  "next": "Record expert review, prepare and visually check image-only main-root route, then use the unchanged locked checkpoint.",
+  "visual_qa": {
+    "passed": true,
+    "finding": "Overview and three native-derived detail panels visible; fields lie on the continuous main root away from the two conspicuous branch junctions. A includes a separate thin fluorescent strand above the root; no tissue identity inferred for that strand. Labels readable and no model T shown."
+  }
+}

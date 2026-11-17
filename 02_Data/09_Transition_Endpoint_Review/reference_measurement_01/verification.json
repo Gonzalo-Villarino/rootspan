@@ -1,0 +1,8 @@
+{
+  "verified_utc": "2026-11-16T11:41:30.451405+00:00",
+  "total_equals_periderm_plus_endoderm": true,
+  "calibration_unit_check_5299_pixels_equals_10000_um": true,
+  "source_hash_unchanged": true,
+  "figure_visually_inspected": "All text readable; Endoderm line green, Periderm line red, L/T/J marked. Unchanged main-root route and explicit human-guided reference provenance.",
+  "new_training": false
+}

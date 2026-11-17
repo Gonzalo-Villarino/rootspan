@@ -1,0 +1,26 @@
+{
+  "initial_model_sha256": "234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633",
+  "old_manifest_sha256": "a476eb0d53508ea3ecf43ba59acff730ac8e114ad9ac11eda87dec215dccc82a",
+  "new_manifest_sha256": "d822faabd16d1ea66cfba312b3521029da8a2f5a124dcb1eff847dfbefcc1bfc",
+  "seed": 1511,
+  "updates": 400,
+  "training_slides": 4,
+  "new_data_role": "Assistant-prepared sparse TRAINING labels based on user-confirmed tissue identities; not independent ground truth.",
+  "batch": "6 fields: 2 from clearer new crop (one centred on each tissue), 1 from confirmed Periderm crop, 2 archived mixed-tissue fields, 1 archived explicit Background field. 512 native pixels, random position, paired rotation/flip, gain0.8-1.2.",
+  "loss": "New-label balanced CE+0.5Dice +0.25 archived-label balanced CE/Dice +2.0 class-balanced KL to frozen initial model on archived training fields only. No development-reference input to gradients.",
+  "trainable": "Decoder and segmentation head only; whole encoder and all BN running statistics frozen.",
+  "learning_rates": {
+    "decoder_head": 1e-05,
+    "encoder": 0
+  },
+  "selection": "Check fixed steps100,200,300,400. Eligible if minimum recall on present classes in both new sparse training masks >=0.95 and old development tissue meanIoU >=0.60. Choose eligible checkpoint with highest old development tissue meanIoU; if none, preserve initial model as default and report adaptation inconclusive.",
+  "development_role": "MT25 root4 reused for selection; not independent. Original PAT exposure unknown.",
+  "postprocessing": "None in adaptation or selection.",
+  "prediction_input": "Image only. Reference masks used for loss/metrics separately.",
+  "method": "Preserve old training-image predictions with frozen teacher; update decoder/head only.",
+  "elapsed_seconds": 136.60266395799408,
+  "selected_step": null,
+  "selected_check": null,
+  "selected_weights_sha256": null,
+  "original_files_unchanged": true
+}

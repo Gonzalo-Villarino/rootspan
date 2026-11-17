@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-11-16T08:45:24.907995+00:00",
+  "data_manifest": "${ROOTSPAN_PROJECT}/04_Results/53_Selected_Teaching_Data/manifest.json",
+  "manifest_sha256": "0394180efd4217d4e88f030385c1773918807aadb6431e1c0042bebc09e7e945",
+  "initial_weights": "04_Results/54_Refinement_Experiments/baseline39_extended4.pt",
+  "initial_sha256": "84ad5241f596170b969963da49fba58a0c86e579dd9dd4aff2904ca3f6352bb5",
+  "role": "Development-guided refinement, not blind final testing",
+  "training_sources": [
+    "20#MT28_gfp",
+    "25717_gfp",
+    "MT25_rep3"
+  ],
+  "training_root_count": 14,
+  "development_image": "${ROOTSPAN_PROJECT}/04_Results/52_Reference_Check_20261116/image.png",
+  "reference_sha256": "2be0b391887b5608527ee3315d21ab4a1130f19dca2a65dfeb8c42f0df37a6b3",
+  "dev_in_training": false,
+  "reserved_test_used": false,
+  "class_order": [
+    "Periderm",
+    "Endoderm",
+    "Background",
+    "Lateral_root"
+  ],
+  "class_codes": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unknown_and_conflicts_ignored": [
+    0,
+    255
+  ],
+  "initial_ancestry": "Initial accepted3classbaseline39 extended with publishedPAT lateral-root head. Previouslocaltrainingincluded16roots3slides; currentgradientsrestrictedto14selectedroots. No20_29adaptationcheckpointused; publicPATancestryunknown.",
+  "augmentation": "Native512 crop, paired rotations/flips, gain0.8-1.2. No resizing/gamma/blur.",
+  "batch": "4 fields:2mixed-transition,1rotatingP/E/LR,1explicitBackground. Class-balanced CE+.5Dice. All batchnorm running stats frozen.",
+  "trainable": "decoder/head andencoderstages2-4",
+  "learning_rate_decoder": 3e-05,
+  "seed": 1611,
+  "updates_requested": 1000,
+  "selection": "Highest raw development mean Periderm/Endoderm IoU; score every50updates. Save full trace and never represent as an independent test. No forced left/right boundary.",
+  "target_for_success_on_this_crop": "Both tissue recalls>=.85, both tissue precisions>=.85, labelled Background recall>=.98, tissue meanIoU>=.75. Even passing is not validation on hundreds of images.",
+  "augmentation_mode": "mild",
+  "completed_steps": 1000,
+  "best_step": 350,
+  "best_tissue_mean_iou": 0.5167988923174549,
+  "model_sha256": "586851352e87c9eeec640b9e30048de065feb0e3d491383ca7133f7744407c11",
+  "elapsed_seconds": 231.75208554099663
+}

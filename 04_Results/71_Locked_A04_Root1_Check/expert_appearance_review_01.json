@@ -1,0 +1,46 @@
+{
+  "recorded_utc": "2026-11-16T15:44:03.367396+00:00",
+  "expert": "Gonzalo Villarino",
+  "verbatim": "A is endoderm, C is Perid, B is T",
+  "fields": [
+    {
+      "name": "A",
+      "source_box_xyxy": [
+        4000,
+        510,
+        4400,
+        790
+      ],
+      "biological_label": "Endoderm",
+      "appearance_state": 0
+    },
+    {
+      "name": "B",
+      "source_box_xyxy": [
+        5800,
+        120,
+        6200,
+        400
+      ],
+      "biological_label": "Mixed / transition",
+      "appearance_state": 1
+    },
+    {
+      "name": "C",
+      "source_box_xyxy": [
+        6800,
+        11,
+        7200,
+        291
+      ],
+      "biological_label": "Periderm",
+      "appearance_state": 2
+    }
+  ],
+  "interpretation": "A Endoderm, B mixed/transition appearance, C Periderm on the main root.",
+  "exact_T_source_xy": null,
+  "exact_T_interval": null,
+  "scope": "Qualitative field identities, not exact left-edge coordinates or pixel masks.",
+  "used_for_training": false,
+  "recorded_before_this_prediction": true
+}

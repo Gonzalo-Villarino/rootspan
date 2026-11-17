@@ -1,0 +1,249 @@
+{
+  "passed": false,
+  "folds": [
+    {
+      "held_out_slide_root": "COL0_root3",
+      "expected_T": 11840.0,
+      "result": {
+        "T_path_pixels": 11904.0,
+        "accepted": true,
+        "best_candidate": {
+          "index": 184,
+          "cost": 57.72492062416447,
+          "T_distance_pixels": 11904.0,
+          "E_support": [
+            0,
+            5,
+            10,
+            15,
+            20,
+            25,
+            30,
+            35,
+            40,
+            45,
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            80,
+            85,
+            90,
+            95,
+            100,
+            105,
+            110,
+            115,
+            120,
+            125,
+            130,
+            135,
+            140,
+            145,
+            150,
+            155,
+            160,
+            165,
+            170,
+            175,
+            180
+          ],
+          "P_support": [
+            184,
+            189,
+            194,
+            199,
+            204,
+            209,
+            214,
+            219,
+            224,
+            229,
+            234,
+            239,
+            244,
+            249,
+            254,
+            259,
+            264,
+            269,
+            274,
+            279,
+            284,
+            289,
+            294
+          ]
+        },
+        "all_E_cost": 281.44682409957164,
+        "all_P_cost": 319.15277729954784,
+        "mean_gain": 0.7583793338149396,
+        "reason": "regional_change_supported",
+        "near_optimal_range_pixels": [
+          11264.0,
+          12288.0
+        ],
+        "range_is_not_confidence_interval": true,
+        "scores_not_calibrated": true
+      },
+      "controls": [
+        {
+          "region": 0,
+          "windows": 171,
+          "T": null
+        },
+        {
+          "region": 1,
+          "windows": 100,
+          "T": null
+        }
+      ],
+      "passed": true,
+      "p_min": 0.14669801015385353,
+      "p_max": 0.9562618177804543,
+      "fit": {
+        "samples": 26,
+        "objective_final": 0.4605277658689494,
+        "closure_evaluations": 31,
+        "weight_norm": 12.827581466800623
+      }
+    },
+    {
+      "held_out_slide_root": "A04_root3",
+      "expected_T": 2048.0,
+      "result": {
+        "T_path_pixels": 3136.0,
+        "accepted": true,
+        "best_candidate": {
+          "index": 47,
+          "cost": 28.09212047984739,
+          "T_distance_pixels": 3136.0,
+          "E_support": [
+            0,
+            5,
+            10,
+            15,
+            20,
+            25,
+            34,
+            39,
+            44
+          ],
+          "P_support": [
+            47,
+            53,
+            58
+          ]
+        },
+        "all_E_cost": 36.69726914568126,
+        "all_P_cost": 74.71515167936239,
+        "mean_gain": 0.1387927204166753,
+        "reason": "regional_change_supported",
+        "near_optimal_range_pixels": [
+          3136.0,
+          3200.0
+        ],
+        "range_is_not_confidence_interval": true,
+        "scores_not_calibrated": true
+      },
+      "controls": [
+        {
+          "region": 0,
+          "windows": 18,
+          "T": null
+        },
+        {
+          "region": 1,
+          "windows": 20,
+          "T": null
+        }
+      ],
+      "passed": false,
+      "p_min": 0.05007533677872924,
+      "p_max": 0.9241449188940991,
+      "fit": {
+        "samples": 73,
+        "objective_final": 0.19478401683334068,
+        "closure_evaluations": 29,
+        "weight_norm": 12.91913798730114
+      }
+    },
+    {
+      "held_out_slide_root": "2_12_root1",
+      "expected_T": 5056.0,
+      "result": {
+        "T_path_pixels": 4800.0,
+        "accepted": true,
+        "best_candidate": {
+          "index": 73,
+          "cost": 35.3825995996031,
+          "T_distance_pixels": 4800.0,
+          "E_support": [
+            0,
+            5,
+            10,
+            15,
+            21,
+            26,
+            31,
+            37,
+            42,
+            47,
+            52,
+            57,
+            62,
+            67,
+            72
+          ],
+          "P_support": [
+            73,
+            78,
+            83,
+            88,
+            93,
+            98,
+            103,
+            108,
+            113
+          ]
+        },
+        "all_E_cost": 105.02676260955735,
+        "all_P_cost": 102.75231541859993,
+        "mean_gain": 0.5858236158173638,
+        "reason": "regional_change_supported",
+        "near_optimal_range_pixels": [
+          4544.0,
+          4992.0
+        ],
+        "range_is_not_confidence_interval": true,
+        "scores_not_calibrated": true
+      },
+      "controls": [
+        {
+          "region": 0,
+          "windows": 65,
+          "T": null
+        },
+        {
+          "region": 1,
+          "windows": 26,
+          "T": null
+        }
+      ],
+      "passed": true,
+      "p_min": 0.10966083547790445,
+      "p_max": 0.9255050386589746,
+      "fit": {
+        "samples": 63,
+        "objective_final": 0.41569432855922234,
+        "closure_evaluations": 28,
+        "weight_norm": 12.644019363686327
+      }
+    }
+  ],
+  "one_seven_features_read": false,
+  "purpose": "Training-only exploratory sanity gate; not accuracy validation.",
+  "unique_roots": 3,
+  "unique_slides": 3
+}

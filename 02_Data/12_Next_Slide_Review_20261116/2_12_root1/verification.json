@@ -1,0 +1,11 @@
+{
+  "source_review_inspected": true,
+  "source_figures_show_upper_main_root": true,
+  "fields_unlabelled_pending_expert": true,
+  "model_head_and_encoder_hashes_unchanged": true,
+  "no_inference_or_training_this_step": true,
+  "preserved_historical_A04_results": true,
+  "expert_acceptance_record": "${ROOTSPAN_PROJECT}/04_Results/67_Fixed_A04_Root3_Check/BIOLOGICAL_REVIEW_ACCEPTED_20261116.json",
+  "A04_acceptance_figure_visual_check": "Passed: blue T remains in original position; caption explicitly reports post-prediction expert acceptance, with scope and unchanged model.",
+  "review_field_B_branch_note": "A lateral root is visible rising on the right of B. Expert should assess main-root cells only; do not label the branch from this review."
+}

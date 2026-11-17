@@ -1,0 +1,56 @@
+{
+  "source": "Existing saved predictions only; no new inference.",
+  "selected_mixed_run": {
+    "state": 1,
+    "start": 22,
+    "stop_exclusive": 46,
+    "samples": 24
+  },
+  "mixed_run_source_centres": [
+    [
+      4928.647182265663,
+      494.4921587905228
+    ],
+    [
+      6364.579388830766,
+      183.69191646878045
+    ]
+  ],
+  "first_mixed_field_scores_Endoderm_Periderm": [
+    0.991834282875061,
+    0.5839659571647644
+  ],
+  "interpretation": "The head predicts both appearances for 24 consecutive overlapping windows beginning well before the expert interval. This is not just an isolated early mixed burst.",
+  "continuity_guard_audit": {
+    "original_candidate": {
+      "mixed_run": {
+        "state": 1,
+        "start": 22,
+        "stop_exclusive": 46,
+        "samples": 24
+      },
+      "preceding_clear_Endoderm": {
+        "state": 0,
+        "start": 15,
+        "stop_exclusive": 20,
+        "samples": 5
+      },
+      "following_clear_Periderm": {
+        "state": 2,
+        "start": 50,
+        "stop_exclusive": 79,
+        "samples": 29
+      },
+      "T_distance_pixels": 1536.0
+    },
+    "retained": true,
+    "contradictory_E_only_runs": []
+  },
+  "guard_result": "No long clear-Endoderm return before the supporting Periderm run; the fixed continuity rule retains this candidate.",
+  "not_established": [
+    "What visual feature caused the false mixed predictions",
+    "A causal effect of blur or lateral-branch context",
+    "That a manual shift or extra iterations will generalize"
+  ],
+  "window_counts_are_not_independent_samples": true
+}

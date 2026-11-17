@@ -1,0 +1,85 @@
+{
+  "purpose": "Visual comparison on the SAME training pair; not an independent test.",
+  "created_utc": "2026-11-13T16:02:55.628329+00:00",
+  "device": "mps",
+  "sources": {
+    "run_folder": "${ROOTSPAN_PROJECT}/04_Results/08_Three_Class_Training/run_20261113T155717Z_elwd4ak7",
+    "weights_sha256": "c4f864c0e7cb33409a2f1cd6643d5bed326ab1d4738ab85c234ee5fec89beb9a",
+    "trial_details_sha256": "693b9507841f8a4eaf7b0c609255f98c9e70e4d316aaba3bc516da4baf4846c0",
+    "image_sha256": "0efb453e036ce7ae39d775c87e8d4886c950ae5f352b6738d004bd309cacaa3c",
+    "mask_sha256": "366d8df8b688b70916718660ad2f2bc4a987a4f62b6515b9f44af3880b269002",
+    "model_definition": "${ROOTSPAN_PROJECT}/04_Results/08_Three_Class_Training/run_20261113T155717Z_elwd4ak7/programs/09_three_class_unet.py",
+    "model_script_sha256": "47e8efff86b1b276e0cae5f29d6cbc6c6f10a435fbf6eb3a0241c4751fbd2962",
+    "base_model_script_sha256": "5d1e3c0ae9177839234113f8a1344a5952786190da93dcdc5f48bd482b1aeec8"
+  },
+  "source_patch_id": "MT25_rep3_practice_r000_c007",
+  "script_sha256": "a7add7698e4ac317506c9b1361e2cdeecec6aceb5754ba5b09b8c1cfd193ce18",
+  "model_script_sha256": "47e8efff86b1b276e0cae5f29d6cbc6c6f10a435fbf6eb3a0241c4751fbd2962",
+  "training_updates": 200,
+  "further_training_updates": 0,
+  "metrics": {
+    "labelled_pixels": 84014,
+    "agreement_on_training_pair": 0.9971076249196562,
+    "class_order": [
+      "Periderm",
+      "Endoderm",
+      "Background"
+    ],
+    "confusion_rows_truth_columns_prediction": [
+      [
+        21274,
+        174,
+        0
+      ],
+      [
+        69,
+        37265,
+        0
+      ],
+      [
+        0,
+        0,
+        25232
+      ]
+    ],
+    "predicted_counts_on_labelled_area": {
+      "1": 21343,
+      "2": 37439,
+      "3": 25232
+    },
+    "predicted_counts_on_unlabelled_area": {
+      "1": 3941,
+      "2": 26431,
+      "3": 934142
+    },
+    "predicted_counts_on_whole_patch": {
+      "1": 25302,
+      "2": 63900,
+      "3": 959374
+    },
+    "scope": "Only labelled training-patch pixels are scored; unlabelled predictions have no reference answers."
+  },
+  "labelled_predictions_match_training_record": true,
+  "prediction_codes": {
+    "1": "Periderm",
+    "2": "Endoderm",
+    "3": "Background"
+  },
+  "prediction_pixels_hidden_or_replaced_using_truth": false,
+  "preview": {
+    "full_panel_scale": 0.5,
+    "closeup_box_in_patch": [
+      255,
+      61,
+      767,
+      317
+    ],
+    "closeup_scale": 1.0,
+    "selection_note": "Ground truth selects the display crop only AFTER full-image prediction."
+  },
+  "limitations": [
+    "Model assigns a category to every pixel, including unlabelled areas without reference answers.",
+    "Only reference codes 1, 2 and 3 are scored; 0 and 255 are excluded.",
+    "The visual comparison uses the training example and cannot assess generalization."
+  ]
+}

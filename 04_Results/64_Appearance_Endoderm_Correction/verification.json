@@ -1,0 +1,22 @@
+{
+  "original_three_example_result_reproduced_exactly": true,
+  "control_T_identical": true,
+  "D_matches_source_exactly": true,
+  "referenceT_unchanged": true,
+  "appearance_classes_still_balanced": true,
+  "raw_error_window_changed_M_to_E": true,
+  "T_shift_derived_from_predictions_only": true,
+  "no_fixed_rightward_offset": true,
+  "default_model_hash_unchanged": true,
+  "published_encoder_hash_unchanged": true,
+  "source_hash_unchanged": true,
+  "scores_finite": true,
+  "figures_visually_checked": [
+    "NEW_ENDODERM_EXAMPLE.png",
+    "added_endoderm_01/TEACHING_INPUTS.png",
+    "added_endoderm_01/ROOT3_TRANSITION_COMPARISON.png",
+    "BEFORE_AFTER_CORRECTION.png",
+    "added_endoderm_01/ROOT3_APPEARANCE_PROFILE.png"
+  ],
+  "figures_visual_check_complete": true
+}

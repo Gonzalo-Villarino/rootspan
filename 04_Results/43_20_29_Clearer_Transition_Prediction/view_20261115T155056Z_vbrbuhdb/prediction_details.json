@@ -1,0 +1,49 @@
+{
+  "source_image": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/02_Images_For_Labelme/20_29_evaluation.png",
+  "source_image_sha256": "df2ccc184dcbd52cdc35b8c6b8b92f32a863e678ca2a24d25aa2ba41ec11abd0",
+  "source_dimensions": [
+    14077,
+    8532
+  ],
+  "crop_box_xyxy_exclusive": [
+    5440,
+    4256,
+    6464,
+    5280
+  ],
+  "crop_pixels_resized_or_adjusted": false,
+  "crop_choice": "Fixed before prediction; clearer source area on another root, reviewed by Gonzalo.",
+  "pre_prediction_assessment": "Before prediction, Gonzalo identified Endoderm left, Periderm right, and a transition around the middle. No precise boundary or pixel reference mask was drawn.",
+  "human_assessment_used_as_model_input": false,
+  "model_run": "${ROOTSPAN_PROJECT}/04_Results/39_PAT_Transfer_Learning/run_20261115T140159Z",
+  "model_weights_sha256": "234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633",
+  "architecture": "PAT transfer model: UNet++ / ResNet34, three categories",
+  "model_checkpoint_update": 200,
+  "device": "mps",
+  "class_codes": {
+    "1": "Periderm",
+    "2": "Endoderm",
+    "3": "Background"
+  },
+  "normalization_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalization_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "training_updates_this_run": 0,
+  "reference_mask_read": false,
+  "postprocessing": "None; argmax of model category scores only.",
+  "prediction_sha256": "e0b3e79cbf1ac9fcf832a6ad2fbe77121ffd4ead5f56975585c9fcf47d1a2200",
+  "crop_sha256": "0a0ce535a2caaf6de5ae13971b29da297734d32503cb3e79787ca8df2b3b22ad",
+  "script_sha256": "878cc514e4acf47caf2d82598dbbb147d0ebe53d5634a9517a470b9c3281fe63",
+  "accuracy_measured": false,
+  "included_in_our_recent_training": false,
+  "original_PAT_training_exposure": "Not established; not a proven independent test.",
+  "scope": "One crop, not the full slide. Lateral roots have no separate class in this model.",
+  "inputs_unchanged": true
+}

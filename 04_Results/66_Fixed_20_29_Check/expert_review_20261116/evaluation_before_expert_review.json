@@ -1,0 +1,10 @@
+{
+  "checked_utc": "2026-11-16T13:23:44.763096+00:00",
+  "evaluation": "${ROOTSPAN_PROJECT}/04_Results/66_Fixed_20_29_Check",
+  "outcome": "No supported T on 20_29 root4. Endoderm region called mixed; no clear E-only run.",
+  "new_training": false,
+  "weights_or_settings_changed": false,
+  "model_remains_research_candidate": true,
+  "no_automatic_length_claim": true,
+  "next": "Broader reviewed teaching examples and separate-image evaluation; do not erase this failed baseline."
+}

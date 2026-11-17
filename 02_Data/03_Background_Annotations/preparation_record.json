@@ -1,0 +1,28 @@
+{
+  "purpose": "Working copy for a guided background annotation lesson",
+  "prepared_date_local": "2026-11-13",
+  "copies": [
+    {
+      "original": "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_practice_GV.json",
+      "working_copy": "${ROOTSPAN_PROJECT}/02_Data/03_Background_Annotations/MT25_rep3_background_GV.json",
+      "sha256": "80b37edf10853922ad794793c4911a4b43e2b7b0f374fad7484ab5a2f9c96879",
+      "byte_identical_at_preparation": true
+    },
+    {
+      "original": "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_practice.png",
+      "working_copy": "${ROOTSPAN_PROJECT}/02_Data/03_Background_Annotations/MT25_rep3_practice.png",
+      "sha256": "8b60e04adb22e4a474c77613253f9d165de0dc64cd739a0e4008fec73c75cf87",
+      "byte_identical_at_preparation": true
+    }
+  ],
+  "shape_counts_at_preparation": {
+    "Periderm": 6,
+    "Endoderm": 6,
+    "Background": 0
+  },
+  "human_has_opened_working_copy": true,
+  "background_annotations_added": false,
+  "new_mask_or_training_performed": false,
+  "opening_confirmed_date_local": "2026-11-13",
+  "opening_evidence": "Live Labelme window title shows 03_Background_Annotations image path and the 12 original tissue shapes."
+}

@@ -1,0 +1,170 @@
+{
+  "status": "Measurement/review proof ready; biological validation pending",
+  "manual_measurements_supplied": false,
+  "units": "MT25 original pixels; microscope scale unconfirmed",
+  "all_local_page_links_exist": true,
+  "python": "3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-27.2.1-arm64-arm-64bit-Mach-O",
+  "files": {
+    "OPEN_ME_REVIEW_AND_MEASURE.html": {
+      "sha256": "26ea51d784628fcefc7dfc7463b480e8a3519612803e7084b3f5a7a1c18ad655",
+      "bytes": 795351
+    },
+    "OPEN_ME_SIX_ROOT_LENGTHS.png": {
+      "sha256": "e66f56b8cb6de9887fdaf391a3b89265e7d84228026d80319ed7ebd5a93988fc",
+      "bytes": 424817
+    },
+    "SIX_ROOTS_compare_with_manual.csv": {
+      "sha256": "be63bc131ad9e0ecb0346022508a13aeb4378c944910147ec73fb476de7728ad",
+      "bytes": 890
+    },
+    "START_HERE.txt": {
+      "sha256": "c124048eff94fd28ce3a179d8a1b94644756ce04b6cce2d938885a3fde95eacf",
+      "bytes": 363
+    },
+    "annotations_snapshot.json": {
+      "sha256": "68bc9a54a55edabd8eca203123526068ef4fb5a8b2deb9b8d4278c20a82728ae",
+      "bytes": 119991
+    },
+    "build_proof.py": {
+      "sha256": "15c8b7cc85addab7c61bd4d910fc89de6d491eb1ab6c5afc3afe1107dd2541bd",
+      "bytes": 7497
+    },
+    "claude_review_status.json": {
+      "sha256": "4506f0f75106537f3ac6bc73b1d3463b0a74c89d2376472319c59a314705a5e1",
+      "bytes": 246
+    },
+    "create_review.py": {
+      "sha256": "29e5f6fffaf57ed823eb2d70e4d742eb5f480075463b86fffc01995701931141",
+      "bytes": 11179
+    },
+    "geometry_checks.json": {
+      "sha256": "13a22781cff4f94b032c5a16fc1fa2175ff05f19b4955e44854e10c46a0c0582",
+      "bytes": 1236
+    },
+    "programs/README.txt": {
+      "sha256": "7ebee8d631456fd81939b499b6a4902842b68c99fdf8823853912371ebc08545",
+      "bytes": 5721
+    },
+    "programs/build_proof.py": {
+      "sha256": "15c8b7cc85addab7c61bd4d910fc89de6d491eb1ab6c5afc3afe1107dd2541bd",
+      "bytes": 7497
+    },
+    "programs/create_review.py": {
+      "sha256": "29e5f6fffaf57ed823eb2d70e4d742eb5f480075463b86fffc01995701931141",
+      "bytes": 11179
+    },
+    "programs/measure_roots.py": {
+      "sha256": "5195809102b00923a11afe28c2e3e3f8f09c0da41d1545be0897ba70e7347d98",
+      "bytes": 13854
+    },
+    "programs/predict_slide.py": {
+      "sha256": "d6baa5aa9d0df499f8f25435a194f25e1094a4368a24bcb92659816bb6420871",
+      "bytes": 4909
+    },
+    "programs/reproduce_saved_demo.py": {
+      "sha256": "48f63134289b759bb508acab701afcacbf6eb04f9238670ad0bc31cf6cadc61a",
+      "bytes": 2297
+    },
+    "programs/requirements_ml_env.lock.txt": {
+      "sha256": "7e3a8b8e52034239e5a00ef734cce2799b1147d33a861b73f4204282bf8d1f4c",
+      "bytes": 553
+    },
+    "programs/run_new_slide.py": {
+      "sha256": "08942c1657b6fb76b42bf69d6cda3b654ae49e251c88ab996760c01f863cc0b8",
+      "bytes": 1580
+    },
+    "programs/test_geometry.py": {
+      "sha256": "e21cc89e0d842250079580c5322028215c0abc164c407443e8f5589165c12e95",
+      "bytes": 2454
+    },
+    "programs/write_walkthrough.py": {
+      "sha256": "bb1896fef082744738b00a46210078577bcd1419d7f2593493ddc38cf028155a",
+      "bytes": 8542
+    },
+    "proof_record.json": {
+      "sha256": "e17b0c539ebdce4e5291604da612ae7ee9a492a9c5cf5b790ac091d0cce0a56f",
+      "bytes": 1515131
+    },
+    "reproduction_verification.json": {
+      "sha256": "461c76f0930a40b89df447adf0dd12acbcbfe3e81100f7d9275adae361b6771b",
+      "bytes": 388
+    },
+    "review_browser_checks.json": {
+      "sha256": "4e67af8c832a20599e39500090a18354f79c72dc29e61dea148efe76ee0966ce",
+      "bytes": 232
+    },
+    "roots/root_1_annotation_assisted.png": {
+      "sha256": "4f8b24f272d988846d268b45d25bdd0d0149b25010008411892f7990ec92968e",
+      "bytes": 84376
+    },
+    "roots/root_1_source.jpg": {
+      "sha256": "2fd43e5a428898e2de14c1589abe8cc9c6f6fb53964a77c85da096e93a8badc6",
+      "bytes": 1070283
+    },
+    "roots/root_1_source.png": {
+      "sha256": "08f7dbd51eb08fd3543f545acc63bbf47ddef10bfc98ad10cb8617b1a854bd13",
+      "bytes": 5225073
+    },
+    "roots/root_2_annotation_assisted.png": {
+      "sha256": "ea3c81ad90de9ff0072b2d35c561578cecfad9353ed6396d19da97875772518e",
+      "bytes": 127853
+    },
+    "roots/root_2_source.jpg": {
+      "sha256": "c8c8b4f9108c753b03c456d4d56a5b4a726ac12168108ed0afd90a6f469d60b8",
+      "bytes": 1609367
+    },
+    "roots/root_2_source.png": {
+      "sha256": "8a7b7db0686225f07e60437ba367dca74f73065df1716091978b8fc80ef548ea",
+      "bytes": 8475879
+    },
+    "roots/root_3_annotation_assisted.png": {
+      "sha256": "ddcfb4c8009a6cb50f5e7dbac0ed3386ea962bd942c6f9b5feee1aeead951024",
+      "bytes": 141557
+    },
+    "roots/root_3_source.jpg": {
+      "sha256": "4dee00901942d64a07f57d3199a522b0b552e3f6ad1c2fb6c94857f858ccede6",
+      "bytes": 1531266
+    },
+    "roots/root_3_source.png": {
+      "sha256": "d7bfbed5d0f7482001b06c851830cc68da3b0f99d5a83b334218269b379bb906",
+      "bytes": 7791501
+    },
+    "roots/root_4_annotation_assisted.png": {
+      "sha256": "beb798a57873b9daf5d5fa2081d82eb1dae7a4f18f0a18d5acd8b1abbcaa0c69",
+      "bytes": 103147
+    },
+    "roots/root_4_source.jpg": {
+      "sha256": "7a401709d248931aa0658a1cb135056223ddcfb5deed84519c73db3ffafbbca6",
+      "bytes": 1057563
+    },
+    "roots/root_4_source.png": {
+      "sha256": "83efb11a5d7a07de6e017f3d8b7f090efc7cd700ff28892e6985aeaea3b5e0d4",
+      "bytes": 6074828
+    },
+    "roots/root_5_annotation_assisted.png": {
+      "sha256": "9a8709f59d848410982ba461e58db9b15c277540fa5c134dad1a2b72554fc4bd",
+      "bytes": 88931
+    },
+    "roots/root_5_source.jpg": {
+      "sha256": "6aead87ac44058dc5ccfa9a2be0687961c04b0b92fb463880ec797cfcc56e090",
+      "bytes": 1150827
+    },
+    "roots/root_5_source.png": {
+      "sha256": "85518d960cddaf571fa46473ec2fbfce6047752c4511edf4423b3277df198feb",
+      "bytes": 6482207
+    },
+    "roots/root_6_annotation_assisted.png": {
+      "sha256": "614e4d2d67ff12df855a6ebbc13b1c915714ecd3b33d71eb183f799e95bf5bf0",
+      "bytes": 100581
+    },
+    "roots/root_6_source.jpg": {
+      "sha256": "b123df8eb7aad72b40a911af74813f018a4e2c41ead9c96d4ef2921ca2418440",
+      "bytes": 990584
+    },
+    "roots/root_6_source.png": {
+      "sha256": "252fd0de3630396bf74e0aa8a4289c299b069d3d9afea3c31cf4ca2dfefa7a9f",
+      "bytes": 4877955
+    }
+  }
+}

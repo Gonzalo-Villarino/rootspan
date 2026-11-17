@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-11-17T09:42:15.776029+00:00",
+  "passed": true,
+  "reviewer": "project tooling visual inspection before inference",
+  "route_hashes": {
+    "1": "f460cf9f99e41559a5efc1a16db625bbdcc215903376eb1f1a283e07c79fa10a",
+    "2": "d0b869009373e54003690ac556acc520d62d49681e4006806b11d0dd5a5f8429",
+    "6": "feb6cf614b52d664044c5c932c7739a72f8256e58d21287e23959d4acc1b3efe"
+  },
+  "observations": {
+    "1": "White line follows top main root, bypasses lateral branches; J at source ROI right endpoint.",
+    "2": "White line follows second main axis and does not switch to the thin neighbouring third root.",
+    "6": "White line follows sixth main axis; avoids the long descending lateral/adjacent lower root. Small start curl is left of scan windows; length measurement is T to J."
+  },
+  "human_T_used_for_route": false,
+  "biological_transition_review": "Not performed or needed for geometry preparation; human T withheld from inference."
+}

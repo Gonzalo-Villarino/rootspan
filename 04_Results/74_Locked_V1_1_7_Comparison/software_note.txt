@@ -1,0 +1,1 @@
+Matplotlib3.11.2 and plotting dependencies installed in ml-env for figures. Existing numpy2.5.4 and Pillow13.0.0 retained. Locked model/source/settings unchanged.

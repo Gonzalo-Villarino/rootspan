@@ -1,0 +1,60 @@
+{
+  "date_local": "2026-11-14",
+  "old_prediction_folder": "${ROOTSPAN_PROJECT}/04_Results/16_Longer_Prediction/view_20261114T120155Z_vjd7xosn",
+  "new_prediction_folder": "${ROOTSPAN_PROJECT}/04_Results/20_Extra_Background_Prediction/view_20261114T131027Z_vrd8_y5o",
+  "weights_unchanged_verified": true,
+  "prediction_matches_training_confusion": true,
+  "current_labelled_pixels": 136002,
+  "current_labelled_fraction": 0.1297016143798828,
+  "old_red_rim_above_Endoderm": {
+    "pixels": 1294,
+    "new_predictions": {
+      "0": 0,
+      "1": 0,
+      "2": 1038,
+      "3": 256,
+      "255": 0
+    },
+    "new_reference": {
+      "0": 1294,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "255": 0
+    }
+  },
+  "32px_band_above_Periderm_x600_to1023": {
+    "old_green_pixels": 135,
+    "new_green_pixels": 5400,
+    "reference_at_new_green_pixels": {
+      "0": 5272,
+      "1": 0,
+      "2": 108,
+      "3": 0,
+      "255": 20
+    },
+    "old_green_on_unlabelled_only": 5,
+    "new_green_on_unlabelled_only": 5272
+  },
+  "new_Background_rectangles_in_patch": {
+    "pixels": 48845,
+    "old_predictions": {
+      "0": 0,
+      "1": 2741,
+      "2": 0,
+      "3": 46104,
+      "255": 0
+    },
+    "new_predictions": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 48845,
+      "255": 0
+    }
+  },
+  "current_green_inside_labelled_Periderm": 0,
+  "current_red_inside_labelled_Endoderm": 0,
+  "interpretation": "Added rectangles improved agreement at their labelled pixels but did not resolve ambiguous/unlabelled root-edge predictions. These band counts describe predicted colours, not biological error rates where reference is absent.",
+  "actions": "Read-only comparison of existing outputs. No training, inference, annotation or mask edits."
+}

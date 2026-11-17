@@ -1,0 +1,45 @@
+{
+  "recorded_utc": "2026-11-16T14:38:53.712908+00:00",
+  "expert": "Gonzalo Villarino",
+  "exact_statement": "A and B endoderm C Transition zone. Very bluerry image tho",
+  "image_quality": "Expert reports very blurry image; precision limited.",
+  "fields": [
+    {
+      "name": "A",
+      "source_box_xyxy": [
+        8200,
+        5058,
+        8600,
+        5338
+      ],
+      "biological_label": "Endoderm",
+      "appearance_state": 0
+    },
+    {
+      "name": "B",
+      "source_box_xyxy": [
+        9200,
+        4963,
+        9600,
+        5243
+      ],
+      "biological_label": "Endoderm",
+      "appearance_state": 0
+    },
+    {
+      "name": "C",
+      "source_box_xyxy": [
+        10000,
+        4906,
+        10400,
+        5186
+      ],
+      "biological_label": "Mixed / transition",
+      "appearance_state": 1
+    }
+  ],
+  "exact_T_left_edge": null,
+  "clear_Periderm_reviewed": false,
+  "scope": "Qualitative main-root field identities; not pixel annotations, exact T, or a whole-image label.",
+  "used_for_training": false
+}

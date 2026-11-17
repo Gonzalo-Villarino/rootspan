@@ -1,0 +1,253 @@
+{
+  "version": "low_detail_screen_0.1",
+  "status": "no_low_detail_flag",
+  "withhold_measurement": false,
+  "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+  "detail_limit": 0.001,
+  "contrast_limit": 4.0,
+  "low_detail_fraction": 0.0,
+  "near_transition_low_detail_fraction": 0.0,
+  "windows": [
+    {
+      "distance_pixels": 416.0,
+      "detail_ratio": 0.033824202703834745,
+      "contrast_95_5": 73.36016841317438,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 672.0,
+      "detail_ratio": 0.04494764565186753,
+      "contrast_95_5": 71.9992292838217,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 928.0,
+      "detail_ratio": 0.04677637462379853,
+      "contrast_95_5": 91.98725195422601,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 1184.0,
+      "detail_ratio": 0.07577681346323283,
+      "contrast_95_5": 71.00381953016593,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 1440.0,
+      "detail_ratio": 0.07811351072447971,
+      "contrast_95_5": 74.5117892818159,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 1696.0,
+      "detail_ratio": 0.06162045371247864,
+      "contrast_95_5": 60.74605189319819,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 1952.0,
+      "detail_ratio": 0.045498288301457836,
+      "contrast_95_5": 85.81464441333564,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 2208.0,
+      "detail_ratio": 0.04872097879885961,
+      "contrast_95_5": 95.0738307829362,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 2464.0,
+      "detail_ratio": 0.055765364946866965,
+      "contrast_95_5": 68.74074844033095,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 2720.0,
+      "detail_ratio": 0.04686177571773079,
+      "contrast_95_5": 74.50843860289892,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 2976.0,
+      "detail_ratio": 0.04606631105431885,
+      "contrast_95_5": 58.94047907410832,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 3232.0,
+      "detail_ratio": 0.05204166768533746,
+      "contrast_95_5": 60.689731351404106,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 3488.0,
+      "detail_ratio": 0.03756243545289534,
+      "contrast_95_5": 58.49401996595922,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 3744.0,
+      "detail_ratio": 0.032855331917615194,
+      "contrast_95_5": 69.76432848634055,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 4000.0,
+      "detail_ratio": 0.047470879977635404,
+      "contrast_95_5": 100.49246844755983,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 4256.0,
+      "detail_ratio": 0.05531396198849991,
+      "contrast_95_5": 86.55290864840285,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 4512.0,
+      "detail_ratio": 0.04579787702404157,
+      "contrast_95_5": 74.16297507379585,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 4768.0,
+      "detail_ratio": 0.05136381191972432,
+      "contrast_95_5": 101.28463877482524,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 5024.0,
+      "detail_ratio": 0.059513274616202747,
+      "contrast_95_5": 95.96203429194756,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 5280.0,
+      "detail_ratio": 0.07495258777049725,
+      "contrast_95_5": 108.45862742501185,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 5536.0,
+      "detail_ratio": 0.059875027122919915,
+      "contrast_95_5": 114.0169531630755,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 5792.0,
+      "detail_ratio": 0.05456387385732684,
+      "contrast_95_5": 78.17818772118042,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 6048.0,
+      "detail_ratio": 0.05653641323910849,
+      "contrast_95_5": 89.82556152507999,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 6304.0,
+      "detail_ratio": 0.05117318110670357,
+      "contrast_95_5": 99.62195063866612,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 6560.0,
+      "detail_ratio": 0.04688478261476716,
+      "contrast_95_5": 91.42795886755088,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 6816.0,
+      "detail_ratio": 0.06028417681097126,
+      "contrast_95_5": 117.45464306955498,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 7072.0,
+      "detail_ratio": 0.05908412033837504,
+      "contrast_95_5": 104.92428735881617,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 7328.0,
+      "detail_ratio": 0.056522684324849776,
+      "contrast_95_5": 103.1074786195311,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 7360.0,
+      "detail_ratio": 0.05360351066334514,
+      "contrast_95_5": 97.70803901473401,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 7584.0,
+      "detail_ratio": 0.04229228350993061,
+      "contrast_95_5": 103.38295171641484,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 7840.0,
+      "detail_ratio": 0.06979042893863606,
+      "contrast_95_5": 95.03651962596236,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 8096.0,
+      "detail_ratio": 0.07539667359660188,
+      "contrast_95_5": 96.08684843732325,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 8352.0,
+      "detail_ratio": 0.06556450657604616,
+      "contrast_95_5": 101.50174755603754,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 8608.0,
+      "detail_ratio": 0.05030421635280589,
+      "contrast_95_5": 90.81821059098527,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 8864.0,
+      "detail_ratio": 0.06707991895256987,
+      "contrast_95_5": 81.00519619080258,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 9120.0,
+      "detail_ratio": 0.05954078083530845,
+      "contrast_95_5": 71.5384034435266,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 9376.0,
+      "detail_ratio": 0.06298576486482296,
+      "contrast_95_5": 74.42318269367945,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 9632.0,
+      "detail_ratio": 0.0746718876790475,
+      "contrast_95_5": 83.73156872737904,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 9888.0,
+      "detail_ratio": 0.07275792632277497,
+      "contrast_95_5": 76.64533523329521,
+      "low_detail": false
+    },
+    {
+      "distance_pixels": 10144.0,
+      "detail_ratio": 0.08121018592002555,
+      "contrast_95_5": 81.64582111396419,
+      "low_detail": false
+    }
+  ],
+  "validated_blur_classifier": false
+}

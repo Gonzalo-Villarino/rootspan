@@ -1,0 +1,35 @@
+{
+  "source_image": "${ROOTSPAN_PROJECT}/02_Data/15_Additional_Slides_20261117/01_Current_Check/1_7.tif",
+  "source_sha256": "487d1086e4caaca419431a487beb131f050eece8ef8347283cabdf2f8a82a604",
+  "source_size_wh": [
+    15413,
+    8530
+  ],
+  "model_name": "published4",
+  "weights": "${ROOTSPAN_PROJECT}/00_Software/PAT_Reference/pat_state_dict.pt",
+  "weights_sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+  "class_codes": {
+    "Background": 0,
+    "Periderm": 1,
+    "Endoderm": 2,
+    "Lateral_root": 3
+  },
+  "lateral_root_available": true,
+  "prediction_input": "Image only; no annotations read.",
+  "scores": "uint16/65535 represents P score/(P score+E score), not calibrated biological probability. Published model sigmoid; working3 model softmax.",
+  "tiling": {
+    "size": 1024,
+    "context_each_side": 64,
+    "core_stride": 896,
+    "aggregation": "Each core pixel retained once; black exterior padding. No resizing."
+  },
+  "elapsed_seconds": 17.21663570898818,
+  "device": "mps",
+  "versions": {
+    "torch": "2.15.0",
+    "smp": "0.6.0",
+    "numpy": "2.5.4"
+  },
+  "original_files_unchanged": true,
+  "evaluation": "Proof of concept; no claim of independent performance."
+}

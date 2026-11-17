@@ -1,0 +1,31 @@
+Extracting frozen image features from 4 reviewed windows...
+Appearance-head update 1/500; loss 1.0979
+Appearance-head update 50/500; loss 0.1642
+Appearance-head update 100/500; loss 0.0830
+Appearance-head update 150/500; loss 0.0541
+Appearance-head update 200/500; loss 0.0397
+Appearance-head update 250/500; loss 0.0314
+Appearance-head update 300/500; loss 0.0260
+Appearance-head update 350/500; loss 0.0223
+Appearance-head update 400/500; loss 0.0196
+Appearance-head update 450/500; loss 0.0176
+Appearance-head update 500/500; loss 0.0161
+Scanning 295 fields along the previously reviewed root3 path...
+{
+  "result": "04_Results/64_Appearance_Endoderm_Correction/added_endoderm_01/result.json",
+  "teaching_classes": [
+    0,
+    1,
+    2,
+    0
+  ],
+  "ordered_counts": [
+    177,
+    14,
+    104
+  ],
+  "candidate_native_arc": 11456.0,
+  "expert_native_arc": 11918.425640533897,
+  "error_pixels": -462.4256405338965,
+  "candidate_within_reviewed_interval": false
+}

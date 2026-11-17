@@ -1,0 +1,8 @@
+{
+  "synthetic_direction_root_background_and_lateral_branch": "PASS",
+  "no_root_does_not_invent_transition": "PASS",
+  "20_29_A04_2_12_excluded_from_gradient_data": "PASS",
+  "teaching_data_hashes_and_rule_provenance": "PASS",
+  "preserved_working_model": "PASS",
+  "user_reference_unchanged": "PASS"
+}

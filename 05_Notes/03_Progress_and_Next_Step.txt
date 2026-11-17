@@ -1,0 +1,807 @@
+16 NOVEMBER 2026 — REFINEMENT RESULTS AND BIOLOGICAL REVIEW
+Completed eight neural-network experiments. Best raw development candidate is rule_derived_endoderm_v7 update500; saved separately in06_Models/20261116_Research_Candidate. Default working model unchanged. No candidate has passed the declared development gate or unattended length checks.
+Teaching:20 selected primary roots,4slides,356fields.20_29 is familiar development data, not blind testing. No20_29/A04/2_12 gradients. Published PAT pretraining membership unknown. A04 is now a reused Periderm-only comparison.
+Gonzalo reviewed the six cyan COL0 regions: "for the most part all are endoerm. in root 3 u see transition peri endo but tje bliue for all are endo". Recorded as broad tissue-identity confirmation, not precise contour/transition verification. Earlier training used these code-derived regions at half weight; historical manifests remain unchanged. No new training after this confirmation.
+20_29: raw Endoderm recall18.87% to73.30%, Periderm recall93.94% to79.88%, mean tissueIoU0.3667 to0.6219. Background recall100% only on labelled reference Background. Direction rule yields a cleaner division but still126px too far left. No success claim.
+A04 candidate recheck:6output tracks,5accepted reference matches, median absolute length difference24.73%, max43.73% among those5. One physical root split and another missing. Polygon-derived lengths are not independent manual measurements. Calibration unconfirmed; pixel units only.
+Image-only reproduction exactly matched predicted pixels AND probabilities. User reference and original model hashes unchanged. Independent external reviewer feedback unavailable(login required).
+Results:04_Results/58_Model_Review_20261116. Word addendum:05_Notes/07_Model_Refinement_Review_20261116.docx. Main manual preserved.
+Next: review precise transition/basal references on additional examples, improve tracing, and assess a frozen model on separate slides before biological measurements. Project is not finished; no validated automatic length model yet.
+
+EARLIER RECORDS BELOW
+
+16 NOVEMBER2026 — PROPOSED DATASET GROUPS BEFORE RETRAINING
+Checked5distinct local root slides, source hashes, archived JSON embedded image identity, dimensions/labels/coordinate bounds and source-only visual reviews. Both TIFF/PNG pairs identical; copies and crops are not new slides.
+Teaching candidates:20#MT28_gfp roots1-6;25717_gfp roots1-6;MT25 refinedroots4/5 =14roots across3slides. Existing archived annotations reused pending biology/Background/LR policy checks. MT25roots1/2/3/6 held for reconciliation because old andpractice start positions differ; neither annotator automatically deemed wrong.
+Development check:20_29,already used in diagnosis and rejected adaptation training. Not a final independent test. No20_29 in NEXT gradient training; do not initialize from20_29-adapted45/46 if using it as a development holdout. Baseline39 local gradients excluded20_29.
+Reserved test candidate:2_12; no local gradient training found, but predictions already viewed and originalPAT exposure unknown. No certified reference labels/manual lengths yet. This is provisional; additional freshslides needed for strong blind-final-test claims.
+All aliases/patches/augmentations stay with their source slide. Split only at whole-slide level, with acquisition/specimen grouping if later identified. Selection and diagnostics do not themselves improve model; labels and small reference set must be ready before training.
+Saved plan:02_Data/06_Dataset_Selection_20261116/READ_FIRST.txt andsplit_plan.json; visuals andaudit alongside. Shortcuts avoid copying large images.
+No training, new inference or source annotation modifications occurred. Next explain the three roles slowly; agree on consistent transition/base convention and prepare reviewed development reference, beginning with20_29root4clearer region.
+
+EARLIER RECORDS BELOW
+15 NOVEMBER 2026 — SIX ROOT LENGTH PROOF OF CONCEPT
+User asked project tooling to do the technical work autonomously and show a complete proof of concept.
+1. Checked PAT definition of length: primary-root centreline between basal/hypocotyl region and Periderm-Endoderm transition, with QC.
+2. Confirmed by user:20_29 and2_12 use0.5299pixels/um. Python can apply this without Fiji. MT25 calibration remains unconfirmed, so its table uses pixels.
+3. Saved full-slide image-only predictions and provisional measurements. Model weights unchanged. Detected six roots in MT25 after separating thin false connections;20_29 has seven primary roots.
+4. Kept model-only estimates separate from annotation-assisted lengths calculated from the six saved Periderm outlines. The latter are not model predictions or independent manual measurements.
+5. Built a local review page with zoom, line toggles, manual polyline tracing, undo, and CSV/JSON downloads. Independent manual measurements remain blank.
+6. Saved a new three-page Word walkthrough; the existing main Word manual was left intact because it was open and contains user edits.
+7. Verified geometric length, calibration, saved coordinates, browser actions and repeatability. The full rerun reproduced the prediction mask, scores and six lengths exactly.
+Outcome: usable measurement proof and review workflow; automatic biological transition detection is still not validated. Review one root and compare a manual length next.
+Start:04_Results/50_Six_Root_Length_Proof/OPEN_ME_REVIEW_AND_MEASURE.html
+Word:05_Notes/06_Periderm_Length_Proof_Walkthrough.docx
+Code:07_Periderm_Length_Proof
+
+EARLIER RECORDS BELOW
+LATEST — 15 November 2026: earlier working model retained; new adaptation not accepted as an overall upgrade.
+Final comparison and explanation: ${ROOTSPAN_PROJECT}/04_Results/47_Final_Model_Comparison/START_HERE_RESULTS.txt
+No more manual annotation required to run image-only predictions. Next biological review concerns the predicted transition on 20_29; no reliable automatic measurement claim.
+Word manual not updated this run.
+
+2026-11-15 — Opened the blank20_29reference image in Labelme for Gonzalo
+Gonzalo pasted the PNG path as a Terminal command and received Permission denied, then explicitly requested that project tooling fix the opening problem. This was an attempt to execute an image, not evidence of damaged permissions. No permissions were changed.
+Verified the reference PNG exists, is1024x1024RGB, has SHA2560a0ce535a2caaf6de5ae13971b29da297734d32503cb3e79787ca8df2b3b22ad, and has no matching JSON. Used the existing Labelme GUI via Open File and Go to Folder. The first clipboard paste did not replace a remembered old location; detected this from the chooser state, corrected the PathTextField explicitly, verified the intended filename selected, then clicked Open. No wrong image was opened or saved.
+Observed final GUI: title and status name20_29_root4_reference_GV.png, correct root crop visible, Fit to Window92.9%, Shape List empty, Label List empty,0of1annotated, Save disabled. No annotations were drawn, no JSON was created, no model inference or training occurred. Computer-use task completed and left Labelme ready for manual annotation.
+Next lesson: guide Gonzalo through the first Endoderm outline on the left main-root segment, based on his biological judgment. Leave uncertain transition pixels and the lateral branch unlabelled for now. The reference is for comparing with the saved prediction; drawing it does not automatically train the model. Word manual not edited; opening correction recorded here.
+
+
+2026-11-15 — Separate exact crop prepared for human reference annotation
+At Gonzalo's request for the next slow step, explained that we will make a small human answer key for comparison with the already-saved prediction. Prepared a separate byte-identical copy of program29's1024x1024input crop as02_Data/05_Training_and_Evaluation/02_Evaluation_Images/03_Your_Annotations/20_29_root4_reference_GV.png. Verified source hash, copied-file hash, RGB dimensions, saved prediction hash and unchanged model weights. No image modifications, human polygons, model inference or training occurred.
+The matching Labelme JSON does not exist at preparation. The reference/provenance JSON is saved separately in05_Notes/Checks/20_29_Reference_Preparation_20261115.json so the annotation folder contains only the practice image until Gonzalo saves annotations. The purpose is evaluation of this crop, not automatic retraining. Since the prediction has already been viewed, this will be an exploratory diagnostic reference, not blinded independent validation.
+NEXT USER ACTION: in Labelme choose Open File, use Command-Shift-G in the file chooser and paste the full PNG path, then open it. Stop when the exact root crop is visible and check the Shape List is empty. Do not draw yet; guide the first tissue polygon after the user confirms the view. If old shapes carry over, resolve that before annotating. Labels listed by name alone are not existing shapes.
+Subsequent intended scope: human-confirmed main-root Periderm/Endoderm and selected clear Background as needed for scoring; leave uncertain tissue and the lateral branch unlabelled instead of forcing their identity. This is a planned scope, not completed annotations. Preserve the original slide, source annotations, model and predictions. Word manual not edited; learning log updated.
+
+
+2026-11-15 — User's enlarged screenshot matches the fourth-root section already checked
+Gonzalo supplied Desktop/Screenshot 2026-11-15 at 4.54.19 PM.png (actual filename contains a narrow no-break space before PM), identifying the fourth root in20_29 as a clearer transition. Compared the attached enlarged view visually with candidate_B_cells.png and the latest prediction record. Matching landmarks include the central downward lateral branch, the smaller protrusion to its right and the same surrounding cell-wall pattern. This is the same root section included in program29's source box[5440,4256,6464,5280], not a newly tested region. The screenshot is an enlarged/clipped view; no exact screenshot-to-source pixel registration was performed.
+The enlarged view makes the morphology easier to inspect and is consistent with the user's prior qualitative Endoderm-left/Periderm-right assessment. Explain that the saved model already predicted this section mostly Periderm on both sides, despite the clearer biological view. Do not claim a new successful result, rerun the same input as a new experiment, or suggest that enlarging the display by itself changes the saved model input. The possible next step remains agreeing a small human reference on this clear main-root section to measure mismatch, not further searching for a model-friendly crop. No image, annotation, model, code or prediction changed during this comparison. Word manual not edited.
+
+
+2026-11-15 — Clearer20_29 transition prediction checked: expected tissue division not recovered
+Gonzalo ran program29 and asked whether the model found Endoderm left, Periderm right and the transition near the middle. Inspected43_20_29_Clearer_Transition_Prediction/view_20261115T155056Z_vbrbuhdb/OPEN_ME_image_and_prediction.png. Verified original-image and frozen-model hashes unchanged, result/crop/script hashes, exact source crop, valid normalized saved probabilities, and pixelwise argmax-to-mask equality. No training or cleanup occurred.
+Answer: not convincingly. The model predicts the main root predominantly red on both sides. Red on the right broadly agrees with Gonzalo's pre-prediction biological assessment. The left remains mostly red with scattered green islands, rather than a coherent Endoderm region. A green lateral branch must not be counted as success on the main-root Endoderm/Periderm distinction. There is no convincing single transition around the middle. Coarse root/background separation looks plausible but isolated tissue-coloured pixels remain. Relative to the user's qualitative reading, this is excessive Periderm assignment, not successful transition detection.
+Full-crop predicted counts are Periderm85065, Endoderm25264, Background938247; these are NOT accuracy. No human pixel reference exists and no precise boundary was measured. Failure in a clearer region means we cannot assume poor image quality alone explains the earlier mismatch. The exact cause (training examples, representation, image characteristics, etc.) is not isolated by this observation.
+Keep this fixed-model result as evidence of limited transfer to these20_29transition examples. No new crop, annotation, code, inference, training or postprocessing initiated. If proceeding, a small agreed reference on this clearer main-root region would permit measurement before selecting a training change; this is a proposed next step only. Detailed review saved to05_Notes/Checks/20_29_Clearer_Transition_Prediction_Review_20261115.json. Word manual not edited; this explanation is recorded in the learning log.
+
+
+2026-11-15 — Clearer transition confirmed by Gonzalo; program29 ready for his run
+Before seeing predictions, Gonzalo confirmed that candidate B is clearer: Endoderm on the left, Periderm on the right, transition around the middle. Recorded this in selection_details.json as a qualitative biological assessment, not a precise boundary or numeric pixel reference. No labels or spatial division were imposed on the model.
+After explaining the step, prepared03_Notebooks/29_predict_20_29_clearer_transition.py from program28, preserving the previous scripts and outputs. Same frozen PAT transfer model and weight hash, normalization, category order and inference block; no new training or continuity cleanup. Only the source crop, output folder, display coordinates and descriptive record changed. New crop[5440,4256,6464,5280] is1024x1024 and was verified pixel-identical to the reviewed candidate; close-up[0,210,1024,700] exactly matches the shown cells. No brightness changes or resizing of model inputs.
+Ran --check-only successfully: image/model hashes and dimensions verified; frozen model weights loaded strictly. AST verifies no train/backward/optimizer-step calls. No actual inference occurred, and43_20_29_Clearer_Transition_Prediction does not yet exist. Prediction is pending Gonzalo's command. It will save original crop, raw numeric and colour predictions, probabilities, code and provenance in a unique view folder under43_20_29_Clearer_Transition_Prediction, and open a comparison in Preview. The figure shows the complete reviewed strip at native pixel scale. No accuracy percentage is computed without a pixel reference.
+NEXT USER COMMAND:
+"${ROOTSPAN_PROJECT}/00_Software/ml-env/bin/python" "${ROOTSPAN_PROJECT}/03_Notebooks/29_predict_20_29_clearer_transition.py"
+Then inspect whether the raw model agrees qualitatively with the user's pre-prediction tissue assessment. The lateral branch remains present and has no separate class in this model. Do not force the model to agree or report measured transition accuracy without a reference. Word manual not edited; learning steps recorded for later integration.
+
+
+2026-11-15 — Clearer transition candidate B selected from another20_29 root; biology pending
+Gonzalo requested a clearer transition, allowing other roots/slides while keeping the model unchanged and proceeding slowly. Compared source-only native-pixel strips from seven root bands in20_29 aroundx6000 and six bands in2_12 aroundx10500, plus existing2_12cell views. No model predictions were used to choose candidates, and no model was loaded or run.
+Recommend candidate B on another root in20_29: the fourth primary-root band from the top atx6000 (a visual location, not a verified specimen ID). Compared with the previous ambiguous candidate, this crop has better-defined visible cell outlines and a change from more elongated shapes toward shorter/less regular shapes. A lateral branch is present; differences near its emergence must not be mistaken automatically for a Periderm-Endoderm transition. Biological identity and boundary remain for Gonzalo to confirm from the main root. Do not claim a proven transition solely from brighter fluorescence.
+Saved 05_Notes/Visual_Guides/20_29_Clearer_Transition_Selection/candidate_B_image.png: source crop[5440,4256,6464,5280],1024x1024. candidate_B_cells.png is a native-pixel display cut[0,210,1024,700] within that crop. candidate_B_wider_context.png shows source[5100,4370,6900,5070]. No brightness adjustment, resizing, added annotation or source edits. selection_details.json records all coordinates and the source-only survey. Contact sheets retained as evidence of the comparison. Added about3.7MB.
+Verified sourcePNG SHA remainsdf2ccc184dcbd52cdc35b8c6b8b92f32a863e678ca2a24d25aa2ba41ec11abd0 and saved-model SHA remains234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633. No new inference, training, postprocessing, human mask or annotation. Earlier ambiguous result retained; this is exploratory region selection, not an unbiased numerical evaluation.
+NEXT: show candidate_B_cells.png and ask whether Gonzalo can identify a transition more confidently, and approximately where along the main root. Wait for this biological check before preparing the next prediction. Word manual not edited; this note is saved for later integration.
+
+
+2026-11-15 — Second20_29 prediction inspected: mostly Periderm; transition not convincing
+Gonzalo ran program28 and asked whether the model found the transition. He reiterated that the microscopy was very poor and difficult to interpret. Inspected the full comparison in42_20_29_Transition_Prediction/view_20261115T153948Z_bmduly9w. Verified unchanged model/source hashes, saved crop/prediction/script hashes, exact original crop pixels, finite normalized probability array and exact argmax-to-mask equality. No training or cleanup occurred.
+The predicted band follows the general root shape and most surrounding space is Background. However, the root band is overwhelmingly red Periderm. Green Endoderm occurs at the far left, a small internal island and the far right; it does not form a convincing broad Endoderm-left/Periderm-right division matching Gonzalo's earlier qualitative reading. Counts across the entire crop: Periderm74480, Endoderm8713, Background965383; these counts are NOT accuracy. Do not describe the result as successful transition detection just because both colours appear.
+Poor image clarity reduces confidence in both the visual biological reference and interpretation of model errors. It may contribute to the prediction, but this single observation cannot establish that quality is the sole cause, or distinguish quality effects from model limitations. No precise human boundary or pixel reference exists, so exact transition placement remains inconclusive. The user's pre-prediction assessment is preserved; no fabricated ground truth.
+Proposed next slow step: leave the model unchanged and choose a clearer region with identifiable Endoderm and Periderm transition. Keep this ambiguous result as an example of image-quality limitations. Do not tune on this unclear example, force a clean transition using a rule, or claim accuracy percentages. No new crop, annotation, code, inference or training initiated during this review. Detailed verification saved to05_Notes/Checks/20_29_Transition_Prediction_Review_20261115.json. Word manual not edited; learning log updated for integration.
+
+
+2026-11-15 — User identified a possible transition; second prediction command ready
+Gonzalo described the candidate as a poor-quality image, with more Periderm-like cells to the right and more Endoderm-like cells to the left: a transition. Recorded his exact wording in the selection record before prediction. Treat this as a qualitative biological assessment with limited image clarity, not an exact pixel mask or a confidently located boundary.
+After explaining the next action, prepared 03_Notebooks/28_predict_20_29_transition.py, derived from program27. Only the crop, output location, display and descriptive record differ. Verified the normalization and inference code block is identical; frozen weight SHA remains234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633. Full-size source crop[4864,6144,5888,7168] matches the reviewed candidate exactly. Display includes the whole reviewed strip at native scale, source image above prediction. No brightness adjustment, reference mask, forced left/right labels, training or continuity rule is used. The user's interpretation is recorded in provenance only, never passed to the model.
+Input check passed: exact local source/weight hashes, expected image dimensions, strict three-class model load, and correct1024x1024 crop. AST confirms no training calls. No prediction output directory exists yet. Program28 will save a unique view in04_Results/42_20_29_Transition_Prediction and open Preview after Gonzalo runs it.
+NEXT USER COMMAND:
+"${ROOTSPAN_PROJECT}/00_Software/ml-env/bin/python" "${ROOTSPAN_PROJECT}/03_Notebooks/28_predict_20_29_transition.py"
+Then inspect image and prediction together; do not claim precise accuracy from this ambiguous region. Earlier models/predictions and source image remain unchanged. Word manual not edited; these steps are saved for later integration.
+
+
+2026-11-15 — First 20_29 Periderm identity confirmed; selecting an Endoderm/transition area
+Gonzalo explicitly confirmed that the main root band in the first 20_29 prediction crop is Periderm from cell shapes. This is a qualitative biological confirmation, not a pixel reference mask or measured accuracy. He requested another area containing Endoderm and the Periderm-Endoderm transition, with slow guidance.
+Explained that the saved model stays fixed and the new region will first be checked from microscopy without predictions. Inspected source-image-only crops farther left along the same root. Prepared candidate A, source box [4864,6144,5888,7168] (1024x1024, right/bottom exclusive), and a native-pixel close-up at relative box [0,280,1024,640]. This shows elongated cell shapes; its biological tissue identity and whether a transition lies inside remain for Gonzalo to confirm. Do not assert that it contains both tissues before confirmation.
+Saved source crop, display close-up and coordinates/hash provenance in 05_Notes/Visual_Guides/20_29_Transition_Selection. No model loaded, new predictions, annotations or training. Opened the cells preview for review. Next small user action: identify whether candidate A is clear Endoderm, Periderm, or contains a transition. No polygon is required. After his answer, locate the transition as needed and prepare the image-only prediction command; preserve the earlier result and frozen weights. Word manual not edited; notes saved for integration.
+
+
+2026-11-15 — First 20_29 prediction completed and inspected
+Gonzalo ran program27 and reported that the image opened and looked mainly Periderm. Inspected the saved two-panel view in 04_Results/41_New_Image_20_29_Prediction/view_20261115T152946Z_kc80hx_h. Verified hashes of prediction/crop/script, unchanged source and model, exact source crop, and pixelwise equality between numeric prediction and argmax of saved probabilities. No retraining or cleanup occurred.
+Prediction counts: Periderm99966, Endoderm12233, Background936377. These are predicted category amounts, NOT accuracy. The main root band is mostly red and surrounding dark space mostly yellow, with visually plausible coarse separation. The upward branch is partly green with red margins; small coloured spots and other green areas remain. The model has no separate Lateral root category. Do not describe the branch's green prediction as biologically correct without review, or imply that only Periderm was enabled: all three categories were available and used.
+Interpretation for learning: promising first visual result on one new-image crop. The model made its own prediction from RGB alone. It does not yet demonstrate reliable Endoderm recognition or transition placement on this slide. No reference mask exists, so no numerical accuracy claim is justified. Confirm main-band identity from the original microscopy/cell pattern with Gonzalo. Next consider an identifiable Endoderm/transition region and keep the model fixed. No further prediction, annotation or training initiated during review. Original PAT image exposure remains unverified.
+Full review evidence: 05_Notes/Checks/20_29_First_Prediction_Review_20261115.json. Word manual not edited; this review is recorded for later integration.
+
+
+2026-11-15 — First 20_29 image-only prediction command prepared; awaiting Gonzalo's run
+Explained the operation before preparing 03_Notebooks/27_predict_20_29.py: crop one 1024 x 1024 square from the local 20_29 PNG, apply the frozen saved PAT transfer model, and show microscopy beside direct predicted colours. No Labelme, human mask, training or continuity cleanup. This first view deliberately distinguishes the raw model from the earlier model-plus-rule result.
+The fixed source crop is [7988,5618,9012,6642] (exclusive right/bottom), selected by microscopy visibility before any predictions. Inspected the image crop: visible primary-root cell pattern, a lateral branch and other faint features. Biological class identity/transition is not assumed. This three-class model has no separate lateral-root class. No resizing or brightness change is applied to model inputs.
+The script checks source-image and saved-weight SHA256, matches the recorded class order, uses the original ImageNet RGB normalisation, model.eval(), requires_grad_(False), and torch.inference_mode(). It saves raw numeric class mask (1 Periderm,2 Endoderm,3 Background), colour preview, probabilities, unchanged source crop, a side-by-side image, code copy and provenance to a unique view folder beneath 04_Results/41_New_Image_20_29_Prediction. No accuracy percentages are computed without human reference labels. Original PAT exposure to this slide remains unverified; this is not a proven independent test.
+Ran --check-only successfully: verified hashes and crop dimensions, strictly loaded the saved weights into the three-category architecture. No inference/training occurred, and no result directory exists yet. Source script parsed successfully and contains no train/backward/optimizer-step calls. Final comparison images will be visually checked after Gonzalo runs the command. The script attempts to open the result in Preview.
+NEXT USER ACTION: paste the following single command in Terminal (works without activating an environment or changing folder):
+"${ROOTSPAN_PROJECT}/00_Software/ml-env/bin/python" "${ROOTSPAN_PROJECT}/03_Notebooks/27_predict_20_29.py"
+Ask Gonzalo to paste Terminal output and report when the picture opens. Do not claim a prediction has already been made. Word manual not edited; this step is logged for later integration.
+
+
+2026-11-15 — Two new slides copied; next lesson is prediction without new annotations
+Gonzalo authorised copying a few new images and organising training/evaluation folders, while keeping storage and RAM use modest. Copied 20_29.tif and 2_12.tif from SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/PAT_Paper_TIFs_2020_2023_Gonzalo_Villarino/Accessions_2023. Source originals unchanged. Local originals, full-resolution pixel-identical RGB PNGs, display-only overviews/cell crops and provenance are in 02_Data/05_Training_and_Evaluation/02_Evaluation_Images. Existing training images are referenced by three relative symlinks in 01_Training_Images, not duplicated. These are image references, not a replacement for the actual training-patch manifest.
+Verified local TIFF/PNG hashes, training symlink targets and unchanged saved-model/training-manifest/postprocessing hashes. Exact regular-file size of the new organised folder before this note: 769788175 bytes (0.770 GB; 734.1 MiB). Approximately 1.493 TiB of storage remains free; physical RAM is 36 GiB. Processed images one at a time. Current model was not trained or changed; no new predictions or annotations were made.
+Inspected both cell-detail montages. Recommend beginning with 20_29 because its sampled cell outlines are easier to see. This is a practical visibility judgement, not a confirmed biological transition annotation or model result. The filenames are absent from our recent training, but original public PAT pretraining exposure remains unverified; do not claim a proven independent test. Acquisition year is inferred only from the folder name; TIFF DateTime was absent.
+Gonzalo correctly asked why Labelme would be needed if the model is ready. Clarification: the saved model can predict from the RGB image alone; no new human annotations or mask are required as model inputs. Labelme would only be used later to create an independent human reference for scoring, or to prepare future training examples. Drawing labels does not itself teach the model. Do not make reannotation a prerequisite for the next prediction.
+NEXT: explain and prepare an image-only prediction on a manageable region of 20_29 with the saved model kept fixed. Show the source crop and raw prediction; any continuity cleanup must be separately identified and its single-root orientation assumptions checked. No new training. This is a new-image trial of a development model, not a declaration of scientific measurement accuracy. Guide slowly; do not ask Gonzalo to annotate the whole slide now.
+Files and provenance: 02_Data/05_Training_and_Evaluation/02_Evaluation_Images/evaluation_manifest.json. Recommended full image: 02_Images_For_Labelme/20_29_evaluation.png (the folder name describes compatibility, not a requirement to use Labelme). New annotation folder remains empty. Word manual not edited; this note is saved for later integration.
+
+
+
+
+FINAL CHECKED RESULT — 15 NOVEMBER2026
+Transition-focused transfer learning completed800 updates; best development checkpoint200. Raw root4 class recalls:Periderm84.11%,Endoderm73.39%,Background99.85%. Raw tissue IoU mean64.04%, versus24.14% for the old one-patch model. A separate image-score-only continuity rule further improved tissue IoU mean to76.85%:Periderm IoU81.09%,Endoderm IoU72.60%. Endoderm recall75.17%; Periderm recall100% but with6158 Endoderm false positives. This is not perfect segmentation. The transition starts too early; some artefact pixels remain misclassified.
+The selected rule was the same single-transition type rejected on the initial PAT benchmark; it became helpful after transition-focused adaptation improved the raw predictions. It is not the original PAT150px postprocessor. Root4 is development validation; original PAT training exposure unknown.
+Verified saved weights by hash/reload, exact reproduction of raw numeric prediction, unchanged reference hash, independent confusion-matrix recount, expected1024x1024 class codes, and synthetic checks of the rule (known transition recovered, Background unchanged, all-one-tissue allowed). No new annotations were drawn or overwritten. Reviewed both rendered comparisons.
+Open04_Results/40_Current_Improved_Result/OPEN_ME_root4_before_after.png. READ_ME_FIRST.txt explains the result, limitations and next step. Full metrics/weights/code/failed trials remain saved. Next:freeze this improved development version and use a separate source slide for independent evaluation, with biological labels confirmed before prediction. Word manual not edited.
+
+2026-11-15 — First root4 prediction inspected: Background transfers well; tissue distinction does not
+Gonzalo ran program19 and asked for a slow explanation and next step. Inspected 04_Results/32_Root4_Prediction/view_20261115T132047Z_70i13lvb/image_truth_prediction.png. Verified every recorded input fingerprint, unchanged model weights, saved prediction hash, and independently recomputed the confusion table from numeric prediction and reference masks. No further training: 0 updates.
+On the root4 pixels Gonzalo labelled: Periderm15320/27268 matched=56.18%; Endoderm5449/24802=21.97%; Background711879/712186=99.9569%. These are fractions of REFERENCE pixels in each category that received the matching prediction (class recall), not the reliability of every predicted red/green/yellow pixel. Periderm errors:11057 predicted Endoderm and891 Background. Endoderm errors:18847 predicted Periderm and506 Background. Background errors:47 Periderm and260 Endoderm.
+Visually the rough root band is found, but the left Endoderm region has extensive red Periderm predictions, and parts of the right Periderm region are predicted green.97.32% of labelled tissue pixels are called either tissue, but only39.89% receive the correct tissue subtype. Neither number assesses uncertain/unlabelled edges. The confirmed circular artefact centre is predicted Background, matching its reference label.
+Overall labelled-pixel agreement95.86% is dominated by Background, which accounts for93.19% of scored pixels. Do NOT present that overall figure as strong biological tissue classification.284320 unlabelled pixels remain unassessed.
+Lesson in simple words: the same unchanged model fitted its familiar root5 training patch very closely, but did not distinguish tissues reliably on a different root. This is limited generalization and a warning sign of overfitting to the small training example. It does not establish the exact shortcut (brightness, location, texture, etc.); no causal claim about microscope quality or annotation error follows from this result alone. Drawing root4 labels did not teach the model: those labels were used only to check its prediction.
+Proposed next lesson: keep root4 and its current reference as a checking/validation example; do not add root4 to training while claiming it is unseen. Expand training to multiple representative patches from other roots, keeping the U-Net structure initially unchanged, then compare the next version against the same root4 reference. Do not blindly train on the old101 patches, because they include root4 and stale annotations. First small action to guide next: select another clear root for training. No additional root selected, annotations edited, scripts written or training started in this review. Independent evaluation later requires separate source slides, not just crops from this slide.
+Detailed evidence saved in05_Notes/Checks/Root4_Prediction_Review_20261115.json. Word manual not edited; these findings and explanation are recorded for integration.
+
+2026-11-15 — Updated root4 mask verified; image-only prediction command ready
+Gonzalo ran program18 with --output 04_Results/31_Root4_Background_Check_Patch. Verified saved image/mask hashes, dimensions and modes. The RGB patch is pixel-identical to folder30. Exactly712186 mask pixels changed from0 to3; tissue labels unchanged. Current counts: unlabelled284320, Periderm27268, Endoderm24802, Background712186, conflict0. The confirmed artefact centre is code3.
+Prepared 03_Notebooks/19_predict_root4.py after explaining the next step. It loads the fixed600-update model from 27_Root5_Lower_Background_Training/run_20261115T121005Z_d_v61wde and the root4 pair in folder31. Checks weights/model-definition/pair fingerprints, source-slide identity and zero crop overlap. Loads strict saved weights, freezes the model and uses the existing program11 image-only prediction function in inference mode. The reference mask is used only for separate comparison and display, never as model input, never to hide or replace predictions. No optimizer or training is invoked. Old program11 and all earlier results remain unchanged.
+Ran program19 --check-only successfully: checked inputs and loaded saved weights but made NO prediction and wrote NO result files. Actual root4 prediction is still pending Gonzalo's command:
+python "${ROOTSPAN_PROJECT}/03_Notebooks/19_predict_root4.py"
+The normal command saves a unique view folder in 04_Results/32_Root4_Prediction, containing numeric prediction, colour preview, three-panel image/reference/prediction comparison, per-class labelled-pixel match metrics and provenance. It opens the comparison in Preview on macOS. The figure explicitly says root4 predicted by the root5 model, no further training, same slide/different root. No results have been observed yet. Ask Gonzalo to paste output and inspect together.
+This is a preliminary same-slide check, not independent evaluation on a new slide. Matching fractions exclude unlabelled/conflict pixels and are not whole-image accuracy. Word manual not edited; lesson notes updated for later integration.
+
+2026-11-15 — Command ready to rebuild root 4 reference mask with Background
+At Gonzalo's request for a slow Terminal step, added --output to program18 so he can save an updated matching pair in a new folder without overwriting folder30. The mask conversion and crop geometry are unchanged. The same RGB source pixels are used; current saved outlines now add the confirmed artefact and other Background regions to the reference mask.
+Input-only check passed using the new output argument: 0=284320; Periderm=27268; Endoderm=24802; Background=712186; conflict=0. Verified source annotation hash still 87d66b81fb93204ae9a57f730345a6305c18ab7211ed892ec093a729167937ee and 18 shapes. No patch outputs written by project tooling. Folder31 remains pending Gonzalo's run. No model was loaded, predicted or trained.
+Next USER action in Terminal with (ml-env):
+python "${ROOTSPAN_PROJECT}/03_Notebooks/18_prepare_root4_check.py" --output "${ROOTSPAN_PROJECT}/04_Results/31_Root4_Background_Check_Patch"
+Expected result: same root4 image patch plus updated numeric mask and colour preview in 04_Results/31_Root4_Background_Check_Patch. --output means where to save the new files. Ask Gonzalo to paste the output before proceeding to prediction with the fixed root5 model. Word manual not edited; the command and explanation are recorded here.
+
+2026-11-15 — Root 4 Background added in Labelme; artefact included after biological clarification
+Gonzalo ran program 18 successfully: 04_Results/30_Root4_Check_Patch contains the original root4 image/reference pair (27268 Periderm, 24802 Endoderm, no Background). Verified saved PNG dimensions, modes, hashes and numeric counts; inspected image and colour mask visually. No root4 prediction has been run and no program 19 has been written.
+Gonzalo then requested Background labels and explicitly asked project tooling to draw them. Backed up the 16-shape source JSON in 05_Notes/Checks/Root4_Background_20261115T125635Z/before_annotation.json. Added an upper 29-vertex and lower 28-vertex Background polygon through Labelme GUI. The lower polygon initially excluded a circular fluorescent feature because its identity was unclear. Gonzalo explicitly identified it as an artefact, not tissue. Adjusted the lower polygon in the GUI to INCLUDE that feature as Background. Background can include non-tissue imaging artefacts, not only black pixels. Do not infer tissue identity from fluorescence brightness alone.
+An initial file check caught that only the upper polygon had saved while the lower outline was still being completed. Corrected the GUI state, finished the lower polygon, adjusted its points to include the confirmed artefact, and clicked Save. Final GUI state: editing mode, Saved, Save button disabled. Final file verification: 18 shapes; all previous 16 shapes and other metadata unchanged; only two new Background shapes. Their 712186 newly labelled pixels all lie inside the root4 crop [8928,5264,9952,6288]. Every mask change is 0 to 3; no tissue pixels or conflicts changed. Verified the circular feature centre at approximately [9277,5803] is now code3.
+Current outlines would give root4 patch counts: 0=284320; 1=27268; 2=24802; 3=712186; 255=0. These counts were computed for verification only. The saved pair in folder30 is STILL THE OLDER MASK WITHOUT BACKGROUND and must be regenerated into a NEW output folder before comparison. Do not rerun program18 as-is: it currently refuses an existing output and has no --output argument. Next step is to add an output option or prepare a small wrapper for rebuilding the same root4 pair with current labels, preserving folder30. Explain that step and let Gonzalo run it unless he requests otherwise.
+The intended model stays fixed: 27_Root5_Lower_Background_Training/run_20261115T121005Z_d_v61wde. No retraining or root4 prediction occurred. Future prediction must use root4 RGB only, with its updated mask separately for assessment. Same-slide preliminary check. Word manual not edited; notes are recorded for later integration.
+
+2026-11-15 — Explain training versus prediction; root 4 preparation command ready
+Gonzalo asked whether prediction needs both image and mask. Explanation: during training the image produces a guess and the mask supplies the target used to update the model. During prediction the saved model receives only the microscopy image. A mask can be used separately afterwards to check agreement; it is not required to produce the prediction.
+Prepared program 18_prepare_root4_check.py. It uses the existing program 07 rasterization at full-image coordinates, then cuts a 1024 x 1024 RGB image and matching numeric reference mask at [8928,5264,9952,6288], around the observed root4 transition. The current annotation filename still contains root5 but contains Gonzalo's revised root4 outlines. No new full-slide mask file is needed because this program performs mask conversion and cropping together. It preserves original files, refuses to overwrite an existing output, saves reference outlines without embedded image data plus program copies and provenance. It does not load model weights, predict or train.
+Input-only check passed: 996506 unlabelled; 27268 Periderm; 24802 Endoderm; 0 Background; 0 conflicts. Verified zero overlap with saved root5 training crop [6976,6016,8000,7040] and unchanged source microscopy image. No patch outputs written. The output folder will be 04_Results/30_Root4_Check_Patch when Gonzalo runs the command. No Background reference labels means no direct Background recall assessment, not that the trained model cannot predict Background.
+Next USER action in the Terminal with (ml-env):
+python "${ROOTSPAN_PROJECT}/03_Notebooks/18_prepare_root4_check.py"
+Then inspect the output before preparing image-only prediction with the fixed model from 27_Root5_Lower_Background_Training/run_20261115T121005Z_d_v61wde. Same-slide preliminary check only. Word manual not edited; these notes are ready for later integration.
+
+2026-11-15 — Root 4 revised by Gonzalo and inspected before prediction
+Gonzalo redrew the Periderm and Endoderm annotations for root 4. Read-only Labelme inspection at 197% zoom showed visible cells, a green Endoderm outline on the left, a red Periderm outline on the right, and a narrow space between their ends. The outlines follow the visible root region; this is not an independent confirmation of every biological boundary. The status bar said Saved and the Save button was disabled.
+The saved working file is still 02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json (its name contains root5, but it now also contains the root4 revisions). Verified 16 shapes, including the two new root4 polygons: Periderm 203 vertices, Endoderm 235 vertices. Root4 transition is around full-image x=9439, y=5753–5804. Do not confuse this with the old root5 training crop [6976,6016,8000,7040].
+Next proposed lesson: prepare one 1024 x 1024 root4 crop around the transition, verify non-overlap with the root5 training crop, and ask the existing saved root5 model to predict from the microscopy image alone. Use root4 annotations separately as a reference for comparison. No further training or additional Background annotations are needed just to obtain a prediction; without Background reference labels, a numeric background assessment would remain unavailable. Another root on the same slide is only a preliminary check, not an independent new-slide evaluation.
+No crop, code, mask, prediction or model training was performed in this inspection. Word manual not edited. Pause to explain the difference between using an image to predict and using a mask to check the prediction.
+
+
+2026-11-15 — Six-root overview inspected; root 4 proposed for closer inspection
+Gonzalo zoomed out in Labelme and asked which root to use next. Read-only GUI inspection showed all six roots at 6.8% zoom, saved annotation state. Proposed ROOT 4, counting from the top: the root immediately above root 5 with the yellow Background outlines. Its existing green/red annotation junction is slightly right of the image centre. This is a provisional candidate only; cell morphology cannot be judged at this overview scale.
+Next user action: zoom into that junction until individual cells are visible, then inspect actual biology together before selecting the patch. Existing colours are old human annotations, not proof of the true tissue transition. Do not edit annotations, train, or declare the candidate suitable before the closer review. Any selected crop must be checked for non-overlap with the root-5 training crop. Current saved model stays fixed for the proposed image-only prediction check. No GUI edits, new crop, inference or training were performed. Word has not been updated.
+
+
+2026-11-15 — Proposed next lesson: move beyond fitting one patch
+Gonzalo asks whether the remaining thin green strip must be fixed before moving on. Recommendation: good enough to move forward in this learning exercise; retain the unresolved strip as a documented limitation. Its 2,285 green pixels lie in unlabelled reference space. Do not describe the model as ready for biological measurements or the strip as solved. Continued tuning of one training patch cannot establish broader performance.
+Proposed next learning step: keep the saved model from 27_Root5_Lower_Background_Training fixed, select a clear non-overlapping patch from a different root that THIS model did not train on, and make image-only predictions without further training. Compare the prediction with independent biological inspection/annotations; do not call the existing coarse annotations perfect ground truth. This is a preliminary check on another root from the same slide, not an independent new-slide test. Later work needs varied training examples and separate source slides for evaluation.
+First user action proposed: zoom out in Labelme to see all six roots, then choose a clear different root together. No new patch selected, code prepared, annotation modified, inference or training performed in this turn. Word has not been edited; this recommendation is recorded for the manual.
+
+
+2026-11-15 — Lower Background experiment completed independently at Gonzalo's explicit request
+ROOT 5: ADDING BACKGROUND BELOW THE ROOT
+
+Completed 15 November 2026 at Gonzalo's explicit request to run the full sequence.
+
+CHANGE
+project tooling drew one additional Background polygon in Labelme below root 5 and saved it. It follows clear space below the root, leaving a small uncertain edge margin. All prior 15 shapes, image and other annotation metadata were unchanged. A backup is in 05_Notes/Checks/Root5_Lower_Background_Demo_20261115T120351Z. No overlap with existing tissue labels was introduced.
+The same 1024 x 1024 image patch was used. Only 193,215 mask pixels changed: unlabelled (0) to Background (3). Periderm, Endoderm and ignored conflicts were unchanged.
+
+TRAINING
+Same three-category U-Net, unchanged program 17 and model definitions, fresh seed 34, Adam learning rate 0.001, gradient clipping 5, RGB/255, no resizing/augmentation, 600 requested/completed updates. Both trials started fresh. The old trained model was retained.
+The new run used the updated pair through --patch-details and separate --output-parent. Program 17's generic root-5-versus-root-1 experiment note describes the earlier lesson; THIS comparison_plan.json/comparison_results.json records the actual baseline and single label change for the present experiment.
+
+RESULT
+Green pixels below the Periderm reference outline: 11,454 before; 2,285 after (80.05% fewer). All remaining 2,285 lie in unannotated pixels. Of the original green-band locations, the new model predicts 10,253 Background, 830 Endoderm and 371 Periderm. There are also 1,455 newly green pixels elsewhere in the same lower region; therefore the band shrank and shifted, rather than simply losing a fixed subset of pixels.
+On newly labelled Background pixels, the old model predicted 182,102 Background, 10,403 Endoderm and 710 Periderm. The new model predicts all 193,215 as Background.
+Using the SAME updated reference for both models: labelled Background agreement 97.9661% before -> 100% after. Tissue matching remained very high but did not improve: Periderm 34,949/34,950 before -> 34,947/34,950 after; Endoderm 14,130/14,130 before -> 14,129/14,130 after. The new model has four mismatches among 595,461 labelled pixels.
+
+LIMITS
+This is fitting the same training example, not independent evaluation. Only 56.79% of the patch has confirmed category labels. Unlabelled margins remain ignored, so colour changes there cannot all be scored as biologically right or wrong. The lower green band improved but was not fully eliminated. One fresh run per label set with the same seed/settings is not replicated evidence of broader performance. No extra correction or training was done after inspecting this result.
+
+FIGURES
+root5_before_after_closeup.png: microscopy, old prediction, new prediction in the same close-up.
+Full comparison: ${ROOTSPAN_PROJECT}/04_Results/28_Root5_Lower_Background_Prediction/view_20261115T121105Z_xwp5xe8f/image_truth_prediction.png
+
+PROGRAMS AND RECORDS
+comparison_plan.json: pre-training controlled-change check.
+comparison_results.json: numeric comparison and exact input/output locations.
+analyze_comparison.py and draw_comparison.R: reproducible analysis and scientific figure.
+New mask: 04_Results/25_Root5_Lower_Background_Mask
+New patch: 04_Results/26_Root5_Lower_Background_Patch
+New trained model: ${ROOTSPAN_PROJECT}/04_Results/27_Root5_Lower_Background_Training/run_20261115T121005Z_d_v61wde
+New prediction: ${ROOTSPAN_PROJECT}/04_Results/28_Root5_Lower_Background_Prediction/view_20261115T121105Z_xwp5xe8f
+
+Word manual has not been edited in this step; detailed learning notes and figures are saved for integration.
+
+Current checkpoint: show the before/after prediction and pause. No additional annotation changes or training are requested beyond showing this result.
+
+
+2026-11-15 — Root 5 prediction inspected: extra green band below Periderm
+Gonzalo ran viewer 11; result 24_Root5_Prediction/view_20261115T115753Z_patbp50t. He reports improvement but points to a green band under red Periderm and proposes missing lower Background annotation as the reason. Inspected saved full comparison and numeric prediction/reference; weights and mask hashes match, and prediction confusion equals the training record (one labelled Periderm pixel predicted Endoderm).
+Defined diagnostic region: for each column containing labelled Periderm, pixels below its bottommost labelled Periderm pixel. All 11,454 predicted Endoderm pixels in this lower region have reference code 0 (unannotated). Band bounding box in patch [274,781,1024,869], at most 30 pixels below the Periderm outline. There are no Background labels within 40 pixels immediately below Periderm. Thus these extra predictions receive no direct training-error correction; high labelled-pixel agreement does not assess them. Diagnostic saved in 05_Notes/Checks/Root5_Lower_Green_Band_20261115.json.
+Explain slowly: adding correctly identified Background along the lower edge is a reasonable next experiment, but not a proven sole cause or guaranteed fix. Use original microscopy to distinguish real tissue from empty space; never label tissue Background just to remove a predicted colour. Truly uncertain pixels remain ignored. Recommend one coherent band along clear empty space below the root (not more disconnected distant boxes), retaining tissue polygons and the same patch/model/training settings if only Background labels are being tested. No annotation edits, new masks, inference or training performed in this diagnostic step. Word is not updated; this record is for the manual.
+
+
+2026-11-15 — Root 5 training completed and verified
+Gonzalo ran 17_train_root5.py --steps 600. Saved run: 23_Root5_Training/run_20261115T115502Z_skjaqsca. All 600 updates completed on Apple GPU (MPS); loop and final measurement 72.7267 seconds, excluding setup/saving. Loss fell from 1.2523581982 to 0.0000393403.
+Verified saved weights hash, all finite weights, input and saved/current code hashes, root-5 ID/crop, 600 consecutive finite history rows, class/ignore codes and metric arithmetic. Labelled matches: Periderm 34949/34950 (one Periderm pixel predicted Endoderm; displayed 100.00% is rounded), Endoderm 14130/14130, Background 353166/353166. Overall 402245/402246 labelled pixels matched. Unannotated 646324 and conflicting 6 pixels remain unassessed; only 38.36% of this patch has scored category labels. This does not establish whole-patch correctness or performance on new roots/slides.
+Next user step: use saved weights to make predictions and show the comparison (inference, no further learning). Existing program 11 accepts this root-5 run and will open the saved three-panel figure in Preview. Left microscopy, middle ground truth, right model prediction at every pixel. Mask is used only for comparison, not to replace model guesses. Output parent 24_Root5_Prediction verified absent. Command prepared:
+python "${ROOTSPAN_PROJECT}/03_Notebooks/11_view_three_category_prediction.py" --run "${ROOTSPAN_PROJECT}/04_Results/23_Root5_Training/run_20261115T115502Z_skjaqsca" --output-parent "${ROOTSPAN_PROJECT}/04_Results/24_Root5_Prediction"
+No prediction or extra training was run during this verification. After Gonzalo runs the viewer, inspect the image before suggesting changes. Word is not updated; this record is retained for the manual.
+
+
+2026-11-15 — Root 5 training prepared; awaits Gonzalo's command
+Gonzalo correctly answered that the mask is the answer key and asked to continue. Explained the next step before preparing code: train a fresh copy of the same three-category U-Net on this single root-5 pair, up to 600 predict/compare/adjust updates. Grey and conflicting pixels remain ignored. This tests fitting the practice example, not performance on new roots.
+Created 03_Notebooks/17_train_root5.py from the previous 600-update trainer, retaining the identical target conversion, loss/statistics, training loop and saving functions (AST verified). Verified 09_three_class_unet.py and 04_small_unet.py hashes match the prior saved trial. Uses pair 22_Root5_Patch, ID MT25_rep3_root5_x6976_y6016, crop [6976,6016,8000,7040]. Correct root-5 provenance replaces old root-1/two-class references; current source hashes are checked. Separate output parent 23_Root5_Training. No earlier files/models overwritten.
+Settings: fresh seed 34, same three-category U-Net, Adam learning rate 0.001, gradient clip norm 5, RGB/255, no resizing or augmentation, 600 requested updates, 180-second loop limit checked between updates (setup/saving extra). No earlier learned weights loaded. The image patch and label set BOTH differ from root 1, so do not claim a single-variable comparison or compare their losses/percentages as equivalent tests. 600 is a practice budget, not an optimum or guaranteed boundary fix.
+Program 17 --steps 600 --check-only passed: Periderm 34950, Endoderm 14130, Background 353166 labelled pixels. No model was created, trained or saved by this check; output parent 23 remains absent.
+Next USER command: python "${ROOTSPAN_PROJECT}/03_Notebooks/17_train_root5.py" --steps 600
+Training is pending. After output, verify actual completed updates, input/model hashes and saved results, then use existing viewer 11 with the exact new run and a separate output 24_Root5_Prediction. Inspect every-pixel predictions as well as labelled-pixel matching; 61.64% of the patch still has no scored answer. No independent validation/test. Word has not been updated; this record is for the manual.
+
+
+2026-11-15 — Root 5 patch completed and viewed
+Gonzalo ran program 16 and created 22_Root5_Patch. Verified all input hashes, saved image/mask hashes, 1024 x 1024 dimensions, exact equality to matching full-slide crops [6976,6016,8000,7040], numeric mask counts and preview colours. Counts: 0=646324; 1=34950; 2=14130; 3=353166; 255=6. Labelled coverage is 38.3612%; the rest remains unlabelled or conflicting and ignored.
+Created and visually checked a scientific comparison picture with R in 05_Notes/Visual_Guides/Root5_Patch_Review/pair_review_20261115T114859Z/root5_image_mask_pair.png (draw_pair.R and view_record.json saved beside it). Left: unchanged image patch. Right: existing coloured mask preview. The large yellow band above the root comes from the Background annotations; grey is still unlabelled. This is the human-derived answer key, NOT a model prediction.
+No additional annotation changes or model training. Next: show Gonzalo this pair and explain the colours; pause for his understanding before preparing root-5 training. Do not claim all background is labelled, that boundary artefacts are solved, or that this is an independent test. Earlier trainer is tied to root 1 and needs adapting before use. Word has not been updated; this record and comparison picture are retained for the manual.
+
+
+2026-11-15 — Root 5 full-slide mask completed; pair command prepared
+Gonzalo ran program 07 and made 21_Root5_Mask from MT25_rep3_root5_refined_GV.json. Verified annotation/image/converter hashes, L-mode numeric mask dimensions 15423 x 9543, and all full-slide counts: 0=142116165, 1=2709707, 2=1964852, 3=390906, 255=59. Only explicit Background outlines become category 3.
+Explained before preparing code: next cut one matching square from root 5 and its new mask, then inspect before training. Saved 03_Notebooks/16_make_root5_patch.py, written by project tooling using Pillow crop and NumPy. Crop is the already-reviewed location [6976,6016,8000,7040], 1024 x 1024, no resize/padding. Distinct patch ID MT25_rep3_root5_x6976_y6016. Uses full mask 21, saves new pair in 22_Root5_Patch when Gonzalo runs it, refuses to overwrite. Includes exact-pixel readback and provenance checks.
+Read-only --check-only passed: 0=646324, 1=34950, 2=14130, 3=353166, 255=6; 38.36% labelled. No patch files or model were written during this check. Unlabelled space and small conflicts remain ignored; do not imply complete background coverage or guaranteed removal of edge artefacts.
+Next USER command (ml-env is active): python "${ROOTSPAN_PROJECT}/03_Notebooks/16_make_root5_patch.py"
+Completion of the patch step is pending. After creation inspect image and mask together. Earlier training program 10 hard-codes root-1 ID/crop/trial_record; it must be adapted with correct root-5 provenance before training. Do not run the old root-1 wrappers on this pair. Root 5 is from the same slide, not an independent test. No further model training occurred. Word is not updated; this record is for the manual.
+
+
+2026-11-15 — Next learning step prepared, not run
+Gonzalo confirmed he can see the new Background polygon. Read-only validation passed for the saved root-5 working JSON: 15423 x 9543, 6 Periderm, 6 Endoderm, 3 Background shapes; referenced image exists. Next action for Gonzalo: run the existing program 07 with this working JSON and a new output folder 21_Root5_Mask (verified absent). This creates one full-slide numeric mask and colour preview from all saved outlines, including the revised root 5. Unannotated pixels remain ignored. Afterwards inspect/cut the proposed ROOT-5 crop, not the earlier root-1 crop. No new mask or model was made during this preparation; completion awaits user output. Word has not been updated.
+Command prepared:
+"${ROOTSPAN_PROJECT}/00_Software/ml-env/bin/python" "${ROOTSPAN_PROJECT}/03_Notebooks/07_make_background_mask.py" --annotations "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json" --output "${ROOTSPAN_PROJECT}/04_Results/21_Root5_Mask"
+
+
+2026-11-15 — Background polygon demonstration in Labelme
+User explicitly asked project tooling to draw the example in Labelme. Added one Background polygon in the empty band above root 5, between the existing upper Background rectangle and the root. Its lower edge follows the upper contour, leaving a small margin outside the tissue. Closed the polygon, named it Background, clicked Edit then Save.
+Saved: 02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json
+Verified: 15 shapes (6 Periderm, 6 Endoderm, 3 Background). All previous 14 shapes and image/other metadata unchanged. New Background polygon has zero raster overlap with existing tissue outlines. Backup and verification: 05_Notes/Checks/Root5_Background_Demo_20261115T112642Z.
+This is an annotation demonstration. It is not a fully labelled patch; uncertain margins remain ignored. No new training mask or training was run. Word manual has not been updated for this demonstration. Next: let Gonzalo inspect the band and explain its purpose before any further processing.
+
+2026-11-15 - Simplified explanation of Background beside the root
+Gonzalo added and saved a Background rectangle above root 5. Source JSON now has 14 shapes (6 Periderm, 6 Endoderm, 2 Background). Rectangle bounds are x6751.0925..7875.8079, y6418.4526..6583.0118. It is in empty space, but does not label the strip between its lower edge and the root. An earlier GUI check showed Unsaved changes; the latest disk check now confirms the rectangle is saved, so do not keep asking Gonzalo to save it again without a new change.
+Gonzalo said the point-by-point directions were confusing. project tooling made a simple scientific guide picture from the unchanged source image and saved annotations: Visual_Guides/Root5_Patch_Review/gap_explanation_20261115T112138Z/background_gap_explained.png. A white arrow points at the still-unlabelled empty strip just above the root. It is a viewing guide only, not an annotation, training mask or prediction. Source annotation SHA256 was verified unchanged. No training or source editing occurred. Next: explain simply that the existing rectangle can stay and the clear space between it and the root should also receive Background labels. Do not invent a special mandatory starting point or ask for repeated tiny UI actions. Word has not been updated; guide and this record are available for the manual.
+
+--- Earlier progress record below ---
+2026-11-15 - Root 5 reannotation and proposed patch review
+Gonzalo found the old first-root transition unclear and chose root 5 based on his biological judgement. He used Save As to create 02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json, redrew both root-5 tissue polygons, adjusted their junction, and explicitly confirmed confidence in his tissue identification. Saved file now contains 6 Periderm, 6 Endoderm and 1 Background polygon. The other five roots' shapes matched the original practice JSON in the earlier check. The new Background polygon is below the root-5 junction and was visually verified in clear space; GUI showed Saved. No automatic annotation changes were made.
+After explaining the review step, project tooling prepared scientific viewing figures in 05_Notes/Visual_Guides/Root5_Patch_Review/proposal_20261115T105528Z. Proposed crop is [6976,6016,8000,7040] (zero-based; right/bottom excluded). It is 1024 x 1024, includes all three categories and all the new Background polygon, excludes the large lateral root to its left and faint circular structures below. It is a PROPOSAL, not a training dataset or a new trained model. Source image and annotation SHA256 values were verified unchanged. An RGB annotation-coverage diagram was rasterized only for this review; no numeric training mask, working cropped Labelme JSON, inference or training was produced.
+Review counts: 0 unlabelled=973189; 1 Periderm=34950; 2 Endoderm=14131; 3 Background=26300; 255 conflict=6. Thus only about 7.19% of this proposed patch is currently labelled. Six conflicting pixels remain ignored; do not claim the junction has zero overlap. Red/green/yellow come only from human outlines. Grey means unlabelled, not automatically Background. The A marker and cyan frame are viewing aids, not biological labels.
+Next: show the proposal and guide broader Background annotation within the chosen patch, including its clear root edges, while retaining truly uncertain pixels as ignored. Avoid repeating isolated small Background boxes followed by retraining. If a cropped working Labelme copy is prepared next, translate/clip coordinates carefully and explain that its local coordinates differ from the full slide. Do not make Gonzalo redraw the tissue from scratch. Root 5 is from the same slide, so it is not an independent test. Changing root/image and annotations together will not isolate the old image quality as the sole cause of earlier errors. Word has not been updated; this record and the figures are saved for the later manual update.
+
+--- Earlier progress record below ---
+
+2026-11-15 - Opening issue resolved; patch ready in Labelme
+Gonzalo explicitly asked project tooling to fix the immediate setup and say when ready. Labelme was not running; project tooling launched the installed Labelme Learning app, selected its Python GUI, and used Open File to load 02_Data/04_Patch_Review/MT25_rep3_patch_review_GV.png. Visually verified the correct title, the one cropped microscopy root section, an empty Shape List and Label List, and Fit to Window at 92.9%. This review image is open and ready. Its byte hash still matches the source training image, and dimensions are 1024 x 1024.
+The earlier Terminal Permission denied message arose from entering the PNG path as a command, which tried to execute an image. No file permission change or software reinstall was needed. Original annotations and trained models were not edited. No new review annotations, mask, inference or training were created.
+Next: proceed slowly with the biological boundary review of this small patch before drawing or training. Opening the image resolves the setup problem, not the model's remaining boundary artefacts. Word has not been revised; this step is recorded for the manual.
+
+--- Earlier progress record below ---
+
+2026-11-14 - Prepared a separate microscopy patch for whole-patch review
+After explaining the change of approach, project tooling copied the exact 1024 x 1024 RGB training image to 02_Data/04_Patch_Review/MT25_rep3_patch_review_GV.png. Byte hash matches the existing training patch. No annotations, masks or predictions were copied into this new review image; it starts with microscopy alone. Existing full-slide annotations and results remain unchanged. Preparation record and START_HERE.txt explain source coordinates and the distinction between patch and slide coordinates.
+Next user action: open this PNG through Labelme Open File. Confirm that the one small root section is visible before drawing. This is a new review copy; the previous annotation work is still saved. The whole-patch review and new annotations have NOT been completed. No new mask, training or inference was performed. The immediate lesson is to establish a consistent tissue boundary and label all confidently identifiable background; faint ambiguous pixels should not be assigned a class just to remove a model colour. Word has not been revised in this step.
+
+--- Earlier progress record below ---
+
+2026-11-14 - Extra Background prediction inspected; change of lesson approach proposed
+Gonzalo ran the viewer and reported a green band above red Periderm, expressing frustration about repeated local fixes. project tooling inspected old and new saved comparison images and numeric predictions. No further training/inference or annotation changes were made. Latest view: 20_Extra_Background_Prediction/view_20261114T131027Z_vrd8_y5o. Weights remain unchanged; prediction confusion exactly matches the training record.
+The old sampled red rim above Endoderm had 1,294 pixels, all still unlabelled. New predictions at those pixels: 1,038 Endoderm/green, 256 Background/yellow, 0 Periderm/red. Removing red did not generally make this strip Background. In a 32-pixel band above labelled Periderm across patch columns 600-1023, green predictions rose from 135 to 5,400. Of the new 5,400, reference codes are 5,272 unlabelled, 108 Endoderm, 20 conflict. Therefore these are colour-band counts, not 5,400 proven errors. No green prediction lies inside labelled Periderm.
+On the newly added Background examples, old predictions were 46,104 Background and 2,741 Periderm; now all 48,845 are Background. The model improved at the added labelled examples, while unlabelled edges remained unreliable. Only 136,002 of 1,048,576 pixels (12.97%) have scored reference labels. Shared model weights can change predictions elsewhere when new examples alter training.
+Proposed change of approach: stop adding isolated rectangles and retraining to chase each colour strip. First agree a consistent biological boundary rule, then prepare one reviewed patch with all confidently identifiable tissue and background labelled, leaving only truly uncertain pixels ignored. Do not automatically turn every code-0 pixel into Background. After this controlled example, expand to varied patches and evaluate on source images not used for training. This is a proposed teaching plan; no new mask, code, annotation changes or training were executed. Word not revised in this step.
+
+--- Earlier progress record below ---
+
+2026-11-14 - Extra Background training completed by Gonzalo
+Gonzalo ran 15_train_extra_background.py --steps 600 successfully. Saved run: 19_Extra_Background_Training/run_20261114T130138Z_vnurh4my. All 600 updates completed on Apple GPU (MPS); loop and final measurement took 73.83 seconds, excluding setup/saving. Recorded loss: 1.1753474474 -> 0.0000613158. Periderm 20,969/20,969, Endoderm 31,848/31,848, Background 83,185/83,185 matched: 100% of the 136,002 labelled training pixels. Unlabelled 912,522 and conflict 52 pixels remain unassessed. This does not establish that the thin red edge is gone or that the model works on new images.
+Verified weights hash and finite tensor values, input and saved/current code hashes, 600 ordered finite history rows, identical settings to the earlier 600-update run, and recorded confusion/count arithmetic. No further training or model prediction was run in this verification.
+Next user step: run existing program 11_view_three_category_prediction.py with --run pointing at this run and --output-parent 20_Extra_Background_Prediction. It loads learned numbers, predicts from the image only, saves the three-panel image and opens Preview. This is inference, not additional learning. Inspect the red rim before concluding whether the new background examples helped. Word has not been revised in this step; the verified result is recorded for later manual integration.
+
+--- Earlier progress record below ---
+
+2026-11-14 - Updated patch pair completed; next training command prepared
+Gonzalo ran program 12 successfully and created 18_Extra_Background_Patch. Verified saved image/mask hashes and direct pixel comparison against pair 11: image is identical; exactly 48,845 old unlabelled pixels are now Background. Other values are unchanged. Counts: Periderm 20,969; Endoderm 31,848; Background 83,185; unlabelled 912,522; conflict 52.
+Before preparation, explained that the next experiment starts a fresh copy of the same U-Net, for the same 600 updates with the updated answer key. project tooling saved 15_train_extra_background.py as a separate copy of program 14, with new input/output defaults and corrected experiment description/comparison record. Model/training functions are identical, verified by AST; previous training/model program hashes still match the baseline saved run. Seed 34, Adam learning rate 0.001, clipping 5, unchanged RGB preprocessing and 180-second loop limit. Output parent: 19_Extra_Background_Training. Comparison baseline: 15_Longer_Training/run_20261114T115648Z_c6xmnr5q.
+Read-only check of program 15 passed with all three correct category counts. No model created, no training performed and no training output written. Gonzalo's next action is python [absolute path]/03_Notebooks/15_train_extra_background.py --steps 600. This is a NEW 600-update training run from the same initial setup, not another 600 added to saved weights. After completion, verify the run and view predictions; more Background examples may help but removal of the red rim is not guaranteed. Percentages remain restricted to labelled pixels of this same training patch. Record the final completed-update count; the time limit may stop a run early. Word has not been revised in this step.
+
+--- Earlier progress record below ---
+
+2026-11-14 - Extra Background mask completed by Gonzalo and verified
+Gonzalo ran program 07 with the updated refined annotation JSON and new output 17_Extra_Background_Mask. Verified source annotation, image and converter hashes. The new numeric mask was compared with 10_Refined_Mask. Full-slide changes: 68,273 pixels changed from unlabelled to Background; a further 244 pixels changed from unlabelled to Endoderm at x2948-3050/y44-51, entirely OUTSIDE the training crop. The latter change predates the three-rectangle comparison snapshot; its exact editing action was not observed.
+Within the unchanged training crop [7168,0,8192,1024], ONLY 48,845 pixels changed from unlabelled to Background. Periderm and Endoderm labels, and the 52 conflict pixels, are unchanged. Expected new patch counts: 0=912,522; 1=20,969; 2=31,848; 3=83,185; 255=52. Thus the intended training-patch comparison still changes only the added Background examples.
+Existing program 12 supports --previous-pair, --mask-details and --output. Its read-only --check-only passed using previous pair 11 and new mask 17; no pair files or model were written. Next user action: run program 12 with these inputs and new output 18_Extra_Background_Patch. This copies the unchanged microscopy patch and crops the updated mask at the same coordinates. No further training has happened. Word is not updated in this step; this verified record is retained for the manual.
+
+--- Earlier progress record below ---
+
+2026-11-14 - Verified three newly saved Background rectangles
+Gonzalo added three rectangles and saved the real MT25_rep3_background_refined_GV.json. Live Labelme showed Saved and 9 Background shapes; JSON contains 6 Periderm, 6 Endoderm, 9 Background. Compared with the pre-addition viewing snapshot: exactly 3 added Background rectangles; all earlier shape labels/types/coordinates unchanged.
+Training patch bounds remain [7168,0,8192,1024]. Left small rectangle lies outside; middle small rectangle fully inside (6,205 pixels); right large rectangle partly inside (42,640 pixels, about 72% of its area). The two contributing portions cover 48,845 previously unlabelled pixels and no existing tissue-labelled pixels. Keeping all three is fine; portions outside this patch are available for future patches. This verifies positions and label overlap, not a perfect biological boundary.
+Next user step proposed: rerun existing program 07 with this updated refined JSON, saving to the new 04_Results/17_Extra_Background_Mask folder. No mask conversion, patch update, or training was run during this check. Then update the SAME crop from that new mask before training. Do not use the old patch unchanged. Word has not been updated in this step; this record is for the later manual update.
+
+--- Earlier progress record below ---
+
+2026-11-14 - Cyan location guide inside Labelme, completed at Gonzalo's request
+A separate VIEW_ONLY_root_with_marker.json and identical copied microscopy PNG were created in 05_Notes/Visual_Guides/Upper_Edge_Inspection. The cyan circle is centred at original-slide (7588,127), equivalent to training-patch (420,127). It is a viewing aid only, not a training category. Original annotation and image hashes were verified unchanged after GUI work. All 18 copied biological shapes are locked in the viewing copy; source annotations remain untouched.
+Labelme Learning was restarted using the installed application, and the guide was opened and visually verified at 300% zoom. The cyan circle is visible near the centre, just above the first root's upper edge. Custom by-label colours were added to 00_Software/labelme-config.yaml, preserving Periderm [128,0,0], Endoderm [0,128,0], Background [128,128,0], and giving the guide [0,215,255]. The previous config is backed up in the guide folder. The separate view_only_config.yaml was prepared but NOT loaded.
+Do not feed this VIEW_ONLY JSON into mask or training programs. It contains an extra guide circle. Before making biological corrections, return to the refined annotation JSON. No new annotation correction or training occurred in this step. Next: look at the marked area and decide from the microscopy whether it is tissue, background, or uncertain. The model's red prediction alone must not determine the human label. Word has not been updated in this step.
+
+--- Earlier progress record below ---
+ML PLANT PHENOTYPING — CURRENT CHECKPOINT
+Updated 14 November 2026
+
+600-UPDATE PREDICTION VIEWED — INSPECT UNLABELLED UPPER-EDGE RIM NEXT
+Gonzalo completed program 14_train_longer.py --steps 600. Saved run: 04_Results/15_Longer_Training/run_20261114T115648Z_c6xmnr5q. Final loss 0.00006745424; loop/final measure 73.214 seconds. Same refined patch, architecture and learning settings as the poorer 200-update run.
+Verified the first 200 CSV rows exactly match the previous refined run. Loss before update 201 equals the prior final loss, 0.3671532869. Thus this diagnostic followed the same early learning history and then continued longer. All saved/current program and input hashes checked, finite weights verified (482067 numbers), and earlier weights unchanged.
+On the same refined labelled pixels: Periderm 58.01% -> 100%; Endoderm 71.67% -> 100%; Background 100% -> 100%. All 87157 labelled pixels matched after 600 updates. 961367 unlabelled pixels and 52 conflicts remain ignored. This does not establish full-patch or new-image accuracy. It shows 200 updates were insufficient to fit this example with these settings; 600 is not established as optimal.
+Current image/mask pair: 04_Results/11_Refined_Patch, prefix MT25_rep3_practice_r000_c007, 1024 x 1024 at [7168,0,8192,1024]. Current source mask/annotations unchanged. Prior refined 200-update model: 12_Refined_Training/run_20261114T102736Z_owxsbwtv; its prediction is in 13_Refined_Prediction/view_20261114T112905Z_q_hmdzyl. Graph of that older 200-update run remains in 14_Learning_Curve, made from saved numbers using program 13_plot_learning_curve.R.
+600-update viewer output now exists and was viewed by Gonzalo: 04_Results/16_Longer_Prediction/view_20261114T120155Z_vjd7xosn/image_truth_prediction.png. Numeric prediction verified against saved training confusion and source hashes; all labelled pixels match. Gonzalo sees a thin red rim over green Endoderm and wants to address it.
+Checked a central upper-Endoderm band (x255..599, up to 32 pixels above its top reference edge). All 1294 red-predicted pixels there are code 0/unlabelled in the human mask. No red predictions occur inside labelled Endoderm. This explains why a perfect restricted score can coexist with the visible rim. Original microscopy must decide its actual class: empty space -> Background; actual Endoderm -> Endoderm; do not infer Background simply from code 0. Full prediction also has unassessed red border strips at patch edges.
+Current small action: Gonzalo was confused by navigation/annotation instructions. He should leave Labelme unchanged and judge ONE circled spot in the original microscopy crop shown in chat. Guide: ${HOME}/Documents/project tooling/2026-11-11/i-w/work/edge_location_guide/edge_location_guide.png. It marks patch (420,127), where prediction=Periderm, human mask=unlabelled, just above visible root structures. Ask whether he sees root tissue or empty background; wait for his biological judgement before deciding which annotation to add/change. Previous live view was farther left with a branch; do not treat it as the exact training region. We need representative boundary examples, not perfection on one training patch before learning anything else. If edits follow, first save a separate annotation version to preserve the inputs used by current models. No annotation/model changes or additional training/inference during this inspection.
+Red-rim verification: ${HOME}/Documents/project tooling/2026-11-11/i-w/work/longer_training_lesson/red_rim_check.json. Word unchanged; this visible-error explanation is recorded in the text learning log.
+
+Evidence: ${HOME}/Documents/project tooling/2026-11-11/i-w/work/longer_training_lesson/completed_run_verification.json. No additional training/inference by project tooling. Word remains the 36-page manual through Step 51; current verified steps and concepts are in text notes for its next update.
+
+PREVIOUS CHECKPOINT — 13 NOVEMBER 2026
+The record below describes the earlier files/results. Use the current checkpoint above for the next action.
+
+ML PLANT PHENOTYPING — PROJECT CHECKPOINT
+Saved 13 November 2026
+
+PROJECT FOLDER
+${ROOTSPAN_PROJECT}
+
+COMPLETED BY GONZALO
+Steps 1-42: manual Periderm/Endoderm annotations on six roots, JSON save, numeric mask, 101 matching image/mask patches, small U-Net setup, 30-update training, prediction view, controlled 200-update training, second prediction view.
+Steps 43-46: opened the separate annotation copy, drew and saved five Background polygons, and returned to Terminal in the project folder with (ml-env) (base) shown.
+Step 47: created the updated full-size pixel mask from the saved annotations; Terminal output and saved mask counts verified.
+Step 48: created one updated 1024 x 1024 image/mask pair for the same training crop; saved file hashes, dimensions and mask counts verified. No model training occurred.
+Step 49: user supplied successful three-category U-Net setup output on Apple GPU (MPS), with 482,067 adjustable parameters and three scores per pixel. Invented input only; no training or model saving.
+Step 50: Gonzalo completed 200 updates on the real one-patch, three-category pair. Saved weights, program copies, input hashes, 200-row history and result arithmetic independently checked. Loss 1.0878556 -> 0.0094492; labelled-pixel agreement: Periderm 99.19%, Endoderm 99.82%, Background 100.00%.
+The working JSON contains 6 Periderm, 6 Endoderm and 5 Background polygons. Only the first Background polygon is inside our original one-patch training crop.
+
+WHAT THE RESULT MEANS
+The two-class model improved its agreement with labelled tissue pixels on one training patch. Those pixels are about 5.6% of that patch. It still assigns tissue names to empty space; this is not a successful full-image segmentation. New-image performance is unknown. The restricted score must not be presented as overall segmentation accuracy.
+The new three-category prediction visually separates much of the empty space from the root. It still has boundary errors. Background matching is 100% only on the 25,232 explicitly labelled Background pixels in the training patch. Performance on new images remains unknown.
+The updated mask now contains three learning classes: 1 = Periderm, 2 = Endoderm, 3 = Background. Code 0 = unlabelled and code 255 = conflicting annotations are ignored; they are not extra classes to learn.
+
+WHERE THE FILES ARE
+02_Data/02_My_First_Annotations: original practice image and human JSON.
+02_Data/03_Background_Annotations: separate working image and MT25_rep3_background_GV.json, now with five saved Background polygons. The initial copies were verified when created; subsequent manual edits are recorded in the learning log.
+03_Notebooks: eleven saved Python programs. Programs 07-09 have been run successfully by Gonzalo. Gonzalo also completed program 10_train_three_categories.py with 200 updates; the saved run was verified.
+04_Results/01_Practice_Mask: original numeric mask and preview.
+04_Results/02_First_Patch: first example image/mask pair.
+04_Results/03_Practice_Patches: 101 image/mask pairs and patch manifest.
+04_Results/04_First_Training_Trial/run_20261113T110425Z_u_yz60ya: 30-update model and training record.
+04_Results/04_First_Training_Trial/run_20261113T125650Z_dqez5187: 200-update model and training record.
+04_Results/05_First_Prediction/view_20261113T112003Z_kn1i24wl: 30-update predictions.
+04_Results/05_First_Prediction/view_20261113T130934Z_bllq6250: 200-update predictions.
+04_Results/06_Background_Mask: verified numeric mask, colour preview, mask_details.json and READ_ME.txt. Background contains 621,390 labelled pixels.
+04_Results/07_Background_Patch: verified image patch, numeric mask patch, colour preview, patch_details.json and READ_ME.txt.
+04_Results/08_Three_Class_Training/run_20261113T155717Z_elwd4ak7: verified three-category learned weights, 200-update history, trial record and model/training program copies. A three-category prediction picture has now been generated with program 11, without further training.
+04_Results/09_Three_Class_Prediction/view_20261113T160255Z__p9jtcv6: verified numeric prediction, colour preview, image_truth_prediction.png and provenance; viewed by Gonzalo. No further learning occurred.
+05_Notes/02_Labelme_Step_by_Step_Manual.docx: consecutive Steps 1-51, completed with accurate attribution. Latest user notes and original images retained. Verified 36-page render. Pages 23-26 contain setup/training steps, before-and-after images, Table 2 metrics and yellow Background/green-edge explanations. Mask codes versus model scores are now on page 31.
+05_Notes/02_Labelme_Learning_Steps.txt: chronological record of questions, verified steps and fixes.
+
+CURRENT LESSON — STEP 51 VIEWED; RESULTS AND EXPLANATIONS SAVED IN WORD
+Gonzalo ran python 03_Notebooks/08_make_background_patch.py successfully. Do not rerun the same output command.
+A 1024 x 1024 patch has 1024 columns and 1024 rows, or 1,048,576 pixels. It is a crop at the original pixel resolution, not a resized copy of the entire slide.
+Putting ALL non-overlapping patches back at their recorded positions reconstructs the original image, after removing any extra edge padding. This slide's complete grid has 160 positions (16 columns by 10 rows). The earlier run kept 101 and skipped 59 without tissue labels, so the saved 101 alone do not reconstruct the full original. The original image remains saved.
+Step 48 prepared just one matching pair using [7168, 0, 8192, 1024], the same area used for earlier training. Its mask has 1 = 21,448; 2 = 37,334; 3 = 25,232; 0 = 964,514; 255 = 48 pixels. Codes 0 and 255 remain ignored.
+Gonzalo confirmed seeing the yellow Background rectangle in the updated patch preview. He asked how the model will support three categories and how scores differ from mask codes. The explanation was polished in Word: codes 1, 2 and 3 identify categories; a model produces a separate score for each possible category at each pixel, and the highest score selects the predicted category. Raw scores are not percentages.
+Gonzalo understood the explanation and asked to prepare U-Net for three categories. Program 09_three_class_unet.py is now saved. It reuses program 04 and replaces only the final two-score layer with a three-score layer. Earlier programs and models are unchanged.
+Step 49 completed: with (ml-env) active, Gonzalo ran program 09 and supplied Terminal output beginning Three-category U-Net setup check passed. Python 3.13.2, PyTorch 2.15.0, Apple GPU (MPS), 482,067 adjustable model numbers. The invented 64 x 64 RGB input produced three raw category scores per pixel. Real patches remain 1024 x 1024. No microscopy images, masks or saved weights were read, and no training or model saving occurred.
+Developer validation passed on CPU and Apple GPU (MPS); minimum and rectangular input shapes also passed, model parameters stayed unchanged through forward checks, and the original two-class structure stayed intact. Gonzalo has now independently run the lesson command and supplied its successful output.
+Gonzalo correctly answered that the mask supplies the training answers and asked to continue. Explained that the next program starts a fresh three-category model, using the same real image patch with its updated numeric mask, up to 200 updates with a training-loop limit of about 180 seconds (checked between updates; setup and saving extra).
+Step 50 completed: Gonzalo supplied successful output from program 10 with --steps 200. The saved run is 04_Results/08_Three_Class_Training/run_20261113T155717Z_elwd4ak7. All 200 updates completed; loop and final measurement took about 24.31 seconds, excluding setup/saving. Training loss decreased from 1.0878555775 to 0.0094491942.
+Labelled-pixel matches: Periderm 21,274/21,448 (99.19%); Endoderm 37,265/37,334 (99.82%); Background 25,232/25,232 (100.00%). There are 243 disagreements among the 84,014 labelled pixels; all 243 are tissue-class confusions. The 964,514 unlabelled and 48 conflicting pixels remain unassessed. This is agreement on the same training patch, not whole-image or independent-test accuracy. Background 100% refers only to the explicitly labelled Background pixels in this patch.
+Verified finite three-output weights (482,067 parameters), weight hash, saved/current program hashes, input hashes, 200 sequential history rows and per-class arithmetic. No further training or inference was performed during verification. The final printed update loss is measured before that update; the summary loss is measured after the last update.
+Step 51: Gonzalo asked to see the result and requested its path. project tooling explained inference before creating/running program 11_view_three_category_prediction.py --no-open. The saved model predicts from the RGB image only; the mask is used separately for comparison. The resulting image is ${ROOTSPAN_PROJECT}/04_Results/09_Three_Class_Prediction/view_20261113T160255Z__p9jtcv6/image_truth_prediction.png. Gonzalo confirmed viewing it and said it looks much better. He asked why yellow extends beyond the Background rectangle and why a green strip remains below Periderm.
+The numeric predicted mask is L-mode, 1024 x 1024 with codes 1/2/3 at every pixel. Red = Periderm, green = Endoderm, yellow = Background. Grey unlabelled and pink conflict appear only in the human-reference panel. A cyan box indicates the same enlarged area in all three panels. Full-image prediction is generated before selecting this display crop.
+Verified labelled-pixel confusion exactly matches the training record and weights remain unchanged. The picture visibly shows a root-shaped red/green region surrounded largely by yellow Background; some tissue predictions extend outside the drawn reference. Unlabelled pixels still have no reference answers, and this is the same training patch. No further training occurred.
+Gonzalo has viewed the result. Explained that the Background rectangle supplies examples while the model predicts at every pixel. The checked green strip immediately below Periderm contains unlabelled reference pixels, so those pixels supplied no direct training correction. Green there is a prediction, not confirmed Endoderm. Next: check understanding and choose the next small exercise together before any action.
+Word now records completed Steps 49-51, with Step 51 program execution correctly attributed to project tooling at Gonzalo's request. The user opened and inspected the prediction. Both 200-update predictions were compared against the same updated mask: Periderm 100.00% -> 99.19%; Endoderm 100.00% -> 99.82%; labelled Background 0.00% -> 100.00%. The earlier model had no Background output or labelled Background training examples. Tissue matching did not improve. These metrics assess 84,014 labelled pixels, about 8% of this training patch, not all empty space or new images.
+
+LATER, ONE STEP AT A TIME
+1. Check Gonzalo's understanding of labels versus predictions and why unlabelled pixels receive no direct correction.
+2. Explain a small next exercise before making changes; agree whether to improve selected boundary examples or explore another patch.
+3. Keep training-patch agreement separate from independent validation and testing.
+4. Expand to varied examples and separate source images for validation/testing when available.
+
+LEARNING AGREEMENT
+Explain each new action before doing it. Gonzalo runs lesson commands and draws annotations. Use one manageable action at a time, check understanding and record confirmed outcomes. Gonzalo has completed the three-class setup check and one real three-class training trial. Keep viewing predictions separate from further training.
+
+16 November 2026 — Guided transition review, COL0 root 3
+User tentatively places transition left of downward lateral branch. Saved exact wording and a native-pixel source close-up with nine numbered position ticks outside the photograph. Next ask for the transition position or zone. No annotations, masks, weights or training changed. The right-hand endpoint remains for a later step. Review files:02_Data/09_Transition_Endpoint_Review. Word manual not edited in this step.
+
+16 November 2026 — COL0 root3 transition narrowed by Gonzalo
+Exact response: "in this root 1-2 or 1-3". Recorded tentative marker1–3 zone (native x12521–12721), narrower estimate1–2(x12521–12621). Need confirm main-root Endoderm left of1 and Periderm right of3. This may contradict part of the earlier cyan Endoderm region(x12549–12997); keep source and training history unchanged until confirmed. No annotation edits or new training. Basal endpoint not reviewed. Details:02_Data/09_Transition_Endpoint_Review/COL0_root3_transition_review_02.json.
+
+16 November 2026 — COL0 root3 tissue sides and proposed measurement convention
+Gonzalo sees Endoderm left of marker1 through about2–3 and Periderm right of3. He proposes scanning from right hypocotyl to left and including transition tissue in the Periderm measurement. Later right/left wording contradicts his first sentence: clarify that marker2 rightward would be Periderm including transition, left of2 Endoderm, before applying. This is a measurement convention, not proof all transition cells are Periderm. Prior cyan Endoderm region extends into expert-identified Periderm and must not be reused uncorrected. No polygons, masks or model weights changed; no new training. Right-hand endpoint not reviewed. Exact quote and coordinates saved in02_Data/09_Transition_Endpoint_Review/COL0_root3_transition_review_03.json. Word manual not edited at this step.
+
+16 November 2026 — COL0 root3 measurement convention confirmed
+Gonzalo confirms Endoderm left of marker2, Periderm including transition right of2; also notes marker1 vicinity is plausible. Working transition x12621, with approximate review zone x12521–12721(markers1–3). This is an operational measurement boundary, not proven exact histology. Prepared native source crop of right-hand end for the next biological check. No masks, annotations or weights changed; no training or full-length calculation. Details:02_Data/09_Transition_Endpoint_Review/COL0_root3_transition_review_04.json. Word manual not edited.
+
+16 November 2026 — COL0 root3 right endpoint selected
+Gonzalo: "stop between C-D" on the lettered endpoint crop. Saved source x19400–19600 as an interval, not an exact XY point. Working opposite boundary remains marker2(x12621), with marker1–3 uncertainty. Selected stop is before far-right visible tissue edge: previous automatic component-end policy requires biological reconciliation. Next ask which anatomical feature identifies the stopping landmark, so a general rule is not invented. No centreline length calculated, no annotation or model edits, no training; Word manual not edited. Evidence:02_Data/09_Transition_Endpoint_Review/COL0_root3_right_endpoint_review_02.json.
+
+16 November 2026 — Root–hypocotyl landmark confirmed and reference route proposed
+Gonzalo confirms C-D is the root–hypocotyl junction. Root Periderm measurement ends at that junction even though hypocotyl can have Periderm. Prepared a human-guided reference route using archived root3 outline geometry and fluorescence tracking, trimmed to working marker2 and temporary midpoint C-D. This is not model inference or an independent hand-traced measurement. Figure shows whole route plus endpoint close-ups; user should review route before reporting length. No new training, masks, annotation edits or model weights changed. COL0 calibration still unconfirmed. Source-code and route points retained. Word manual not edited this step. Figure:02_Data/09_Transition_Endpoint_Review/route_proposal_01/COL0_root3_proposed_route.png.
+
+16 November 2026 — Reference route approved and Endoderm subtraction proposed
+Gonzalo approved cyan T-J reference route and reported root sections are approximately2cm. He proposes E=L-P. Defined L as photographed main-root centreline from left cut end to root–hypocotyl junction J; P uses same path from T to J and includes transition; E is left cut end to T. Excludes hypocotyl and lateral branches. This simplifies measurement arithmetic, not automatic landmark recognition. This route uses user-selected endpoints and archive-assisted tracing; it is not new model success. Left cut end not reviewed. Approx2cm is not an exact calibration; COL0 scale unconfirmed. No new training, annotation edits or numeric length report. Word manual not edited. Definition:02_Data/09_Transition_Endpoint_Review/COL0_root3_measurement_definition_01.json.
+
+16 November 2026 — Left cut end of the same COL0 root3 shown for confirmation
+Followed root3 visually from reviewed T-J section to far left on whole-slide overview. Candidate cut end near native(1988,3057); lower sloping root in source close-up, with nearby root2 above. Displayed a cyan ring labelled L? as a visual pointer only. User must confirm biological cut end before using as measurement endpoint. No training, segmentation annotation edits or numeric lengths. Native-source pixels kept unchanged except display guide overlay; source and model files untouched. Review:02_Data/09_Transition_Endpoint_Review/COL0_root3_left_end_review_01.json. Word manual not edited.
+
+16 November 2026 — Left cut end confirmed; micrometre calibration explained
+Gonzalo confirmed the ringed left cut end of COL0 root3; working source point (1988,3057) is approximate. T-J route remains approved; L-T extension and full-route review are pending. User asks for lengths in micrometres and the origin of 0.5299. PAT documentation records 0.5299 pixels per micrometre: length in micrometres = native pixel length / 0.5299. Example 5299 pixels = 10000 micrometres = 10 mm. Python and Fiji can perform the same conversion. This is physical calibration, not learned by the model. Original experimental derivation of the PAT ratio has not been established. User previously confirmed scale for 20_29 and 2_12 only; COL0 requires confirmation. Checked COL0 original TIFF has 72-DPI print/display metadata, not a verified specimen scale. Approximate 2 cm cut size cannot replace calibration. Saved review JSONs; Word manual not edited. No new training, annotation edits or final numeric root-length report.
+
+16 November 2026 — COL0 scale confirmed by Gonzalo
+User confirms COL0 used the same imaging settings, identifies Col-0 as wild type and MT as mutants, and recalls Keyence microscopy. Use the PAT ratio of 0.5299 pixels per micrometre for this native COL0 image, explicitly recorded as user-confirmed rather than independently recovered physical TIFF calibration. One pixel is about 1.887 micrometres. Cropping or viewing zoom does not change native pixel size; resampling would. Full measuring route is next for review, with no model training. Word manual not edited. Evidence:02_Data/09_Transition_Endpoint_Review/COL0_root3_calibration_review_02.json.
+
+16 November 2026 — Complete COL0 root3 reference measuring line ready for review
+Extended route from confirmed left cut end L to working transition T using image fluorescence geometry and skeleton shortest path. Retained every point of prior user-approved T-J route unchanged. Computer tracing uses user-selected landmarks and archived outline geometry; this is not a new U-Net prediction or an independent manual measurement. Source hash unchanged and route visually inspected. Figure includes original overview, traced overview, L/T/J close-ups and 1000-micrometre scale bars using user-confirmed 0.5299 pixels per micrometre. Next: Gonzalo checks cyan line follows main root and excludes lateral branches. Then calculate total L-J, Periderm T-J and Endoderm L-T on the same line; no final numeric root length reported yet. Source, code, trace and verification saved in02_Data/09_Transition_Endpoint_Review/route_proposal_02. No training, annotation changes or Word edits.
+
+16 November 2026 — Root3 full reference route approved; lengths calculated
+Gonzalo: yes the cyan line follows the main root correctly; asks for different Endoderm colour and next step. Saved the approved route measurement: Periderm approximately 13,690 um, Endoderm approximately 22,490 um, photographed total approximately 36,180 um, using native path coordinates / 0.5299. Green line now Endoderm and red Periderm. Reference is human-guided/annotation-assisted, not a new automatic model prediction or independent manual trace. Total = E + P verified; source hash unchanged and figure inspected. Calculated total 3.62 cm exceeds earlier rough 2 cm recollection: keep calibration/section-length plausibility check visible rather than force result to that estimate. T and J remain working approximate expert-reviewed boundaries. No training or source annotation edits. Next small step: version corrected teaching labels for root3 where prior derived Endoderm region contradicts detailed biological review. Then use multiple reviewed roots and separate slides for evaluation; COL0 is already teaching data, not a new blind test. Files:02_Data/09_Transition_Endpoint_Review/reference_measurement_01 (reference_measurements.json, figure, code, READ_ME.txt, verification.json). Word manual not edited.
+
+16 November 2026 — Root3 teaching-label correction prepared for review
+Gonzalo accepts measured section length and clarifies approximately 2 cm was hard to cut precisely. Keep confirmed native scale unchanged; rough-section-length question reconciled by user clarification, not an independent new calibration. Prepared a versioned correction to the previous computer-derived Endoderm interior strip: original strip geometry retained, existing Endoderm pixels at x>=12621 become Periderm, following the reviewed convention including transition. 16,542 unique source pixels change category; four overlapping earlier patch copies corrected without changing their original files. Added one native 768x768 patch centred on expert T because prior root3 crops began to its right. New patch has 16,542 Periderm and 3,136 Endoderm pixels; remaining570,146 are unlabelled. No Background or lateral-root labels inferred. Candidate manifest references 357 total patches and says training_ready=false pending preview review. Visual comparison inspected, with source image, previous mask and corrected mask. No new training or source annotation edits. Next: show Gonzalo corrected answer key; on confirmation use new dataset version in a controlled training comparison, retaining previous weights and treating existing development examples as familiar, not blind tests. Word manual not edited. Saved:04_Results/61_Reviewed_Root3_Teaching_Correction.
+
+16 November 2026 — Root3 correction approved; new controlled training comparison prepared
+Gonzalo confirms panel3: Endoderm left and Periderm right. Saved immutable approval and separate manifest_approved.json; historical draft manifest retained. New run reviewed_root3_v9 will reuse v7 starting v6 weights, seed1611, 1200 updates, learning rates and mild augmentation. Data changes: four corrected patch copies plus one new T-centred field; sampling consequently changes, so not a strict label-only causal claim. Check root3 teaching fit and familiar20_29development separately; no claim of a new blind test. Default working model and prior weights stay unchanged. Training setup record:04_Results/62_Reviewed_Root3_Training_Comparison/before_training_record.json.
+
+16 November 2026 — Reviewed-root3 training comparison finished; mixed outcome
+1200updates completed in about411seconds; selected checkpoint800 using same familiar20_29mean tissueIoU criterion asv7. Pure image-only old/new inference completed before scoring masks. COL0root3teaching Periderm recall0.03%to72.63%,Endoderm98.53%to73.28%; meanIoU0.0787to0.4955. Familiar20_29Periderm recall79.88%to99.38%,Endoderm73.30%to56.83%;meanIoU0.6219to0.6460,labelledBG100%both. These are labelled-pixel recalls, not full-image accuracy or blind-test performance. Gate fails; new model overcalls Periderm and local image-only one-transition rule finds no interior boundary. Default model and earlier weights retained with hash verification. Full predictions, before/after figures and reproduction details saved in04_Results/62_Reviewed_Root3_Training_Comparison. Next small step: inspect another existing teaching transition for inconsistent labels before another training attempt; do not claim image quality is the proven cause. Word manual not edited.
+
+16 November 2026 — Regional transition rule discussed after mixed model result
+Gonzalo proposes scanning right-to-left until longer rectangular cells appear mixed with Periderm, selecting T, then classifying main root left of T as Endoderm even with isolated Periderm cells. Distinguish locating T from enforcing regional continuity. Verified existing score-based single-change rule already tested and fails to recover internal T on current root3 crop; it does not explicitly measure cell shapes. Potential conceptual direction: make reliable transition identification the prediction target, then use the main-root regional convention for measurement. Need clarify first mixed region versus left edge of mixed zone, because earlier rule includes transition in Periderm. No labels, model, T coordinate or prediction changed. Word manual not edited. Exact discussion saved inCOL0_root3_transition_rule_discussion_01.json.
+
+16 November 2026 — Cell-shape criteria and transition definition confirmed
+Gonzalo selects LEFT edge of mixed-cell zone for T, so mixed zone remains in Periderm length, consistent with earlier convention. He emphasizes elongated rectangular Endoderm cells and mixture with Periderm cells as image evidence. Explain: a CNN learns this association from reviewed image examples; writing the English rule does not alter weights. Current workflow has no explicit mixed-zone teaching target or measured cell-shape detector. Potential next approach is to review clear Endoderm, mixed-zone and clear Periderm appearances while keeping mixed zone grouped with Periderm for measurement. No implementation, labels or training changed; original T12621 retained. Next source-only root2 teaching crop is available for a small biological check. Word manual not edited.
+
+16 November 2026 — Root2 numbered source-only cell-shape review prepared
+Reused native COL0root2source crop [13401,3210,14425,3722], no enhancement or predictions. Added seven position guides outside photograph, at source x13529,13657,13785,13913,14041,14169,14297. Ask expert where clear Endoderm gives way to mixed-cell zone on main root; allow a range or unclear. This review will support consistent T definition (left edge of mixed zone) before teaching changes. New morphology categories are a proposed next design, not yet labels or a trained model. Saved figure and coordinate record under02_Data/09_Transition_Endpoint_Review/COL0_root2_cell_shape_review_01. Word manual not edited.
+
+16 November 2026 — Root2 transition T estimated at markers1–3
+Gonzalo answers1–3to question locating left edge of mixed-cell zone on main root2. Save approximate T source-x range13529–13785; no exact point selected, and do not treat this as the complete extent of the mixed zone. Earlier derived Endoderm teaching strip extends13529–13977, including region right of marker3that conflicts with the regional Periderm definition if this T range is confirmed. This is another concrete teaching-label issue; old data retained and not silently rerun. Next one question: confirm clear Endoderm immediately left of marker1using elongated rectangular cells. No mask changes or new training. Word manual not edited. Record:COL0_root2_cell_shape_review_02.json.
+
+16 November 2026 — Root2 clear Endoderm confirmed; cut-end example shown
+Gonzalo confirms elongated rectangular Endoderm cells left of marker1. Saved this separately from uncertain T range1–3. He suggests looking at the cut end for clearer cells. Followed same root2leftward on whole-slide source to upward-pointing cut end; selected branch-free main-root section at source[1880,1280,2200,1680]. Source-only review figure shows location and2xnearest-neighbour detail; native crop also saved. No new mask or training. Exact selected cut-end region awaits expert review. Planned root2teaching correction with Endoderm left1, Periderm right3 and ignored uncertain1–3 interval remains pending; do not label all ambiguous cells automatically. Word manual not edited. Files:COL0_root2_cell_shape_review_03.json andCOL0_root2_clear_endoderm_candidate_review_01.
+
+16 November 2026 — Cut-end Endoderm confirmed; fixed regional rule clarified
+Gonzalo confirms displayed root2cut-end section as clear Endoderm, describing long rectangular cells; mixed zone has these plus shorter irregular Periderm cells. His100percent is confidence in identity, not model accuracy. He clarifies the idea is to force the Endoderm call on main-root tissue left of T. Explain separate jobs: detect T from image, then deterministically apply regional class rule; individual cell exceptions need not change regional output. Keep background and lateral roots separate, and mixed zone included in Periderm. Earlier score-based local rule exists but did not recover internal T on root3. No new model, masks or training in this step. Proposed cut-end mask and root2 uncertainty-aware correction remain pending, not completed. Word manual not edited. Record:COL0_root2_clear_endoderm_confirmed_and_rule_01.json.
+
+16 November 2026 — Appearance teaching examples confirmed
+Gonzalo approves the two candidate windows: B mixed appearance and C clear Periderm; previously reviewed A is clear Endoderm. Exact native crops and expert wording saved in02_Data/10_Cell_Appearance_Review/confirmed_appearance_labels_01.json. Preparing a separate frozen-PAT-encoder plus three-appearance linear-head feasibility experiment. Three windows from one root, augmented copies are not independent examples. Existing U-Net unchanged. Root3 check uses a supplied reviewed main-root route; reference T only for later comparison. User regional rule remains E left of the left edge of mixed zone, P including mixed to right. Word manual not edited.
+
+16 November 2026 — First three-appearance experiment completed
+Frozen published PAT encoder plus new linear head trained500updates on three expert-reviewed root2windows (A clearE, B mixed, C clearP), with balanced augmentations; no new independent examples. Head correctly classifies its three teaching images. Scanned295native-size fields along existing human-assisted root3path. Raw scores saved before expertT comparison; orderedE/M/Pdecoder allows missing states and did not force interiorT. FoundE175/M16/P104samples, candidate arc11328px versus reviewedworkingT11918.42564px: 590.43px, about1114um too far left, outside expertinterval. This is not a reliable automatic-length model; no lengths promoted. Pattern is compatible with appearance difference but not proof of cell-shape recognition; thickness and lateral-branch context may confound. Sources/defaultmodel verified unchanged, exact sourcecrops and no training/check-window overlap verified. Same-slidefamiliar check, not blind test; publicencoderexposureunknown. Saved04_Results/63_Cell_Appearance_Experiment including resultfigure, weights, code, rawscores, README and reproducibility. Next bounded improvement: confirmed clearE nearT plus mixed fields from further roots, not more iterations on same threefields. external reviewer review unavailable(login), no review sent. Word manual not edited.
+
+16 November 2026 — Expert Endoderm correction moved T right
+User confirms the modelblueT area is clear elongated rectangular Endoderm, no Periderm/mixed cells. Saved nativewindowD[11909,5854,12229,6110] and exactexpertwording in02_Data/10_Cell_Appearance_Review/root3_Endoderm_correction_01.json andconfirmed_appearance_labels_02.json. NewfrozenPATfeatures+linearhead run usesfourwindows with equal totalclassweights(A,DshareEweight). Same500updates/seed/settings. OriginalthreewindowcontrolreproducedscoresandTexactly. Correctedpathscanfield175changesmixedtoE;T11328to11456nativearcpx,right128px(~242um). Still462.43px(~873um)leftofexpertT11918.42564,outsideinterval. AxisalignedDwasalreadyEbyoldhead,whilepathrotatedfieldwasmixed: recordposesensitivityhonestly. No independenttestclaim:root3nowdirectteaching. Sources/encoder/defaultmodelhashesverifiedunchanged. Savedfigures,weights,code,README,comparisonandverificationin04_Results/64_Appearance_Endoderm_Correction. Wordmanualnotedited.
+
+16 November 2026 — Require both appearances; correction reaches the reviewed T interval
+Gonzalo identifies the new blue-line main-root area as Endoderm. A mixed call needs both elongated, orderly Endoderm cells and shorter, irregular Periderm cells. The raw appearance classifier itself miscalled scan window 177 mixed; removing off-root upper pixels did not fix it.
+Added expert teaching example E from the exact path-aligned window. Controlled comparisons: three-way classifier with four windows, T=11456 native path pixels; two presence outputs with four windows, same T; either version with the fifth window, T=11840. The teaching correction helped; the output-design change alone did not move T.
+New T is about 78 pixels (148 micrometres) left of the working reference, within the prior approximate interval. The old error window now supports Endoderm but not Periderm at the fixed 0.5 threshold. Both scores must reach that threshold for three consecutive windows to call a supported mixed region. These are window predictions, not individual-cell detections or calibrated certainty.
+Five teaching windows come from two roots on one slide. Root 3 is now used for teaching and its path is supplied; this is not independent validation. Original image, published encoder and default U-Net hashes are unchanged. Code, weights, raw outputs, comparison figures and explanations are saved in 04_Results/65_Mixed_Appearance_Evidence_Check. The new blue line is awaiting Gonzalo's biological review. The Word manual was not edited.
+
+16 November2026 — New T accepted; candidate frozen for a separate-image check
+Gonzalo answers Yes: the new blue line is a reasonable left edge of the mixed-cell zone on COL0 root3. Acceptance and exact candidate coordinates saved in65_Mixed_Appearance_Evidence_Check/BIOLOGICAL_REVIEW_ACCEPTED_20261116.json. Original reference T is retained. Copied the small appearance head into06_Models/20261116_Two_Appearance_Candidate with encoder hash, settings and limitations. No default-model promotion or further training. Next: inspect existing20_29reference files and evaluate fixed method on another image; familiar development check, not a new blind test. Word manual not edited.
+
+16 November 2026 — Frozen detector checked on 20_29 root 4
+Kept the accepted COL0 appearance head, published encoder, preprocessing and rule unchanged. Traced the main-root path from source-image fluorescence only; verified the path avoids the downward lateral branch. Classifier windows can still include surrounding branch context. Saved image-only predictions before reading the reference mask. Ten overlapping windows: seven mixed, three Periderm-only, zero Endoderm-only. No supported T returned. The first window contains reference Endoderm and no reference Periderm; early mixed calls remain an error relative to the reference. A polygon-derived reference boundary gap is455–466local path pixels; no predictedT or periderm length reported. This is a familiar development image, not a new blind test; original PAT pretraining exposure unknown. Source/reference/head/encoder/default hashes unchanged. Saved all code, raw scores, window inputs, route, comparison and README in04_Results/66_Fixed_20_29_Check. Next: broader consistently reviewed appearance examples across images, preserving this failed baseline and a separate evaluation image. Word manual not edited.
+
+16 November 2026 — Expert review corrects interpretation; blue T convention
+Gonzalo confirms mixed appearance including the left-hand purple windows in 20_29 and says the white reference line is within the T zone. The earlier inference that those mixed calls must be biological errors is superseded. The fixed detector still returned no T; this remains distinct from expert approval of appearance. Changed the display reference to vertical blue at the identical coordinate, explicitly labelled reference. No exact left edge newly confirmed. Source data, masks, predictions and model weights unchanged. Saved biological_review.json and 20_29_BLUE_T_REFERENCE.png in 04_Results/66_Fixed_20_29_Check/expert_review_20261116. Prepared source-only A04 root3 review (three detail windows and broader context) before unchanged-model inference. Labels remain pending expert review. 2_12 reserve unused. Word manual not edited.
+
+16 November 2026 — A04 root3 expert review and frozen check
+A and B endoderm C Transition zone. Very bluerry image tho  No new teaching, weights, threshold or decision-rule changes. Predictions saved before comparison. Only the nearest scan window to each reviewed field is compared; geometric framing differs slightly. A: expert Endoderm; model nearby Endoderm. B: expert Endoderm; model nearby Endoderm. C: expert Mixed / transition; model nearby Endoderm.  Blue = model T candidate. No exact reference T was given, so its location still needs biological review. Blur is recorded, not proven to cause any discrepancy. No exact T or new length accuracy is established. This slide has been inspected in earlier development; it is not a fresh blind test. Original PAT exposure unknown. All original images, labels and model weights unchanged. Word manual not edited.
+Results: 04_Results/67_Fixed_A04_Root3_Check.
+A04 interpretation: candidate T lies before expert Endoderm field B and is not accepted for length measurement. Near C the frozen detector says Endoderm despite expert mixed/transition review. Blur recorded but cause not established. Source, labels, weights and thresholds unchanged. Next recommended step is a clearer source review, not automatic tuning on this result.
+A04 context diagnostic (same saved predictions, no rerun): A 7 Endoderm/0 mixed; B 5 Endoderm/2 mixed; C 3 Endoderm/3 mixed at window centres inside reviewed rectangles. These overlap and are not accuracy statistics. C is not wholly missed; the initial single-centre comparison was incomplete. The early blue T remains unaccepted before expert-Endoderm B. Saved region_context_diagnostic.json and A04_ROOT3_FIELD_CONTEXT.png.
+
+16 November 2026 — A04 root3 predicted T explicitly accepted
+Gonzalo confirms: yes reasonable T—the left edge of the mixed-cell zone. Accepted source coordinate [8868.313685437299, 5148.609165499165]. This supersedes project tooling earlier too-far-left interpretation, not the original raw predictions or A/B/C appearance labels. No training, model changes, annotation changes, exact independent error metric or new length measurement. Next: source-only biological review of clearer 2_12 root1 before fixed-detector inference. Word manual not edited.
+Prepared 2_12 upper-root source review before detector inference: native source box[3500,0,11000,1500]; A[4500,362,4900,642], B[6700,60,7100,340], C[8800,415,9200,695]. Field identities pending expert review. No sharpening or generative restoration. Source crops, coordinates and preparation code saved in02_Data/12_Next_Slide_Review_20261116/2_12_root1. Head/encoder hashes checked unchanged. The source remains excluded from teaching/tuning. A04 approval shown in A04_T_ACCEPTED_AFTER_REVIEW.png; historical reports retained with acceptance update. Word manual not edited.
+
+16 November 2026 — 2_12 root1 frozen prediction
+the square i see in B seems more endoderm but if u move a bit to the right of B i see transtion zone. Saved as approximate pre-prediction reference, no exact T. Blue is the model T candidate (left of B rectangle). Its biological position needs your review. B window counts {"Endoderm_only": 6, "both_mixed": 0, "Periderm_only": 0, "neither": 0}. No training/tuning or source/mask changes. Source-only upper-root path inspected; saved original prediction, code, inputs, scores, comparison and figure in04_Results/68_Fixed_212_Root1_Check. Word manual not edited.
+
+16 November 2026 — Mixed-zone definition reaffirmed; continuity guard tested
+User confirms long rectangular Endoderm alone must not count as mixed; both main-root appearances required. Diagnostic:2_12old T selected3mixed windows before38E-only windows. New guarded decoder rejects early candidate with3E-only fields spaced by320px before later supported Periderm. No weights, raw scores or thresholds changed.2_12T moved sourcex5686.13to8414.34; new position awaits biological review. Accepted COL0 and A04 positions unchanged;20_29still abstains. Synthetic tests and original decoder replay pass; source/model hashes unchanged. This is rule development using2_12feedback, so2_12is no longer an independent test for the new rule. Default model not replaced. Saved04_Results/69_Transition_Continuity_Check. Word manual not edited.
+
+
+16 November 2026 — APPROVED TRANSITION CHECKPOINT LOCKED
+Gonzalo approved the solid blue T on 2_12 root 1 and requested a lock.
+Saved the exact weights, image preparation, continuity rule, settings, software
+versions, source code, inputs and biological acceptance as Transition_v1_20261116.
+The complete copy reproduces the original appearance scores exactly (maximum
+difference 0.0) and the approved T at source x=8414.342292421163,
+y=411.8250414267261. All four saved-profile decoder replays passed, retaining
+COL0/A04 positions and no supported T for 20_29.
+All checkpoint files are read-only; final inventory and fingerprints passed.
+Checkpoint: ${ROOTSPAN_PROJECT}/06_Models/Locked_Transition_v1_20261116
+Current transition pointer: ${ROOTSPAN_PROJECT}/06_Models/current_transition_checkpoint.json
+Verification: ${ROOTSPAN_PROJECT}/04_Results/70_Locked_Checkpoint_Verification/final_verification.json
+Next: test this version unchanged on additional roots, then assess measurement
+endpoints and lengths. This is a reproducible research checkpoint, not a claim
+of validated unattended measurements. 2_12 informed rule development.
+Original images, annotations and the earlier segmentation U-Net are unchanged.
+Independent review unavailable: prior helper attempt required external reviewer login and
+sent nothing. The Word manual was not edited.
+
+16 November 2026 — Next locked-version check: A04 root 1
+Prepared source-only A/B/C views from A04 root 1 for expert review before prediction. Source and locked checkpoint hashes verified. The appearance head was taught on COL0; A04 is a familiar slide from earlier checks, not a pristine blind test. No model, rule, annotations or training changes. Biological labels remain pending. Saved 02_Data/13_Locked_Model_Checks_20261116/A04_root1. Word manual not edited.
+
+16 November 2026 — A04 root 1 source review layout 02
+Moved A/B/C detail fields away from lateral-root junctions after source-only visual QA. This supersedes the initial detail layout, before any expert label or locked-model prediction. Source and checkpoint fingerprints pass. Current figure and plan: 02_Data/13_Locked_Model_Checks_20261116/A04_root1/source_review_02. No training or model changes; Word manual not edited.
+
+16 November 2026 — Locked v1 checked on A04 root 1
+Your reference: A Endoderm; B mixed/transition; C Periderm.
+Automatic T: [4897.161375117229, 500.1738895984186]; relation: left of B.
+A: expert Endoderm; nearest model field Endoderm; all field-centre states {'Endoderm': 6, 'Mixed / transition': 1, 'Periderm': 0, 'Neither supported': 0}.
+B: expert Mixed / transition; nearest model field Mixed / transition; all field-centre states {'Endoderm': 0, 'Mixed / transition': 6, 'Periderm': 0, 'Neither supported': 0}.
+C: expert Periderm; nearest model field Periderm; all field-centre states {'Endoderm': 0, 'Mixed / transition': 0, 'Periderm': 7, 'Neither supported': 0}.
+
+The exact locked runner was used. No labels were given to the model; no training, threshold change or manual T shift occurred.
+The main-root path was derived from image fluorescence and visually checked before inference. Rectangular windows can still contain lateral-branch context.
+The appearance head learned from COL0. A04 was viewed in earlier checks; this is additional evidence, not a pristine blind test. Published encoder exposure is unknown.
+B identifies a mixed area but no exact left edge. Field comparisons use nearby, differently framed model windows, not pixel accuracy.
+T placement needs biological review. A04 calibration is unconfirmed; no length measurement is claimed.
+Source, earlier results and read-only checkpoint preserved. Word manual not edited.
+Results: ${ROOTSPAN_PROJECT}/04_Results/71_Locked_A04_Root1_Check
+
+A04 root1 delivery: nearby A/B/C windows agree with Endoderm/mixed/Periderm; one of seven A-centred windows is mixed, B six mixed, C seven Periderm. These overlapping-window counts are not accuracy. Automatic T x4897.16 lies between A and B and awaits expert review. User clarification: Transition v1 is the already locked saved version; this is testing, not training. Review helper unavailable due external reviewer login; no review sent.
+
+16 November 2026 — Expert rejects locked v1 T on A04 root 1
+Gonzalo says the automatic blue T is too far left. Recorded directional error; no exact replacement coordinate inferred. Earlier A/B/C appearance reviews remain unchanged. Correct classifications in sampled areas did not establish a correct transition boundary. The checkpoint remains read-only and the original prediction is preserved. Prepared numbered native source guides for a reference position/range; no training or new inference. Files: 04_Results/71_Locked_A04_Root1_Check/expert_T_review_01. Word manual not edited.
+
+16 November 2026 — A04 root1 expert T interval recorded: guides 4–5
+Gonzalo answers Btw 4-5. Saved approximate source-x interval 6000–6300, not an exact midpoint. v1 T at x4897.161375 remains too far left; original prediction and read-only checkpoint unchanged. Saved-score diagnosis: 24 consecutive overlapping mixed calls begin early; no long Endoderm-only return triggers the continuity guard. Cause in image features is not established. No retraining, threshold change, pixel relabelling or micrometre conversion. Earlier A/B/C descriptions retained. Source comparison and interval record saved in 04_Results/71_Locked_A04_Root1_Check/expert_T_review_02. Word manual not edited.
+
+Next learning action proposed after the 4–5 reference: check another root with frozen v1 before deciding on v2. No further root selected or predicted yet. Any future training change will be separately versioned and evaluated against both earlier accepted examples and additional roots.
+
+16 November 2026 — A04 root 2 selected for the next locked-v1 check
+User requests another root, same locked v1, image first and slow guidance. Selected next root 2 on familiar A04 before new predictions. Prepared source-only overview and three detail views away from conspicuous branch junctions. Labels pending; source and read-only checkpoint integrity verified. No training or inference. Saved 02_Data/13_Locked_Model_Checks_20261116/A04_root2. Word manual not edited.
+
+16 November 2026 — Locked v1 checked on A04 root 2
+Your reference: A Endoderm; B and C mixed/transition.
+Automatic T: [9235.982508171961, 2601.500507191203]; relation: right of B.
+A: expert Endoderm; nearest model field Endoderm; all field-centre states {'Endoderm': 6, 'Mixed / transition': 0, 'Periderm': 0, 'Neither supported': 0}.
+B: expert Mixed / transition; nearest model field Endoderm; all field-centre states {'Endoderm': 5, 'Mixed / transition': 2, 'Periderm': 0, 'Neither supported': 0}.
+C: expert Mixed / transition; nearest model field Mixed / transition; all field-centre states {'Endoderm': 1, 'Mixed / transition': 4, 'Periderm': 1, 'Neither supported': 0}.
+
+The exact locked runner was used. No labels were given to the model; no training, threshold change or manual T shift occurred.
+The main-root path was derived from image fluorescence and visually checked before inference. Rectangular windows can still contain lateral-branch context.
+The appearance head learned from COL0. A04 was viewed in earlier checks; this is additional evidence, not a pristine blind test. Published encoder exposure is unknown.
+B and C identify mixed areas but no exact left edge. Field comparisons use nearby, differently framed model windows, not pixel accuracy.
+T placement needs biological review. A04 calibration is unconfirmed; no length measurement is claimed.
+Source, earlier results and read-only checkpoint preserved. Word manual not edited.
+Results: ${ROOTSPAN_PROJECT}/04_Results/72_Locked_A04_Root2_Check
+
+Root2 interpretation before exact boundary review: A all6Endoderm; B fiveEndoderm/twoMixed; C oneEndoderm/fourMixed/onePeriderm. Counts are overlapping windows, not accuracy. T sourcex9235.98 is right of B, where expert already sees transition, suggesting late placement. No manual shift or model change. B-and-T source view prepared for next reference step.
+
+A04 root2 completed frozen prediction and source comparison. Final B-and-T view inspected; no exact T supplied yet. Independent review helper unavailable due login; no review sent. Next action is expert reference-position review, not training.
+
+16 November 2026 — A04 root2 T provisionally accepted after closer expert review
+EXPERT REVIEW UPDATE — 16 November 2026
+Gonzalo: "to the right of B i think the model got it correct".
+The shown T is provisionally accepted as reasonable on A04 root 2. The earlier suggestion that it was too late is superseded by this closer expert review. Original A/B/C descriptions remain on record; no pixels or training labels were silently changed. The exact model output is unchanged. This is visual acceptance on one familiar root, not numerical accuracy or length validation. See BIOLOGICAL_REVIEW_ACCEPTED_20261116.json.
+Latest two checks: root1 too far left; root2 reasonable per expert, qualified by "i think". No further inference, training, manual shift, or model change. Word manual not edited.
+
+16 November 2026 — PAUSED AT USER REQUEST
+Saved START_HERE_Next_Session.txt with locked-v1 status, root1 error/reference, root2 provisional acceptance, exact file paths and the next decision. No v2 or further training/prediction. Continue slowly when Gonzalo returns.
+
+17 November 2026 — Resumed; clarified direction before more model work
+Read START_HERE_Next_Session.txt, current checkpoint pointer, head-teaching provenance, root1 error diagnosis and root2 latest expert acceptance. Locked v1 integrity verified. No training, prediction, annotation edits, new split selection or v2 creation occurred.
+
+Clarification for the next session steps: current T detector combines a frozen pretrained PAT encoder, a head taught on five reviewed fields from two COL0 roots, and a continuity rule. This differs from the earlier pixel-segmentation practice U-Net. It is a reproducible proof of concept, not a validated unattended periderm-length pipeline.
+
+Direction: stop chasing single-image fixes. First define a fixed teaching/development set and a separate evaluation set. Reuse confirmed existing examples, review representative clear Endoderm/mixed/Periderm appearances across more roots and slides, and preserve uncertainty. Select evaluation material before fitting v2 and mark all previously used or reviewed material honestly. A04 root1/2 and previously accepted cases are development/regression checks, not pristine independent tests. The expert B description on root2 was refined by later T acceptance; do not silently convert it into a pure-tissue teaching label.
+
+Then run a separately versioned v2 experiment, initially changing teaching data while keeping image preparation, architecture and T rule fixed where feasible. Predeclare comparisons: reference T intervals, no-T cases, retained earlier successes and failures. If v2 does not improve the predefined checks, keep v1 and investigate rather than declaring a fix. Assess another reserved set without tuning on it; repeated tuning turns it into development data. No arbitrary sample count or guaranteed improvement claimed.
+
+After T reliability is assessed, complete root-path and biological endpoint handling, confirm scale for each acquisition group (A04 unconfirmed), compute T-to-root/hypocotyl-junction periderm length, and compare with manual measurements before batch use. Immediate next work is to prepare an inspectable teaching/checking list before training, explained slowly to Gonzalo. Word manual has not been updated with recent text/JSON notes.
+
+17 November2026 — Copied new slides; switched next exercise to unchanged-v1/manual length pilot
+User proposed six roots with manual Fiji measurement and requested Fiji install. Copied and hash-verified1_7,15_27,22_22 (1.3GB).1_7 current pilot; others reserved local evaluation (original PAT encoder exposure unknown). User confirmed1_7scale0.5299px/um. Source-only overviews1_7and22_22 inspected; no model run. Exact six root identities, T/J endpoints and manual traces remain pending. Lockedv1 verified40files read-only. SALK ejected successfully. Fiji downloaded from official source, extracted /Applications/Fiji; GUI verification in progress. Data roles and pilot saved02_Data/14_Data_Roles_20261117. Manual output folder04_Results/73_V1_Manual_Comparison_Pilot/01_Manual_References. No v2 or Word edits.
+
+Fiji installation completed and GUI verified: /Applications/Fiji/Fiji.app. Original1_7.tif open (15413x8530 RGB). Startup welcome/updater dismissed; updater reported up to date. No measurement drawn; image scale not yet set in GUI. Next user action: Analyze > Set Scale, then enter5299pixels/10000micrometres withGlobal unchecked. SALK safely ejected; user informed unplugging is safe.
+
+17 November2026 — User asks to verify PAT Fiji method
+Rechecked published Manual periderm measurements and Fig4F–G. Use original paper scale0.5299pixels/1.00um, aspect1.0; segmented trace from hypocotyl to transition; M to measure. Paper checks Global; current single-image exercise will leave Global unchecked deliberately. Updated current pilot guidance; saved02_Data/14_Data_Roles_20261117/PAT_Fiji_Method_Verified.txt. No GUI operation, training, inference, measurement, or Word edit.
+
+17 November2026 — Fiji calibration and line-tool setup completed by user
+User reports Set Scale done and Segmented Line selected. GUI verified1_7.tif at12.5%; displayed29086.62x16097.38um for15413x8530pixels, consistent with confirmed0.5299px/um. Selected first/topmost main root for initial manual exercise. No T/J selection or manual measurement yet; next zoom right-hand wider root end to review biological junction before drawing. No model prediction or image edit.
+
+17 November2026 — First Fiji Results row observed
+User pressedM. Results screenshot shows Length about6328um (rightmost digits clipped). Actual trace and biological endpoints not yet inspected; do not call this a verified periderm measurement. No ROI or numerical export saved. Next user action: bring microscopy image to front to inspect existing line; preserve Results. No model run.
+
+17 November2026 — Fiji M/Results visibility troubleshooting
+User reported M did not work. Yellow line seen on1_7at75%; usedAnalyze>Measure thenWindow>Results. Seven rows visible, with repeats; not seven independent roots. Results was behind image. No rows deleted; full Length values clipped and not exported. No final root measurement accepted or ROI saved yet. Manual note: Window>Results reveals output; repeatedMeasure can add repeated rows for same trace.
+
+17 November2026 — Root1 manual table saved
+User cleared old results, remeasured root1 and asked whether to do all roots. Saved single-row Results via Fiji File>Save As to ${ROOTSPAN_PROJECT}/04_Results/73_V1_Manual_Comparison_Pilot/01_Manual_References/1_7_root01_manual_initial_20261117.csv. Exact row: {" ": "1", "Area": "15103.599", "Mean": "24.288", "Min": "3.723", "Max": "65.929", "Length": "8002.110"}. ROI/line not yet saved and biological endpoints not inspected. Must preserve line before new root. No model result revealed or model run.
+
+17 November2026 — Root1 trace added to ROI Manager
+GUI shows one entry01060-11699. Add succeeded; ROI file not exported yet and exact length/geometry match not independently checked. Next guided step: select row, Rename to1_7_root01_Periderm, then save trace. Numerical CSV already saved. No prediction or biological endpoint approval.
+
+17 November2026 — Root1 ROI verified on Mac
+Saved1_7_root01_Periderm.roi exists in04_Results/73_V1_Manual_Comparison_Pilot/01_Manual_References. ImageJ polyline has17vertices; its coordinates yield8002.109515014364um at0.5299px/um, matching CSV8002.110um to displayed precision. Numerical and trace records agree; biological endpoint certification and model comparison remain pending. Next root2 may be measured with same protocol.
+
+17 November2026 — Pilot changed to roots1,2,6
+User prefers root6 next because others are not good. Preserve original IDs and record3–5excluded by user, specific defects unknown; selection before anyv1prediction on1_7. Three-root selected pilot, not six-root/full-slide validation. Root2 Add observed03047-10558; user reports rename, UI switch interrupted by concurrent user activity so name not verified. Root2 ROI not found in project manual folder yet; save it before drawingroot6. Root1 ROI+CSV verified. No inference or training.
+
+2026-11-17: User reconfirmed selected roots 1, 2, 6 top-to-bottom; skip other roots. Root06 name visible in ROI Manager (only one entry); file export not yet verified. Automated More-menu clicks did not open a save dialog. Root02 saved ROI not located in project/Desktop/Downloads or Spotlight filename search. Root01 ROI and 8002.110 um result remain saved. Preserve current root06 trace, recover root02 before v1 comparison. No model run or retraining.
+
+2026-11-17: User saved root06. Verified 1_7_root06_Periderm.roi (30 vertices), native-coordinate length9504.0506px /0.5299 =17935.555um. This verifies saved geometry and numerical length, not biological endpoint correctness. Root01 remains saved; root02 ROI not found after broader local filename search. ROI Manager no longer listed among Fiji windows. Next recover root02 reference before locked-v1 comparison. Selection remains roots1,2,6 only.
+
+2026-11-17: Preserved full three-row Fiji Results table as1_7_roots01_02_06_manual_results_20261117.csv. Lengths8002.110,14014.733,17935.555um; order reported asroots1,2,6; first/thirdmatchsavedROIs. Root2 numerical measurement now safe; its line ROI still missing. Next activate microscopy image and inspect active line before adding any ROI.
+
+2026-11-17: All three selected manual ROI files now verified: roots01,02,06. Saved-line lengths:8002.110,13710.563,17935.555um respectively at0.5299px/um. Root02 was redrawn; previous14014.733um remains in original three-row Results table. New manual_reference_index.json links lengths to exact saved ROI hashes. Manual saving complete; no v1 inference on1_7 yet. Next explain comparison, then prepare independent full main-root paths and use unchanged locked v1. Manual periderm-only paths/T must not become detector input.
+
+17 NOVEMBER 2026 — LOCKED V1 COMPARED WITH FIJI ON SLIDE1_7
+User authorised autonomous completion and requested results.
+Three saved reference traces: roots1,2,6 top-to-bottom. Same scale0.5299px/um.
+V1 ran unchanged on each source image crop plus a source-fluorescence main-root path, visually checked during development before inference. Shared human right endpointJ; manualT not supplied. Geometry paths frozen before inference; all model outputs saved before comparison.
+Results (um):
+root1: manual8002.110; V15919.086; difference-2083.024(-26.03%).
+root2: manual13710.563 repeated line; V116584.425; difference+2873.862(+20.96%). Earlier14014.733manual scalar preserved.
+root6: manual17935.555; V124619.081; difference+6683.526(+37.26%).
+The trace-geometry contribution at identicalT/J is only40.159,51.567,75.009um; transition placement explains most disagreement.
+Result folder04_Results/74_Locked_V1_1_7_Comparison: V1_VS_YOUR_MEASUREMENTS.png/PDF, per-root TRANSITION_CLOSEUPS.png, prediction.json, comparison_summary.json, native crops, frozen routes, script and verification.
+All40locked files still pass read-only hash check. Source and manual ROIs unchanged. No training/model/rule updates.
+This is an assisted three-selected-root pilot on one slide, not general validation. Historical PAT encoder exposure unknown. Root6blueT falls near lateral/overlapping branch context; this is a plausible confound, not proven cause.
+Next: user reviews root6model-vs-manual close-up first. Do not silently shiftT or tunev1. If these discrepancies are used for tuning,1_7becomes development material; keep reserved15_27and22_22separate for later checks. Develop any improvement asv2.
+external reviewer review attempt unavailable(subscription login required); no review sent/approval claimed. Local figure/numeric/hash checks passed.
+Matplotlib3.11.2installed for figures; environment recorded. Word manual not updated this turn.
+
+
+CURRENT CHECKPOINT — AUTOMATIC GUI WORKS
+17 NOVEMBER 2026 — PERIDERM LAB 0.1
+User explicitly wants prediction/measurement without drawing or manual T/path selection,
+and a GUI like PAT. Proceeded with a local browser GUI around unchanged locked V1.
+Open 09_Periderm_GUI/Periderm Lab.command; local URL http://127.0.0.1:8765.
+A real GUI run on 22_22 completed: two provisional periderm lengths (16657.491,
+14832.143 um), one endpoint-uncertain track (segment 14361.372 um, no periderm
+length), and one connected-root group with no length. Source-image-only automatic
+geometry and endpoint heuristics are NEW prototype components, not verified anatomy.
+No human ROIs, polygons or T points used. No retraining; 40 locked files intact.
+Results: 09_Periderm_GUI/runs/20261117T100643Z_5085d918/results.
+README.txt explains use, scope, flags and limitations. GUI upload and CSV export tested.
+The previous 1_7 manual comparison is unchanged and NOT a passed accuracy validation.
+22_22 has now been inspected and run; it is no longer an untouched final evaluation slide.
+15_27 remains reserved and unused for this GUI development.
+04_Results/75_V1_22_22_Batch was preparation only and is superseded by the automatic GUI run.
+Next: show/teach GUI one step at a time. Do not ask for more manual polygons just to run it.
+Scientific next work: validate automatic geometry/endpoints and T, especially connected roots.
+Packaging for other computers is a later step; current launcher requires this Mac's project environment.
+Word manual not updated in this turn; explanation saved in README and these project notes.
+
+
+17 November 2026 — GUI now opens empty (0.1.1)
+User asked for an upload-only screen without preloaded images or old results.
+Removed example selector and visible history; initial /api/state returns no prior job.
+Only an explicitly selected current job is polled/displayed. All older saved results remain on disk.
+Choose File -> Analyse image -> results/export. Start a new image clears the screen only.
+Verified in browser: no initial images, Analyse disabled before upload, real upload and
+analysis completed (run 20261117T111745Z_3768e5ea, a previously saved source crop,
+interface test only), reset cleared results, reload stayed empty with zero displayed images.
+No model/pipeline change or retraining. Python and JavaScript syntax passed.
+Screenshot: 09_Periderm_GUI/GUI_EMPTY_UPLOAD_SCREEN.jpg. README updated.
+Next: user chooses their own image via Choose File. Do not restore automatic examples/history.
+
+
+17 November 2026 — MULTI-ROOT EXECUTION AND IMAGE-QUALITY UPDATE
+We are executing locked Transition V1, NOT training. Its 40 files remain unchanged/read-only.
+GUI/geometry version 0.2.1 now separates persistent touching horizontal roots without
+filling the large enclosed spaces between them. No root count is hard-coded.
+1_7 now has 7 listed/processed long candidates instead of 2 individual processed tracks.
+Three have provisional periderm lengths; four have no supported T and no numerical length.
+Keep the known discrepancies versus manual 1_7 measurements; these are not validated lengths.
+
+New SALK copies: 7_18, Col_rep1, WOX4_rep1, about 1.3 GB, source/local SHA-256 verified.
+Folder: 02_Data/16_New_SALK_GUI_Checks_20261117. User confirmed 0.5299 pixels/um for all three.
+All five checked slides use identical processing code and unchanged V1. Initial new-slide
+checks revealed a cut-off fragment in WOX4; the revised code now flags partial roots.
+Thus these have been inspected during pipeline development, not untouched final tests.
+Historical PAT encoder exposure is unknown. 15_27 remains reserved and was not run.
+
+The GUI lists explicit statuses: provisional, no supported transition, endpoint uncertain,
+possible blur/low detail, partial root/cut off, unresolved connected roots, processing error.
+No numerical measurement is emitted for poor-quality, partial, missing-T or failed cases.
+A predicted-T-to-visible-end segment remains separately labelled when endpoint is uncertain.
+New blur screen is a conservative native-scale focus/contrast heuristic, NOT a trained
+or validated blur classifier. Passed synthetic-cell and real-crop artificial-blur controls;
+real expert-labelled blurry/clear images are still needed to validate its sensitivity.
+Inspected archived PAT README/code used a human QC selection GUI; do not claim this new
+screen reproduces an original trained PAT blur detector. See README for parameters.
+
+GUI remains empty at the ordinary URL. Explicit ?run= links show only the requested saved
+result. All new and old runs are preserved. Seven-root browser display and CSV verified.
+No human ROI, masks or manual T supplied to these checks. No annotation requests needed.
+7 unit tests and Python/JS checks passed. Before/after model and source fingerprints recorded.
+Word manual not changed this turn; detailed method and status saved in README and project notes.
+
+1_7.tif: 7 candidates, 3 provisional periderm lengths; {'no_transition': 4, 'provisional': 3}
+http://127.0.0.1:8765/?run=20261117T114032Z_multiroot_a71bfdc9
+
+22_22.tif: 7 candidates, 5 provisional periderm lengths; {'endpoint_uncertain': 2, 'provisional': 5}
+http://127.0.0.1:8765/?run=20261117T114050Z_multiroot_c79c6d9f
+
+7_18.tif: 7 candidates, 1 provisional periderm lengths; {'endpoint_uncertain': 2, 'no_transition': 4, 'provisional': 1}
+http://127.0.0.1:8765/?run=20261117T114112Z_multiroot_2206e4dd
+
+Col_rep1.tif: 6 candidates, 6 provisional periderm lengths; {'provisional': 6}
+http://127.0.0.1:8765/?run=20261117T114132Z_multiroot_aa685e88
+
+WOX4_rep1.tif: 6 candidates, 3 provisional periderm lengths; {'no_transition': 2, 'partial_root': 1, 'provisional': 3}
+http://127.0.0.1:8765/?run=20261117T114149Z_multiroot_71929a70
+
+Next: review Col_rep1 as the new six-root execution example, keeping all lengths provisional. Use Start a new image / Choose File for more images. Do not retrain V1 unless explicitly changing objective; any model revision should be separate.
+
+Independent external reviewer review of multi-root/quality update was unavailable (subscription login required); no review sent. Saved review packet and failure record in 09_Periderm_GUI/checks/multiroot_20261117/review.
+
+
+17 November 2026 — V2 PIPELINE SAVED AND GUI VERIFIED
+User requested fixing missing 7_18 estimates and explicitly requested a new V2 for changes.
+V1 locked weights/rule and original pipeline.py remain unchanged. V2 is a separate inference
+pipeline update, NOT a newly trained neural network.
+
+Fixed: the inspection route was truncated at the estimated measuring endpoint, hiding
+right-hand Periderm context. V2 inspects the full visible track and measures separately
+to the original endpoint. Same preprocessing, scores, rule, root detection and quality guard.
+If T is beyond the estimated endpoint, report a conflict and withhold length.
+
+7_18: all seven candidates processed. Roots6/7 provisional lengths 8463/3162 um.
+Roots2/3 remain T-to-visible-end segments only (27715/3849 um), not periderm lengths.
+Roots1/5: T/endpoint conflicts; root4: no supported T. Do not invent zeros/numbers.
+V1 -> V2 provisional counts: 1_7 3->4;22_22 5->5;7_18 1->2;Col_rep1 6->6;WOX4 3->5.
+All previously returned T positions and measuring endpoints unchanged. Coverage improvement
+is not biological accuracy validation; prior manual discrepancies remain relevant.
+
+GUI http://127.0.0.1:8765/ starts empty; selector defaults V2 and offers original V1.
+Latest V2 result: http://127.0.0.1:8765/?run=20261117T121029Z_4ddd8069
+Version files: 06_Models/Periderm_Pipeline_V2_20261117.
+Evidence: 10_V2_Development_20261117 (comparison.json, verification.json, READ_ME_V2.txt,
+GUI screenshots, diagnostic PAT comparison, regression runs, review attempt).
+9 unit tests passed; GUI API run exactly reproduced standalone V2; 7-row CSV download
+matched saved bytes; V1/V2 selector and Start a new image tested; locked40files verified.
+No new training; reserved15_27 not used. Original PAT decoder checked diagnostically only.
+external reviewer review unavailable: subscription login required; no review sent.
+Word manual NOT edited. Learning notes saved here and READ_ME_V2.txt.
+SALK files already local; no open SALK files when checked. User told to eject then unplug.
+
+NEXT: review recovered root7 blueT and orange endpoint, then diagnose root1/5 endpoint
+conflicts against anatomy. Do not call V2 a validated autonomous model or force all7values.
+Do not tune on reserved15_27. No need to redo all annotations to understand this change.
+

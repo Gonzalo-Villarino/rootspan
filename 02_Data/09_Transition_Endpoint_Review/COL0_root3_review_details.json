@@ -1,0 +1,44 @@
+{
+  "source": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.png",
+  "source_sha256": "68669ed917eeecdead464c55e853ec4a1d8f35979b9180110a64e9778f93f8de",
+  "slide": "COL0_Slide1",
+  "root": 3,
+  "root_numbering": "Same root 3 as the six cyan teaching-region review",
+  "source_box_xyxy": [
+    12421,
+    5680,
+    13957,
+    6448
+  ],
+  "crop_size": [
+    1536,
+    768
+  ],
+  "image_transform": "Native-pixel crop only. No brightness/contrast change, resizing or model prediction.",
+  "status": "Mixed-zone convention confirmed: T at its left edge; transition included in Periderm. User emphasizes elongated rectangular Endoderm cells and mixed-cell appearance as teaching cues. Existing root3 T and labels retained. Next biological review of another teaching example before redesign or training.",
+  "reason_selected": "User identified a visible transition in this root during tissue-identity review.",
+  "tissue_identity_review": "Detailed user review supersedes the earlier broad cyan-region check: Endoderm left of working marker 2 (x12621); Periderm including transition to the right, approximate transition range x12521-12721. Part of the earlier derived Endoderm region needs correction before future training.",
+  "annotations_created": false,
+  "training_performed": true,
+  "latest_review_record": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root3_transition_review_04.json",
+  "right_endpoint_crop": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root3_right_endpoint_source.png",
+  "latest_endpoint_review_record": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root3_right_endpoint_review_03.json",
+  "right_endpoint_source_x_interval": [
+    19400,
+    19600
+  ],
+  "reference_route_proposal": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/route_proposal_01/reference_route_record.json",
+  "measurement_definition_record": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root3_measurement_definition_01.json",
+  "left_cut_end_review_record": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root3_left_end_review_02.json",
+  "calibration_review_record": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root3_calibration_review_02.json",
+  "full_reference_route_proposal": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/route_proposal_02/reference_route_record.json",
+  "reference_measurement_record": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/reference_measurement_01/reference_measurements.json",
+  "full_route_user_approved": true,
+  "section_length_review_record": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root3_section_length_review_01.json",
+  "teaching_correction_record": "${ROOTSPAN_PROJECT}/04_Results/61_Reviewed_Root3_Teaching_Correction/root3_class_correction.json",
+  "teaching_correction_approval_record": "${ROOTSPAN_PROJECT}/04_Results/61_Reviewed_Root3_Teaching_Correction/BIOLOGICAL_REVIEW_APPROVED_20261116.json",
+  "current_training_comparison": "${ROOTSPAN_PROJECT}/04_Results/62_Reviewed_Root3_Training_Comparison",
+  "latest_training_run": "${ROOTSPAN_PROJECT}/04_Results/54_Refinement_Experiments/reviewed_root3_v9",
+  "latest_model_comparison": "${ROOTSPAN_PROJECT}/04_Results/62_Reviewed_Root3_Training_Comparison/comparison_results.json",
+  "transition_rule_confirmation_record": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root3_transition_rule_confirmed_01.json"
+}

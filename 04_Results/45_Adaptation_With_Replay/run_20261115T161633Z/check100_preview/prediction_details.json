@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-11-15T16:18:58.613229+00:00",
+  "image": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/03_Assistant_Prepared_Adaptation/20_29_clearer/image.png",
+  "image_sha256": "0a0ce535a2caaf6de5ae13971b29da297734d32503cb3e79787ca8df2b3b22ad",
+  "weights": "${ROOTSPAN_PROJECT}/04_Results/45_Adaptation_With_Replay/run_20261115T161633Z/checkpoint_100.pt",
+  "weights_sha256": "db154429e37882d5467f09e6031d1d1be79410c9b1a96a11f82b10d895b4610d",
+  "box_xywh": null,
+  "output_shape_hw": [
+    1024,
+    1024
+  ],
+  "device": "mps",
+  "label_codes": {
+    "Periderm": 1,
+    "Endoderm": 2,
+    "Background": 3
+  },
+  "reference_or_annotations_read": false,
+  "training_performed": false,
+  "postprocessing": "None; overlapping-tile probability averaging only when image exceeds1024.",
+  "scope": "Exploratory prediction; no accuracy claim without an independent reviewed reference. Lateral roots are not a separate class."
+}

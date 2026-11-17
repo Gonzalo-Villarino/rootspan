@@ -1,0 +1,29 @@
+{
+  "original_annotation": "${ROOTSPAN_PROJECT}/02_Data/03_Background_Annotations/MT25_rep3_background_refined_GV.json",
+  "original_annotation_sha256": "d3845f3dd2de18c54c41ccb16ddc76261a294f0ac388eb35c4d16a43da2336c3",
+  "original_image": "${ROOTSPAN_PROJECT}/02_Data/03_Background_Annotations/MT25_rep3_practice.png",
+  "original_image_sha256": "8b60e04adb22e4a474c77613253f9d165de0dc64cd739a0e4008fec73c75cf87",
+  "guide_json": "${ROOTSPAN_PROJECT}/05_Notes/Visual_Guides/Upper_Edge_Inspection/VIEW_ONLY_root_with_marker.json",
+  "copied_image_identical": true,
+  "marker_center_original": [
+    7588,
+    127
+  ],
+  "marker_center_in_training_patch": [
+    420,
+    127
+  ],
+  "colour_RGB": [
+    0,
+    215,
+    255
+  ],
+  "training_inputs_changed": false,
+  "gui_verified": true,
+  "gui_zoom_percent": 300,
+  "marker_visible_above_first_root": true,
+  "original_files_hash_verified_after_gui": true,
+  "colour_configuration": "${ROOTSPAN_PROJECT}/00_Software/labelme-config.yaml",
+  "colour_configuration_backup": "${ROOTSPAN_PROJECT}/05_Notes/Visual_Guides/Upper_Edge_Inspection/labelme-config.before-guide.yaml",
+  "dedicated_view_only_config_loaded": false
+}

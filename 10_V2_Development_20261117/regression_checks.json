@@ -1,0 +1,60 @@
+{
+  "code_sha256": "0bd2263698ae7f9ffc3daf87602d5038cc513a60047fc699dcd0e92f332b1bbb",
+  "runs": [
+    {
+      "source": "02_Data/15_Additional_Slides_20261117/01_Current_Check/1_7.tif",
+      "result": "10_V2_Development_20261117/regression/1_7",
+      "statuses": [
+        "provisional",
+        "provisional",
+        "no_transition",
+        "provisional",
+        "no_transition",
+        "provisional",
+        "no_transition"
+      ],
+      "provisional": 4
+    },
+    {
+      "source": "02_Data/15_Additional_Slides_20261117/02_Reserved_Evaluation/22_22.tif",
+      "result": "10_V2_Development_20261117/regression/22_22",
+      "statuses": [
+        "provisional",
+        "provisional",
+        "endpoint_uncertain",
+        "endpoint_uncertain",
+        "provisional",
+        "provisional",
+        "provisional"
+      ],
+      "provisional": 5
+    },
+    {
+      "source": "02_Data/16_New_SALK_GUI_Checks_20261117/Col_rep1.tif",
+      "result": "10_V2_Development_20261117/regression/Col_rep1",
+      "statuses": [
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional"
+      ],
+      "provisional": 6
+    },
+    {
+      "source": "02_Data/16_New_SALK_GUI_Checks_20261117/WOX4_rep1.tif",
+      "result": "10_V2_Development_20261117/regression/WOX4_rep1",
+      "statuses": [
+        "partial_root",
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional"
+      ],
+      "provisional": 5
+    }
+  ],
+  "biological_accuracy_validated": false
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "path": "02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.json",
+    "source_sha256": "61066ae0f8921679fba392b163de50c286f3eae449ff4b34f9614bdee23b1632",
+    "export_sha256": "1eb9bd1d6ff63cb4f22d367846d70f690674484e5a009befebb295907172410a",
+    "embedded_image_removed": true,
+    "polygons_and_labels_unchanged": true
+  },
+  {
+    "path": "02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.json",
+    "source_sha256": "773c134040c8561e39fd545a4ea87a10ed5bb321c1c32d1493b0c50e7ffc564b",
+    "export_sha256": "3087899285081f1cbf2455da634aa742abf663569756c9ba065308b3b9480932",
+    "embedded_image_removed": true,
+    "polygons_and_labels_unchanged": true
+  },
+  {
+    "path": "02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json",
+    "source_sha256": "87d66b81fb93204ae9a57f730345a6305c18ab7211ed892ec093a729167937ee",
+    "export_sha256": "c75f1a7caf05a451976a6f50aa7665d2a2f9e78174840efa86f8318227d34fd6",
+    "embedded_image_removed": true,
+    "polygons_and_labels_unchanged": true
+  },
+  {
+    "path": "02_Data/02_My_First_Annotations/MT25_rep3_practice_GV.json",
+    "source_sha256": "bf254d568dd9b1d76170b9b2bf53853a772ff90e93defb1fb7654aa65aa88295",
+    "export_sha256": "343d55a899003f58ea764d74d5dcfece9c118eb20bb1725b2be0d117aaf3f34e",
+    "embedded_image_removed": true,
+    "polygons_and_labels_unchanged": true
+  },
+  {
+    "path": "02_Data/03_Background_Annotations/MT25_rep3_background_refined_GV.json",
+    "source_sha256": "f508b82e55cb2186162cebb51968386375e2144cb9690770f5bf964bb1e3786f",
+    "export_sha256": "45a4ca461e4c3d5dd6d3355f21567869b84d78af41fdff2991ede3429c1d815e",
+    "embedded_image_removed": true,
+    "polygons_and_labels_unchanged": true
+  },
+  {
+    "path": "02_Data/03_Background_Annotations/MT25_rep3_background_GV.json",
+    "source_sha256": "c6ba7bcd741a4e961ad1a2a70424b61313e78b347d67ba892beb1edcf93c324a",
+    "export_sha256": "92ad8e2a1b171c80baa7a0599c06893558a9f2c90c89cf8d921249def8106e88",
+    "embedded_image_removed": true,
+    "polygons_and_labels_unchanged": true
+  },
+  {
+    "path": "02_Data/01_PAT_Examples/02_Annotations/MT25_rep3.json",
+    "source_sha256": "b5bf42800ace421802694830883d7e1b992088f9e3c0847fb86b407b64b33775",
+    "export_sha256": "d8a33b5259e8cc1c36eea0e543013c275162bbff9fae11b0fb2c91a8eb313d8f",
+    "embedded_image_removed": true,
+    "polygons_and_labels_unchanged": true
+  },
+  {
+    "path": "02_Data/01_PAT_Examples/02_Annotations/25717_gfp.json",
+    "source_sha256": "8a0f9936fa3ef90446cd6c54462341c06ef910965f14d72a7442ea2cfa866926",
+    "export_sha256": "ebb1f8599841391e12e0d333b85e3d5fb504bf801fbff0728dab9908b6e6d3d3",
+    "embedded_image_removed": true,
+    "polygons_and_labels_unchanged": true
+  },
+  {
+    "path": "02_Data/01_PAT_Examples/02_Annotations/20#MT28_gfp.json",
+    "source_sha256": "51d04cdd0392fbf4f241f8e49e58a3e35720f15bf33d76832f6fde95d031989a",
+    "export_sha256": "5030ec7afd31bb3814c2ccc47d01edd7da410ba0f68a634e72cdd75c771dffa4",
+    "embedded_image_removed": true,
+    "polygons_and_labels_unchanged": true
+  }
+]

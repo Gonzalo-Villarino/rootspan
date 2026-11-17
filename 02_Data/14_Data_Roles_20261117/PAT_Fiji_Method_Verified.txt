@@ -1,0 +1,8 @@
+PAT PAPER CHECK —17 November2026
+Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10981931/
+DOI:10.34133/plantphenomics.0156
+Location: Manual periderm measurements; Figure4F–G.
+Published Fiji procedure: Analyze > Set Scale:0.5299pixels, known distance1.00, aspect ratio1.0, micrometres; Global selected. Trace from hypocotyl toward the periderm/endoderm transition using Segmented Line; measure with M. Transition-zone periderm is included.
+Our exercise: use this direction, J to T, rather than the previously proposed reverse. Reversing the same trace does not change length. Use paper's direct scale entries for clarity;5299/10000 is equivalent. Leave Global unchecked for this single-image exercise so unconfirmed images do not inherit the scale. This is a deliberate setup difference, not the paper's Global setting.
+The paper establishes use of the ratio, not its original experimental calibration derivation. User separately confirmed1_7has the same scale.
+Fiji scale still not set by project tooling; user is being guided. No measurements or predictions performed. Word manual unchanged.

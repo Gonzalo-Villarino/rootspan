@@ -1,0 +1,26 @@
+[
+  {
+    "case": "20_29_root4",
+    "v1_T": null,
+    "fallback_T": null,
+    "changed": false
+  },
+  {
+    "case": "2_12_root1",
+    "v1_T": 5056.0,
+    "fallback_T": 5056.0,
+    "changed": false
+  },
+  {
+    "case": "A04_root3",
+    "v1_T": 2048.0,
+    "fallback_T": 2048.0,
+    "changed": false
+  },
+  {
+    "case": "COL0_root3",
+    "v1_T": 11840.0,
+    "fallback_T": 11840.0,
+    "changed": false
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-11-16T15:25:36.017728+00:00",
+  "expert": "Gonzalo Villarino",
+  "statement": "solid blue is excellnt, can we lock this model or what?",
+  "accepted": true,
+  "accepted_case": "2_12 root1",
+  "accepted_T_source_xy": [
+    8414.342292421163,
+    411.8250414267261
+  ],
+  "accepted_T_path_pixels": 5056.0,
+  "accepted_decoder": "continuity_guard_v1",
+  "scope": "Post-prediction biological acceptance and authorisation to freeze this version. Not independent numerical accuracy or all-slide validation.",
+  "preserved_earlier_accepted_cases": [
+    "COL0 root3",
+    "A04 root3"
+  ],
+  "other_case": "20_29 root4 still returns no supported T.",
+  "evaluation_limit": "2_12 feedback informed this decoder; it is development data for this version.",
+  "default_pixel_segmentation_unet_unchanged": true
+}

@@ -1,0 +1,60 @@
+{
+  "repository": "https://github.com/Salk-Harnessing-Plants-Initiative/PAT-Pipeline-for-Analysis-of-Periderm",
+  "commit": "51cdf8966f6da17b711aeb5625205a8a2ca39467",
+  "matches_current_GitHub_default_branch_commit_verified": true,
+  "files": {
+    "README.md": {
+      "sha256": "79492ad2e05aa566fd3df04a8690b45585916c9b54d27358f72250f56b2d56f6",
+      "git_blob": "28a354f9b4a9f2861095b5b1ec220b4b5e7eeee8"
+    },
+    "PAT_GUI_mac_cpu.py": {
+      "sha256": "1e8634eed7cecbb30f5c792b4c498365b2120340e271329c154b657ed4477dcb",
+      "git_blob": "75d08774e9ea4204cbe16303755365f782023a2d"
+    },
+    "src/segmentation_patch_cor_mac.py": {
+      "sha256": "d9c9673349713eaad4490232b56f945efb7637439de7e9a7058c5280c065bea2",
+      "git_blob": "a81612fcf54798e6c16a19a3b0c338c5333364ea"
+    },
+    "src/new_post_processing_for_measurement.py": {
+      "sha256": "961b50f3c6502654ed07b5a9b3de10291115abf412c2875b05ef4d718061a273",
+      "git_blob": "73debc2cfd873b1fbbba1ffe0d46c43c36e16064"
+    },
+    "src/measurement_resize_periderm.py": {
+      "sha256": "e3183f08b5506bda646f472739d893680f80ee946448d9c055514fecf4fd69b8",
+      "git_blob": "f4b23a0e209122baa442d4b424caff8369a298e1"
+    },
+    "src/measurement_resize_periderm_lr.py": {
+      "sha256": "c00d7fca5ea0939223777139e5874243133ff171bcab6beb9ecc6fa9f0f451f8",
+      "git_blob": "668275701d368aa9dc35ab1fb03999c8bcd193c1"
+    },
+    "src/measurement_resize_whole_root.py": {
+      "sha256": "6808416f1977f9c1fc2bdc2d70a52e20499e9c9bfc3e03a1612c140a217bd794",
+      "git_blob": "8aec549ee2656758e9585b513eacd956d4170c76"
+    },
+    "src/measurement_resize_whole_root_lr.py": {
+      "sha256": "0d2dfe52aa519d11fc79b437d4481521c08f9f035ac2b796e4bbb566583a4d0b",
+      "git_blob": "d1e10382692f71ef6c0835d690ccedd0a748a9a0"
+    },
+    "src/generate_images_for_QC.py": {
+      "sha256": "e003de50a3d6adeb167558b919c092e66015b5e72b237af7c1f18c3dcffb22ec",
+      "git_blob": "a184ddc1e5c700dc800bce3696600b1924cc0ffa"
+    },
+    "src/PAT_QC_GUI_test.py": {
+      "sha256": "0a963cf2d8551fb95ff6e42e889af74ddac6b492e70972741424bb0aff55607c",
+      "git_blob": "81afa3b55ecc6d3715d4ba2fbd8772e8216ee9b4"
+    },
+    "src/QC_selected.py": {
+      "sha256": "2de39f424e5aa17cd53614f6993c4cbc0b97aa5f80647bb58bece691ae56d275",
+      "git_blob": "162264c8bc8be3ea503f3fafb22db9bdf55b453f"
+    },
+    "src/wb_convert.py": {
+      "sha256": "920f87a5f9663de4e266c6146a0118680cde36e0d0ccae95855ef3b73103fe30",
+      "git_blob": "8168b124864f9c3b8d6f928879ff4e9cbfd928b5"
+    },
+    "environment_mac.yml": {
+      "sha256": "8140f66437ddef527bb0e3f1cdab8672c6173e7fc6e8f31c8cfeee46f2bcacf8",
+      "git_blob": "55e3d2efc23d83e84b49df892c96ed509603038b"
+    }
+  },
+  "scope": "Mac CPU entrypoint and its inference, postprocessing, measurement and QC scripts. Not an exhaustive review of every platform variant or training code."
+}

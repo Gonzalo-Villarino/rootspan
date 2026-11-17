@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "teaching_fields_all_matched": true,
+  "checks": [
+    {
+      "root": "COL0_root3",
+      "reference_T": 11840.0,
+      "candidate_T": 11840.0,
+      "passed": true
+    },
+    {
+      "root": "A04_root3",
+      "reference_T": 2048.0,
+      "candidate_T": 2048.0,
+      "passed": true
+    },
+    {
+      "root": "2_12_root1",
+      "reference_T": 5056.0,
+      "candidate_T": 5184.0,
+      "passed": true
+    },
+    {
+      "root": "20_29_root4",
+      "reference_T": null,
+      "candidate_T": null,
+      "passed": true
+    }
+  ],
+  "one_seven_features_read": false,
+  "promoted": false,
+  "independent_validation": false
+}

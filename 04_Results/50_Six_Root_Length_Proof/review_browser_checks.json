@@ -1,0 +1,12 @@
+{
+  "initial": {
+    "rows": 6,
+    "missingManual": true,
+    "diagonal": 5
+  },
+  "manualTwoPointLength": 202.83476960496387,
+  "undoPassed": true,
+  "calibrationPassed": true,
+  "csvAndJsonDownloadsPassed": true,
+  "errors": []
+}

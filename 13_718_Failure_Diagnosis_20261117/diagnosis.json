@@ -1,0 +1,141 @@
+{
+  "current_run": "20261117T134303Z_f0445b46",
+  "pipeline": "V2",
+  "matches_prior_V2_csv": true,
+  "detected_tracks": 7,
+  "provisional_lengths": 2,
+  "status_counts": {
+    "transition_endpoint_conflict": 2,
+    "endpoint_uncertain": 2,
+    "no_supported_transition": 1,
+    "provisional": 2
+  },
+  "published_PAT_run": "published_PAT/prediction_record.json",
+  "centerline_diagnostic": [
+    {
+      "track": 1,
+      "V2_status": "transition_beyond_endpoint",
+      "PAT_centerline_class_fractions_before_V2_auto_endpoint": {
+        "Background": 0.020985401459854013,
+        "Periderm": 0.04927007299270073,
+        "Endoderm": 0.9297445255474452,
+        "Lateral_root": 0.0
+      },
+      "raw_samples": 3288,
+      "geometry_not_verified": true
+    },
+    {
+      "track": 2,
+      "V2_status": "endpoint_uncertain",
+      "PAT_centerline_class_fractions_before_V2_auto_endpoint": {
+        "Background": 0.012804097311139564,
+        "Periderm": 0.8507042253521127,
+        "Endoderm": 0.13649167733674775,
+        "Lateral_root": 0.0
+      },
+      "raw_samples": 3905,
+      "geometry_not_verified": true
+    },
+    {
+      "track": 3,
+      "V2_status": "endpoint_uncertain",
+      "PAT_centerline_class_fractions_before_V2_auto_endpoint": {
+        "Background": 0.005506271030896299,
+        "Periderm": 0.6289385133068217,
+        "Endoderm": 0.36555521566228205,
+        "Lateral_root": 0.0
+      },
+      "raw_samples": 3269,
+      "geometry_not_verified": true
+    },
+    {
+      "track": 4,
+      "V2_status": "no_transition",
+      "PAT_centerline_class_fractions_before_V2_auto_endpoint": {
+        "Background": 0.0022896393817973667,
+        "Periderm": 0.031482541499713794,
+        "Endoderm": 0.9662278191184889,
+        "Lateral_root": 0.0
+      },
+      "raw_samples": 3494,
+      "geometry_not_verified": true
+    },
+    {
+      "track": 5,
+      "V2_status": "transition_beyond_endpoint",
+      "PAT_centerline_class_fractions_before_V2_auto_endpoint": {
+        "Background": 0.007696693272519955,
+        "Periderm": 0.016248574686431014,
+        "Endoderm": 0.976054732041049,
+        "Lateral_root": 0.0
+      },
+      "raw_samples": 3508,
+      "geometry_not_verified": true
+    },
+    {
+      "track": 6,
+      "V2_status": "provisional",
+      "PAT_centerline_class_fractions_before_V2_auto_endpoint": {
+        "Background": 0.01588201928530913,
+        "Periderm": 0.3159387407827567,
+        "Endoderm": 0.6681792399319342,
+        "Lateral_root": 0.0
+      },
+      "raw_samples": 3526,
+      "geometry_not_verified": true
+    },
+    {
+      "track": 7,
+      "V2_status": "provisional",
+      "PAT_centerline_class_fractions_before_V2_auto_endpoint": {
+        "Background": 0.0,
+        "Periderm": 0.05731947176173082,
+        "Endoderm": 0.9426805282382692,
+        "Lateral_root": 0.0
+      },
+      "raw_samples": 3559,
+      "geometry_not_verified": true
+    }
+  ],
+  "centerline_fractions_are_not_accuracy": true,
+  "root1_fields": [
+    {
+      "id": "A",
+      "box_source": [
+        13199,
+        854,
+        13799,
+        1174
+      ],
+      "display_brightness_multiplier": 1.5384615384615385,
+      "inference_brightness_unchanged": true,
+      "human_tissue_label": null
+    },
+    {
+      "id": "B",
+      "box_source": [
+        14600,
+        1189,
+        15200,
+        1509
+      ],
+      "display_brightness_multiplier": 1.3333333333333333,
+      "inference_brightness_unchanged": true,
+      "human_tissue_label": null
+    },
+    {
+      "id": "C",
+      "box_source": [
+        15399,
+        1133,
+        15999,
+        1453
+      ],
+      "display_brightness_multiplier": 1.3559322033898304,
+      "inference_brightness_unchanged": true,
+      "human_tissue_label": null
+    }
+  ],
+  "new_model_promoted": false,
+  "no_new_reference_labels_invented": true
+}

@@ -1,0 +1,114 @@
+{
+  "created_local_date": "2026-11-15",
+  "timezone": "Europe/Zurich",
+  "purpose": "Reserved evaluation candidates, not added to training; no predictions or training run during selection.",
+  "images": [
+    {
+      "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/PAT_Paper_TIFs_2020_2023_Gonzalo_Villarino/Accessions_2023/20_29.tif",
+      "copied_original": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/01_Original_TIFFs/20_29.tif",
+      "original_bytes": 360315127,
+      "source_and_copy_sha256": "959023e830050b74be8fe73647b1bf55bc6a04e33c3572fa411a0f81b0e86606",
+      "labelme_png": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/02_Images_For_Labelme/20_29_evaluation.png",
+      "png_bytes": 31984104,
+      "png_sha256": "df2ccc184dcbd52cdc35b8c6b8b92f32a863e678ca2a24d25aa2ba41ec11abd0",
+      "dimensions": [
+        14077,
+        8532
+      ],
+      "mode": "RGB",
+      "source_png_decoded_pixels_sha256": "3db828533fe4007646e1203813dd680501d43fffd6e0d52600e8cfc4fb0d23cb",
+      "pixel_identical_conversion": true,
+      "tiff_frame_count": 1,
+      "metadata_acquisition_date": null,
+      "year_evidence": "Folder named Accessions_2023; no acquisition DateTime in TIFF header.",
+      "used_in_our_training": false,
+      "original_PAT_training_membership": "Not established. Paper training genotypes reported as Col-0/SALK_025743; these accession filenames suggest a different group, but that is not a complete training-file audit.",
+      "display_crop_boxes": [
+        [
+          7900,
+          2757,
+          9100,
+          2987
+        ],
+        [
+          7900,
+          4484,
+          9100,
+          4714
+        ],
+        [
+          7900,
+          6015,
+          9100,
+          6245
+        ]
+      ]
+    },
+    {
+      "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/PAT_Paper_TIFs_2020_2023_Gonzalo_Villarino/Accessions_2023/2_12.tif",
+      "copied_original": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/01_Original_TIFFs/2_12.tif",
+      "original_bytes": 347600203,
+      "source_and_copy_sha256": "70a2cd1fd0f9da7c32da6e48e7650dc38d6f46d0614a64f02b03f0dee3e5bf1c",
+      "labelme_png": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/02_Images_For_Labelme/2_12_evaluation.png",
+      "png_bytes": 28720556,
+      "png_sha256": "180258992d87ea44b739bf908ebfc24f6ec665a14cfb1a7d441d75c16884fc63",
+      "dimensions": [
+        15416,
+        7516
+      ],
+      "mode": "RGB",
+      "source_png_decoded_pixels_sha256": "f36f52a4f2b7248e01c63646667de038f273812810cf43fe7d5116d0e0a575df",
+      "pixel_identical_conversion": true,
+      "tiff_frame_count": 1,
+      "metadata_acquisition_date": null,
+      "year_evidence": "Folder named Accessions_2023; no acquisition DateTime in TIFF header.",
+      "used_in_our_training": false,
+      "original_PAT_training_membership": "Not established. Paper training genotypes reported as Col-0/SALK_025743; these accession filenames suggest a different group, but that is not a complete training-file audit.",
+      "display_crop_boxes": [
+        [
+          8400,
+          438,
+          9600,
+          668
+        ],
+        [
+          8400,
+          1446,
+          9600,
+          1676
+        ],
+        [
+          8400,
+          2369,
+          9600,
+          2599
+        ]
+      ]
+    }
+  ],
+  "training_reference_shortcuts": [
+    {
+      "name": "MT25_rep3.png",
+      "target": "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/01_Images/MT25_rep3.png",
+      "is_shortcut": true
+    },
+    {
+      "name": "20#MT28_gfp.png",
+      "target": "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/01_Images/20#MT28_gfp.png",
+      "is_shortcut": true
+    },
+    {
+      "name": "25717_gfp.png",
+      "target": "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/01_Images/25717_gfp.png",
+      "is_shortcut": true
+    }
+  ],
+  "existing_training_manifest": "${ROOTSPAN_PROJECT}/04_Results/35_Multiple_Slides_Data/manifest.json",
+  "existing_training_manifest_sha256": "a476eb0d53508ea3ecf43ba59acff730ac8e114ad9ac11eda87dec215dccc82a",
+  "external_originals_unchanged": true,
+  "new_annotation_count": 0,
+  "frozen_current_model_run": "${ROOTSPAN_PROJECT}/04_Results/39_PAT_Transfer_Learning/run_20261115T140159Z",
+  "frozen_model_sha256": "234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633",
+  "current_postprocessing_code": "${ROOTSPAN_PROJECT}/03_Notebooks/26_check_and_show_improvement.py",
+  "current_postprocessing_code_sha256": "83a0684113bd57ba98163726951ae97385f6a6eac94f8b7601758eef216930e9"
+}

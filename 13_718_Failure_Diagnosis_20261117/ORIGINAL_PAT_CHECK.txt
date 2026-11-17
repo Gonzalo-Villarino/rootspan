@@ -1,0 +1,29 @@
+Original Salk PAT repository check — 17 November 2026
+
+Repository: https://github.com/Salk-Harnessing-Plants-Initiative/PAT-Pipeline-for-Analysis-of-Periderm
+Pinned local commit: 51cdf8966f6da17b711aeb5625205a8a2ca39467
+Local copy: ../00_Software/PAT_Pinned_20261115
+
+Fresh GitHub reads confirmed the README, original segmentation script, postprocessing script and fast periderm measurement script.
+
+1. Segmentation: the source configures U-Net++ with ResNet34 and four classes: Background, Periderm, Endodermis and Lateral root. There is no separate hypocotyl class in that class list.
+https://github.com/Salk-Harnessing-Plants-Initiative/PAT-Pipeline-for-Analysis-of-Periderm/blob/main/src/segmentation_patch_cor_mac.py
+Git blob SHA a81612fcf54798e6c16a19a3b0c338c5333364ea
+
+2. Postprocessing: the released code removes small components, fills qualifying gaps and keeps rightmost matching components, with additional position filtering. These operations act on the segmentation; they do not themselves identify cell types from microscopy.
+https://github.com/Salk-Harnessing-Plants-Initiative/PAT-Pipeline-for-Analysis-of-Periderm/blob/main/src/new_post_processing_for_measurement.py
+Git blob SHA 73debc2cfd873b1fbbba1ffe0d46c43c36e16064
+
+3. Measurement: the fast routine thins the cleaned periderm mask to a skeleton, finds its long paths and counts skeleton pixels, correcting for image resizing. It lists the periderm components it finds from top to bottom and pads shorter result rows with empty cells. This routine alone does not establish an explicit absent-periderm zero for each independently detected whole root. That is a code-based interpretation, not an empirical test of the entire PAT package on zero-periderm roots.
+https://github.com/Salk-Harnessing-Plants-Initiative/PAT-Pipeline-for-Analysis-of-Periderm/blob/main/src/measurement_resize_periderm_lr.py
+Git blob SHA 668275701d368aa9dc35ab1fb03999c8bcd193c1
+
+4. Quality control: the README describes human selection of acceptable segmentation results and conversion of pixel lengths to micrometres, giving 0.5299 pixels per micrometre as its example/default. The original workflow therefore included inspection, even though its prediction and measurement operations were automated.
+https://github.com/Salk-Harnessing-Plants-Initiative/PAT-Pipeline-for-Analysis-of-Periderm/blob/main/README.md
+Git blob SHA 28a354f9b4a9f2861095b5b1ec220b4b5e7eeee8
+
+What has actually been run locally on 7_18 today
+The published PAT weights were run for raw four-class prediction, using the local adapted tiling implementation. The exact settings are in published_PAT/prediction_record.json. This is not a full reproduction of the original PAT segmentation-stitching-postprocessing-measurement workflow. The browser's V2 is our experimental pipeline using PAT-derived image features and custom transition/endpoint logic; it is not the original PAT application.
+
+Decision
+A direct, traceable full-PAT baseline on the same copied slides is the appropriate comparison before claiming that a new pipeline improves PAT. The GitHub inspection identifies what must be reproduced and what is adapted; it does not establish that running the original pipeline will fix this slide. Keep raw masks, cleaned masks, path overlays and measurements separately so any error can be located at its actual stage. Keep root 1's expert zero as a reference, not a forced model output.

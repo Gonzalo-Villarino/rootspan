@@ -1,0 +1,22 @@
+{
+  "date_local": "2026-11-14",
+  "completed_by_user": "Program 12 produced 18_Extra_Background_Patch",
+  "image_hash_verified": "0efb453e036ce7ae39d775c87e8d4886c950ae5f352b6738d004bd309cacaa3c",
+  "mask_hash_verified": "d5f33a2e6058231522a20cf6053a64986b5a016ac9ef00d78542151f42e6b908",
+  "changed_pixels": 48845,
+  "only_transition": "0 unlabelled -> 3 Background",
+  "counts": {
+    "0": 912522,
+    "1": 20969,
+    "2": 31848,
+    "3": 83185,
+    "255": 52
+  },
+  "same_training_functions_as_program_14": true,
+  "model_and_prior_training_scripts_match_previous_run": true,
+  "next_program": "${ROOTSPAN_PROJECT}/03_Notebooks/15_train_extra_background.py",
+  "next_output_parent": "${ROOTSPAN_PROJECT}/04_Results/19_Extra_Background_Training",
+  "next_training_run_started": false,
+  "program_15_check_only_passed": true,
+  "program_15_sha256": "26402670b76f84bf7c4f06de926a2115f3ddd8bbb659736e68bf5686f1a9cb96"
+}

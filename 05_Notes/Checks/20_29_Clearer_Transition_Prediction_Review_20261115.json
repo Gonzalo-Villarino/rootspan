@@ -1,0 +1,47 @@
+{
+  "review_date": "2026-11-15",
+  "result_folder": "${ROOTSPAN_PROJECT}/04_Results/43_20_29_Clearer_Transition_Prediction/view_20261115T155056Z_vbrbuhdb",
+  "verified": [
+    "Unchanged original-image and frozen-model hashes",
+    "Saved prediction/crop/script hashes",
+    "Exact original source crop",
+    "Finite normalized saved probabilities and exact argmax-to-mask equality"
+  ],
+  "pre_prediction_user_assessment": "Clearer image; Endoderm left, Periderm right, transition around the middle. Qualitative assessment, not pixel reference.",
+  "predicted_pixel_counts_not_accuracy": {
+    "Periderm": 85065,
+    "Endoderm": 25264,
+    "Background": 938247
+  },
+  "reviewed_strip_counts_not_accuracy": {
+    "left_third": {
+      "Periderm": 21449,
+      "Endoderm": 6753,
+      "Background": 138888
+    },
+    "middle_third": {
+      "Periderm": 27487,
+      "Endoderm": 8772,
+      "Background": 131321
+    },
+    "right_third": {
+      "Periderm": 29796,
+      "Endoderm": 1022,
+      "Background": 136272
+    }
+  },
+  "observations": [
+    "Main root band is predominantly Periderm across both left and right.",
+    "Right-side Periderm broadly agrees with the qualitative biological assessment.",
+    "Left-side Endoderm is only represented by scattered green patches amid dominant red.",
+    "Green at/down the lateral branch is not evidence that the main-root Endoderm region was correctly identified. The model has no separate lateral-root class.",
+    "No convincing main-root Endoderm-to-Periderm transition around the middle.",
+    "Coarse root/background separation appears plausible, with remaining isolated tissue predictions."
+  ],
+  "conclusion": "Does not reliably reproduce the user-confirmed left-to-right tissue distinction on this clearer crop. Relative to that assessment, it overcalls Periderm. These observations do not isolate the precise cause or provide a numerical accuracy score.",
+  "quality_interpretation": "Failure persists in an area the user judged clearer. Poor visibility cannot be assumed to be the sole explanation; training/model generalization needs assessment.",
+  "training_updates": 0,
+  "cleanup_applied": false,
+  "accuracy_measured": false,
+  "next_proposed": "Preserve this result and fixed model. If proceeding to diagnosis/improvement, first agree on a small clear main-root reference for measurement, then decide training changes; no further action taken in this review."
+}

@@ -1,0 +1,17 @@
+{
+  "method": "Python abstract syntax trees; comments and whitespace ignored.",
+  "unchanged_computation_files": {
+    "09_Periderm_GUI/pat_postprocessing.py": true,
+    "09_Periderm_GUI/pat_diagnostics.py": true,
+    "09_Periderm_GUI/per_root_estimates.py": true,
+    "09_Periderm_GUI/root_tracks.py": true,
+    "09_Periderm_GUI/image_quality.py": true,
+    "09_Periderm_GUI/pipeline_v2.py": true,
+    "09_Periderm_GUI/pipeline.py": true,
+    "07_Periderm_Length_Proof/predict_slide.py": true,
+    "07_Periderm_Length_Proof/measure_roots.py": true,
+    "06_Models/Locked_Transition_v1_20261116/frozen_core.py": true,
+    "06_Models/Locked_Transition_v1_20261116/run_checkpoint.py": true
+  },
+  "baseline": "Periderm_Lab_0.6.0_Test_Lock_20261117"
+}

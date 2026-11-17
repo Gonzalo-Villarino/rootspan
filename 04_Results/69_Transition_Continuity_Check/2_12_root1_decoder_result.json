@@ -1,0 +1,389 @@
+{
+  "case": "2_12_root1",
+  "old_T_path_pixels": 2304.0,
+  "new_T_path_pixels": 5056.0,
+  "same_T": false,
+  "candidate_rule_output": {
+    "rule_version": "continuity_guard_v1",
+    "presence_threshold": 0.5,
+    "window_width_native_path_pixels": 320.0,
+    "required_spaced_E_fields": 3,
+    "original_rule": {
+      "threshold": 0.5,
+      "state_order": [
+        "Endoderm_only",
+        "both_mixed",
+        "Periderm_only",
+        "neither"
+      ],
+      "window_states": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "runs": [
+        {
+          "state": 0,
+          "start": 0,
+          "stop_exclusive": 16,
+          "samples": 16
+        },
+        {
+          "state": 1,
+          "start": 16,
+          "stop_exclusive": 18,
+          "samples": 2
+        },
+        {
+          "state": 0,
+          "start": 18,
+          "stop_exclusive": 19,
+          "samples": 1
+        },
+        {
+          "state": 1,
+          "start": 19,
+          "stop_exclusive": 21,
+          "samples": 2
+        },
+        {
+          "state": 0,
+          "start": 21,
+          "stop_exclusive": 34,
+          "samples": 13
+        },
+        {
+          "state": 1,
+          "start": 34,
+          "stop_exclusive": 37,
+          "samples": 3
+        },
+        {
+          "state": 0,
+          "start": 37,
+          "stop_exclusive": 75,
+          "samples": 38
+        },
+        {
+          "state": 1,
+          "start": 75,
+          "stop_exclusive": 76,
+          "samples": 1
+        },
+        {
+          "state": 2,
+          "start": 76,
+          "stop_exclusive": 77,
+          "samples": 1
+        },
+        {
+          "state": 1,
+          "start": 77,
+          "stop_exclusive": 91,
+          "samples": 14
+        },
+        {
+          "state": 2,
+          "start": 91,
+          "stop_exclusive": 115,
+          "samples": 24
+        }
+      ],
+      "eligible_candidates": [
+        {
+          "mixed_run": {
+            "state": 1,
+            "start": 34,
+            "stop_exclusive": 37,
+            "samples": 3
+          },
+          "preceding_clear_Endoderm": {
+            "state": 0,
+            "start": 21,
+            "stop_exclusive": 34,
+            "samples": 13
+          },
+          "following_clear_Periderm": {
+            "state": 2,
+            "start": 91,
+            "stop_exclusive": 115,
+            "samples": 24
+          },
+          "T_distance_pixels": 2304.0
+        },
+        {
+          "mixed_run": {
+            "state": 1,
+            "start": 77,
+            "stop_exclusive": 91,
+            "samples": 14
+          },
+          "preceding_clear_Endoderm": {
+            "state": 0,
+            "start": 37,
+            "stop_exclusive": 75,
+            "samples": 38
+          },
+          "following_clear_Periderm": {
+            "state": 2,
+            "start": 91,
+            "stop_exclusive": 115,
+            "samples": 24
+          },
+          "T_distance_pixels": 5056.0
+        }
+      ],
+      "selected": {
+        "mixed_run": {
+          "state": 1,
+          "start": 34,
+          "stop_exclusive": 37,
+          "samples": 3
+        },
+        "preceding_clear_Endoderm": {
+          "state": 0,
+          "start": 21,
+          "stop_exclusive": 34,
+          "samples": 13
+        },
+        "following_clear_Periderm": {
+          "state": 2,
+          "start": 91,
+          "stop_exclusive": 115,
+          "samples": 24
+        },
+        "T_distance_pixels": 2304.0
+      },
+      "policy": "First >=3-window mixed run with an earlier >=3-window E-only run and later >=3-window P-only run. No manual T or offset."
+    },
+    "candidate_audits": [
+      {
+        "original_candidate": {
+          "mixed_run": {
+            "state": 1,
+            "start": 34,
+            "stop_exclusive": 37,
+            "samples": 3
+          },
+          "preceding_clear_Endoderm": {
+            "state": 0,
+            "start": 21,
+            "stop_exclusive": 34,
+            "samples": 13
+          },
+          "following_clear_Periderm": {
+            "state": 2,
+            "start": 91,
+            "stop_exclusive": 115,
+            "samples": 24
+          },
+          "T_distance_pixels": 2304.0
+        },
+        "retained": false,
+        "contradictory_E_only_runs": [
+          {
+            "run": {
+              "state": 0,
+              "start": 37,
+              "stop_exclusive": 75,
+              "samples": 38
+            },
+            "spaced_field_indices": [
+              37,
+              42,
+              47,
+              52,
+              57,
+              62,
+              67,
+              72
+            ],
+            "spaced_centres_path_pixels": [
+              2528.0,
+              2848.0,
+              3168.0,
+              3488.0,
+              3808.0,
+              4128.0,
+              4448.0,
+              4768.0
+            ],
+            "clear_E_centre_span_pixels": 2368.0
+          }
+        ]
+      },
+      {
+        "original_candidate": {
+          "mixed_run": {
+            "state": 1,
+            "start": 77,
+            "stop_exclusive": 91,
+            "samples": 14
+          },
+          "preceding_clear_Endoderm": {
+            "state": 0,
+            "start": 37,
+            "stop_exclusive": 75,
+            "samples": 38
+          },
+          "following_clear_Periderm": {
+            "state": 2,
+            "start": 91,
+            "stop_exclusive": 115,
+            "samples": 24
+          },
+          "T_distance_pixels": 5056.0
+        },
+        "retained": true,
+        "contradictory_E_only_runs": []
+      }
+    ],
+    "selected": {
+      "mixed_run": {
+        "state": 1,
+        "start": 77,
+        "stop_exclusive": 91,
+        "samples": 14
+      },
+      "preceding_clear_Endoderm": {
+        "state": 0,
+        "start": 37,
+        "stop_exclusive": 75,
+        "samples": 38
+      },
+      "following_clear_Periderm": {
+        "state": 2,
+        "start": 91,
+        "stop_exclusive": 115,
+        "samples": 24
+      },
+      "T_distance_pixels": 5056.0
+    },
+    "policy": "Keep both-appearance criterion and original support requirements; reject candidates followed by an E-only run with at least3 centres spaced by one window width before their supporting Periderm run. No new candidate coordinates or offsets invented.",
+    "assumption": "Long E-only returns weigh against an early mixed burst; short E-only fields can occur within mixed tissue.",
+    "new_neural_training": false
+  },
+  "input_sha256": "84b00fd786743a4b5aa083fdd81e4111e60a3f0146656b454b5c94ecf2877738",
+  "scores_unchanged": true,
+  "training": false,
+  "new_T_source_xy": [
+    8414.342292421163,
+    411.8250414267261
+  ],
+  "old_T_source_xy": [
+    5686.130303161157,
+    272.61427150132204
+  ]
+}

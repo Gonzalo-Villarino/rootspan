@@ -1,0 +1,9 @@
+{
+  "release_id": "Periderm_Lab_0.6.0_Test_Lock_20261117",
+  "app_version": "0.6.0",
+  "manifest_sha256": "9bb46d94e16e6323aa2498b3d156b0e81075761860172a004f4966d3ea061118",
+  "checked_files": 65,
+  "passed": true,
+  "snapshot_checked": true,
+  "environment_checked": true
+}

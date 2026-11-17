@@ -1,0 +1,26 @@
+[
+  {
+    "update": 1,
+    "loss_before_update": 0.6945679783821106
+  },
+  {
+    "update": 100,
+    "loss_before_update": 0.10797977447509766
+  },
+  {
+    "update": 200,
+    "loss_before_update": 0.06114129349589348
+  },
+  {
+    "update": 300,
+    "loss_before_update": 0.04229165241122246
+  },
+  {
+    "update": 400,
+    "loss_before_update": 0.03241853788495064
+  },
+  {
+    "update": 500,
+    "loss_before_update": 0.02646775357425213
+  }
+]

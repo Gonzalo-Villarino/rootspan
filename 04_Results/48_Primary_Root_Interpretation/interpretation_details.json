@@ -1,0 +1,135 @@
+{
+  "20_29_clearer": {
+    "applied": true,
+    "boundary_x": 347,
+    "review_half_width_pixels": 32,
+    "assumptions": "Single near-horizontal primary root spanning crop; Endoderm left, Periderm right; zero or one transition.",
+    "review255": "Predicted tissue outside the estimated main-root band, plus64px band around inferred transition. Not a confidence interval.",
+    "primary_pixels": 94661,
+    "review_pixels": 29944,
+    "reference_input": false,
+    "agreement_with_available_labels": {
+      "classes": [
+        {
+          "name": "Periderm",
+          "support": 6252,
+          "correct": 5965,
+          "recall_counting_review_as_not_correct": 0.9540946896992962,
+          "iou_counting_review_as_not_correct": 0.9138961237934733,
+          "reviewed_out": 0
+        },
+        {
+          "name": "Endoderm",
+          "support": 8888,
+          "correct": 7268,
+          "recall_counting_review_as_not_correct": 0.8177317731773177,
+          "iou_counting_review_as_not_correct": 0.8177317731773177,
+          "reviewed_out": 1345
+        },
+        {
+          "name": "Background",
+          "support": 316858,
+          "correct": 316847,
+          "recall_counting_review_as_not_correct": 0.9999652841335867,
+          "iou_counting_review_as_not_correct": 0.9990603667092339,
+          "reviewed_out": 11
+        }
+      ],
+      "labelled_coverage": 0.9959156380460124,
+      "overall_accuracy_on_retained_labels_only": 0.9983002764319112,
+      "scope": "Review pixels counted as missed in recall/IoU; retained-only accuracy must be read with coverage."
+    }
+  },
+  "20_29_periderm": {
+    "applied": true,
+    "boundary_x": 0,
+    "review_half_width_pixels": 32,
+    "assumptions": "Single near-horizontal primary root spanning crop; Endoderm left, Periderm right; zero or one transition.",
+    "review255": "Predicted tissue outside the estimated main-root band, plus64px band around inferred transition. Not a confidence interval.",
+    "primary_pixels": 108450,
+    "review_pixels": 13391,
+    "reference_input": false,
+    "agreement_with_available_labels": {
+      "classes": [
+        {
+          "name": "Periderm",
+          "support": 30589,
+          "correct": 30589,
+          "recall_counting_review_as_not_correct": 1.0,
+          "iou_counting_review_as_not_correct": 1.0,
+          "reviewed_out": 0
+        },
+        {
+          "name": "Endoderm",
+          "support": 0,
+          "correct": 0,
+          "recall_counting_review_as_not_correct": 0.0,
+          "iou_counting_review_as_not_correct": 0.0,
+          "reviewed_out": 0
+        },
+        {
+          "name": "Background",
+          "support": 346862,
+          "correct": 346751,
+          "recall_counting_review_as_not_correct": 0.9996799880067577,
+          "iou_counting_review_as_not_correct": 0.9996799880067577,
+          "reviewed_out": 111
+        }
+      ],
+      "labelled_coverage": 0.9997059220931989,
+      "overall_accuracy_on_retained_labels_only": 1.0,
+      "scope": "Review pixels counted as missed in recall/IoU; retained-only accuracy must be read with coverage."
+    }
+  },
+  "20_29_other_root": {
+    "applied": true,
+    "boundary_x": 102,
+    "review_half_width_pixels": 32,
+    "assumptions": "Single near-horizontal primary root spanning crop; Endoderm left, Periderm right; zero or one transition.",
+    "review255": "Predicted tissue outside the estimated main-root band, plus64px band around inferred transition. Not a confidence interval.",
+    "primary_pixels": 84042,
+    "review_pixels": 5100,
+    "reference_input": false
+  },
+  "MT25_root4": {
+    "applied": true,
+    "boundary_x": 389,
+    "review_half_width_pixels": 32,
+    "assumptions": "Single near-horizontal primary root spanning crop; Endoderm left, Periderm right; zero or one transition.",
+    "review255": "Predicted tissue outside the estimated main-root band, plus64px band around inferred transition. Not a confidence interval.",
+    "primary_pixels": 64572,
+    "review_pixels": 5037,
+    "reference_input": false,
+    "agreement_with_available_labels": {
+      "classes": [
+        {
+          "name": "Periderm",
+          "support": 27268,
+          "correct": 27268,
+          "recall_counting_review_as_not_correct": 1.0,
+          "iou_counting_review_as_not_correct": 0.8692381255977049,
+          "reviewed_out": 0
+        },
+        {
+          "name": "Endoderm",
+          "support": 24802,
+          "correct": 17403,
+          "recall_counting_review_as_not_correct": 0.7016772840899927,
+          "iou_counting_review_as_not_correct": 0.6943701871284363,
+          "reviewed_out": 3297
+        },
+        {
+          "name": "Background",
+          "support": 712186,
+          "correct": 711252,
+          "recall_counting_review_as_not_correct": 0.9986885448464305,
+          "iou_counting_review_as_not_correct": 0.9986885448464305,
+          "reviewed_out": 673
+        }
+      ],
+      "labelled_coverage": 0.9948054055185697,
+      "overall_accuracy_on_retained_labels_only": 0.9942613700633709,
+      "scope": "Review pixels counted as missed in recall/IoU; retained-only accuracy must be read with coverage."
+    }
+  }
+}

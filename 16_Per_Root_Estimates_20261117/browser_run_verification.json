@@ -1,0 +1,15 @@
+{
+  "browser_upload_run": "20261117T155514Z_34c06d0c",
+  "source_name": "7_18.tif",
+  "source_sha256": "6ff3e7e893961fbace0c99bf521d41e029cadb21c4522fc4da67f8fcb1bd5980",
+  "numeric_estimates": 7,
+  "main_report_and_live_export_match": true,
+  "folder_snapshot_values_match": true,
+  "original_source_unchanged": true,
+  "locked_V1_V2_models_unchanged": true,
+  "root1_expert_correction_marked": true,
+  "Col_rep1_previous_run_preserved_with_6_values": true,
+  "software_tests_passed": 40,
+  "training_occurred": false,
+  "report_is_mask_based_estimate_not_validated_anatomy": true
+}

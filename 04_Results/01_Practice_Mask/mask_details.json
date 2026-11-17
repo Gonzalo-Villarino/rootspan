@@ -1,0 +1,42 @@
+{
+  "annotation_file": "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_practice_GV.json",
+  "annotation_sha256": "80b37edf10853922ad794793c4911a4b43e2b7b0f374fad7484ab5a2f9c96879",
+  "image_file": "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_practice.png",
+  "image_sha256": "8b60e04adb22e4a474c77613253f9d165de0dc64cd739a0e4008fec73c75cf87",
+  "script_sha256": "f3c617ec5887e320adac31123f6ef64abec3963f01f1517937ed945a2c4099c5",
+  "width": 15423,
+  "height": 9543,
+  "saved_outlines": {
+    "Periderm": 6,
+    "Endoderm": 6
+  },
+  "mask_file": "MT25_rep3_practice_GV_mask.png",
+  "mask_format": "8-bit grayscale PNG; values are class codes, not brightness measurements",
+  "pixel_codes": {
+    "0": "Unannotated",
+    "1": "Periderm",
+    "2": "Endoderm",
+    "255": "Overlap: uncertain"
+  },
+  "pixel_counts": {
+    "0": 142386986,
+    "1": 2916798,
+    "2": 1877852,
+    "255": 53
+  },
+  "exclude_from_future_training": [
+    0,
+    255
+  ],
+  "overlap_policy": "Union within each tissue; pixels covered by both tissues receive 255. Polygon order does not decide tissue.",
+  "unannotated_note": "0 is unannotated, not confirmed background.",
+  "preview_file": "MT25_rep3_practice_GV_mask_preview.png",
+  "preview_note": "Smaller colour picture for viewing only; thin or small regions may be hidden by downsampling. Use the full-size mask and its pixel counts for pixel labels.",
+  "preview_colours": {
+    "dark grey": "Unannotated",
+    "red": "Periderm",
+    "green": "Endoderm",
+    "pink": "Overlap: uncertain"
+  },
+  "model_trained": false
+}

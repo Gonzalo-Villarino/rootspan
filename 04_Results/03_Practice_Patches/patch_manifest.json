@@ -1,0 +1,2468 @@
+{
+  "purpose": "Single-slide learning exercise; no model trained and no dataset split",
+  "source_image": "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_practice.png",
+  "source_mask": "${ROOTSPAN_PROJECT}/04_Results/01_Practice_Mask/MT25_rep3_practice_GV_mask.png",
+  "source_image_sha256": "8b60e04adb22e4a474c77613253f9d165de0dc64cd739a0e4008fec73c75cf87",
+  "source_mask_sha256": "aaac62870e8f0e9d22a2609376b6adfb43dc5679abb7e2c5e2a74df72de71f69",
+  "script_sha256": "5ca96a9c8ce02c4f3e6eb7cfebdf4c5c3fd9cd97a12681185c4c2b95293081c4",
+  "source_size": [
+    15423,
+    9543
+  ],
+  "patch_size": 1024,
+  "grid_squares": 160,
+  "kept_pairs": 101,
+  "skipped_squares_without_tissue_labels": 59,
+  "selection_rule": "Keep a grid square if it contains at least one pixel with code 1 or 2",
+  "padding_rule": "Non-overlapping source grid; right/bottom edges padded with black image pixels and mask code 0; no resizing",
+  "label_codes": {
+    "0": "Unannotated or padding",
+    "1": "Periderm",
+    "2": "Endoderm",
+    "255": "Uncertain overlap"
+  },
+  "ignore_codes_for_future_training": [
+    0,
+    255
+  ],
+  "mask_reading": "Indexed PNG: read numerical palette indices, not RGB colours",
+  "source_label_counts": {
+    "0": 142386986,
+    "1": 2916798,
+    "2": 1877852,
+    "255": 53
+  },
+  "retained_source_label_counts_excluding_padding": {
+    "0": 98256561,
+    "1": 2916798,
+    "2": 1877852,
+    "255": 53
+  },
+  "split_caution": "All patches come from ONE slide. Do not treat random patch splits as evidence of performance on independent slides. The separate first-patch demonstration is not added here.",
+  "patches": [
+    {
+      "id": "MT25_rep3_practice_r000_c000",
+      "row": 0,
+      "column": 0,
+      "image": "images/MT25_rep3_practice_r000_c000.png",
+      "mask": "masks/MT25_rep3_practice_r000_c000.png",
+      "source_crop_box": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 999158,
+        "1": 0,
+        "2": 49418,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r000_c001",
+      "row": 0,
+      "column": 1,
+      "image": "images/MT25_rep3_practice_r000_c001.png",
+      "mask": "masks/MT25_rep3_practice_r000_c001.png",
+      "source_crop_box": [
+        1024,
+        0,
+        2048,
+        1024
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 999680,
+        "1": 0,
+        "2": 48896,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r000_c002",
+      "row": 0,
+      "column": 2,
+      "image": "images/MT25_rep3_practice_r000_c002.png",
+      "mask": "masks/MT25_rep3_practice_r000_c002.png",
+      "source_crop_box": [
+        2048,
+        0,
+        3072,
+        1024
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1007093,
+        "1": 0,
+        "2": 41483,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r000_c003",
+      "row": 0,
+      "column": 3,
+      "image": "images/MT25_rep3_practice_r000_c003.png",
+      "mask": "masks/MT25_rep3_practice_r000_c003.png",
+      "source_crop_box": [
+        3072,
+        0,
+        4096,
+        1024
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1006051,
+        "1": 0,
+        "2": 42525,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r000_c004",
+      "row": 0,
+      "column": 4,
+      "image": "images/MT25_rep3_practice_r000_c004.png",
+      "mask": "masks/MT25_rep3_practice_r000_c004.png",
+      "source_crop_box": [
+        4096,
+        0,
+        5120,
+        1024
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1003616,
+        "1": 0,
+        "2": 44960,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r000_c005",
+      "row": 0,
+      "column": 5,
+      "image": "images/MT25_rep3_practice_r000_c005.png",
+      "mask": "masks/MT25_rep3_practice_r000_c005.png",
+      "source_crop_box": [
+        5120,
+        0,
+        6144,
+        1024
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1003410,
+        "1": 0,
+        "2": 45166,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r000_c006",
+      "row": 0,
+      "column": 6,
+      "image": "images/MT25_rep3_practice_r000_c006.png",
+      "mask": "masks/MT25_rep3_practice_r000_c006.png",
+      "source_crop_box": [
+        6144,
+        0,
+        7168,
+        1024
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1000332,
+        "1": 0,
+        "2": 48244,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r000_c007",
+      "row": 0,
+      "column": 7,
+      "image": "images/MT25_rep3_practice_r000_c007.png",
+      "mask": "masks/MT25_rep3_practice_r000_c007.png",
+      "source_crop_box": [
+        7168,
+        0,
+        8192,
+        1024
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 989746,
+        "1": 21448,
+        "2": 37334,
+        "255": 48
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r000_c008",
+      "row": 0,
+      "column": 8,
+      "image": "images/MT25_rep3_practice_r000_c008.png",
+      "mask": "masks/MT25_rep3_practice_r000_c008.png",
+      "source_crop_box": [
+        8192,
+        0,
+        9216,
+        1024
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 984520,
+        "1": 64056,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r000_c009",
+      "row": 0,
+      "column": 9,
+      "image": "images/MT25_rep3_practice_r000_c009.png",
+      "mask": "masks/MT25_rep3_practice_r000_c009.png",
+      "source_crop_box": [
+        9216,
+        0,
+        10240,
+        1024
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 980648,
+        "1": 67928,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r000_c010",
+      "row": 0,
+      "column": 10,
+      "image": "images/MT25_rep3_practice_r000_c010.png",
+      "mask": "masks/MT25_rep3_practice_r000_c010.png",
+      "source_crop_box": [
+        10240,
+        0,
+        11264,
+        1024
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 951800,
+        "1": 96776,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r000_c011",
+      "row": 0,
+      "column": 11,
+      "image": "images/MT25_rep3_practice_r000_c011.png",
+      "mask": "masks/MT25_rep3_practice_r000_c011.png",
+      "source_crop_box": [
+        11264,
+        0,
+        12288,
+        1024
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 949833,
+        "1": 98743,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r000_c012",
+      "row": 0,
+      "column": 12,
+      "image": "images/MT25_rep3_practice_r000_c012.png",
+      "mask": "masks/MT25_rep3_practice_r000_c012.png",
+      "source_crop_box": [
+        12288,
+        0,
+        13312,
+        1024
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 968308,
+        "1": 80268,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r000_c013",
+      "row": 0,
+      "column": 13,
+      "image": "images/MT25_rep3_practice_r000_c013.png",
+      "mask": "masks/MT25_rep3_practice_r000_c013.png",
+      "source_crop_box": [
+        13312,
+        0,
+        14336,
+        1024
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1041790,
+        "1": 6786,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r001_c000",
+      "row": 1,
+      "column": 0,
+      "image": "images/MT25_rep3_practice_r001_c000.png",
+      "mask": "masks/MT25_rep3_practice_r001_c000.png",
+      "source_crop_box": [
+        0,
+        1024,
+        1024,
+        2048
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1017932,
+        "1": 0,
+        "2": 30644,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r001_c001",
+      "row": 1,
+      "column": 1,
+      "image": "images/MT25_rep3_practice_r001_c001.png",
+      "mask": "masks/MT25_rep3_practice_r001_c001.png",
+      "source_crop_box": [
+        1024,
+        1024,
+        2048,
+        2048
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 994405,
+        "1": 0,
+        "2": 54171,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r001_c002",
+      "row": 1,
+      "column": 2,
+      "image": "images/MT25_rep3_practice_r001_c002.png",
+      "mask": "masks/MT25_rep3_practice_r001_c002.png",
+      "source_crop_box": [
+        2048,
+        1024,
+        3072,
+        2048
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1036428,
+        "1": 0,
+        "2": 12148,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r001_c004",
+      "row": 1,
+      "column": 4,
+      "image": "images/MT25_rep3_practice_r001_c004.png",
+      "mask": "masks/MT25_rep3_practice_r001_c004.png",
+      "source_crop_box": [
+        4096,
+        1024,
+        5120,
+        2048
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1035767,
+        "1": 0,
+        "2": 12809,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r001_c005",
+      "row": 1,
+      "column": 5,
+      "image": "images/MT25_rep3_practice_r001_c005.png",
+      "mask": "masks/MT25_rep3_practice_r001_c005.png",
+      "source_crop_box": [
+        5120,
+        1024,
+        6144,
+        2048
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 991715,
+        "1": 0,
+        "2": 56861,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r001_c006",
+      "row": 1,
+      "column": 6,
+      "image": "images/MT25_rep3_practice_r001_c006.png",
+      "mask": "masks/MT25_rep3_practice_r001_c006.png",
+      "source_crop_box": [
+        6144,
+        1024,
+        7168,
+        2048
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 989866,
+        "1": 0,
+        "2": 58710,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r001_c007",
+      "row": 1,
+      "column": 7,
+      "image": "images/MT25_rep3_practice_r001_c007.png",
+      "mask": "masks/MT25_rep3_practice_r001_c007.png",
+      "source_crop_box": [
+        7168,
+        1024,
+        8192,
+        2048
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1014314,
+        "1": 1786,
+        "2": 32476,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r001_c012",
+      "row": 1,
+      "column": 12,
+      "image": "images/MT25_rep3_practice_r001_c012.png",
+      "mask": "masks/MT25_rep3_practice_r001_c012.png",
+      "source_crop_box": [
+        12288,
+        1024,
+        13312,
+        2048
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1014176,
+        "1": 34400,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r001_c013",
+      "row": 1,
+      "column": 13,
+      "image": "images/MT25_rep3_practice_r001_c013.png",
+      "mask": "masks/MT25_rep3_practice_r001_c013.png",
+      "source_crop_box": [
+        13312,
+        1024,
+        14336,
+        2048
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1045499,
+        "1": 3077,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r002_c002",
+      "row": 2,
+      "column": 2,
+      "image": "images/MT25_rep3_practice_r002_c002.png",
+      "mask": "masks/MT25_rep3_practice_r002_c002.png",
+      "source_crop_box": [
+        2048,
+        2048,
+        3072,
+        3072
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 997184,
+        "1": 0,
+        "2": 51392,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r002_c003",
+      "row": 2,
+      "column": 3,
+      "image": "images/MT25_rep3_practice_r002_c003.png",
+      "mask": "masks/MT25_rep3_practice_r002_c003.png",
+      "source_crop_box": [
+        3072,
+        2048,
+        4096,
+        3072
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1014576,
+        "1": 0,
+        "2": 34000,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r002_c004",
+      "row": 2,
+      "column": 4,
+      "image": "images/MT25_rep3_practice_r002_c004.png",
+      "mask": "masks/MT25_rep3_practice_r002_c004.png",
+      "source_crop_box": [
+        4096,
+        2048,
+        5120,
+        3072
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1022179,
+        "1": 0,
+        "2": 26397,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r002_c007",
+      "row": 2,
+      "column": 7,
+      "image": "images/MT25_rep3_practice_r002_c007.png",
+      "mask": "masks/MT25_rep3_practice_r002_c007.png",
+      "source_crop_box": [
+        7168,
+        2048,
+        8192,
+        3072
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1024200,
+        "1": 19456,
+        "2": 4915,
+        "255": 5
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r002_c008",
+      "row": 2,
+      "column": 8,
+      "image": "images/MT25_rep3_practice_r002_c008.png",
+      "mask": "masks/MT25_rep3_practice_r002_c008.png",
+      "source_crop_box": [
+        8192,
+        2048,
+        9216,
+        3072
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 975364,
+        "1": 73212,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r002_c009",
+      "row": 2,
+      "column": 9,
+      "image": "images/MT25_rep3_practice_r002_c009.png",
+      "mask": "masks/MT25_rep3_practice_r002_c009.png",
+      "source_crop_box": [
+        9216,
+        2048,
+        10240,
+        3072
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 968603,
+        "1": 79973,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r002_c010",
+      "row": 2,
+      "column": 10,
+      "image": "images/MT25_rep3_practice_r002_c010.png",
+      "mask": "masks/MT25_rep3_practice_r002_c010.png",
+      "source_crop_box": [
+        10240,
+        2048,
+        11264,
+        3072
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 981193,
+        "1": 67383,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r002_c011",
+      "row": 2,
+      "column": 11,
+      "image": "images/MT25_rep3_practice_r002_c011.png",
+      "mask": "masks/MT25_rep3_practice_r002_c011.png",
+      "source_crop_box": [
+        11264,
+        2048,
+        12288,
+        3072
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1037596,
+        "1": 10980,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r002_c012",
+      "row": 2,
+      "column": 12,
+      "image": "images/MT25_rep3_practice_r002_c012.png",
+      "mask": "masks/MT25_rep3_practice_r002_c012.png",
+      "source_crop_box": [
+        12288,
+        2048,
+        13312,
+        3072
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 982142,
+        "1": 66434,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r002_c013",
+      "row": 2,
+      "column": 13,
+      "image": "images/MT25_rep3_practice_r002_c013.png",
+      "mask": "masks/MT25_rep3_practice_r002_c013.png",
+      "source_crop_box": [
+        13312,
+        2048,
+        14336,
+        3072
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1027393,
+        "1": 21183,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r003_c001",
+      "row": 3,
+      "column": 1,
+      "image": "images/MT25_rep3_practice_r003_c001.png",
+      "mask": "masks/MT25_rep3_practice_r003_c001.png",
+      "source_crop_box": [
+        1024,
+        3072,
+        2048,
+        4096
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1032549,
+        "1": 0,
+        "2": 16027,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r003_c002",
+      "row": 3,
+      "column": 2,
+      "image": "images/MT25_rep3_practice_r003_c002.png",
+      "mask": "masks/MT25_rep3_practice_r003_c002.png",
+      "source_crop_box": [
+        2048,
+        3072,
+        3072,
+        4096
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 996269,
+        "1": 0,
+        "2": 52307,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r003_c003",
+      "row": 3,
+      "column": 3,
+      "image": "images/MT25_rep3_practice_r003_c003.png",
+      "mask": "masks/MT25_rep3_practice_r003_c003.png",
+      "source_crop_box": [
+        3072,
+        3072,
+        4096,
+        4096
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1006784,
+        "1": 0,
+        "2": 41792,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r003_c004",
+      "row": 3,
+      "column": 4,
+      "image": "images/MT25_rep3_practice_r003_c004.png",
+      "mask": "masks/MT25_rep3_practice_r003_c004.png",
+      "source_crop_box": [
+        4096,
+        3072,
+        5120,
+        4096
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1005370,
+        "1": 0,
+        "2": 43206,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r003_c005",
+      "row": 3,
+      "column": 5,
+      "image": "images/MT25_rep3_practice_r003_c005.png",
+      "mask": "masks/MT25_rep3_practice_r003_c005.png",
+      "source_crop_box": [
+        5120,
+        3072,
+        6144,
+        4096
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1001095,
+        "1": 0,
+        "2": 47481,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r003_c006",
+      "row": 3,
+      "column": 6,
+      "image": "images/MT25_rep3_practice_r003_c006.png",
+      "mask": "masks/MT25_rep3_practice_r003_c006.png",
+      "source_crop_box": [
+        6144,
+        3072,
+        7168,
+        4096
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1004521,
+        "1": 0,
+        "2": 44055,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r003_c007",
+      "row": 3,
+      "column": 7,
+      "image": "images/MT25_rep3_practice_r003_c007.png",
+      "mask": "masks/MT25_rep3_practice_r003_c007.png",
+      "source_crop_box": [
+        7168,
+        3072,
+        8192,
+        4096
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1001209,
+        "1": 29181,
+        "2": 18186,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r003_c008",
+      "row": 3,
+      "column": 8,
+      "image": "images/MT25_rep3_practice_r003_c008.png",
+      "mask": "masks/MT25_rep3_practice_r003_c008.png",
+      "source_crop_box": [
+        8192,
+        3072,
+        9216,
+        4096
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 998427,
+        "1": 50149,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r003_c009",
+      "row": 3,
+      "column": 9,
+      "image": "images/MT25_rep3_practice_r003_c009.png",
+      "mask": "masks/MT25_rep3_practice_r003_c009.png",
+      "source_crop_box": [
+        9216,
+        3072,
+        10240,
+        4096
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 977214,
+        "1": 71362,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r003_c010",
+      "row": 3,
+      "column": 10,
+      "image": "images/MT25_rep3_practice_r003_c010.png",
+      "mask": "masks/MT25_rep3_practice_r003_c010.png",
+      "source_crop_box": [
+        10240,
+        3072,
+        11264,
+        4096
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 963178,
+        "1": 85398,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r003_c011",
+      "row": 3,
+      "column": 11,
+      "image": "images/MT25_rep3_practice_r003_c011.png",
+      "mask": "masks/MT25_rep3_practice_r003_c011.png",
+      "source_crop_box": [
+        11264,
+        3072,
+        12288,
+        4096
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 896110,
+        "1": 152466,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r003_c012",
+      "row": 3,
+      "column": 12,
+      "image": "images/MT25_rep3_practice_r003_c012.png",
+      "mask": "masks/MT25_rep3_practice_r003_c012.png",
+      "source_crop_box": [
+        12288,
+        3072,
+        13312,
+        4096
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1010116,
+        "1": 38460,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r003_c013",
+      "row": 3,
+      "column": 13,
+      "image": "images/MT25_rep3_practice_r003_c013.png",
+      "mask": "masks/MT25_rep3_practice_r003_c013.png",
+      "source_crop_box": [
+        13312,
+        3072,
+        14336,
+        4096
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1036255,
+        "1": 12321,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r004_c001",
+      "row": 4,
+      "column": 1,
+      "image": "images/MT25_rep3_practice_r004_c001.png",
+      "mask": "masks/MT25_rep3_practice_r004_c001.png",
+      "source_crop_box": [
+        1024,
+        4096,
+        2048,
+        5120
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1046672,
+        "1": 0,
+        "2": 1904,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r004_c004",
+      "row": 4,
+      "column": 4,
+      "image": "images/MT25_rep3_practice_r004_c004.png",
+      "mask": "masks/MT25_rep3_practice_r004_c004.png",
+      "source_crop_box": [
+        4096,
+        4096,
+        5120,
+        5120
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1048456,
+        "1": 0,
+        "2": 120,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r004_c005",
+      "row": 4,
+      "column": 5,
+      "image": "images/MT25_rep3_practice_r004_c005.png",
+      "mask": "masks/MT25_rep3_practice_r004_c005.png",
+      "source_crop_box": [
+        5120,
+        4096,
+        6144,
+        5120
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1021224,
+        "1": 0,
+        "2": 27352,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r004_c006",
+      "row": 4,
+      "column": 6,
+      "image": "images/MT25_rep3_practice_r004_c006.png",
+      "mask": "masks/MT25_rep3_practice_r004_c006.png",
+      "source_crop_box": [
+        6144,
+        4096,
+        7168,
+        5120
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1029242,
+        "1": 0,
+        "2": 19334,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r004_c011",
+      "row": 4,
+      "column": 11,
+      "image": "images/MT25_rep3_practice_r004_c011.png",
+      "mask": "masks/MT25_rep3_practice_r004_c011.png",
+      "source_crop_box": [
+        11264,
+        4096,
+        12288,
+        5120
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1044978,
+        "1": 3598,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r004_c012",
+      "row": 4,
+      "column": 12,
+      "image": "images/MT25_rep3_practice_r004_c012.png",
+      "mask": "masks/MT25_rep3_practice_r004_c012.png",
+      "source_crop_box": [
+        12288,
+        4096,
+        13312,
+        5120
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 959600,
+        "1": 88976,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r004_c013",
+      "row": 4,
+      "column": 13,
+      "image": "images/MT25_rep3_practice_r004_c013.png",
+      "mask": "masks/MT25_rep3_practice_r004_c013.png",
+      "source_crop_box": [
+        13312,
+        4096,
+        14336,
+        5120
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 953219,
+        "1": 95357,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r005_c001",
+      "row": 5,
+      "column": 1,
+      "image": "images/MT25_rep3_practice_r005_c001.png",
+      "mask": "masks/MT25_rep3_practice_r005_c001.png",
+      "source_crop_box": [
+        1024,
+        5120,
+        2048,
+        6144
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1034845,
+        "1": 0,
+        "2": 13731,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r005_c002",
+      "row": 5,
+      "column": 2,
+      "image": "images/MT25_rep3_practice_r005_c002.png",
+      "mask": "masks/MT25_rep3_practice_r005_c002.png",
+      "source_crop_box": [
+        2048,
+        5120,
+        3072,
+        6144
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 999517,
+        "1": 0,
+        "2": 49059,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r005_c003",
+      "row": 5,
+      "column": 3,
+      "image": "images/MT25_rep3_practice_r005_c003.png",
+      "mask": "masks/MT25_rep3_practice_r005_c003.png",
+      "source_crop_box": [
+        3072,
+        5120,
+        4096,
+        6144
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1013273,
+        "1": 0,
+        "2": 35303,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r005_c004",
+      "row": 5,
+      "column": 4,
+      "image": "images/MT25_rep3_practice_r005_c004.png",
+      "mask": "masks/MT25_rep3_practice_r005_c004.png",
+      "source_crop_box": [
+        4096,
+        5120,
+        5120,
+        6144
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1007110,
+        "1": 0,
+        "2": 41466,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r005_c005",
+      "row": 5,
+      "column": 5,
+      "image": "images/MT25_rep3_practice_r005_c005.png",
+      "mask": "masks/MT25_rep3_practice_r005_c005.png",
+      "source_crop_box": [
+        5120,
+        5120,
+        6144,
+        6144
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1035568,
+        "1": 0,
+        "2": 13008,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r005_c006",
+      "row": 5,
+      "column": 6,
+      "image": "images/MT25_rep3_practice_r005_c006.png",
+      "mask": "masks/MT25_rep3_practice_r005_c006.png",
+      "source_crop_box": [
+        6144,
+        5120,
+        7168,
+        6144
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1018117,
+        "1": 0,
+        "2": 30459,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r005_c007",
+      "row": 5,
+      "column": 7,
+      "image": "images/MT25_rep3_practice_r005_c007.png",
+      "mask": "masks/MT25_rep3_practice_r005_c007.png",
+      "source_crop_box": [
+        7168,
+        5120,
+        8192,
+        6144
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 995401,
+        "1": 0,
+        "2": 53175,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r005_c008",
+      "row": 5,
+      "column": 8,
+      "image": "images/MT25_rep3_practice_r005_c008.png",
+      "mask": "masks/MT25_rep3_practice_r005_c008.png",
+      "source_crop_box": [
+        8192,
+        5120,
+        9216,
+        6144
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 994140,
+        "1": 41234,
+        "2": 13202,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r005_c009",
+      "row": 5,
+      "column": 9,
+      "image": "images/MT25_rep3_practice_r005_c009.png",
+      "mask": "masks/MT25_rep3_practice_r005_c009.png",
+      "source_crop_box": [
+        9216,
+        5120,
+        10240,
+        6144
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 992226,
+        "1": 56350,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r005_c010",
+      "row": 5,
+      "column": 10,
+      "image": "images/MT25_rep3_practice_r005_c010.png",
+      "mask": "masks/MT25_rep3_practice_r005_c010.png",
+      "source_crop_box": [
+        10240,
+        5120,
+        11264,
+        6144
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 982948,
+        "1": 65628,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r005_c011",
+      "row": 5,
+      "column": 11,
+      "image": "images/MT25_rep3_practice_r005_c011.png",
+      "mask": "masks/MT25_rep3_practice_r005_c011.png",
+      "source_crop_box": [
+        11264,
+        5120,
+        12288,
+        6144
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1037791,
+        "1": 10785,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r006_c000",
+      "row": 6,
+      "column": 0,
+      "image": "images/MT25_rep3_practice_r006_c000.png",
+      "mask": "masks/MT25_rep3_practice_r006_c000.png",
+      "source_crop_box": [
+        0,
+        6144,
+        1024,
+        7168
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1012490,
+        "1": 0,
+        "2": 36086,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r006_c001",
+      "row": 6,
+      "column": 1,
+      "image": "images/MT25_rep3_practice_r006_c001.png",
+      "mask": "masks/MT25_rep3_practice_r006_c001.png",
+      "source_crop_box": [
+        1024,
+        6144,
+        2048,
+        7168
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1002265,
+        "1": 0,
+        "2": 46311,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r006_c002",
+      "row": 6,
+      "column": 2,
+      "image": "images/MT25_rep3_practice_r006_c002.png",
+      "mask": "masks/MT25_rep3_practice_r006_c002.png",
+      "source_crop_box": [
+        2048,
+        6144,
+        3072,
+        7168
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 995369,
+        "1": 0,
+        "2": 53207,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r006_c003",
+      "row": 6,
+      "column": 3,
+      "image": "images/MT25_rep3_practice_r006_c003.png",
+      "mask": "masks/MT25_rep3_practice_r006_c003.png",
+      "source_crop_box": [
+        3072,
+        6144,
+        4096,
+        7168
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 993811,
+        "1": 0,
+        "2": 54765,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r006_c004",
+      "row": 6,
+      "column": 4,
+      "image": "images/MT25_rep3_practice_r006_c004.png",
+      "mask": "masks/MT25_rep3_practice_r006_c004.png",
+      "source_crop_box": [
+        4096,
+        6144,
+        5120,
+        7168
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 997519,
+        "1": 44998,
+        "2": 6059,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r006_c005",
+      "row": 6,
+      "column": 5,
+      "image": "images/MT25_rep3_practice_r006_c005.png",
+      "mask": "masks/MT25_rep3_practice_r006_c005.png",
+      "source_crop_box": [
+        5120,
+        6144,
+        6144,
+        7168
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 996526,
+        "1": 52050,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r006_c006",
+      "row": 6,
+      "column": 6,
+      "image": "images/MT25_rep3_practice_r006_c006.png",
+      "mask": "masks/MT25_rep3_practice_r006_c006.png",
+      "source_crop_box": [
+        6144,
+        6144,
+        7168,
+        7168
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 991267,
+        "1": 57309,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r006_c007",
+      "row": 6,
+      "column": 7,
+      "image": "images/MT25_rep3_practice_r006_c007.png",
+      "mask": "masks/MT25_rep3_practice_r006_c007.png",
+      "source_crop_box": [
+        7168,
+        6144,
+        8192,
+        7168
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 993355,
+        "1": 55221,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r006_c008",
+      "row": 6,
+      "column": 8,
+      "image": "images/MT25_rep3_practice_r006_c008.png",
+      "mask": "masks/MT25_rep3_practice_r006_c008.png",
+      "source_crop_box": [
+        8192,
+        6144,
+        9216,
+        7168
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 987223,
+        "1": 61353,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r006_c009",
+      "row": 6,
+      "column": 9,
+      "image": "images/MT25_rep3_practice_r006_c009.png",
+      "mask": "masks/MT25_rep3_practice_r006_c009.png",
+      "source_crop_box": [
+        9216,
+        6144,
+        10240,
+        7168
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1043696,
+        "1": 4880,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r006_c010",
+      "row": 6,
+      "column": 10,
+      "image": "images/MT25_rep3_practice_r006_c010.png",
+      "mask": "masks/MT25_rep3_practice_r006_c010.png",
+      "source_crop_box": [
+        10240,
+        6144,
+        11264,
+        7168
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1045665,
+        "1": 2911,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r006_c011",
+      "row": 6,
+      "column": 11,
+      "image": "images/MT25_rep3_practice_r006_c011.png",
+      "mask": "masks/MT25_rep3_practice_r006_c011.png",
+      "source_crop_box": [
+        11264,
+        6144,
+        12288,
+        7168
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 985281,
+        "1": 63295,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r006_c012",
+      "row": 6,
+      "column": 12,
+      "image": "images/MT25_rep3_practice_r006_c012.png",
+      "mask": "masks/MT25_rep3_practice_r006_c012.png",
+      "source_crop_box": [
+        12288,
+        6144,
+        13312,
+        7168
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 965631,
+        "1": 82945,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r006_c013",
+      "row": 6,
+      "column": 13,
+      "image": "images/MT25_rep3_practice_r006_c013.png",
+      "mask": "masks/MT25_rep3_practice_r006_c013.png",
+      "source_crop_box": [
+        13312,
+        6144,
+        14336,
+        7168
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 996604,
+        "1": 51972,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r007_c008",
+      "row": 7,
+      "column": 8,
+      "image": "images/MT25_rep3_practice_r007_c008.png",
+      "mask": "masks/MT25_rep3_practice_r007_c008.png",
+      "source_crop_box": [
+        8192,
+        7168,
+        9216,
+        8192
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1047662,
+        "1": 914,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r007_c009",
+      "row": 7,
+      "column": 9,
+      "image": "images/MT25_rep3_practice_r007_c009.png",
+      "mask": "masks/MT25_rep3_practice_r007_c009.png",
+      "source_crop_box": [
+        9216,
+        7168,
+        10240,
+        8192
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 980009,
+        "1": 68567,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r007_c010",
+      "row": 7,
+      "column": 10,
+      "image": "images/MT25_rep3_practice_r007_c010.png",
+      "mask": "masks/MT25_rep3_practice_r007_c010.png",
+      "source_crop_box": [
+        10240,
+        7168,
+        11264,
+        8192
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 974580,
+        "1": 73996,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r007_c011",
+      "row": 7,
+      "column": 11,
+      "image": "images/MT25_rep3_practice_r007_c011.png",
+      "mask": "masks/MT25_rep3_practice_r007_c011.png",
+      "source_crop_box": [
+        11264,
+        7168,
+        12288,
+        8192
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 970566,
+        "1": 78010,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r007_c012",
+      "row": 7,
+      "column": 12,
+      "image": "images/MT25_rep3_practice_r007_c012.png",
+      "mask": "masks/MT25_rep3_practice_r007_c012.png",
+      "source_crop_box": [
+        12288,
+        7168,
+        13312,
+        8192
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 967114,
+        "1": 81462,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r007_c013",
+      "row": 7,
+      "column": 13,
+      "image": "images/MT25_rep3_practice_r007_c013.png",
+      "mask": "masks/MT25_rep3_practice_r007_c013.png",
+      "source_crop_box": [
+        13312,
+        7168,
+        14336,
+        8192
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 935611,
+        "1": 112965,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r008_c001",
+      "row": 8,
+      "column": 1,
+      "image": "images/MT25_rep3_practice_r008_c001.png",
+      "mask": "masks/MT25_rep3_practice_r008_c001.png",
+      "source_crop_box": [
+        1024,
+        8192,
+        2048,
+        9216
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1006419,
+        "1": 0,
+        "2": 42157,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r008_c002",
+      "row": 8,
+      "column": 2,
+      "image": "images/MT25_rep3_practice_r008_c002.png",
+      "mask": "masks/MT25_rep3_practice_r008_c002.png",
+      "source_crop_box": [
+        2048,
+        8192,
+        3072,
+        9216
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 998034,
+        "1": 0,
+        "2": 50542,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r008_c003",
+      "row": 8,
+      "column": 3,
+      "image": "images/MT25_rep3_practice_r008_c003.png",
+      "mask": "masks/MT25_rep3_practice_r008_c003.png",
+      "source_crop_box": [
+        3072,
+        8192,
+        4096,
+        9216
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 973887,
+        "1": 0,
+        "2": 74689,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r008_c004",
+      "row": 8,
+      "column": 4,
+      "image": "images/MT25_rep3_practice_r008_c004.png",
+      "mask": "masks/MT25_rep3_practice_r008_c004.png",
+      "source_crop_box": [
+        4096,
+        8192,
+        5120,
+        9216
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1034315,
+        "1": 0,
+        "2": 14261,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r008_c005",
+      "row": 8,
+      "column": 5,
+      "image": "images/MT25_rep3_practice_r008_c005.png",
+      "mask": "masks/MT25_rep3_practice_r008_c005.png",
+      "source_crop_box": [
+        5120,
+        8192,
+        6144,
+        9216
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1041545,
+        "1": 0,
+        "2": 7031,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r008_c006",
+      "row": 8,
+      "column": 6,
+      "image": "images/MT25_rep3_practice_r008_c006.png",
+      "mask": "masks/MT25_rep3_practice_r008_c006.png",
+      "source_crop_box": [
+        6144,
+        8192,
+        7168,
+        9216
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1034957,
+        "1": 0,
+        "2": 13619,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r008_c007",
+      "row": 8,
+      "column": 7,
+      "image": "images/MT25_rep3_practice_r008_c007.png",
+      "mask": "masks/MT25_rep3_practice_r008_c007.png",
+      "source_crop_box": [
+        7168,
+        8192,
+        8192,
+        9216
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1042320,
+        "1": 6256,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r008_c008",
+      "row": 8,
+      "column": 8,
+      "image": "images/MT25_rep3_practice_r008_c008.png",
+      "mask": "masks/MT25_rep3_practice_r008_c008.png",
+      "source_crop_box": [
+        8192,
+        8192,
+        9216,
+        9216
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 993804,
+        "1": 54772,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r008_c009",
+      "row": 8,
+      "column": 9,
+      "image": "images/MT25_rep3_practice_r008_c009.png",
+      "mask": "masks/MT25_rep3_practice_r008_c009.png",
+      "source_crop_box": [
+        9216,
+        8192,
+        10240,
+        9216
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 983800,
+        "1": 64776,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r008_c010",
+      "row": 8,
+      "column": 10,
+      "image": "images/MT25_rep3_practice_r008_c010.png",
+      "mask": "masks/MT25_rep3_practice_r008_c010.png",
+      "source_crop_box": [
+        10240,
+        8192,
+        11264,
+        9216
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 992454,
+        "1": 56122,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r008_c011",
+      "row": 8,
+      "column": 11,
+      "image": "images/MT25_rep3_practice_r008_c011.png",
+      "mask": "masks/MT25_rep3_practice_r008_c011.png",
+      "source_crop_box": [
+        11264,
+        8192,
+        12288,
+        9216
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 970877,
+        "1": 77699,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r008_c012",
+      "row": 8,
+      "column": 12,
+      "image": "images/MT25_rep3_practice_r008_c012.png",
+      "mask": "masks/MT25_rep3_practice_r008_c012.png",
+      "source_crop_box": [
+        12288,
+        8192,
+        13312,
+        9216
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 947219,
+        "1": 101357,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r008_c013",
+      "row": 8,
+      "column": 13,
+      "image": "images/MT25_rep3_practice_r008_c013.png",
+      "mask": "masks/MT25_rep3_practice_r008_c013.png",
+      "source_crop_box": [
+        13312,
+        8192,
+        14336,
+        9216
+      ],
+      "valid_width": 1024,
+      "valid_height": 1024,
+      "padding_right": 0,
+      "padding_bottom": 0,
+      "padding_pixels": 0,
+      "source_pixel_counts_excluding_padding": {
+        "0": 1018318,
+        "1": 30258,
+        "2": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r009_c004",
+      "row": 9,
+      "column": 4,
+      "image": "images/MT25_rep3_practice_r009_c004.png",
+      "mask": "masks/MT25_rep3_practice_r009_c004.png",
+      "source_crop_box": [
+        4096,
+        9216,
+        5120,
+        9543
+      ],
+      "valid_width": 1024,
+      "valid_height": 327,
+      "padding_right": 0,
+      "padding_bottom": 697,
+      "padding_pixels": 713728,
+      "source_pixel_counts_excluding_padding": {
+        "0": 290588,
+        "1": 0,
+        "2": 44260,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r009_c005",
+      "row": 9,
+      "column": 5,
+      "image": "images/MT25_rep3_practice_r009_c005.png",
+      "mask": "masks/MT25_rep3_practice_r009_c005.png",
+      "source_crop_box": [
+        5120,
+        9216,
+        6144,
+        9543
+      ],
+      "valid_width": 1024,
+      "valid_height": 327,
+      "padding_right": 0,
+      "padding_bottom": 697,
+      "padding_pixels": 713728,
+      "source_pixel_counts_excluding_padding": {
+        "0": 283221,
+        "1": 0,
+        "2": 51627,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r009_c006",
+      "row": 9,
+      "column": 6,
+      "image": "images/MT25_rep3_practice_r009_c006.png",
+      "mask": "masks/MT25_rep3_practice_r009_c006.png",
+      "source_crop_box": [
+        6144,
+        9216,
+        7168,
+        9543
+      ],
+      "valid_width": 1024,
+      "valid_height": 327,
+      "padding_right": 0,
+      "padding_bottom": 697,
+      "padding_pixels": 713728,
+      "source_pixel_counts_excluding_padding": {
+        "0": 279730,
+        "1": 0,
+        "2": 55118,
+        "255": 0
+      }
+    },
+    {
+      "id": "MT25_rep3_practice_r009_c007",
+      "row": 9,
+      "column": 7,
+      "image": "images/MT25_rep3_practice_r009_c007.png",
+      "mask": "masks/MT25_rep3_practice_r009_c007.png",
+      "source_crop_box": [
+        7168,
+        9216,
+        8192,
+        9543
+      ],
+      "valid_width": 1024,
+      "valid_height": 327,
+      "padding_right": 0,
+      "padding_bottom": 697,
+      "padding_pixels": 713728,
+      "source_pixel_counts_excluding_padding": {
+        "0": 282888,
+        "1": 17556,
+        "2": 34404,
+        "255": 0
+      }
+    }
+  ]
+}

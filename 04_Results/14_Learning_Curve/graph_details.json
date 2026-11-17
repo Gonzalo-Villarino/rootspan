@@ -1,0 +1,24 @@
+{
+  "purpose": "Display an already completed training run; no training occurred",
+  "training_run": "${ROOTSPAN_PROJECT}/04_Results/12_Refined_Training/run_20261114T102736Z_owxsbwtv",
+  "training_updates": 200,
+  "source_history": "${ROOTSPAN_PROJECT}/04_Results/12_Refined_Training/run_20261114T102736Z_owxsbwtv/training_history.csv",
+  "source_record": "${ROOTSPAN_PROJECT}/04_Results/12_Refined_Training/run_20261114T102736Z_owxsbwtv/trial_details.json",
+  "plotted_measurements": 201,
+  "first_loss": 1.11607432365417,
+  "final_loss": 0.367153286933899,
+  "horizontal_axis": "Number of completed training updates",
+  "timing": "CSV losses are measured before each update, plotted at update minus one. Final loss comes from after_training.loss, plotted after all updates.",
+  "smoothing_applied": false,
+  "data_values_modified": false,
+  "model_trained": false,
+  "input_md5": {
+    "${ROOTSPAN_PROJECT}/04_Results/12_Refined_Training/run_20261114T102736Z_owxsbwtv/training_history.csv": "e55b6962811c8dc3d1869157ec36b3bb",
+    "${ROOTSPAN_PROJECT}/04_Results/12_Refined_Training/run_20261114T102736Z_owxsbwtv/trial_details.json": "ee68ad7cb6455260e0b39eb55c78ad04",
+    "${ROOTSPAN_PROJECT}/04_Results/12_Refined_Training/run_20261114T102736Z_owxsbwtv/model_weights.pt": "f77ac41a3a4a8f8c5b6a63a0f2e1afed",
+    "${ROOTSPAN_PROJECT}/03_Notebooks/13_plot_learning_curve.R": "97a7504bef41df1b3511675d538935f9"
+  },
+  "script_file": "${ROOTSPAN_PROJECT}/03_Notebooks/13_plot_learning_curve.R",
+  "R_version": "R version 4.4.1 (2024-06-14)",
+  "limitation": "Training loss on labelled pixels of the same patch; no independent test."
+}

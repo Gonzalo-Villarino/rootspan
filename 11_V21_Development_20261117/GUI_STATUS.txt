@@ -1,0 +1,26 @@
+SUPERSEDING STATUS — 17 November2026: V2.1 was withdrawn after review identified unreliable endpoint estimates. Seven filled rows did NOT establish seven correct periderm measurements. The new V3 candidate failed its improvement check and was not released. V1/V2 remain unchanged. See12_V3_Development_20261117/REVIEW_AND_RESULTS.txt. Historical notes follow.
+
+17 November 2026 — CURRENT LOCAL GUI: V2.1
+Open empty upload page: http://127.0.0.1:8765/
+Saved 7_18 result: http://127.0.0.1:8765/?run=20261117T125305Z_8bbe6d9a
+The app now returns seven provisional periderm estimates for seven 7_18 tracks.
+Root 4 carries a brief-transition flag. Source images and locked V1 unchanged;
+V2.0 preserved. No neural training. Five-slide execution and 14 tests passed.
+Browser displayed all seven rows, CSV matched standalone, Start a new image
+returned to an empty upload page. V2.1 default; V2.0 and V1 remain selectable.
+
+Do not equate completion with biological accuracy: 1_7 lengths still differ
+from the three manual references by about -30%, +14%, +37%. The new endpoint
+heuristic is closer to their stopping points but does not fix the model's T.
+On 7_18 root2 the user corrected 'cut end' to hypocotyl, then confirmed D.
+D is saved as a separate expert reference, not supplied to automatic inference.
+The automatic root2 endpoint remains about 460 um left of D.
+
+Detailed work and next scientific step:
+11_V21_Development_20261117/READ_ME_V21.txt
+11_V21_Development_20261117/verification.json
+11_V21_Development_20261117/root2_automatic_vs_D.png
+Model/pipeline snapshot: 06_Models/Periderm_Pipeline_V21_20261117/
+The Word manual was not edited. Next: validate T and junction independently on
+several roots; address observed disagreement before treating estimates as
+biological results. No further annotation work has been assigned to the user.

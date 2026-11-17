@@ -1,0 +1,20 @@
+{
+  "checked": "2026-11-15T14:10:41.056104+00:00",
+  "reference_sha256": "93f8831cc67d3acc75d355a30914aecd7c0a452e13145692941233b0c4be0a63",
+  "model_sha256": "234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633",
+  "selected_prediction_sha256": "2a862b29a7bb7d14ba74ea407460b5756ac9906217038753bf6c126264923a3b",
+  "independent_confusion_recount_passed": true,
+  "reload_reproduced_raw_prediction": true,
+  "no_root4_or_root6_fields_in_new_training": true,
+  "original_PAT_training_membership": "unknown",
+  "figures": {
+    "selected_prediction_colours.png": "692c5d18301a3fe11f305b4c04969db4ff302b3ca40002718cece270ae8b3d90",
+    "raw_vs_continuity_full.png": "d09133d9d9b1cd06d70d0a3ee7ff0d3da4ac8ba1ecafd1e4744c7f6d0e05135f",
+    "continuity_prediction_colours.png": "692c5d18301a3fe11f305b4c04969db4ff302b3ca40002718cece270ae8b3d90",
+    "continuity_prediction.png": "2a862b29a7bb7d14ba74ea407460b5756ac9906217038753bf6c126264923a3b",
+    "OPEN_ME_root4_before_after.png": "c18805e300d3bdc9d394e0b0516bae3e797165482304504144f94784a8398b18",
+    "raw_model_prediction.png": "c2ecbd1372dd99c7ba4997a397d3dbe0801c7e2a519f894f013f5492d03743f4",
+    "raw_model_prediction_colours.png": "c8f89bf5122f90017f3ce3edcc0a829cf5b2056e380c4d741d5d043d552f81c1",
+    "selected_prediction.png": "2a862b29a7bb7d14ba74ea407460b5756ac9906217038753bf6c126264923a3b"
+  }
+}

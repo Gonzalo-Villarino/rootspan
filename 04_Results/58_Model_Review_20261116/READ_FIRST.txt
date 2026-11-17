@@ -1,0 +1,41 @@
+RESEARCH CANDIDATE — NOT VALIDATED FOR AUTOMATIC LENGTH MEASUREMENT
+16 November 2026
+
+Saved model: four-category PAT-derived U-Net++ with ResNet34 encoder.
+Categories: Periderm, Endoderm, Background and Lateral root.
+Selected checkpoint: rule_derived_endoderm_v7 update 500.
+Model input: RGB image only. Numeric masks are used for teaching/scoring, not prediction.
+The original working_model.pt has not been replaced.
+
+Local teaching sources: MT25_rep3 (refined roots 4 and 5), 20#MT28_gfp,
+25717_gfp, COL0_Slide1. 20 selected primary roots on 4 slides; 356 fields.
+Archived annotation authorship and public PAT pretraining membership are unconfirmed.
+COL0 Endoderm polygons were generated from the orientation rule and geometry,
+used at half weight, and then reviewed by Gonzalo as Endoderm in the cyan regions.
+His review confirms tissue identity broadly, not every polygon pixel or transition.
+
+20_29 is a familiar development example used for checkpoint and method selection.
+It did not supply gradients to these experiments. It is not a blind test.
+A04 is a reused Periderm-only archive comparison. It was not used for gradients.
+2_12 was not processed during this refinement run. No fresh final validation exists.
+
+Result on 20_29 labelled pixels: P recall 79.88%; E recall 73.30%; BG recall 100%.
+Mean P/E IoU: 0.6219. Original model: 0.3667. P recall declined from 93.94%.
+The one-transition rule improves visual continuity but places the transition
+126 pixels left of the hand-drawn gap. It does not fix biological recognition.
+A04: six output tracks, only five accepted reference matches; one root is split
+and another is missing. Median absolute length difference among the five matches
+is 24.73%, maximum 43.73%, versus archived polygon-derived lengths.
+These are NOT independent manual measurements or validated experimental values.
+
+Next development requirement: consistent, reviewed transition and basal endpoint
+references on more slides; robust main-root tracing; end-to-end comparison on
+separate images. Do not select only attractive results or force the boundary
+using evaluation annotations. Difficult and missed roots must remain in reporting.
+
+Reproducibility: independent image-only inference reproduced every predicted
+pixel and probability exactly on this Mac. Code, source hashes and trials retained.
+Independent external reviewer review unavailable because login was required.
+
+Learning record: ${ROOTSPAN_PROJECT}/05_Notes/07_Model_Refinement_Review_20261116.docx
+Biological review: ${ROOTSPAN_PROJECT}/04_Results/59_Rule_Derived_Teaching_Data/BIOLOGICAL_REVIEW_GV_20261116.json

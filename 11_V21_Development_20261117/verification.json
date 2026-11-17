@@ -1,0 +1,172 @@
+{
+  "coverage_is_not_accuracy": true,
+  "training_occurred": false,
+  "development_slides_not_blind_test": true,
+  "slides": [
+    {
+      "slide": "7_18",
+      "tracks": 7,
+      "v2_provisional": 2,
+      "v21_provisional": 7,
+      "v21_statuses": [
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional"
+      ],
+      "short_transition_candidates": [
+        4
+      ],
+      "source_sha256": "6ff3e7e893961fbace0c99bf521d41e029cadb21c4522fc4da67f8fcb1bd5980"
+    },
+    {
+      "slide": "1_7",
+      "tracks": 7,
+      "v2_provisional": 4,
+      "v21_provisional": 5,
+      "v21_statuses": [
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional",
+        "transition_beyond_endpoint",
+        "provisional",
+        "no_transition"
+      ],
+      "short_transition_candidates": [
+        3
+      ],
+      "source_sha256": "487d1086e4caaca419431a487beb131f050eece8ef8347283cabdf2f8a82a604"
+    },
+    {
+      "slide": "22_22",
+      "tracks": 7,
+      "v2_provisional": 5,
+      "v21_provisional": 7,
+      "v21_statuses": [
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional"
+      ],
+      "short_transition_candidates": [],
+      "source_sha256": "74d1fa19155819af5c9a8c7c0e5c49b0f6ff373af656c174fc7558e0792571ee"
+    },
+    {
+      "slide": "Col_rep1",
+      "tracks": 6,
+      "v2_provisional": 6,
+      "v21_provisional": 6,
+      "v21_statuses": [
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional"
+      ],
+      "short_transition_candidates": [],
+      "source_sha256": "452b09a3db5ee322ddba05875e9da0df7654ea6653de1d7bcb7fce8372acc67a"
+    },
+    {
+      "slide": "WOX4_rep1",
+      "tracks": 6,
+      "v2_provisional": 5,
+      "v21_provisional": 5,
+      "v21_statuses": [
+        "partial_root",
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional",
+        "provisional"
+      ],
+      "short_transition_candidates": [],
+      "source_sha256": "01061a8e2ac828ba785c908fc31f1e3afe63740bfe38fddcea22aa37e189c3a3"
+    }
+  ],
+  "manual_1_7_comparison": [
+    {
+      "root": 1,
+      "manual_endpoint_xy": [
+        13707,
+        1517
+      ],
+      "manual_periderm_um": 8002.1095,
+      "v2_endpoint_error_um": 231.42932689389568,
+      "v2_periderm_um": 5608.445080851533,
+      "v2_length_difference_percent": -29.912917576902274,
+      "v21_endpoint_error_um": 216.35128331972496,
+      "v21_periderm_um": 5623.5297318625335,
+      "v21_length_difference_percent": -29.72440914658149
+    },
+    {
+      "root": 2,
+      "manual_endpoint_xy": [
+        14129,
+        3381
+      ],
+      "manual_periderm_um": 13710.5634,
+      "v2_endpoint_error_um": 595.284113219936,
+      "v2_periderm_um": 15127.158251323985,
+      "v2_length_difference_percent": 10.332141794581437,
+      "v21_endpoint_error_um": 139.99278470446848,
+      "v21_periderm_um": 15588.192774053425,
+      "v21_length_difference_percent": 13.694764535011199
+    },
+    {
+      "root": 6,
+      "manual_endpoint_xy": [
+        14180,
+        6729
+      ],
+      "manual_periderm_um": 17935.555,
+      "v2_endpoint_error_um": 693.2250500814288,
+      "v2_periderm_um": 23897.38198203049,
+      "v2_length_difference_percent": 33.24027041276665,
+      "v21_endpoint_error_um": 32.73680384016455,
+      "v21_periderm_um": 24589.69985678623,
+      "v21_length_difference_percent": 37.10030080912594
+    }
+  ],
+  "root2_D_check": {
+    "expert_junction_xy": [
+      15473.583189876072,
+      1933.587076384215
+    ],
+    "automatic_endpoint_xy": [
+      15229.970173703688,
+      1947.4243743425266
+    ],
+    "error_um": 460.4749598250704,
+    "automatic_point_is_left_of_D": true,
+    "expert_coordinate_input_to_pipeline": false
+  },
+  "conclusion": "Computational coverage improved. Endpoint heuristic is closer to three Fiji reference endpoints; full periderm lengths still differ substantially. No biological accuracy claim.",
+  "tests": {
+    "unittest_modules": [
+      "test_pipeline",
+      "test_pipeline_v2",
+      "test_pipeline_v21"
+    ],
+    "passed": 14,
+    "failed": 0
+  },
+  "v2_integrity": {
+    "version": "V2.0",
+    "runtime_sources_match_saved_version": true
+  },
+  "locked_v1_integrity": {
+    "passed": true,
+    "files": 40,
+    "version": "Transition_v1_20261116",
+    "read_only_checked": true,
+    "manifest_sha256": "d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb"
+  }
+}

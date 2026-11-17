@@ -1,0 +1,67 @@
+[
+  {
+    "native_size": [
+      320,
+      256
+    ],
+    "input_center_xy": [
+      200,
+      159
+    ],
+    "intensity_multiplier": 1.3559322033898304,
+    "outside_reviewed_window": "zero padding; no extra source tissue added",
+    "resized": false
+  },
+  {
+    "native_size": [
+      320,
+      256
+    ],
+    "input_center_xy": [
+      160,
+      144
+    ],
+    "intensity_multiplier": 1.322314049586777,
+    "outside_reviewed_window": "zero padding; no extra source tissue added",
+    "resized": false
+  },
+  {
+    "native_size": [
+      320,
+      256
+    ],
+    "input_center_xy": [
+      160,
+      111
+    ],
+    "intensity_multiplier": 0.8938547486033519,
+    "outside_reviewed_window": "zero padding; no extra source tissue added",
+    "resized": false
+  },
+  {
+    "native_size": [
+      320,
+      256
+    ],
+    "input_center_xy": [
+      160,
+      138
+    ],
+    "intensity_multiplier": 1.6,
+    "outside_reviewed_window": "zero padding; no extra source tissue added",
+    "resized": false
+  },
+  {
+    "native_size": [
+      320,
+      256
+    ],
+    "input_center_xy": [
+      160,
+      118
+    ],
+    "intensity_multiplier": 1.5533980582524272,
+    "outside_reviewed_window": "zero padding; no extra source tissue added",
+    "resized": false
+  }
+]

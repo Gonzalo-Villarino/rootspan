@@ -1,0 +1,23 @@
+{
+  "approved_release": {
+    "release_id": "Periderm_Lab_0.6.0_Test_Lock_20261117",
+    "bundle_relative": "06_Models/Periderm_Lab_0.6.0_Test_Lock_20261117",
+    "manifest_sha256": "9bb46d94e16e6323aa2498b3d156b0e81075761860172a004f4966d3ea061118",
+    "approved_on": "2026-11-17",
+    "app_version": "0.6.0"
+  },
+  "active_app_verified": true,
+  "read_only_snapshot_verified": true,
+  "uploads_and_results_writable": true,
+  "approved_measurement_and_UI_hashes_unchanged": {
+    "09_Periderm_GUI/per_root_estimates.py": true,
+    "09_Periderm_GUI/index.html": true,
+    "09_Periderm_GUI/pat_diagnostics.py": true,
+    "09_Periderm_GUI/pat_postprocessing.py": true
+  },
+  "seven_root_values_preserved": true,
+  "lock_tests_passed": 7,
+  "regression_tests_passed": 48,
+  "archive_unique_bytes": 108151309,
+  "neural_training_occurred": false
+}

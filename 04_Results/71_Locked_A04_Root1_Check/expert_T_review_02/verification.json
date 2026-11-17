@@ -1,0 +1,18 @@
+{
+  "protected_files_unchanged": {
+    "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png": "529ad2cf67513b8a4a4bae737261ff068fca498c166a5bf2d073d59ad713fe4c",
+    "${ROOTSPAN_PROJECT}/04_Results/71_Locked_A04_Root1_Check/inference/prediction.json": "6993944b48b83472926ae93b6826eaefedef19138b1ed241935413358bd3ed27",
+    "${ROOTSPAN_PROJECT}/04_Results/71_Locked_A04_Root1_Check/expert_appearance_review_01.json": "b08f1512f52fc230aa571b1b6fbd8b4aacb808348acc91c0d8b00cac91a9ce95"
+  },
+  "checkpoint": {
+    "passed": true,
+    "files": 40,
+    "version": "Transition_v1_20261116",
+    "read_only_checked": true,
+    "manifest_sha256": "d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb"
+  },
+  "figure_visual_check": {
+    "passed": true,
+    "finding": "Solid blue is the unchanged model T; two dashed blue boundaries and bracket clearly identify the approximate expert interval at guides 4 and 5. Source cells remain visible and no reference midpoint is invented."
+  }
+}

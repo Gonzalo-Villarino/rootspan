@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-11-16T10:14:42.319585+00:00",
+  "prediction_mismatched_pixels": 0,
+  "probability_max_absolute_difference": 0.0,
+  "reproduced_exactly": true,
+  "model_sha256": "a25051b69f214d8c3c34952636356562d30f78a0885f9af2055a41d821af5e08",
+  "input_sha256": "0a0ce535a2caaf6de5ae13971b29da297734d32503cb3e79787ca8df2b3b22ad",
+  "working_model_unchanged": true,
+  "user_reference_unchanged": true,
+  "input_to_predictor": "RGB microscopy image only; reference used afterwards to score",
+  "all_sources_on_mac": true,
+  "research_launcher_test": "Passed; launcher output exactly matches saved candidate pixels and probabilities.",
+  "launcher_output": "${ROOTSPAN_PROJECT}/04_Results/58_Model_Review_20261116/prediction_20261116T111857_73293"
+}

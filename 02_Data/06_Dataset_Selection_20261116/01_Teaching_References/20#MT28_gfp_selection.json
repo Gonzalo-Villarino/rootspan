@@ -1,0 +1,22 @@
+{
+  "slide_id": "20#MT28_gfp",
+  "role": "teaching",
+  "source_image": "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/01_Images/20#MT28_gfp.png",
+  "image_sha256": "8c14592452f6c14df7d55b093d547f7c5f60066c80e898cb9fc6f2ea571d358e",
+  "decoded_pixels_sha256": "56081820befefbed5072546b27f65490707c68c4a54c631c74cf8d74cbcceedb",
+  "annotation_source": "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/02_Annotations/20#MT28_gfp.json",
+  "annotation_sha256": "51d04cdd0392fbf4f241f8e49e58a3e35720f15bf33d76832f6fde95d031989a",
+  "included_root_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "root_numbering": "Primary roots ordered from top to bottom in source image; pairing confirmed by their vertical locations.",
+  "pending_root_ids": [],
+  "readiness": "candidate teaching labels; targeted biological review and background/LR policy required before mask generation",
+  "why": "Six archived Periderm/Endoderm pairs and lateral-root polygons; reusable annotated image with additional cell appearance/brightness. Already used in local training, so not an independent evaluation source.",
+  "historical_exposure": "Used in local training/development; public PAT pretraining image membership unresolved."
+}

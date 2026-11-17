@@ -1,0 +1,37 @@
+{
+  "BGR_palette_verified": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      128,
+      128,
+      0
+    ],
+    [
+      128,
+      0,
+      0
+    ],
+    [
+      0,
+      128,
+      0
+    ]
+  ],
+  "original_grayscale_threshold_selects_P_only": [
+    [
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "final_measurement_mask_unique_values": [
+    0,
+    255
+  ],
+  "final_white_mask_means_PAT_retained_not_verified_biology": true
+}

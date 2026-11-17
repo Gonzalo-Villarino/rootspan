@@ -1,0 +1,152 @@
+{
+  "purpose": "Multiple-root development experiment",
+  "seed": 34,
+  "steps_requested": 5000,
+  "batch_size": 6,
+  "learning_rate_initial": 0.0003,
+  "loss": "Mean of per-class cross entropy (classes present) + 0.5 masked multiclass soft Dice. Mask 0/255 ignored.",
+  "augmentation": "Class-balanced field sampling; random 256/384/512 source crop resampled to256, paired rotations90/flips, image-only gain0.6-1.6 and gamma0.8-1.2. RGB/255. Source files unchanged.",
+  "architecture": "Context U-Net: four pooling levels, residual GroupNorm blocks, dilated bottom; 2073715 parameters.",
+  "training_roots": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "development_validation_root": 4,
+  "reserved_root": 6,
+  "checkpoint_selection": "Highest mean tissue IoU on labelled root4 pixels; root4 is validation, not a final test.",
+  "data_manifest": "${ROOTSPAN_PROJECT}/04_Results/35_Multiple_Slides_Data/manifest.json",
+  "data_manifest_sha256": "a476eb0d53508ea3ecf43ba59acff730ac8e114ad9ac11eda87dec215dccc82a",
+  "reference_sha256": "93f8831cc67d3acc75d355a30914aecd7c0a452e13145692941233b0c4be0a63",
+  "baseline_metrics": {
+    "confusion_rows_reference_columns_prediction": [
+      [
+        15320,
+        11057,
+        891
+      ],
+      [
+        18847,
+        5449,
+        506
+      ],
+      [
+        47,
+        260,
+        711879
+      ]
+    ],
+    "per_class": {
+      "Periderm": {
+        "correct": 15320,
+        "reference_pixels": 27268,
+        "recall": 0.5618307173243362,
+        "precision": 0.44776991874671185,
+        "iou": 0.331874702135956,
+        "f1": 0.4983572427702417
+      },
+      "Endoderm": {
+        "correct": 5449,
+        "reference_pixels": 24802,
+        "recall": 0.21970002419159745,
+        "precision": 0.32500298222593343,
+        "iou": 0.15086242697749108,
+        "f1": 0.2621728252501925
+      },
+      "Background": {
+        "correct": 711879,
+        "reference_pixels": 712186,
+        "recall": 0.9995689328349616,
+        "precision": 0.9980414313673809,
+        "iou": 0.9976120507355136,
+        "f1": 0.9988045980881988
+      }
+    },
+    "mean_iou": 0.49344972661632025,
+    "tissue_mean_iou": 0.24136856455672354,
+    "unlabelled_pixels_ignored": 284320,
+    "scope": "Only labelled pixels. Root4 same-slide development validation; not an independent test."
+  },
+  "PAT_reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10981931/",
+  "postprocessing": "None. Raw image-only predictions.",
+  "prediction_preprocessing": "RGB/255. Overlapping 256px inference fields (128px stride,64px reflected image border,Hann probability blending) at original and half resolution; average probabilities. Training and inference field size matched. Fixed before this run. No reference-mask input or postprocessing.",
+  "model_file": "21_context_unet.py",
+  "additional_archived_slides": [
+    {
+      "slide": "20#MT28_gfp",
+      "roots": 6,
+      "fields": 218,
+      "image": "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/01_Images/20#MT28_gfp.png",
+      "annotations": "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/02_Annotations/20#MT28_gfp.json",
+      "provenance": "Archived human annotations from SALK backup; individual annotator not established. Only saved Periderm/Endoderm used; LR/conflicts ignored; unlabelled remains unlabelled."
+    },
+    {
+      "slide": "25717_gfp",
+      "roots": 6,
+      "fields": 228,
+      "image": "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/01_Images/25717_gfp.png",
+      "annotations": "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/02_Annotations/25717_gfp.json",
+      "provenance": "Archived human annotations from SALK backup; individual annotator not established. Only saved Periderm/Endoderm used; LR/conflicts ignored; unlabelled remains unlabelled."
+    }
+  ],
+  "training_slide_count": 3,
+  "training_root_count": 16,
+  "best_step": 4500,
+  "completed_steps": 5000,
+  "elapsed_seconds": 260.1857825420011,
+  "validation_metrics": {
+    "confusion_rows_reference_columns_prediction": [
+      [
+        1351,
+        25917,
+        0
+      ],
+      [
+        53,
+        24711,
+        38
+      ],
+      [
+        126,
+        459,
+        711601
+      ]
+    ],
+    "per_class": {
+      "Periderm": {
+        "correct": 1351,
+        "reference_pixels": 27268,
+        "recall": 0.04954525451078187,
+        "precision": 0.8830065359477124,
+        "iou": 0.049222137209895434,
+        "f1": 0.09382596013612056
+      },
+      "Endoderm": {
+        "correct": 24711,
+        "reference_pixels": 24802,
+        "recall": 0.9963309410531409,
+        "precision": 0.48370426918785603,
+        "iou": 0.4828441908632616,
+        "f1": 0.6512406277589637
+      },
+      "Background": {
+        "correct": 711601,
+        "reference_pixels": 712186,
+        "recall": 0.9991785853695523,
+        "precision": 0.999946602139568,
+        "iou": 0.9991252751943209,
+        "f1": 0.9995624462275912
+      }
+    },
+    "mean_iou": 0.5103972010891593,
+    "tissue_mean_iou": 0.2660331640365785,
+    "unlabelled_pixels_ignored": 284320,
+    "scope": "Only labelled pixels. Root4 same-slide development validation; not an independent test."
+  },
+  "model_weights_sha256": "83df669c942f9ad365ce94faa0327ef1cdc152d9bc496aa34a3fdf1d32cc4742",
+  "prediction_sha256": "6787f6ed213771a64c2bf3869480cb535a76026044880e7668aad04ca311a784",
+  "source_files_unchanged": true,
+  "torch_version": "2.15.0",
+  "device": "mps"
+}

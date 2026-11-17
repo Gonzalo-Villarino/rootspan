@@ -1,0 +1,15 @@
+{
+  "slide_id": "2_12",
+  "role": "reserved_test_candidate",
+  "source_image": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/02_Images_For_Labelme/2_12_evaluation.png",
+  "image_sha256": "180258992d87ea44b739bf908ebfc24f6ec665a14cfb1a7d441d75c16884fc63",
+  "decoded_pixels_sha256": "f36f52a4f2b7248e01c63646667de038f273812810cf43fe7d5116d0e0a575df",
+  "reference_status": "No human tissue reference or manual lengths found.",
+  "readiness": "not yet scoreable; requires independently prepared human reference and original PAT provenance check",
+  "why": "No use in our local gradient training was found. Different slide with visible cells and realistic branches/quality variation. Reserve entire slide; do not cherry-pick fields based on model success.",
+  "historical_exposure": "Six image-only predictions were generated after checkpoint selection on15Nov; records state no tuning from them. Source image and predictions have been viewed. Original released PAT model membership unknown.",
+  "blind_final_test": false,
+  "next_run_rule": "No gradients, tuning, normalization fitting, threshold selection, model choice or rule selection from this slide. Fix evaluation protocol and freeze selected model before scoring. Report as provisional same-workspace holdout, not a new blind independent test.",
+  "visible_quality_note": "Overview includes a partial primary-root fragment at bottom and some branch overlap. Inventory root completeness before looking at future predictions; report exclusions with reasons.",
+  "stronger_future_test": "A separate previously unused acquisition/slide set is still needed for a strong independent final performance claim."
+}

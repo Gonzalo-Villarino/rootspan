@@ -1,0 +1,380 @@
+[
+  {
+    "field": "20_MT28_gfp_x4435_y8586",
+    "metrics": {
+      "per_class": {
+        "Periderm": {
+          "reference_pixels": 3437,
+          "recall": 0.002618562700029095,
+          "precision": 0.012096774193548387,
+          "iou": 0.0021572387344199425,
+          "correct_pixels": 9
+        },
+        "Endoderm": {
+          "reference_pixels": 39990,
+          "recall": 0.9827956989247312,
+          "precision": 0.9161091816041584,
+          "iou": 0.9016494987267429,
+          "correct_pixels": 39302
+        },
+        "Background": {
+          "reference_pixels": 0,
+          "recall": null,
+          "precision": 0.0,
+          "iou": 0.0,
+          "correct_pixels": 0
+        },
+        "Lateral_root": {
+          "reference_pixels": 2143,
+          "recall": 0.0,
+          "precision": null,
+          "iou": 0.0,
+          "correct_pixels": 0
+        }
+      },
+      "tissue_mean_iou": 0.45190336873058146,
+      "confusion_reference_rows_prediction_columns_P_E_B_LR": [
+        [
+          9,
+          3423,
+          5,
+          0
+        ],
+        [
+          468,
+          39302,
+          220,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          267,
+          176,
+          1700,
+          0
+        ]
+      ],
+      "scope": "Only manually annotated pixels in familiar development crop; not independent test accuracy."
+    }
+  },
+  {
+    "field": "20_MT28_gfp_x7714_y7562",
+    "metrics": {
+      "per_class": {
+        "Periderm": {
+          "reference_pixels": 27297,
+          "recall": 0.0,
+          "precision": null,
+          "iou": 0.0,
+          "correct_pixels": 0
+        },
+        "Endoderm": {
+          "reference_pixels": 2493,
+          "recall": 1.0,
+          "precision": 0.0836858006042296,
+          "iou": 0.0836858006042296,
+          "correct_pixels": 2493
+        },
+        "Background": {
+          "reference_pixels": 0,
+          "recall": null,
+          "precision": 0.0,
+          "iou": 0.0,
+          "correct_pixels": 0
+        },
+        "Lateral_root": {
+          "reference_pixels": 1,
+          "recall": 0.0,
+          "precision": null,
+          "iou": 0.0,
+          "correct_pixels": 0
+        }
+      },
+      "tissue_mean_iou": 0.0418429003021148,
+      "confusion_reference_rows_prediction_columns_P_E_B_LR": [
+        [
+          0,
+          27297,
+          0,
+          0
+        ],
+        [
+          0,
+          2493,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "scope": "Only manually annotated pixels in familiar development crop; not independent test accuracy."
+    }
+  },
+  {
+    "field": "25717_gfp_x7533_y2528",
+    "metrics": {
+      "per_class": {
+        "Periderm": {
+          "reference_pixels": 2904,
+          "recall": 0.15668044077134985,
+          "precision": 0.08217446270543616,
+          "iou": 0.05697470573503631,
+          "correct_pixels": 455
+        },
+        "Endoderm": {
+          "reference_pixels": 35819,
+          "recall": 0.860967642871102,
+          "precision": 0.9263464600042053,
+          "iou": 0.8058059627394111,
+          "correct_pixels": 30839
+        },
+        "Background": {
+          "reference_pixels": 0,
+          "recall": null,
+          "precision": 0.0,
+          "iou": 0.0,
+          "correct_pixels": 0
+        },
+        "Lateral_root": {
+          "reference_pixels": 9095,
+          "recall": 0.0,
+          "precision": null,
+          "iou": 0.0,
+          "correct_pixels": 0
+        }
+      },
+      "tissue_mean_iou": 0.43139033423722367,
+      "confusion_reference_rows_prediction_columns_P_E_B_LR": [
+        [
+          455,
+          2448,
+          1,
+          0
+        ],
+        [
+          4980,
+          30839,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          102,
+          4,
+          8989,
+          0
+        ]
+      ],
+      "scope": "Only manually annotated pixels in familiar development crop; not independent test accuracy."
+    }
+  },
+  {
+    "field": "25717_gfp_x8497_y10039",
+    "metrics": {
+      "per_class": {
+        "Periderm": {
+          "reference_pixels": 26119,
+          "recall": 0.6696657605574486,
+          "precision": 0.6857602132831491,
+          "iou": 0.5124216323899924,
+          "correct_pixels": 17491
+        },
+        "Endoderm": {
+          "reference_pixels": 24155,
+          "recall": 0.6670254605671704,
+          "precision": 0.6496250302394968,
+          "iou": 0.49054650631755214,
+          "correct_pixels": 16112
+        },
+        "Background": {
+          "reference_pixels": 0,
+          "recall": null,
+          "precision": 0.0,
+          "iou": 0.0,
+          "correct_pixels": 0
+        },
+        "Lateral_root": {
+          "reference_pixels": 9511,
+          "recall": 0.0,
+          "precision": null,
+          "iou": 0.0,
+          "correct_pixels": 0
+        }
+      },
+      "tissue_mean_iou": 0.5014840693537723,
+      "confusion_reference_rows_prediction_columns_P_E_B_LR": [
+        [
+          17491,
+          8615,
+          13,
+          0
+        ],
+        [
+          7900,
+          16112,
+          143,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          115,
+          75,
+          9321,
+          0
+        ]
+      ],
+      "scope": "Only manually annotated pixels in familiar development crop; not independent test accuracy."
+    }
+  },
+  {
+    "field": "MT25_rep3_x6552_y6353",
+    "metrics": {
+      "per_class": {
+        "Periderm": {
+          "reference_pixels": 3019,
+          "recall": 0.027492547201059953,
+          "precision": 0.058823529411764705,
+          "iou": 0.019093627789279963,
+          "correct_pixels": 83
+        },
+        "Endoderm": {
+          "reference_pixels": 33080,
+          "recall": 0.9605199516324063,
+          "precision": 0.9129672729362411,
+          "iou": 0.879946827660694,
+          "correct_pixels": 31774
+        },
+        "Background": {
+          "reference_pixels": 232063,
+          "recall": 0.9995044449136656,
+          "precision": 1.0,
+          "iou": 0.9995044449136656,
+          "correct_pixels": 231948
+        },
+        "Lateral_root": {
+          "reference_pixels": 0,
+          "recall": null,
+          "precision": null,
+          "iou": null,
+          "correct_pixels": 0
+        }
+      },
+      "tissue_mean_iou": 0.44952022772498695,
+      "confusion_reference_rows_prediction_columns_P_E_B_LR": [
+        [
+          83,
+          2936,
+          0,
+          0
+        ],
+        [
+          1306,
+          31774,
+          0,
+          0
+        ],
+        [
+          22,
+          93,
+          231948,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "scope": "Only manually annotated pixels in familiar development crop; not independent test accuracy."
+    }
+  },
+  {
+    "field": "MT25_rep3_x8735_y5318",
+    "metrics": {
+      "per_class": {
+        "Periderm": {
+          "reference_pixels": 3190,
+          "recall": 0.4915360501567398,
+          "precision": 0.7104666968735841,
+          "iou": 0.40950639853747717,
+          "correct_pixels": 1568
+        },
+        "Endoderm": {
+          "reference_pixels": 34238,
+          "recall": 0.9809568315906303,
+          "precision": 0.9538767395626243,
+          "iou": 0.9365344933355642,
+          "correct_pixels": 33586
+        },
+        "Background": {
+          "reference_pixels": 378877,
+          "recall": 0.9999788849679447,
+          "precision": 0.9999498532547877,
+          "iou": 0.9999287403403573,
+          "correct_pixels": 378869
+        },
+        "Lateral_root": {
+          "reference_pixels": 0,
+          "recall": null,
+          "precision": null,
+          "iou": null,
+          "correct_pixels": 0
+        }
+      },
+      "tissue_mean_iou": 0.6730204459365207,
+      "confusion_reference_rows_prediction_columns_P_E_B_LR": [
+        [
+          1568,
+          1622,
+          0,
+          0
+        ],
+        [
+          633,
+          33586,
+          19,
+          0
+        ],
+        [
+          6,
+          2,
+          378869,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "scope": "Only manually annotated pixels in familiar development crop; not independent test accuracy."
+    }
+  }
+]

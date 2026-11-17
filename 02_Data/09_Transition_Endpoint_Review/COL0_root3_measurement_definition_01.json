@@ -1,0 +1,28 @@
+{
+  "recorded_utc": "2026-11-16T11:15:44.160500+00:00",
+  "route_approval_verbatim": "yes that is good. so now that for example the model can say thi sis T - far left peridem point, i can meaudre lenght up to T (peri) and from T to the left till the end of the root is endoder and measure. the roots sections cut for staning and micrdopsy are ~2cm long",
+  "subtraction_proposal_verbatim": "it wuld be easier fr th emodel to assign an endoderm meauemtn it can measure the whole root and substract the periderm lenght",
+  "approved_reference_route": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/route_proposal_01/reference_route_record.json",
+  "route_review_status": "User approved the displayed proposed route. It remains an annotation-assisted reference, not endpoints independently found by the ML model.",
+  "definition": {
+    "L": "Photographed main-root centreline from left cut end to the root-hypocotyl junction J; excludes hypocotyl and lateral branches.",
+    "P": "Same centreline from working transition T to junction J; includes transition by user convention.",
+    "E": "Same centreline from left cut end to T.",
+    "equation": "E = L - P",
+    "required_conditions": [
+      "Same main-root centreline and units for both lengths.",
+      "Same right endpoint J.",
+      "Every portion of the measured main-root interval assigned to either P including transition, or E under the agreed convention.",
+      "Left cut end must be identified and visible; do not silently use the image border or full plant root tip."
+    ],
+    "biological_scope": "Lengths of the photographed root section, not the full root system or necessarily total biological Periderm/Endoderm lengths."
+  },
+  "approximate_section_length": "User reports approximately 2 cm sections; not an exact pixel-to-length calibration.",
+  "calibration_for_COL0": "Unconfirmed. Do not reuse 20_29/2_12 calibration without evidence.",
+  "left_cut_endpoint": "Not yet reviewed or located in this exercise.",
+  "automated_T_and_J_recognition": "Not established by this human-guided reference.",
+  "new_training": false,
+  "source_annotations_changed": false,
+  "numeric_lengths_reported": false,
+  "word_manual_edited": false
+}

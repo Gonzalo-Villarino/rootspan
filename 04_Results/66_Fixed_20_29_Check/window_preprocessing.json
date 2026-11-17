@@ -1,0 +1,132 @@
+[
+  {
+    "native_size": [
+      320,
+      256
+    ],
+    "input_center_xy": [
+      160,
+      132
+    ],
+    "intensity_multiplier": 1.3445378151260505,
+    "outside_reviewed_window": "zero padding; no extra source tissue added",
+    "resized": false
+  },
+  {
+    "native_size": [
+      320,
+      256
+    ],
+    "input_center_xy": [
+      160,
+      135
+    ],
+    "intensity_multiplier": 1.3445378151260505,
+    "outside_reviewed_window": "zero padding; no extra source tissue added",
+    "resized": false
+  },
+  {
+    "native_size": [
+      320,
+      256
+    ],
+    "input_center_xy": [
+      160,
+      144
+    ],
+    "intensity_multiplier": 1.322314049586777,
+    "outside_reviewed_window": "zero padding; no extra source tissue added",
+    "resized": false
+  },
+  {
+    "native_size": [
+      320,
+      256
+    ],
+    "input_center_xy": [
+      160,
+      150
+    ],
+    "intensity_multiplier": 1.3008130081300813,
+    "outside_reviewed_window": "zero padding; no extra source tissue added",
+    "resized": false
+  },
+  {
+    "native_size": [
+      320,
+      256
+    ],
+    "input_center_xy": [
+      160,
+      152
+    ],
+    "intensity_multiplier": 1.103448275862069,
+    "outside_reviewed_window": "zero padding; no extra source tissue added",
+    "resized": false
+  },
+  {
+    "native_size": [
+      320,
+      256
+    ],
+    "input_center_xy": [
+      160,
+      151
+    ],
+    "intensity_multiplier": 0.9732064109972394,
+    "outside_reviewed_window": "zero padding; no extra source tissue added",
+    "resized": false
+  },
+  {
+    "native_size": [
+      320,
+      256
+    ],
+    "input_center_xy": [
+      160,
+      142
+    ],
+    "intensity_multiplier": 0.9467455621301775,
+    "outside_reviewed_window": "zero padding; no extra source tissue added",
+    "resized": false
+  },
+  {
+    "native_size": [
+      320,
+      256
+    ],
+    "input_center_xy": [
+      160,
+      140
+    ],
+    "intensity_multiplier": 0.9248554913294798,
+    "outside_reviewed_window": "zero padding; no extra source tissue added",
+    "resized": false
+  },
+  {
+    "native_size": [
+      320,
+      256
+    ],
+    "input_center_xy": [
+      160,
+      142
+    ],
+    "intensity_multiplier": 0.8888888888888888,
+    "outside_reviewed_window": "zero padding; no extra source tissue added",
+    "resized": false
+  },
+  {
+    "native_size": [
+      320,
+      256
+    ],
+    "input_center_xy": [
+      160,
+      140
+    ],
+    "intensity_multiplier": 0.8791208791208791,
+    "outside_reviewed_window": "zero padding; no extra source tissue added",
+    "resized": false
+  }
+]

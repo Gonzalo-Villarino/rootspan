@@ -1,0 +1,350 @@
+{
+  "app_version": "0.6.0",
+  "approval": "ok appove can we lock this lattest version? is good enough fo this test im worki g on",
+  "approval_timezone": "Europe/Zurich",
+  "approved_on": "2026-11-17",
+  "created_at_utc": "2026-11-17T16:06:53.367658+00:00",
+  "defaults": {
+    "confirmed_scale_can_be_changed_for_new_images": true,
+    "mask_estimates_required_for_V2": true,
+    "pipeline": "v2",
+    "pixels_per_micrometre": 0.5299
+  },
+  "environment_scope": "Package names/versions and Python version/architecture are checked, not every third-party binary or the macOS installation. Environments remain installed at their existing paths.",
+  "environments": {
+    "00_Software/ml-env/bin/python": {
+      "machine": "arm64",
+      "packages": {
+        "anyio": "4.16.0",
+        "click": "8.5.1",
+        "contourpy": "1.4.0",
+        "cycler": "0.12.1",
+        "filelock": "4.2.10",
+        "fonttools": "4.68.0",
+        "fsspec": "2026.9.0",
+        "h11": "0.16.0",
+        "hf-xet": "1.8.0",
+        "httpcore2": "2.16.0",
+        "httpx2": "2.16.0",
+        "huggingface_hub": "2.4.0",
+        "idna": "3.20",
+        "imageio": "2.38.1",
+        "jinja2": "3.1.6",
+        "kiwisolver": "1.5.1",
+        "lazy-loader": "0.6",
+        "markupsafe": "3.0.4",
+        "matplotlib": "3.11.2",
+        "mpmath": "1.3.0",
+        "networkx": "3.7",
+        "numpy": "2.5.4",
+        "packaging": "26.3",
+        "pillow": "13.0.0",
+        "pip": "25.0",
+        "pyparsing": "3.3.3",
+        "python-dateutil": "4.0.0",
+        "pyyaml": "6.0.3",
+        "safetensors": "0.8.0",
+        "scikit-image": "0.26.0",
+        "scipy": "1.18.1",
+        "segmentation_models_pytorch": "0.6.0",
+        "setuptools": "84.2.1",
+        "sympy": "1.14.0",
+        "tifffile": "2026.11.12",
+        "timm": "1.0.31",
+        "torch": "2.15.0",
+        "torchvision": "0.29.2",
+        "tqdm": "4.70.1",
+        "truststore": "0.10.5",
+        "typing_extensions": "4.16.0",
+        "tzdata": "2026.6"
+      },
+      "python": "3.13.2"
+    },
+    "00_Software/pat-audit-env/bin/python": {
+      "machine": "arm64",
+      "packages": {
+        "numpy": "2.5.5",
+        "opencv-python-headless": "5.0.0.93",
+        "pandas": "3.1.1",
+        "pillow": "13.0.0",
+        "pip": "25.0",
+        "python-dateutil": "4.0.0",
+        "tzdata": "2026.6"
+      },
+      "python": "3.13.2"
+    }
+  },
+  "guarded_inventories": {
+    "09_Periderm_GUI/expert_references": [
+      "20261117_7_18_root01_periderm_absent.json"
+    ]
+  },
+  "mutable_outputs": [
+    "09_Periderm_GUI/runs",
+    "09_Periderm_GUI/uploads"
+  ],
+  "release_id": "Periderm_Lab_0.6.0_Test_Lock_20261117",
+  "runtime_files": {
+    "00_Software/PAT_Pinned_20261115/src/new_post_processing_for_measurement.py": {
+      "bytes": 6219,
+      "sha256": "961b50f3c6502654ed07b5a9b3de10291115abf412c2875b05ef4d718061a273"
+    },
+    "00_Software/PAT_Pinned_20261115/src/segmentation_patch_cor_mac.py": {
+      "bytes": 38574,
+      "sha256": "d9c9673349713eaad4490232b56f945efb7637439de7e9a7058c5280c065bea2"
+    },
+    "00_Software/PAT_Reference/LICENSE": {
+      "bytes": 1091,
+      "sha256": "704152e4508c6fa854ee205c7dedc0751a737fe06305ad7eb54ebede8d133811"
+    },
+    "00_Software/PAT_Reference/download_and_conversion_record.json": {
+      "bytes": 2128,
+      "sha256": "885b75638b9e5e2315032988284f117b8950c1c44a3e56ea761adb2208134c27"
+    },
+    "00_Software/PAT_Reference/label_class_dict_lr.csv": {
+      "bytes": 88,
+      "sha256": "f5b6006d924b86f0324290b84f5fa9c924f3dc206f76ba65f156bf8aa1b0bf4b"
+    },
+    "00_Software/PAT_Reference/pat_state_dict.pt": {
+      "bytes": 104522943,
+      "sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348"
+    },
+    "06_Models/Locked_Transition_v1_20261116/ACCEPTANCE.json": {
+      "bytes": 826,
+      "sha256": "3845cab88b4a107c0b45fc76b4da8430940324de71c4e0d190915220a484da15"
+    },
+    "06_Models/Locked_Transition_v1_20261116/LOCK_RECORD.json": {
+      "bytes": 489,
+      "sha256": "afe747164cbf35f446a4376058e7b651f485181e532a63c0e31916f9ee41b73b"
+    },
+    "06_Models/Locked_Transition_v1_20261116/MANIFEST.json": {
+      "bytes": 5951,
+      "sha256": "d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb"
+    },
+    "06_Models/Locked_Transition_v1_20261116/MANIFEST.sha256": {
+      "bytes": 65,
+      "sha256": "7e3996f80ff6ed3dd9e81b02db89240f10ca8824f3ec40a7327b9de6e19e40fd"
+    },
+    "06_Models/Locked_Transition_v1_20261116/READ_ME_FIRST.txt": {
+      "bytes": 4041,
+      "sha256": "6c869b7c93786ae3e1deef0e782b4ec7be12718722337785056f523c7d78f087"
+    },
+    "06_Models/Locked_Transition_v1_20261116/environment.json": {
+      "bytes": 1004,
+      "sha256": "d5810355e0f46b820f9f67cfd8e6c9a810ee4eb8878680671b4e6e9f6e260b5b"
+    },
+    "06_Models/Locked_Transition_v1_20261116/evidence/A04_acceptance.json": {
+      "bytes": 1068,
+      "sha256": "b94c1b586ff19079dd2a81eac31deefbcc1da66d25f95a104406e476c09745fa"
+    },
+    "06_Models/Locked_Transition_v1_20261116/evidence/COL0_acceptance.json": {
+      "bytes": 732,
+      "sha256": "a03a41e1feed36c3b4331edea406ea69d898ffe1a6862c576bf3c0f976ad0537"
+    },
+    "06_Models/Locked_Transition_v1_20261116/evidence/approved_result.png": {
+      "bytes": 367389,
+      "sha256": "e98441c1985430c5767d91a529557e379b7fd3742170a58fe4a66107f7659b6c"
+    },
+    "06_Models/Locked_Transition_v1_20261116/evidence/biological_definition.json": {
+      "bytes": 818,
+      "sha256": "3eec847246d2b0548919f777ea49aeec5935ca5647313d76f7b191b8954edfec"
+    },
+    "06_Models/Locked_Transition_v1_20261116/evidence/comparison_results.json": {
+      "bytes": 31015,
+      "sha256": "f8517c5e62756ae1753f70d2d1c29c503bb80b2aa0d096b7e92cfbca390f52e0"
+    },
+    "06_Models/Locked_Transition_v1_20261116/evidence/development_verification.json": {
+      "bytes": 2125,
+      "sha256": "1d25b03b8d0f86fdeaeeed6406dbab46ef50713aee4bb1c15db860fc0f594d34"
+    },
+    "06_Models/Locked_Transition_v1_20261116/evidence/experiment_plan.json": {
+      "bytes": 3114,
+      "sha256": "fae8c37a40a0fca1809c6b63201f41392b55b8a3cc5089797c0653b5efc16f5a"
+    },
+    "06_Models/Locked_Transition_v1_20261116/evidence/review_status.json": {
+      "bytes": 579,
+      "sha256": "be9b929c3e7555099020040c533dd847eabe797e3fe90980499c502bf4430666"
+    },
+    "06_Models/Locked_Transition_v1_20261116/evidence/self_check.json": {
+      "bytes": 631,
+      "sha256": "9fd899b6febd2a56ff5a30931db926c7c6f039b1e972a85c1bec3dc311ce2920"
+    },
+    "06_Models/Locked_Transition_v1_20261116/fixtures/212_approved_decoder.json": {
+      "bytes": 8006,
+      "sha256": "ec0e04200eaa8d06f71d59e1c97a2945e09f2433ddb2941a73651d632b94d7db"
+    },
+    "06_Models/Locked_Transition_v1_20261116/fixtures/212_image.png": {
+      "bytes": 2618533,
+      "sha256": "695454ce33d049a66860e72fe45c0055c549e819afdca502608bbbdaae50cbe5"
+    },
+    "06_Models/Locked_Transition_v1_20261116/fixtures/212_original_prediction.json": {
+      "bytes": 20958,
+      "sha256": "84b00fd786743a4b5aa083fdd81e4111e60a3f0146656b454b5c94ecf2877738"
+    },
+    "06_Models/Locked_Transition_v1_20261116/fixtures/212_route.json": {
+      "bytes": 174271,
+      "sha256": "0f7a72986f9c14c47108e4e8006b5b1b09e83cea6e5af0d5ac1784741183bc34"
+    },
+    "06_Models/Locked_Transition_v1_20261116/fixtures/profiles/20_29_root4.json": {
+      "bytes": 4108,
+      "sha256": "5c5047bf71ee3a2fc5d6bdabe83135493383c52e744d9183a0cef5bfe26a5e5a"
+    },
+    "06_Models/Locked_Transition_v1_20261116/fixtures/profiles/2_12_root1.json": {
+      "bytes": 23702,
+      "sha256": "1dca3d5956fb1cfd4618bfdfff23950d62df6a1a9b2b4eae42bd2e17c7b13fa5"
+    },
+    "06_Models/Locked_Transition_v1_20261116/fixtures/profiles/A04_root3.json": {
+      "bytes": 14767,
+      "sha256": "688774407d147183d8aaef85ac1bcc56e47e30b0028ff5ac6ef966f5b88c85bf"
+    },
+    "06_Models/Locked_Transition_v1_20261116/fixtures/profiles/COL0_root3.json": {
+      "bytes": 32692,
+      "sha256": "7a5d8d523b44958a70926918f0bdc82e04549f6a243df3eeea9ccd6f4bef2cae"
+    },
+    "06_Models/Locked_Transition_v1_20261116/frozen_core.py": {
+      "bytes": 6519,
+      "sha256": "075ef03bbf6f1a3f31bb83ed74063855624647716101605de8eb004de140725b"
+    },
+    "06_Models/Locked_Transition_v1_20261116/provenance.json": {
+      "bytes": 1191,
+      "sha256": "957df4bc3655d5dbc53a6127c036f5ead08ae4a2de68cbfbeda870b0c944517a"
+    },
+    "06_Models/Locked_Transition_v1_20261116/requirements.freeze.txt": {
+      "bytes": 563,
+      "sha256": "171587b807908aac3dd9acd511cac2606ba45390b25e9f5a1ba0eb70c3b94fc4"
+    },
+    "06_Models/Locked_Transition_v1_20261116/run_checkpoint.py": {
+      "bytes": 7304,
+      "sha256": "54b651a332aed2f90a3e6774be7771628d98f3b6175ab12375d15d583d2f15b0"
+    },
+    "06_Models/Locked_Transition_v1_20261116/settings.json": {
+      "bytes": 1253,
+      "sha256": "5a5ab846c9003618fc14829832c9115750be999f9cd9d79af851d8dbd7b1b8ec"
+    },
+    "06_Models/Locked_Transition_v1_20261116/source_snapshot/appearance_experiment.py": {
+      "bytes": 21020,
+      "sha256": "4ddc9fb469388978c09d12311fc9ad4fb972acfa9432f5d37ec04fbdef59fa51"
+    },
+    "06_Models/Locked_Transition_v1_20261116/source_snapshot/build_locked_transition_v1.py": {
+      "bytes": 10554,
+      "sha256": "1e44df543a19a17799594e205bfb94d5c7f9806a7a1e80753cb31a273f2e7bc6"
+    },
+    "06_Models/Locked_Transition_v1_20261116/source_snapshot/check_frozen_212_root1.py": {
+      "bytes": 12495,
+      "sha256": "f4a377a89a15649fed227557f185a601e083e2aed95ccfede9c1a3cbfde98521"
+    },
+    "06_Models/Locked_Transition_v1_20261116/source_snapshot/check_frozen_a04_root3.py": {
+      "bytes": 16874,
+      "sha256": "b37c45308eca96ca96844c61d887bab0d55139faa8122017687b8e9e85a4d1c2"
+    },
+    "06_Models/Locked_Transition_v1_20261116/source_snapshot/check_transition_continuity.py": {
+      "bytes": 6964,
+      "sha256": "9153dae39d5eeca402e5b90ca93172ea30845d6327b196ed6c623ea4410701c0"
+    },
+    "06_Models/Locked_Transition_v1_20261116/source_snapshot/extend_root3_reference_route.py": {
+      "bytes": 10601,
+      "sha256": "c18ae6a89cfc7c8c704a08c8cee8403ba512e27c5aa17a731e82386af008afc7"
+    },
+    "06_Models/Locked_Transition_v1_20261116/source_snapshot/finalize_locked_transition_v1.py": {
+      "bytes": 9115,
+      "sha256": "647621f0da57eef8c3b604755b29328ddfbc1666a2af31c81dd440643302ac72"
+    },
+    "06_Models/Locked_Transition_v1_20261116/source_snapshot/test_both_appearances.py": {
+      "bytes": 11637,
+      "sha256": "c2e6f858cf847dce609a959c9a95a4793b774d2766658922a5f7a1b00d25ff1f"
+    },
+    "06_Models/Locked_Transition_v1_20261116/source_snapshot/transition_continuity_rule.py": {
+      "bytes": 4458,
+      "sha256": "57c0e0c2b1d06d9b19e28b77fe85e88d381a54379e3cd62fce28f6988a60f379"
+    },
+    "06_Models/Locked_Transition_v1_20261116/verify_checkpoint.py": {
+      "bytes": 1580,
+      "sha256": "b0f33464c47d20c5236d295de9d4efbe17dc38d8fc010c24da70bccf6ee04d73"
+    },
+    "06_Models/Locked_Transition_v1_20261116/weights/pat_state_dict.pt": {
+      "bytes": 104522943,
+      "sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348"
+    },
+    "06_Models/Locked_Transition_v1_20261116/weights/presence_head.pt": {
+      "bytes": 10133,
+      "sha256": "6cce6ef74330a9de4422cdb738144f972cedff41f07d4de3e9c9869b6e4054b9"
+    },
+    "06_Models/Periderm_Pipeline_V2_20261117/manifest.json": {
+      "bytes": 764,
+      "sha256": "9f19be216c43335a2b3ff78e584e5aae3aa06195e8a2e20737a3fd5b532acdb7"
+    },
+    "07_Periderm_Length_Proof/measure_roots.py": {
+      "bytes": 13854,
+      "sha256": "5195809102b00923a11afe28c2e3e3f8f09c0da41d1545be0897ba70e7347d98"
+    },
+    "07_Periderm_Length_Proof/predict_slide.py": {
+      "bytes": 4909,
+      "sha256": "d6baa5aa9d0df499f8f25435a194f25e1094a4368a24bcb92659816bb6420871"
+    },
+    "09_Periderm_GUI/Periderm Lab.command": {
+      "bytes": 76,
+      "sha256": "f2d24d75238789a142f52c823dfa433abf98df1b2ec6cf5f4dbf62e6003f545b"
+    },
+    "09_Periderm_GUI/approved_release.py": {
+      "bytes": 3585,
+      "sha256": "e1068f41ea97a5e6d2e1073a291d2cfec039683c0785ee6611caf4d139b8ccd9"
+    },
+    "09_Periderm_GUI/expert_references.py": {
+      "bytes": 3792,
+      "sha256": "c9ee77dcb06c7b78d6d907da73325cbe5e7081bc94df7aeea202842feafb1b53"
+    },
+    "09_Periderm_GUI/expert_references/20261117_7_18_root01_periderm_absent.json": {
+      "bytes": 1428,
+      "sha256": "38cb553b76d19d103b5901fee5e5d23f5e28979195e9c748c46ed9a3fea90e17"
+    },
+    "09_Periderm_GUI/image_quality.py": {
+      "bytes": 3225,
+      "sha256": "186962474c52a541f26f160b56f117b804c5c5b1a00032762e319e5a2f57e9a1"
+    },
+    "09_Periderm_GUI/index.html": {
+      "bytes": 22699,
+      "sha256": "e60fde3258eff3cd5ac176401548a09742d82dc9ec7da1db3e29ec49ca18d527"
+    },
+    "09_Periderm_GUI/launch.py": {
+      "bytes": 1246,
+      "sha256": "ce4a58855201a235bd146f0d7ad62ff511bc95537590b0acf1bf406f32335cc9"
+    },
+    "09_Periderm_GUI/pat_diagnostics.py": {
+      "bytes": 13149,
+      "sha256": "00cf31daa7d4db43593c488d6fc67e553e875568604872340cc059fced880426"
+    },
+    "09_Periderm_GUI/pat_postprocessing.py": {
+      "bytes": 3705,
+      "sha256": "99da48106902ab2bff5b096c378a0129717fe76fe10715f523f54d9c31f72ef8"
+    },
+    "09_Periderm_GUI/per_root_estimates.py": {
+      "bytes": 5143,
+      "sha256": "ede648dde20ef6b1e055b3a65933998f84083ec71ae393653ea055969ffbc5c8"
+    },
+    "09_Periderm_GUI/pipeline.py": {
+      "bytes": 15320,
+      "sha256": "c9d5e274d9ddfa01e26d8e0a6106b096f7aa472b493bf943ee2407fccc157f15"
+    },
+    "09_Periderm_GUI/pipeline_v2.py": {
+      "bytes": 16713,
+      "sha256": "0bd2263698ae7f9ffc3daf87602d5038cc513a60047fc699dcd0e92f332b1bbb"
+    },
+    "09_Periderm_GUI/root_tracks.py": {
+      "bytes": 5333,
+      "sha256": "d27fd6e347210ff6af30ac467699e67794e89d774da053b02544a31ab4e63c98"
+    },
+    "09_Periderm_GUI/server.py": {
+      "bytes": 12201,
+      "sha256": "0c09428de5d2cd47a237040fb3362149a850b647a042a8b3d08f4132ee03819e"
+    },
+    "09_Periderm_GUI/version_registry.py": {
+      "bytes": 1104,
+      "sha256": "fad7c79810834a5ebf846881d8035a5354d1e8d152ccc27a7ef05875c12267ee"
+    },
+    "14_Original_PAT_Code_Review_20261117/source_manifest.json": {
+      "bytes": 2875,
+      "sha256": "a8148df67d11d722ef05035dde2b9132076644462d8c3b8eda9dba23d6ba2a43"
+    }
+  },
+  "scope": "User-approved test release. Same model weights and mask-based per-root estimation. Not scientific validation. Future algorithm/UI/reference changes require a new release."
+}

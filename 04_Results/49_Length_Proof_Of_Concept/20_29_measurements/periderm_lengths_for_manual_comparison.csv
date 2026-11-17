@@ -1,0 +1,8 @@
+root_id,automatic_periderm_length_px,automatic_periderm_length_um,pixels_per_um,calibration_status,quality_control,flags,manual_length_px,manual_length_um,manual_minus_automatic_px,manual_minus_automatic_um
+1,9611.627,18138.567,0.5299,Confirmed by Gonzalo on 2026-11-15; original TIFF pixels preserved in PNG,pending,separate_distal_periderm_islands_discarded; biological_endpoint_and_transition_review_pending,,,,
+2,5502.286,10383.63,0.5299,Confirmed by Gonzalo on 2026-11-15; original TIFF pixels preserved in PNG,pending,separate_distal_periderm_islands_discarded; biological_endpoint_and_transition_review_pending,,,,
+3,10564.415,19936.619,0.5299,Confirmed by Gonzalo on 2026-11-15; original TIFF pixels preserved in PNG,pending,separate_distal_periderm_islands_discarded; biological_endpoint_and_transition_review_pending,,,,
+4,10715.841,20222.383,0.5299,Confirmed by Gonzalo on 2026-11-15; original TIFF pixels preserved in PNG,pending,separate_distal_periderm_islands_discarded; biological_endpoint_and_transition_review_pending,,,,
+5,2134.638,4028.378,0.5299,Confirmed by Gonzalo on 2026-11-15; original TIFF pixels preserved in PNG,pending,separate_distal_periderm_islands_discarded; biological_endpoint_and_transition_review_pending,,,,
+6,8953.835,16897.216,0.5299,Confirmed by Gonzalo on 2026-11-15; original TIFF pixels preserved in PNG,pending,separate_distal_periderm_islands_discarded; biological_endpoint_and_transition_review_pending,,,,
+7,3072.378,5798.034,0.5299,Confirmed by Gonzalo on 2026-11-15; original TIFF pixels preserved in PNG,pending,separate_distal_periderm_islands_discarded; biological_endpoint_and_transition_review_pending,,,,

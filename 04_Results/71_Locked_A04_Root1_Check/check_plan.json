@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-11-16T15:44:04.709937+00:00",
+  "checkpoint": "${ROOTSPAN_PROJECT}/06_Models/Locked_Transition_v1_20261116",
+  "checkpoint_integrity": {
+    "passed": true,
+    "files": 40,
+    "version": "Transition_v1_20261116",
+    "read_only_checked": true,
+    "manifest_sha256": "d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb"
+  },
+  "expert_review_sha256": "b08f1512f52fc230aa571b1b6fbd8b4aacb808348acc91c0d8b00cac91a9ce95",
+  "source_review_plan": "${ROOTSPAN_PROJECT}/02_Data/13_Locked_Model_Checks_20261116/A04_root1/source_review_02/source_review_plan.json",
+  "prediction": "Execute the locked run_checkpoint.py unchanged on this image and checked route, without supplying labels.",
+  "comparison": "After saving prediction, compare all scan centres inside each expert box and the nearest centre. Overlapping path-aligned fields differ from the expert rectangles; these are qualitative comparisons, not pixel accuracy.",
+  "T_reference": "B is mixed/transition; no exact left edge or reference interval supplied.",
+  "test_scope": "Source-quality and archive-guided selection, not random sampling. A04 slide was used in earlier method checks; this is an additional fixed-version check, not a pristine independent test.",
+  "new_training": false,
+  "calibration": "A04 unconfirmed: no micrometre length claim."
+}

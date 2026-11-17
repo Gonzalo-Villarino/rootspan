@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-11-17T09:44:29.925912+00:00",
+  "checkpoint": {
+    "passed": true,
+    "files": 40,
+    "version": "Transition_v1_20261116",
+    "read_only_checked": true,
+    "manifest_sha256": "d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb"
+  },
+  "source_unchanged": true,
+  "prediction_hashes_unchanged_during_comparison": true,
+  "prediction_hashes": {
+    "1": "068f11fb7f0b2e72e019c46bab7b2ed5e41b45b575aa53eaac773af48a5723f1",
+    "2": "9160a54837f74d388020ef8e527ff51de51736a61a8bdbc6420d26e6751fe254",
+    "6": "fb728da5006a742b079674eb80b2a7f3b471c8307ccaa03d57df6b372c0eb887"
+  },
+  "reference_transition_used_for_prediction": false,
+  "shared_reference_J_used": true,
+  "figure_visual_check": "Passed: inspected summary and all three native-source transition close-up figures; captions/markers/scalebars visible. Biological transition judgement remains for user.",
+  "no_neural_training": true,
+  "manual_roi_hashes_unchanged": true,
+  "wrapper_sha256": "28a552286a5c131ad1e9a6f7012d411fdde6bed525e22adececa66a7a079ee3f",
+  "independent_review": "Unavailable: external reviewer login required; no review sent."
+}

@@ -1,0 +1,10 @@
+{
+  "reference_mask_matches_existing_converter": true,
+  "metric_identity_and_swapped_labels_checks": true,
+  "training_slides": 3,
+  "primary_roots": 14,
+  "training_source_files_unchanged": true,
+  "previous_working_weights_unchanged": true,
+  "new_reference_labels_unchanged": true,
+  "reserved2_12_used_this_run": false
+}

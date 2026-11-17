@@ -1,0 +1,29 @@
+PAT practice images
+
+Three root photographs and their existing Labelme annotations were copied from
+the connected SALK_DATA backup. The backup files were left untouched.
+
+01_Images
+  The original PNG photographs. These are the images used for annotation.
+
+02_Annotations
+  Matching JSON files containing the drawn outlines and tissue names.
+  Each JSON also contains a copy of its image, so Labelme can display it.
+
+Match each photograph to the JSON with the same name:
+  MT25_rep3.png       + MT25_rep3.json
+  20#MT28_gfp.png     + 20#MT28_gfp.json
+  25717_gfp.png       + 25717_gfp.json
+
+Tissue names in all three examples:
+  Periderm
+  Endoderm
+  LR (lateral roots)
+
+Start with MT25_rep3. First inspect the photograph and its outlines.
+Later we can convert the outlined regions into a pixel mask.
+
+The copies were verified against the source files. Each photograph also has
+exactly the same decoded pixels as the image embedded in its JSON.
+
+SOURCE_MANIFEST.json records source paths, dimensions and verification details.

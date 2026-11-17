@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-11-16T12:48:29.580691+00:00",
+  "confirmed": true,
+  "expert": "Gonzalo Villarino",
+  "user_reply_verbatim": "wait i think we should purse this abit more is there a way for the model to move the T zone to the right? currently the model is placing T in the 100% long square endo cells there is no periderm irregular shorter or flatter cells there, is there a way to teach this to the model?",
+  "interpretation": "The displayed region around the earlier blue model-T line contains clear Endoderm, not mixed appearance. Select one source-only window at the first previously mixed-classified scan center,32nativepixels to the right along the path from that line. Do not label the entire interval to the old human T automatically.",
+  "old_model_T_source_xy": [
+    12038.312207954283,
+    5989.263208760304
+  ],
+  "old_first_mixed_scan_index": 175,
+  "crop_center_source_xy": [
+    12069.496095809101,
+    5982.085278899358
+  ],
+  "native_box_xyxy": [
+    11909,
+    5854,
+    12229,
+    6110
+  ],
+  "label": "Clear Endoderm",
+  "class_index": 0,
+  "crop_sha256": "e30e954f357508448113f70adf4dc380ef09827f8b91c0c1baf47637a8fa0452",
+  "scope": "Expert correction for a window appearance; no exact tissue contour or revised T coordinate provided.100percent describes biological identity confidence, not measured model accuracy.",
+  "source": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.png",
+  "source_sha256": "68669ed917eeecdead464c55e853ec4a1d8f35979b9180110a64e9778f93f8de",
+  "no_forced_right_shift": true,
+  "old_reference_T_retained": true
+}

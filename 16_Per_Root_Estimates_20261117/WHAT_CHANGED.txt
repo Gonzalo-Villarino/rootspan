@@ -1,0 +1,17 @@
+Per-root estimates, 17 November 2026
+User instruction: report a periderm number per root, without blocking on a confirmed endpoint. This version implements that requested measurement/reporting mode. It does not claim to improve the trained model.
+The main table and default CSV now show cleaned-PAT-mask path-length estimates for each traceable root. Expert corrections take precedence only when bound to the matching source image and track geometry, and are labelled explicitly. Automatic values are retained separately in the CSV. Unknown paths or low-image-quality failures remain unmeasurable; no missing data becomes a fabricated zero.
+For 7_18, current derived estimates rounded to micrometres: root1=0 (expert correction; automatic cleaned-mask value also0); root2=28990; root3=4358; root4=70; root5=318; root6=8404; root7=1551.
+Measurement definition: sum the portions of the detected main-root route labelled Periderm after original PAT 2D cleanup, using adapted class-safe original-weight inference. Divide pixel arc length by the confirmed scale0.5299 pixels/um. The existing route ends at its automatically selected point; no confirmed junction or accepted transition is required for reporting. This is a mask-based estimate, not a validated anatomical T-to-J measurement. It can include hypocotyl or omit tissue when the path or mask is wrong.
+An automatic zero means no P retained on the sampled path; a labelled expert zero means the user confirmed absence. New V2 runs always calculate mask estimates; V1 remains available with its older output. Old result files and locked model files are preserved. A current view of an old completed V2 run can derive the new table from its stored mask measurements; no retraining or silent source-image change is involved. The browser export periderm_estimates.csv matches the current table. The file saved in the run folder is a dated snapshot; later reference changes appear in a newly downloaded browser export. measurements.csv remains the earlier transition-based output for comparison.
+This change fulfils the requested numerical-reporting mode; it does not establish accurate unattended research measurements. Earlier Fiji comparisons showed mixed agreement for this quantity. That limitation remains.
+
+Traceable computed source: run20261117T155010Z_cfd49f64, freshly processed from 7_18.tif. Roots2-7 are automatic PAT mask estimates. Source SHA256: 6ff3e7e893961fbace0c99bf521d41e029cadb21c4522fc4da67f8fcb1bd5980; raw-mask SHA256: 00f840a5d54d65f8fbcd6ad31491a8512ec244adf7a2c0eb7ffcb72daf2b5cc2.
+Root 1: Expert correction. Periderm absent · confirmed by you
+Root 2: PAT mask estimate. Unconfirmed root end; estimate may include hypocotyl.
+Root 3: PAT mask estimate. Unconfirmed root end; estimate may include hypocotyl.
+Root 4: PAT mask estimate. Estimated from the mask and automatic root path; check against the image.
+Root 5: PAT mask estimate. Estimated from the mask and automatic root path; check against the image.
+Root 6: PAT mask estimate. Estimated from the mask and automatic root path; check against the image.
+Root 7: PAT mask estimate. Estimated from the mask and automatic root path; check against the image.
+Later code changes add report error isolation, validation and dated snapshots; they do not change numerical calculation. A fresh browser upload is being checked separately. No claim of biological accuracy is added.

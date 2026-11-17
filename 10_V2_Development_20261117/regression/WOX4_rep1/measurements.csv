@@ -1,0 +1,7 @@
+track_id,periderm_length_um,segment_to_visible_end_um,status,endpoint_method,notes
+1,,,partial_root,,Short root-like fragment touches the image edge. Full root and transition context unavailable; no length reported.
+2,6284.935776258131,,provisional,width_based_junction_candidate,Automatic widening-based endpoint; anatomical junction and transition need validation.
+3,6875.336034642181,,provisional,width_based_junction_candidate,Automatic widening-based endpoint; anatomical junction and transition need validation.
+4,2014.7893870432924,,provisional,width_based_junction_candidate,Automatic widening-based endpoint; anatomical junction and transition need validation.
+5,702.664211508371,,provisional,width_based_junction_candidate,Automatic widening-based endpoint; anatomical junction and transition need validation.
+6,6094.997097240726,,provisional,width_based_junction_candidate,Automatic widening-based endpoint; anatomical junction and transition need validation.

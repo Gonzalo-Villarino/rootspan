@@ -1,0 +1,1 @@
+This folder contains preparation only. No inference or lengths were produced here. User requested autonomous processing; the completed image-only GUI run is at ${ROOTSPAN_PROJECT}/09_Periderm_GUI/runs/20261117T100643Z_5085d918/results. No manually selected endpoints from this preparation were used by that run.

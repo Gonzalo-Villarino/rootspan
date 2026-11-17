@@ -1,0 +1,61 @@
+{
+  "created_utc": "2026-11-16T09:57:06.379267+00:00",
+  "data_manifest": "${ROOTSPAN_PROJECT}/04_Results/59_Rule_Derived_Teaching_Data/manifest.json",
+  "manifest_sha256": "11e48f6bdff5c1e7cf5a06de43ce87670997fb14ce1e189633c4cbad1ba92be9",
+  "initial_weights": "04_Results/54_Refinement_Experiments/rule_derived_endoderm_v7/best_weights.pt",
+  "initial_sha256": "a25051b69f214d8c3c34952636356562d30f78a0885f9af2055a41d821af5e08",
+  "role": "Development-guided refinement, not blind final testing",
+  "training_sources": [
+    "20#MT28_gfp",
+    "25717_gfp",
+    "MT25_rep3",
+    "COL0_Slide1"
+  ],
+  "training_root_count": 20,
+  "development_image": "${ROOTSPAN_PROJECT}/04_Results/52_Reference_Check_20261116/image.png",
+  "reference_sha256": "2be0b391887b5608527ee3315d21ab4a1130f19dca2a65dfeb8c42f0df37a6b3",
+  "dev_in_training": false,
+  "reserved_test_used": false,
+  "class_order": [
+    "Periderm",
+    "Endoderm",
+    "Background",
+    "Lateral_root"
+  ],
+  "class_codes": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unknown_and_conflicts_ignored": [
+    0,
+    255
+  ],
+  "initial_ancestry": "Continues rule_derived_endoderm_v7 best500; broader scale/gain/gamma/blur augmentation. Original ancestry baseline39 with publishedPAT LRhead; no20_29gradient training. PublicPAT exposure unknown.",
+  "augmentation": "Each training field: random256-768 crop resized to512, paired flips/90degree rotations; gain0.55-1.7, gamma0.75-1.3, occasional mild Gaussian blur. No geometric labels invented.",
+  "batch": "6fields:2COL0rulemixed,1oldmixed,1oldP/Ealternating,1LR,1explicitBG. Per-field class-balancedCE+.5Dice, weight.5forrule-labelledfields,1otherwise. Mixed crops retry12times toretain>=512pixels eachP/E.",
+  "trainable": "decoder/head andencoderstages2-4",
+  "learning_rate_decoder": 3e-05,
+  "seed": 1611,
+  "updates_requested": 1200,
+  "selection": "Highest raw development mean Periderm/Endoderm IoU; score every50updates. Save full trace and never represent as an independent test. No forced left/right boundary.",
+  "target_for_success_on_this_crop": "Both tissue recalls>=.85, both tissue precisions>=.85, labelled Background recall>=.98, tissue meanIoU>=.75. Even passing is not validation on hundreds of images.",
+  "augmentation_mode": "varied",
+  "contrast_preprocessing": "none",
+  "batchnorm_running_statistics": "frozen",
+  "class_support": "14originalroots savedP/E;6additionalCOL0 savedP and experimental rule-derivedE. Do not present derivedE as human-drawn truth.",
+  "rule_manifest": "${ROOTSPAN_PROJECT}/04_Results/59_Rule_Derived_Teaching_Data/COL0_rule_derived_Endoderm_regions.json",
+  "rule_manifest_sha256": "e9976c44dd638ba72f5a7313ee9bec3cc7f7f901b2af142a5ffef9112c21eaf7",
+  "training_source_crop_sizes": [
+    256,
+    384,
+    512,
+    640,
+    768
+  ],
+  "rule_label_weight": 0.5,
+  "previous_A04_check_already_observed": true,
+  "reserved_2_12_used": false,
+  "next_check_status": "20_29 remainsfamiliar development;A04wascheckedbeforethisexperimentandcannotbeclaimedfreshblindfinaltest."
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "reviewer": "project tooling visual inspection",
+  "before_prediction": true,
+  "figure": "PREPARED_MAIN_ROOT_PATH.png",
+  "finding": "White path follows the continuous main root from left to right, not the thin strand above A or the upward branches.",
+  "limits": "Rectangular scan windows can include off-root context. Crop edges are not biological endpoints."
+}

@@ -1,0 +1,110 @@
+{
+  "created_utc": "2026-11-17T09:44:25.086589+00:00",
+  "slide": "1_7",
+  "roots": [
+    1,
+    2,
+    6
+  ],
+  "results": [
+    {
+      "root_id": 1,
+      "manual_length_um": 8002.109515014366,
+      "model_assisted_length_um": 5919.08581596539,
+      "model_minus_manual_um": -2083.0236990489757,
+      "percent_difference_vs_manual": -26.030932157834087,
+      "manual_T_source_xy": [
+        9691.0,
+        545.0
+      ],
+      "model_T_source_xy": [
+        10729.043561087425,
+        948.0319107777351
+      ],
+      "shared_J_source_xy": [
+        13707.0,
+        1517.0
+      ],
+      "manual_T_projected_arc_pixels": 9690.925662554206,
+      "manual_T_distance_to_computer_path_pixels": 0.06747595762593085,
+      "manual_T_to_J_on_computer_route_um": 8042.268185178061,
+      "model_vs_manual_T_shift_um_along_common_route": 2123.182369212671,
+      "trace_geometry_difference_um": 40.158670163695206,
+      "interpretation": "Difference from user reference, not independently established biological truth.",
+      "roi_sha256": "029fb4f5f53f4cc52ac330973e7b31f447b60cac74b617a622f440759ee31c7c",
+      "prediction_sha256": "068f11fb7f0b2e72e019c46bab7b2ed5e41b45b575aa53eaac773af48a5723f1",
+      "route_sha256": "f460cf9f99e41559a5efc1a16db625bbdcc215903376eb1f1a283e07c79fa10a"
+    },
+    {
+      "root_id": 2,
+      "manual_length_um": 13710.563359870022,
+      "model_assisted_length_um": 16584.425110383985,
+      "model_minus_manual_um": 2873.8617505139628,
+      "percent_difference_vs_manual": 20.960931181905913,
+      "manual_T_source_xy": [
+        7172.0,
+        2554.0
+      ],
+      "model_T_source_xy": [
+        5756.7912498599,
+        2089.025921406727
+      ],
+      "shared_J_source_xy": [
+        14129.0,
+        3381.0
+      ],
+      "manual_T_projected_arc_pixels": 7191.53398126028,
+      "manual_T_distance_to_computer_path_pixels": 1.5522280382339813,
+      "manual_T_to_J_on_computer_route_um": 13762.130373150017,
+      "model_vs_manual_T_shift_um_along_common_route": -2822.2947372339677,
+      "trace_geometry_difference_um": 51.56701327999508,
+      "interpretation": "Difference from user reference, not independently established biological truth.",
+      "roi_sha256": "977d1597733a2579fe01b9a1ef0a0a681a1fca2e2dafe4531f18a0bf453b7551",
+      "prediction_sha256": "9160a54837f74d388020ef8e527ff51de51736a61a8bdbc6420d26e6751fe254",
+      "route_sha256": "d0b869009373e54003690ac556acc520d62d49681e4006806b11d0dd5a5f8429",
+      "earlier_unsaved_trace_measurement_um": 14014.733
+    },
+    {
+      "root_id": 6,
+      "manual_length_um": 17935.5549610925,
+      "model_assisted_length_um": 24619.081142392864,
+      "model_minus_manual_um": 6683.5261813003635,
+      "percent_difference_vs_manual": 37.26411697769542,
+      "manual_T_source_xy": [
+        4950.0,
+        6335.0
+      ],
+      "model_T_source_xy": [
+        1523.9308953248335,
+        5972.449661203779
+      ],
+      "shared_J_source_xy": [
+        14180.0,
+        6729.0
+      ],
+      "manual_T_projected_arc_pixels": 4717.853109226465,
+      "manual_T_distance_to_computer_path_pixels": 8.236951880916257,
+      "manual_T_to_J_on_computer_route_um": 18010.56423500191,
+      "model_vs_manual_T_shift_um_along_common_route": -6608.51690739095,
+      "trace_geometry_difference_um": 75.0092739094107,
+      "interpretation": "Difference from user reference, not independently established biological truth.",
+      "roi_sha256": "b99d6bd5660552a63da9cae8c9e7903df58e3798306050bb2ee6d6db56b872cf",
+      "prediction_sha256": "fb728da5006a742b079674eb80b2a7f3b471c8307ccaa03d57df6b372c0eb887",
+      "route_sha256": "feb6cf614b52d664044c5c932c7739a72f8256e58d21287e23959d4acc1b3efe"
+    }
+  ],
+  "mean_absolute_difference_um": 3880.137210287767,
+  "scale_pixels_per_micrometre": 0.5299,
+  "model_unchanged": true,
+  "new_training": false,
+  "scope": "Three user-selected roots on one slide. V1 receives image and checked source-derived main-root route, sharing user right endpoint J. Human transitions withheld until predictions were saved.",
+  "limits": [
+    "Assisted length comparison, not unattended whole-slide measurement.",
+    "Root selection excluded other roots the user judged unsuitable.",
+    "Published PAT encoder historical image exposure unknown.",
+    "Manual repeated root02 line used; original scalar remains archived.",
+    "The shared J and calibration are accepted user inputs, not model-detected or independently validated.",
+    "Main-root tracing and model appearance windows can still be affected by lateral branches.",
+    "No acceptance tolerance was pre-specified; numerical agreement should be reviewed biologically."
+  ]
+}

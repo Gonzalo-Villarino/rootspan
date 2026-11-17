@@ -1,0 +1,12 @@
+test_active_and_backup_match (test_release_lock.ReleaseLockChecks.test_active_and_backup_match) ... ok
+test_changed_backup_rejected (test_release_lock.ReleaseLockChecks.test_changed_backup_rejected) ... ok
+test_changed_code_rejected (test_release_lock.ReleaseLockChecks.test_changed_code_rejected) ... ok
+test_changed_manifest_rejected (test_release_lock.ReleaseLockChecks.test_changed_manifest_rejected) ... ok
+test_environment_version_change_rejected (test_release_lock.ReleaseLockChecks.test_environment_version_change_rejected) ... ok
+test_missing_pointer_rejected (test_release_lock.ReleaseLockChecks.test_missing_pointer_rejected) ... ok
+test_new_expert_reference_rejected (test_release_lock.ReleaseLockChecks.test_new_expert_reference_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.008s
+
+OK

@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-11-16T13:07:17.893497+00:00",
+  "finding": "A further expert Endoderm correction improved both the original three-way head and an explicit two-presence head. The head change alone did not move T.",
+  "new_T_source_xy": [
+    12545.562578291781,
+    6008.166685956561
+  ],
+  "new_T_native_arc_distance": 11840.0,
+  "reference_T_native_arc_distance": 11918.425640533897,
+  "new_leftward_difference_um": 148.00083135289017,
+  "previous_leftward_difference_um": 872.6658624908407,
+  "T_rightward_movement_um": 724.6650311379505,
+  "reviewed_interval_source_x": [
+    12521,
+    12721
+  ],
+  "new_candidate_inside_preexisting_reviewed_interval": true,
+  "no_cell_segmentation_or_counting": "Presence outputs describe appearances in an entire window. No individual cells were detected, outlined or measured.",
+  "causal_scope": "Controlled local comparison supports benefit of added exampleE in this run; does not establish broad causal robustness across seeds/slides.",
+  "learning_scope": "Five windows from2roots on1slide; root3 directlyteaching. Mainrootpath remains supplied.",
+  "pending": "Keep candidate fixed and compare on another image using existing reference labels. No new training first.",
+  "word_manual_not_edited": true,
+  "biological_review": "${ROOTSPAN_PROJECT}/04_Results/65_Mixed_Appearance_Evidence_Check/BIOLOGICAL_REVIEW_ACCEPTED_20261116.json",
+  "biological_review_accepted_on_this_root": true
+}

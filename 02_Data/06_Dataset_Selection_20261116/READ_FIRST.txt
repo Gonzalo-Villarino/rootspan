@@ -1,0 +1,64 @@
+TEACHING AND TESTING CHOICES — 16 NOVEMBER2026
+
+I checked five distinct slides. TIFFs, PNG copies and patches are not separate specimens.
+No model has been trained or run during this selection. Source images and labels are unchanged.
+
+1. TEACHING — examples used to learn
+20#MT28_gfp: six roots with archived Periderm,Endoderm and lateral-root annotations.
+25717_gfp: six roots with the same three saved annotation categories.
+MT25_rep3: initially roots4 and5 using Gonzalo's refined Periderm/Endoderm outlines.
+This gives14 candidate roots across3 slides, not14 independent slides.
+These images have already been used in local training, so they are not final-test images.
+The two archived slides add different root/cell appearance and brightness. Their image
+pixels match the images embedded in their annotations, and basic coordinate checks pass.
+Their annotation author is not established; biological review is still required.
+
+2. DEVELOPMENT CHECK — a practice exam while improving the model
+20_29: keep it separate from the NEXT training set. Use it to check whether changes help
+on another slide. Begin with its previously identified clearer root4 transition.
+It has already influenced experiments, and rejected models45/46 trained on two areas.
+Therefore it is NOT a fresh independent final test. Do not initialize the next model from
+those adapted candidates if using20_29 as development-only. The preserved baseline39 did
+not use20_29 in its local training. Its original public PAT ancestry is still unaudited.
+No completed human reference JSON was found. Existing assistant-drawn sparse masks were
+used for training and must not be called independently verified ground truth.
+
+3. RESERVED TEST CANDIDATE — keep aside while improving the model
+2_12: no use in our local gradient training was found. Keep the WHOLE slide out of
+training and model selection. No new model predictions were generated today.
+It has visible cells but also branches and a partial root near the bottom. Do not select
+only successful-looking cases. Record whether each root is measurable before scoring.
+We still need human reference boundaries/manual lengths for this small evaluation set.
+Previous predictions have already been viewed, and original PAT training membership is
+unknown: it is a provisional test candidate, NOT an untouched blind final test.
+For a strong final scientific claim, reserve additional previously unused slides later.
+
+WHAT NEEDS ATTENTION BEFORE TRAINING
+Some MT25 practice outlines and archived outlines disagree about where Periderm starts.
+Hold roots1,2,3 and6 aside for label reconciliation. This does not mean either annotator
+is automatically wrong. Root6's two starting x-coordinates differ by about3764pixels;
+this is a coordinate difference, not an established biological length error.
+The earlier dataset ignored disagreement pixels, including transition areas; it did not
+resolve the biological disagreement. This may limit the teaching signal, but the audit
+does not prove it is the sole cause of prediction failures.
+Archived labels have no explicit Background polygons. Unlabelled space is not automatically
+background. Keep lateral-root annotations and decide their handling explicitly.
+The immediate next step is a brief review of the target transition/end convention and the
+existing candidate labels. We do not need to redraw every contour or hundreds of images.
+
+SIMPLE DISTINCTION
+Teaching = learn from the examples.
+Development check = compare changes while we are still improving the method.
+Reserved test = check the chosen method after decisions are frozen.
+Keep all roots, patches, image conversions and augmentations from one slide in its assigned
+group. This follows grouped evaluation guidance:
+https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation-iterators-for-grouped-data
+
+FILES
+split_plan.json: exact proposed roles, roots, paths, hashes and readiness conditions.
+inventory_and_annotation_audit.json: checks, label counts and outline disagreements.
+visual_checks: source-only and saved-outline review figures; no model predictions.
+Numbered reference folders contain shortcuts, saving disk space.
+
+REVIEW STATUS
+project tooling completed the local audit. Independent external reviewer review could not run because subscription login is required. No review was sent and no joint approval is claimed.

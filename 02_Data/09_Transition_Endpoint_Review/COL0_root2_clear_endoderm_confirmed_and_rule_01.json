@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-11-16T12:22:35.011938+00:00",
+  "clear_endoderm_confirmation_verbatim": "yes 100%. the transisiot zones has a mix of peri (irregular shape shorter etc) and some of the sqaures long endo - the end of the root is very easy to spot tho",
+  "confirmed_crop_record": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root2_clear_endoderm_candidate_review_01.json",
+  "expert_identity_confirmed": true,
+  "confirmation_scope": "Biological identity of displayed main-root section as clear Endoderm. The phrase100percent is user confidence, not measured model accuracy or pixel-contour verification.",
+  "cell_appearances_from_expert": {
+    "Endoderm": "Long rectangular cells.",
+    "Periderm": "Shorter, irregular cell shapes.",
+    "transition_zone": "Mixture of both appearances."
+  },
+  "latest_rule_clarification_verbatim": "just an idea was for the model to force the endoderm call to the left of the T zone  - FYI",
+  "proposed_output_rule": "Once T is identified as the left edge of the mixed zone, assign main-root tissue left ofT to Endoderm and main-root tissue right ofT to Periderm including the mixed zone. Apply along the main-root path; do not relabel Background or lateral roots.",
+  "separate_remaining_problem": "Reliable image-based detection of T. A fixed regional assignment cannot establish T by itself.",
+  "current_implementation_status": "An earlier local crop rule already enforces a one-change pattern from network scores, but failed to find an internal T on the last root3check. No new forced-boundary implementation applied in this step.",
+  "next_preparation_status": "Proposed cut-end teaching mask and root2 correction with uncertain1\u20133 ignored have not yet been created. User clarification recorded first.",
+  "new_training": false,
+  "new_masks": false,
+  "source_annotations_changed": false
+}

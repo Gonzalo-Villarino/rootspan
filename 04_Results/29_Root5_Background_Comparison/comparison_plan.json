@@ -1,0 +1,21 @@
+{
+  "baseline_run": "${ROOTSPAN_PROJECT}/04_Results/23_Root5_Training/run_20261115T115502Z_skjaqsca",
+  "baseline_prediction": "${ROOTSPAN_PROJECT}/04_Results/24_Root5_Prediction/view_20261115T115753Z_patbp50t",
+  "baseline_pair": "${ROOTSPAN_PROJECT}/04_Results/22_Root5_Patch",
+  "updated_pair": "${ROOTSPAN_PROJECT}/04_Results/26_Root5_Lower_Background_Patch",
+  "changed_pixels": 193215,
+  "only_change": "Mask 0 (unlabelled) to 3 (Background); image and other mask codes unchanged",
+  "image_sha256": "0d55359899aa2478dc8cf8eac5eaec728077d9b207b785bcf36ecc779ecff755",
+  "training_script": "17_train_root5.py",
+  "training_code_identical_to_baseline": true,
+  "planned_steps": 600,
+  "training_settings": {
+    "seed": 34,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "gradient_clip_norm": 5.0,
+    "image_preprocessing": "RGB / 255; no resizing or augmentation",
+    "max_loop_seconds": 180
+  },
+  "user_authorization": "Run Python codes independently through model prediction, then show whether improved"
+}

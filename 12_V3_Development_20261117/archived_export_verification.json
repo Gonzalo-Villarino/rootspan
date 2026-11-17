@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "rows": 7,
+  "all_rows_marked_withdrawn": true,
+  "original_values_preserved": true,
+  "historical_csv_sha256": "74364397c747ea785a4078feb8184a98c52a156d40c741a496222700cc33c5a2",
+  "historical_file_unchanged": true,
+  "http_status": 200
+}

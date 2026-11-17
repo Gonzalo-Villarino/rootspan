@@ -1,0 +1,7 @@
+track_id,periderm_length_um,segment_to_visible_end_um,status,endpoint_method,transition_method,notes
+1,,,partial_root,,,Short root-like fragment touches the image edge. Full root and transition context unavailable; no length reported.
+2,6330.2227857877715,,provisional,fluorescence_boundary_candidate,locked_v1_rule,Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation.
+3,7449.422077671942,,provisional,fluorescence_boundary_candidate,locked_v1_rule,Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation.
+4,2195.907195154292,,provisional,fluorescence_boundary_candidate,locked_v1_rule,Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation.
+5,1223.065677942205,,provisional,fluorescence_boundary_candidate,locked_v1_rule,Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation.
+6,5861.554387638275,,provisional,fluorescence_boundary_candidate,locked_v1_rule,Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation.

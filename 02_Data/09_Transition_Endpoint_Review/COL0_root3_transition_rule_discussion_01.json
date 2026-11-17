@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-11-16T12:07:05.572908+00:00",
+  "user_proposal_verbatim": "but can we force the model to call enedoerm to the left of the T ? i mean once it stsrat seeing long square cells (end cells) in mixture with perid that is T so to the left the model say ok from left on is all endoderm even if some a coupld of cells are periderm",
+  "interpretation": "Proposed regional rule: identify main-root transition from cell-shape pattern moving right-to-left, then assign left region Endoderm and right region Periderm despite isolated exceptions. This is a measurement convention, not cell-by-cell histological purity.",
+  "separate_tasks": [
+    "Find T from image evidence reliably.",
+    "Apply single E-left/P-right regional rule on main root only, retaining background and lateral-root separation."
+  ],
+  "existing_rule_check": "Existing main_root_rule.py uses smoothed network P/E scores, not explicit cell-shape measurements. For root3 latest comparison it returned crop edges (old x768,new x0), no internal transition.",
+  "definition_needs_clarification": "Earlier expert convention includes transition in Periderm. Current first-mixed-cell description while scanning right-to-left may instead put transition in Endoderm. Clarify before moving T or changing labels.",
+  "new_training": false,
+  "new_prediction": false,
+  "labels_changed": false,
+  "working_T_unchanged": true
+}

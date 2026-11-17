@@ -1,0 +1,9 @@
+{
+  "source_box_xyxy": [
+    4147,
+    250,
+    5647,
+    750
+  ],
+  "purpose": "Prediction-centred source view for biological review, not independent reference."
+}

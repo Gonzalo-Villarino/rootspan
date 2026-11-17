@@ -1,0 +1,106 @@
+{
+  "created_utc": "2026-11-16T15:44:41.121052+00:00",
+  "model_T_source_xy": [
+    4897.161375117229,
+    500.1738895984186
+  ],
+  "model_T_path_pixels": 1536.0,
+  "relation_to_B": "left of B",
+  "field_comparisons": [
+    {
+      "field": "A",
+      "expert_appearance": "Endoderm",
+      "nearest_scan_index": 10,
+      "nearest_model_appearance": "Endoderm",
+      "nearest_scores": [
+        0.9999212026596069,
+        0.005267154425382614
+      ],
+      "scan_center_source_xy": [
+        4188.690728343493,
+        682.5764283531114
+      ],
+      "centres_inside_expert_box": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "inside_box_state_counts": {
+        "Endoderm": 6,
+        "Mixed / transition": 1,
+        "Periderm": 0,
+        "Neither supported": 0
+      },
+      "scope": "Centres inside expert view; windows may extend outside it. Overlapping windows, not accuracy."
+    },
+    {
+      "field": "B",
+      "expert_appearance": "Mixed / transition",
+      "nearest_scan_index": 39,
+      "nearest_model_appearance": "Mixed / transition",
+      "nearest_scores": [
+        0.6412961483001709,
+        0.994674563407898
+      ],
+      "scan_center_source_xy": [
+        5988.968861538806,
+        260.4063687538402
+      ],
+      "centres_inside_expert_box": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "inside_box_state_counts": {
+        "Endoderm": 0,
+        "Mixed / transition": 6,
+        "Periderm": 0,
+        "Neither supported": 0
+      },
+      "scope": "Centres inside expert view; windows may extend outside it. Overlapping windows, not accuracy."
+    },
+    {
+      "field": "C",
+      "expert_appearance": "Periderm",
+      "nearest_scan_index": 55,
+      "nearest_model_appearance": "Periderm",
+      "nearest_scores": [
+        0.31042617559432983,
+        0.9972034692764282
+      ],
+      "scan_center_source_xy": [
+        6999.962997216878,
+        129.59830440649108
+      ],
+      "centres_inside_expert_box": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "inside_box_state_counts": {
+        "Endoderm": 0,
+        "Mixed / transition": 0,
+        "Periderm": 7,
+        "Neither supported": 0
+      },
+      "scope": "Centres inside expert view; windows may extend outside it. Overlapping windows, not accuracy."
+    }
+  ],
+  "model_updated": false,
+  "new_training": false,
+  "precise_T_error": null,
+  "no_exact_expert_T": true,
+  "no_full_root_length_measurement": true,
+  "interpretation_limit": "B confirms a mixed area, not the exact left edge. T placement needs biological review. Familiar slide, not blind final validation."
+}

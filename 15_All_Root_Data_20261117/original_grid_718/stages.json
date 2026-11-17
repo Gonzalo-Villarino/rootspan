@@ -1,0 +1,15 @@
+{
+  "original_segmentation_source_sha256": "d9c9673349713eaad4490232b56f945efb7637439de7e9a7058c5280c065bea2",
+  "original_measurement_source_sha256": "961b50f3c6502654ed07b5a9b3de10291115abf412c2875b05ef4d718061a273",
+  "executed_original_loops": [
+    730,
+    890,
+    930
+  ],
+  "output_registration": "remove recorded centred padding; no resizing",
+  "cv2": "5.0.0",
+  "numpy": "2.5.5",
+  "pandas": "3.1.1",
+  "full_historical_GUI_run": false,
+  "FilFinder_measurement_run": false
+}

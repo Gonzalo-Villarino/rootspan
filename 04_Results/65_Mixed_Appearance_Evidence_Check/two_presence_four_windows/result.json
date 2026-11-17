@@ -1,0 +1,17 @@
+{
+  "run_name": "two_presence_four_windows",
+  "teaching_windows": 4,
+  "candidate_T_distance_pixels": 11456.0,
+  "difference_from_reviewed_T_pixels": -462.4256405338965,
+  "difference_from_reviewed_T_um": -872.6658624908407,
+  "candidate_inside_reviewed_interval": false,
+  "new_error_field177_presence_scores": [
+    0.9976229071617126,
+    0.9795779585838318
+  ],
+  "new_error_field177_state": 1,
+  "region_still_familiar_teaching_check": true,
+  "independent_validation": false,
+  "default_model_promoted": false,
+  "scores_not_calibrated_confidence": true
+}

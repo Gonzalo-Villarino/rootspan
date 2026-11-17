@@ -1,0 +1,28 @@
+{
+  "verified_utc": "2026-11-16T13:07:17.799219+00:00",
+  "presence_rule_unit_checks_passed": true,
+  "both_outputs_required_for_every_selected_mixed_window": true,
+  "selected_run_at_least_three_windows": true,
+  "no_T_for_allE_allP_allMixed_or_neither": true,
+  "teaching_window_targets_matched_on_training_examples": true,
+  "new_negative_field177_E_supported_P_not_supported": true,
+  "prediction_arrays_finite_and_between_zero_and_one": true,
+  "previous_four_examples_unchanged": true,
+  "new_T_inside_old_reviewed_interval": true,
+  "three_way_and_presence_with_new_example_same_T": true,
+  "presence_architecture_only_did_not_shift_T": true,
+  "source_hash_unchanged": true,
+  "default_model_hash_unchanged": true,
+  "published_encoder_hash_unchanged": true,
+  "new_model_promoted": false,
+  "new_word_manual_edit": false,
+  "figure_visual_check_pending": false,
+  "no_new_slide_validation": true,
+  "figures_visually_checked": [
+    "CURRENT_WINDOW_VERSUS_MIXED_EXAMPLE.png",
+    "two_presence_five_windows/PRESENCE_PROFILE.png",
+    "NEW_MIXED_ZONE_RESULT.png"
+  ],
+  "frozen_feature_cache_sha256": "7cb6d1f6f3b3cfe3ac6a7e38b00393b94369798c52a8ae3ca0127300f642617f",
+  "reviewed_figure_sha256": "b911cd52608f474f1046eb6334387a9c85bed923c4b7df982b39ae96e492dc83"
+}

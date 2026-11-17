@@ -1,0 +1,772 @@
+[
+  {
+    "step": 0,
+    "old_development": {
+      "confusion_rows_reference_columns_prediction": [
+        [
+          22935,
+          4333,
+          0
+        ],
+        [
+          6601,
+          18201,
+          0
+        ],
+        [
+          994,
+          85,
+          711107
+        ]
+      ],
+      "per_class": {
+        "Periderm": {
+          "correct": 22935,
+          "reference_pixels": 27268,
+          "recall": 0.8410957899369224,
+          "precision": 0.7512283000327546,
+          "iou": 0.6578607692969624,
+          "f1": 0.7936260770268867
+        },
+        "Endoderm": {
+          "correct": 18201,
+          "reference_pixels": 24802,
+          "recall": 0.7338521087009112,
+          "precision": 0.8046774835315442,
+          "iou": 0.6228952772073922,
+          "f1": 0.7676345922692478
+        },
+        "Background": {
+          "correct": 711107,
+          "reference_pixels": 712186,
+          "recall": 0.9984849463482854,
+          "precision": 1.0,
+          "iou": 0.9984849463482854,
+          "f1": 0.9992418988922168
+        }
+      },
+      "mean_iou": 0.7597469976175466,
+      "tissue_mean_iou": 0.6403780232521773,
+      "unlabelled_pixels_ignored": 284320,
+      "scope": "Only labelled pixels. Root4 same-slide development validation; not an independent test."
+    },
+    "new_training_fit": [
+      {
+        "confusion_rows_reference_columns_prediction": [
+          [
+            5024,
+            0,
+            1228
+          ],
+          [
+            6072,
+            2816,
+            0
+          ],
+          [
+            8,
+            0,
+            316850
+          ]
+        ],
+        "per_class": {
+          "Periderm": {
+            "correct": 5024,
+            "reference_pixels": 6252,
+            "recall": 0.8035828534868842,
+            "precision": 0.45244956772334294,
+            "iou": 0.4073953940966591,
+            "f1": 0.5789352385342245
+          },
+          "Endoderm": {
+            "correct": 2816,
+            "reference_pixels": 8888,
+            "recall": 0.31683168316831684,
+            "precision": 1.0,
+            "iou": 0.31683168316831684,
+            "f1": 0.48120300751879697
+          },
+          "Background": {
+            "correct": 316850,
+            "reference_pixels": 316858,
+            "recall": 0.9999747520971539,
+            "precision": 0.9961393117411452,
+            "iou": 0.9961142584081034,
+            "f1": 0.998053347109
+          }
+        },
+        "mean_iou": 0.5734471118910265,
+        "tissue_mean_iou": 0.36211353863248796,
+        "unlabelled_pixels_ignored": 716578,
+        "scope": "Only assistant-prepared sparse TRAINING labels"
+      },
+      {
+        "confusion_rows_reference_columns_prediction": [
+          [
+            30562,
+            27,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            17,
+            80,
+            346765
+          ]
+        ],
+        "per_class": {
+          "Periderm": {
+            "correct": 30562,
+            "reference_pixels": 30589,
+            "recall": 0.9991173297590638,
+            "precision": 0.9994440629189967,
+            "iou": 0.9985623733908384,
+            "f1": 0.9992806696311797
+          },
+          "Endoderm": {
+            "correct": 0,
+            "reference_pixels": 0,
+            "recall": 0.0,
+            "precision": 0.0,
+            "iou": 0.0,
+            "f1": 0.0
+          },
+          "Background": {
+            "correct": 346765,
+            "reference_pixels": 346862,
+            "recall": 0.9997203498797793,
+            "precision": 1.0,
+            "iou": 0.9997203498797793,
+            "f1": 0.9998601553861081
+          }
+        },
+        "mean_iou": 0.6660942410902059,
+        "tissue_mean_iou": 0.4992811866954192,
+        "unlabelled_pixels_ignored": 671125,
+        "scope": "Only assistant-prepared sparse TRAINING labels"
+      }
+    ],
+    "minimum_new_training_recall": 0.31683168316831684,
+    "eligible": false
+  },
+  {
+    "step": 100,
+    "old_development": {
+      "confusion_rows_reference_columns_prediction": [
+        [
+          19293,
+          7975,
+          0
+        ],
+        [
+          9881,
+          14921,
+          0
+        ],
+        [
+          643,
+          0,
+          711543
+        ]
+      ],
+      "per_class": {
+        "Periderm": {
+          "correct": 19293,
+          "reference_pixels": 27268,
+          "recall": 0.7075326389907584,
+          "precision": 0.6470469866183721,
+          "iou": 0.5105048687552921,
+          "f1": 0.6759393886309889
+        },
+        "Endoderm": {
+          "correct": 14921,
+          "reference_pixels": 24802,
+          "recall": 0.6016047092976373,
+          "precision": 0.6516858839972047,
+          "iou": 0.45522775116697684,
+          "f1": 0.6256446811187052
+        },
+        "Background": {
+          "correct": 711543,
+          "reference_pixels": 712186,
+          "recall": 0.9990971459702943,
+          "precision": 1.0,
+          "iou": 0.9990971459702943,
+          "f1": 0.9995483691067611
+        }
+      },
+      "mean_iou": 0.6549432552975211,
+      "tissue_mean_iou": 0.48286630996113444,
+      "unlabelled_pixels_ignored": 284320,
+      "scope": "Only labelled pixels. Root4 same-slide development validation; not an independent test."
+    },
+    "new_training_fit": [
+      {
+        "confusion_rows_reference_columns_prediction": [
+          [
+            6247,
+            0,
+            5
+          ],
+          [
+            102,
+            8786,
+            0
+          ],
+          [
+            0,
+            0,
+            316858
+          ]
+        ],
+        "per_class": {
+          "Periderm": {
+            "correct": 6247,
+            "reference_pixels": 6252,
+            "recall": 0.9992002559181062,
+            "precision": 0.9839344778705308,
+            "iou": 0.983160214038401,
+            "f1": 0.9915086104277439
+          },
+          "Endoderm": {
+            "correct": 8786,
+            "reference_pixels": 8888,
+            "recall": 0.9885238523852385,
+            "precision": 1.0,
+            "iou": 0.9885238523852385,
+            "f1": 0.9942288106823582
+          },
+          "Background": {
+            "correct": 316858,
+            "reference_pixels": 316858,
+            "recall": 1.0,
+            "precision": 0.9999842203097238,
+            "iou": 0.9999842203097238,
+            "f1": 0.9999921100926117
+          }
+        },
+        "mean_iou": 0.9905560955777878,
+        "tissue_mean_iou": 0.9858420332118198,
+        "unlabelled_pixels_ignored": 716578,
+        "scope": "Only assistant-prepared sparse TRAINING labels"
+      },
+      {
+        "confusion_rows_reference_columns_prediction": [
+          [
+            30589,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            88,
+            346762
+          ]
+        ],
+        "per_class": {
+          "Periderm": {
+            "correct": 30589,
+            "reference_pixels": 30589,
+            "recall": 1.0,
+            "precision": 0.9996078559524199,
+            "iou": 0.9996078559524199,
+            "f1": 0.9998038895244321
+          },
+          "Endoderm": {
+            "correct": 0,
+            "reference_pixels": 0,
+            "recall": 0.0,
+            "precision": 0.0,
+            "iou": 0.0,
+            "f1": 0.0
+          },
+          "Background": {
+            "correct": 346762,
+            "reference_pixels": 346862,
+            "recall": 0.9997117009069889,
+            "precision": 1.0,
+            "iou": 0.9997117009069889,
+            "f1": 0.999855829671407
+          }
+        },
+        "mean_iou": 0.6664398522864695,
+        "tissue_mean_iou": 0.4998039279762099,
+        "unlabelled_pixels_ignored": 671125,
+        "scope": "Only assistant-prepared sparse TRAINING labels"
+      }
+    ],
+    "minimum_new_training_recall": 0.9885238523852385,
+    "eligible": false
+  },
+  {
+    "step": 200,
+    "old_development": {
+      "confusion_rows_reference_columns_prediction": [
+        [
+          16403,
+          10865,
+          0
+        ],
+        [
+          9392,
+          15410,
+          0
+        ],
+        [
+          476,
+          0,
+          711710
+        ]
+      ],
+      "per_class": {
+        "Periderm": {
+          "correct": 16403,
+          "reference_pixels": 27268,
+          "recall": 0.6015476015842746,
+          "precision": 0.6243766891248905,
+          "iou": 0.44170077552778975,
+          "f1": 0.6127495844150993
+        },
+        "Endoderm": {
+          "correct": 15410,
+          "reference_pixels": 24802,
+          "recall": 0.6213208612208693,
+          "precision": 0.586489058039962,
+          "iou": 0.43205203689685145,
+          "f1": 0.6034027057188167
+        },
+        "Background": {
+          "correct": 711710,
+          "reference_pixels": 712186,
+          "recall": 0.9993316352750545,
+          "precision": 1.0,
+          "iou": 0.9993316352750545,
+          "f1": 0.9996657059223426
+        }
+      },
+      "mean_iou": 0.6243614825665652,
+      "tissue_mean_iou": 0.4368764062123206,
+      "unlabelled_pixels_ignored": 284320,
+      "scope": "Only labelled pixels. Root4 same-slide development validation; not an independent test."
+    },
+    "new_training_fit": [
+      {
+        "confusion_rows_reference_columns_prediction": [
+          [
+            6248,
+            0,
+            4
+          ],
+          [
+            66,
+            8822,
+            0
+          ],
+          [
+            0,
+            0,
+            316858
+          ]
+        ],
+        "per_class": {
+          "Periderm": {
+            "correct": 6248,
+            "reference_pixels": 6252,
+            "recall": 0.999360204734485,
+            "precision": 0.9895470383275261,
+            "iou": 0.9889205444761,
+            "f1": 0.9944294127009391
+          },
+          "Endoderm": {
+            "correct": 8822,
+            "reference_pixels": 8888,
+            "recall": 0.9925742574257426,
+            "precision": 1.0,
+            "iou": 0.9925742574257426,
+            "f1": 0.9962732919254659
+          },
+          "Background": {
+            "correct": 316858,
+            "reference_pixels": 316858,
+            "recall": 1.0,
+            "precision": 0.9999873762079391,
+            "iou": 0.9999873762079391,
+            "f1": 0.9999936880641292
+          }
+        },
+        "mean_iou": 0.9938273927032606,
+        "tissue_mean_iou": 0.9907474009509213,
+        "unlabelled_pixels_ignored": 716578,
+        "scope": "Only assistant-prepared sparse TRAINING labels"
+      },
+      {
+        "confusion_rows_reference_columns_prediction": [
+          [
+            30589,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            63,
+            346799
+          ]
+        ],
+        "per_class": {
+          "Periderm": {
+            "correct": 30589,
+            "reference_pixels": 30589,
+            "recall": 1.0,
+            "precision": 1.0,
+            "iou": 1.0,
+            "f1": 1.0
+          },
+          "Endoderm": {
+            "correct": 0,
+            "reference_pixels": 0,
+            "recall": 0.0,
+            "precision": 0.0,
+            "iou": 0.0,
+            "f1": 0.0
+          },
+          "Background": {
+            "correct": 346799,
+            "reference_pixels": 346862,
+            "recall": 0.9998183715714031,
+            "precision": 1.0,
+            "iou": 0.9998183715714031,
+            "f1": 0.999909177537731
+          }
+        },
+        "mean_iou": 0.6666061238571344,
+        "tissue_mean_iou": 0.5,
+        "unlabelled_pixels_ignored": 671125,
+        "scope": "Only assistant-prepared sparse TRAINING labels"
+      }
+    ],
+    "minimum_new_training_recall": 0.9925742574257426,
+    "eligible": false
+  },
+  {
+    "step": 300,
+    "old_development": {
+      "confusion_rows_reference_columns_prediction": [
+        [
+          19398,
+          7870,
+          0
+        ],
+        [
+          16599,
+          8203,
+          0
+        ],
+        [
+          455,
+          0,
+          711731
+        ]
+      ],
+      "per_class": {
+        "Periderm": {
+          "correct": 19398,
+          "reference_pixels": 27268,
+          "recall": 0.7113833064397829,
+          "precision": 0.5321518709535827,
+          "iou": 0.43766075538107485,
+          "f1": 0.6088512241054614
+        },
+        "Endoderm": {
+          "correct": 8203,
+          "reference_pixels": 24802,
+          "recall": 0.3307394564954439,
+          "precision": 0.5103589871212593,
+          "iou": 0.25107125367286975,
+          "f1": 0.40137003058103976
+        },
+        "Background": {
+          "correct": 711731,
+          "reference_pixels": 712186,
+          "recall": 0.9993611219540962,
+          "precision": 1.0,
+          "iou": 0.9993611219540962,
+          "f1": 0.9996804589031524
+        }
+      },
+      "mean_iou": 0.5626977103360136,
+      "tissue_mean_iou": 0.3443660045269723,
+      "unlabelled_pixels_ignored": 284320,
+      "scope": "Only labelled pixels. Root4 same-slide development validation; not an independent test."
+    },
+    "new_training_fit": [
+      {
+        "confusion_rows_reference_columns_prediction": [
+          [
+            6252,
+            0,
+            0
+          ],
+          [
+            17,
+            8871,
+            0
+          ],
+          [
+            0,
+            0,
+            316858
+          ]
+        ],
+        "per_class": {
+          "Periderm": {
+            "correct": 6252,
+            "reference_pixels": 6252,
+            "recall": 1.0,
+            "precision": 0.9972882437390334,
+            "iou": 0.9972882437390334,
+            "f1": 0.9986422809679738
+          },
+          "Endoderm": {
+            "correct": 8871,
+            "reference_pixels": 8888,
+            "recall": 0.998087308730873,
+            "precision": 1.0,
+            "iou": 0.998087308730873,
+            "f1": 0.9990427388929557
+          },
+          "Background": {
+            "correct": 316858,
+            "reference_pixels": 316858,
+            "recall": 1.0,
+            "precision": 1.0,
+            "iou": 1.0,
+            "f1": 1.0
+          }
+        },
+        "mean_iou": 0.9984585174899688,
+        "tissue_mean_iou": 0.9976877762349532,
+        "unlabelled_pixels_ignored": 716578,
+        "scope": "Only assistant-prepared sparse TRAINING labels"
+      },
+      {
+        "confusion_rows_reference_columns_prediction": [
+          [
+            30589,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            61,
+            346801
+          ]
+        ],
+        "per_class": {
+          "Periderm": {
+            "correct": 30589,
+            "reference_pixels": 30589,
+            "recall": 1.0,
+            "precision": 1.0,
+            "iou": 1.0,
+            "f1": 1.0
+          },
+          "Endoderm": {
+            "correct": 0,
+            "reference_pixels": 0,
+            "recall": 0.0,
+            "precision": 0.0,
+            "iou": 0.0,
+            "f1": 0.0
+          },
+          "Background": {
+            "correct": 346801,
+            "reference_pixels": 346862,
+            "recall": 0.9998241375532633,
+            "precision": 1.0,
+            "iou": 0.9998241375532633,
+            "f1": 0.9999120610440516
+          }
+        },
+        "mean_iou": 0.6666080458510878,
+        "tissue_mean_iou": 0.5,
+        "unlabelled_pixels_ignored": 671125,
+        "scope": "Only assistant-prepared sparse TRAINING labels"
+      }
+    ],
+    "minimum_new_training_recall": 0.998087308730873,
+    "eligible": false
+  },
+  {
+    "step": 400,
+    "old_development": {
+      "confusion_rows_reference_columns_prediction": [
+        [
+          17988,
+          9280,
+          0
+        ],
+        [
+          12888,
+          11914,
+          0
+        ],
+        [
+          463,
+          0,
+          711723
+        ]
+      ],
+      "per_class": {
+        "Periderm": {
+          "correct": 17988,
+          "reference_pixels": 27268,
+          "recall": 0.6596743435528825,
+          "precision": 0.5739813012540286,
+          "iou": 0.4428469435485856,
+          "f1": 0.6138515876943027
+        },
+        "Endoderm": {
+          "correct": 11914,
+          "reference_pixels": 24802,
+          "recall": 0.48036448673494075,
+          "precision": 0.5621402283665188,
+          "iou": 0.3495686872836101,
+          "f1": 0.5180450473954257
+        },
+        "Background": {
+          "correct": 711723,
+          "reference_pixels": 712186,
+          "recall": 0.999349888933509,
+          "precision": 1.0,
+          "iou": 0.999349888933509,
+          "f1": 0.9996748387712979
+        }
+      },
+      "mean_iou": 0.5972551732552348,
+      "tissue_mean_iou": 0.39620781541609784,
+      "unlabelled_pixels_ignored": 284320,
+      "scope": "Only labelled pixels. Root4 same-slide development validation; not an independent test."
+    },
+    "new_training_fit": [
+      {
+        "confusion_rows_reference_columns_prediction": [
+          [
+            6252,
+            0,
+            0
+          ],
+          [
+            0,
+            8888,
+            0
+          ],
+          [
+            0,
+            0,
+            316858
+          ]
+        ],
+        "per_class": {
+          "Periderm": {
+            "correct": 6252,
+            "reference_pixels": 6252,
+            "recall": 1.0,
+            "precision": 1.0,
+            "iou": 1.0,
+            "f1": 1.0
+          },
+          "Endoderm": {
+            "correct": 8888,
+            "reference_pixels": 8888,
+            "recall": 1.0,
+            "precision": 1.0,
+            "iou": 1.0,
+            "f1": 1.0
+          },
+          "Background": {
+            "correct": 316858,
+            "reference_pixels": 316858,
+            "recall": 1.0,
+            "precision": 1.0,
+            "iou": 1.0,
+            "f1": 1.0
+          }
+        },
+        "mean_iou": 1.0,
+        "tissue_mean_iou": 1.0,
+        "unlabelled_pixels_ignored": 716578,
+        "scope": "Only assistant-prepared sparse TRAINING labels"
+      },
+      {
+        "confusion_rows_reference_columns_prediction": [
+          [
+            30589,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            64,
+            346798
+          ]
+        ],
+        "per_class": {
+          "Periderm": {
+            "correct": 30589,
+            "reference_pixels": 30589,
+            "recall": 1.0,
+            "precision": 1.0,
+            "iou": 1.0,
+            "f1": 1.0
+          },
+          "Endoderm": {
+            "correct": 0,
+            "reference_pixels": 0,
+            "recall": 0.0,
+            "precision": 0.0,
+            "iou": 0.0,
+            "f1": 0.0
+          },
+          "Background": {
+            "correct": 346798,
+            "reference_pixels": 346862,
+            "recall": 0.999815488580473,
+            "precision": 1.0,
+            "iou": 0.999815488580473,
+            "f1": 0.9999077357783352
+          }
+        },
+        "mean_iou": 0.6666051628601576,
+        "tissue_mean_iou": 0.5,
+        "unlabelled_pixels_ignored": 671125,
+        "scope": "Only assistant-prepared sparse TRAINING labels"
+      }
+    ],
+    "minimum_new_training_recall": 0.999815488580473,
+    "eligible": false
+  }
+]

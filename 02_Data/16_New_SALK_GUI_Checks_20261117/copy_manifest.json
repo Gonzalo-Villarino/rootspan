@@ -1,0 +1,49 @@
+{
+  "selection_rule": "One remaining Accessions_2023 slide and one WT/one mutant WOX4 collection slide, selected before new predictions; no selection on model success.",
+  "source_read_only": true,
+  "historical_PAT_encoder_exposure": "unknown; not claimed independent of archived PAT training",
+  "pixels_per_micrometre": 0.5299,
+  "calibration_status": "User confirmed all three in this chat on 17 November 2026",
+  "files": [
+    {
+      "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/PAT_Paper_TIFs_2020_2023_Gonzalo_Villarino/Accessions_2023/7_18.tif",
+      "local": "${ROOTSPAN_PROJECT}/02_Data/16_New_SALK_GUI_Checks_20261117/7_18.tif",
+      "bytes": 575369195,
+      "sha256": "6ff3e7e893961fbace0c99bf521d41e029cadb21c4522fc4da67f8fcb1bd5980",
+      "copy_verified": true,
+      "dimensions": [
+        18143,
+        10571
+      ],
+      "mode": "RGB",
+      "frames": 1
+    },
+    {
+      "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/PAT_Paper_TIFs_2020_2023_Gonzalo_Villarino/WOX4_COl-0/Col_rep1.tif",
+      "local": "${ROOTSPAN_PROJECT}/02_Data/16_New_SALK_GUI_Checks_20261117/Col_rep1.tif",
+      "bytes": 368352289,
+      "sha256": "452b09a3db5ee322ddba05875e9da0df7654ea6653de1d7bcb7fce8372acc67a",
+      "copy_verified": true,
+      "dimensions": [
+        12794,
+        9597
+      ],
+      "mode": "RGB",
+      "frames": 1
+    },
+    {
+      "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/PAT_Paper_TIFs_2020_2023_Gonzalo_Villarino/WOX4_COl-0/WOX4_rep1.tif",
+      "local": "${ROOTSPAN_PROJECT}/02_Data/16_New_SALK_GUI_Checks_20261117/WOX4_rep1.tif",
+      "bytes": 360094615,
+      "sha256": "01061a8e2ac828ba785c908fc31f1e3afe63740bfe38fddcea22aa37e189c3a3",
+      "copy_verified": true,
+      "dimensions": [
+        11372,
+        10555
+      ],
+      "mode": "RGB",
+      "frames": 1
+    }
+  ],
+  "calibration_user_reply": "Yes, all three use that scale"
+}

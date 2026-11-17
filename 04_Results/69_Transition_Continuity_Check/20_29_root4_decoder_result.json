@@ -1,0 +1,66 @@
+{
+  "case": "20_29_root4",
+  "old_T_path_pixels": null,
+  "new_T_path_pixels": null,
+  "same_T": true,
+  "candidate_rule_output": {
+    "rule_version": "continuity_guard_v1",
+    "presence_threshold": 0.5,
+    "window_width_native_path_pixels": 320.0,
+    "required_spaced_E_fields": 3,
+    "original_rule": {
+      "threshold": 0.5,
+      "state_order": [
+        "Endoderm_only",
+        "both_mixed",
+        "Periderm_only",
+        "neither"
+      ],
+      "window_states": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "runs": [
+        {
+          "state": 1,
+          "start": 0,
+          "stop_exclusive": 6,
+          "samples": 6
+        },
+        {
+          "state": 2,
+          "start": 6,
+          "stop_exclusive": 9,
+          "samples": 3
+        },
+        {
+          "state": 1,
+          "start": 9,
+          "stop_exclusive": 10,
+          "samples": 1
+        }
+      ],
+      "eligible_candidates": [],
+      "selected": null,
+      "policy": "First >=3-window mixed run with an earlier >=3-window E-only run and later >=3-window P-only run. No manual T or offset."
+    },
+    "candidate_audits": [],
+    "selected": null,
+    "policy": "Keep both-appearance criterion and original support requirements; reject candidates followed by an E-only run with at least3 centres spaced by one window width before their supporting Periderm run. No new candidate coordinates or offsets invented.",
+    "assumption": "Long E-only returns weigh against an early mixed burst; short E-only fields can occur within mixed tissue.",
+    "new_neural_training": false
+  },
+  "input_sha256": "183f38baf01e1bb8baf42754907ebd5334aea20027c2e04de0cb1e49b649457d",
+  "scores_unchanged": true,
+  "training": false,
+  "new_T_source_xy": null,
+  "old_T_source_xy": null
+}

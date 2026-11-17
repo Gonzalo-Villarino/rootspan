@@ -1,0 +1,61 @@
+{
+  "purpose": "Visual comparison on the SAME training pair; not an independent test.",
+  "created_utc": "2026-11-13T11:20:03.714403+00:00",
+  "device": "mps",
+  "sources": {
+    "run_folder": "${ROOTSPAN_PROJECT}/04_Results/04_First_Training_Trial/run_20261113T110425Z_u_yz60ya",
+    "weights_sha256": "b3a458347d14d798e781d5c43ba3c37066896d9225d4e58438cf5e21068d0de8",
+    "trial_details_sha256": "cd702e4ce9488df452456d211897a8eb92399826a19efee3c8e897a3fe27cfab",
+    "image_sha256": "0efb453e036ce7ae39d775c87e8d4886c950ae5f352b6738d004bd309cacaa3c",
+    "mask_sha256": "c6168d068a488ae60b129de86838976d84de988c78fc0505018b046303cacb6d"
+  },
+  "source_patch_id": "MT25_rep3_practice_r000_c007",
+  "script_sha256": "5d9ebc0cab921d12318500810e369c3e26c880b505b2107282b41b3d84e7af35",
+  "model_script_sha256": "5d1e3c0ae9177839234113f8a1344a5952786190da93dcdc5f48bd482b1aeec8",
+  "training_updates": 30,
+  "further_training_updates": 0,
+  "metrics": {
+    "labelled_pixels": 58782,
+    "agreement_on_training_pair": 0.6360790718247082,
+    "majority_class_baseline": 0.635126399237862,
+    "confusion_rows_truth_columns_prediction_periderm_endoderm": [
+      [
+        56,
+        21392
+      ],
+      [
+        0,
+        37334
+      ]
+    ],
+    "predicted_counts_on_labelled_area": {
+      "1": 56,
+      "2": 58726
+    },
+    "predicted_counts_on_whole_patch": {
+      "1": 2048,
+      "2": 1046528
+    }
+  },
+  "prediction_codes": {
+    "1": "Periderm",
+    "2": "Endoderm"
+  },
+  "prediction_pixels_hidden_or_replaced_using_truth": false,
+  "preview": {
+    "full_panel_scale": 0.5,
+    "closeup_box_in_patch": [
+      255,
+      61,
+      767,
+      317
+    ],
+    "closeup_scale": 1.0,
+    "selection_note": "Ground truth selects the display crop only AFTER full-image prediction."
+  },
+  "limitations": [
+    "Model has no background class; every pixel receives one of two tissue labels.",
+    "Only reference codes 1 and 2 are scored; 0 and 255 are excluded.",
+    "The visual comparison uses the training example and cannot assess generalization."
+  ]
+}

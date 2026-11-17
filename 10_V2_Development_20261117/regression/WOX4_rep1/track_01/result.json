@@ -1,0 +1,24 @@
+{
+  "track_id": 1,
+  "periderm_length_um": null,
+  "segment_to_visible_end_um": null,
+  "length_pixels": null,
+  "transition_xy": null,
+  "endpoint_xy": null,
+  "status": "partial_root",
+  "notes": [
+    "Short root-like fragment touches the image edge. Full root and transition context unavailable; no length reported."
+  ],
+  "endpoint_method": null,
+  "separation": {
+    "partial_at_image_edge": true,
+    "split_applied": false
+  },
+  "detection_bbox_xyxy": [
+    7372,
+    8,
+    10296,
+    788
+  ],
+  "parallel_intervals_fraction": 0.03225806451612903
+}

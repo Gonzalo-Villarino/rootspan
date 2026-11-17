@@ -1,0 +1,653 @@
+{
+  "distance": [
+    160.0,
+    224.0,
+    288.0,
+    352.0,
+    416.0,
+    480.0,
+    544.0,
+    608.0,
+    672.0,
+    736.0,
+    800.0,
+    864.0,
+    928.0,
+    992.0,
+    1056.0,
+    1120.0,
+    1184.0,
+    1248.0,
+    1312.0,
+    1376.0,
+    1440.0,
+    1504.0,
+    1568.0,
+    1632.0,
+    1696.0,
+    1760.0,
+    1824.0,
+    1888.0,
+    1952.0,
+    2016.0,
+    2080.0,
+    2144.0,
+    2208.0,
+    2272.0,
+    2336.0,
+    2400.0,
+    2464.0,
+    2528.0,
+    2592.0,
+    2656.0,
+    2720.0,
+    2784.0,
+    2848.0,
+    2912.0,
+    2976.0,
+    3040.0,
+    3104.0,
+    3168.0,
+    3232.0,
+    3296.0,
+    3360.0,
+    3424.0,
+    3488.0,
+    3552.0,
+    3616.0,
+    3680.0,
+    3744.0,
+    3808.0,
+    3872.0,
+    3936.0,
+    4000.0,
+    4064.0
+  ],
+  "scores": [
+    [
+      0.9997835755348206,
+      0.088263601064682
+    ],
+    [
+      0.9996774196624756,
+      0.4691796898841858
+    ],
+    [
+      0.9993591904640198,
+      0.5866755247116089
+    ],
+    [
+      0.9993439316749573,
+      0.476209431886673
+    ],
+    [
+      0.9987291693687439,
+      0.7023352384567261
+    ],
+    [
+      0.997775137424469,
+      0.6536623239517212
+    ],
+    [
+      0.9980756044387817,
+      0.5129038095474243
+    ],
+    [
+      0.9981006979942322,
+      0.512652575969696
+    ],
+    [
+      0.9993252754211426,
+      0.3692857623100281
+    ],
+    [
+      0.999845027923584,
+      0.32465416193008423
+    ],
+    [
+      0.9996833801269531,
+      0.39889973402023315
+    ],
+    [
+      0.9991470575332642,
+      0.4136236608028412
+    ],
+    [
+      0.9988189339637756,
+      0.31737905740737915
+    ],
+    [
+      0.9991866946220398,
+      0.2352832406759262
+    ],
+    [
+      0.9996811151504517,
+      0.16691423952579498
+    ],
+    [
+      0.9987332224845886,
+      0.21769817173480988
+    ],
+    [
+      0.9992377758026123,
+      0.15516763925552368
+    ],
+    [
+      0.9989909529685974,
+      0.1767238825559616
+    ],
+    [
+      0.9991361498832703,
+      0.16645635664463043
+    ],
+    [
+      0.9984707236289978,
+      0.13741856813430786
+    ],
+    [
+      0.9994122982025146,
+      0.19243688881397247
+    ],
+    [
+      0.9995083808898926,
+      0.2465064972639084
+    ],
+    [
+      0.9994968175888062,
+      0.3002271354198456
+    ],
+    [
+      0.9995689988136292,
+      0.070630744099617
+    ],
+    [
+      0.9997398257255554,
+      0.05421752855181694
+    ],
+    [
+      0.9997318387031555,
+      0.03613279387354851
+    ],
+    [
+      0.9996987581253052,
+      0.034392356872558594
+    ],
+    [
+      0.999743640422821,
+      0.04408032074570656
+    ],
+    [
+      0.9996954202651978,
+      0.08240289241075516
+    ],
+    [
+      0.9954617619514465,
+      0.37402260303497314
+    ],
+    [
+      0.9602932333946228,
+      0.6927085518836975
+    ],
+    [
+      0.8615764379501343,
+      0.8745877146720886
+    ],
+    [
+      0.9279627799987793,
+      0.8950958251953125
+    ],
+    [
+      0.9592674970626831,
+      0.8670717477798462
+    ],
+    [
+      0.993073046207428,
+      0.6143839359283447
+    ],
+    [
+      0.9977060556411743,
+      0.4463813900947571
+    ],
+    [
+      0.9995043277740479,
+      0.058690331876277924
+    ],
+    [
+      0.999395489692688,
+      0.07391683012247086
+    ],
+    [
+      0.9984861016273499,
+      0.1167491152882576
+    ],
+    [
+      0.9950060248374939,
+      0.737550675868988
+    ],
+    [
+      0.9321750402450562,
+      0.9249940514564514
+    ],
+    [
+      0.8847522139549255,
+      0.931885302066803
+    ],
+    [
+      0.9874743223190308,
+      0.44725024700164795
+    ],
+    [
+      0.999233603477478,
+      0.025657031685113907
+    ],
+    [
+      0.9991629123687744,
+      0.012806441634893417
+    ],
+    [
+      0.998737633228302,
+      0.018282832577824593
+    ],
+    [
+      0.9989343285560608,
+      0.011648837476968765
+    ],
+    [
+      0.9774714112281799,
+      0.7959998846054077
+    ],
+    [
+      0.9033746719360352,
+      0.9122252464294434
+    ],
+    [
+      0.9990003705024719,
+      0.5761375427246094
+    ],
+    [
+      0.999832034111023,
+      0.5144544839859009
+    ],
+    [
+      0.9976209998130798,
+      0.6072444915771484
+    ],
+    [
+      0.985829770565033,
+      0.7965120673179626
+    ],
+    [
+      0.9722421169281006,
+      0.8722881078720093
+    ],
+    [
+      0.9740386605262756,
+      0.8394414186477661
+    ],
+    [
+      0.9942556023597717,
+      0.7121338248252869
+    ],
+    [
+      0.9883008599281311,
+      0.7014790773391724
+    ],
+    [
+      0.6038466095924377,
+      0.9386811852455139
+    ],
+    [
+      0.18681029975414276,
+      0.9802835583686829
+    ],
+    [
+      0.043163083493709564,
+      0.9917672276496887
+    ],
+    [
+      0.016864147037267685,
+      0.9926291704177856
+    ],
+    [
+      0.006468403153121471,
+      0.995142936706543
+    ]
+  ],
+  "rule": {
+    "rule_version": "continuity_guard_v1",
+    "presence_threshold": 0.5,
+    "window_width_native_path_pixels": 320.0,
+    "required_spaced_E_fields": 3,
+    "original_rule": {
+      "threshold": 0.5,
+      "state_order": [
+        "Endoderm_only",
+        "both_mixed",
+        "Periderm_only",
+        "neither"
+      ],
+      "window_states": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "runs": [
+        {
+          "state": 0,
+          "start": 0,
+          "stop_exclusive": 2,
+          "samples": 2
+        },
+        {
+          "state": 1,
+          "start": 2,
+          "stop_exclusive": 3,
+          "samples": 1
+        },
+        {
+          "state": 0,
+          "start": 3,
+          "stop_exclusive": 4,
+          "samples": 1
+        },
+        {
+          "state": 1,
+          "start": 4,
+          "stop_exclusive": 8,
+          "samples": 4
+        },
+        {
+          "state": 0,
+          "start": 8,
+          "stop_exclusive": 30,
+          "samples": 22
+        },
+        {
+          "state": 1,
+          "start": 30,
+          "stop_exclusive": 35,
+          "samples": 5
+        },
+        {
+          "state": 0,
+          "start": 35,
+          "stop_exclusive": 39,
+          "samples": 4
+        },
+        {
+          "state": 1,
+          "start": 39,
+          "stop_exclusive": 42,
+          "samples": 3
+        },
+        {
+          "state": 0,
+          "start": 42,
+          "stop_exclusive": 47,
+          "samples": 5
+        },
+        {
+          "state": 1,
+          "start": 47,
+          "stop_exclusive": 58,
+          "samples": 11
+        },
+        {
+          "state": 2,
+          "start": 58,
+          "stop_exclusive": 62,
+          "samples": 4
+        }
+      ],
+      "eligible_candidates": [
+        {
+          "mixed_run": {
+            "state": 1,
+            "start": 30,
+            "stop_exclusive": 35,
+            "samples": 5
+          },
+          "preceding_clear_Endoderm": {
+            "state": 0,
+            "start": 8,
+            "stop_exclusive": 30,
+            "samples": 22
+          },
+          "following_clear_Periderm": {
+            "state": 2,
+            "start": 58,
+            "stop_exclusive": 62,
+            "samples": 4
+          },
+          "T_distance_pixels": 2048.0
+        },
+        {
+          "mixed_run": {
+            "state": 1,
+            "start": 39,
+            "stop_exclusive": 42,
+            "samples": 3
+          },
+          "preceding_clear_Endoderm": {
+            "state": 0,
+            "start": 35,
+            "stop_exclusive": 39,
+            "samples": 4
+          },
+          "following_clear_Periderm": {
+            "state": 2,
+            "start": 58,
+            "stop_exclusive": 62,
+            "samples": 4
+          },
+          "T_distance_pixels": 2624.0
+        },
+        {
+          "mixed_run": {
+            "state": 1,
+            "start": 47,
+            "stop_exclusive": 58,
+            "samples": 11
+          },
+          "preceding_clear_Endoderm": {
+            "state": 0,
+            "start": 42,
+            "stop_exclusive": 47,
+            "samples": 5
+          },
+          "following_clear_Periderm": {
+            "state": 2,
+            "start": 58,
+            "stop_exclusive": 62,
+            "samples": 4
+          },
+          "T_distance_pixels": 3136.0
+        }
+      ],
+      "selected": {
+        "mixed_run": {
+          "state": 1,
+          "start": 30,
+          "stop_exclusive": 35,
+          "samples": 5
+        },
+        "preceding_clear_Endoderm": {
+          "state": 0,
+          "start": 8,
+          "stop_exclusive": 30,
+          "samples": 22
+        },
+        "following_clear_Periderm": {
+          "state": 2,
+          "start": 58,
+          "stop_exclusive": 62,
+          "samples": 4
+        },
+        "T_distance_pixels": 2048.0
+      },
+      "policy": "First >=3-window mixed run with an earlier >=3-window E-only run and later >=3-window P-only run. No manual T or offset."
+    },
+    "candidate_audits": [
+      {
+        "original_candidate": {
+          "mixed_run": {
+            "state": 1,
+            "start": 30,
+            "stop_exclusive": 35,
+            "samples": 5
+          },
+          "preceding_clear_Endoderm": {
+            "state": 0,
+            "start": 8,
+            "stop_exclusive": 30,
+            "samples": 22
+          },
+          "following_clear_Periderm": {
+            "state": 2,
+            "start": 58,
+            "stop_exclusive": 62,
+            "samples": 4
+          },
+          "T_distance_pixels": 2048.0
+        },
+        "retained": true,
+        "contradictory_E_only_runs": []
+      },
+      {
+        "original_candidate": {
+          "mixed_run": {
+            "state": 1,
+            "start": 39,
+            "stop_exclusive": 42,
+            "samples": 3
+          },
+          "preceding_clear_Endoderm": {
+            "state": 0,
+            "start": 35,
+            "stop_exclusive": 39,
+            "samples": 4
+          },
+          "following_clear_Periderm": {
+            "state": 2,
+            "start": 58,
+            "stop_exclusive": 62,
+            "samples": 4
+          },
+          "T_distance_pixels": 2624.0
+        },
+        "retained": true,
+        "contradictory_E_only_runs": []
+      },
+      {
+        "original_candidate": {
+          "mixed_run": {
+            "state": 1,
+            "start": 47,
+            "stop_exclusive": 58,
+            "samples": 11
+          },
+          "preceding_clear_Endoderm": {
+            "state": 0,
+            "start": 42,
+            "stop_exclusive": 47,
+            "samples": 5
+          },
+          "following_clear_Periderm": {
+            "state": 2,
+            "start": 58,
+            "stop_exclusive": 62,
+            "samples": 4
+          },
+          "T_distance_pixels": 3136.0
+        },
+        "retained": true,
+        "contradictory_E_only_runs": []
+      }
+    ],
+    "selected": {
+      "mixed_run": {
+        "state": 1,
+        "start": 30,
+        "stop_exclusive": 35,
+        "samples": 5
+      },
+      "preceding_clear_Endoderm": {
+        "state": 0,
+        "start": 8,
+        "stop_exclusive": 30,
+        "samples": 22
+      },
+      "following_clear_Periderm": {
+        "state": 2,
+        "start": 58,
+        "stop_exclusive": 62,
+        "samples": 4
+      },
+      "T_distance_pixels": 2048.0
+    },
+    "policy": "Keep both-appearance criterion and original support requirements; reject candidates followed by an E-only run with at least3 centres spaced by one window width before their supporting Periderm run. No new candidate coordinates or offsets invented.",
+    "assumption": "Long E-only returns weigh against an early mixed burst; short E-only fields can occur within mixed tissue.",
+    "new_neural_training": false
+  },
+  "T": 2048.0,
+  "manual_T_used_by_model": false
+}

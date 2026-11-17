@@ -1,0 +1,204 @@
+{
+  "gate_passed": false,
+  "rows": [
+    {
+      "case": "20_29_root4",
+      "accepted_reference_T": null,
+      "candidate": {
+        "T_path_pixels": null,
+        "accepted": false,
+        "best_candidate": null,
+        "all_E_cost": 43.3548526080961,
+        "all_P_cost": 0.173793233574157,
+        "mean_gain": null,
+        "reason": "insufficient_evidence_over_single_region",
+        "near_optimal_range_pixels": null,
+        "range_is_not_confidence_interval": true,
+        "scores_not_calibrated": true
+      },
+      "gate_passed": true
+    },
+    {
+      "case": "2_12_root1",
+      "accepted_reference_T": 5056.0,
+      "candidate": {
+        "T_path_pixels": 4928.0,
+        "accepted": true,
+        "best_candidate": {
+          "index": 75,
+          "cost": 14.57928970495538,
+          "T_distance_pixels": 4928.0,
+          "E_support": [
+            0,
+            5,
+            10,
+            15,
+            21,
+            26,
+            31,
+            37,
+            42,
+            47,
+            52,
+            57,
+            62,
+            67,
+            72
+          ],
+          "P_support": [
+            75,
+            80,
+            85,
+            90,
+            95,
+            100,
+            105,
+            110
+          ]
+        },
+        "all_E_cost": 241.48098108281218,
+        "all_P_cost": 277.54474162329416,
+        "mean_gain": 1.973058185894407,
+        "reason": "regional_change_supported",
+        "near_optimal_range_pixels": [
+          4864.0,
+          4928.0
+        ],
+        "range_is_not_confidence_interval": true,
+        "scores_not_calibrated": true
+      },
+      "gate_passed": true
+    },
+    {
+      "case": "A04_root3",
+      "accepted_reference_T": 2048.0,
+      "candidate": {
+        "T_path_pixels": 3136.0,
+        "accepted": true,
+        "best_candidate": {
+          "index": 47,
+          "cost": 32.2788546868545,
+          "T_distance_pixels": 3136.0,
+          "E_support": [
+            0,
+            5,
+            10,
+            15,
+            20,
+            25,
+            34,
+            39,
+            44
+          ],
+          "P_support": [
+            47,
+            52,
+            57
+          ]
+        },
+        "all_E_cost": 60.272820891664615,
+        "all_P_cost": 137.54389482602963,
+        "mean_gain": 0.45151558394855024,
+        "reason": "regional_change_supported",
+        "near_optimal_range_pixels": [
+          3136.0,
+          3200.0
+        ],
+        "range_is_not_confidence_interval": true,
+        "scores_not_calibrated": true
+      },
+      "gate_passed": false
+    },
+    {
+      "case": "COL0_root3",
+      "accepted_reference_T": 11840.0,
+      "candidate": {
+        "T_path_pixels": 11840.0,
+        "accepted": true,
+        "best_candidate": {
+          "index": 183,
+          "cost": 5.268135945002156,
+          "T_distance_pixels": 11840.0,
+          "E_support": [
+            0,
+            5,
+            10,
+            15,
+            20,
+            25,
+            30,
+            35,
+            40,
+            45,
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            80,
+            85,
+            90,
+            95,
+            100,
+            105,
+            110,
+            115,
+            120,
+            125,
+            130,
+            135,
+            140,
+            145,
+            150,
+            155,
+            160,
+            165,
+            170,
+            175,
+            180
+          ],
+          "P_support": [
+            183,
+            188,
+            193,
+            198,
+            203,
+            208,
+            213,
+            218,
+            223,
+            228,
+            233,
+            238,
+            243,
+            248,
+            253,
+            258,
+            263,
+            268,
+            273,
+            278,
+            283,
+            288,
+            293
+          ]
+        },
+        "all_E_cost": 742.2824123216376,
+        "all_P_cost": 779.8414474257098,
+        "mean_gain": 2.498353479242832,
+        "reason": "regional_change_supported",
+        "near_optimal_range_pixels": [
+          11776.0,
+          11968.0
+        ],
+        "range_is_not_confidence_interval": true,
+        "scores_not_calibrated": true
+      },
+      "gate_passed": true
+    }
+  ],
+  "controls_passed": true,
+  "reference_scope": "Post-prediction accepted development positions, not independent accuracy.",
+  "one_seven_read": false
+}

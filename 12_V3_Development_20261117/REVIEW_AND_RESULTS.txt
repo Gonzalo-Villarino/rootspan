@@ -1,0 +1,37 @@
+CLAUDE REVIEW AND V3 TRIAL — 17 NOVEMBER 2026
+
+Decision: do not release the experimental head as an improved V3. Keep V1 and V2 intact. V2.1 is withdrawn from new app analyses; its old results are explicitly marked withdrawn.
+
+What we learned
+The main measurement error on your three manually traced 1_7 roots came from placing the transition T incorrectly. Endpoint differences also matter, but tracing the curved root was not the main source of error in this comparison. The exact additive decomposition is saved in manual_error_decomposition.json: T contributions are -2170, +1978, +6613 µm; combined endpoint/path contributions are about -209, -100, +41 µm for roots 1, 2, 6. This is specific to the V2.1-derived paths and endpoints used in this comparison. T means the left edge of the mixed-cell zone, with Endoderm to its left and the Periderm region (including mixture) to its right.
+
+What external reviewer found
+The V2.1 endpoint rule could confuse fading fluorescence with the root–hypocotyl junction. Getting seven filled rows was not evidence of seven correct measurements. external reviewer also flagged neighbouring-root contamination, an ineffective backtracking check, inadequate provenance and weak validation. I accepted these criticisms. The original seven-number result must not be used as reliable periderm measurements.
+
+What was tested
+1. A global transition rule using unchanged V1 scores: rejected because it moved an accepted A04 transition by 1,088 native pixels.
+2. A new binary regional head trained from accepted transition positions: rejected at the leave-A04-out check, again 1,088 pixels from the accepted reference. This trial did not reach 1_7.
+3. An expanded appearance head: 11 existing expert-labelled fields from two slides (COL0 and A04), compared with five COL0 fields originally. Three ambiguous A04 fields were excluded without relabelling. The encoder and V1 transition rule were unchanged; teaching data and loss weighting changed. Each field had 48 augmented versions, which are not independent examples.
+
+The expanded head matched all original teaching targets and retained the checked COL0/A04 transitions. On the previously examined 2_12 root it stayed within 128 pixels of the accepted T. It correctly withheld T on the short 20_29 crop. These are development checks, not independent biological validation. Their own record is expanded_fields_trial/gate.json: COL0 T 11840, A04 T 2048, 2_12 T 5184 (reference 5056), and 20_29 no T. The first two are teaching-slide fit diagnostics.
+
+Then we compared its predictions with your existing manual 1_7 references, without supplying those references to the model. We held the V2.1-derived paths and automatic endpoints fixed. Those endpoints are themselves unvalidated and withdrawn as measurement estimates; here they only provide identical geometry for both heads. The midpoint comparison also uses that same V2.1 automatic endpoint. All predictions were saved before reference scoring.
+
+Absolute T position difference from your manual reference (micrometres):
+Root    Current V1    New candidate    Naive midpoint    Interpretation
+1          2,170          2,049             5,465        Slightly closer; one decoder step only
+2          1,978          2,340               464        Farther away
+6          6,613          7,821             4,232        Farther away
+
+The naive midpoint is halfway along the fixed left-tip-to-automatic-J arc; it is not a trained model and uses the unvalidated V2.1 J. This candidate failed the predeclared improvement check. BOTH the current V1 detector and the candidate lost to the simple midpoint baseline on roots 2 and 6. The current V1 detector was about 6.6 mm away from the manual T on root 6. V2 uses that detector: keeping V2 available does not mean its transitions are reliable. It is retained for learning and inspected provisional checks only. No additional tuning was performed and no V3 model was promoted. Experimental weights and every failure are saved for inspection.
+
+What changed in the usable app
+The empty upload page defaults to V2. V2.1 is disabled in the interface AND rejected by the server. Its saved result pages label the numbers as withdrawn estimates. New measurements.csv downloads for V2.1 runs identified by either job.pipeline or summary.pipeline_version add withdrawal status and a warning to each row; historical local files and any previously downloaded CSVs remain unchanged. The V1 source/weight bundle passed its integrity check; the V2 runtime sources passed their saved fingerprints and continue to use the unchanged V1 weight bundle. Seventeen existing computational regression tests passed; those tests do not establish biological accuracy. Safeguarded endpoint code remains an unpromoted experiment, with unresolved coverage and anatomy limitations. The app remains a learning/research prototype, not a validated replacement for PAT.
+
+Next step
+Agree on a compact set of clear Endoderm, genuine mixed-cell, and clear Periderm fields from more development slides, especially cases where this model falsely calls mixture. Review the actual processed fields with you so labels refer to what the model sees. Record uncertain cases instead of forcing answers. Train on that fixed teaching set, then evaluate separately on slides excluded from all training and tuning. Reserved slide 15_27 remains unused. Hypocotyl endpoints need their own independent references. More iterations or post-processing cannot establish missing biological evidence.
+
+Scope and records
+The scientific comparison uses only three selected roots on one already examined slide. Scale 0.5299 pixels/µm was user-confirmed for 1_7; A04 calibration remains unconfirmed, so A04 checks use native pixels only. Earlier PAT pretraining membership is unknown. Manual references are user measurements, not independently certified truth. Read-only checks confirmed that the leftmost and rightmost points are the actual first/last vertices of all three saved traces. The local source microscopy and the manual-reference provenance still need biological review before a publication claim. The Word manual was not edited in this pass. No source images or annotations were overwritten.
+
+external reviewer reviewed supplied code, descriptions and result records; it did not independently inspect raw microscopy or verify biology. Packets, unedited feedback and helper-generated receipts are in review/. These are self-kept audit records, not independent proof.

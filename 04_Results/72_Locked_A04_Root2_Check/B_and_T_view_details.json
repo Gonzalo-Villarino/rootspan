@@ -1,0 +1,19 @@
+{
+  "source_box_xyxy": [
+    8050,
+    2350,
+    9850,
+    2850
+  ],
+  "B_box_source_xyxy": [
+    8300,
+    2490,
+    8700,
+    2770
+  ],
+  "T_source_xy_unchanged": [
+    9235.982508171961,
+    2601.500507191203
+  ],
+  "display": "Native source pixels; white B box reference, blue model prediction. No new inference or tissue labels."
+}

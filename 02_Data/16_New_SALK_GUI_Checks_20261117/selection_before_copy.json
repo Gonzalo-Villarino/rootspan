@@ -1,0 +1,13 @@
+{
+  "sources": [
+    "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/PAT_Paper_TIFs_2020_2023_Gonzalo_Villarino/Accessions_2023/7_18.tif",
+    "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/PAT_Paper_TIFs_2020_2023_Gonzalo_Villarino/WOX4_COl-0/Col_rep1.tif",
+    "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/PAT_Paper_TIFs_2020_2023_Gonzalo_Villarino/WOX4_COl-0/WOX4_rep1.tif"
+  ],
+  "selection_rule": "One remaining Accessions_2023 slide and one WT/one mutant WOX4 collection slide, selected before new predictions; no selection on model success.",
+  "source_read_only": true,
+  "historical_PAT_encoder_exposure": "unknown; not claimed independent of archived PAT training",
+  "pixels_per_micrometre": 0.5299,
+  "calibration_status": "User confirmed all three in this chat on 17 November 2026",
+  "files": []
+}

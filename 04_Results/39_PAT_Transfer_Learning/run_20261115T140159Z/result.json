@@ -1,0 +1,141 @@
+{
+  "method": "Fine-tune published PAT UNet++/ResNet34, mapped head to Periderm/Endoderm/Background; freeze early encoder and all BatchNorm running stats; adapt decoder and encoder stages3/4.",
+  "data_manifest": "${ROOTSPAN_PROJECT}/04_Results/35_Multiple_Slides_Data/manifest.json",
+  "data_manifest_sha256": "a476eb0d53508ea3ecf43ba59acff730ac8e114ad9ac11eda87dec215dccc82a",
+  "initial_weights_sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+  "training_roots": 16,
+  "training_slides": 3,
+  "current_training_excludes_roots": [
+    4,
+    6
+  ],
+  "root4_role": "Development validation for checkpoint selection. PAT original training membership unknown.",
+  "steps_requested": 800,
+  "seed": 34,
+  "batch_size": 6,
+  "training_field": "512x512 native pixels, paired flip/90degree rotations, image gain0.8-1.2; ImageNet RGB normalization. No resizing.",
+  "class_order": [
+    "Periderm",
+    "Endoderm",
+    "Background"
+  ],
+  "mask_codes": [
+    1,
+    2,
+    3
+  ],
+  "ignore_codes": [
+    0,
+    255
+  ],
+  "reference_sha256": "93f8831cc67d3acc75d355a30914aecd7c0a452e13145692941233b0c4be0a63",
+  "postprocessing": "None",
+  "prediction_input": "RGB image only",
+  "baseline_metrics": {
+    "confusion_rows_reference_columns_prediction": [
+      [
+        15320,
+        11057,
+        891
+      ],
+      [
+        18847,
+        5449,
+        506
+      ],
+      [
+        47,
+        260,
+        711879
+      ]
+    ],
+    "per_class": {
+      "Periderm": {
+        "correct": 15320,
+        "reference_pixels": 27268,
+        "recall": 0.5618307173243362,
+        "precision": 0.44776991874671185,
+        "iou": 0.331874702135956,
+        "f1": 0.4983572427702417
+      },
+      "Endoderm": {
+        "correct": 5449,
+        "reference_pixels": 24802,
+        "recall": 0.21970002419159745,
+        "precision": 0.32500298222593343,
+        "iou": 0.15086242697749108,
+        "f1": 0.2621728252501925
+      },
+      "Background": {
+        "correct": 711879,
+        "reference_pixels": 712186,
+        "recall": 0.9995689328349616,
+        "precision": 0.9980414313673809,
+        "iou": 0.9976120507355136,
+        "f1": 0.9988045980881988
+      }
+    },
+    "mean_iou": 0.49344972661632025,
+    "tissue_mean_iou": 0.24136856455672354,
+    "unlabelled_pixels_ignored": 284320,
+    "scope": "Only labelled pixels. Root4 same-slide development validation; not an independent test."
+  },
+  "transition_focused_sampling": true,
+  "mixed_tissue_fields_available": 23,
+  "sampling": "Four mixed-tissue fields and two explicit-Background fields per update",
+  "best_step": 200,
+  "completed_steps": 800,
+  "elapsed_seconds": 250.9029561250063,
+  "validation_metrics": {
+    "confusion_rows_reference_columns_prediction": [
+      [
+        22935,
+        4333,
+        0
+      ],
+      [
+        6601,
+        18201,
+        0
+      ],
+      [
+        994,
+        85,
+        711107
+      ]
+    ],
+    "per_class": {
+      "Periderm": {
+        "correct": 22935,
+        "reference_pixels": 27268,
+        "recall": 0.8410957899369224,
+        "precision": 0.7512283000327546,
+        "iou": 0.6578607692969624,
+        "f1": 0.7936260770268867
+      },
+      "Endoderm": {
+        "correct": 18201,
+        "reference_pixels": 24802,
+        "recall": 0.7338521087009112,
+        "precision": 0.8046774835315442,
+        "iou": 0.6228952772073922,
+        "f1": 0.7676345922692478
+      },
+      "Background": {
+        "correct": 711107,
+        "reference_pixels": 712186,
+        "recall": 0.9984849463482854,
+        "precision": 1.0,
+        "iou": 0.9984849463482854,
+        "f1": 0.9992418988922168
+      }
+    },
+    "mean_iou": 0.7597469976175466,
+    "tissue_mean_iou": 0.6403780232521773,
+    "unlabelled_pixels_ignored": 284320,
+    "scope": "Only labelled pixels. Root4 same-slide development validation; not an independent test."
+  },
+  "model_weights_sha256": "234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633",
+  "prediction_sha256": "c2ecbd1372dd99c7ba4997a397d3dbe0801c7e2a519f894f013f5492d03743f4",
+  "source_files_unchanged": true
+}

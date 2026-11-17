@@ -1,0 +1,43 @@
+{
+  "kind": "Image-context perturbation only; no training, no label editing",
+  "model": "${ROOTSPAN_PROJECT}/04_Results/64_Appearance_Endoderm_Correction/added_endoderm_01/appearance_head.pt",
+  "class_order": [
+    "Clear Endoderm",
+    "Mixed appearance",
+    "Clear Periderm"
+  ],
+  "results": [
+    {
+      "condition": "original",
+      "scores": [
+        0.0028592075686901808,
+        0.9963478446006775,
+        0.0007929548155516386
+      ],
+      "class_index": 1,
+      "changed_pixels": 0
+    },
+    {
+      "condition": "top_fragment_removed",
+      "scores": [
+        0.003978790249675512,
+        0.9952143430709839,
+        0.0008068038150668144
+      ],
+      "class_index": 1,
+      "changed_pixels": 17280
+    },
+    {
+      "condition": "central_main_root_band",
+      "scores": [
+        0.004292694386094809,
+        0.9937111139297485,
+        0.0019962016958743334
+      ],
+      "class_index": 1,
+      "changed_pixels": 37760
+    }
+  ],
+  "main_root_central_rows_80_to_207_unchanged": true,
+  "caution": "This probes sensitivity to off-root pixels; it does not prove the network uses cell shape or that this crop filtering generalizes. All versions share unchanged core main-root pixels."
+}

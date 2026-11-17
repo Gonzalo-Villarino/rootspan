@@ -1,0 +1,7 @@
+root_id,annotation_assisted_length_px,automatic_model_length_px,automatic_minus_annotation_assisted_px,manual_fiji_length_px,manual_minus_annotation_assisted_px,review_status,calibration_status
+1,5730.0,14121.6,8391.7,,,pending; independent manual measurements not supplied,MT25 scale unconfirmed; pixels only
+2,5938.0,13980.1,8042.1,,,pending; independent manual measurements not supplied,MT25 scale unconfirmed; pixels only
+3,6923.4,13152.0,6228.6,,,pending; independent manual measurements not supplied,MT25 scale unconfirmed; pixels only
+4,4466.7,4747.5,280.8,,,pending; independent manual measurements not supplied,MT25 scale unconfirmed; pixels only
+5,7066.7,7917.1,850.4,,,pending; independent manual measurements not supplied,MT25 scale unconfirmed; pixels only
+6,6031.9,13040.6,7008.7,,,pending; independent manual measurements not supplied,MT25 scale unconfirmed; pixels only

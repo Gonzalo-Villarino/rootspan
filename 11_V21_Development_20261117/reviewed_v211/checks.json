@@ -1,0 +1,75 @@
+[
+  {
+    "slide": "7_18",
+    "tracks": 7,
+    "provisional": 0,
+    "candidate_only": 6,
+    "statuses": [
+      "candidate_only",
+      "endpoint_uncertain",
+      "candidate_only",
+      "candidate_only",
+      "candidate_only",
+      "candidate_only",
+      "candidate_only"
+    ]
+  },
+  {
+    "slide": "1_7",
+    "tracks": 7,
+    "provisional": 0,
+    "candidate_only": 5,
+    "statuses": [
+      "candidate_only",
+      "candidate_only",
+      "candidate_only",
+      "candidate_only",
+      "transition_beyond_endpoint",
+      "candidate_only",
+      "no_transition"
+    ]
+  },
+  {
+    "slide": "22_22",
+    "tracks": 7,
+    "provisional": 1,
+    "candidate_only": 5,
+    "statuses": [
+      "candidate_only",
+      "candidate_only",
+      "candidate_only",
+      "endpoint_uncertain",
+      "candidate_only",
+      "provisional",
+      "candidate_only"
+    ]
+  },
+  {
+    "slide": "Col_rep1",
+    "tracks": 6,
+    "provisional": 1,
+    "candidate_only": 4,
+    "statuses": [
+      "candidate_only",
+      "candidate_only",
+      "endpoint_uncertain",
+      "candidate_only",
+      "provisional",
+      "candidate_only"
+    ]
+  },
+  {
+    "slide": "WOX4_rep1",
+    "tracks": 6,
+    "provisional": 0,
+    "candidate_only": 5,
+    "statuses": [
+      "partial_root",
+      "candidate_only",
+      "candidate_only",
+      "candidate_only",
+      "candidate_only",
+      "candidate_only"
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "publication_version": "0.6.0-rootspan.1",
+  "software_tests": {
+    "passed": 48,
+    "failed": 0,
+    "command": "00_Software/ml-env/bin/python -m unittest discover -s 09_Periderm_GUI -p 'test_*.py' -v"
+  },
+  "checkpoint_import": "Original .pth converted to tensor-only state; expected SHA-256 matched.",
+  "runtime_manifest": "Verified 71 runtime files and recorded main-environment library versions.",
+  "transition_bundle": "Verified 40 files.",
+  "ui": "RootSpan title, empty upload page, enabled image picker after run.",
+  "full_slide_regression": {
+    "app": "RootSpan",
+    "version": "0.6.0-rootspan.1",
+    "empty_start": true,
+    "source": "Col_rep1.tif",
+    "run_id": "20261117T162537Z_a7c77710",
+    "root_values_um": [
+      15024.352748888476,
+      17658.900382088585,
+      10035.218767163697,
+      12373.54607417309,
+      12451.832208348009,
+      10654.234754614636
+    ],
+    "prior_approved_values_um": [
+      15024.352748888476,
+      17658.900382088585,
+      10035.218767163697,
+      12373.54607417309,
+      12451.832208348009,
+      10654.234754614636
+    ],
+    "maximum_difference_um": 0.0,
+    "six_numeric_results": true,
+    "scope": "Packaging regression only; not independent biological validation."
+  },
+  "environment_scope": "Existing pinned macOS environments reused through local-only untracked links. Not a clean online installation.",
+  "biology_scope": "These are software and packaging checks, not independent biological validation."
+}

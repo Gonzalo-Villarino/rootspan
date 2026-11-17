@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-11-16T11:52:24.445153+00:00",
+  "user_confirmation_verbatim": "yes panel 3 looks right, endoderm left and periderm right. now?",
+  "reviewed_figure": "${ROOTSPAN_PROJECT}/04_Results/61_Reviewed_Root3_Teaching_Correction/ROOT3_TEACHING_CORRECTION_REVIEW.png",
+  "reviewed_figure_sha256": "0f3e5e791cb82dec7aedb6feea2eb7022c2d687196060b30fbfdbf9d8ca918c5",
+  "correction_record": "${ROOTSPAN_PROJECT}/04_Results/61_Reviewed_Root3_Teaching_Correction/root3_class_correction.json",
+  "correction_record_sha256": "282a7c8bf43d79a3b83ff7cedeae9306a3aaf3f3c9a71a67fc337ec66bab037a",
+  "approved": true,
+  "scope": "User approves shown corrected interior teaching strip and Endoderm-left/Periderm-right class split at approximate working T. Not independent pixel-wise review of all other teaching data.",
+  "new_training_occurred_at_approval": false
+}

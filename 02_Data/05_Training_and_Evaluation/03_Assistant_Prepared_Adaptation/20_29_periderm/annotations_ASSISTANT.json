@@ -1,0 +1,164 @@
+{
+  "version": "5.0.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "Periderm",
+      "points": [
+        [
+          25,
+          580
+        ],
+        [
+          130,
+          555
+        ],
+        [
+          250,
+          530
+        ],
+        [
+          375,
+          506
+        ],
+        [
+          490,
+          485
+        ],
+        [
+          600,
+          464
+        ],
+        [
+          650,
+          455
+        ],
+        [
+          650,
+          483
+        ],
+        [
+          600,
+          499
+        ],
+        [
+          490,
+          522
+        ],
+        [
+          375,
+          546
+        ],
+        [
+          250,
+          567
+        ],
+        [
+          130,
+          594
+        ],
+        [
+          25,
+          617
+        ]
+      ],
+      "group_id": null,
+      "description": "Assistant-prepared sparse training example; not independent reference.",
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "Periderm",
+      "points": [
+        [
+          800,
+          423
+        ],
+        [
+          900,
+          421
+        ],
+        [
+          1000,
+          423
+        ],
+        [
+          1000,
+          463
+        ],
+        [
+          900,
+          452
+        ],
+        [
+          800,
+          462
+        ]
+      ],
+      "group_id": null,
+      "description": "Assistant-prepared sparse training example; not independent reference.",
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "Background",
+      "points": [
+        [
+          30,
+          180
+        ],
+        [
+          570,
+          180
+        ],
+        [
+          570,
+          390
+        ],
+        [
+          30,
+          450
+        ]
+      ],
+      "group_id": null,
+      "description": "Assistant-prepared sparse training example; not independent reference.",
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "Background",
+      "points": [
+        [
+          200,
+          680
+        ],
+        [
+          1000,
+          580
+        ],
+        [
+          1000,
+          900
+        ],
+        [
+          200,
+          900
+        ]
+      ],
+      "group_id": null,
+      "description": "Assistant-prepared sparse training example; not independent reference.",
+      "shape_type": "polygon",
+      "flags": {}
+    }
+  ],
+  "imagePath": "image.png",
+  "imageData": null,
+  "imageHeight": 1024,
+  "imageWidth": 1024,
+  "annotation_provenance": {
+    "author": "programmatic annotation tool",
+    "status": "Assistant-prepared development labels",
+    "biological_basis": "Gonzalo confirmed the main root is Periderm from the cell shapes. Exact sparse polygons drawn by assistant. Upward lateral branch and other tissue excluded.",
+    "prediction_masks_used": false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-11-17T08:13:13.632264+00:00",
+  "selection_before_predictions": true,
+  "selection_rule": "Remaining slides in Accessions_2023 ordered by file size; smallest for current v1 check, next two for later evaluation. Not selected using model results. 7_18 left on disk as unused alternate.",
+  "historical_encoder_exposure": "Unknown; these identities appear in archived PAT QC records. Not claimed independent of original PAT pretraining.",
+  "source_modified": false,
+  "model_run": false,
+  "files": [
+    {
+      "slide": "1_7",
+      "role": "development_check",
+      "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/PAT_Paper_TIFs_2020_2023_Gonzalo_Villarino/Accessions_2023/1_7.tif",
+      "local": "${ROOTSPAN_PROJECT}/02_Data/15_Additional_Slides_20261117/01_Current_Check/1_7.tif",
+      "size_bytes": 394418905,
+      "sha256": "487d1086e4caaca419431a487beb131f050eece8ef8347283cabdf2f8a82a604",
+      "copy_verified": true,
+      "dimensions": [
+        15413,
+        8530
+      ],
+      "mode": "RGB",
+      "frames": 1
+    },
+    {
+      "slide": "15_27",
+      "role": "reserved_local_evaluation",
+      "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/PAT_Paper_TIFs_2020_2023_Gonzalo_Villarino/Accessions_2023/15_27.tif",
+      "local": "${ROOTSPAN_PROJECT}/02_Data/15_Additional_Slides_20261117/02_Reserved_Evaluation/15_27.tif",
+      "size_bytes": 481147273,
+      "sha256": "c62d2351322675f4132fd6f491a744d80b1c7059a35ddc2d5f013a3084fcac85",
+      "copy_verified": true,
+      "dimensions": [
+        16801,
+        9546
+      ],
+      "mode": "RGB",
+      "frames": 1
+    },
+    {
+      "slide": "22_22",
+      "role": "reserved_local_evaluation",
+      "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/PAT_Paper_TIFs_2020_2023_Gonzalo_Villarino/Accessions_2023/22_22.tif",
+      "local": "${ROOTSPAN_PROJECT}/02_Data/15_Additional_Slides_20261117/02_Reserved_Evaluation/22_22.tif",
+      "size_bytes": 429095083,
+      "sha256": "74d1fa19155819af5c9a8c7c0e5c49b0f6ff373af656c174fc7558e0792571ee",
+      "copy_verified": true,
+      "dimensions": [
+        16772,
+        8528
+      ],
+      "mode": "RGB",
+      "frames": 1
+    }
+  ]
+}

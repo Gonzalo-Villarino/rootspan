@@ -1,0 +1,30 @@
+{
+  "result_folder": "${ROOTSPAN_PROJECT}/04_Results/41_New_Image_20_29_Prediction/view_20261115T152946Z_kc80hx_h",
+  "review_date": "2026-11-15",
+  "verified": [
+    "prediction/crop/script hashes",
+    "unchanged source image and saved weights",
+    "crop matches original slide pixels",
+    "numeric mask equals argmax of saved model probabilities"
+  ],
+  "predicted_pixel_counts_not_accuracy": {
+    "Periderm": 99966,
+    "Endoderm": 12233,
+    "Background": 936377
+  },
+  "visual_observations": [
+    "Main primary-root band is predicted mostly Periderm, with largely plausible coarse root/background separation.",
+    "Most dark surrounding space is predicted Background.",
+    "Upward lateral branch is partly Endoderm, with red margins; small green regions and isolated tissue predictions remain elsewhere."
+  ],
+  "limitations": [
+    "No human reference mask: no measured accuracy.",
+    "Biological Periderm identity of the main band still needs user confirmation from the microscopy, not from the red output.",
+    "No separate Lateral root class; green output at the branch does not establish correct biological tissue identity.",
+    "Only one crop; not evidence that the model distinguishes Periderm/Endoderm transitions on the new slide.",
+    "New slide relative to our recent training; original PAT exposure remains unverified."
+  ],
+  "training_updates": 0,
+  "postprocessing": "None",
+  "next": "Ask the user whether the main band is biologically Periderm from the original cell pattern, then select a new region containing identifiable Endoderm/transition for the same fixed model; no retraining or reannotation initiated."
+}

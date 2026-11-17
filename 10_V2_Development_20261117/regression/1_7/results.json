@@ -1,0 +1,400 @@
+{
+  "source_name": "1_7.tif",
+  "source_sha256": "487d1086e4caaca419431a487beb131f050eece8ef8347283cabdf2f8a82a604",
+  "source_dimensions_xy": [
+    15413,
+    8530
+  ],
+  "pixels_per_micrometre": 0.5299,
+  "checkpoint": "Transition_v1_20261116",
+  "geometry_version": "automatic_geometry_prototype_0.2.1",
+  "pipeline_version": "automatic_pipeline_v2.0_context",
+  "rows": [
+    {
+      "track_id": 1,
+      "periderm_length_um": 5608.445080851533,
+      "segment_to_visible_end_um": null,
+      "length_pixels": 2971.9150483432277,
+      "transition_xy": [
+        10755.070224534733,
+        958.3913470066154
+      ],
+      "endpoint_xy": [
+        13584.36983724168,
+        1518.0194724016676
+      ],
+      "status": "provisional",
+      "notes": [
+        "Automatic widening-based endpoint; anatomical junction and transition need validation."
+      ],
+      "endpoint_method": "width_based_junction_candidate",
+      "separation": {
+        "parallel_lane_count": 1,
+        "lane_count_support": 0.8387096774193549,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          2,
+          2,
+          3544,
+          436
+        ],
+        "split_applied": false
+      },
+      "detection_bbox_xyxy": [
+        8,
+        8,
+        14176,
+        1744
+      ],
+      "parallel_intervals_fraction": 0.16129032258064516,
+      "inspection_extension_pixels": 603.7415993686336,
+      "T_path_pixels": 11072.0,
+      "image": "track_01/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": 0.0,
+        "validated_blur_classifier": false
+      },
+      "closeup": "track_01/transition.png"
+    },
+    {
+      "track_id": 2,
+      "periderm_length_um": 15127.158251323985,
+      "segment_to_visible_end_um": null,
+      "length_pixels": 8015.88115737658,
+      "transition_xy": [
+        6153.1810309518205,
+        2234.336512561338
+      ],
+      "endpoint_xy": [
+        13906.809193639412,
+        3604.9069061023915
+      ],
+      "status": "provisional",
+      "notes": [
+        "Automatic widening-based endpoint; anatomical junction and transition need validation."
+      ],
+      "endpoint_method": "width_based_junction_candidate",
+      "separation": {
+        "parallel_lane_count": 2,
+        "lane_count_support": 0.9032258064516129,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          44,
+          396,
+          3624,
+          1165
+        ],
+        "split_applied": true,
+        "lane_in_group": 1
+      },
+      "detection_bbox_xyxy": [
+        260,
+        1584,
+        14496,
+        4020
+      ],
+      "parallel_intervals_fraction": 0.12903225806451613,
+      "inspection_extension_pixels": 747.2434330061642,
+      "T_path_pixels": 6336.0,
+      "image": "track_02/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": 0.0,
+        "validated_blur_classifier": false
+      },
+      "closeup": "track_02/transition.png"
+    },
+    {
+      "track_id": 3,
+      "periderm_length_um": null,
+      "segment_to_visible_end_um": null,
+      "length_pixels": null,
+      "transition_xy": null,
+      "endpoint_xy": [
+        13206.659817499703,
+        4383.179260292289
+      ],
+      "status": "no_transition",
+      "notes": [
+        "No supported transition on the complete inspection path. No length reported."
+      ],
+      "endpoint_method": "width_based_junction_candidate",
+      "separation": {
+        "parallel_lane_count": 2,
+        "lane_count_support": 0.9032258064516129,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          44,
+          396,
+          3624,
+          1165
+        ],
+        "split_applied": true,
+        "lane_in_group": 2
+      },
+      "detection_bbox_xyxy": [
+        176,
+        2880,
+        13976,
+        4660
+      ],
+      "parallel_intervals_fraction": 0.0,
+      "inspection_extension_pixels": 781.225324864794,
+      "T_path_pixels": null,
+      "image": "track_03/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": null,
+        "validated_blur_classifier": false
+      }
+    },
+    {
+      "track_id": 4,
+      "periderm_length_um": 1005.2646589920485,
+      "segment_to_visible_end_um": null,
+      "length_pixels": 532.6897427998865,
+      "transition_xy": [
+        13061.839202652436,
+        4639.65775254436
+      ],
+      "endpoint_xy": [
+        13569.09737243937,
+        4799.353620456242
+      ],
+      "status": "provisional",
+      "notes": [
+        "Automatic widening-based endpoint; anatomical junction and transition need validation."
+      ],
+      "endpoint_method": "width_based_junction_candidate",
+      "separation": {
+        "parallel_lane_count": 1,
+        "lane_count_support": 1.0,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          90,
+          1094,
+          3663,
+          1260
+        ],
+        "split_applied": false
+      },
+      "detection_bbox_xyxy": [
+        360,
+        4376,
+        14652,
+        5040
+      ],
+      "parallel_intervals_fraction": 0.0,
+      "inspection_extension_pixels": 1196.0604390426543,
+      "T_path_pixels": 12864.0,
+      "image": "track_04/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": 0.0,
+        "validated_blur_classifier": false
+      },
+      "closeup": "track_04/transition.png"
+    },
+    {
+      "track_id": 5,
+      "periderm_length_um": null,
+      "segment_to_visible_end_um": null,
+      "length_pixels": null,
+      "transition_xy": null,
+      "endpoint_xy": [
+        12711.276779943812,
+        5606.991381366
+      ],
+      "status": "no_transition",
+      "notes": [
+        "No supported transition on the complete inspection path. No length reported."
+      ],
+      "endpoint_method": "width_based_junction_candidate",
+      "separation": {
+        "parallel_lane_count": 3,
+        "lane_count_support": 0.7419354838709677,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          2,
+          1223,
+          3852,
+          2029
+        ],
+        "split_applied": true,
+        "lane_in_group": 1
+      },
+      "detection_bbox_xyxy": [
+        8,
+        4892,
+        13864,
+        6616
+      ],
+      "parallel_intervals_fraction": 0.0,
+      "inspection_extension_pixels": 1690.1184182291854,
+      "T_path_pixels": null,
+      "image": "track_05/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": null,
+        "validated_blur_classifier": false
+      }
+    },
+    {
+      "track_id": 6,
+      "periderm_length_um": 23897.38198203049,
+      "segment_to_visible_end_um": null,
+      "length_pixels": 12663.222712277957,
+      "transition_xy": [
+        1517.383218887394,
+        5970.497768807074
+      ],
+      "endpoint_xy": [
+        13856.890973252535,
+        6903.754681388098
+      ],
+      "status": "provisional",
+      "notes": [
+        "Automatic widening-based endpoint; anatomical junction and transition need validation."
+      ],
+      "endpoint_method": "width_based_junction_candidate",
+      "separation": {
+        "parallel_lane_count": 3,
+        "lane_count_support": 0.7419354838709677,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          2,
+          1223,
+          3852,
+          2029
+        ],
+        "split_applied": true,
+        "lane_in_group": 2
+      },
+      "detection_bbox_xyxy": [
+        8,
+        5836,
+        15408,
+        7168
+      ],
+      "parallel_intervals_fraction": 0.1935483870967742,
+      "inspection_extension_pixels": 1785.8015785985754,
+      "T_path_pixels": 1536.0,
+      "image": "track_06/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": 0.0,
+        "validated_blur_classifier": false
+      },
+      "closeup": "track_06/transition.png"
+    },
+    {
+      "track_id": 7,
+      "periderm_length_um": null,
+      "segment_to_visible_end_um": null,
+      "length_pixels": null,
+      "transition_xy": null,
+      "endpoint_xy": [
+        13607.425923951552,
+        7291.353409894505
+      ],
+      "status": "no_transition",
+      "notes": [
+        "No supported transition on the complete inspection path. No length reported."
+      ],
+      "endpoint_method": "width_based_junction_candidate",
+      "separation": {
+        "parallel_lane_count": 3,
+        "lane_count_support": 0.7419354838709677,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          2,
+          1223,
+          3852,
+          2029
+        ],
+        "split_applied": true,
+        "lane_in_group": 3
+      },
+      "detection_bbox_xyxy": [
+        1524,
+        6132,
+        14184,
+        8116
+      ],
+      "parallel_intervals_fraction": 0.03225806451612903,
+      "inspection_extension_pixels": 674.5897678307847,
+      "T_path_pixels": null,
+      "image": "track_07/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": null,
+        "validated_blur_classifier": false
+      }
+    }
+  ],
+  "model_version": "V1 weights and rule; V2 full-track inspection pipeline",
+  "detected_groups": 7,
+  "individual_tracks": 7,
+  "provisional_lengths": 4,
+  "training_occurred": false,
+  "human_paths_or_transition_points_used": false,
+  "results_are_provisional": true,
+  "scope": "Automatic processing of horizontal RGB fluorescence roots, hypocotyl to right. Track count is not a verified root count.",
+  "integrity_before": {
+    "passed": true,
+    "files": 40,
+    "version": "Transition_v1_20261116",
+    "read_only_checked": false,
+    "manifest_sha256": "d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb"
+  },
+  "integrity_after": {
+    "passed": true,
+    "files": 40,
+    "version": "Transition_v1_20261116",
+    "read_only_checked": false,
+    "manifest_sha256": "d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb"
+  }
+}

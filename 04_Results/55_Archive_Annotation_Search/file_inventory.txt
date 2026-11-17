@@ -1,0 +1,41 @@
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/RNAseq-Bestradiol_WRKY47_Mutant/IGV.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Submission_to_plant_phenomics/Revised_manuscript_&_new_data/New_Data/WOX4-data/Ling_WOX4_Request_for_Data_Analysis_and_R_Code/Re__quick_zoom_pelase!.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Submission_to_plant_phenomics/Revised_manuscript_&_new_data/New_Data/WOX4-data/Re___WOX4_Request_for_Data_Analysis_and_R_Code.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Samsad /Cloning/Plasmid_Seq_I/RP/2022-06-24UL_1110203.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/qPCR/2023/ABA-WRKY47-MYB41/D7_qPCR_.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Submission_to_plant_phenomics/Revised_manuscript_&_new_data/New_Data/Reproducibility_accessions/Re__PAT_-_revision.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/WRKY47_Manuscript/2024/Manuscripts_with_JL_WB/Manuscripts/20240424_WRKY_Draft_For_WB.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Presentations/Talca/Gonzalo_Villarino_Booz_Allen_11302021.key/Index.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/RNAseq_All_Root_TimeCourse/RNAseq_Bioinformatics/Vijaya.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/RNAseq_All_Root_TimeCourse/RNAseq_Bioinformatics/Matt.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Submission_to_plant_phenomics/Revised_manuscript_&_new_data/Manuscript_Rebuttals/PAT_final_resubmission_for_WB/Re__Response_to_Reviewers_-_PAT.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Presentations/Suberin_club/2021/GV_Suberin_club_062921.key/Index.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Submission_to_plant_phenomics/Accepeted_Forms_PlantPhenomics-D-23-00158R1.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Presentations/Suberin_club/2020/GV_Suberin_club_101320.key/Index.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Old_QC_LIng/QC2/QC/periderm_pl_QC_for_GV.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Presentations/Poster/SAB-2024/Villarino_42x56_FInal-2024_v3.pptx.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/DAP-seq/Results/Me/Matt_RNAseq_tracks/genome_browser_tracks.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Cloning/09622-hpi-283.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/Json_Files/MT25_rep3.json
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/Json_Files/25717_gfp_saved_again.json
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/Json_Files/25717_gfp.json
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/Json_Files/20#MT28_gfp_saved_again_2.json
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/Json_Files/20#MT28_gfp_saved_again.json
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/Json_Files/20#MT28_gfp.json
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/LabelMe/rejsonfilefor6roots.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Cloning/At_Per15-WOX4/NO_GFP/Plasmids_Seq_II_confirm/2022-08-31NF_1124566.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Cloning/CRISPR:Cas9/Promoter_bashing_High-Multiplex/System_Info/CRISPR multiplex.full copy.pdf.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/Figs/Fig2_ground_truth_label/6-roots-labeled.png
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/DAP-seq/wrky47_motif_table.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/DAP-seq/homer_motifs (1).zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Cross-sections/Sammy/20230825.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/ChIP-WRKY47/2022/1st_Try/1st_Sequencing_round/chipseq_alignments_peaks.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Confocal/Me/Gonzalo_880-1/20240412-FY-Confocal/Periderm_image_Z.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Cloning/WRKY47/At_Constructs /35S-WRKY47-3xHA/Re-transformed/2022-11-15PK_1140888.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/FY-GWAS_FY_Candidate_Genes/GWAS-MTs-FY/FY10.Cols/Ling_ANOVA/FY10_Cols_MT25_Penta_Single_Ling__sig_labels.png
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/FY-GWAS_FY_Candidate_Genes/GWAS-MTs-FY/FY47_WRKYs/OUTPUT/Col_MT/COL0_Slide1.json
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/FY-GWAS_FY_Candidate_Genes/GWAS-MTs-FY/FY47_WRKYs/OUTPUT/Col_MT/A04_Slide2.json
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Cloning/CRISPR:Cas9/KnockingoutGenes/ESB1_At/T2-Generation-Genotyping/2022-04-12IG_1093205.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Confocal/Matt/2023/GONZALO_Confocal_Matt_GFP-Quantification/By_zones/Best-Images_for_paper/JPG_Images.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Cloning/CRISPR:Cas9/Promoter_bashing_High-Multiplex/Cloning/Plasmids/Shuttle_vectors.zip
+/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Cloning/CRISPR:Cas9/Promoter_bashing_High-Multiplex/Cloning/JS's_CRISPR_system_Ana.zip

@@ -1,0 +1,34 @@
+{
+  "source_box_xyxy": [
+    14212,
+    1673,
+    15653,
+    2289
+  ],
+  "marker_source_xy": {
+    "A": [
+      14392.098701686675,
+      2059.1423111178733
+    ],
+    "B": [
+      14785.00497952792,
+      1986.6390197617864
+    ],
+    "C": [
+      15175.712029224356,
+      1937.2107084991299
+    ],
+    "D": [
+      15473.583189876072,
+      1933.587076384215
+    ]
+  },
+  "expert_endpoint_input_not_yet_confirmed": false,
+  "expert_reply": "D",
+  "confirmed_stop_xy": [
+    15473.583189876072,
+    1933.587076384215
+  ],
+  "scope": "Expert-reviewed reference point; not detector input or training.",
+  "supersedes": "Earlier cut-root interpretation was corrected to hypocotyl by the user."
+}

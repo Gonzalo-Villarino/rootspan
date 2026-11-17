@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-11-17T08:13:13.632264+00:00",
+  "selection_before_predictions": true,
+  "selection_rule": "Remaining slides in Accessions_2023 ordered by file size; smallest for current v1 check, next two for later evaluation. Not selected using model results. 7_18 left on disk as unused alternate.",
+  "historical_encoder_exposure": "Unknown; these identities appear in archived PAT QC records. Not claimed independent of original PAT pretraining.",
+  "source_modified": false,
+  "model_run": false,
+  "files": [],
+  "selected": [
+    {
+      "slide": "1_7",
+      "role": "development_check",
+      "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/PAT_Paper_TIFs_2020_2023_Gonzalo_Villarino/Accessions_2023/1_7.tif",
+      "size_bytes": 394418905
+    },
+    {
+      "slide": "15_27",
+      "role": "reserved_local_evaluation",
+      "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/PAT_Paper_TIFs_2020_2023_Gonzalo_Villarino/Accessions_2023/15_27.tif",
+      "size_bytes": 481147273
+    },
+    {
+      "slide": "22_22",
+      "role": "reserved_local_evaluation",
+      "source": "/Volumes/SALK_DATA/GV_Laptop_2019-2024_SALK/Periderm_Methods_paper_FY/PAT_Paper_TIFs_2020_2023_Gonzalo_Villarino/Accessions_2023/22_22.tif",
+      "size_bytes": 429095083
+    }
+  ]
+}

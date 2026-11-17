@@ -1,0 +1,37 @@
+{
+  "source": "${ROOTSPAN_PROJECT}/02_Data/16_New_SALK_GUI_Checks_20261117/7_18.tif",
+  "source_sha256": "6ff3e7e893961fbace0c99bf521d41e029cadb21c4522fc4da67f8fcb1bd5980",
+  "weights_sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+  "source_size_wh": [
+    18143,
+    10571
+  ],
+  "padding_left_top": [
+    73,
+    303
+  ],
+  "padded_size_wh": [
+    18288,
+    11176
+  ],
+  "tiles": 198,
+  "grid_xy": [
+    18,
+    11
+  ],
+  "patch": 1024,
+  "stride": 1008,
+  "declared_overlap": 16,
+  "device": "mps",
+  "torch": "2.15.0",
+  "smp": "0.6.0",
+  "adaptations": [
+    "state_dict reconstructed with current SMP",
+    "explicit eval and inference mode",
+    "MPS instead of original CPU",
+    "no metadata CSV or GUI needed",
+    "fixed isolated slide filename"
+  ],
+  "training": false,
+  "scope": "Original grid and mask stages, compatibility-adjusted; not full original software reproduction."
+}

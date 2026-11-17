@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-11-16T12:16:52.220048+00:00",
+  "previous_review": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root2_cell_shape_review_02.json",
+  "user_confirmation_verbatim": "yes to the left of 1 i see the long rectangular endoderm cells.",
+  "confirmed": "Main-root area immediately left of marker1 is Endoderm based on elongated rectangular cells.",
+  "source_marker1_x": 13529,
+  "T_source_x_range": [
+    13529,
+    13785
+  ],
+  "exact_T_selected": false,
+  "potential_training_policy": "A future revised example may use reviewed Endoderm left of1, Periderm right of3 under the confirmed measurement convention, and ignore unresolved1\u20133 interval. No mask created in this step.",
+  "followup_user_suggestion_verbatim": "if u need to show the model more clearly defined go tot he end of the root those cells are very clerly rectanfles",
+  "next_action": "Review a source-only main-root section near left cut end as another clear Endoderm teaching candidate.",
+  "new_training": false,
+  "labels_changed": false
+}

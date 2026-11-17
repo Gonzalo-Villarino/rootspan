@@ -1,0 +1,7 @@
+root_id,automatic_periderm_length_px,automatic_periderm_length_um,pixels_per_um,calibration_status,quality_control,flags,manual_length_px,manual_length_um,manual_minus_automatic_px,manual_minus_automatic_um
+1,11309.908,,,unconfirmed; pixel lengths only,pending,single_E_to_P_change_assumed; biological_endpoint_and_transition_review_pending,,,,
+2,8580.437,,,unconfirmed; pixel lengths only,pending,single_E_to_P_change_assumed; biological_endpoint_and_transition_review_pending,,,,
+3,5412.276,,,unconfirmed; pixel lengths only,pending,single_E_to_P_change_assumed; biological_endpoint_and_transition_review_pending,,,,
+4,1594.468,,,unconfirmed; pixel lengths only,pending,single_E_to_P_change_assumed; biological_endpoint_and_transition_review_pending,,,,
+5,11871.418,,,unconfirmed; pixel lengths only,pending,transition_not_visible_or_entire_root_called_periderm; single_E_to_P_change_assumed; biological_endpoint_and_transition_review_pending,,,,
+6,9048.72,,,unconfirmed; pixel lengths only,pending,single_E_to_P_change_assumed; biological_endpoint_and_transition_review_pending,,,,

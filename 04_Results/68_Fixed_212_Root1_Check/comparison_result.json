@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-11-16T15:02:15.009961+00:00",
+  "model_T_source_xy": [
+    5686.130303161157,
+    272.61427150132204
+  ],
+  "relation_to_B": "left of B rectangle",
+  "expert_expected_relation": "A little to the right of B; approximate visual relation, no exact coordinate or bounded interval supplied.",
+  "B_model_window_ids": [
+    50,
+    51,
+    52,
+    53,
+    54,
+    55
+  ],
+  "B_model_window_counts": {
+    "Endoderm_only": 6,
+    "both_mixed": 0,
+    "Periderm_only": 0,
+    "neither": 0
+  },
+  "qualitative_reference_only": true,
+  "T_error_pixels": null,
+  "new_length_measurement": false,
+  "no_automatic_acceptance": true,
+  "labels_or_weights_changed": false,
+  "limits": "B-window counts overlap and are not accuracy. Model windows can extend beyond the reviewed box and include lateral context. No precise expert T was supplied."
+}

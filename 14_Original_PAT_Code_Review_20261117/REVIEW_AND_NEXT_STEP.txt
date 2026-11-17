@@ -1,0 +1,70 @@
+Original Salk PAT code: project tooling review with independent external reviewer feedback
+17 November 2026
+
+The main conclusion
+We should use the published PAT workflow as a documented comparison before claiming that our experimental pipeline improves it. Our browser V2 is not the original PAT application. It uses PAT-derived image features and our own transition and endpoint rules. The published PAT uses four-class pixel segmentation, mask postprocessing and skeleton-based measurement, with human quality control available.
+
+We reviewed the original Mac CPU workflow at commit 51cdf8966f6da17b711aeb5625205a8a2ca39467. Live GitHub inspection on 17 November 2026 confirmed this is the current default-branch commit. Thirteen complete source/documentation files were supplied to external reviewer. Scope: Mac GUI, segmentation, postprocessing, both measurement resolutions, whole-root measurement, QC and environment. This is not an exhaustive review of every platform variant or the original training code.
+
+The review found reproducible software defects and assumptions that matter for reuse. It does not establish errors in the published paper, identify which code version produced that paper, or establish biological accuracy. No original source file or saved model was changed. No new model version was released.
+
+Findings most relevant to our project
+
+1. Zero periderm and root identity need explicit handling.
+The original periderm CSV lists detected periderm components from top to bottom. It does not first register every whole root and then give that root a measurement or an absence status. If the middle root has no periderm component, the next component can move into its column. Whole-root measurements and QC use separate contour lists and sometimes different sorting/filtering, so corresponding root numbers are not guaranteed to identify the same biological root.
+Evidence: src/measurement_resize_periderm.py:42-80; src/measurement_resize_periderm_lr.py:52-88; src/generate_images_for_QC.py:146-156; src/QC_selected.py:12-42. This is a source-level mapping limitation, not a newly measured error rate.
+Implication: keep one spatial root identifier across prediction, reference, QC and measurement. Distinguish measured length, confirmed absence, uncertain, rejected and removed by a processing rule. Gonzalo's root 1 zero remains a separate expert reference.
+
+2. Stitching can create a Periderm label that neither input tile predicted.
+The original code combines overlapping colour-coded predictions by taking the maximum of each colour channel. With the released label colours, Endodermis [128,0,0] combined with Lateral root [0,128,0] becomes Periderm [128,128,0]. An exact-function synthetic test with no Periderm in any input tile produced 30,480 Periderm-coloured output pixels at the seams.
+Evidence: src/segmentation_patch_cor_mac.py:644,658,669,679; label_class_dict_lr.csv; synthetic_probe_results.json.
+Implication: a corrected variant should combine class scores or choose whole class labels, then colour the result for display. Some invented seam fragments may be removed by later size filters; surviving fragments could extend or bridge other Periderm regions. We have not measured that real-image impact. This has not been shown to cause the errors in our V2, which uses different inference logic.
+
+3. The original tile grid can leave image edges uncovered.
+Tile counts/padded size use 1016 pixels, but tile placement uses a 1008-pixel stride. A uniform 3048-by-3048 synthetic prediction leaves the last eight rows and columns empty, with additional seam-edge effects. The original formula for 7_18's 18143-by-10571 dimensions implies 56 original-image columns beyond the furthest tile extent on the right; its uncovered bottom strip falls within padding. These are analytic calculations, not a full original-PAT run on 7_18. Dimensions come from the saved published_PAT/prediction_record.json in the preceding diagnosis folder; calculations are in audit_environment_and_dimensions.json. The user confirmed hypocotyl-right orientation. We have not established whether the uncovered columns contain tissue or affect these roots' measurements.
+Evidence: src/segmentation_patch_cor_mac.py:57-72,603-683; exact-function synthetic test. The source image remains unchanged.
+
+4. Postprocessing is not another learned biological model.
+The released measurement cleanup fills certain non-Periderm components based on size and keeps rightmost matching components, including a cutoff at 60% of image width. In a synthetic example, an 800-by-60 Endoderm-only component positioned on the right became 48,000 white measurement-mask pixels despite an empty input Periderm mask. This is a confirmed trigger, not evidence that the long root 1 was processed that way. Small genuine components can also be deleted by thresholds.
+Evidence: src/new_post_processing_for_measurement.py:50-84,87-127; synthetic_probe_results.json.
+Separately, the earlier gap-bridging loop found no candidate contours for two Periderm rectangles separated by 100 pixels, because it searches external contours of the inverted mask and filters out the surrounding background. This shows that one simple gap case does not reach that bridging branch; other topologies may behave differently.
+Evidence: src/segmentation_patch_cor_mac.py:768-781; original loop executed on synthetic data.
+Implication: inspect raw and cleaned masks separately. A cleaner-looking mask is not proof of a more accurate biological boundary.
+
+5. The QC export can retain a fully unselected slide.
+The export clears unselected roots only if at least one root from that image appears in the selection list. In our two-slide test, selecting only slideA root 1 removed slideA root 2 but left both completely unselected slideB values in the after-QC CSV. The QC image generator also requests nature_accession_flip, whereas the supplied Mac GUI creates nature_accession; a fresh temporary layout reproduces FileNotFoundError.
+Evidence: src/QC_selected.py:35-42; src/generate_images_for_QC.py:109; PAT_GUI_mac_cpu.py:235-261.
+Implication: rejected/unreviewed results need explicit statuses and tested export rules. Existing selection files and output folders also need isolation between runs. We did not delete or clean the user's historical runs.
+
+6. Unit conversion can change image identifiers.
+The original GUI applies float(value)/scale to every table cell, including Image. Python accepts float('7_18') as 718, so the tested helper changes that identifier to approximately 1354.97 at scale 0.5299. The correct length conversion is still length_pixels / pixels_per_micrometre; only measurement columns should be converted.
+Evidence: PAT_GUI_mac_cpu.py:434-447; exact helper test. This does not mean any existing published table was corrupted.
+
+7. The length estimator counts skeleton pixels rather than geometric distance.
+The final counting expression gives 101 for a horizontal 100-step line and for a diagonal 100-step line; their endpoint distances are 100 and 141.42 pixels. This demonstrates orientation dependence in that expression. It does not quantify the error on real nearly horizontal roots or reproduce the entire FilFinder stage.
+Evidence: src/measurement_resize_periderm_lr.py:54; synthetic counting test. A revised measurement should sum distances along the main-root path, then be compared with manual measurement.
+
+8. Hypocotyl exclusion and uncertain images require separate checks.
+The class list contains Background, Periderm, Endodermis and Lateral root; it has no separate hypocotyl class. In the reviewed workflow we found no explicit anatomical root–hypocotyl trimming step or automated blur-abstention classifier. The original README describes human inspection and selection. This does not mean the original model cannot recognise tissue patterns; it means the requested stopping boundary and absence/uncertainty decisions are not established by those four labels alone.
+
+How project tooling evaluated external reviewer's feedback
+Accepted: root identity/zero handling from source inspection, QC export defect, colour-seam issue, incomplete coverage, size-driven relabelling, conversion, path-length definition and the need for a documented full-PAT baseline. Eight bounded synthetic probes confirmed concrete behaviors, plus analytic 7_18 coverage calculations; root identity itself remains a source-level finding, not a full measurement-stage probe. These probes were run in an isolated pat-audit-env with recorded package and Python versions; they are not the historical PAT environment.
+Qualified wording: external reviewer wrote that the workflow cannot produce reliable per-root lengths "without manual reconciliation" and explicitly distinguished code review from biology. We agree that automatic root correspondence is not guaranteed. Our report emphasises specific failure conditions rather than a universal judgement about PAT measurements. Separate column indices can disagree; they do not necessarily disagree for every slide.
+Untested hypothesis checked in part: external reviewer listed possible train-mode inference, without claiming it explained 7_18. The original script lacks an explicit eval() call. Our saved conversion record reports original_saved_training_flag=false, but it does not list every inner module's flag. The pickled model was not loaded again during this review, so the status of every inner module in the original saved object remains unverified. Our adapted inference explicitly calls eval(), making this a reproducibility safeguard for a future original-code run, not an established explanation of our current results.
+Unresolved: the magnitude of these effects on real images, whether the paper used this exact code snapshot, checkpoint training-set membership for our slides, and anatomical accuracy on additional independently reviewed roots. None was invented or inferred from the synthetic tests.
+
+What happens next
+1. Run a small, isolated baseline of the released PAT stages on the same copied slides. Record the exact weights, source version, Python/package versions and every compatibility/path adaptation. Use isolated fresh output folders, explicit PNG inputs and checked filename stems. Check each subprocess exit code and expected per-stage file counts before measuring. Preserve raw masks, cleaned masks and spatially identified root paths. A compatibility-adjusted run must be labelled as such, not called byte-identical original PAT. The audit's pandas 3.1.1 lacks DataFrame.applymap; the complete old GUI conversion cannot run unchanged there, although the original cell-conversion helper was tested. Any adaptation or older runtime used for a baseline must be recorded.
+2. Compare with V2 and expert references by root position, including the confirmed zero case. Do not tune thresholds while calling that comparison an untouched test.
+3. Develop a separately versioned correction only where the baseline shows the need. Verify software behavior with these probes, then verify biological improvement on slides not used for adjustment. Replacing the trained model is not automatically the first requirement.
+
+Status
+Completed: original-code review, independent external reviewer review, synthetic checks and saved evidence. Not completed: a full original-PAT run on 7_18 or a validated replacement model. The browser's automatic measurements remain provisional. Its separate root 1 expert reference is 0 µm; that record has not trained or corrected the model.
+
+Files
+source_manifest.json: reviewed commit and source hashes.
+reproduce_findings.py, synthetic_probe_results.json, synthetic_probe_log.txt: reproducible checks and results.
+audit_requirements.txt and audit_environment_and_dimensions.json: isolated audit environment package/Python versions and source-dimension calculations. The earlier download_and_conversion_record.json describes the historical download/conversion stage; its statement that scripts had not been run applied then. This review's synthetic execution is documented separately and does not rewrite that historical record.
+review/claude_original_code_feedback.md and receipt: unedited independent feedback and audit record.
+
+Official source: https://github.com/Salk-Harnessing-Plants-Initiative/PAT-Pipeline-for-Analysis-of-Periderm

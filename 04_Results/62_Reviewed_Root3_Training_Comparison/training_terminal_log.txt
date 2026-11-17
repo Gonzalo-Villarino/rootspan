@@ -1,0 +1,74 @@
+reviewed_root3_v9 update0/1200 dev P/E/B recall 0.890/0.476/1.000 tissueIoU0.519 time0s
+Training update25/1200 loss0.7001
+Training update50/1200 loss0.6821
+reviewed_root3_v9 update50/1200 dev P/E/B recall 1.000/0.022/1.000 tissueIoU0.285 time18s
+Training update75/1200 loss0.8306
+Training update100/1200 loss0.9831
+reviewed_root3_v9 update100/1200 dev P/E/B recall 0.946/0.380/1.000 tissueIoU0.489 time34s
+Training update125/1200 loss0.8590
+Training update150/1200 loss0.7413
+reviewed_root3_v9 update150/1200 dev P/E/B recall 0.848/0.534/1.000 tissueIoU0.530 time51s
+Training update175/1200 loss0.6884
+Training update200/1200 loss0.7587
+reviewed_root3_v9 update200/1200 dev P/E/B recall 0.995/0.317/1.000 tissueIoU0.473 time69s
+Training update225/1200 loss0.7309
+Training update250/1200 loss0.7841
+reviewed_root3_v9 update250/1200 dev P/E/B recall 0.968/0.367/1.000 tissueIoU0.492 time86s
+Training update275/1200 loss0.8089
+Training update300/1200 loss0.6279
+reviewed_root3_v9 update300/1200 dev P/E/B recall 0.915/0.572/1.000 tissueIoU0.595 time103s
+Training update325/1200 loss0.6014
+Training update350/1200 loss0.8413
+reviewed_root3_v9 update350/1200 dev P/E/B recall 0.955/0.486/1.000 tissueIoU0.564 time120s
+Training update375/1200 loss0.5373
+Training update400/1200 loss0.8122
+reviewed_root3_v9 update400/1200 dev P/E/B recall 0.783/0.735/1.000 tissueIoU0.612 time137s
+Training update425/1200 loss0.7206
+Training update450/1200 loss0.8520
+reviewed_root3_v9 update450/1200 dev P/E/B recall 0.857/0.560/1.000 tissueIoU0.551 time155s
+Training update475/1200 loss0.9233
+Training update500/1200 loss0.3996
+reviewed_root3_v9 update500/1200 dev P/E/B recall 1.000/0.420/1.000 tissueIoU0.545 time172s
+Training update525/1200 loss0.7684
+Training update550/1200 loss0.6855
+reviewed_root3_v9 update550/1200 dev P/E/B recall 0.827/0.713/1.000 tissueIoU0.629 time189s
+Training update575/1200 loss0.9776
+Training update600/1200 loss0.9597
+reviewed_root3_v9 update600/1200 dev P/E/B recall 0.861/0.571/1.000 tissueIoU0.562 time206s
+Training update625/1200 loss0.8258
+Training update650/1200 loss0.8801
+reviewed_root3_v9 update650/1200 dev P/E/B recall 0.864/0.661/1.000 tissueIoU0.620 time223s
+Training update675/1200 loss0.6979
+Training update700/1200 loss0.9314
+reviewed_root3_v9 update700/1200 dev P/E/B recall 0.960/0.540/1.000 tissueIoU0.604 time240s
+Training update725/1200 loss0.9511
+Training update750/1200 loss0.8662
+reviewed_root3_v9 update750/1200 dev P/E/B recall 0.987/0.524/1.000 tissueIoU0.610 time257s
+Training update775/1200 loss1.0877
+Training update800/1200 loss1.0221
+reviewed_root3_v9 update800/1200 dev P/E/B recall 0.994/0.568/1.000 tissueIoU0.646 time274s
+Training update825/1200 loss0.6249
+Training update850/1200 loss0.5263
+reviewed_root3_v9 update850/1200 dev P/E/B recall 0.862/0.630/1.000 tissueIoU0.599 time292s
+Training update875/1200 loss0.3183
+Training update900/1200 loss0.5065
+reviewed_root3_v9 update900/1200 dev P/E/B recall 0.942/0.568/1.000 tissueIoU0.611 time309s
+Training update925/1200 loss0.7588
+Training update950/1200 loss0.5458
+reviewed_root3_v9 update950/1200 dev P/E/B recall 0.933/0.573/1.000 tissueIoU0.608 time326s
+Training update975/1200 loss0.4873
+Training update1000/1200 loss0.5738
+reviewed_root3_v9 update1000/1200 dev P/E/B recall 0.994/0.512/1.000 tissueIoU0.605 time343s
+Training update1025/1200 loss0.7105
+Training update1050/1200 loss0.4982
+reviewed_root3_v9 update1050/1200 dev P/E/B recall 0.903/0.595/1.000 tissueIoU0.603 time360s
+Training update1075/1200 loss0.4401
+Training update1100/1200 loss0.4756
+reviewed_root3_v9 update1100/1200 dev P/E/B recall 0.980/0.548/1.000 tissueIoU0.622 time377s
+Training update1125/1200 loss0.4699
+Training update1150/1200 loss0.4578
+reviewed_root3_v9 update1150/1200 dev P/E/B recall 0.962/0.560/1.000 tissueIoU0.619 time394s
+Training update1175/1200 loss0.5062
+Training update1200/1200 loss0.4457
+reviewed_root3_v9 update1200/1200 dev P/E/B recall 0.974/0.555/1.000 tissueIoU0.622 time411s
+FINISHED ${ROOTSPAN_PROJECT}/04_Results/54_Refinement_Experiments/reviewed_root3_v9

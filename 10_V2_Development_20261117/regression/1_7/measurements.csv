@@ -1,0 +1,8 @@
+track_id,periderm_length_um,segment_to_visible_end_um,status,endpoint_method,notes
+1,5608.445080851533,,provisional,width_based_junction_candidate,Automatic widening-based endpoint; anatomical junction and transition need validation.
+2,15127.158251323985,,provisional,width_based_junction_candidate,Automatic widening-based endpoint; anatomical junction and transition need validation.
+3,,,no_transition,width_based_junction_candidate,No supported transition on the complete inspection path. No length reported.
+4,1005.2646589920485,,provisional,width_based_junction_candidate,Automatic widening-based endpoint; anatomical junction and transition need validation.
+5,,,no_transition,width_based_junction_candidate,No supported transition on the complete inspection path. No length reported.
+6,23897.38198203049,,provisional,width_based_junction_candidate,Automatic widening-based endpoint; anatomical junction and transition need validation.
+7,,,no_transition,width_based_junction_candidate,No supported transition on the complete inspection path. No length reported.

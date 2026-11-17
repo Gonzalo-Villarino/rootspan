@@ -1,0 +1,11 @@
+{
+  "verified_utc": "2026-11-16T11:32:31.836379+00:00",
+  "source_hash_unchanged": true,
+  "prior_approved_T_J_points_identical": true,
+  "finite_points": true,
+  "source_L_T_J_landmarks_preserved": true,
+  "scale_bar": "1000 um = 529.9 native pixels; display scale applied separately",
+  "visual_check": "Inspected full saved figure. Cyan path follows main root in overview and L/T/J close-ups, avoids lateral branches, and has no visible jump to neighbouring root. Human review of new L-T extension pending.",
+  "no_new_training": true,
+  "final_lengths_reported": false
+}

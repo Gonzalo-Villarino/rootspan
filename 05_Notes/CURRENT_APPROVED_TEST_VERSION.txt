@@ -1,0 +1,5 @@
+Approved test version: Periderm Lab0.6.0, locked17November2026.
+Release: ${ROOTSPAN_PROJECT}/06_Models/Periderm_Lab_0.6.0_Test_Lock_20261117
+Use the existing Periderm Lab.command or http://127.0.0.1:8765/.
+The measurement code, weights, source references and expert corrections are frozen. Every analysis checks saved fingerprints and package versions. Uploads and results remain writable. New calibration values may still be entered for appropriately calibrated images.
+Future requested changes should be developed as a separately named release; preserve this approved copy. No retraining or additional accuracy claim was made when locking.

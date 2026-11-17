@@ -1,0 +1,11 @@
+{
+  "selected_folder": "${ROOTSPAN_PROJECT}/04_Results/54_Refinement_Experiments/expanded_transition_balancing_v6",
+  "weights": "${ROOTSPAN_PROJECT}/04_Results/54_Refinement_Experiments/expanded_transition_balancing_v6/best_weights.pt",
+  "weights_sha256": "1d666a577f63fc0da7c6b8d6d19338557ec1ce3d854b3b7071a7f59a522f67d4",
+  "development_tissue_iou": 0.5191034974110899,
+  "step": 950,
+  "selection_rule": "Highest raw full-image development tissueIoU across six completed experiments; no A04 scores used.",
+  "accepted_as_final": false,
+  "reason": "Development gate remains unmet; frozen for reserved check only.",
+  "root_matching_rule": "Match reference and predicted basal endpoints by one-to-one minimum-distance assignment; reject matches farther than600nativepixels. All failed matches are reported."
+}

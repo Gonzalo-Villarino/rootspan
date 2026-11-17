@@ -1,0 +1,13 @@
+{
+  "padding_left_top": [
+    0,
+    0
+  ],
+  "source_size_wh": [
+    18143,
+    10571
+  ],
+  "source_sha256": "6ff3e7e893961fbace0c99bf521d41e029cadb21c4522fc4da67f8fcb1bd5980",
+  "raw_prediction_record": "13_718_Failure_Diagnosis_20261117/published_PAT/prediction_record.json",
+  "scope": "Adapted class-safe inference followed by original postprocessing. No original colour max stitching."
+}

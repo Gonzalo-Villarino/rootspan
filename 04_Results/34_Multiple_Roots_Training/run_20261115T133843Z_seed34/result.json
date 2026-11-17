@@ -1,0 +1,132 @@
+{
+  "purpose": "Multiple-root development experiment",
+  "seed": 34,
+  "steps_requested": 3000,
+  "batch_size": 6,
+  "learning_rate_initial": 0.0003,
+  "loss": "Mean of per-class cross entropy (classes present) + 0.5 masked multiclass soft Dice. Mask 0/255 ignored.",
+  "augmentation": "Class-balanced field sampling; random 256/384/512 source crop resampled to256, paired rotations90/flips, image-only gain0.6-1.6 and gamma0.8-1.2. RGB/255. Source files unchanged.",
+  "architecture": "Context U-Net: four pooling levels, residual GroupNorm blocks, dilated bottom; 2073715 parameters.",
+  "training_roots": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "development_validation_root": 4,
+  "reserved_root": 6,
+  "checkpoint_selection": "Highest mean tissue IoU on labelled root4 pixels; root4 is validation, not a final test.",
+  "data_manifest": "${ROOTSPAN_PROJECT}/04_Results/33_Multiple_Roots_Data/manifest.json",
+  "data_manifest_sha256": "3cf5da4a2623fd53135564f0d06a3f1efaddf1e2d944d5f61bdcdcf86a667a96",
+  "reference_sha256": "93f8831cc67d3acc75d355a30914aecd7c0a452e13145692941233b0c4be0a63",
+  "baseline_metrics": {
+    "confusion_rows_reference_columns_prediction": [
+      [
+        15320,
+        11057,
+        891
+      ],
+      [
+        18847,
+        5449,
+        506
+      ],
+      [
+        47,
+        260,
+        711879
+      ]
+    ],
+    "per_class": {
+      "Periderm": {
+        "correct": 15320,
+        "reference_pixels": 27268,
+        "recall": 0.5618307173243362,
+        "precision": 0.44776991874671185,
+        "iou": 0.331874702135956,
+        "f1": 0.4983572427702417
+      },
+      "Endoderm": {
+        "correct": 5449,
+        "reference_pixels": 24802,
+        "recall": 0.21970002419159745,
+        "precision": 0.32500298222593343,
+        "iou": 0.15086242697749108,
+        "f1": 0.2621728252501925
+      },
+      "Background": {
+        "correct": 711879,
+        "reference_pixels": 712186,
+        "recall": 0.9995689328349616,
+        "precision": 0.9980414313673809,
+        "iou": 0.9976120507355136,
+        "f1": 0.9988045980881988
+      }
+    },
+    "mean_iou": 0.49344972661632025,
+    "tissue_mean_iou": 0.24136856455672354,
+    "unlabelled_pixels_ignored": 284320,
+    "scope": "Only labelled pixels. Root4 same-slide development validation; not an independent test."
+  },
+  "PAT_reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10981931/",
+  "postprocessing": "None. Raw image-only predictions.",
+  "prediction_preprocessing": "RGB/255. Average softmax predictions at original and half image resolution, then choose the highest-scoring class. Fixed before this run. No reference-mask input or postprocessing.",
+  "model_file": "21_context_unet.py",
+  "best_step": 1900,
+  "completed_steps": 3000,
+  "elapsed_seconds": 158.21575458299776,
+  "validation_metrics": {
+    "confusion_rows_reference_columns_prediction": [
+      [
+        11003,
+        16184,
+        81
+      ],
+      [
+        11200,
+        13578,
+        24
+      ],
+      [
+        0,
+        614,
+        711572
+      ]
+    ],
+    "per_class": {
+      "Periderm": {
+        "correct": 11003,
+        "reference_pixels": 27268,
+        "recall": 0.4035132756344433,
+        "precision": 0.4955636625681214,
+        "iou": 0.2860299469689092,
+        "f1": 0.444826261850377
+      },
+      "Endoderm": {
+        "correct": 13578,
+        "reference_pixels": 24802,
+        "recall": 0.5474558503346504,
+        "precision": 0.44699762970766393,
+        "iou": 0.32639423076923074,
+        "f1": 0.4921526695422089
+      },
+      "Background": {
+        "correct": 711572,
+        "reference_pixels": 712186,
+        "recall": 0.9991378656699234,
+        "precision": 0.9998524611586436,
+        "iou": 0.9989905810967709,
+        "f1": 0.9994950356881245
+      }
+    },
+    "mean_iou": 0.5371382529449703,
+    "tissue_mean_iou": 0.30621208886907,
+    "unlabelled_pixels_ignored": 284320,
+    "scope": "Only labelled pixels. Root4 same-slide development validation; not an independent test."
+  },
+  "model_weights_sha256": "78da0176179496a0eb31bb75b609fb267e64597bd6bd05f1eb9fd48f4f93c4c2",
+  "prediction_sha256": "a0a35fbfdcf5afa88d1dcf15f7abee353e2cefee9890d8b89e99e0d1ca492ee5",
+  "source_files_unchanged": true,
+  "torch_version": "2.15.0",
+  "device": "mps"
+}

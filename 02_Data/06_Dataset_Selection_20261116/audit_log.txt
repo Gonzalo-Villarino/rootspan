@@ -1,0 +1,91 @@
+{
+  "slides": [
+    {
+      "name": "MT25_rep3",
+      "labels": {
+        "Periderm": 6,
+        "Endoderm": 6,
+        "LR": 68
+      },
+      "warnings": []
+    },
+    {
+      "name": "20#MT28_gfp",
+      "labels": {
+        "Periderm": 6,
+        "Endoderm": 6,
+        "LR": 71
+      },
+      "warnings": []
+    },
+    {
+      "name": "25717_gfp",
+      "labels": {
+        "Periderm": 6,
+        "Endoderm": 6,
+        "LR": 67
+      },
+      "warnings": []
+    },
+    {
+      "name": "20_29",
+      "labels": null,
+      "warnings": null
+    },
+    {
+      "name": "2_12",
+      "labels": null,
+      "warnings": null
+    }
+  ],
+  "GV_labels": {
+    "Periderm": 6,
+    "Endoderm": 6,
+    "Background": 6
+  },
+  "GV_warnings": [],
+  "MT25_transition_x_differences": [
+    {
+      "root": 1,
+      "archived_P_start_min_x": 6628.5714285714275,
+      "GV_P_start_min_x": 7790.8038372814,
+      "GV_minus_archived_x_px": 1162.2324087099723,
+      "interpretation": "Outline position disagreement; not a true length error or a biological judgement."
+    },
+    {
+      "root": 2,
+      "archived_P_start_min_x": 8122.222222222222,
+      "GV_P_start_min_x": 7857.0715623177975,
+      "GV_minus_archived_x_px": -265.1506599044242,
+      "interpretation": "Outline position disagreement; not a true length error or a biological judgement."
+    },
+    {
+      "root": 3,
+      "archived_P_start_min_x": 9444.444444444445,
+      "GV_P_start_min_x": 7542.225448582238,
+      "GV_minus_archived_x_px": -1902.2189958622075,
+      "interpretation": "Outline position disagreement; not a true length error or a biological judgement."
+    },
+    {
+      "root": 4,
+      "archived_P_start_min_x": 9330.98051948052,
+      "GV_P_start_min_x": 9439.311314719283,
+      "GV_minus_archived_x_px": 108.33079523876404,
+      "interpretation": "Outline position disagreement; not a true length error or a biological judgement."
+    },
+    {
+      "root": 5,
+      "archived_P_start_min_x": 7623.264705882353,
+      "GV_P_start_min_x": 7250.845287832339,
+      "GV_minus_archived_x_px": -372.41941805001443,
+      "interpretation": "Outline position disagreement; not a true length error or a biological judgement."
+    },
+    {
+      "root": 6,
+      "archived_P_start_min_x": 11492.98245614035,
+      "GV_P_start_min_x": 7728.780262147688,
+      "GV_minus_archived_x_px": -3764.2021939926617,
+      "interpretation": "Outline position disagreement; not a true length error or a biological judgement."
+    }
+  ]
+}

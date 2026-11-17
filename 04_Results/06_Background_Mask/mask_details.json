@@ -1,0 +1,52 @@
+{
+  "annotation_file": "${ROOTSPAN_PROJECT}/02_Data/03_Background_Annotations/MT25_rep3_background_GV.json",
+  "annotation_sha256": "c6ba7bcd741a4e961ad1a2a70424b61313e78b347d67ba892beb1edcf93c324a",
+  "image_file": "${ROOTSPAN_PROJECT}/02_Data/03_Background_Annotations/MT25_rep3_practice.png",
+  "image_sha256": "8b60e04adb22e4a474c77613253f9d165de0dc64cd739a0e4008fec73c75cf87",
+  "script_file": "${ROOTSPAN_PROJECT}/03_Notebooks/07_make_background_mask.py",
+  "script_sha256": "2ab7e57527d7971b8091dd53453ede6021cc5379f7e7780e57d1f77d31cde15d",
+  "width": 15423,
+  "height": 9543,
+  "saved_outlines": {
+    "Periderm": 6,
+    "Endoderm": 6,
+    "Background": 5
+  },
+  "mask_file": "MT25_rep3_background_GV_mask.png",
+  "mask_format": "8-bit grayscale PNG; pixel values are label codes, not image brightness",
+  "pixel_codes": {
+    "0": "Unannotated (ignored)",
+    "1": "Periderm",
+    "2": "Endoderm",
+    "3": "Background",
+    "255": "Conflicting labels (ignored)"
+  },
+  "pixel_counts": {
+    "0": 141765596,
+    "1": 2916798,
+    "2": 1877852,
+    "3": 621390,
+    "255": 53
+  },
+  "trainable_class_codes": [
+    1,
+    2,
+    3
+  ],
+  "exclude_from_future_training": [
+    0,
+    255
+  ],
+  "overlap_policy": "Union within each class; pixels in two or three different classes receive 255, independently of outline order.",
+  "unannotated_note": "0 means unannotated, not Background. Background=3 appears only inside explicitly labelled Background outlines.",
+  "preview_file": "MT25_rep3_background_GV_mask_preview.png",
+  "preview_colours": {
+    "grey": "Unannotated",
+    "red": "Periderm",
+    "green": "Endoderm",
+    "yellow": "Background",
+    "pink": "Conflicting labels"
+  },
+  "preview_note": "Reduced-size viewing picture only. Small or thin regions may disappear. Use the full-size numeric mask for training and counts.",
+  "model_trained": false
+}

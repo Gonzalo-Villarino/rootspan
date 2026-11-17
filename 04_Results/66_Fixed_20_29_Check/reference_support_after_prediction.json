@@ -1,0 +1,130 @@
+{
+  "scope": "Reference counts in the geometric image window, evaluated only after prediction. Unlabelled space is not treated as verified absence. Regional Periderm labels include mixed tissue, so they cannot define clear-Periderm appearance labels automatically.",
+  "windows": [
+    {
+      "window": 0,
+      "center_xy": [
+        185.45587720808564,
+        408.4794883962222
+      ],
+      "reference_counts_in_input_field": {
+        "0": 61187,
+        "2": 20733
+      },
+      "predicted_state": "both_mixed"
+    },
+    {
+      "window": 1,
+      "center_xy": [
+        248.1424690762488,
+        421.3103870222747
+      ],
+      "reference_counts_in_input_field": {
+        "0": 60857,
+        "2": 21063
+      },
+      "predicted_state": "both_mixed"
+    },
+    {
+      "window": 2,
+      "center_xy": [
+        311.78795802561297,
+        427.92342142886184
+      ],
+      "reference_counts_in_input_field": {
+        "0": 60483,
+        "2": 21437
+      },
+      "predicted_state": "both_mixed"
+    },
+    {
+      "window": 3,
+      "center_xy": [
+        375.2288240514485,
+        436.34356589638963
+      ],
+      "reference_counts_in_input_field": {
+        "0": 61265,
+        "1": 2971,
+        "2": 17684
+      },
+      "predicted_state": "both_mixed"
+    },
+    {
+      "window": 4,
+      "center_xy": [
+        438.39769255914274,
+        446.4448894388022
+      ],
+      "reference_counts_in_input_field": {
+        "0": 61152,
+        "1": 7227,
+        "2": 13541
+      },
+      "predicted_state": "both_mixed"
+    },
+    {
+      "window": 5,
+      "center_xy": [
+        500.6190757107989,
+        461.39585780171353
+      ],
+      "reference_counts_in_input_field": {
+        "0": 60819,
+        "1": 11738,
+        "2": 9363
+      },
+      "predicted_state": "both_mixed"
+    },
+    {
+      "window": 6,
+      "center_xy": [
+        562.8150851865134,
+        476.3856604749278
+      ],
+      "reference_counts_in_input_field": {
+        "0": 60718,
+        "1": 16203,
+        "2": 4999
+      },
+      "predicted_state": "Periderm_only"
+    },
+    {
+      "window": 7,
+      "center_xy": [
+        625.5520539738668,
+        487.9906531503406
+      ],
+      "reference_counts_in_input_field": {
+        "0": 60763,
+        "1": 20641,
+        "2": 516
+      },
+      "predicted_state": "Periderm_only"
+    },
+    {
+      "window": 8,
+      "center_xy": [
+        689.1922346401136,
+        494.49811037554775
+      ],
+      "reference_counts_in_input_field": {
+        "0": 59670,
+        "1": 22250
+      },
+      "predicted_state": "Periderm_only"
+    },
+    {
+      "window": 9,
+      "center_xy": [
+        752.3489917478901,
+        504.84827051609136
+      ],
+      "reference_counts_in_input_field": {
+        "0": 59307,
+        "1": 22613
+      },
+      "predicted_state": "both_mixed"
+    }
+  ]
+}

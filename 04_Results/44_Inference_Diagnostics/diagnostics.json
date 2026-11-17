@@ -1,0 +1,310 @@
+{
+  "purpose": "Inference sensitivity only; no training. All variants retained, not an independent best-of-test evaluation.",
+  "weights_sha256": "234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633",
+  "cases": {
+    "20_29_periderm": {
+      "image": "${ROOTSPAN_PROJECT}/04_Results/41_New_Image_20_29_Prediction/view_20261115T152946Z_kc80hx_h/20_29_x7988_y5618_image.png",
+      "image_sha256": "5431a97d9bc0a191a36c19fbdbde29c84b6b296c16ef970353e1719780607c59",
+      "cleanup_boundary_column": 6,
+      "variants": {
+        "native1024": {
+          "pixel_counts_not_accuracy": {
+            "1": 99966,
+            "2": 12233,
+            "3": 936377
+          }
+        },
+        "overlap512": {
+          "pixel_counts_not_accuracy": {
+            "1": 99327,
+            "2": 12751,
+            "3": 936498
+          }
+        },
+        "scale_average": {
+          "pixel_counts_not_accuracy": {
+            "1": 98629,
+            "2": 14376,
+            "3": 935571
+          }
+        },
+        "existing_continuity_rule": {
+          "pixel_counts_not_accuracy": {
+            "1": 108900,
+            "2": 3299,
+            "3": 936377
+          }
+        },
+        "public_PAT4": {
+          "pixel_counts_not_accuracy": {
+            "1": 84473,
+            "2": 3333,
+            "3": 960770
+          }
+        }
+      }
+    },
+    "20_29_ambiguous": {
+      "image": "${ROOTSPAN_PROJECT}/04_Results/42_20_29_Transition_Prediction/view_20261115T153948Z_bmduly9w/20_29_x4864_y6144_image.png",
+      "image_sha256": "f5436003521290375101eed045e0b686ebfd3927c5e5f0080662a538b2aaacc2",
+      "cleanup_boundary_column": 61,
+      "variants": {
+        "native1024": {
+          "pixel_counts_not_accuracy": {
+            "1": 74480,
+            "2": 8713,
+            "3": 965383
+          }
+        },
+        "overlap512": {
+          "pixel_counts_not_accuracy": {
+            "1": 74178,
+            "2": 8965,
+            "3": 965433
+          }
+        },
+        "scale_average": {
+          "pixel_counts_not_accuracy": {
+            "1": 71576,
+            "2": 12897,
+            "3": 964103
+          }
+        },
+        "existing_continuity_rule": {
+          "pixel_counts_not_accuracy": {
+            "1": 78124,
+            "2": 5069,
+            "3": 965383
+          }
+        },
+        "public_PAT4": {
+          "pixel_counts_not_accuracy": {
+            "1": 59998,
+            "2": 6028,
+            "3": 982550
+          }
+        }
+      }
+    },
+    "20_29_clearer": {
+      "image": "${ROOTSPAN_PROJECT}/04_Results/43_20_29_Clearer_Transition_Prediction/view_20261115T155056Z_vbrbuhdb/20_29_x5440_y4256_image.png",
+      "image_sha256": "0a0ce535a2caaf6de5ae13971b29da297734d32503cb3e79787ca8df2b3b22ad",
+      "cleanup_boundary_column": 41,
+      "variants": {
+        "native1024": {
+          "pixel_counts_not_accuracy": {
+            "1": 85065,
+            "2": 25264,
+            "3": 938247
+          }
+        },
+        "overlap512": {
+          "pixel_counts_not_accuracy": {
+            "1": 84048,
+            "2": 26132,
+            "3": 938396
+          }
+        },
+        "scale_average": {
+          "pixel_counts_not_accuracy": {
+            "1": 77852,
+            "2": 32511,
+            "3": 938213
+          }
+        },
+        "existing_continuity_rule": {
+          "pixel_counts_not_accuracy": {
+            "1": 105527,
+            "2": 4802,
+            "3": 938247
+          }
+        },
+        "public_PAT4": {
+          "pixel_counts_not_accuracy": {
+            "1": 73515,
+            "2": 7246,
+            "3": 967815
+          }
+        }
+      }
+    },
+    "MT25_development": {
+      "image": "${ROOTSPAN_PROJECT}/04_Results/31_Root4_Background_Check_Patch/MT25_rep3_root4_x8928_y5264_image.png",
+      "image_sha256": "b8ef9fcdcaeb819e41116b71082e778b1c16eff719651dbfd3248a0f6e04be75",
+      "cleanup_boundary_column": 379,
+      "variants": {
+        "native1024": {
+          "pixel_counts_not_accuracy": {
+            "1": 37623,
+            "2": 26942,
+            "3": 984011
+          },
+          "development_metrics": {
+            "confusion_reference_P_E_B_prediction_P_E_B_LR": [
+              [
+                22935,
+                4333,
+                0,
+                0
+              ],
+              [
+                6601,
+                18201,
+                0,
+                0
+              ],
+              [
+                994,
+                85,
+                711107,
+                0
+              ]
+            ],
+            "class_iou": {
+              "Periderm": 0.6578607692969624,
+              "Endoderm": 0.6228952772073922,
+              "Background": 0.9984849463482854
+            }
+          }
+        },
+        "overlap512": {
+          "pixel_counts_not_accuracy": {
+            "1": 37204,
+            "2": 27401,
+            "3": 983971
+          },
+          "development_metrics": {
+            "confusion_reference_P_E_B_prediction_P_E_B_LR": [
+              [
+                22768,
+                4500,
+                0,
+                0
+              ],
+              [
+                6435,
+                18367,
+                0,
+                0
+              ],
+              [
+                981,
+                89,
+                711116,
+                0
+              ]
+            ],
+            "class_iou": {
+              "Periderm": 0.6564410102640987,
+              "Endoderm": 0.6249191929502229,
+              "Background": 0.9984975834964461
+            }
+          }
+        },
+        "scale_average": {
+          "pixel_counts_not_accuracy": {
+            "1": 39992,
+            "2": 25636,
+            "3": 982948
+          },
+          "development_metrics": {
+            "confusion_reference_P_E_B_prediction_P_E_B_LR": [
+              [
+                21268,
+                6000,
+                0,
+                0
+              ],
+              [
+                8337,
+                16465,
+                0,
+                0
+              ],
+              [
+                826,
+                3,
+                711357,
+                0
+              ]
+            ],
+            "class_iou": {
+              "Periderm": 0.5837885317449425,
+              "Endoderm": 0.5344911540334362,
+              "Background": 0.9988359782416392
+            }
+          }
+        },
+        "existing_continuity_rule": {
+          "pixel_counts_not_accuracy": {
+            "1": 40223,
+            "2": 24342,
+            "3": 984011
+          },
+          "development_metrics": {
+            "confusion_reference_P_E_B_prediction_P_E_B_LR": [
+              [
+                27268,
+                0,
+                0,
+                0
+              ],
+              [
+                6158,
+                18644,
+                0,
+                0
+              ],
+              [
+                199,
+                880,
+                711107,
+                0
+              ]
+            ],
+            "class_iou": {
+              "Periderm": 0.8109442379182156,
+              "Endoderm": 0.7259559224359473,
+              "Background": 0.9984849463482854
+            }
+          }
+        },
+        "public_PAT4": {
+          "pixel_counts_not_accuracy": {
+            "1": 2203,
+            "2": 50313,
+            "3": 996060
+          },
+          "development_metrics": {
+            "confusion_reference_P_E_B_prediction_P_E_B_LR": [
+              [
+                2140,
+                24581,
+                547,
+                0
+              ],
+              [
+                17,
+                24268,
+                517,
+                0
+              ],
+              [
+                0,
+                0,
+                712186,
+                0
+              ]
+            ],
+            "class_iou": {
+              "Periderm": 0.0784313725490196,
+              "Endoderm": 0.4914241743109977,
+              "Background": 0.9985082369435682
+            }
+          }
+        }
+      }
+    }
+  },
+  "public_PAT_weights_sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348"
+}

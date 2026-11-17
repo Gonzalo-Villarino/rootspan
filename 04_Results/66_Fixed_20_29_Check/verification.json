@@ -1,0 +1,28 @@
+{
+  "checked_utc": "2026-11-16T13:23:44.762746+00:00",
+  "head_hash_unchanged": true,
+  "encoder_hash_unchanged": true,
+  "default_U_Net_hash_unchanged": true,
+  "source_image_hash_unchanged": true,
+  "reference_mask_hash_unchanged": true,
+  "raw_prediction_file_hash_unchanged_after_comparison": true,
+  "no_training_optimizer_constructed_in_check_program": true,
+  "image_route_computed_without_reference_labels": true,
+  "main_route_visually_follows_main_root_not_downward_lateral": true,
+  "window_context_can_still_include_lateral_root": true,
+  "rule_recomputed_identically": true,
+  "no_T_was_fabricated": true,
+  "first_field_contains_reference_Endoderm_and_no_reference_Periderm_pixels": true,
+  "prediction_saved_before_scoring_reference": true,
+  "model_and_settings_not_tuned_to_outcome": true,
+  "no_new_blind_test_claim": true,
+  "no_length_claim": true,
+  "figures_visually_checked": [
+    "PREPARED_MAIN_ROOT_PATH.png",
+    "20_29_FIXED_MODEL_RESULT.png",
+    "20_29_PRESENCE_SCORES.png",
+    "RESULT_FOR_LEARNING.png"
+  ],
+  "RESULT_FOR_LEARNING_visual_review_pending": false,
+  "result_figure_sha256": "28992a1db71bcf8a420d77dd73c43243fa6f91ba25439528192fd5c70295d378"
+}

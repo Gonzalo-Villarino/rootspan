@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-11-16T12:13:28.800022+00:00",
+  "previous_review": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root2_cell_shape_review_01.json",
+  "user_response_verbatim": "1-3",
+  "question_answered": "Where is the left edge of the mixed-cell zone on the main root? A range or not clear are valid answers.",
+  "interpretation": "Approximate left-edge transition T lies between numbered positions1and3. This is a boundary-location range; it does not establish that the full mixed-cell zone extends exactly1to3.",
+  "transition_marker_range": [
+    1,
+    3
+  ],
+  "transition_source_x_range": [
+    13529,
+    13785
+  ],
+  "exact_T_selected": false,
+  "mixed_zone_definition": "Left edge of mixed-cell zone is T; mixed zone belongs to Periderm measurement under confirmed user convention.",
+  "historical_derived_Endoderm_strip_source_x_range": [
+    13529,
+    13977
+  ],
+  "teaching_label_implication": "Historical derived Endoderm strip extends right of marker3. Under reviewed T range and regional convention, its portion right of marker3 needs correction/review. Do not reuse the entire historical root2strip as confidently verified Endoderm.",
+  "next_single_check": "Ask whether the main-root area immediately left of marker1 is a confident Endoderm example based on elongated rectangular cells.",
+  "new_masks": false,
+  "new_training": false,
+  "source_annotations_changed": false,
+  "numeric_length_calculated": false
+}

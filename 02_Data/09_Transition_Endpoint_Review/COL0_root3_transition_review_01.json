@@ -1,0 +1,73 @@
+{
+  "created_utc": "2026-11-16T10:38:00.981800+00:00",
+  "source": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.png",
+  "source_sha256": "68669ed917eeecdead464c55e853ec4a1d8f35979b9180110a64e9778f93f8de",
+  "source_box_xyxy": [
+    12421,
+    5880,
+    13445,
+    6380
+  ],
+  "figure": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root3_transition_numbered.png",
+  "photo_origin_in_figure": [
+    0,
+    95
+  ],
+  "photo_size": [
+    1024,
+    500
+  ],
+  "markers": [
+    {
+      "marker": 1,
+      "crop_x": 100,
+      "source_x": 12521
+    },
+    {
+      "marker": 2,
+      "crop_x": 200,
+      "source_x": 12621
+    },
+    {
+      "marker": 3,
+      "crop_x": 300,
+      "source_x": 12721
+    },
+    {
+      "marker": 4,
+      "crop_x": 400,
+      "source_x": 12821
+    },
+    {
+      "marker": 5,
+      "crop_x": 500,
+      "source_x": 12921
+    },
+    {
+      "marker": 6,
+      "crop_x": 600,
+      "source_x": 13021
+    },
+    {
+      "marker": 7,
+      "crop_x": 700,
+      "source_x": 13121
+    },
+    {
+      "marker": 8,
+      "crop_x": 800,
+      "source_x": 13221
+    },
+    {
+      "marker": 9,
+      "crop_x": 900,
+      "source_x": 13321
+    }
+  ],
+  "image_processing": "Unaltered native-pixel crop. Numbered position ticks are outside the photograph; no prediction or segmentation overlay.",
+  "user_observation_verbatim": "i think the transition  left of the downward branch .",
+  "interpretation": "Tentative location on main root, left of downward branch. No exact position or full tissue boundary confirmed.",
+  "next_question": "Which numbered position or interval best represents the main-root Endoderm-Periderm transition?",
+  "annotation_files_changed": false,
+  "new_training": false
+}

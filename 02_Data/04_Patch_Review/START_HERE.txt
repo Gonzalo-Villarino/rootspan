@@ -1,0 +1,9 @@
+PATCH REVIEW - ONE SMALL MICROSCOPY IMAGE
+
+Open MT25_rep3_patch_review_GV.png using Open File inside Labelme.
+This is an identical copy of the image patch used in the earlier training.
+It starts without annotation outlines. Existing slide annotations and results remain saved.
+Do not annotate from the model colours. Use the microscopy image and biological judgement.
+We will review the tissue boundaries and all clearly empty Background in this patch.
+Ambiguous edge pixels may remain unlabelled. No new mask or model was created here.
+New annotation coordinates will be local to this patch, not the full slide.

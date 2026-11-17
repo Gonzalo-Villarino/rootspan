@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-17",
+  "slide": "1_7",
+  "completed_by_user_report": [
+    "Entered Set Scale values and clicked OK",
+    "Selected Segmented Line"
+  ],
+  "observed_in_Fiji": "Original1_7.tif at12.5% zoom;15413x8530native pixels displayed as29086.62x16097.38um, consistent with0.5299px/um. Segmented-line icon selected in toolbar.",
+  "first_root": "Topmost main root in original slide; called root1 for this exercise.",
+  "next_step": "Review saved root06 transition close-ups (largest disagreement). All manual files and v1 predictions saved. No more manual ROI saving needed. No v2 training performed.",
+  "manual_T_selected": false,
+  "junction_confirmed": false,
+  "manual_length_recorded": true,
+  "model_prediction_run": true,
+  "scope": "Read-only inspection and bringing image window to front; no drawing or image edits.",
+  "first_result_observed": {
+    "date": "2026-11-17",
+    "user_report": "Zoomed/did it and pressed M; window appeared.",
+    "window": "Results",
+    "visible_length_approximately_micrometres": 6328,
+    "value_precision": "Right edge of value clipped in screenshot; exact numeric result not exported.",
+    "interpretation": "A line-length result exists. Root identity, drawn path, start and end still need visual verification; not accepted as final periderm length.",
+    "saved_ROI": false,
+    "exported_results": false
+  },
+  "measure_troubleshooting": {
+    "date": "2026-11-17",
+    "user_report": "Redoing trace; pressing M appears not to work.",
+    "observed": "Yellow polyline with vertex handles on1_7image at75%. Invoked Analyze > Measure, then Window > Results. Results contained7rows; last3look identical in visible columns. Right edge of Length column clipped.",
+    "interpretation": "Measurements are being recorded; Results was behind image. Exact causal attribution of rows to keypresses not observed. Seven rows are not seven independent roots.",
+    "action": "Results brought to foreground. No rows deleted and no result accepted as final.",
+    "next": "Inspect chosen trace and biological endpoints; save ROI and exact numerical result separately. No need to retrace solely because Results was hidden."
+  },
+  "root01_saved_table": {
+    "file": "${ROOTSPAN_PROJECT}/04_Results/73_V1_Manual_Comparison_Pilot/01_Manual_References/1_7_root01_manual_initial_20261117.csv",
+    "row": {
+      " ": "1",
+      "Area": "15103.599",
+      "Mean": "24.288",
+      "Min": "3.723",
+      "Max": "65.929",
+      "Length": "8002.110"
+    },
+    "root_identity": "User reports root1",
+    "biological_endpoints_verified": false,
+    "line_ROI_saved": true,
+    "model_run": false
+  },
+  "ROI_manager_observation": {
+    "date": "2026-11-17",
+    "entries": 1,
+    "automatic_entry_name": "01060-11699",
+    "Add_succeeded": true,
+    "ROI_exported_to_disk": true,
+    "geometry_matches_8002_110_result_verified": true,
+    "biological_endpoints_verified": false
+  },
+  "root01_verification": "${ROOTSPAN_PROJECT}/04_Results/73_V1_Manual_Comparison_Pilot/01_Manual_References/root01_trace_file_verification.json",
+  "root02_status": {
+    "automatic_ROI_entry_seen": "03047-10558",
+    "user_reports_renamed": true,
+    "expected_name": "1_7_root02_Periderm",
+    "renamed_text_visually_verified": false,
+    "expected_file_exists": true,
+    "file_search_scope": "Project, Desktop, Downloads, Documents and Documents_Local searched for ROI files; Spotlight root02/RoiSet name search. No root02 ROI located.",
+    "current_UI": "Not inspected in this turn. Successful file save verified on disk.",
+    "measurement_number_preserved_um": 14014.733,
+    "saved_file_name_verified": "1_7_root02_Periderm.roi",
+    "saved_trace_length_um": 13710.563359870024,
+    "original_measurement_number_preserved_um": 14014.733,
+    "repeat_trace": true,
+    "root02_missing_resolved": true
+  },
+  "selected_pilot_roots": [
+    1,
+    2,
+    6
+  ],
+  "root06_status": {
+    "user_reports_completed": true,
+    "name_visually_verified": "1_7_root06_Periderm",
+    "current_ROI_manager_entry_count": 1,
+    "exported_file_verified": true,
+    "save_attempt": "User saved; file verified 2026-11-17.",
+    "geometry_verified": "Valid ImageJ polyline with 30 vertices; sixth-root coordinate range consistent with overview. Biological endpoints not independently reviewed.",
+    "file": "${ROOTSPAN_PROJECT}/04_Results/73_V1_Manual_Comparison_Pilot/01_Manual_References/1_7_root06_Periderm.roi",
+    "length_micrometres_from_saved_trace": 17935.5549610925
+  },
+  "all_three_measurements_table": {
+    "file": "${ROOTSPAN_PROJECT}/04_Results/73_V1_Manual_Comparison_Pilot/01_Manual_References/1_7_roots01_02_06_manual_results_20261117.csv",
+    "lengths_um_by_row": {
+      "1": 8002.11,
+      "2": 14014.733,
+      "3": 17935.555
+    },
+    "reported_root_order": [
+      1,
+      2,
+      6
+    ],
+    "mapping_basis": "User measurement order; rows 1 and 3 match parsed saved ROI lengths. Root02 line geometry still not located."
+  },
+  "manual_trace_files_complete": true,
+  "comparison_result_folder": "${ROOTSPAN_PROJECT}/04_Results/74_Locked_V1_1_7_Comparison"
+}

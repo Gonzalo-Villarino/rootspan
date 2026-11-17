@@ -1,0 +1,102 @@
+[
+  {
+    "path": "02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.json",
+    "recorded_provenance": "Unspecified in this file; inspect source manifest.",
+    "embedded_image": false
+  },
+  {
+    "path": "02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.json",
+    "recorded_provenance": "Unspecified in this file; inspect source manifest.",
+    "embedded_image": false
+  },
+  {
+    "path": "02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json",
+    "recorded_provenance": "Unspecified in this file; inspect source manifest.",
+    "embedded_image": false
+  },
+  {
+    "path": "02_Data/02_My_First_Annotations/MT25_rep3_practice_GV.json",
+    "recorded_provenance": "Unspecified in this file; inspect source manifest.",
+    "embedded_image": false
+  },
+  {
+    "path": "02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root5_Endoderm_DRAFT.json",
+    "recorded_provenance": "Unspecified in this file; inspect source manifest.",
+    "embedded_image": false
+  },
+  {
+    "path": "02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root4_Endoderm_DRAFT.json",
+    "recorded_provenance": "Unspecified in this file; inspect source manifest.",
+    "embedded_image": false
+  },
+  {
+    "path": "02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root6_Endoderm_DRAFT.json",
+    "recorded_provenance": "Unspecified in this file; inspect source manifest.",
+    "embedded_image": false
+  },
+  {
+    "path": "02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root1_Endoderm_DRAFT.json",
+    "recorded_provenance": "Unspecified in this file; inspect source manifest.",
+    "embedded_image": false
+  },
+  {
+    "path": "02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root2_Endoderm_DRAFT.json",
+    "recorded_provenance": "Unspecified in this file; inspect source manifest.",
+    "embedded_image": false
+  },
+  {
+    "path": "02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root3_Endoderm_DRAFT.json",
+    "recorded_provenance": "Unspecified in this file; inspect source manifest.",
+    "embedded_image": false
+  },
+  {
+    "path": "02_Data/03_Background_Annotations/MT25_rep3_background_refined_GV.json",
+    "recorded_provenance": "Unspecified in this file; inspect source manifest.",
+    "embedded_image": false
+  },
+  {
+    "path": "02_Data/03_Background_Annotations/MT25_rep3_background_GV.json",
+    "recorded_provenance": "Unspecified in this file; inspect source manifest.",
+    "embedded_image": false
+  },
+  {
+    "path": "02_Data/01_PAT_Examples/02_Annotations/MT25_rep3.json",
+    "recorded_provenance": "Unspecified in this file; inspect source manifest.",
+    "embedded_image": false
+  },
+  {
+    "path": "02_Data/01_PAT_Examples/02_Annotations/25717_gfp.json",
+    "recorded_provenance": "Unspecified in this file; inspect source manifest.",
+    "embedded_image": false
+  },
+  {
+    "path": "02_Data/01_PAT_Examples/02_Annotations/20#MT28_gfp.json",
+    "recorded_provenance": "Unspecified in this file; inspect source manifest.",
+    "embedded_image": false
+  },
+  {
+    "path": "02_Data/05_Training_and_Evaluation/02_Evaluation_Images/03_Your_Annotations/20_29_root4_reference_GV.json",
+    "recorded_provenance": "Unspecified in this file; inspect source manifest.",
+    "embedded_image": false
+  },
+  {
+    "path": "02_Data/05_Training_and_Evaluation/03_Assistant_Prepared_Adaptation/20_29_periderm/annotations_ASSISTANT.json",
+    "recorded_provenance": {
+      "author": "programmatic annotation tool",
+      "status": "Assistant-prepared development labels",
+      "biological_basis": "Gonzalo confirmed the main root is Periderm from the cell shapes. Exact sparse polygons drawn by assistant. Upward lateral branch and other tissue excluded.",
+      "prediction_masks_used": false
+    },
+    "embedded_image": false
+  },
+  {
+    "path": "02_Data/05_Training_and_Evaluation/03_Assistant_Prepared_Adaptation/20_29_clearer/annotations_ASSISTANT.json",
+    "recorded_provenance": {
+      "author": "programmatic annotation tool",
+      "status": "Assistant-prepared development labels",
+      "biological_basis": "Before seeing prediction, Gonzalo confirmed: clearer, Endoderm left and Periderm right; transition around middle. Exact sparse polygons drawn by assistant, not biologically certified by Gonzalo. Transition x391-724 and lateral branch not labelled.",
+      "prediction_masks_used": false
+    },
+    "embedded_image": false
+  }
+]

@@ -1,0 +1,12 @@
+BACKGROUND ANNOTATION LESSON
+
+Open MT25_rep3_background_GV.json from inside Labelme using Open.
+It loads the copied microscopy image and the 12 existing tissue polygons.
+The original image and JSON remain in 02_My_First_Annotations.
+
+Current state: no Background polygons yet; this is only a working copy.
+Next user action: open this JSON, confirm the six roots and existing labels are visible, then stop. We will choose an empty area together before drawing.
+
+Background means confirmed empty space outside the root in this exercise. A root region missed by an annotation is not automatically Background. Uncertain areas can remain unlabelled.
+
+The existing mask and training programs still describe the old two-tissue lesson. Do not run them on new Background labels until we explain and prepare the three-class conversion.

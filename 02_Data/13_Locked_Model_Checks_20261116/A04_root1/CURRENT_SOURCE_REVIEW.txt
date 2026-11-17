@@ -1,0 +1,1 @@
+Use source_review_02/A04_ROOT1_SOURCE_REVIEW.png and its source_review_plan.json. The parent-folder figure is the initial preparation with branch junctions; it was superseded before expert labels or model predictions.

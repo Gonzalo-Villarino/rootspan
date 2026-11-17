@@ -1,0 +1,443 @@
+{
+  "source_name": "7_18.tif",
+  "source_sha256": "6ff3e7e893961fbace0c99bf521d41e029cadb21c4522fc4da67f8fcb1bd5980",
+  "source_dimensions_xy": [
+    18143,
+    10571
+  ],
+  "pixels_per_micrometre": 0.5299,
+  "checkpoint": "Transition_v1_20261116",
+  "geometry_version": "automatic_geometry_candidate_0.2.2_tail_guidance",
+  "pipeline_version": "automatic_pipeline_v2.1.1_review_safeguards",
+  "rows": [
+    {
+      "track_id": 1,
+      "periderm_length_um": null,
+      "segment_to_visible_end_um": null,
+      "length_pixels": 199.334857773536,
+      "candidate_length_um": 376.1744815503604,
+      "transition_xy": [
+        15313.265880085193,
+        1377.4397049703737
+      ],
+      "endpoint_xy": [
+        15504.094384042903,
+        1325.146719087573
+      ],
+      "status": "candidate_only",
+      "notes": [
+        "Review candidate only; not an accepted periderm measurement.",
+        "Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation."
+      ],
+      "endpoint_method": "fluorescence_boundary_candidate",
+      "separation": {
+        "parallel_lane_count": 1,
+        "lane_count_support": 1.0,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          527,
+          4,
+          4253,
+          446
+        ],
+        "split_applied": false
+      },
+      "detection_bbox_xyxy": [
+        2108,
+        16,
+        17012,
+        1784
+      ],
+      "parallel_intervals_fraction": 0.0,
+      "transition_method": "locked_v1_rule",
+      "brief_transition_review_required": false,
+      "inspection_extension_pixels": 1690.4388682172976,
+      "T_path_pixels": 13376.0,
+      "image": "track_01/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": 0.0,
+        "validated_blur_classifier": false
+      },
+      "closeup": "track_01/transition.png"
+    },
+    {
+      "track_id": 2,
+      "periderm_length_um": null,
+      "segment_to_visible_end_um": 27715.06407608908,
+      "length_pixels": 14686.212453919603,
+      "candidate_length_um": null,
+      "transition_xy": [
+        1063.9389793631162,
+        1380.3979326760807
+      ],
+      "endpoint_xy": [
+        15548.63578616546,
+        1941.9097039554847
+      ],
+      "status": "endpoint_uncertain",
+      "notes": [
+        "No root\u2013hypocotyl junction identified. Segment length ends at the visible right edge, not a confirmed biological junction."
+      ],
+      "endpoint_method": "visible_right_end_only",
+      "separation": {
+        "parallel_lane_count": 3,
+        "lane_count_support": 0.9032258064516129,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          41,
+          263,
+          4211,
+          1233
+        ],
+        "split_applied": true,
+        "lane_in_group": 1
+      },
+      "detection_bbox_xyxy": [
+        164,
+        1052,
+        15552,
+        2444
+      ],
+      "parallel_intervals_fraction": 0.03225806451612903,
+      "transition_method": "locked_v1_rule",
+      "brief_transition_review_required": false,
+      "inspection_extension_pixels": 0.0,
+      "T_path_pixels": 896.0,
+      "image": "track_02/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": 0.0,
+        "validated_blur_classifier": false
+      },
+      "closeup": "track_02/transition.png"
+    },
+    {
+      "track_id": 3,
+      "periderm_length_um": null,
+      "segment_to_visible_end_um": null,
+      "length_pixels": 2534.343552358325,
+      "candidate_length_um": 4782.682680427109,
+      "transition_xy": [
+        13716.220160370178,
+        3181.7507481711664
+      ],
+      "endpoint_xy": [
+        16128.279809641635,
+        3885.2357204577374
+      ],
+      "status": "candidate_only",
+      "notes": [
+        "Review candidate only; not an accepted periderm measurement.",
+        "Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation."
+      ],
+      "endpoint_method": "fluorescence_boundary_candidate",
+      "separation": {
+        "parallel_lane_count": 3,
+        "lane_count_support": 0.9032258064516129,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          41,
+          263,
+          4211,
+          1233
+        ],
+        "split_applied": true,
+        "lane_in_group": 2
+      },
+      "detection_bbox_xyxy": [
+        2856,
+        2112,
+        16844,
+        4476
+      ],
+      "parallel_intervals_fraction": 0.0967741935483871,
+      "transition_method": "locked_v1_rule",
+      "brief_transition_review_required": false,
+      "inspection_extension_pixels": 760.1165551308695,
+      "T_path_pixels": 11008.0,
+      "image": "track_03/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": 0.0,
+        "validated_blur_classifier": false
+      },
+      "closeup": "track_03/transition.png"
+    },
+    {
+      "track_id": 4,
+      "periderm_length_um": null,
+      "segment_to_visible_end_um": null,
+      "length_pixels": 290.09055347706635,
+      "candidate_length_um": 547.4439582507385,
+      "transition_xy": [
+        15350.473696973877,
+        4416.230552210986
+      ],
+      "endpoint_xy": [
+        15638.473790894808,
+        4433.947214236936
+      ],
+      "status": "candidate_only",
+      "notes": [
+        "Review candidate only; not an accepted periderm measurement.",
+        "Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation.",
+        "Brief mixed appearance: only two consecutive mixed fields. Review the blue transition line."
+      ],
+      "endpoint_method": "fluorescence_boundary_candidate",
+      "separation": {
+        "parallel_lane_count": 3,
+        "lane_count_support": 0.9032258064516129,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          41,
+          263,
+          4211,
+          1233
+        ],
+        "split_applied": true,
+        "lane_in_group": 3
+      },
+      "detection_bbox_xyxy": [
+        2012,
+        2436,
+        16200,
+        4932
+      ],
+      "parallel_intervals_fraction": 0.0,
+      "transition_method": "two_mixed_fields_candidate",
+      "brief_transition_review_required": true,
+      "inspection_extension_pixels": 549.739161243433,
+      "T_path_pixels": 14016.0,
+      "image": "track_04/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": 0.0,
+        "validated_blur_classifier": false
+      },
+      "closeup": "track_04/transition.png"
+    },
+    {
+      "track_id": 5,
+      "periderm_length_um": null,
+      "segment_to_visible_end_um": null,
+      "length_pixels": 485.1692383743284,
+      "candidate_length_um": 915.5864094627824,
+      "transition_xy": [
+        15740.8973979246,
+        6498.004864111064
+      ],
+      "endpoint_xy": [
+        16213.71963588417,
+        6525.992830419375
+      ],
+      "status": "candidate_only",
+      "notes": [
+        "Review candidate only; not an accepted periderm measurement.",
+        "Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation."
+      ],
+      "endpoint_method": "fluorescence_boundary_candidate",
+      "separation": {
+        "parallel_lane_count": 2,
+        "lane_count_support": 0.967741935483871,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          544,
+          910,
+          4397,
+          1763
+        ],
+        "split_applied": true,
+        "lane_in_group": 1
+      },
+      "detection_bbox_xyxy": [
+        2280,
+        3640,
+        16840,
+        6816
+      ],
+      "parallel_intervals_fraction": 0.03225806451612903,
+      "transition_method": "locked_v1_rule",
+      "brief_transition_review_required": false,
+      "inspection_extension_pixels": 891.0825171145389,
+      "T_path_pixels": 14016.0,
+      "image": "track_05/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": 0.0,
+        "validated_blur_classifier": false
+      },
+      "closeup": "track_05/transition.png"
+    },
+    {
+      "track_id": 6,
+      "periderm_length_um": null,
+      "segment_to_visible_end_um": null,
+      "length_pixels": 5388.677593061626,
+      "candidate_length_um": 10169.23493689682,
+      "transition_xy": [
+        11622.002045620855,
+        6517.53873867943
+      ],
+      "endpoint_xy": [
+        16790.324620049734,
+        6647.094870827415
+      ],
+      "status": "candidate_only",
+      "notes": [
+        "Review candidate only; not an accepted periderm measurement.",
+        "Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation."
+      ],
+      "endpoint_method": "fluorescence_boundary_candidate",
+      "separation": {
+        "parallel_lane_count": 2,
+        "lane_count_support": 0.967741935483871,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          544,
+          910,
+          4397,
+          1763
+        ],
+        "split_applied": true,
+        "lane_in_group": 2
+      },
+      "detection_bbox_xyxy": [
+        2176,
+        6016,
+        17588,
+        7052
+      ],
+      "parallel_intervals_fraction": 0.0,
+      "transition_method": "locked_v1_rule",
+      "brief_transition_review_required": false,
+      "inspection_extension_pixels": 953.0279608522178,
+      "T_path_pixels": 9600.0,
+      "image": "track_06/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": 0.0,
+        "validated_blur_classifier": false
+      },
+      "closeup": "track_06/transition.png"
+    },
+    {
+      "track_id": 7,
+      "periderm_length_um": null,
+      "segment_to_visible_end_um": null,
+      "length_pixels": 2063.3010819956235,
+      "candidate_length_um": 3893.75558028991,
+      "transition_xy": [
+        13275.660426941371,
+        8348.289709018563
+      ],
+      "endpoint_xy": [
+        15240.895150135413,
+        7747.1879688410545
+      ],
+      "status": "candidate_only",
+      "notes": [
+        "Review candidate only; not an accepted periderm measurement.",
+        "Automatic endpoint candidate from a sustained fluorescence decrease. Anatomical junction and transition need validation."
+      ],
+      "endpoint_method": "fluorescence_boundary_candidate",
+      "separation": {
+        "parallel_lane_count": 1,
+        "lane_count_support": 0.9354838709677419,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          240,
+          1858,
+          4286,
+          2399
+        ],
+        "split_applied": false
+      },
+      "detection_bbox_xyxy": [
+        960,
+        7432,
+        17144,
+        9596
+      ],
+      "parallel_intervals_fraction": 0.06451612903225806,
+      "transition_method": "locked_v1_rule",
+      "brief_transition_review_required": false,
+      "inspection_extension_pixels": 1953.4050970784392,
+      "T_path_pixels": 12544.0,
+      "image": "track_07/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": 0.0,
+        "validated_blur_classifier": false
+      },
+      "closeup": "track_07/transition.png"
+    }
+  ],
+  "model_version": "V1 neural weights; V2.1.1 observed-lane endpoint candidates and explicit review flags",
+  "detected_groups": 7,
+  "individual_tracks": 7,
+  "provisional_lengths": 0,
+  "candidate_lengths": 6,
+  "native_scale_assumption_pixels_per_um": 0.5299,
+  "intensity_assumption": "8-bit RGB fluorescence; fixed thresholds depend on exposure",
+  "training_occurred": false,
+  "human_paths_or_transition_points_used": false,
+  "results_are_provisional": true,
+  "scope": "Automatic processing of horizontal RGB fluorescence roots, hypocotyl to right. Track count is not a verified root count.",
+  "integrity_before": {
+    "passed": true,
+    "files": 40,
+    "version": "Transition_v1_20261116",
+    "read_only_checked": false,
+    "manifest_sha256": "d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb"
+  },
+  "integrity_after": {
+    "passed": true,
+    "files": 40,
+    "version": "Transition_v1_20261116",
+    "read_only_checked": false,
+    "manifest_sha256": "d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb"
+  }
+}

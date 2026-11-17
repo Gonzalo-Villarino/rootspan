@@ -1,0 +1,58 @@
+Periderm Lab: missing measurements and the PAT post-processing check
+17 November 2026
+
+Main conclusion
+Post-processing changes the predicted labels, but it has not solved reliable automatic periderm measurement. In the three-root development comparison, the cleaned-mask path sum, compared with V2's estimate, was closer to the manual length for one root, similar for one and further for one. These are different quantities and pipelines; the effect of cleanup alone was not isolated on slide 1_7. We did not train or release a corrected model. The app now computes a separate, inspectable PAT cleanup comparison for each traceable root, rather than hiding all intermediate data when V2 cannot accept a length. The main anatomical periderm fields keep their existing review flags.
+
+Why roots 2-5 had blanks on 7_18
+2 and 3: V2 could not identify the root-hypocotyl junction. It already had predicted-transition-to-visible-end segments of 27,715 and 3,849 micrometres, which are not confirmed full periderm lengths.
+4: the learned appearance detector and its continuity rule did not accept a transition.
+5: the transition was about 1.5 image pixels beyond the automatic endpoint. This small numerical difference is not proof that either anatomical location is correct; it was not rounded into an invented zero.
+
+What post-processing means
+The model first predicts tissue labels from the image. Post-processing then uses rules to remove, join or retain parts of those predictions. It does not teach the model new cell shapes or update its learned numbers. A cleaner mask can still be biologically wrong.
+
+What was run
+1. An isolated, compatibility-adjusted baseline of the original PAT mask stages: original centred padding and 1024-pixel/16-overlap grid, original colour-channel stitching, original cleanup loops and measurement-mask functions. Inference reconstructed the saved original weights with current PyTorch/SMP, explicit eval mode and Apple MPS. The original GUI and FilFinder length measurement were not run. Source-coordinate masks were recovered using the recorded padding. No source images, original repository outputs or old GUI runs were overwritten.
+2. A comparison using the same original weights with our class-safe 1024/64-halo/896-core tiling, then the original cleanup stages. This is an adapted PAT workflow, not an exact reproduction of the published software. The app uses this second workflow only as a diagnostic.
+3. The masks were sampled along each existing V2 main-root polyline at no more than one image pixel per subsegment. Length uses Euclidean arc distance and the confirmed 0.5299 pixels per micrometre. Each sampled path starts at the detected left end and ends at V2's automatic endpoint, or its visible end if no junction was found. A common path was used for before/after comparisons. No human endpoint was fed to the prediction.
+
+What the new 7_18 table means (adapted class-safe tiling, not the original-grid baseline)
+These are summed path portions labelled Periderm, NOT final anatomical periderm lengths:
+Root | Raw labels (um) | After original cleanup (um)
+1 | 1,234 | 0
+2 | 25,058 | 28,990
+3 | 15,491 | 4,358
+4 | 824 | 70
+5 | 420 | 318
+6 | 8,404 | 8,404
+7 | 1,537 | 1,551
+Zero means no Periderm retained on that sampled path. It does not automatically establish biological absence. Root 1's separate expert reference is zero; the raw output disagrees, while the cleaned-path result agrees on this example. Hypocotyl can still be included when the automatic endpoint is wrong. The full cleaned mask still contains predicted Periderm in root 1's right-hand swollen region; the zero applies only to the truncated measured path.
+
+Comparison with the three existing Fiji ROIs on slide 1_7
+This table uses the SAME quantity as the 7_18 table: the summed P-labelled path after the original 2D PAT cleanup stages, with class-safe tiling. The separate 150-pixel/rightmost-run experiment is not used by the delivered table or CSV. For these three roots its numbers happened to match the sum, but it is a different method and must not be confused with it.
+Root | Your manual length (um) | V2 estimate (um) | Cleaned-mask path length (um)
+1 | 8,002 | 5,608 | 5,614
+2 | 13,711 | 15,127 | 15,583
+6 | 17,936 | 23,897 | 13,793
+Absolute errors after cleanup are approximately 2,388, 1,872 and 4,142 um. Compared with V2's estimate, the cleaned-mask path sum is closer to the manual length for root 6, similar for root 1 and further for root 2. These different quantities are compared to explore whether a path sum might be a useful proxy, not to claim anatomical equivalence. Raw P sums were not included for 1_7, so this comparison does not isolate the effect of cleanup alone. This is a development comparison, not an independent final test. These results do not justify calling the cleanup a validated replacement.
+
+Implementation sensitivity
+The original-grid baseline gave root 4 a cleaned path value of 256 um, versus 70 um with class-safe tiling. Root 6 gave 7,721 versus 8,404 um. These are two implementation workflows, not proof of anatomical accuracy or a controlled attribution to tiling alone. Root 6's raw and cleaned class-safe P sample membership was checked: it is unchanged, so the identical before/after value is real. Source colour encoding was checked through PIL write and OpenCV read; only Periderm passes the original >89 grayscale threshold. The final retained mask contains only 0 and 255.
+
+What changed in the app
+Include PAT cleanup comparison is checked for new V2 analyses; it is disabled for V1. The additional panel is clearly titled PAT cleanup comparison and explains that its values are not anatomical periderm measurements. It provides before/after path overlays and a separately labelled diagnostic CSV. The primary V1/V2 results, accepted counts, source data, old results and saved weights are preserved. Quality failures remain withheld. Every diagnostic CSV row includes its source, V2 pipeline, diagnostic workflow and version, raw-mask hash, scale, endpoint-verification flag, raw/cleaned detection states and explicit non-anatomical scope, including the zero caveat. Rows with withheld status or invalid raw paths are reported as not computed. A failure after raw sampling succeeds, such as cleaned sampling or file writing, fails the whole supplementary comparison; the main result survives and the app reports a specific error. Any partial model_diagnostics folder receives an INVALID_INCOMPLETE.txt marker; this marker does not cover a failed pat_prediction folder. V1 runs explicitly state that this comparison is available only for V2.
+
+Runtime
+The additional 7_18 inference took about 17 seconds in this run; cleanup and report generation take additional time. Peak memory was not instrumented, so no measured memory figure is claimed. There is no prediction cache: a new analysis recomputes its labels. Originals remain unchanged.
+
+What remains necessary for a reliable automatic solution
+The model needs evidence for two distinct locations: T, the left edge of the mixed-cell transition, and J, the root-hypocotyl junction. Original PAT has no separate hypocotyl class. Rules that clean Periderm pixels cannot reliably supply that missing anatomical distinction. The next training task should use expert-reviewed T and J examples, including roots with no periderm, and separate slides for evaluation. A location detector or a hypocotyl class should be tested, followed by per-root continuity cleanup. Missing or blurry evidence must remain an explicit failed result. Better training and independent evaluation, not forcing more filled cells, are needed before hundreds of images can be measured unattended.
+
+This is a concrete diagnostic/reporting improvement and a tested post-processing investigation. The request for reliable fully automatic periderm lengths for every root is still unresolved.
+
+Reproducibility
+The complete new 7_18 run is 09_Periderm_GUI/runs/20261117T151217Z_92ee61ce.
+software_tests.txt records 30 passing software tests, including supplementary-result integration and the server failure fallback. verification.json confirms the V2 rows and primary CSV are unchanged, all seven tracks have diagnostics, the repeated raw mask matches the prior mask hash, and the source image is unchanged. These are computational checks, not biological accuracy checks.
+Original-mask baseline: original_grid_718; adapted cleanup checks: class_safe_718 and class_safe_1_7; exact stage definitions: run_original_mask_baseline.py and 09_Periderm_GUI/pat_postprocessing.py. Original PAT reference repository commit: 51cdf8966f6da17b711aeb5625205a8a2ca39467. This identifies Ling's reference source, not the local app changes. Local app source hashes are recorded separately in final_code_hashes.json.
+Independent external reviewer feedback and decisions are saved under review. external reviewer reviews supplied code and records, not an independent microscopy experiment. Audit records are self-kept by project tooling.

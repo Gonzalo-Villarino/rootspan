@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-11-16T14:38:53.713124+00:00",
+  "source_review": "${ROOTSPAN_PROJECT}/02_Data/11_Next_Root_Review_20261116/A04_root3/source_review_plan.json",
+  "expert_review_sha256": "b3a42937047b5c10170feec86778b5c8439f21402a6baec7aa6a19a32adec2f3",
+  "frozen_head_sha256": "6cce6ef74330a9de4422cdb738144f972cedff41f07d4de3e9c9869b6e4054b9",
+  "frozen_encoder_sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+  "scan": "Same 320 x 256 native path-aligned fields every 64 path pixels; identical standardize and fixed boundary_rule.",
+  "comparison": "After prediction, compare the nearest scan field to each reviewed field centre. The geometric fields differ slightly; show exact processed input for inspection. No pixel accuracy or precise T error.",
+  "batch_size": 8,
+  "new_training": false,
+  "threshold_changes": false,
+  "test_scope": "Familiar A04 development slide; different from local COL0 appearance-head teaching, not blind final validation.",
+  "calibration": "A04 not confirmed; do not calculate micrometre lengths.",
+  "quality_handling": "Retain expert blur flag; do not sharpen or exclude based on model output."
+}

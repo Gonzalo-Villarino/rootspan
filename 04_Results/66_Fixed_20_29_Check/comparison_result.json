@@ -1,0 +1,57 @@
+{
+  "created_utc": "2026-11-16T13:20:06.172727+00:00",
+  "image": "20_29 root4",
+  "prediction_saved_before_reference_mask_read": true,
+  "prediction_sha256": "183f38baf01e1bb8baf42754907ebd5334aea20027c2e04de0cb1e49b649457d",
+  "reference_mask": "${ROOTSPAN_PROJECT}/04_Results/52_Reference_Check_20261116/reference_mask.png",
+  "reference_mask_sha256": "2be0b391887b5608527ee3315d21ab4a1130f19dca2a65dfeb8c42f0df37a6b3",
+  "reference_method": "Gap between last Endoderm-labelled path pixel and first Periderm-labelled path pixel, only if order is unambiguous. Midpoint is a working comparison, not an exact manually marked T.",
+  "reference_class_order_unambiguous": true,
+  "reference_boundary_gap_along_path_pixels": [
+    455.0,
+    466.0
+  ],
+  "reference_boundary_midpoint_along_path_pixels": 460.5,
+  "reference_boundary_midpoint_image_xy": [
+    481.5857108012179,
+    457.1568538495301
+  ],
+  "candidate_T_along_path_pixels": null,
+  "candidate_T_image_xy": null,
+  "difference_from_outline_reference_midpoint_pixels": null,
+  "reference_path_class_counts": {
+    "0": 10,
+    "1": 487,
+    "2": 456
+  },
+  "window_counts": {
+    "Endoderm_only": 0,
+    "both_mixed": 7,
+    "Periderm_only": 3,
+    "neither": 0
+  },
+  "diagnostic_runs": [
+    {
+      "state": 1,
+      "start": 0,
+      "stop_exclusive": 6,
+      "samples": 6
+    },
+    {
+      "state": 2,
+      "start": 6,
+      "stop_exclusive": 9,
+      "samples": 3
+    },
+    {
+      "state": 1,
+      "start": 9,
+      "stop_exclusive": 10,
+      "samples": 1
+    }
+  ],
+  "new_training": false,
+  "model_modified": false,
+  "separate_image_check": "Local head was taught on COL0 only. 20_29 is familiar development; published-encoder pretraining membership unknown. Not a blind final test.",
+  "not_a_full_root_length_measurement": true
+}

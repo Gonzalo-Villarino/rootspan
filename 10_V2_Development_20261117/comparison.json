@@ -1,0 +1,347 @@
+{
+  "scope": "Execution and coverage, not biological accuracy. No new training. No changes to earlier measured endpoints.",
+  "slides": [
+    {
+      "slide": "1_7",
+      "baseline_job": "20261117T114032Z_multiroot_a71bfdc9",
+      "V2_results": "${ROOTSPAN_PROJECT}/10_V2_Development_20261117/regression/1_7",
+      "V1_provisional_lengths": 3,
+      "V2_provisional_lengths": 4,
+      "rows": [
+        {
+          "root": 1,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 5608.445080851533,
+          "V2_length_um": 5608.445080851533,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 2,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 15127.158251323985,
+          "V2_length_um": 15127.158251323985,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 3,
+          "V1_status": "no_transition",
+          "V2_status": "no_transition",
+          "V1_length_um": null,
+          "V2_length_um": null,
+          "T_change_pixels": null,
+          "new_T_found": false
+        },
+        {
+          "root": 4,
+          "V1_status": "no_transition",
+          "V2_status": "provisional",
+          "V1_length_um": null,
+          "V2_length_um": 1005.2646589920485,
+          "T_change_pixels": null,
+          "new_T_found": true
+        },
+        {
+          "root": 5,
+          "V1_status": "no_transition",
+          "V2_status": "no_transition",
+          "V1_length_um": null,
+          "V2_length_um": null,
+          "T_change_pixels": null,
+          "new_T_found": false
+        },
+        {
+          "root": 6,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 23897.38198203049,
+          "V2_length_um": 23897.38198203049,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 7,
+          "V1_status": "no_transition",
+          "V2_status": "no_transition",
+          "V1_length_um": null,
+          "V2_length_um": null,
+          "T_change_pixels": null,
+          "new_T_found": false
+        }
+      ]
+    },
+    {
+      "slide": "22_22",
+      "baseline_job": "20261117T114050Z_multiroot_c79c6d9f",
+      "V2_results": "${ROOTSPAN_PROJECT}/10_V2_Development_20261117/regression/22_22",
+      "V1_provisional_lengths": 5,
+      "V2_provisional_lengths": 5,
+      "rows": [
+        {
+          "root": 1,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 16657.49134838157,
+          "V2_length_um": 16657.49134838157,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 2,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 14906.951410145975,
+          "V2_length_um": 14906.951410145975,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 3,
+          "V1_status": "endpoint_uncertain",
+          "V2_status": "endpoint_uncertain",
+          "V1_length_um": null,
+          "V2_length_um": null,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 4,
+          "V1_status": "endpoint_uncertain",
+          "V2_status": "endpoint_uncertain",
+          "V1_length_um": null,
+          "V2_length_um": null,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 5,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 16519.418903443064,
+          "V2_length_um": 16519.418903443064,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 6,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 18836.140590311756,
+          "V2_length_um": 18836.140590311756,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 7,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 17963.267989220825,
+          "V2_length_um": 17963.267989220825,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        }
+      ]
+    },
+    {
+      "slide": "7_18",
+      "baseline_job": "20261117T114112Z_multiroot_2206e4dd",
+      "V2_results": "${ROOTSPAN_PROJECT}/10_V2_Development_20261117/diagnostics/v2_full_context_7_18",
+      "V1_provisional_lengths": 1,
+      "V2_provisional_lengths": 2,
+      "rows": [
+        {
+          "root": 1,
+          "V1_status": "no_transition",
+          "V2_status": "transition_beyond_endpoint",
+          "V1_length_um": null,
+          "V2_length_um": null,
+          "T_change_pixels": null,
+          "new_T_found": true
+        },
+        {
+          "root": 2,
+          "V1_status": "endpoint_uncertain",
+          "V2_status": "endpoint_uncertain",
+          "V1_length_um": null,
+          "V2_length_um": null,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 3,
+          "V1_status": "endpoint_uncertain",
+          "V2_status": "endpoint_uncertain",
+          "V1_length_um": null,
+          "V2_length_um": null,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 4,
+          "V1_status": "no_transition",
+          "V2_status": "no_transition",
+          "V1_length_um": null,
+          "V2_length_um": null,
+          "T_change_pixels": null,
+          "new_T_found": false
+        },
+        {
+          "root": 5,
+          "V1_status": "no_transition",
+          "V2_status": "transition_beyond_endpoint",
+          "V1_length_um": null,
+          "V2_length_um": null,
+          "T_change_pixels": null,
+          "new_T_found": true
+        },
+        {
+          "root": 6,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 8463.164178261628,
+          "V2_length_um": 8463.164178261628,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 7,
+          "V1_status": "no_transition",
+          "V2_status": "provisional",
+          "V1_length_um": null,
+          "V2_length_um": 3162.1784973418007,
+          "T_change_pixels": null,
+          "new_T_found": true
+        }
+      ]
+    },
+    {
+      "slide": "Col_rep1",
+      "baseline_job": "20261117T114132Z_multiroot_aa685e88",
+      "V2_results": "${ROOTSPAN_PROJECT}/10_V2_Development_20261117/regression/Col_rep1",
+      "V1_provisional_lengths": 6,
+      "V2_provisional_lengths": 6,
+      "rows": [
+        {
+          "root": 1,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 11114.171265241639,
+          "V2_length_um": 11114.171265241639,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 2,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 16535.5683631375,
+          "V2_length_um": 16535.5683631375,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 3,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 11094.233914799039,
+          "V2_length_um": 11094.233914799039,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 4,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 15004.962122819576,
+          "V2_length_um": 15004.962122819576,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 5,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 15197.808385876346,
+          "V2_length_um": 15197.808385876346,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 6,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 8846.606168295139,
+          "V2_length_um": 8846.606168295139,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        }
+      ]
+    },
+    {
+      "slide": "WOX4_rep1",
+      "baseline_job": "20261117T114149Z_multiroot_71929a70",
+      "V2_results": "${ROOTSPAN_PROJECT}/10_V2_Development_20261117/regression/WOX4_rep1",
+      "V1_provisional_lengths": 3,
+      "V2_provisional_lengths": 5,
+      "rows": [
+        {
+          "root": 1,
+          "V1_status": "partial_root",
+          "V2_status": "partial_root",
+          "V1_length_um": null,
+          "V2_length_um": null,
+          "T_change_pixels": null,
+          "new_T_found": false
+        },
+        {
+          "root": 2,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 6284.935776258131,
+          "V2_length_um": 6284.935776258131,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 3,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 6875.336034642181,
+          "V2_length_um": 6875.336034642181,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        },
+        {
+          "root": 4,
+          "V1_status": "no_transition",
+          "V2_status": "provisional",
+          "V1_length_um": null,
+          "V2_length_um": 2014.7893870432924,
+          "T_change_pixels": null,
+          "new_T_found": true
+        },
+        {
+          "root": 5,
+          "V1_status": "no_transition",
+          "V2_status": "provisional",
+          "V1_length_um": null,
+          "V2_length_um": 702.664211508371,
+          "T_change_pixels": null,
+          "new_T_found": true
+        },
+        {
+          "root": 6,
+          "V1_status": "provisional",
+          "V2_status": "provisional",
+          "V1_length_um": 6094.997097240726,
+          "V2_length_um": 6094.997097240726,
+          "T_change_pixels": 0.0,
+          "new_T_found": false
+        }
+      ]
+    }
+  ]
+}

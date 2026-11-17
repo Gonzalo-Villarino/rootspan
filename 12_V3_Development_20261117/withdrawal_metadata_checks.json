@@ -1,0 +1,11 @@
+{
+  "classifier_checks_passed": 3,
+  "archived_withdrawn_runs": [
+    {
+      "job": "20261117T125305Z_8bbe6d9a",
+      "pipeline": "v21",
+      "summary_version": "automatic_pipeline_v2.1_geometry"
+    }
+  ],
+  "summary_only_runs": 0
+}

@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-11-16T15:11:31.987728+00:00",
+  "expert": "Gonzalo Villarino",
+  "statement": "the model should have placed the blue line furhter to the right - what happened with the ideas that the model shokud look fior both peri and endo cells and say \"oh hhh this is the T zone\"? it worked before why not now? how can we fix it ? we are cloise",
+  "accepted_current_T": false,
+  "correction": "T must move farther right. Earlier approximate reference was a little right of B.",
+  "exact_new_coordinate": null,
+  "does_not_authorize_invented_cell_class_labels": true
+}

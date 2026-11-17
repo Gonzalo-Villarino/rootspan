@@ -1,0 +1,13 @@
+{
+  "train_expanded_fields.py": "73215eed07db54d0a7d58f35bb359c057e554f080c775b3286c365d80da1ecfe",
+  "evaluate_expanded_fields.py": "8cc5156e530548aa2cef63e102bbb34de0f327c0f67abed2c5af6fc4d2d872e7",
+  "EXPANDED_FIELDS_PLAN.txt": "cf6d98143004fa727b1a3c9608b7448d27906fbf900ca9f2a916c1cb6d0dd96f",
+  "expanded_fields_trial/experimental_presence_head.pt": "1029e092b64c13ea9632d2d585ad28967eacf59e7cec703598983494680de3f4",
+  "expanded_fields_trial/gate.json": "287ef629abe2450bc76385f7869408ea1031276a314a3f619d7ddc12848f40d3",
+  "expanded_fields_one_seven/comparison.json": "bdebc163b821ccd034702a2fd549cc4b152c616989b7178686b0becfbe9759e9",
+  "REVIEW_AND_RESULTS.txt": "f73b084f66e12e0e86f318e5d86ebf1cb72948af3061ab00650d7660d61a00e4",
+  "TRANSITION_ERROR_COMPARISON.png": "ec338c6f04cc932cdaeaa8cd34534f3f8fd04144907e3cff220c9245eec359ad",
+  "GUI_REVIEW_STATUS.png": "83420ebfe3b74d67365aed29994f1eb60cb29cd16736b82e042666fa93d96066",
+  "server.py": "cda17592777f26c56c1dcf8a84db2ab6fbbd5eed6b1869bdd83c97d42dce79ad",
+  "index.html": "1fff2b5a197a5c2f63492c9f95a4324e35ed9daeb31c67a9a20a232ab9ac74f1"
+}

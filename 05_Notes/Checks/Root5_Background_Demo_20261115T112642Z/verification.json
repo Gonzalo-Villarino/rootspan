@@ -1,0 +1,23 @@
+{
+  "source": "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json",
+  "before_sha256": "45146652fb42b420bed983105127108a0e8daa4205e43880442308da4754698a",
+  "authorization": "User explicitly asked project tooling to draw the demonstrated Background polygon in Labelme so he can see what is meant.",
+  "method": "Native Labelme GUI; existing tissue annotations to remain unchanged.",
+  "after_sha256": "626af9e59a6f65404e09552f88698834eb03f1bcc5641a8cb42230b353661f06",
+  "after_shape_count": 15,
+  "original_14_shapes_unchanged": true,
+  "image_and_other_metadata_unchanged": true,
+  "added_shape_label": "Background",
+  "added_shape_type": "polygon",
+  "added_shape_vertices": 28,
+  "added_shape_bounds": [
+    6973.58019322959,
+    6572.898179972271,
+    7972.610261124838,
+    6801.8021566939
+  ],
+  "added_background_overlap_with_existing_tissue_pixels": 0,
+  "gui_status": "EDIT; Saved",
+  "training_performed": false,
+  "training_mask_generated": false
+}

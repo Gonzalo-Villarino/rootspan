@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "checked_by": "project tooling",
+  "figure": "PREPARED_MAIN_ROOT_PATH.png",
+  "outcome": "Path follows upper main-root structure across crop, not the lower root or long lateral branches. Local connected branching and surrounding branch context remain in source; this route is not a full-root length reference."
+}

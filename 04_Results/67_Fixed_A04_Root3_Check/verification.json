@@ -1,0 +1,16 @@
+{
+  "protected_files_unchanged": {
+    "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png": "529ad2cf67513b8a4a4bae737261ff068fca498c166a5bf2d073d59ad713fe4c",
+    "${ROOTSPAN_PROJECT}/06_Models/20261116_Two_Appearance_Candidate/presence_head.pt": "6cce6ef74330a9de4422cdb738144f972cedff41f07d4de3e9c9869b6e4054b9",
+    "${ROOTSPAN_PROJECT}/00_Software/PAT_Reference/pat_state_dict.pt": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+    "${ROOTSPAN_PROJECT}/06_Models/working_model.pt": "234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633",
+    "${ROOTSPAN_PROJECT}/04_Results/67_Fixed_A04_Root3_Check/expert_appearance_review_01.json": "b3a42937047b5c10170feec86778b5c8439f21402a6baec7aa6a19a32adec2f3"
+  },
+  "no_training": true,
+  "model_and_threshold_unchanged": true,
+  "visual_inspection": "Passed: main-root route, blue vertical model-T line, original source and processed field comparison inspected. Figure has no cropped captions.",
+  "review_field_centres_nearby_and_inside_original_fields": true,
+  "T_is_before_expert_Endoderm_field_B": true,
+  "no_whole_image_accuracy_claim": true,
+  "no_exact_transition_reference_error_claim": true
+}

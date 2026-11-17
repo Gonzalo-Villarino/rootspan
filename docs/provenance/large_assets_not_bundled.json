@@ -1,0 +1,1737 @@
+[
+  {
+    "path": "02_Data/01_PAT_Examples/01_Images/20#MT28_gfp.png",
+    "bytes": 39591459,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/01_PAT_Examples/01_Images/25717_gfp.png",
+    "bytes": 47166945,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/01_PAT_Examples/01_Images/MT25_rep3.png",
+    "bytes": 38430943,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/05_Training_and_Evaluation/01_Training_Images/20#MT28_gfp.png",
+    "bytes": 39591459,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/05_Training_and_Evaluation/01_Training_Images/25717_gfp.png",
+    "bytes": 47166945,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/05_Training_and_Evaluation/01_Training_Images/MT25_rep3.png",
+    "bytes": 38430943,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/05_Training_and_Evaluation/02_Evaluation_Images/01_Original_TIFFs/20_29.tif",
+    "bytes": 360315127,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/05_Training_and_Evaluation/02_Evaluation_Images/01_Original_TIFFs/2_12.tif",
+    "bytes": 347600203,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/05_Training_and_Evaluation/02_Evaluation_Images/02_Images_For_Labelme/20_29_evaluation.png",
+    "bytes": 31984104,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/05_Training_and_Evaluation/02_Evaluation_Images/02_Images_For_Labelme/2_12_evaluation.png",
+    "bytes": 28720556,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/06_Dataset_Selection_20261116/01_Teaching_References/20#MT28_gfp.png",
+    "bytes": 39591459,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/06_Dataset_Selection_20261116/01_Teaching_References/25717_gfp.png",
+    "bytes": 47166945,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/06_Dataset_Selection_20261116/01_Teaching_References/MT25_rep3.png",
+    "bytes": 38430943,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/06_Dataset_Selection_20261116/02_Development_Reference/20_29.png",
+    "bytes": 31984104,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/06_Dataset_Selection_20261116/03_Reserved_Test_Reference/2_12.png",
+    "bytes": 28720556,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png",
+    "bytes": 51236578,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.png",
+    "bytes": 52554255,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/11_Next_Root_Review_20261116/A04_root3/source_native.png",
+    "bytes": 1173215,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/12_Next_Slide_Review_20261116/2_12_root1/source_native.png",
+    "bytes": 2618533,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/13_Locked_Model_Checks_20261116/A04_root1/source_native.png",
+    "bytes": 2073384,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/13_Locked_Model_Checks_20261116/A04_root1/source_review_02/source_native.png",
+    "bytes": 2073384,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/13_Locked_Model_Checks_20261116/A04_root2/source_native.png",
+    "bytes": 1626190,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/15_Additional_Slides_20261117/01_Current_Check/1_7.tif",
+    "bytes": 394418905,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/15_Additional_Slides_20261117/02_Reserved_Evaluation/15_27.tif",
+    "bytes": 481147273,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/15_Additional_Slides_20261117/02_Reserved_Evaluation/22_22.tif",
+    "bytes": 429095083,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/16_New_SALK_GUI_Checks_20261117/7_18.tif",
+    "bytes": 575369195,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/16_New_SALK_GUI_Checks_20261117/Col_rep1.tif",
+    "bytes": 368352289,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "02_Data/16_New_SALK_GUI_Checks_20261117/WOX4_rep1.tif",
+    "bytes": 360094615,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/04_First_Training_Trial/run_20261113T110425Z_u_yz60ya/model_weights.pt",
+    "bytes": 1939443,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/04_First_Training_Trial/run_20261113T125650Z_dqez5187/model_weights.pt",
+    "bytes": 1939443,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/05_First_Prediction/view_20261113T130934Z_bllq6250/user_screenshot_20261113.png",
+    "bytes": 1227505,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/08_Three_Class_Training/run_20261113T155717Z_elwd4ak7/model_weights.pt",
+    "bytes": 1939507,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/12_Refined_Training/run_20261114T102736Z_owxsbwtv/model_weights.pt",
+    "bytes": 1939507,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/14_Learning_Curve/refined_training_learning_curve.pdf",
+    "bytes": 6463,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/15_Longer_Training/run_20261114T115648Z_c6xmnr5q/model_weights.pt",
+    "bytes": 1939507,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/19_Extra_Background_Training/run_20261114T130138Z_vnurh4my/model_weights.pt",
+    "bytes": 1939507,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/23_Root5_Training/run_20261115T115502Z_skjaqsca/model_weights.pt",
+    "bytes": 1939507,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/27_Root5_Lower_Background_Training/run_20261115T121005Z_d_v61wde/model_weights.pt",
+    "bytes": 1939507,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/34_Multiple_Roots_Training/run_20261115T133545Z_seed34/development_probabilities.npy",
+    "bytes": 12583040,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/34_Multiple_Roots_Training/run_20261115T133545Z_seed34/model_weights.pt",
+    "bytes": 1939507,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/34_Multiple_Roots_Training/run_20261115T133843Z_seed34/model_weights.pt",
+    "bytes": 8317669,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/36_Multiple_Slides_Training/run_20261115T134513Z_seed34/model_weights.pt",
+    "bytes": 8317669,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/37_PAT_Benchmark/pat_probabilities.npy",
+    "bytes": 16777344,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/38_PAT_Root_Context/root4_probabilities.npy",
+    "bytes": 16777344,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/39_PAT_Transfer_Learning/run_20261115T135712Z/model_weights.pt",
+    "bytes": 104508891,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/39_PAT_Transfer_Learning/run_20261115T140159Z/model_weights.pt",
+    "bytes": 104508891,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/40_Current_Improved_Result/raw_model_probabilities.npy",
+    "bytes": 12583040,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/41_New_Image_20_29_Prediction/view_20261115T152946Z_kc80hx_h/model_probabilities.npz",
+    "bytes": 9212036,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/42_20_29_Transition_Prediction/view_20261115T153948Z_bmduly9w/model_probabilities.npz",
+    "bytes": 8750736,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/43_20_29_Clearer_Transition_Prediction/view_20261115T155056Z_vbrbuhdb/model_probabilities.npz",
+    "bytes": 9354666,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/44_Inference_Diagnostics/20_29_ambiguous/native1024_probabilities.npz",
+    "bytes": 8750736,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/44_Inference_Diagnostics/20_29_ambiguous/overlap512_probabilities.npz",
+    "bytes": 9361909,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/44_Inference_Diagnostics/20_29_ambiguous/public_PAT4_probabilities.npz",
+    "bytes": 10941582,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/44_Inference_Diagnostics/20_29_ambiguous/scale_average_probabilities.npz",
+    "bytes": 9323258,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/44_Inference_Diagnostics/20_29_clearer/native1024_probabilities.npz",
+    "bytes": 9354666,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/44_Inference_Diagnostics/20_29_clearer/overlap512_probabilities.npz",
+    "bytes": 9781591,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/44_Inference_Diagnostics/20_29_clearer/public_PAT4_probabilities.npz",
+    "bytes": 11155400,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/44_Inference_Diagnostics/20_29_clearer/scale_average_probabilities.npz",
+    "bytes": 9707283,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/44_Inference_Diagnostics/20_29_periderm/native1024_probabilities.npz",
+    "bytes": 9212036,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/44_Inference_Diagnostics/20_29_periderm/overlap512_probabilities.npz",
+    "bytes": 9627141,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/44_Inference_Diagnostics/20_29_periderm/public_PAT4_probabilities.npz",
+    "bytes": 11102227,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/44_Inference_Diagnostics/20_29_periderm/scale_average_probabilities.npz",
+    "bytes": 9581390,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/44_Inference_Diagnostics/MT25_development/native1024_probabilities.npz",
+    "bytes": 8916627,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/44_Inference_Diagnostics/MT25_development/overlap512_probabilities.npz",
+    "bytes": 9438246,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/44_Inference_Diagnostics/MT25_development/public_PAT4_probabilities.npz",
+    "bytes": 11015785,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/44_Inference_Diagnostics/MT25_development/scale_average_probabilities.npz",
+    "bytes": 9392899,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/45_Adaptation_With_Replay/run_20261115T161633Z/check100_preview/probabilities.npz",
+    "bytes": 9180449,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/45_Adaptation_With_Replay/run_20261115T161633Z/checkpoint_100.pt",
+    "bytes": 104509247,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/45_Adaptation_With_Replay/run_20261115T161633Z/checkpoint_200.pt",
+    "bytes": 104509247,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/45_Adaptation_With_Replay/run_20261115T161633Z/checkpoint_300.pt",
+    "bytes": 104509247,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/45_Adaptation_With_Replay/run_20261115T161633Z/checkpoint_400.pt",
+    "bytes": 104509247,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/46_Adaptation_With_Retention/run_20261115T161951Z/checkpoint_100.pt",
+    "bytes": 104509247,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/46_Adaptation_With_Retention/run_20261115T161951Z/checkpoint_200.pt",
+    "bytes": 104509247,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/46_Adaptation_With_Retention/run_20261115T161951Z/checkpoint_300.pt",
+    "bytes": 104509247,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/46_Adaptation_With_Retention/run_20261115T161951Z/checkpoint_400.pt",
+    "bytes": 104509247,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/47_Final_Model_Comparison/20_29_clearer/after_probabilities.npz",
+    "bytes": 9467585,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/47_Final_Model_Comparison/20_29_clearer/before_probabilities.npz",
+    "bytes": 9354666,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/47_Final_Model_Comparison/20_29_other_root/after_probabilities.npz",
+    "bytes": 8869742,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/47_Final_Model_Comparison/20_29_other_root/before_probabilities.npz",
+    "bytes": 8750736,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/47_Final_Model_Comparison/20_29_periderm/after_probabilities.npz",
+    "bytes": 9342028,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/47_Final_Model_Comparison/20_29_periderm/before_probabilities.npz",
+    "bytes": 9212036,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/47_Final_Model_Comparison/MT25_root4/after_probabilities.npz",
+    "bytes": 9000680,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/47_Final_Model_Comparison/MT25_root4/before_probabilities.npz",
+    "bytes": 8916627,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/47_Final_Model_Comparison/reproducibility_check/probabilities.npz",
+    "bytes": 9467585,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/49_Length_Proof_Of_Concept/20_29_published4/periderm_fraction_scores.png",
+    "bytes": 172490825,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/49_Length_Proof_Of_Concept/MT25_published4/periderm_fraction_scores.png",
+    "bytes": 213224416,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/49_Length_Proof_Of_Concept/MT25_working3/periderm_fraction_scores.png",
+    "bytes": 212646737,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/49_Length_Proof_Of_Concept/annotation_comparison_single_change/roots/root_1_source.jpg",
+    "bytes": 1070283,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/49_Length_Proof_Of_Concept/annotation_comparison_single_change/roots/root_2_source.jpg",
+    "bytes": 1609367,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/49_Length_Proof_Of_Concept/annotation_comparison_single_change/roots/root_3_source.jpg",
+    "bytes": 1531266,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/49_Length_Proof_Of_Concept/annotation_comparison_single_change/roots/root_4_source.jpg",
+    "bytes": 1057563,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/49_Length_Proof_Of_Concept/annotation_comparison_single_change/roots/root_5_source.jpg",
+    "bytes": 1150827,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/50_Six_Root_Length_Proof/OPEN_ME_REVIEW_AND_MEASURE.html",
+    "bytes": 795351,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/50_Six_Root_Length_Proof/roots/root_1_source.jpg",
+    "bytes": 1070283,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/50_Six_Root_Length_Proof/roots/root_1_source.png",
+    "bytes": 5225073,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/50_Six_Root_Length_Proof/roots/root_2_source.jpg",
+    "bytes": 1609367,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/50_Six_Root_Length_Proof/roots/root_2_source.png",
+    "bytes": 8475879,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/50_Six_Root_Length_Proof/roots/root_3_source.jpg",
+    "bytes": 1531266,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/50_Six_Root_Length_Proof/roots/root_3_source.png",
+    "bytes": 7791501,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/50_Six_Root_Length_Proof/roots/root_4_source.jpg",
+    "bytes": 1057563,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/50_Six_Root_Length_Proof/roots/root_4_source.png",
+    "bytes": 6074828,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/50_Six_Root_Length_Proof/roots/root_5_source.jpg",
+    "bytes": 1150827,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/50_Six_Root_Length_Proof/roots/root_5_source.png",
+    "bytes": 6482207,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/50_Six_Root_Length_Proof/roots/root_6_source.png",
+    "bytes": 4877955,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/51_Reproduction_Check/run_20261115T170857Z/prediction/periderm_fraction_scores.png",
+    "bytes": 212646737,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/51_Reproduction_Check/run_20261115T171117Z/prediction/periderm_fraction_scores.png",
+    "bytes": 212646737,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/51_Reproduction_Check/run_20261115T171117Z/six_root_proof/OPEN_ME_REVIEW_AND_MEASURE.html",
+    "bytes": 795354,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/51_Reproduction_Check/run_20261115T171117Z/six_root_proof/roots/root_1_source.png",
+    "bytes": 5225073,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/51_Reproduction_Check/run_20261115T171117Z/six_root_proof/roots/root_2_source.png",
+    "bytes": 8475879,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/51_Reproduction_Check/run_20261115T171117Z/six_root_proof/roots/root_3_source.png",
+    "bytes": 7791501,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/51_Reproduction_Check/run_20261115T171117Z/six_root_proof/roots/root_4_source.png",
+    "bytes": 6074828,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/51_Reproduction_Check/run_20261115T171117Z/six_root_proof/roots/root_5_source.png",
+    "bytes": 6482207,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/51_Reproduction_Check/run_20261115T171117Z/six_root_proof/roots/root_6_source.png",
+    "bytes": 4877955,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/baseline39_extended4.pt",
+    "bytes": 104511959,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/baseline_refinement_v2/best_probabilities.npz",
+    "bytes": 13000765,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/baseline_refinement_v2/best_weights.pt",
+    "bytes": 104509111,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/baseline_refinement_v2/inference_ensemble/scale_0.75_probabilities.npz",
+    "bytes": 13649623,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/baseline_refinement_v2/inference_ensemble/scale_1.0_probabilities.npz",
+    "bytes": 13669698,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/baseline_refinement_v2/inference_ensemble/scale_1.25_probabilities.npz",
+    "bytes": 13666289,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/baseline_refinement_v2/inference_ensemble/scale_average_probabilities.npz",
+    "bytes": 13676307,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/contrast_refinement_v3/best_probabilities.npz",
+    "bytes": 12412695,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/contrast_refinement_v3/best_weights.pt",
+    "bytes": 104509111,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/expanded_transition_balancing_v6/best_probabilities.npz",
+    "bytes": 13491417,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/expanded_transition_balancing_v6/best_weights.pt",
+    "bytes": 104509111,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/expanded_transition_balancing_v6/final_weights.pt",
+    "bytes": 104509467,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/four_class_v1/best_probabilities.npz",
+    "bytes": 12712481,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/four_class_v1/best_weights.pt",
+    "bytes": 104509111,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/reviewed_root3_v9/best_probabilities.npz",
+    "bytes": 13142871,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/reviewed_root3_v9/best_weights.pt",
+    "bytes": 104509111,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/reviewed_root3_v9/final_weights.pt",
+    "bytes": 104509467,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/rule_derived_endoderm_v7/best_probabilities.npz",
+    "bytes": 12964661,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/rule_derived_endoderm_v7/best_weights.pt",
+    "bytes": 104509111,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/rule_derived_endoderm_v7/final_weights.pt",
+    "bytes": 104509467,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/scale_robust_rule_v8/best_probabilities.npz",
+    "bytes": 12964661,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/scale_robust_rule_v8/best_weights.pt",
+    "bytes": 104509111,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/scale_robust_rule_v8/final_weights.pt",
+    "bytes": 104509467,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/small_from_scratch_v4/best_probabilities.npz",
+    "bytes": 12337715,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/small_from_scratch_v4/best_tiled_probabilities.npz",
+    "bytes": 14351245,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/small_from_scratch_v4/best_weights.pt",
+    "bytes": 7873841,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/small_from_scratch_v4/final_tiled_probabilities.npz",
+    "bytes": 14569670,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/small_from_scratch_v4/final_weights.pt",
+    "bytes": 7873903,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/user_reviewed_priority_v5/best_probabilities.npz",
+    "bytes": 14569670,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/user_reviewed_priority_v5/best_weights.pt",
+    "bytes": 7873841,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/54_Refinement_Experiments/user_reviewed_priority_v5/final_weights.pt",
+    "bytes": 7873903,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/57_A04_Reserved_Check/candidate_model_prediction/periderm_fraction_scores.png",
+    "bytes": 322365576,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/57_A04_Reserved_Check/original_model_prediction/periderm_fraction_scores.png",
+    "bytes": 320308601,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/58_Model_Review_20261116/prediction_20261116T111857_73293/probabilities.npz",
+    "bytes": 12964661,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/58_Model_Review_20261116/reproduction/probabilities.npz",
+    "bytes": 12964661,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/58_Model_Review_20261116/word_qa/07_Model_Refinement_Review_20261116.pdf",
+    "bytes": 350868,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/58_Model_Review_20261116/word_qa_final/07_Model_Refinement_Review_20261116.pdf",
+    "bytes": 353839,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/60_Rule_Candidate_Recheck/prediction/periderm_fraction_scores.png",
+    "bytes": 323464149,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/62_Reviewed_Root3_Training_Comparison/predictions/new_v9/development_20_29/probabilities.npz",
+    "bytes": 13142871,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/62_Reviewed_Root3_Training_Comparison/predictions/new_v9/root3/probabilities.npz",
+    "bytes": 7425219,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/62_Reviewed_Root3_Training_Comparison/predictions/old_v7/development_20_29/probabilities.npz",
+    "bytes": 12964661,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/62_Reviewed_Root3_Training_Comparison/predictions/old_v7/root3/probabilities.npz",
+    "bytes": 7251971,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/63_Cell_Appearance_Experiment/run_01/appearance_head.pt",
+    "bytes": 14245,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/64_Appearance_Endoderm_Correction/added_endoderm_01/appearance_head.pt",
+    "bytes": 14245,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/64_Appearance_Endoderm_Correction/added_endoderm_01/frozen_features.npz",
+    "bytes": 1101886,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/64_Appearance_Endoderm_Correction/control_original_three/appearance_head.pt",
+    "bytes": 14245,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/64_Appearance_Endoderm_Correction/control_original_three/frozen_features.npz",
+    "bytes": 1098223,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/65_Mixed_Appearance_Evidence_Check/three_way_five_windows/appearance_head.pt",
+    "bytes": 14245,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/65_Mixed_Appearance_Evidence_Check/three_way_five_windows/frozen_features.npz",
+    "bytes": 1105596,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/65_Mixed_Appearance_Evidence_Check/two_presence_five_windows/presence_head.pt",
+    "bytes": 10133,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/65_Mixed_Appearance_Evidence_Check/two_presence_four_windows/presence_head.pt",
+    "bytes": 10133,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/66_Fixed_20_29_Check/frozen_features_and_scores.npz",
+    "bytes": 37337,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/67_Fixed_A04_Root3_Check/frozen_features_and_scores.npz",
+    "bytes": 228713,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/67_Fixed_A04_Root3_Check/image.png",
+    "bytes": 1173215,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/68_Fixed_212_Root1_Check/frozen_features_and_scores.npz",
+    "bytes": 424277,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/68_Fixed_212_Root1_Check/image.png",
+    "bytes": 2618533,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/71_Locked_A04_Root1_Check/image.png",
+    "bytes": 2073384,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/72_Locked_A04_Root2_Check/image.png",
+    "bytes": 1626190,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/74_Locked_V1_1_7_Comparison/V1_VS_YOUR_MEASUREMENTS.pdf",
+    "bytes": 234024,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/74_Locked_V1_1_7_Comparison/root01/image.png",
+    "bytes": 7134688,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/74_Locked_V1_1_7_Comparison/root02/image.png",
+    "bytes": 9516648,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/74_Locked_V1_1_7_Comparison/root06/image.png",
+    "bytes": 7089626,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "04_Results/75_V1_22_22_Batch/RIGHT_ENDPOINT_SOURCE_REVIEW.png",
+    "bytes": 1837510,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Checks/Archived_Training_Images_20261115.png",
+    "bytes": 118952,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Checks/Root4_Background_20261115T125635Z/before_annotation.json",
+    "bytes": 51356325,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Checks/Root5_Background_Demo_20261115T112642Z/before_annotation.json",
+    "bytes": 51323954,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Checks/Root5_Lower_Background_Demo_20261115T120351Z/before_annotation.json",
+    "bytes": 51326315,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/20_29_Clearer_Transition_Selection/candidate_B_cells.png",
+    "bytes": 161671,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/20_29_Clearer_Transition_Selection/candidate_B_image.png",
+    "bytes": 272860,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/20_29_Clearer_Transition_Selection/candidate_B_wider_context.png",
+    "bytes": 361003,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/20_29_Clearer_Transition_Selection/source_only_survey/20_29_group1.png",
+    "bytes": 763834,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/20_29_Clearer_Transition_Selection/source_only_survey/20_29_group2.png",
+    "bytes": 657307,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/20_29_Clearer_Transition_Selection/source_only_survey/20_29_group3.png",
+    "bytes": 197971,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/20_29_Clearer_Transition_Selection/source_only_survey/2_12_group1.png",
+    "bytes": 718298,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/20_29_Clearer_Transition_Selection/source_only_survey/2_12_group2.png",
+    "bytes": 568344,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/20_29_Transition_Selection/candidate_A_cells.png",
+    "bytes": 127231,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/20_29_Transition_Selection/candidate_A_image.png",
+    "bytes": 253709,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/New_Slide_Selection_20261115/20_29_overview.png",
+    "bytes": 225915,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/New_Slide_Selection_20261115/2_12_overview.png",
+    "bytes": 171001,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/Root5_Patch_Review/gap_explanation_20261115T112138Z/background_gap_explained.png",
+    "bytes": 326303,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/Root5_Patch_Review/gap_explanation_20261115T112138Z/microscopy_context_VIEW_ONLY.png",
+    "bytes": 298915,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/Root5_Patch_Review/pair_review_20261115T114859Z/root5_image_mask_pair.png",
+    "bytes": 234619,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/Root5_Patch_Review/proposal_20261115T105528Z/annotation_coverage_VIEW_ONLY_RGB.png",
+    "bytes": 6554,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/Root5_Patch_Review/proposal_20261115T105528Z/proposed_patch_image_VIEW_ONLY.png",
+    "bytes": 288043,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/Root5_Patch_Review/proposal_20261115T105528Z/root5_context_VIEW_ONLY.png",
+    "bytes": 855058,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/Root5_Patch_Review/proposal_20261115T105528Z/root5_patch_location.png",
+    "bytes": 363616,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/Root5_Patch_Review/proposal_20261115T105528Z/root5_proposed_patch_review.png",
+    "bytes": 235887,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/Upper_Edge_Inspection/VIEW_ONLY_root_with_marker.png",
+    "bytes": 38430943,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/Upper_Edge_Inspection/labelme-config.before-guide.yaml",
+    "bytes": 183,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "05_Notes/Visual_Guides/Upper_Edge_Inspection/view_only_config.yaml",
+    "bytes": 997,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "07_Periderm_Length_Proof/OPEN_SIX_ROOT_REVIEW.command",
+    "bytes": 160,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/diagnostics/v2_full_context_7_18/track_01/image.png",
+    "bytes": 7204555,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/diagnostics/v2_full_context_7_18/track_02/image.png",
+    "bytes": 5250221,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/diagnostics/v2_full_context_7_18/track_03/image.png",
+    "bytes": 6348436,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/diagnostics/v2_full_context_7_18/track_04/image.png",
+    "bytes": 10271321,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/diagnostics/v2_full_context_7_18/track_05/image.png",
+    "bytes": 13473562,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/diagnostics/v2_full_context_7_18/track_06/image.png",
+    "bytes": 4427152,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/diagnostics/v2_full_context_7_18/track_07/image.png",
+    "bytes": 7259286,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/1_7/track_01/image.png",
+    "bytes": 6367365,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/1_7/track_02/image.png",
+    "bytes": 8174518,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/1_7/track_03/image.png",
+    "bytes": 7159832,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/1_7/track_04/image.png",
+    "bytes": 3457924,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/1_7/track_05/image.png",
+    "bytes": 7719457,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/1_7/track_06/image.png",
+    "bytes": 5574932,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/1_7/track_07/image.png",
+    "bytes": 7475664,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/22_22/track_01/image.png",
+    "bytes": 7066329,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/22_22/track_02/image.png",
+    "bytes": 14069479,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/22_22/track_03/image.png",
+    "bytes": 9779409,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/22_22/track_04/image.png",
+    "bytes": 6955717,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/22_22/track_05/image.png",
+    "bytes": 12330857,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/22_22/track_06/image.png",
+    "bytes": 10371926,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/22_22/track_07/image.png",
+    "bytes": 8703767,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/Col_rep1/track_01/image.png",
+    "bytes": 8278661,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/Col_rep1/track_02/image.png",
+    "bytes": 11995820,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/Col_rep1/track_03/image.png",
+    "bytes": 8364169,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/Col_rep1/track_04/image.png",
+    "bytes": 9459287,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/Col_rep1/track_05/image.png",
+    "bytes": 7508469,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/Col_rep1/track_06/image.png",
+    "bytes": 9416733,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/WOX4_rep1/track_02/image.png",
+    "bytes": 3851469,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/WOX4_rep1/track_03/image.png",
+    "bytes": 3537206,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/WOX4_rep1/track_04/image.png",
+    "bytes": 3920558,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/WOX4_rep1/track_05/image.png",
+    "bytes": 5342431,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/regression/WOX4_rep1/track_06/image.png",
+    "bytes": 4680631,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "10_V2_Development_20261117/v1_before_changes/index.html",
+    "bytes": 14818,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/gui_script.js",
+    "bytes": 7018,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/identity_tracks/track_01/image.png",
+    "bytes": 7204555,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/identity_tracks/track_02/image.png",
+    "bytes": 5250221,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/identity_tracks/track_03/image.png",
+    "bytes": 5622679,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/identity_tracks/track_04/image.png",
+    "bytes": 10271321,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/identity_tracks/track_05/image.png",
+    "bytes": 11731480,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/identity_tracks/track_06/image.png",
+    "bytes": 5105904,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/identity_tracks/track_07/image.png",
+    "bytes": 7259286,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/intensity_tracks/track_01/image.png",
+    "bytes": 7204555,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/intensity_tracks/track_02/image.png",
+    "bytes": 5250221,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/intensity_tracks/track_03/image.png",
+    "bytes": 8028628,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/intensity_tracks/track_04/image.png",
+    "bytes": 9783480,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/intensity_tracks/track_05/image.png",
+    "bytes": 11705965,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/intensity_tracks/track_06/image.png",
+    "bytes": 5105904,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/intensity_tracks/track_07/image.png",
+    "bytes": 7259286,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/1_7/track_01/image.png",
+    "bytes": 6367365,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/1_7/track_02/image.png",
+    "bytes": 8418035,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/1_7/track_03/image.png",
+    "bytes": 6602807,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/1_7/track_04/image.png",
+    "bytes": 3457924,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/1_7/track_05/image.png",
+    "bytes": 4153951,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/1_7/track_06/image.png",
+    "bytes": 5574932,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/1_7/track_07/image.png",
+    "bytes": 6723280,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/22_22/track_01/image.png",
+    "bytes": 7066329,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/22_22/track_02/image.png",
+    "bytes": 14069479,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/22_22/track_03/image.png",
+    "bytes": 9779409,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/22_22/track_04/image.png",
+    "bytes": 6959077,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/22_22/track_05/image.png",
+    "bytes": 12298284,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/22_22/track_06/image.png",
+    "bytes": 5695173,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/22_22/track_07/image.png",
+    "bytes": 11579209,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/Col_rep1/track_01/image.png",
+    "bytes": 8278661,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/Col_rep1/track_02/image.png",
+    "bytes": 11995820,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/Col_rep1/track_03/image.png",
+    "bytes": 6644011,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/Col_rep1/track_04/image.png",
+    "bytes": 9459287,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/Col_rep1/track_05/image.png",
+    "bytes": 7508469,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/Col_rep1/track_06/image.png",
+    "bytes": 9416733,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/WOX4_rep1/track_02/image.png",
+    "bytes": 3851469,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/WOX4_rep1/track_03/image.png",
+    "bytes": 3537206,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/WOX4_rep1/track_04/image.png",
+    "bytes": 3920558,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/WOX4_rep1/track_05/image.png",
+    "bytes": 5342431,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/regression/WOX4_rep1/track_06/image.png",
+    "bytes": 4680631,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/1_7/track_01/image.png",
+    "bytes": 6367365,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/1_7/track_02/image.png",
+    "bytes": 8418035,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/1_7/track_03/image.png",
+    "bytes": 6602807,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/1_7/track_04/image.png",
+    "bytes": 3457924,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/1_7/track_05/image.png",
+    "bytes": 4153951,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/1_7/track_06/image.png",
+    "bytes": 5574932,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/1_7/track_07/image.png",
+    "bytes": 6723280,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/22_22/track_01/image.png",
+    "bytes": 7066329,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/22_22/track_02/image.png",
+    "bytes": 14069479,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/22_22/track_03/image.png",
+    "bytes": 9779409,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/22_22/track_04/image.png",
+    "bytes": 6959077,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/22_22/track_05/image.png",
+    "bytes": 12298284,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/22_22/track_06/image.png",
+    "bytes": 5695173,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/22_22/track_07/image.png",
+    "bytes": 11579209,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/7_18/track_01/image.png",
+    "bytes": 7204555,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/7_18/track_02/image.png",
+    "bytes": 5250221,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/7_18/track_03/image.png",
+    "bytes": 8028628,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/7_18/track_04/image.png",
+    "bytes": 9783480,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/7_18/track_05/image.png",
+    "bytes": 11705965,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/7_18/track_06/image.png",
+    "bytes": 5105904,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/7_18/track_07/image.png",
+    "bytes": 7259286,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/Col_rep1/track_01/image.png",
+    "bytes": 8278661,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/Col_rep1/track_02/image.png",
+    "bytes": 11995820,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/Col_rep1/track_03/image.png",
+    "bytes": 6644011,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/Col_rep1/track_04/image.png",
+    "bytes": 9459287,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/Col_rep1/track_05/image.png",
+    "bytes": 7508469,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/Col_rep1/track_06/image.png",
+    "bytes": 9416733,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/WOX4_rep1/track_02/image.png",
+    "bytes": 3851469,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/WOX4_rep1/track_03/image.png",
+    "bytes": 3537206,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/WOX4_rep1/track_04/image.png",
+    "bytes": 3920558,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/WOX4_rep1/track_05/image.png",
+    "bytes": 5342431,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/reviewed_v211/WOX4_rep1/track_06/image.png",
+    "bytes": 4680631,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/root1_right_native.png",
+    "bytes": 1396078,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/root2_right_native.png",
+    "bytes": 1220482,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/root3_right_native.png",
+    "bytes": 1366697,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/root4_right_native.png",
+    "bytes": 1312775,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/root5_right_native.png",
+    "bytes": 1903436,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/root6_right_native.png",
+    "bytes": 1418572,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/root7_right_native.png",
+    "bytes": 1320490,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/tail_guidance/track_01/image.png",
+    "bytes": 7204555,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/tail_guidance/track_02/image.png",
+    "bytes": 5250221,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/tail_guidance/track_03/image.png",
+    "bytes": 6348436,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/tail_guidance/track_04/image.png",
+    "bytes": 10271321,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/tail_guidance/track_05/image.png",
+    "bytes": 13473562,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/tail_guidance/track_06/image.png",
+    "bytes": 4427152,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/tail_guidance/track_07/image.png",
+    "bytes": 7259286,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/trial_v21_7_18/track_01/image.png",
+    "bytes": 7204555,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/trial_v21_7_18/track_02/image.png",
+    "bytes": 5250221,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/trial_v21_7_18/track_03/image.png",
+    "bytes": 8028628,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/trial_v21_7_18/track_04/image.png",
+    "bytes": 9783480,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/trial_v21_7_18/track_05/image.png",
+    "bytes": 11705965,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/trial_v21_7_18/track_06/image.png",
+    "bytes": 5105904,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "11_V21_Development_20261117/trial_v21_7_18/track_07/image.png",
+    "bytes": 7259286,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "12_V3_Development_20261117/expanded_fields_one_seven/root1_features.npz",
+    "bytes": 825935,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "12_V3_Development_20261117/expanded_fields_one_seven/root2_features.npz",
+    "bytes": 869144,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "12_V3_Development_20261117/expanded_fields_one_seven/root6_features.npz",
+    "bytes": 903118,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "12_V3_Development_20261117/expanded_fields_trial/experimental_presence_head.pt",
+    "bytes": 10365,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "12_V3_Development_20261117/expanded_fields_trial/teaching_features.npz",
+    "bytes": 1942159,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "12_V3_Development_20261117/regional_head_gate/2_12_root1_fold.pt",
+    "bytes": 10149,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "12_V3_Development_20261117/regional_head_gate/A04_root3_fold.pt",
+    "bytes": 10141,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "12_V3_Development_20261117/regional_head_gate/COL0_root3_fold.pt",
+    "bytes": 10149,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "13_718_Failure_Diagnosis_20261117/published_PAT/periderm_fraction_scores.png",
+    "bytes": 275401493,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "15_All_Root_Data_20261117/final_fresh_run.log",
+    "bytes": 551,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "15_All_Root_Data_20261117/new_report.log",
+    "bytes": 551,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "15_All_Root_Data_20261117/new_report_final.log",
+    "bytes": 551,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "15_All_Root_Data_20261117/original_grid_718/source/slide.png",
+    "bytes": 43722480,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "15_All_Root_Data_20261117/published_raw_1_7/periderm_fraction_scores.png",
+    "bytes": 190249660,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "16_Per_Root_Estimates_20261117/run.log",
+    "bytes": 551,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "16_Per_Root_Estimates_20261117/ui_check.js",
+    "bytes": 12883,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  },
+  {
+    "path": "17_Approved_Test_Lock_20261117/lock_guard_changes.diff",
+    "bytes": 2690,
+    "reason": "Large or binary source/intermediate asset; kept in local project"
+  }
+]

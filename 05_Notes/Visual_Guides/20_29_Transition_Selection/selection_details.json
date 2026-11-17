@@ -1,0 +1,24 @@
+{
+  "source_image": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/02_Images_For_Labelme/20_29_evaluation.png",
+  "source_sha256": "df2ccc184dcbd52cdc35b8c6b8b92f32a863e678ca2a24d25aa2ba41ec11abd0",
+  "candidate_box_xyxy_exclusive": [
+    4864,
+    6144,
+    5888,
+    7168
+  ],
+  "detail_box_in_candidate_xyxy_exclusive": [
+    0,
+    280,
+    1024,
+    640
+  ],
+  "pixel_resizing_or_brightness_adjustment": false,
+  "purpose": "Biological tissue confirmation before prediction",
+  "tissue_identity": "User-reported transition: more Endoderm-like cells left, more Periderm-like cells right; poor image clarity. No exact boundary drawn.",
+  "model_used": false,
+  "annotation_created": false,
+  "earlier_patch_user_confirmation": "Gonzalo confirmed that the main band in the first 20_29 prediction crop is Periderm from cell shape.",
+  "user_assessment_before_prediction": "is a bad quality image but to the right i see more peridm like cells and to the left mor endoderm so transition",
+  "assessment_is_pixel_ground_truth": false
+}

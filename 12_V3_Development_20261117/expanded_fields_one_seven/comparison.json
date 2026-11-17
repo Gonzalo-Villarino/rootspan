@@ -1,0 +1,58 @@
+{
+  "passed": false,
+  "rows": [
+    {
+      "root": 1,
+      "manual_T_arc_pixels": 9922.090897477468,
+      "V1_T_arc_pixels": 11072.0,
+      "expanded_T_arc_pixels": 11008.0,
+      "V1_absolute_T_error_um": 2170.0492593367267,
+      "expanded_absolute_T_error_um": 2049.2717541470683,
+      "midpoint_absolute_T_error_um": 5465.44007363746,
+      "absolute_T_error_reduction_pixels": 64.0,
+      "passed": false,
+      "manual_length_um": 8002.109515014364,
+      "fixed_endpoint_arc_pixels": 14051.908404913956,
+      "V1_fixed_endpoint_length_um": 5623.5297318625335,
+      "expanded_fixed_endpoint_length_um": 5744.307237052191,
+      "endpoint_not_validated": true
+    },
+    {
+      "root": 2,
+      "manual_T_arc_pixels": 7704.060724641155,
+      "V1_T_arc_pixels": 6656.0,
+      "expanded_T_arc_pixels": 6464.0,
+      "V1_absolute_T_error_um": 1977.8462438972533,
+      "expanded_absolute_T_error_um": 2340.1787594662287,
+      "midpoint_absolute_T_error_um": 464.1801267327786,
+      "absolute_T_error_reduction_pixels": -192.0,
+      "passed": false,
+      "manual_length_um": 13710.563359870024,
+      "fixed_endpoint_arc_pixels": 14916.18335097091,
+      "V1_fixed_endpoint_length_um": 15588.192774053425,
+      "expanded_fixed_endpoint_length_um": 15950.5252896224,
+      "endpoint_not_validated": true
+    },
+    {
+      "root": 6,
+      "manual_T_arc_pixels": 5040.466869676267,
+      "V1_T_arc_pixels": 1536.0,
+      "expanded_T_arc_pixels": 896.0,
+      "V1_absolute_T_error_um": 6613.449461551741,
+      "expanded_absolute_T_error_um": 7821.224513448325,
+      "midpoint_absolute_T_error_um": 4232.070404565473,
+      "absolute_T_error_reduction_pixels": -640.0,
+      "passed": false,
+      "manual_length_um": 17935.5549610925,
+      "fixed_endpoint_arc_pixels": 14566.081954111023,
+      "V1_fixed_endpoint_length_um": 24589.69985678623,
+      "expanded_fixed_endpoint_length_um": 25797.474908682812,
+      "endpoint_not_validated": true
+    }
+  ],
+  "reference_sha256": "644789fe0fb1b9a2199c498a7c25ac1d80f9a71ba0eb28b996e3d5aa223c8da1",
+  "independent_validation": false,
+  "reserved_15_27_used": false,
+  "all_predictions_saved_before_reference_comparison": true,
+  "promoted": false
+}

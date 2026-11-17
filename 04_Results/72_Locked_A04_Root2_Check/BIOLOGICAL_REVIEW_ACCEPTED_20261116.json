@@ -1,0 +1,24 @@
+{
+  "recorded_utc": "2026-11-16T16:08:11.190778+00:00",
+  "expert": "Gonzalo Villarino",
+  "verbatim": "to the right of B i think the model got it correct",
+  "case": "A04 root 2",
+  "checkpoint": "Transition_v1_20261116",
+  "expert_reference_relation": "Transition begins to the right of B.",
+  "model_T_source_xy": [
+    9235.982508171961,
+    2601.500507191203
+  ],
+  "model_T_local_path_pixels": 3008.0,
+  "visual_acceptance": true,
+  "acceptance_qualifier": "Provisional visual acceptance, retaining the user wording \"i think\".",
+  "exact_independently_drawn_T": null,
+  "scope": "Expert regards the shown model T as reasonable on this root. Not pixel accuracy, independent numerical boundary error, or validated length measurement.",
+  "supersedes": "project tooling earlier inference that T must be too late because the initial B view was called mixed/transition.",
+  "earlier_field_labels": "Retained as historical field descriptions; B is not silently relabelled into a pure-Endoderm teaching example.",
+  "model_changed": false,
+  "prediction_changed": false,
+  "annotations_changed": false,
+  "new_training": false,
+  "full_slide_measurement_claim": false
+}

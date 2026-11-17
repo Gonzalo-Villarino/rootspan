@@ -1,0 +1,68 @@
+{
+  "purpose": "One matching pair for three-class practice; no training occurred",
+  "patch_id": "MT25_rep3_practice_r000_c007",
+  "source_crop_box": [
+    7168,
+    0,
+    8192,
+    1024
+  ],
+  "size": [
+    1024,
+    1024
+  ],
+  "image_file": "MT25_rep3_practice_r000_c007_image.png",
+  "mask_file": "MT25_rep3_practice_r000_c007_mask.png",
+  "mask_preview_file": "MT25_rep3_practice_r000_c007_mask_preview.png",
+  "image_sha256": "0efb453e036ce7ae39d775c87e8d4886c950ae5f352b6738d004bd309cacaa3c",
+  "mask_sha256": "366d8df8b688b70916718660ad2f2bc4a987a4f62b6515b9f44af3880b269002",
+  "inputs_sha256": {
+    "${ROOTSPAN_PROJECT}/04_Results/04_First_Training_Trial/run_20261113T125650Z_dqez5187/trial_details.json": "138cf174bef9365f97319725b73e835ac22cc5dd3085fd0af48afbc7ee50764d",
+    "${ROOTSPAN_PROJECT}/04_Results/06_Background_Mask/mask_details.json": "a1ee8e1018cb19035086683877c5f5193241320316bc96d13138d8e8cd1a19b9",
+    "${ROOTSPAN_PROJECT}/04_Results/03_Practice_Patches/images/MT25_rep3_practice_r000_c007.png": "0efb453e036ce7ae39d775c87e8d4886c950ae5f352b6738d004bd309cacaa3c",
+    "${ROOTSPAN_PROJECT}/04_Results/03_Practice_Patches/masks/MT25_rep3_practice_r000_c007.png": "c6168d068a488ae60b129de86838976d84de988c78fc0505018b046303cacb6d",
+    "${ROOTSPAN_PROJECT}/04_Results/03_Practice_Patches/patch_manifest.json": "eeda1e18b6e58eea054e2038c1551aebbbf9eecde838a7e58e36f432c4f5b6af",
+    "${ROOTSPAN_PROJECT}/02_Data/03_Background_Annotations/MT25_rep3_practice.png": "8b60e04adb22e4a474c77613253f9d165de0dc64cd739a0e4008fec73c75cf87",
+    "${ROOTSPAN_PROJECT}/04_Results/06_Background_Mask/MT25_rep3_background_GV_mask.png": "c9fe3cfd4276299cc23705ecc98ef18f680ff17484a2e975eaecbf8de2c26eb4"
+  },
+  "trial_record": "${ROOTSPAN_PROJECT}/04_Results/04_First_Training_Trial/run_20261113T125650Z_dqez5187/trial_details.json",
+  "full_mask": "${ROOTSPAN_PROJECT}/04_Results/06_Background_Mask/MT25_rep3_background_GV_mask.png",
+  "mask_details": "${ROOTSPAN_PROJECT}/04_Results/06_Background_Mask/mask_details.json",
+  "script_sha256": "f041cf04f2869c8b5634e09b2886e53db93fe925c1025967130f9c211701b156",
+  "pixel_codes": {
+    "0": "Unannotated (ignored)",
+    "1": "Periderm",
+    "2": "Endoderm",
+    "3": "Background",
+    "255": "Conflicting labels (ignored)"
+  },
+  "pixel_counts": {
+    "0": 964514,
+    "1": 21448,
+    "2": 37334,
+    "3": 25232,
+    "255": 48
+  },
+  "old_mask_pixel_counts": {
+    "0": 989746,
+    "1": 21448,
+    "2": 37334,
+    "3": 0,
+    "255": 48
+  },
+  "changed_pixels": 25232,
+  "change_rule": "Only old 0 pixels become explicit Background=3",
+  "image_identical_to_previous_training_input": true,
+  "trainable_class_codes": [
+    1,
+    2,
+    3
+  ],
+  "ignore_codes": [
+    0,
+    255
+  ],
+  "mask_reading": "Use numeric PNG values, not RGB colour-preview values",
+  "model_trained": false,
+  "limitation": "Same patch and slide as earlier training; not an independent test"
+}

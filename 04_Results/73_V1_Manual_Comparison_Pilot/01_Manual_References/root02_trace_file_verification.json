@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-17",
+  "root_id": 2,
+  "roi_file": "${ROOTSPAN_PROJECT}/04_Results/73_V1_Manual_Comparison_Pilot/01_Manual_References/1_7_root02_Periderm.roi",
+  "sha256": "977d1597733a2579fe01b9a1ef0a0a681a1fca2e2dafe4531f18a0bf453b7551",
+  "vertex_count": 20,
+  "points_xy": [
+    [
+      14129,
+      3381
+    ],
+    [
+      13874,
+      3636
+    ],
+    [
+      13295,
+      3408
+    ],
+    [
+      12725,
+      3282
+    ],
+    [
+      12160,
+      3217
+    ],
+    [
+      11834,
+      3048
+    ],
+    [
+      11193,
+      2860
+    ],
+    [
+      10553,
+      2860
+    ],
+    [
+      9617,
+      2560
+    ],
+    [
+      9407,
+      2548
+    ],
+    [
+      9131,
+      2576
+    ],
+    [
+      8927,
+      2620
+    ],
+    [
+      8763,
+      2649
+    ],
+    [
+      8372,
+      2676
+    ],
+    [
+      8169,
+      2679
+    ],
+    [
+      8008,
+      2689
+    ],
+    [
+      7811,
+      2689
+    ],
+    [
+      7724,
+      2653
+    ],
+    [
+      7284,
+      2584
+    ],
+    [
+      7172,
+      2554
+    ]
+  ],
+  "length_pixels": 7265.227524395126,
+  "length_micrometres": 13710.563359870024,
+  "length_basis": "Recomputed from saved ImageJ integer polyline using user-confirmed0.5299px/um",
+  "biological_endpoints_independently_verified": false,
+  "original_measurement_um": 14014.733,
+  "repeat_measurement": true,
+  "note": "User redrew root02 to recover unsaved line. Original result preserved in earlier Fiji table; do not substitute without disclosing repeat."
+}

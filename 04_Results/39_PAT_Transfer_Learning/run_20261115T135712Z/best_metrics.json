@@ -1,0 +1,49 @@
+{
+  "confusion_rows_reference_columns_prediction": [
+    [
+      2944,
+      24322,
+      2
+    ],
+    [
+      839,
+      23961,
+      2
+    ],
+    [
+      121,
+      272,
+      711793
+    ]
+  ],
+  "per_class": {
+    "Periderm": {
+      "correct": 2944,
+      "reference_pixels": 27268,
+      "recall": 0.1079653806659821,
+      "precision": 0.7540983606557377,
+      "iou": 0.10429360918237211,
+      "f1": 0.18888746310791737
+    },
+    "Endoderm": {
+      "correct": 23961,
+      "reference_pixels": 24802,
+      "recall": 0.9660914442383679,
+      "precision": 0.4934816187828236,
+      "iou": 0.48507976354360677,
+      "f1": 0.6532709898169228
+    },
+    "Background": {
+      "correct": 711793,
+      "reference_pixels": 712186,
+      "recall": 0.9994481778636479,
+      "precision": 0.9999943804202602,
+      "iou": 0.9994425644841967,
+      "f1": 0.9997212045368519
+    }
+  },
+  "mean_iou": 0.5296053124033918,
+  "tissue_mean_iou": 0.29468668636298945,
+  "unlabelled_pixels_ignored": 284320,
+  "scope": "Only labelled pixels. Root4 same-slide development validation; not an independent test."
+}

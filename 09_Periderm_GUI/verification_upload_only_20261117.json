@@ -1,0 +1,22 @@
+{
+  "version": "0.1.1",
+  "upload_only": true,
+  "prior_results_preserved": true,
+  "new_ui_check_run": "20261117T111745Z_3768e5ea",
+  "checks": [
+    "empty initial page",
+    "upload accepted",
+    "real analysis completed and displayed",
+    "reset cleared input and results",
+    "reload remained empty",
+    "zero displayed images after reload",
+    "Analyse disabled before upload",
+    "Python and JS syntax passed"
+  ],
+  "scope": "UI/upload workflow check, not biological validation",
+  "files": {
+    "index.html": "21ccf9ff91fc31106bf427d46eea4c939339df20f2238c246e9911d6672fa748",
+    "server.py": "b603eca459fdf66dc5fd103674d24b04f7057d95537687c9284b483bb5ab8358",
+    "README.txt": "b7e318baeefd56d74ebe5132f398fbc45918ef4692806218544ec4bd4f435b1e"
+  }
+}

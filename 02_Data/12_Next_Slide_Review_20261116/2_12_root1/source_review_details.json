@@ -1,0 +1,74 @@
+{
+  "created_utc": "2026-11-16T14:49:37.583644+00:00",
+  "source": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/02_Images_For_Labelme/2_12_evaluation.png",
+  "source_sha256": "180258992d87ea44b739bf908ebfc24f6ec665a14cfb1a7d441d75c16884fc63",
+  "source_box_xyxy": [
+    3500,
+    0,
+    11000,
+    1500
+  ],
+  "root": "Topmost main root (root1)",
+  "selection": "Different source slide with more visible cell outlines in source-only detail preview; root1 chosen before any prediction by this appearance detector on this slide. Preview contains other-root context below the left section; follow topmost root.",
+  "roles": "2_12 remains out of training and tuning. This is a selected-window check, not whole-slide performance.",
+  "prior_exposure": "Earlier image-only U-Net predictions on 2_12 were generated/viewed in this workspace; not a new blind test. Published PAT pretraining image membership unknown.",
+  "frozen_head_sha256": "6cce6ef74330a9de4422cdb738144f972cedff41f07d4de3e9c9869b6e4054b9",
+  "frozen_encoder_sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+  "no_model_or_rule_changes": true,
+  "expert_appearance_labels": null,
+  "expert_T_interval": null,
+  "prediction_occurred": false,
+  "next": "Review main-root cell appearances and approximate transition before fixed-model inference. Do not select fields from model results.",
+  "review_fields": [
+    {
+      "name": "A",
+      "source_box_xyxy": [
+        4500,
+        362,
+        4900,
+        642
+      ],
+      "source_center_xy": [
+        4700,
+        502
+      ],
+      "biological_label": null,
+      "choice_basis": "Source-only position, root continuity and visible cells; no model predictions consulted."
+    },
+    {
+      "name": "B",
+      "source_box_xyxy": [
+        6700,
+        60,
+        7100,
+        340
+      ],
+      "source_center_xy": [
+        6900,
+        200
+      ],
+      "biological_label": null,
+      "choice_basis": "Source-only position, root continuity and visible cells; no model predictions consulted."
+    },
+    {
+      "name": "C",
+      "source_box_xyxy": [
+        8800,
+        415,
+        9200,
+        695
+      ],
+      "source_center_xy": [
+        9000,
+        555
+      ],
+      "biological_label": null,
+      "choice_basis": "Source-only position, root continuity and visible cells; no model predictions consulted."
+    }
+  ],
+  "prepared_utc": "2026-11-16T14:50:40.369482+00:00",
+  "geometry_note": "Field y centres follow source-green intensity inside manually delimited top-root search bands; no tissue label inferred.",
+  "display": "Overview downscaled; details enlarged nearest-neighbour. Native crops preserved; no sharpening or generative restoration.",
+  "expert_reference_pending": true,
+  "source_file_unchanged": true
+}

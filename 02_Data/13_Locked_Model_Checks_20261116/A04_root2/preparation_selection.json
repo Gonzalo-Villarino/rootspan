@@ -1,0 +1,14 @@
+{
+  "source": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png",
+  "source_sha256": "529ad2cf67513b8a4a4bae737261ff068fca498c166a5bf2d073d59ad713fe4c",
+  "root_number_from_top": 2,
+  "source_box_xyxy": [
+    6200,
+    2000,
+    11400,
+    3400
+  ],
+  "selection": "Next root on familiar A04 slide, after checking roots 1 and 3. Selected before this root is predicted by locked v1; archived source overview used for location.",
+  "labels_pending": true,
+  "model_prediction_done": false
+}

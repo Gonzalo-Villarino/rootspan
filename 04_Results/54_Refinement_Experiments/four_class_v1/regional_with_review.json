@@ -1,0 +1,41 @@
+{
+  "applied": true,
+  "boundary_x": 1024,
+  "review_half_width_pixels": 32,
+  "assumptions": "Single near-horizontal primary root spanning crop; Endoderm left, Periderm right; zero or one transition.",
+  "review255": "Predicted tissue outside the estimated main-root band, plus64px band around inferred transition. Not a confidence interval.",
+  "primary_pixels": 82603,
+  "review_pixels": 2414,
+  "reference_input": false,
+  "metrics": {
+    "classes": [
+      {
+        "name": "Periderm",
+        "support": 37367,
+        "correct": 0,
+        "recall_counting_review_as_not_correct": 0.0,
+        "iou_counting_review_as_not_correct": 0.0,
+        "reviewed_out": 0
+      },
+      {
+        "name": "Endoderm",
+        "support": 31640,
+        "correct": 31640,
+        "recall_counting_review_as_not_correct": 1.0,
+        "iou_counting_review_as_not_correct": 0.45867037777971065,
+        "reviewed_out": 0
+      },
+      {
+        "name": "Background",
+        "support": 76604,
+        "correct": 76604,
+        "recall_counting_review_as_not_correct": 1.0,
+        "iou_counting_review_as_not_correct": 0.9996737527567892,
+        "reviewed_out": 0
+      }
+    ],
+    "labelled_coverage": 1.0,
+    "overall_accuracy_on_retained_labels_only": 0.7433779041418574,
+    "scope": "Review pixels counted as missed in recall/IoU; retained-only accuracy must be read with coverage."
+  }
+}

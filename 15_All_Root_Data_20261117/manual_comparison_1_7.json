@@ -1,0 +1,59 @@
+{
+  "scope": "Development comparison to three existing Fiji ROIs; no independent validation. V2geometry unchanged; postprocessing follows original PAT mask stages on class-safe raw predictions; fixed150px enclosed-gap experiment.",
+  "rows": [
+    {
+      "root": 1,
+      "manual_um": 8002.109515014364,
+      "V2_um": 5608.445080851533,
+      "V2_visible_segment_um": null,
+      "postprocess_sum_um": 5614.13045308312,
+      "postprocess_basal_run_um": 5614.130453083164,
+      "candidate_absolute_error_um": 2387.9790619312,
+      "V2_absolute_error_um": 2393.6644341628307,
+      "cleanup_candidate_um": 5614.130453083164,
+      "cleanup_added_path_um": 0.0,
+      "cleanup_status": "experimental_only_requires_anatomical_review",
+      "cleanup_start_path_pixels": 11068.98732125451,
+      "cleanup_gap_limit_pixels": 150.0,
+      "cleanup_end_gap_limit_pixels": 250.0,
+      "cleanup_stop_path_pixels": 14043.915048343279,
+      "cleanup_end_gap_pixels": 0.0
+    },
+    {
+      "root": 2,
+      "manual_um": 13710.563359870024,
+      "V2_um": 15127.158251323985,
+      "V2_visible_segment_um": null,
+      "postprocess_sum_um": 15582.63401114831,
+      "postprocess_basal_run_um": 15582.634011148224,
+      "candidate_absolute_error_um": 1872.0706512781999,
+      "V2_absolute_error_um": 1416.5948914539604,
+      "cleanup_candidate_um": 15582.634011148224,
+      "cleanup_added_path_um": 0.0,
+      "cleanup_status": "experimental_only_requires_anatomical_review",
+      "cleanup_start_path_pixels": 6094.643394869122,
+      "cleanup_gap_limit_pixels": 150.0,
+      "cleanup_end_gap_limit_pixels": 250.0,
+      "cleanup_stop_path_pixels": 14351.881157376567,
+      "cleanup_end_gap_pixels": 0.0
+    },
+    {
+      "root": 6,
+      "manual_um": 17935.5549610925,
+      "V2_um": 23897.38198203049,
+      "V2_visible_segment_um": null,
+      "postprocess_sum_um": 13793.084085465385,
+      "postprocess_basal_run_um": 13793.084085465456,
+      "candidate_absolute_error_um": 4142.470875627045,
+      "V2_absolute_error_um": 5961.827020937988,
+      "cleanup_candidate_um": 13793.084085465456,
+      "cleanup_added_path_um": 0.0,
+      "cleanup_status": "experimental_only_requires_anatomical_review",
+      "cleanup_start_path_pixels": 6890.267455389855,
+      "cleanup_gap_limit_pixels": 150.0,
+      "cleanup_end_gap_limit_pixels": 250.0,
+      "cleanup_stop_path_pixels": 14199.222712278,
+      "cleanup_end_gap_pixels": 0.0
+    }
+  ]
+}

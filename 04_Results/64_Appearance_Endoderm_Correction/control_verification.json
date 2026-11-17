@@ -1,0 +1,7 @@
+{
+  "old_T": 11328.0,
+  "control_T": 11328.0,
+  "maximum_score_difference": 0.0,
+  "control_reproduces_previous_boundary": true,
+  "purpose": "Verify generalized code did not change the original three-window experiment."
+}

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "image_to_scores_max_absolute_difference": 0.0,
+  "approved_212_T_reproduced": [
+    8414.342292421163,
+    411.8250414267261
+  ],
+  "saved_profile_replays": [
+    {
+      "case": "20_29_root4",
+      "T_path_pixels": null,
+      "passed": true
+    },
+    {
+      "case": "2_12_root1",
+      "T_path_pixels": 5056.0,
+      "passed": true
+    },
+    {
+      "case": "A04_root3",
+      "T_path_pixels": 2048.0,
+      "passed": true
+    },
+    {
+      "case": "COL0_root3",
+      "T_path_pixels": 11840.0,
+      "passed": true
+    }
+  ],
+  "scope": "Computational reproduction, not new biological validation."
+}

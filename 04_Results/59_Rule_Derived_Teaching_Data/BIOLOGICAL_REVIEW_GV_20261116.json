@@ -1,0 +1,13 @@
+{
+  "reviewed_utc": "2026-11-16T10:14:42.260431+00:00",
+  "reviewer": "Gonzalo Villarino",
+  "displayed_image": "${ROOTSPAN_PROJECT}/04_Results/59_Rule_Derived_Teaching_Data/REVIEW_RULE_DERIVED_EXAMPLES.png",
+  "displayed_image_sha256": "812c71fe5a31d25dc89c9e6d832fe8475b30114970e7d87c8b279fa6c5a7aa6d",
+  "regions_file": "${ROOTSPAN_PROJECT}/04_Results/59_Rule_Derived_Teaching_Data/COL0_rule_derived_Endoderm_regions.json",
+  "regions_sha256": "e9976c44dd638ba72f5a7313ee9bec3cc7f7f901b2af142a5ffef9112c21eaf7",
+  "question": "In the six COL0 examples shown above, are the cyan regions all Endoderm on the main root?",
+  "verbatim_answer": "for the most part all are endoerm. in root 3 u see transition peri endo but tje bliue for all are endo",
+  "interpretation": "User confirms cyan regions as Endoderm at region level, with qualifier for the most part. Root 3 shows a nearby Periderm-Endoderm transition, but user identifies the cyan region as Endoderm. This is not pixel-by-pixel boundary verification or a new exact transition annotation.",
+  "provenance": "Polygons were derived by code using main-root geometry and the orientation rule, then visually reviewed by the user. They were used experimentally at half field-loss weight before this confirmation. Original manifests, polygons and past training records are retained unchanged.",
+  "new_training_after_this_confirmation": false
+}

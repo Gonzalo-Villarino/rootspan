@@ -1,0 +1,90 @@
+{
+  "scope": "Synthetic probes of original source at pinned commit; not biological accuracy or a full PAT run.",
+  "stitching_changes_class": {
+    "input_classes": [
+      "Endodermis",
+      "Lateral_root"
+    ],
+    "no_input_periderm_pixels": true,
+    "output_periderm_color_pixels": 30480,
+    "source_function": "segmentation_patch_cor_mac.py:572-683",
+    "interpretation": "Channelwise max can create the Periderm color when overlapping predictions disagree as E versus LR."
+  },
+  "stitching_uncovered_edges": {
+    "source_dimensions": [
+      3048,
+      3048
+    ],
+    "all_prediction_tiles_periderm": true,
+    "black_output_pixels": 50721,
+    "bottom_8_rows_empty": true,
+    "right_8_columns_empty": true,
+    "unpadded_source_size_equals_output_in_this_example": true
+  },
+  "718_width_coverage_by_code_formula": {
+    "source_width": 18143,
+    "columns": 18,
+    "padded_width": 18288,
+    "left_padding": 73,
+    "maximum_tile_coverage_exclusive": 18160,
+    "original_right_columns_beyond_tile_coverage": 56,
+    "is_analytic_not_full_slide_execution": true
+  },
+  "QC_slide_with_no_selected_roots": {
+    "selected": [
+      "slideA_1.png"
+    ],
+    "slideA_root2_becomes_missing": true,
+    "unselected_slideB_retains": [
+      300,
+      400
+    ],
+    "source": "QC_selected.py:35-43",
+    "interpretation": "If an image has no entry in selected_roots, its values are not cleared."
+  },
+  "QC_folder_mismatch": {
+    "normal_GUI_folder_present": "nature_accession",
+    "missing_required_folder": "nature_accession_flip",
+    "error_type": "FileNotFoundError",
+    "original_script_executed_in_temporary_copy": true
+  },
+  "skeleton_pixel_count_is_not_euclidean_arc_length": {
+    "horizontal": {
+      "counted_skeleton_pixels": 101,
+      "endpoint_distance_pixels": 100.0
+    },
+    "diagonal_45_degrees": {
+      "counted_skeleton_pixels": 101,
+      "endpoint_distance_pixels": 141.4213562373095
+    },
+    "scope": "The original final counting expression after skeleton extraction; no FilFinder run or estimate of real-data bias."
+  },
+  "postprocessing_converts_short_E_only_component": {
+    "image_size": [
+      1800,
+      300
+    ],
+    "E_component_xyxy": [
+      900,
+      100,
+      1700,
+      160
+    ],
+    "input_periderm_mask_pixels": 0,
+    "final_white_measurement_mask_pixels": 48000,
+    "scope": "Short component satisfying the original area, bbox and right-side rules. This does not show that the long root 1 was converted this way."
+  },
+  "unit_conversion_also_converts_numeric_underscore_image_name": {
+    "input": "7_18",
+    "output": 1354.9726363464804,
+    "source": "PAT_GUI_mac_cpu.py:434-447",
+    "scope": "Original conversion helper, which the GUI applies to all cells. Whole GUI was not launched."
+  },
+  "gap_processing_inverted_external_contours": {
+    "periderm_rectangles": 2,
+    "gap_width_pixels": 100,
+    "qualifying_contours": 0,
+    "scope": "The exact original loop on two disconnected P rectangles. Gap-bridging branch receives no candidates; does not establish behavior for every topology."
+  },
+  "original_source_unchanged": true
+}

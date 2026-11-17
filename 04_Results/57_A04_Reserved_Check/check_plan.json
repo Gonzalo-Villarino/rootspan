@@ -1,0 +1,20 @@
+{
+  "role": "Newly reserved local Periderm-only check, not used in current local training or model selection. Original published PAT exposure unknown.",
+  "selection": "Freeze strongest raw development tissue-IoU candidate from experimentsv1-v6 before A04 prediction; compare with preservedworking39. No tuning to this A04 check.",
+  "input_to_prediction": "Full RGB image only. No annotations or root positions supplied.",
+  "reference": "Six saved archived Periderm polygons. Outside remains unlabelled. No Endoderm/Background/LR truth is supplied.",
+  "metrics_allowed": [
+    "Periderm recall within archived outlines",
+    "difference between predicted centreline length and archive-outline-derived length, with root matching and endpoint QC"
+  ],
+  "metrics_not_claimed": [
+    "Endoderm accuracy",
+    "Periderm precision outside polygons",
+    "independent manual-length accuracy",
+    "validated unattended phenotyping"
+  ],
+  "calibration": "Not confirmed for A04; report pixels only.",
+  "source_annotation": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.json",
+  "source_image": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png",
+  "expected_roots": 6
+}

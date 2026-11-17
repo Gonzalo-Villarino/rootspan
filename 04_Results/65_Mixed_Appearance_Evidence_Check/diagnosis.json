@@ -1,0 +1,101 @@
+{
+  "created_utc": "2026-11-16T12:58:12.516474+00:00",
+  "expert_reply_verbatim": "the new blue line is still to embeded in the endoderm there is way to many long square cells - maybe teach the model like you have to see a mixture of these long orderly suqare endoderm and the messy irefualr periderm. Bc the new blue improve but i think the model is not taking itto account much of the peidem cells to call it T zone.",
+  "interpretation": "New blue-line main-root area remains Endoderm. A mixed call needs both elongated orderly Endoderm and shorter irregular Periderm-like cells on the main root, not long rectangular cells alone.",
+  "scan_index": 177,
+  "source_center_xy": [
+    12196.845302859563,
+    5973.745739602983
+  ],
+  "distance_along_root_pixels": 11488.0,
+  "local_tangent_xy": [
+    0.9998390967139187,
+    0.017938246355068636
+  ],
+  "raw_scores_E_M_P": [
+    0.0028591996524482965,
+    0.9963478446006775,
+    0.0007929533021524549
+  ],
+  "raw_class": 1,
+  "ordered_class": 1,
+  "neighbors": [
+    {
+      "index": 175,
+      "raw": 0,
+      "ordered": 0,
+      "scores": [
+        0.9186299443244934,
+        0.08101292699575424,
+        0.00035708732320927083
+      ]
+    },
+    {
+      "index": 176,
+      "raw": 0,
+      "ordered": 0,
+      "scores": [
+        0.8422327637672424,
+        0.15738560259342194,
+        0.00038163119461387396
+      ]
+    },
+    {
+      "index": 177,
+      "raw": 1,
+      "ordered": 1,
+      "scores": [
+        0.0028591996524482965,
+        0.9963478446006775,
+        0.0007929533021524549
+      ]
+    },
+    {
+      "index": 178,
+      "raw": 1,
+      "ordered": 1,
+      "scores": [
+        0.005000764038413763,
+        0.9909505844116211,
+        0.004048572387546301
+      ]
+    },
+    {
+      "index": 179,
+      "raw": 1,
+      "ordered": 1,
+      "scores": [
+        0.012961257249116898,
+        0.9794696569442749,
+        0.007569108158349991
+      ]
+    },
+    {
+      "index": 180,
+      "raw": 1,
+      "ordered": 1,
+      "scores": [
+        0.276716023683548,
+        0.7034388780593872,
+        0.019845036789774895
+      ]
+    }
+  ],
+  "transform": {
+    "native_size": [
+      320,
+      256
+    ],
+    "input_center_xy": [
+      160,
+      118
+    ],
+    "intensity_multiplier": 1.5533980582524272,
+    "outside_reviewed_window": "zero padding; no extra source tissue added",
+    "resized": false
+  },
+  "current_head_limitation": "Three-way classification of an entire field. No separate Endoderm-cell-present and Periderm-cell-present predictions, no individual cell outlines or shape measurements.",
+  "no_new_training": true,
+  "no_new_reference_T": true,
+  "source": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.png"
+}

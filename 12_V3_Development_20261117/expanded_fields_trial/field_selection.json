@@ -1,0 +1,393 @@
+[
+  {
+    "id": "COL0_A",
+    "slide": "COL0",
+    "root": 2,
+    "class": 0,
+    "image": "12_V3_Development_20261117/existing_field_labels/COL0_A.png",
+    "image_sha256": "f5c5c1760b27e43b0c446ea79068952e4fe29f88e4dbc884bff078305593173a",
+    "label_record": "02_Data/10_Cell_Appearance_Review/confirmed_appearance_labels_03.json",
+    "record_sha256": "af254b23849b4934e1909d407b4110e2f0d1329e0a5cd634a0275d8d41e4ad14",
+    "existing_processed_image": "04_Results/65_Mixed_Appearance_Evidence_Check/three_way_five_windows/teaching_A_processed.png",
+    "selected_for_training": true,
+    "decision_reason": "Existing explicit appearance label, retained with field-level limitations",
+    "total_field_weight": 0.05555555555555555
+  },
+  {
+    "id": "COL0_B",
+    "slide": "COL0",
+    "root": 2,
+    "class": 1,
+    "image": "12_V3_Development_20261117/existing_field_labels/COL0_B.png",
+    "image_sha256": "01d6253669e298124351e80291720b4b20b4422f004a563e35794046cf7d75ad",
+    "label_record": "02_Data/10_Cell_Appearance_Review/confirmed_appearance_labels_03.json",
+    "record_sha256": "af254b23849b4934e1909d407b4110e2f0d1329e0a5cd634a0275d8d41e4ad14",
+    "existing_processed_image": "04_Results/65_Mixed_Appearance_Evidence_Check/three_way_five_windows/teaching_B_processed.png",
+    "selected_for_training": true,
+    "decision_reason": "Existing explicit appearance label, retained with field-level limitations",
+    "total_field_weight": 0.16666666666666666
+  },
+  {
+    "id": "COL0_C",
+    "slide": "COL0",
+    "root": 2,
+    "class": 2,
+    "image": "12_V3_Development_20261117/existing_field_labels/COL0_C.png",
+    "image_sha256": "40f8c3ab5da67a05d79b7818336e4c7b03a5fdbddc86cffaa26c6eee676b54bc",
+    "label_record": "02_Data/10_Cell_Appearance_Review/confirmed_appearance_labels_03.json",
+    "record_sha256": "af254b23849b4934e1909d407b4110e2f0d1329e0a5cd634a0275d8d41e4ad14",
+    "existing_processed_image": "04_Results/65_Mixed_Appearance_Evidence_Check/three_way_five_windows/teaching_C_processed.png",
+    "selected_for_training": true,
+    "decision_reason": "Existing explicit appearance label, retained with field-level limitations",
+    "total_field_weight": 0.16666666666666666
+  },
+  {
+    "id": "COL0_D",
+    "slide": "COL0",
+    "root": 3,
+    "class": 0,
+    "image": "12_V3_Development_20261117/existing_field_labels/COL0_D.png",
+    "image_sha256": "c843ee37281083cab4bc547e59cfe67c498aac49cac366b7deea598b31f3d247",
+    "label_record": "02_Data/10_Cell_Appearance_Review/confirmed_appearance_labels_03.json",
+    "record_sha256": "af254b23849b4934e1909d407b4110e2f0d1329e0a5cd634a0275d8d41e4ad14",
+    "existing_processed_image": "04_Results/65_Mixed_Appearance_Evidence_Check/three_way_five_windows/teaching_D_processed.png",
+    "selected_for_training": true,
+    "decision_reason": "Existing explicit appearance label, retained with field-level limitations",
+    "total_field_weight": 0.05555555555555555
+  },
+  {
+    "id": "COL0_E",
+    "slide": "COL0",
+    "root": 3,
+    "class": 0,
+    "image": "12_V3_Development_20261117/existing_field_labels/COL0_E.png",
+    "image_sha256": "d1829ec4d0d7dad17d357dbcae8efc1a83b396dd9b2b5a697990c4fa5211c6d5",
+    "label_record": "02_Data/10_Cell_Appearance_Review/confirmed_appearance_labels_03.json",
+    "record_sha256": "af254b23849b4934e1909d407b4110e2f0d1329e0a5cd634a0275d8d41e4ad14",
+    "existing_processed_image": "04_Results/65_Mixed_Appearance_Evidence_Check/three_way_five_windows/teaching_E_processed.png",
+    "selected_for_training": true,
+    "decision_reason": "Existing explicit appearance label, retained with field-level limitations",
+    "total_field_weight": 0.05555555555555555
+  },
+  {
+    "id": "A04_r1_A",
+    "slide": "A04",
+    "root": 1,
+    "class": 0,
+    "image": "12_V3_Development_20261117/existing_field_labels/A04_r1_A.png",
+    "image_sha256": "27d0f3124ad1ea5a68862bac09c30443636badc85e876487040a7a206b131758",
+    "source": "02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png",
+    "source_sha256": "529ad2cf67513b8a4a4bae737261ff068fca498c166a5bf2d073d59ad713fe4c",
+    "reviewed_source_box": [
+      4000,
+      510,
+      4400,
+      790
+    ],
+    "preprocessing": {
+      "native_size": [
+        320,
+        256
+      ],
+      "input_center_xy": [
+        200,
+        153
+      ],
+      "intensity_multiplier": 2.051282051282051,
+      "outside_reviewed_window": "zero padding; no extra source tissue added",
+      "resized": false
+    },
+    "label_record": "04_Results/71_Locked_A04_Root1_Check/expert_appearance_review_01.json",
+    "record_sha256": "b08f1512f52fc230aa571b1b6fbd8b4aacb808348acc91c0d8b00cac91a9ce95",
+    "expert_words": "A is endoderm, C is Perid, B is T",
+    "label_scope": "Qualitative whole reviewed field. Central processed field inherits approximate appearance, not pixel labels.",
+    "selected_for_training": true,
+    "decision_reason": "Existing explicit appearance label, retained with field-level limitations",
+    "total_field_weight": 0.05555555555555555
+  },
+  {
+    "id": "A04_r1_B",
+    "slide": "A04",
+    "root": 1,
+    "class": 1,
+    "image": "12_V3_Development_20261117/existing_field_labels/A04_r1_B.png",
+    "image_sha256": "574162e6dd22551c890d2a0a056844c3ce3b602753f7fe16d3bbf8892effa30f",
+    "source": "02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png",
+    "source_sha256": "529ad2cf67513b8a4a4bae737261ff068fca498c166a5bf2d073d59ad713fe4c",
+    "reviewed_source_box": [
+      5800,
+      120,
+      6200,
+      400
+    ],
+    "preprocessing": {
+      "native_size": [
+        320,
+        256
+      ],
+      "input_center_xy": [
+        200,
+        149
+      ],
+      "intensity_multiplier": 1.4814814814814814,
+      "outside_reviewed_window": "zero padding; no extra source tissue added",
+      "resized": false
+    },
+    "label_record": "04_Results/71_Locked_A04_Root1_Check/expert_appearance_review_01.json",
+    "record_sha256": "b08f1512f52fc230aa571b1b6fbd8b4aacb808348acc91c0d8b00cac91a9ce95",
+    "expert_words": "A is endoderm, C is Perid, B is T",
+    "label_scope": "Qualitative whole reviewed field. Central processed field inherits approximate appearance, not pixel labels.",
+    "selected_for_training": false,
+    "decision_reason": "Unresolved relationship between earlier field appearance and later T reference; excluded, not relabelled"
+  },
+  {
+    "id": "A04_r1_C",
+    "slide": "A04",
+    "root": 1,
+    "class": 2,
+    "image": "12_V3_Development_20261117/existing_field_labels/A04_r1_C.png",
+    "image_sha256": "aba4ad5cdb2798f50ce3e737d4f36cdf32f886f04e84f9c41c694fe22cf293a9",
+    "source": "02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png",
+    "source_sha256": "529ad2cf67513b8a4a4bae737261ff068fca498c166a5bf2d073d59ad713fe4c",
+    "reviewed_source_box": [
+      6800,
+      11,
+      7200,
+      291
+    ],
+    "preprocessing": {
+      "native_size": [
+        320,
+        256
+      ],
+      "input_center_xy": [
+        200,
+        132
+      ],
+      "intensity_multiplier": 1.4108725364842964,
+      "outside_reviewed_window": "zero padding; no extra source tissue added",
+      "resized": false
+    },
+    "label_record": "04_Results/71_Locked_A04_Root1_Check/expert_appearance_review_01.json",
+    "record_sha256": "b08f1512f52fc230aa571b1b6fbd8b4aacb808348acc91c0d8b00cac91a9ce95",
+    "expert_words": "A is endoderm, C is Perid, B is T",
+    "label_scope": "Qualitative whole reviewed field. Central processed field inherits approximate appearance, not pixel labels.",
+    "selected_for_training": true,
+    "decision_reason": "Existing explicit appearance label, retained with field-level limitations",
+    "total_field_weight": 0.16666666666666666
+  },
+  {
+    "id": "A04_r2_A",
+    "slide": "A04",
+    "root": 2,
+    "class": 0,
+    "image": "12_V3_Development_20261117/existing_field_labels/A04_r2_A.png",
+    "image_sha256": "71056269b7628ea32d737be7b7af13ec494f140a331e7038558c902c9f8a53a9",
+    "source": "02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png",
+    "source_sha256": "529ad2cf67513b8a4a4bae737261ff068fca498c166a5bf2d073d59ad713fe4c",
+    "reviewed_source_box": [
+      7200,
+      2561,
+      7600,
+      2841
+    ],
+    "preprocessing": {
+      "native_size": [
+        320,
+        256
+      ],
+      "input_center_xy": [
+        200,
+        139
+      ],
+      "intensity_multiplier": 2.1052631578947367,
+      "outside_reviewed_window": "zero padding; no extra source tissue added",
+      "resized": false
+    },
+    "label_record": "04_Results/72_Locked_A04_Root2_Check/expert_appearance_review_01.json",
+    "record_sha256": "7de66187ed384bf0e09c02582d05c0307920716181341885e56676bb693b9d3b",
+    "expert_words": "A endoderm B and C transition",
+    "label_scope": "Qualitative whole reviewed field. Central processed field inherits approximate appearance, not pixel labels.",
+    "selected_for_training": true,
+    "decision_reason": "Existing explicit appearance label, retained with field-level limitations",
+    "total_field_weight": 0.05555555555555555
+  },
+  {
+    "id": "A04_r2_B",
+    "slide": "A04",
+    "root": 2,
+    "class": 1,
+    "image": "12_V3_Development_20261117/existing_field_labels/A04_r2_B.png",
+    "image_sha256": "b16c42ea664181a2636322208df6c0194f0ff9142dcc3e679ee41284254eb2a1",
+    "source": "02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png",
+    "source_sha256": "529ad2cf67513b8a4a4bae737261ff068fca498c166a5bf2d073d59ad713fe4c",
+    "reviewed_source_box": [
+      8300,
+      2490,
+      8700,
+      2770
+    ],
+    "preprocessing": {
+      "native_size": [
+        320,
+        256
+      ],
+      "input_center_xy": [
+        200,
+        142
+      ],
+      "intensity_multiplier": 2.318840579710145,
+      "outside_reviewed_window": "zero padding; no extra source tissue added",
+      "resized": false
+    },
+    "label_record": "04_Results/72_Locked_A04_Root2_Check/expert_appearance_review_01.json",
+    "record_sha256": "7de66187ed384bf0e09c02582d05c0307920716181341885e56676bb693b9d3b",
+    "expert_words": "A endoderm B and C transition",
+    "label_scope": "Qualitative whole reviewed field. Central processed field inherits approximate appearance, not pixel labels.",
+    "selected_for_training": false,
+    "decision_reason": "Unresolved relationship between earlier field appearance and later T reference; excluded, not relabelled"
+  },
+  {
+    "id": "A04_r2_C",
+    "slide": "A04",
+    "root": 2,
+    "class": 1,
+    "image": "12_V3_Development_20261117/existing_field_labels/A04_r2_C.png",
+    "image_sha256": "32c66ecb6d387555695d13cb979c3b83ad93fbdd6c15b4461707942a7c68e4db",
+    "source": "02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png",
+    "source_sha256": "529ad2cf67513b8a4a4bae737261ff068fca498c166a5bf2d073d59ad713fe4c",
+    "reviewed_source_box": [
+      9800,
+      2455,
+      10200,
+      2735
+    ],
+    "preprocessing": {
+      "native_size": [
+        320,
+        256
+      ],
+      "input_center_xy": [
+        200,
+        134
+      ],
+      "intensity_multiplier": 1.8098523839149607,
+      "outside_reviewed_window": "zero padding; no extra source tissue added",
+      "resized": false
+    },
+    "label_record": "04_Results/72_Locked_A04_Root2_Check/expert_appearance_review_01.json",
+    "record_sha256": "7de66187ed384bf0e09c02582d05c0307920716181341885e56676bb693b9d3b",
+    "expert_words": "A endoderm B and C transition",
+    "label_scope": "Qualitative whole reviewed field. Central processed field inherits approximate appearance, not pixel labels.",
+    "selected_for_training": true,
+    "decision_reason": "Existing explicit appearance label, retained with field-level limitations",
+    "total_field_weight": 0.08333333333333333
+  },
+  {
+    "id": "A04_r3_A",
+    "slide": "A04",
+    "root": 3,
+    "class": 0,
+    "image": "12_V3_Development_20261117/existing_field_labels/A04_r3_A.png",
+    "image_sha256": "bdf632402b599aa54a11407325159cecefbcf86e62ca9d278df8f08f6c62cb2a",
+    "source": "02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png",
+    "source_sha256": "529ad2cf67513b8a4a4bae737261ff068fca498c166a5bf2d073d59ad713fe4c",
+    "reviewed_source_box": [
+      8200,
+      5058,
+      8600,
+      5338
+    ],
+    "preprocessing": {
+      "native_size": [
+        320,
+        256
+      ],
+      "input_center_xy": [
+        200,
+        141
+      ],
+      "intensity_multiplier": 1.9047619047619047,
+      "outside_reviewed_window": "zero padding; no extra source tissue added",
+      "resized": false
+    },
+    "label_record": "04_Results/67_Fixed_A04_Root3_Check/expert_appearance_review_01.json",
+    "record_sha256": "b3a42937047b5c10170feec86778b5c8439f21402a6baec7aa6a19a32adec2f3",
+    "expert_words": "A and B endoderm C Transition zone. Very bluerry image tho",
+    "label_scope": "Qualitative whole reviewed field. Central processed field inherits approximate appearance, not pixel labels.",
+    "selected_for_training": true,
+    "decision_reason": "Existing explicit appearance label, retained with field-level limitations",
+    "total_field_weight": 0.05555555555555555
+  },
+  {
+    "id": "A04_r3_B",
+    "slide": "A04",
+    "root": 3,
+    "class": 0,
+    "image": "12_V3_Development_20261117/existing_field_labels/A04_r3_B.png",
+    "image_sha256": "78becdd7432ef56c18d56df948b5e86e82abcb0635bf63569c04a01efe27108c",
+    "source": "02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png",
+    "source_sha256": "529ad2cf67513b8a4a4bae737261ff068fca498c166a5bf2d073d59ad713fe4c",
+    "reviewed_source_box": [
+      9200,
+      4963,
+      9600,
+      5243
+    ],
+    "preprocessing": {
+      "native_size": [
+        320,
+        256
+      ],
+      "input_center_xy": [
+        200,
+        140
+      ],
+      "intensity_multiplier": 2.051282051282051,
+      "outside_reviewed_window": "zero padding; no extra source tissue added",
+      "resized": false
+    },
+    "label_record": "04_Results/67_Fixed_A04_Root3_Check/expert_appearance_review_01.json",
+    "record_sha256": "b3a42937047b5c10170feec86778b5c8439f21402a6baec7aa6a19a32adec2f3",
+    "expert_words": "A and B endoderm C Transition zone. Very bluerry image tho",
+    "label_scope": "Qualitative whole reviewed field. Central processed field inherits approximate appearance, not pixel labels.",
+    "selected_for_training": false,
+    "decision_reason": "Unresolved relationship between earlier field appearance and later T reference; excluded, not relabelled"
+  },
+  {
+    "id": "A04_r3_C",
+    "slide": "A04",
+    "root": 3,
+    "class": 1,
+    "image": "12_V3_Development_20261117/existing_field_labels/A04_r3_C.png",
+    "image_sha256": "a86dbc85a4ee2b6a1261adf15a28a2c586afbc0f15f97b55a25463ed518d23e2",
+    "source": "02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png",
+    "source_sha256": "529ad2cf67513b8a4a4bae737261ff068fca498c166a5bf2d073d59ad713fe4c",
+    "reviewed_source_box": [
+      10000,
+      4906,
+      10400,
+      5186
+    ],
+    "preprocessing": {
+      "native_size": [
+        320,
+        256
+      ],
+      "input_center_xy": [
+        200,
+        131
+      ],
+      "intensity_multiplier": 1.7204301075268817,
+      "outside_reviewed_window": "zero padding; no extra source tissue added",
+      "resized": false
+    },
+    "label_record": "04_Results/67_Fixed_A04_Root3_Check/expert_appearance_review_01.json",
+    "record_sha256": "b3a42937047b5c10170feec86778b5c8439f21402a6baec7aa6a19a32adec2f3",
+    "expert_words": "A and B endoderm C Transition zone. Very bluerry image tho",
+    "label_scope": "Qualitative whole reviewed field. Central processed field inherits approximate appearance, not pixel labels.",
+    "selected_for_training": true,
+    "decision_reason": "Existing explicit appearance label, retained with field-level limitations",
+    "total_field_weight": 0.08333333333333333
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "manual_trace_endpoint_checks": [
+    {
+      "root": 1,
+      "leftmost_vertex_index": 16,
+      "rightmost_vertex_index": 0,
+      "vertices": 17,
+      "extrema_are_trace_endpoints": true
+    },
+    {
+      "root": 2,
+      "leftmost_vertex_index": 19,
+      "rightmost_vertex_index": 0,
+      "vertices": 20,
+      "extrema_are_trace_endpoints": true
+    },
+    {
+      "root": 6,
+      "leftmost_vertex_index": 0,
+      "rightmost_vertex_index": 29,
+      "vertices": 30,
+      "extrema_are_trace_endpoints": true
+    }
+  ],
+  "training_and_evaluation_encoder_sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+  "encoder_files_identical": true,
+  "manual_reference_input_to_prediction": false
+}

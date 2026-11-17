@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-17",
+  "status": "Proposed data roles saved; user steered immediate work to unchanged-v1 six-root measurement pilot before deciding on v2. No v2 training.",
+  "grouping_unit": "Original slide; TIFF, PNG, crops, roots and augmentations from same slide stay together. Group common specimen/acquisition identities if discovered.",
+  "roles": [
+    {
+      "slide": "COL0_Slide1",
+      "role": "candidate_teaching",
+      "readiness": "Five reviewed appearance fields already used in v1; preserve."
+    },
+    {
+      "slide": "MT25_rep3",
+      "role": "candidate_teaching",
+      "readiness": "Existing tissue polygons, especially reviewed roots4/5; new clear/mixed appearance examples require confirmation."
+    },
+    {
+      "slide": "20#MT28_gfp",
+      "role": "candidate_teaching",
+      "readiness": "Archived polygons are regional labels, not confirmed clear/mixed window examples."
+    },
+    {
+      "slide": "25717_gfp",
+      "role": "candidate_teaching",
+      "readiness": "Archived polygons are regional labels, not confirmed clear/mixed window examples."
+    },
+    {
+      "slide": "A04_Slide2",
+      "role": "development_check",
+      "why": "Reviewed repeatedly; root1 T too far left; root2 provisionally accepted; root3 accepted."
+    },
+    {
+      "slide": "20_29",
+      "role": "development_check",
+      "why": "Previous development and rejected adaptations; no-T appearance check retained."
+    },
+    {
+      "slide": "2_12",
+      "role": "development_check",
+      "why": "Informed v1 continuity rule; obsolete old test-candidate designation superseded."
+    },
+    {
+      "slide": "1_7",
+      "role": "development_check",
+      "why": "Current unchanged-v1 manual-versus-model measurement pilot; reviewed original overview but no prediction yet."
+    },
+    {
+      "slide": "15_27",
+      "role": "reserved_local_evaluation",
+      "readiness": "No new local model run or biological labels. Original PAT training membership unknown."
+    },
+    {
+      "slide": "22_22",
+      "role": "reserved_local_evaluation",
+      "readiness": "No new local model run or biological labels. Original PAT training membership unknown."
+    }
+  ],
+  "new_copy_manifest": "${ROOTSPAN_PROJECT}/02_Data/15_Additional_Slides_20261117/copy_manifest.json",
+  "22_22_exposure": "Source-only overview inspected for suitability; no biological labels/predictions. Still reserved from local model tuning.",
+  "pilot": {
+    "target_roots": 3,
+    "selection_status": "User selected roots1,2,6; others not good. Source coordinates and biological endpoint checks pending as each ROI is saved. See pilot/root_selection_20261117.json.",
+    "manual_first": true,
+    "manual_tool": "Fiji Segmented Line along main-root centre from reviewed root-hypocotyl junction J toward expert T, matching the paper direction. Save line ROI and measured length before seeing model output.",
+    "T_definition": "Left edge of mixed Endoderm/Periderm appearance on main root. Mixed zone belongs to Periderm. Lateral roots excluded.",
+    "fixed_model": "Transition_v1_20261116",
+    "model_input": "Image and separately checked main-root route. No manual T, tissue mask, or manual periderm length as input.",
+    "shared_endpoint": "Expert-reviewed J can be shared by both measurements; disclose that this is assisted length measurement, not independent automatic endpoint detection.",
+    "reference": "Manual trace and T chosen without seeing v1 output. If uncertain record a T range; do not invent an exact point.",
+    "comparison": "Save model results before revealing manual results. Report manual length, model length, signed and absolute difference, no-T/failure cases separately. Trace/path error and T error can both affect difference. No accuracy percentage or success threshold invented.",
+    "scope": "Three user-selected roots on one slide; preliminary assisted comparison, not whole-slide or broad model validation.",
+    "calibration": {
+      "slide": "1_7",
+      "scale_pixels_per_micrometre": 0.5299,
+      "micrometres_per_pixel": 1.8871485185884127,
+      "basis": "User confirmation in this chat on 17 November 2026",
+      "verbatim": "Yes, the same scale",
+      "independently_verified_from_metadata": false,
+      "original_dimensions": [
+        15413,
+        8530
+      ],
+      "source_sha256": "487d1086e4caaca419431a487beb131f050eece8ef8347283cabdf2f8a82a604",
+      "note": "Use original pixels, not resized overview screenshots. Viewing zoom does not change the calibration. Other new slides remain unconfirmed."
+    },
+    "published_method_reference": "${ROOTSPAN_PROJECT}/02_Data/14_Data_Roles_20261117/PAT_Fiji_Method_Verified.txt",
+    "scale_dialog": {
+      "distance_in_pixels": 0.5299,
+      "known_distance": 1.0,
+      "pixel_aspect_ratio": 1.0,
+      "unit": "micrometres",
+      "global_for_this_exercise": false,
+      "global_in_PAT_paper": true
+    },
+    "selected_root_ids": [
+      1,
+      2,
+      6
+    ]
+  },
+  "future_v2": "Only after pilot and reviewed teaching examples: separately versioned candidate, initially change data while retaining encoder/head/preprocessing/rule/settings. Compare on fixed development cases; reserve new local evaluation for one final comparison. Repeated tuning makes evaluation development.",
+  "sources_preserved": true,
+  "training_run": false,
+  "prediction_run": false,
+  "locked_v1_integrity": {
+    "passed": true,
+    "files": 40,
+    "manifest_sha256": "d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb"
+  },
+  "pretraining_caveat": "PAT archive QC contains new slide identities. Published encoder exposure unknown, so reserved slides are not claimed independent of original PAT pretraining."
+}

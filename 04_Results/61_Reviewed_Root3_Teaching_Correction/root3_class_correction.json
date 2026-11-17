@@ -1,0 +1,150 @@
+{
+  "created_utc": "2026-11-16T11:47:01.480558+00:00",
+  "source_image": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.png",
+  "source_sha256": "68669ed917eeecdead464c55e853ec4a1d8f35979b9180110a64e9778f93f8de",
+  "previous_data_manifest": "${ROOTSPAN_PROJECT}/04_Results/59_Rule_Derived_Teaching_Data/manifest.json",
+  "previous_manifest_sha256": "11e48f6bdff5c1e7cf5a06de43ce87670997fb14ce1e189633c4cbad1ba92be9",
+  "expert_transition_review": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root3_transition_review_04.json",
+  "original_derived_strip_file": "${ROOTSPAN_PROJECT}/04_Results/59_Rule_Derived_Teaching_Data/COL0_rule_derived_Endoderm_regions.json",
+  "original_derived_strip_sha256": "e9976c44dd638ba72f5a7313ee9bec3cc7f7f901b2af142a5ffef9112c21eaf7",
+  "original_derived_strip_root_id": 3,
+  "working_T_source_x": 12621,
+  "reviewed_approximate_T_zone_source_x": [
+    12521,
+    12721
+  ],
+  "rule": "Within the existing root3 teaching-strip polygon only: code2 at native x>=12621 becomes code1. Code2 left of12621 remains Endoderm. All other pixels retain their old codes.",
+  "biological_basis": "Gonzalo confirmed Endoderm left of working T and Periderm including transition to its right on this main root.",
+  "geometry_status": "Original computer-derived interior strip retained; this is not a new hand-drawn full-root segmentation. No outer root contour, lateral-root class, or Background labels inferred.",
+  "unique_source_pixels_relabelled": 16542,
+  "old_patch_copies_changed": [
+    {
+      "id": "COL0_Slide1_x12805_y5687",
+      "previous_mask": "${ROOTSPAN_PROJECT}/04_Results/59_Rule_Derived_Teaching_Data/masks/COL0_Slide1_x12805_y5687.png",
+      "previous_mask_sha256": "9a5cd9e19f2dea3937477ade05333b809f269f6936b23c880a5b1b3c738caa42",
+      "new_mask": "${ROOTSPAN_PROJECT}/04_Results/61_Reviewed_Root3_Teaching_Correction/masks/COL0_Slide1_x12805_y5687.png",
+      "new_mask_sha256": "0455d33edc3db6f8151f691585ee8b7c83818781f794dcecd0da55a6f4938243",
+      "changed_label_occurrences": 8493,
+      "before_counts": {
+        "0": 553476,
+        "1": 27855,
+        "2": 8493,
+        "3": 0,
+        "4": 0,
+        "255": 0
+      },
+      "after_counts": {
+        "0": 553476,
+        "1": 36348,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "COL0_Slide1_x12677_y5705",
+      "previous_mask": "${ROOTSPAN_PROJECT}/04_Results/59_Rule_Derived_Teaching_Data/masks/COL0_Slide1_x12677_y5705.png",
+      "previous_mask_sha256": "db75daaced0f08ebc13f7985e267ca72f3a692c8e84bd8b7debc8471b6774eed",
+      "new_mask": "${ROOTSPAN_PROJECT}/04_Results/61_Reviewed_Root3_Teaching_Correction/masks/COL0_Slide1_x12677_y5705.png",
+      "new_mask_sha256": "56f06e503684933852ee125b31f149230768184d7982796af63b1c8a0062e5b1",
+      "changed_label_occurrences": 13970,
+      "before_counts": {
+        "0": 557383,
+        "1": 18471,
+        "2": 13970,
+        "3": 0,
+        "4": 0,
+        "255": 0
+      },
+      "after_counts": {
+        "0": 557383,
+        "1": 32441,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "COL0_Slide1_x12805_y5705",
+      "previous_mask": "${ROOTSPAN_PROJECT}/04_Results/59_Rule_Derived_Teaching_Data/masks/COL0_Slide1_x12805_y5705.png",
+      "previous_mask_sha256": "0752daf39a25fd0b545d2fdd857fc9bf0bd791048c198ede460c209b1aab0f52",
+      "new_mask": "${ROOTSPAN_PROJECT}/04_Results/61_Reviewed_Root3_Teaching_Correction/masks/COL0_Slide1_x12805_y5705.png",
+      "new_mask_sha256": "ba310ce28627fc1edad1754cebc776b2f8985ee4ca2f72414f9edaea3957aa34",
+      "changed_label_occurrences": 8493,
+      "before_counts": {
+        "0": 553476,
+        "1": 27855,
+        "2": 8493,
+        "3": 0,
+        "4": 0,
+        "255": 0
+      },
+      "after_counts": {
+        "0": 553476,
+        "1": 36348,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "255": 0
+      }
+    },
+    {
+      "id": "COL0_Slide1_x12933_y5705",
+      "previous_mask": "${ROOTSPAN_PROJECT}/04_Results/59_Rule_Derived_Teaching_Data/masks/COL0_Slide1_x12933_y5705.png",
+      "previous_mask_sha256": "5f873625316fa15178bd374b866d8d58f6675eead6953ee937e5cfa8bd34dc96",
+      "new_mask": "${ROOTSPAN_PROJECT}/04_Results/61_Reviewed_Root3_Teaching_Correction/masks/COL0_Slide1_x12933_y5705.png",
+      "new_mask_sha256": "ff9f3b654a8de7eaae3e2c936b7a8e059a07461a9d0c87acb2605712267194ff",
+      "changed_label_occurrences": 2976,
+      "before_counts": {
+        "0": 548623,
+        "1": 38225,
+        "2": 2976,
+        "3": 0,
+        "4": 0,
+        "255": 0
+      },
+      "after_counts": {
+        "0": 548623,
+        "1": 41201,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "255": 0
+      }
+    }
+  ],
+  "new_transition_patch": {
+    "box": [
+      12237,
+      5643,
+      13005,
+      6411
+    ],
+    "image": "${ROOTSPAN_PROJECT}/04_Results/61_Reviewed_Root3_Teaching_Correction/images/COL0_root3_reviewed_T_x12237_y5643.png",
+    "mask": "${ROOTSPAN_PROJECT}/04_Results/61_Reviewed_Root3_Teaching_Correction/masks/COL0_root3_reviewed_T_x12237_y5643.png",
+    "before_counts": {
+      "0": 570146,
+      "1": 0,
+      "2": 19678,
+      "3": 0,
+      "4": 0,
+      "255": 0
+    },
+    "after_counts": {
+      "0": 570146,
+      "1": 16542,
+      "2": 3136,
+      "3": 0,
+      "4": 0,
+      "255": 0
+    }
+  },
+  "new_mask_visual_review_pending": true,
+  "training_ready": false,
+  "no_new_training": true,
+  "source_annotations_unchanged": true,
+  "do_not_use_as_blind_test": true,
+  "not_a_background_update": true
+}

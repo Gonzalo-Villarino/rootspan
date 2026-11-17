@@ -1,0 +1,10 @@
+{
+  "same_source_sha256": true,
+  "same_prediction_mask_sha256": true,
+  "same_model_scores_sha256": true,
+  "assisted_lengths_match": true,
+  "automatic_lengths_match": true,
+  "model_was_retrained": false,
+  "snapshot_preserves_shapes": true,
+  "output": "${ROOTSPAN_PROJECT}/04_Results/51_Reproduction_Check/run_20261115T171117Z"
+}

@@ -1,0 +1,12 @@
+{
+  "version": "Transition_v1_20261116",
+  "recorded_utc": "2026-11-16T15:32:07.941578+00:00",
+  "status": "Approved research checkpoint; ready to seal after successful replay.",
+  "permissions_on_sealing": {
+    "files": "0444",
+    "directories": "0555"
+  },
+  "future_changes": "Create a new version; do not edit this checkpoint.",
+  "computational_reproduction": "Exact on the current Mac and software.",
+  "scope_limit": "Not yet validated for unattended whole-slide measurements."
+}

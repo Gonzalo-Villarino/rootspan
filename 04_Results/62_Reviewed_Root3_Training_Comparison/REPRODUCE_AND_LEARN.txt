@@ -1,0 +1,21 @@
+HOW TO REPRODUCE THIS LEARNING EXPERIMENT
+
+What changed: the reviewed COL0 root3 teaching mask. Four existing overlapping patch copies were corrected, and one native 768 x 768 crop centred on the expert transition was added. These changes also affect sample selection, so this is not a perfect label-only causal experiment.
+
+What stayed the same as v7: starting v6 checkpoint, random seed1611, 1200 optimizer updates, mild augmentation, learning rates, class weighting policy, architecture and checkpoint-selection rule.
+
+The teaching set has20selected roots on4slides: MT25_rep3,20#MT28_gfp,25717_gfp,COL0_Slide1. There are357patches; overlapping patches are not357independent roots. A batch uses6fields. The corrected root3 patch can be sampled multiple times.
+
+20_29 is a familiar development check used to select the checkpoint. It supplies no training gradient but its repeated use means it is not a blind test. COL0 root3 is a teaching-fit check. The reserved2_12 image is not read in this comparison. Public PAT pretraining membership remains unknown.
+
+The answer-key codes are1Periderm,2Endoderm,3Background,4Lateralroot. Codes0unlabelled and255conflict are ignored. Raw model predictions cover every pixel; metrics cover only labelled reference pixels.
+
+To reproduce from the project directory, use the project Python and a NEW run name. The script refuses to overwrite an existing run:
+
+00_Software/ml-env/bin/python -u 08_Model_Refinement_20261116/train_reviewed_root3.py --steps 1200 --name reviewed_root3_repeat --initial 04_Results/54_Refinement_Experiments/expanded_transition_balancing_v6/best_weights.pt --augment mild --lr 0.0001
+
+The displayed command below is the actual correctly spaced command for this saved run:
+
+00_Software/ml-env/bin/python -u 08_Model_Refinement_20261116/train_reviewed_root3.py --steps 1200 --name reviewed_root3_v9 --initial 04_Results/54_Refinement_Experiments/expanded_transition_balancing_v6/best_weights.pt --augment mild --lr 0.0001
+
+The comparison program reads the saved old/new weights and makes image-only predictions before loading reference masks for scoring. It writes raw outputs, optional separate directional-rule diagnostics, metrics, figures and hashes. The default working model is not replaced.

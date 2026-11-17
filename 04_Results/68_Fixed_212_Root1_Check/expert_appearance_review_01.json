@@ -1,0 +1,31 @@
+{
+  "recorded_utc": "2026-11-16T15:00:18.077017+00:00",
+  "expert": "Gonzalo Villarino",
+  "exact_statements": [
+    "T zone between B to the right of B",
+    "the square i see in B seems more endoderm but if u move a bit to the right of B i see transtion zone"
+  ],
+  "field_B": {
+    "name": "B",
+    "source_box_xyxy": [
+      6700,
+      60,
+      7100,
+      340
+    ],
+    "source_center_xy": [
+      6900,
+      200
+    ],
+    "biological_label": null,
+    "choice_basis": "Source-only position, root continuity and visible cells; no model predictions consulted.",
+    "biological_description": "More Endoderm-like / predominantly Endoderm"
+  },
+  "transition_description": "A little to the right of B; approximate visual relation, no exact coordinate or bounded interval supplied.",
+  "A_and_C_labels": null,
+  "exact_T_source_xy": null,
+  "exact_T_interval": null,
+  "pure_Endoderm_in_every_B_window_confirmed": false,
+  "scope": "Pre-prediction qualitative reference on main-root cells only; no pixel labels or lateral-root labels.",
+  "used_for_training": false
+}

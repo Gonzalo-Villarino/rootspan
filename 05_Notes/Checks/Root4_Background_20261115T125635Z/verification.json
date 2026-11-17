@@ -1,0 +1,53 @@
+{
+  "source": "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json",
+  "before_shape_count": 16,
+  "after_shape_count": 18,
+  "previous_shapes_and_metadata_unchanged": true,
+  "new_background_shapes": [
+    {
+      "vertices": 29,
+      "bounds": [
+        8954.803971884196,
+        5303.797279859394,
+        9942.303971884196,
+        5796.297279859394
+      ]
+    },
+    {
+      "vertices": 28,
+      "bounds": [
+        8954.803971884196,
+        5678.797279859394,
+        9942.303971884196,
+        6103.797279859394
+      ]
+    }
+  ],
+  "source_sha256": "87d66b81fb93204ae9a57f730345a6305c18ab7211ed892ec093a729167937ee",
+  "changed_full_slide_pixels": 712186,
+  "change_rule_verified": "Only 0 (unlabelled) to 3 (Background)",
+  "patch_box": [
+    8928,
+    5264,
+    9952,
+    6288
+  ],
+  "patch_pixel_counts": {
+    "0": 284320,
+    "1": 27268,
+    "2": 24802,
+    "3": 712186,
+    "255": 0
+  },
+  "new_background_pixels_in_patch": 712186,
+  "circular_feature_check": {
+    "point_xy_approx": [
+      9277,
+      5803
+    ],
+    "mask_code": 3,
+    "meaning": "Background; Gonzalo identified the feature as an artefact, not tissue"
+  },
+  "patch_files_not_updated": true,
+  "prediction_and_training_performed": false
+}

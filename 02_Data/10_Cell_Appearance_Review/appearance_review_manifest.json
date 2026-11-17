@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-11-16T12:27:47.738773+00:00",
+  "purpose": "Review appearance-labelled windows for a new transition-recognition experiment; not a relabelling of uncertain T bounds as mixed ground truth.",
+  "confirmed_Endoderm_record": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root2_clear_endoderm_confirmed_and_rule_01.json",
+  "candidates": [
+    {
+      "candidate": "B",
+      "proposed_label": "mixed",
+      "source": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.png",
+      "native_box_xyxy": [
+        13580,
+        3370,
+        13900,
+        3630
+      ],
+      "native_crop": "${ROOTSPAN_PROJECT}/02_Data/10_Cell_Appearance_Review/B_mixed_candidate.png",
+      "crop_sha256": "27b85a24d8d5149ff232d2e257d4d4d393c7512513fef647e57bcdcf2ddac4fa",
+      "expert_review_status": "pending",
+      "use_for_training": false
+    },
+    {
+      "candidate": "C",
+      "proposed_label": "Periderm",
+      "source": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.png",
+      "native_box_xyxy": [
+        14480,
+        3350,
+        14800,
+        3610
+      ],
+      "native_crop": "${ROOTSPAN_PROJECT}/02_Data/10_Cell_Appearance_Review/C_periderm_candidate.png",
+      "crop_sha256": "d2316e5d5107854f508be23fec9ac3bbf3ab1bba49325e9d77c596c16df14f14",
+      "expert_review_status": "pending",
+      "use_for_training": false
+    }
+  ],
+  "figure": "${ROOTSPAN_PROJECT}/02_Data/10_Cell_Appearance_Review/B_C_APPEARANCE_REVIEW.png",
+  "requires_expert_mixed_confirmation": true,
+  "previous_U_Net_unchanged": true,
+  "new_training": false
+}

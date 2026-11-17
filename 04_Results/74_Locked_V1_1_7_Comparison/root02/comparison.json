@@ -1,0 +1,29 @@
+{
+  "root_id": 2,
+  "manual_length_um": 13710.563359870022,
+  "model_assisted_length_um": 16584.425110383985,
+  "model_minus_manual_um": 2873.8617505139628,
+  "percent_difference_vs_manual": 20.960931181905913,
+  "manual_T_source_xy": [
+    7172.0,
+    2554.0
+  ],
+  "model_T_source_xy": [
+    5756.7912498599,
+    2089.025921406727
+  ],
+  "shared_J_source_xy": [
+    14129.0,
+    3381.0
+  ],
+  "manual_T_projected_arc_pixels": 7191.53398126028,
+  "manual_T_distance_to_computer_path_pixels": 1.5522280382339813,
+  "manual_T_to_J_on_computer_route_um": 13762.130373150017,
+  "model_vs_manual_T_shift_um_along_common_route": -2822.2947372339677,
+  "trace_geometry_difference_um": 51.56701327999508,
+  "interpretation": "Difference from user reference, not independently established biological truth.",
+  "roi_sha256": "977d1597733a2579fe01b9a1ef0a0a681a1fca2e2dafe4531f18a0bf453b7551",
+  "prediction_sha256": "9160a54837f74d388020ef8e527ff51de51736a61a8bdbc6420d26e6751fe254",
+  "route_sha256": "d0b869009373e54003690ac556acc520d62d49681e4006806b11d0dd5a5f8429",
+  "earlier_unsaved_trace_measurement_um": 14014.733
+}

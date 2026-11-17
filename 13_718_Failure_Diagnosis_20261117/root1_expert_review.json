@@ -1,0 +1,49 @@
+{
+  "confirmed_statement": "Yes: B is Endoderm, C is hypocotyl",
+  "B_source_box": [
+    14600,
+    1189,
+    15200,
+    1509
+  ],
+  "C_source_box": [
+    15399,
+    1133,
+    15999,
+    1453
+  ],
+  "junction_review_box": [
+    14650,
+    1100,
+    16150,
+    1900
+  ],
+  "junction_marker_x": {
+    "1": 15000,
+    "2": 15200,
+    "3": 15400,
+    "4": 15600
+  },
+  "junction_not_yet_confirmed": false,
+  "for_diagnosis_not_independent_validation": true,
+  "confirmed_junction_marker": "4",
+  "confirmed_junction_source_x": 15600,
+  "periderm_length_um_expert_reference": 0.0,
+  "periderm_absence_expert_words": "that particular root has 0 peridem ...is alsmot all endoderm",
+  "used_for_training": false,
+  "automatic_result_unchanged": true,
+  "reference_record": "${ROOTSPAN_PROJECT}/09_Periderm_GUI/expert_references/20261117_7_18_root01_periderm_absent.json",
+  "matched_v2_track_id": 1,
+  "matched_detection_bbox_xyxy": [
+    2108,
+    16,
+    17012,
+    1784
+  ],
+  "field_B_fully_inside_detection_bbox": true,
+  "field_C_fully_inside_detection_bbox": true,
+  "junction_marker_within_C_field_x_range": true,
+  "junction_precision": "Approximate numbered guide. Fine anatomical boundary remains unresolved; no numeric error interval is established.",
+  "exact_junction_training_coordinate_approved": false,
+  "numbered_figure_target": "Upper root explicitly labelled Root 1; lower partial tissue in the figure is not the target."
+}

@@ -1,0 +1,32 @@
+test_csv_keeps_automatic_blank_and_expert_zero (test_expert_references.ExpertReferenceChecks.test_csv_keeps_automatic_blank_and_expert_zero) ... ok
+test_different_source_version_or_geometry_never_gets_reference (test_expert_references.ExpertReferenceChecks.test_different_source_version_or_geometry_never_gets_reference) ... ok
+test_duplicate_reference_does_not_silently_choose (test_expert_references.ExpertReferenceChecks.test_duplicate_reference_does_not_silently_choose) ... ok
+test_invalid_reference_fields_do_not_become_missing_measurements (test_expert_references.ExpertReferenceChecks.test_invalid_reference_fields_do_not_become_missing_measurements) ... ok
+test_malformed_reference_names_the_unreadable_file (test_expert_references.ExpertReferenceChecks.test_malformed_reference_names_the_unreadable_file) ... ok
+test_reference_is_only_attached_to_matching_row (test_expert_references.ExpertReferenceChecks.test_reference_is_only_attached_to_matching_row) ... ok
+test_withdrawn_exports_keep_warning (test_expert_references.ExpertReferenceChecks.test_withdrawn_exports_keep_warning) ... ok
+test_zero_is_retained_separately_without_changing_automatic_result (test_expert_references.ExpertReferenceChecks.test_zero_is_retained_separately_without_changing_automatic_result) ... ok
+test_connected_parallel_roots (test_pipeline.PipelineChecks.test_connected_parallel_roots) ... ok
+test_curved_length (test_pipeline.PipelineChecks.test_curved_length) ... ok
+test_curved_touching_roots_separate_into_two_long_lanes (test_pipeline.PipelineChecks.test_curved_touching_roots_separate_into_two_long_lanes) ... ok
+test_large_space_between_joined_roots_is_not_filled (test_pipeline.PipelineChecks.test_large_space_between_joined_roots_is_not_filled) ... ok
+test_partial_root_at_border_is_retained_as_a_flag (test_pipeline.PipelineChecks.test_partial_root_at_border_is_retained_as_a_flag) ... ok
+test_scale (test_pipeline.PipelineChecks.test_scale) ... ok
+test_severe_blur_reduces_detail_below_guard (test_pipeline.PipelineChecks.test_severe_blur_reduces_detail_below_guard) ... ok
+test_no_junction_does_not_invent_a_measuring_endpoint (test_pipeline_v2.InspectionContextTests.test_no_junction_does_not_invent_a_measuring_endpoint) ... ok
+test_widening_keeps_same_measurement_but_preserves_inspection_tail (test_pipeline_v2.InspectionContextTests.test_widening_keeps_same_measurement_but_preserves_inspection_tail) ... ok
+test_approved_profiles_keep_locked_transition (test_pipeline_v21.CandidateChecks.test_approved_profiles_keep_locked_transition) ... ok
+test_curved_touching_roots_remain_separate (test_pipeline_v21.CandidateChecks.test_curved_touching_roots_remain_separate) ... ok
+test_fallback_needs_both_tissues_and_mixture (test_pipeline_v21.CandidateChecks.test_fallback_needs_both_tissues_and_mixture) ... ok
+test_image_border_is_not_anatomical_endpoint (test_pipeline_v21.CandidateChecks.test_image_border_is_not_anatomical_endpoint) ... ok
+test_uniform_signal_does_not_invent_endpoint (test_pipeline_v21.CandidateChecks.test_uniform_signal_does_not_invent_endpoint) ... ok
+test_any_candidate_has_complete_observed_after_window (test_pipeline_v211.EndpointReviewChecks.test_any_candidate_has_complete_observed_after_window) ... ok
+test_neighbour_signal_cannot_supply_endpoint (test_pipeline_v211.EndpointReviewChecks.test_neighbour_signal_cannot_supply_endpoint) ... ok
+test_root_ending_inside_dark_image_does_not_become_junction (test_pipeline_v211.EndpointReviewChecks.test_root_ending_inside_dark_image_does_not_become_junction) ... ok
+test_api_identifies_reference_problem (test_reference_routes.ReferenceRouteChecks.test_api_identifies_reference_problem) ... ok
+test_csv_identifies_reference_problem (test_reference_routes.ReferenceRouteChecks.test_csv_identifies_reference_problem) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 1.166s
+
+OK

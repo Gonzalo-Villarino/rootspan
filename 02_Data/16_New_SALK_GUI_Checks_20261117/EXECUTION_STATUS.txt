@@ -1,0 +1,47 @@
+17 November 2026 — MULTI-ROOT EXECUTION AND IMAGE-QUALITY UPDATE
+We are executing locked Transition V1, NOT training. Its 40 files remain unchanged/read-only.
+GUI/geometry version 0.2.1 now separates persistent touching horizontal roots without
+filling the large enclosed spaces between them. No root count is hard-coded.
+1_7 now has 7 listed/processed long candidates instead of 2 individual processed tracks.
+Three have provisional periderm lengths; four have no supported T and no numerical length.
+Keep the known discrepancies versus manual 1_7 measurements; these are not validated lengths.
+
+New SALK copies: 7_18, Col_rep1, WOX4_rep1, about 1.3 GB, source/local SHA-256 verified.
+Folder: 02_Data/16_New_SALK_GUI_Checks_20261117. User confirmed 0.5299 pixels/um for all three.
+All five checked slides use identical processing code and unchanged V1. Initial new-slide
+checks revealed a cut-off fragment in WOX4; the revised code now flags partial roots.
+Thus these have been inspected during pipeline development, not untouched final tests.
+Historical PAT encoder exposure is unknown. 15_27 remains reserved and was not run.
+
+The GUI lists explicit statuses: provisional, no supported transition, endpoint uncertain,
+possible blur/low detail, partial root/cut off, unresolved connected roots, processing error.
+No numerical measurement is emitted for poor-quality, partial, missing-T or failed cases.
+A predicted-T-to-visible-end segment remains separately labelled when endpoint is uncertain.
+New blur screen is a conservative native-scale focus/contrast heuristic, NOT a trained
+or validated blur classifier. Passed synthetic-cell and real-crop artificial-blur controls;
+real expert-labelled blurry/clear images are still needed to validate its sensitivity.
+Inspected archived PAT README/code used a human QC selection GUI; do not claim this new
+screen reproduces an original trained PAT blur detector. See README for parameters.
+
+GUI remains empty at the ordinary URL. Explicit ?run= links show only the requested saved
+result. All new and old runs are preserved. Seven-root browser display and CSV verified.
+No human ROI, masks or manual T supplied to these checks. No annotation requests needed.
+7 unit tests and Python/JS checks passed. Before/after model and source fingerprints recorded.
+Word manual not changed this turn; detailed method and status saved in README and project notes.
+
+1_7.tif: 7 candidates, 3 provisional periderm lengths; {'no_transition': 4, 'provisional': 3}
+http://127.0.0.1:8765/?run=20261117T114032Z_multiroot_a71bfdc9
+
+22_22.tif: 7 candidates, 5 provisional periderm lengths; {'endpoint_uncertain': 2, 'provisional': 5}
+http://127.0.0.1:8765/?run=20261117T114050Z_multiroot_c79c6d9f
+
+7_18.tif: 7 candidates, 1 provisional periderm lengths; {'endpoint_uncertain': 2, 'no_transition': 4, 'provisional': 1}
+http://127.0.0.1:8765/?run=20261117T114112Z_multiroot_2206e4dd
+
+Col_rep1.tif: 6 candidates, 6 provisional periderm lengths; {'provisional': 6}
+http://127.0.0.1:8765/?run=20261117T114132Z_multiroot_aa685e88
+
+WOX4_rep1.tif: 6 candidates, 3 provisional periderm lengths; {'no_transition': 2, 'partial_root': 1, 'provisional': 3}
+http://127.0.0.1:8765/?run=20261117T114149Z_multiroot_71929a70
+
+Next: review Col_rep1 as the new six-root execution example, keeping all lengths provisional. Use Start a new image / Choose File for more images. Do not retrain V1 unless explicitly changing objective; any model revision should be separate.

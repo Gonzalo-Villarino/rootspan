@@ -1,0 +1,12 @@
+{
+  "source_groups_disjoint": true,
+  "unique_slides": 5,
+  "teaching_root_count": 14,
+  "archived_files_hashes_match": true,
+  "archived_embedded_pixels_match": true,
+  "tiff_png_pairs_match": true,
+  "no_basic_annotation_structural_errors": true,
+  "no_training_or_new_inference": true,
+  "biological_labels_certified": false,
+  "pristine_final_test_available": false
+}

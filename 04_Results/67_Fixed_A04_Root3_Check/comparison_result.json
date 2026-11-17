@@ -1,0 +1,120 @@
+{
+  "created_utc": "2026-11-16T14:39:32.690947+00:00",
+  "expert_review": {
+    "recorded_utc": "2026-11-16T14:38:53.712908+00:00",
+    "expert": "Gonzalo Villarino",
+    "exact_statement": "A and B endoderm C Transition zone. Very bluerry image tho",
+    "image_quality": "Expert reports very blurry image; precision limited.",
+    "fields": [
+      {
+        "name": "A",
+        "source_box_xyxy": [
+          8200,
+          5058,
+          8600,
+          5338
+        ],
+        "biological_label": "Endoderm",
+        "appearance_state": 0
+      },
+      {
+        "name": "B",
+        "source_box_xyxy": [
+          9200,
+          4963,
+          9600,
+          5243
+        ],
+        "biological_label": "Endoderm",
+        "appearance_state": 0
+      },
+      {
+        "name": "C",
+        "source_box_xyxy": [
+          10000,
+          4906,
+          10400,
+          5186
+        ],
+        "biological_label": "Mixed / transition",
+        "appearance_state": 1
+      }
+    ],
+    "exact_T_left_edge": null,
+    "clear_Periderm_reviewed": false,
+    "scope": "Qualitative main-root field identities; not pixel annotations, exact T, or a whole-image label.",
+    "used_for_training": false
+  },
+  "local_field_comparison": [
+    {
+      "field": "A",
+      "expert_appearance": "Endoderm",
+      "expert_state": 0,
+      "nearest_scan_index": 22,
+      "scan_center_source_xy": [
+        8390.16729347656,
+        5188.0380072750195
+      ],
+      "distance_from_review_field_center_pixels": 13.997264612369035,
+      "model_appearance": "Endoderm",
+      "model_state": 0,
+      "presence_scores": [
+        0.9996198415756226,
+        0.08329480141401291
+      ],
+      "qualitative_agreement": true,
+      "scope": "Nearby path-aligned field; not an identical field or pixel accuracy."
+    },
+    {
+      "field": "B",
+      "expert_appearance": "Endoderm",
+      "expert_state": 0,
+      "nearest_scan_index": 38,
+      "scan_center_source_xy": [
+        9408.821072897234,
+        5098.163660430696
+      ],
+      "distance_from_review_field_center_pixels": 10.059895997868185,
+      "model_appearance": "Endoderm",
+      "model_state": 0,
+      "presence_scores": [
+        0.9990078806877136,
+        0.03235151246190071
+      ],
+      "qualitative_agreement": true,
+      "scope": "Nearby path-aligned field; not an identical field or pixel accuracy."
+    },
+    {
+      "field": "C",
+      "expert_appearance": "Mixed / transition",
+      "expert_state": 1,
+      "nearest_scan_index": 50,
+      "scan_center_source_xy": [
+        10170.521872477555,
+        5034.103458542403
+      ],
+      "distance_from_review_field_center_pixels": 31.788169196760137,
+      "model_appearance": "Endoderm",
+      "model_state": 0,
+      "presence_scores": [
+        0.9998106360435486,
+        0.01650431379675865
+      ],
+      "qualitative_agreement": false,
+      "scope": "Nearby path-aligned field; not an identical field or pixel accuracy."
+    }
+  ],
+  "candidate_T_crop_xy": [
+    2068.3136854372983,
+    568.6091654991646
+  ],
+  "candidate_T_source_xy": [
+    8868.313685437299,
+    5148.609165499165
+  ],
+  "no_precise_reference_T": true,
+  "no_T_distance_error_or_length_claim": true,
+  "model_updated": false,
+  "blur_note": "Expert reports blur; causal explanation for model errors not established.",
+  "limits": "Three reviewed fields on one familiar slide; do not report overall accuracy. Published PAT pretraining exposure unknown."
+}

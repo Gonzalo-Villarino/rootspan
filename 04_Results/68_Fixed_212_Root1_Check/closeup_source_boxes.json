@@ -1,0 +1,27 @@
+{
+  "left_model_T_view": [
+    5186,
+    63,
+    6186,
+    483
+  ],
+  "right_B_view": [
+    6600,
+    0,
+    7600,
+    420
+  ],
+  "model_T_source_xy": [
+    5686.130303161157,
+    272.61427150132204
+  ],
+  "source_crop_offset": [
+    3500,
+    0
+  ],
+  "display_scale_xy": [
+    0.88,
+    0.8809523809523809
+  ],
+  "not_a_prediction_rerun": true
+}

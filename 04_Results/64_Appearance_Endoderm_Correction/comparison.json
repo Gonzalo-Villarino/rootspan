@@ -1,0 +1,84 @@
+{
+  "created_utc": "2026-11-16T12:53:06.853217+00:00",
+  "old_run": "${ROOTSPAN_PROJECT}/04_Results/63_Cell_Appearance_Experiment/run_01",
+  "new_run": "${ROOTSPAN_PROJECT}/04_Results/64_Appearance_Endoderm_Correction/added_endoderm_01",
+  "new_expert_correction": {
+    "created_utc": "2026-11-16T12:48:29.580691+00:00",
+    "confirmed": true,
+    "expert": "Gonzalo Villarino",
+    "user_reply_verbatim": "wait i think we should purse this abit more is there a way for the model to move the T zone to the right? currently the model is placing T in the 100% long square endo cells there is no periderm irregular shorter or flatter cells there, is there a way to teach this to the model?",
+    "interpretation": "The displayed region around the earlier blue model-T line contains clear Endoderm, not mixed appearance. Select one source-only window at the first previously mixed-classified scan center,32nativepixels to the right along the path from that line. Do not label the entire interval to the old human T automatically.",
+    "old_model_T_source_xy": [
+      12038.312207954283,
+      5989.263208760304
+    ],
+    "old_first_mixed_scan_index": 175,
+    "crop_center_source_xy": [
+      12069.496095809101,
+      5982.085278899358
+    ],
+    "native_box_xyxy": [
+      11909,
+      5854,
+      12229,
+      6110
+    ],
+    "label": "Clear Endoderm",
+    "class_index": 0,
+    "crop_sha256": "e30e954f357508448113f70adf4dc380ef09827f8b91c0c1baf47637a8fa0452",
+    "scope": "Expert correction for a window appearance; no exact tissue contour or revised T coordinate provided.100percent describes biological identity confidence, not measured model accuracy.",
+    "source": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.png",
+    "source_sha256": "68669ed917eeecdead464c55e853ec4a1d8f35979b9180110a64e9778f93f8de",
+    "no_forced_right_shift": true,
+    "old_reference_T_retained": true
+  },
+  "control": {
+    "old_T": 11328.0,
+    "control_T": 11328.0,
+    "maximum_score_difference": 0.0,
+    "control_reproduces_previous_boundary": true,
+    "purpose": "Verify generalized code did not change the original three-window experiment."
+  },
+  "only_experimental_change": "One new reviewed Endoderm appearance example, sharing fixed Endoderm class loss weight with the original example. No changes to encoder,head architecture,optimizer,steps,seed,preprocessing,scan,sequence rule or referenceT.",
+  "class_balance": "A and D each receive half of totalEndoderm class weight. Every appearance class still contributes equally.",
+  "old_T_distance_pixels": 11328.0,
+  "new_T_distance_pixels": 11456.0,
+  "rightward_change_pixels": 128.0,
+  "rightward_change_um": 241.55501037931683,
+  "old_leftward_distance_from_reference_um": 1114.2208728701576,
+  "new_leftward_distance_from_reference_um": 872.6658624908407,
+  "old_candidate_inside_reviewed_interval": false,
+  "new_candidate_inside_reviewed_interval": false,
+  "corrected_scan_index": 175,
+  "corrected_scan_old_class": "Mixed appearance",
+  "corrected_scan_new_class": "Clear Endoderm",
+  "corrected_scan_old_scores": [
+    0.3800630271434784,
+    0.6194032430648804,
+    0.0005337043548934162
+  ],
+  "corrected_scan_new_scores": [
+    0.9186299443244934,
+    0.08101292699575424,
+    0.00035708732320927083
+  ],
+  "separate_axis_aligned_teaching_crop_D_old_scores": [
+    0.8798968195915222,
+    0.11922028660774231,
+    0.0008829013095237315
+  ],
+  "separate_axis_aligned_teaching_crop_D_new_scores": [
+    0.9933602213859558,
+    0.006356334313750267,
+    0.00028346190811134875
+  ],
+  "preprocessing_caveat": "Axis-aligned teaching crop D already had Endoderm as its highest old score, whereas the slightly rotated path-sampling field at the same region was mixed. The correction raised Endoderm support in both and flipped the path-sampling field. This reveals pose/context sensitivity; do not claim the exact teaching PNG was previously classified mixed.",
+  "window_classification_scope": "A score is not calibrated confidence or measured accuracy. Per-window appearance labels are not pixel contours.",
+  "root3_role": "Now directly involved in teaching and correction selection. Not independent validation.",
+  "outcome": "Partial correction. T moves in intended direction but remains outside the expert-reviewed interval. No promotion to production or automatic length claim.",
+  "scale_pixels_per_um": 0.5299,
+  "scale_provenance": "Previously confirmed by user for this native source.",
+  "default_model_unchanged": true,
+  "source_unchanged": true,
+  "word_manual_edited": false
+}

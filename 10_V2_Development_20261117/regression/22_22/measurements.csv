@@ -1,0 +1,8 @@
+track_id,periderm_length_um,segment_to_visible_end_um,status,endpoint_method,notes
+1,16657.49134838157,,provisional,width_based_junction_candidate,Automatic widening-based endpoint; anatomical junction and transition need validation.
+2,14906.951410145975,,provisional,width_based_junction_candidate,Automatic widening-based endpoint; anatomical junction and transition need validation.
+3,,14361.371554322071,endpoint_uncertain,visible_right_end_only,"No root–hypocotyl junction identified. Segment length ends at the visible right edge, not a confirmed biological junction."
+4,,13899.471993686278,endpoint_uncertain,visible_right_end_only,"No root–hypocotyl junction identified. Segment length ends at the visible right edge, not a confirmed biological junction."
+5,16519.418903443064,,provisional,width_based_junction_candidate,Automatic widening-based endpoint; anatomical junction and transition need validation.
+6,18836.140590311756,,provisional,width_based_junction_candidate,Automatic widening-based endpoint; anatomical junction and transition need validation.
+7,17963.267989220825,,provisional,width_based_junction_candidate,Automatic widening-based endpoint; anatomical junction and transition need validation.

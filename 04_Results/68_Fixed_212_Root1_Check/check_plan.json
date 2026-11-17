@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-11-16T15:00:18.077253+00:00",
+  "head_sha256": "6cce6ef74330a9de4422cdb738144f972cedff41f07d4de3e9c9869b6e4054b9",
+  "encoder_sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+  "expert_reference_sha256": "2c6ab2b2281d0f9753fc45a2222566acc20561629733d77159f8c2b36ba47266",
+  "prediction_method": "Reuse check_frozen_a04_root3.predict unchanged: 320x256 native path-aligned windows, 64-pixel stride, standardize, frozen PAT features, frozen two-output head, same fixed run rule. Batch size8.",
+  "comparison": "Only describe model-T relation to the B source rectangle and all scan centres within B. No precise T error or accuracy percentage. Show source close-up for biological review.",
+  "source_scope": "2_12 remains out of training and tuning. This is a selected-window check, not whole-slide performance.",
+  "prior_exposure": "Earlier image-only U-Net predictions on 2_12 were generated/viewed in this workspace; not a new blind test. Published PAT pretraining image membership unknown.",
+  "new_training": false,
+  "no_tuning": true,
+  "no_expert_T_input_to_model": true,
+  "no_full_root_length_measurement": true
+}

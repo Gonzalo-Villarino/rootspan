@@ -1,0 +1,6 @@
+LATEST TWO LOCKED-v1 CHECKS — 16 November 2026
+
+A04 root 1: T too far left. Expert approximate reference lies between guides 4 and 5.
+A04 root 2: shown T provisionally accepted as reasonable, to the right of B; user says "i think the model got it correct".
+
+These are qualitative checks on two roots from the same familiar slide, not an accuracy percentage. Both results are retained. v1 remains locked and unchanged. A future improvement must address root 1 while checking that root 2 and earlier accepted examples are preserved.

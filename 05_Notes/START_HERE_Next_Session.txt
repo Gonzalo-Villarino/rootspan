@@ -1,0 +1,244 @@
+17 November 2026 — V2 PIPELINE SAVED AND GUI VERIFIED
+User requested fixing missing 7_18 estimates and explicitly requested a new V2 for changes.
+V1 locked weights/rule and original pipeline.py remain unchanged. V2 is a separate inference
+pipeline update, NOT a newly trained neural network.
+
+Fixed: the inspection route was truncated at the estimated measuring endpoint, hiding
+right-hand Periderm context. V2 inspects the full visible track and measures separately
+to the original endpoint. Same preprocessing, scores, rule, root detection and quality guard.
+If T is beyond the estimated endpoint, report a conflict and withhold length.
+
+7_18: all seven candidates processed. Roots6/7 provisional lengths 8463/3162 um.
+Roots2/3 remain T-to-visible-end segments only (27715/3849 um), not periderm lengths.
+Roots1/5: T/endpoint conflicts; root4: no supported T. Do not invent zeros/numbers.
+V1 -> V2 provisional counts: 1_7 3->4;22_22 5->5;7_18 1->2;Col_rep1 6->6;WOX4 3->5.
+All previously returned T positions and measuring endpoints unchanged. Coverage improvement
+is not biological accuracy validation; prior manual discrepancies remain relevant.
+
+GUI http://127.0.0.1:8765/ starts empty; selector defaults V2 and offers original V1.
+Latest V2 result: http://127.0.0.1:8765/?run=20261117T121029Z_4ddd8069
+Version files: 06_Models/Periderm_Pipeline_V2_20261117.
+Evidence: 10_V2_Development_20261117 (comparison.json, verification.json, READ_ME_V2.txt,
+GUI screenshots, diagnostic PAT comparison, regression runs, review attempt).
+9 unit tests passed; GUI API run exactly reproduced standalone V2; 7-row CSV download
+matched saved bytes; V1/V2 selector and Start a new image tested; locked40files verified.
+No new training; reserved15_27 not used. Original PAT decoder checked diagnostically only.
+external reviewer review unavailable: subscription login required; no review sent.
+Word manual NOT edited. Learning notes saved here and READ_ME_V2.txt.
+SALK files already local; no open SALK files when checked. User told to eject then unplug.
+
+NEXT: review recovered root7 blueT and orange endpoint, then diagnose root1/5 endpoint
+conflicts against anatomy. Do not call V2 a validated autonomous model or force all7values.
+Do not tune on reserved15_27. No need to redo all annotations to understand this change.
+
+EARLIER STATUS (historical):
+
+17 November 2026 — MULTI-ROOT EXECUTION AND IMAGE-QUALITY UPDATE
+We are executing locked Transition V1, NOT training. Its 40 files remain unchanged/read-only.
+GUI/geometry version 0.2.1 now separates persistent touching horizontal roots without
+filling the large enclosed spaces between them. No root count is hard-coded.
+1_7 now has 7 listed/processed long candidates instead of 2 individual processed tracks.
+Three have provisional periderm lengths; four have no supported T and no numerical length.
+Keep the known discrepancies versus manual 1_7 measurements; these are not validated lengths.
+
+New SALK copies: 7_18, Col_rep1, WOX4_rep1, about 1.3 GB, source/local SHA-256 verified.
+Folder: 02_Data/16_New_SALK_GUI_Checks_20261117. User confirmed 0.5299 pixels/um for all three.
+All five checked slides use identical processing code and unchanged V1. Initial new-slide
+checks revealed a cut-off fragment in WOX4; the revised code now flags partial roots.
+Thus these have been inspected during pipeline development, not untouched final tests.
+Historical PAT encoder exposure is unknown. 15_27 remains reserved and was not run.
+
+The GUI lists explicit statuses: provisional, no supported transition, endpoint uncertain,
+possible blur/low detail, partial root/cut off, unresolved connected roots, processing error.
+No numerical measurement is emitted for poor-quality, partial, missing-T or failed cases.
+A predicted-T-to-visible-end segment remains separately labelled when endpoint is uncertain.
+New blur screen is a conservative native-scale focus/contrast heuristic, NOT a trained
+or validated blur classifier. Passed synthetic-cell and real-crop artificial-blur controls;
+real expert-labelled blurry/clear images are still needed to validate its sensitivity.
+Inspected archived PAT README/code used a human QC selection GUI; do not claim this new
+screen reproduces an original trained PAT blur detector. See README for parameters.
+
+GUI remains empty at the ordinary URL. Explicit ?run= links show only the requested saved
+result. All new and old runs are preserved. Seven-root browser display and CSV verified.
+No human ROI, masks or manual T supplied to these checks. No annotation requests needed.
+7 unit tests and Python/JS checks passed. Before/after model and source fingerprints recorded.
+Word manual not changed this turn; detailed method and status saved in README and project notes.
+
+1_7.tif: 7 candidates, 3 provisional periderm lengths; {'no_transition': 4, 'provisional': 3}
+http://127.0.0.1:8765/?run=20261117T114032Z_multiroot_a71bfdc9
+
+22_22.tif: 7 candidates, 5 provisional periderm lengths; {'endpoint_uncertain': 2, 'provisional': 5}
+http://127.0.0.1:8765/?run=20261117T114050Z_multiroot_c79c6d9f
+
+7_18.tif: 7 candidates, 1 provisional periderm lengths; {'endpoint_uncertain': 2, 'no_transition': 4, 'provisional': 1}
+http://127.0.0.1:8765/?run=20261117T114112Z_multiroot_2206e4dd
+
+Col_rep1.tif: 6 candidates, 6 provisional periderm lengths; {'provisional': 6}
+http://127.0.0.1:8765/?run=20261117T114132Z_multiroot_aa685e88
+
+WOX4_rep1.tif: 6 candidates, 3 provisional periderm lengths; {'no_transition': 2, 'partial_root': 1, 'provisional': 3}
+http://127.0.0.1:8765/?run=20261117T114149Z_multiroot_71929a70
+
+Next: review Col_rep1 as the new six-root execution example, keeping all lengths provisional. Use Start a new image / Choose File for more images. Do not retrain V1 unless explicitly changing objective; any model revision should be separate.
+
+OLDER CHECKPOINTS BELOW
+
+17 November 2026 — GUI now opens empty (0.1.1)
+User asked for an upload-only screen without preloaded images or old results.
+Removed example selector and visible history; initial /api/state returns no prior job.
+Only an explicitly selected current job is polled/displayed. All older saved results remain on disk.
+Choose File -> Analyse image -> results/export. Start a new image clears the screen only.
+Verified in browser: no initial images, Analyse disabled before upload, real upload and
+analysis completed (run 20261117T111745Z_3768e5ea, a previously saved source crop,
+interface test only), reset cleared results, reload stayed empty with zero displayed images.
+No model/pipeline change or retraining. Python and JavaScript syntax passed.
+Screenshot: 09_Periderm_GUI/GUI_EMPTY_UPLOAD_SCREEN.jpg. README updated.
+Next: user chooses their own image via Choose File. Do not restore automatic examples/history.
+
+PRIOR CHECKPOINTS BELOW
+
+CURRENT CHECKPOINT — AUTOMATIC GUI WORKS
+17 NOVEMBER 2026 — PERIDERM LAB 0.1
+User explicitly wants prediction/measurement without drawing or manual T/path selection,
+and a GUI like PAT. Proceeded with a local browser GUI around unchanged locked V1.
+Open 09_Periderm_GUI/Periderm Lab.command; local URL http://127.0.0.1:8765.
+A real GUI run on 22_22 completed: two provisional periderm lengths (16657.491,
+14832.143 um), one endpoint-uncertain track (segment 14361.372 um, no periderm
+length), and one connected-root group with no length. Source-image-only automatic
+geometry and endpoint heuristics are NEW prototype components, not verified anatomy.
+No human ROIs, polygons or T points used. No retraining; 40 locked files intact.
+Results: 09_Periderm_GUI/runs/20261117T100643Z_5085d918/results.
+README.txt explains use, scope, flags and limitations. GUI upload and CSV export tested.
+The previous 1_7 manual comparison is unchanged and NOT a passed accuracy validation.
+22_22 has now been inspected and run; it is no longer an untouched final evaluation slide.
+15_27 remains reserved and unused for this GUI development.
+04_Results/75_V1_22_22_Batch was preparation only and is superseded by the automatic GUI run.
+Next: show/teach GUI one step at a time. Do not ask for more manual polygons just to run it.
+Scientific next work: validate automatic geometry/endpoints and T, especially connected roots.
+Packaging for other computers is a later step; current launcher requires this Mac's project environment.
+Word manual not updated in this turn; explanation saved in README and these project notes.
+
+OLDER CHECKPOINTS BELOW (historical)
+
+CURRENT CHECKPOINT — MODEL COMPARISON COMPLETE
+17 NOVEMBER 2026 — LOCKED V1 COMPARED WITH FIJI ON SLIDE1_7
+User authorised autonomous completion and requested results.
+Three saved reference traces: roots1,2,6 top-to-bottom. Same scale0.5299px/um.
+V1 ran unchanged on each source image crop plus a source-fluorescence main-root path, visually checked during development before inference. Shared human right endpointJ; manualT not supplied. Geometry paths frozen before inference; all model outputs saved before comparison.
+Results (um):
+root1: manual8002.110; V15919.086; difference-2083.024(-26.03%).
+root2: manual13710.563 repeated line; V116584.425; difference+2873.862(+20.96%). Earlier14014.733manual scalar preserved.
+root6: manual17935.555; V124619.081; difference+6683.526(+37.26%).
+The trace-geometry contribution at identicalT/J is only40.159,51.567,75.009um; transition placement explains most disagreement.
+Result folder04_Results/74_Locked_V1_1_7_Comparison: V1_VS_YOUR_MEASUREMENTS.png/PDF, per-root TRANSITION_CLOSEUPS.png, prediction.json, comparison_summary.json, native crops, frozen routes, script and verification.
+All40locked files still pass read-only hash check. Source and manual ROIs unchanged. No training/model/rule updates.
+This is an assisted three-selected-root pilot on one slide, not general validation. Historical PAT encoder exposure unknown. Root6blueT falls near lateral/overlapping branch context; this is a plausible confound, not proven cause.
+Next: user reviews root6model-vs-manual close-up first. Do not silently shiftT or tunev1. If these discrepancies are used for tuning,1_7becomes development material; keep reserved15_27and22_22separate for later checks. Develop any improvement asv2.
+external reviewer review attempt unavailable(subscription login required); no review sent/approval claimed. Local figure/numeric/hash checks passed.
+Matplotlib3.11.2installed for figures; environment recorded. Word manual not updated this turn.
+
+OLDER CHECKPOINTS BELOW (historical)
+
+CURRENT CHECKPOINT — 2026-11-17: MANUAL REFERENCES SAVED
+The user chose roots1,2,6 on slide1_7 (top-to-bottom), skipping others.
+All three ROI traces are saved in04_Results/73_V1_Manual_Comparison_Pilot/01_Manual_References.
+See manual_reference_index.json and guided_session_status.json there.
+Lengths from saved traces: root1=8002.110um; root2=13710.563um; root6=17935.555um.
+Root2 is a repeat trace; its earlier14014.733um result is preserved, not overwritten.
+Next: explain unchanged-v1 comparison before running it. Prepare independently
+checked full main-root paths; do not supply manual T/periderm-only traces as
+detector inputs. No model prediction on1_7 or v2 training has occurred.
+Recent records are text/JSON; Word manual has not been updated.
+Earlier checkpoint below is historical and does not override this current pilot.
+
+FIJI READY — original1_7.tif is open. Next guided user step: Analyze > Set Scale. GUI scale not yet set, no manual trace or prediction yet. SALK ejected.
+
+LATEST —17 November2026: User wants six-root manual Fiji versus locked-v1 length pilot before v2. First learn Fiji on1_7; scale confirmed0.5299px/um. Source copies verified; SALK ejected. No prediction/training. Read02_Data/14_Data_Roles_20261117/READ_ME_Next_Step.txt and latest progress entry. Older paused/next-v2 notes below are historical.
+
+RESUMED — 17 November 2026
+The pause below is historical. We resumed by reviewing the saved state and clarifying the next teaching/evaluation cycle. No new training or v2 yet. Read the latest entry in 03_Progress_and_Next_Step.txt before continuing.
+
+START HERE — ML project paused on 16 November 2026 (Europe/Zurich)
+
+Gonzalo asked to pause and continue tomorrow. Resume slowly in this chat.
+No further prediction or training was run while saving this note.
+
+WHERE WE ARE
+We have a locked, read-only transition detector called Transition v1. It combines
+saved image-recognition weights with a rule for selecting T. It is not yet a
+validated unattended system for measuring hundreds of whole slides.
+
+T means the LEFT edge of the mixed-cell zone on the MAIN root. A mixed appearance
+requires both long orderly Endoderm cells and shorter irregular Periderm cells.
+The mixed zone belongs with Periderm for the agreed regional measurements.
+Lateral-root cells must not determine the main-root transition. Display T as a
+vertical blue line; distinguish the model prediction from any human reference.
+
+LATEST TWO CHECKS — SAME LOCKED MODEL, NO RETRAINING
+1. A04 root 1: Gonzalo judged the blue T too far left. He placed his approximate
+   reference between numbered guides 4 and 5 (source x6000–6300). The unchanged
+   model T is source x4897.161375, y500.173890. Do not invent a precise midpoint.
+   Saved-score diagnosis: 24 consecutive overlapping windows were called mixed
+   starting too early. The continuity guard found no long clear-Endoderm return
+   and retained that candidate. What visual feature caused the error is unknown.
+
+2. A04 root 2: Gonzalo first described A as Endoderm and B/C as transition.
+   After inspecting the model line, he said: "to the right of B i think the model
+   got it correct". Record this as PROVISIONAL VISUAL ACCEPTANCE of the shown T,
+   source x9235.982508, y2601.500507. This supersedes project tooling's earlier interpretation
+   that T must be too late. Preserve the original A/B/C review; do not silently
+   relabel B as pure Endoderm for teaching. There is no independent exact T error.
+
+WHAT TO DO FIRST WHEN WE RESUME
+1. Briefly remind Gonzalo: root 1 failed the T-placement check; root 2 looked
+   reasonable to him. These are qualitative checks, not an accuracy percentage.
+2. Show the saved root-1 error and root-2 accepted result if useful.
+3. Explain the next improvement before acting: investigate the early false-mixed
+   appearances on root 1 and decide which additional reviewed examples are needed.
+   Any retrained or changed method must be a separate v2. It must improve root 1
+   while checking root 2 and earlier accepted examples for regressions. Keep roots
+   used for tuning separate from later evaluation. Do not simply shift every T.
+4. Do not overwrite or retrain v1. No v2 has been created or trained yet.
+   An additional unchanged-model check remains an option; explain its purpose
+   rather than repeatedly collecting labels without explaining testing vs training.
+
+KEY FILES
+Project:
+${ROOTSPAN_PROJECT}
+Locked checkpoint:
+${ROOTSPAN_PROJECT}/06_Models/Locked_Transition_v1_20261116
+Checkpoint pointer:
+${ROOTSPAN_PROJECT}/06_Models/current_transition_checkpoint.json
+Root 1 model-versus-reference image:
+${ROOTSPAN_PROJECT}/04_Results/71_Locked_A04_Root1_Check/expert_T_review_02/A04_ROOT1_MODEL_VS_REFERENCE.png
+Root 1 reference record:
+${ROOTSPAN_PROJECT}/04_Results/71_Locked_A04_Root1_Check/expert_T_review_02/expert_reference_interval.json
+Root 2 B and model-T image:
+${ROOTSPAN_PROJECT}/04_Results/72_Locked_A04_Root2_Check/A04_ROOT2_B_AND_MODEL_T.png
+Root 2 latest acceptance (read BEFORE earlier interpretations):
+${ROOTSPAN_PROJECT}/04_Results/72_Locked_A04_Root2_Check/BIOLOGICAL_REVIEW_ACCEPTED_20261116.json
+Progress history:
+${ROOTSPAN_PROJECT}/05_Notes/03_Progress_and_Next_Step.txt
+
+TECHNICAL CONTEXT AND LIMITS
+Use ${ROOTSPAN_PROJECT}/00_Software/ml-env/bin/python.
+The v1 manifest fingerprint is d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb.
+The saved copy reproduced the approved 2_12 root1 output exactly. It preserved
+previous accepted COL0/A04-root3 positions and the 20_29 no-T result.
+The frozen appearance head was taught on five reviewed fields from COL0 roots 2
+and 3. The published PAT encoder's historical image exposure is unknown. The
+continuity rule was developed using 2_12 feedback. A04 is a familiar slide from
+earlier checks, so these are not pristine independent final-validation examples.
+A04 pixel-to-micrometre scale is not confirmed. Do not apply the confirmed COL0,
+20_29 and 2_12 calibration to A04 without confirmation. Current path endpoints are
+crop edges, not whole-root cut end/hypocotyl endpoints; no new length claim.
+The earlier pixel-segmentation U-Net is saved separately as working_model.pt.
+
+RECORDS AND USER PREFERENCES
+Explain first, then guide one step at a time. Distinguish inference/testing from
+training. Respect the user's biological judgement and retain uncertainty.
+All current images, predictions, review records and source code are saved locally.
+The recent updates are in text/JSON records. The user-edited Word manual has NOT
+been updated with these latest checks; preserve its edits when updating it later.
+Independent external reviewer review attempts failed because subscription login is required;
+no review was sent and no independent approval is claimed.

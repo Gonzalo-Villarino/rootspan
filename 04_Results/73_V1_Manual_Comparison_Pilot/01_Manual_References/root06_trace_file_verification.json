@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-17",
+  "roi_file": "${ROOTSPAN_PROJECT}/04_Results/73_V1_Manual_Comparison_Pilot/01_Manual_References/1_7_root06_Periderm.roi",
+  "sha256": "b99d6bd5660552a63da9cae8c9e7903df58e3798306050bb2ee6d6db56b872cf",
+  "vertex_count": 30,
+  "points_xy": [
+    [
+      4950,
+      6335
+    ],
+    [
+      4966,
+      6330
+    ],
+    [
+      5344,
+      6295
+    ],
+    [
+      5709,
+      6250
+    ],
+    [
+      5938,
+      6261
+    ],
+    [
+      6215,
+      6270
+    ],
+    [
+      6586,
+      6318
+    ],
+    [
+      6780,
+      6377
+    ],
+    [
+      7076,
+      6457
+    ],
+    [
+      7608,
+      6549
+    ],
+    [
+      7843,
+      6552
+    ],
+    [
+      8080,
+      6510
+    ],
+    [
+      8748,
+      6340
+    ],
+    [
+      8984,
+      6281
+    ],
+    [
+      9152,
+      6225
+    ],
+    [
+      9298,
+      6204
+    ],
+    [
+      9677,
+      6138
+    ],
+    [
+      10007,
+      6180
+    ],
+    [
+      10431,
+      6294
+    ],
+    [
+      10869,
+      6346
+    ],
+    [
+      11276,
+      6362
+    ],
+    [
+      11859,
+      6394
+    ],
+    [
+      12387,
+      6370
+    ],
+    [
+      12651,
+      6386
+    ],
+    [
+      12895,
+      6462
+    ],
+    [
+      13253,
+      6660
+    ],
+    [
+      13475,
+      6828
+    ],
+    [
+      13637,
+      6882
+    ],
+    [
+      13970,
+      6861
+    ],
+    [
+      14180,
+      6729
+    ]
+  ],
+  "length_pixels": 9504.050573882916,
+  "pixels_per_micrometre": 0.5299,
+  "length_micrometres_from_saved_trace": 17935.5549610925,
+  "root_identity": "User-named root06; coordinate range consistent with sixth main axis in overview",
+  "biological_endpoints_independently_verified": false,
+  "model_run": false
+}

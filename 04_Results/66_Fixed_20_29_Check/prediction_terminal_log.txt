@@ -1,0 +1,17 @@
+{
+  "windows": 10,
+  "window_states": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1
+  ],
+  "candidate_T_image_xy": null,
+  "candidate_T_distance_pixels": null
+}

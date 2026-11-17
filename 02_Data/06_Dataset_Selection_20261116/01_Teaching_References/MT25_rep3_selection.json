@@ -1,0 +1,23 @@
+{
+  "slide_id": "MT25_rep3",
+  "role": "teaching",
+  "source_image": "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/01_Images/MT25_rep3.png",
+  "image_sha256": "8b60e04adb22e4a474c77613253f9d165de0dc64cd739a0e4008fec73c75cf87",
+  "decoded_pixels_sha256": "199abba476ee91a31d4b6a2c5009ea1b6d42d82c5d5cf5b38aa3248481bed9d3",
+  "annotation_source": "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json",
+  "annotation_sha256": "87d66b81fb93204ae9a57f730345a6305c18ab7211ed892ec093a729167937ee",
+  "included_root_ids": [
+    4,
+    5
+  ],
+  "root_numbering": "Primary roots ordered from top to bottom in source image; pairing confirmed by their vertical locations.",
+  "pending_root_ids": [
+    1,
+    2,
+    3,
+    6
+  ],
+  "readiness": "candidate teaching labels; targeted biological review and background/LR policy required before mask generation",
+  "why": "Roots4 and5 were deliberately refined by Gonzalo. Hold other practice-root labels pending agreement with archived boundaries.",
+  "historical_exposure": "Used in local training/development; public PAT pretraining image membership unresolved."
+}

@@ -1,0 +1,197 @@
+{
+  "version": "5.0.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "Endoderm",
+      "points": [
+        [
+          15,
+          355
+        ],
+        [
+          80,
+          376
+        ],
+        [
+          160,
+          396
+        ],
+        [
+          240,
+          415
+        ],
+        [
+          320,
+          428
+        ],
+        [
+          390,
+          440
+        ],
+        [
+          390,
+          463
+        ],
+        [
+          320,
+          448
+        ],
+        [
+          240,
+          436
+        ],
+        [
+          160,
+          421
+        ],
+        [
+          80,
+          402
+        ],
+        [
+          15,
+          383
+        ]
+      ],
+      "group_id": null,
+      "description": "Assistant-prepared sparse training example; not independent reference.",
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "Periderm",
+      "points": [
+        [
+          725,
+          519
+        ],
+        [
+          790,
+          534
+        ],
+        [
+          870,
+          546
+        ],
+        [
+          950,
+          547
+        ],
+        [
+          1005,
+          553
+        ],
+        [
+          1005,
+          574
+        ],
+        [
+          950,
+          566
+        ],
+        [
+          870,
+          568
+        ],
+        [
+          790,
+          557
+        ],
+        [
+          725,
+          547
+        ]
+      ],
+      "group_id": null,
+      "description": "Assistant-prepared sparse training example; not independent reference.",
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "Background",
+      "points": [
+        [
+          20,
+          180
+        ],
+        [
+          800,
+          180
+        ],
+        [
+          800,
+          330
+        ],
+        [
+          20,
+          290
+        ]
+      ],
+      "group_id": null,
+      "description": "Assistant-prepared sparse training example; not independent reference.",
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "Background",
+      "points": [
+        [
+          25,
+          520
+        ],
+        [
+          400,
+          560
+        ],
+        [
+          440,
+          900
+        ],
+        [
+          25,
+          900
+        ]
+      ],
+      "group_id": null,
+      "description": "Assistant-prepared sparse training example; not independent reference.",
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "Background",
+      "points": [
+        [
+          760,
+          660
+        ],
+        [
+          1000,
+          660
+        ],
+        [
+          1000,
+          960
+        ],
+        [
+          760,
+          960
+        ]
+      ],
+      "group_id": null,
+      "description": "Assistant-prepared sparse training example; not independent reference.",
+      "shape_type": "polygon",
+      "flags": {}
+    }
+  ],
+  "imagePath": "image.png",
+  "imageData": null,
+  "imageHeight": 1024,
+  "imageWidth": 1024,
+  "annotation_provenance": {
+    "author": "programmatic annotation tool",
+    "status": "Assistant-prepared development labels",
+    "biological_basis": "Before seeing prediction, Gonzalo confirmed: clearer, Endoderm left and Periderm right; transition around middle. Exact sparse polygons drawn by assistant, not biologically certified by Gonzalo. Transition x391-724 and lateral branch not labelled.",
+    "prediction_masks_used": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "new_run": "20261117T151217Z_92ee61ce",
+  "fresh_execution_of_final_code": true,
+  "V2_rows_identical": true,
+  "primary_CSV_identical": true,
+  "diagnostic_tracks": 7,
+  "source_unchanged": true,
+  "raw_mask_reproduced": true,
+  "diagnostic_numbers_reproduced": true,
+  "root6_P_membership_identical_raw_and_cleaned": true,
+  "software_tests_passed": 30,
+  "live_API_and_CSV_verified": true,
+  "locked_V2_and_V21_sources_verified": true
+}

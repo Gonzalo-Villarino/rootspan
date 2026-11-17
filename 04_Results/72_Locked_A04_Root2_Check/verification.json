@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-11-16T16:01:36.853335+00:00",
+  "checkpoint": {
+    "passed": true,
+    "files": 40,
+    "version": "Transition_v1_20261116",
+    "read_only_checked": true,
+    "manifest_sha256": "d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb"
+  },
+  "source_unchanged": true,
+  "prediction_unchanged_during_comparison": true,
+  "expert_labels_used_for_inference": false,
+  "image_sha256": "f3f9921d19449c2122a4a14ea747b4f3af1f5a2764f8fc4f44a45138cde1b814",
+  "route_sha256": "482ad368c24fcb31b1625faec048135db44140e26b7e3153850894eb722abab6",
+  "prediction_sha256": "4fd3058a2a069f3c7c70afe01001f4b15777cee464e21c77d7d026b7f5cf2f21",
+  "figure_visual_qa": {
+    "passed": true,
+    "figures": [
+      "A04_ROOT2_LOCKED_RESULT.png",
+      "A04_ROOT2_T_CLOSEUP.png",
+      "A04_ROOT2_B_AND_MODEL_T.png"
+    ],
+    "notes": "All result figures inspected. B reference and original model T visible at recorded source coordinates; labels readable. Palette spot checks agree with saved model states. Exact T reference remains pending."
+  }
+}

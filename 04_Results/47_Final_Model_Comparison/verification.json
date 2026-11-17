@@ -1,0 +1,20 @@
+{
+  "source_crop_matches_exactly": true,
+  "repeated_prediction_identical_every_pixel": true,
+  "baseline_model_hash_unchanged": true,
+  "original_training_sources_unchanged": {
+    "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_practice.png": true,
+    "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json": true,
+    "${ROOTSPAN_PROJECT}/02_Data/03_Background_Annotations/MT25_rep3_background_refined_GV.json": true,
+    "${ROOTSPAN_PROJECT}/04_Results/31_Root4_Background_Check_Patch/patch_details.json": true,
+    "${ROOTSPAN_PROJECT}/04_Results/32_Root4_Prediction/view_20261115T132047Z_70i13lvb/predicted_mask.png": true,
+    "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/02_Annotations/20#MT28_gfp.json": true,
+    "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/01_Images/20#MT28_gfp.png": true,
+    "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/02_Annotations/25717_gfp.json": true,
+    "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/01_Images/25717_gfp.png": true,
+    "${ROOTSPAN_PROJECT}/02_Data/01_PAT_Examples/02_Annotations/MT25_rep3.json": true
+  },
+  "prediction_uses_masks": false,
+  "current_general_model_replacement_accepted": false,
+  "word_manual_updated_in_this_run": false
+}

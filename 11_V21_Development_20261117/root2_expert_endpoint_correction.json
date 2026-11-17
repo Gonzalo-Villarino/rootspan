@@ -1,0 +1,14 @@
+{
+  "slide": "7_18",
+  "root": 2,
+  "question": "Is the far-right end a cut end of root or root-hypocotyl junction?",
+  "superseded_reply": "Cut end of the root",
+  "latest_user_verbatim": [
+    "nooo",
+    "is the hypocotly"
+  ],
+  "current_interpretation": "The right-hand structure shown is hypocotyl. Do not treat it as a cut root endpoint or include hypocotyl in root periderm length.",
+  "exact_junction_coordinate_confirmed": false,
+  "source_figure": "root2_right_native.png",
+  "scope": "Expert anatomical identification, not exact endpoint coordinates or new training."
+}

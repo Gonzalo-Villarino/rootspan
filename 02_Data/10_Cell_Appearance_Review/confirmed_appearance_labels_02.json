@@ -1,0 +1,90 @@
+{
+  "created_utc": "2026-11-16T12:48:29.581101+00:00",
+  "confirmed": true,
+  "source": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/COL0_Slide1.png",
+  "source_sha256": "68669ed917eeecdead464c55e853ec4a1d8f35979b9180110a64e9778f93f8de",
+  "slide": "COL0_Slide1",
+  "root": 2,
+  "examples": [
+    {
+      "id": "A",
+      "class_index": 0,
+      "label": "Clear Endoderm",
+      "native_crop": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root2_clear_endoderm_candidate_source_01.png",
+      "crop_sha256": "0630ea9e7c1054ff20eff4bc519f31df719505f02f6cb02a3e363fa7e55e601c",
+      "native_box_xyxy": [
+        1880,
+        1280,
+        2200,
+        1680
+      ],
+      "rotate_quarter_turns": 1,
+      "confirmation_record": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root2_clear_endoderm_confirmed_and_rule_01.json",
+      "root": 2,
+      "slide": "COL0_Slide1"
+    },
+    {
+      "id": "B",
+      "class_index": 1,
+      "label": "Mixed appearance",
+      "native_crop": "${ROOTSPAN_PROJECT}/02_Data/10_Cell_Appearance_Review/B_mixed_candidate.png",
+      "crop_sha256": "27b85a24d8d5149ff232d2e257d4d4d393c7512513fef647e57bcdcf2ddac4fa",
+      "native_box_xyxy": [
+        13580,
+        3370,
+        13900,
+        3630
+      ],
+      "rotate_quarter_turns": 0,
+      "root": 2,
+      "slide": "COL0_Slide1"
+    },
+    {
+      "id": "C",
+      "class_index": 2,
+      "label": "Clear Periderm",
+      "native_crop": "${ROOTSPAN_PROJECT}/02_Data/10_Cell_Appearance_Review/C_periderm_candidate.png",
+      "crop_sha256": "d2316e5d5107854f508be23fec9ac3bbf3ab1bba49325e9d77c596c16df14f14",
+      "native_box_xyxy": [
+        14480,
+        3350,
+        14800,
+        3610
+      ],
+      "rotate_quarter_turns": 0,
+      "root": 2,
+      "slide": "COL0_Slide1"
+    },
+    {
+      "id": "D",
+      "root": 3,
+      "slide": "COL0_Slide1",
+      "class_index": 0,
+      "label": "Clear Endoderm",
+      "native_crop": "${ROOTSPAN_PROJECT}/02_Data/10_Cell_Appearance_Review/D_root3_corrected_Endoderm_source.png",
+      "crop_sha256": "e30e954f357508448113f70adf4dc380ef09827f8b91c0c1baf47637a8fa0452",
+      "native_box_xyxy": [
+        11909,
+        5854,
+        12229,
+        6110
+      ],
+      "rotate_quarter_turns": 0,
+      "confirmation_record": "${ROOTSPAN_PROJECT}/02_Data/10_Cell_Appearance_Review/root3_Endoderm_correction_01.json"
+    }
+  ],
+  "B_C_user_reply_verbatim": "yes they are good, in B i see mix appareance",
+  "interpretation": "B explicitly confirmed as mixed. C accepted by the reply that both proposed labels are good. These are appearance labels for whole reviewed windows, not pixel contours.",
+  "followup_verbatim": [
+    "i mean if model learens that B is T zone then all the root to the left is endoderm and to the right is periderm",
+    "just a thougtht"
+  ],
+  "regional_rule": "Find mixed zone; T is its left edge. Main-root left of T Endoderm; T and right Periderm including mixed. Exclude lateral roots and background.",
+  "uncertain_T_interval_is_not_a_mixed_zone_extent": true,
+  "new_segmentation_masks_created": false,
+  "class_indices_are_for_appearance_head_only": "0 Clear Endoderm,1 Mixed,2 Clear Periderm; not existing segmentation mask codes.",
+  "version": "02",
+  "correction_record": "${ROOTSPAN_PROJECT}/02_Data/10_Cell_Appearance_Review/root3_Endoderm_correction_01.json",
+  "comparison_status": "Root3 now supplies one expert-corrected teaching window. Root3 prediction is a correction/teaching check, not independent validation.",
+  "update_note": "One clear-Endoderm window added from the error region. Classes remain equally weighted overall; original E and new E each receive half of the Endoderm class contribution."
+}

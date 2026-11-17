@@ -1,0 +1,87 @@
+{
+  "created_utc": "2026-11-16T12:50:17.835886+00:00",
+  "labels": "${ROOTSPAN_PROJECT}/02_Data/10_Cell_Appearance_Review/confirmed_appearance_labels_02.json",
+  "labels_sha256": "f32b6d914f5011525ebf2741dbd460b182453d984f44044715b1e2aba8ce6c99",
+  "purpose": "Feasibility experiment; NOT a validated replacement U-Net or automatic length pipeline",
+  "training_unique_windows": 4,
+  "training_unique_roots": 2,
+  "training_unique_slides": 1,
+  "encoder_weights": "${ROOTSPAN_PROJECT}/00_Software/PAT_Reference/pat_state_dict.pt",
+  "encoder_sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+  "encoder_training": false,
+  "public_encoder_original_training_membership": "unknown",
+  "model": "Frozen PAT ResNet34 multilevel pooled features plus linear 3-appearance head",
+  "features": "L2-normalized global mean for encoder stages 1-5, concatenated and normalized",
+  "preprocessing": "320x256 native pixels, vertical intensity-centering, p99.5 green scaled to160; no geometric resizing; zero-pad outside reviewed window",
+  "augmentation": "48 photometric/flip versions per reviewed window; gain0.8-1.2; gamma0.9-1.1. Not independent examples.",
+  "updates": 500,
+  "optimizer": "AdamW lr0.02 weight_decay0.05",
+  "seed": 1617,
+  "selection": "Final head; no checkpoint selection. Expert error correction is part of development when root3 supplies a teaching field.",
+  "class_balance": "Each appearance class contributes1/3of loss; windows within a class share its weight equally.",
+  "class_window_counts": [
+    2,
+    1,
+    1
+  ],
+  "scan_stride_native_pixels": 64,
+  "sequence_rule": "Monotonic E/M/P with0.25 log-score transition penalty. Any state may be absent. Candidate requires>=3 successive samples in every state.",
+  "reference_use": "Only after prediction. Route is human-assisted. No expert T used in features or decoding.",
+  "comparison_status": "Root3 correction/teaching check; one expert-labelled root3 window now trains this head. Not independent validation.",
+  "limitations": [
+    "Very few fields; root thickness, intensity and context can confound appearance.",
+    "Frozen features are not demonstrated explicit cell-shape measurements.",
+    "Window labels do not establish a pixel-precise boundary. 320-pixel field limits localization.",
+    "Main-root path is supplied, not independently detected. No automatic lengths reported."
+  ],
+  "default_model_sha256_before": "234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633",
+  "device": "mps",
+  "completed_updates": 500,
+  "teaching_fit": [
+    [
+      0.9985344409942627,
+      0.0011869615409523249,
+      0.0002785510732792318
+    ],
+    [
+      0.0018343215342611074,
+      0.9813535213470459,
+      0.016812123358249664
+    ],
+    [
+      0.00039040655246935785,
+      0.007129536010324955,
+      0.9924800395965576
+    ],
+    [
+      0.9933602213859558,
+      0.006356334313750267,
+      0.00028346190811134875
+    ]
+  ],
+  "root3_T_candidate_distance_native_pixels": 11456.0,
+  "root3_T_candidate_source_xy": [
+    12164.846974122032,
+    5973.507438375774
+  ],
+  "expert_working_T_distance_native_pixels": 11918.425640533897,
+  "expert_approximate_T_interval_distance_native_pixels": [
+    11816.527035274594,
+    12020.78102368847
+  ],
+  "difference_from_working_T_native_pixels": -462.4256405338965,
+  "candidate_within_expert_interval": false,
+  "sustained_all_three_states": true,
+  "ordered_class_sample_counts": [
+    177,
+    14,
+    104
+  ],
+  "candidate_resolution_note": "320-pixel-wide windows,64-pixel stride. Do not interpret as an exact pixel boundary or statistical confidence interval.",
+  "success_scope": "Root3 correction/teaching check; one expert-labelled root3 window now trains this head. Not independent validation. Not generalization or automatic length validation.",
+  "elapsed_seconds": 3.7477779170003487,
+  "model_promoted": false,
+  "source_unchanged": true,
+  "default_model_unchanged": true,
+  "external_review": "external reviewer unavailable: subscription login required; no review sent."
+}

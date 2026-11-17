@@ -1,0 +1,65 @@
+{
+  "purpose": "One-pair training practice only. No independent validation/test.",
+  "created_utc": "2026-11-13T12:56:50.591317+00:00",
+  "provenance": {
+    "patch_id": "MT25_rep3_practice_r000_c007",
+    "selection_reason": "Existing grid pair with the most pixels in its less abundant tissue class.",
+    "image": "${ROOTSPAN_PROJECT}/04_Results/03_Practice_Patches/images/MT25_rep3_practice_r000_c007.png",
+    "mask": "${ROOTSPAN_PROJECT}/04_Results/03_Practice_Patches/masks/MT25_rep3_practice_r000_c007.png",
+    "image_sha256": "0efb453e036ce7ae39d775c87e8d4886c950ae5f352b6738d004bd309cacaa3c",
+    "mask_sha256": "c6168d068a488ae60b129de86838976d84de988c78fc0505018b046303cacb6d",
+    "manifest_sha256": "eeda1e18b6e58eea054e2038c1551aebbbf9eecde838a7e58e36f432c4f5b6af",
+    "source_crop_box": [
+      7168,
+      0,
+      8192,
+      1024
+    ],
+    "mask_pixel_counts": {
+      "0": 989746,
+      "1": 21448,
+      "2": 37334,
+      "255": 48
+    }
+  },
+  "training_script_sha256": "b6e3dfd800b7634f9f9328058acd6ab624ff07c3fb92e06c82866864880f19d9",
+  "model_script_sha256": "5d1e3c0ae9177839234113f8a1344a5952786190da93dcdc5f48bd482b1aeec8",
+  "python": "3.13.2",
+  "pytorch": "2.15.0",
+  "device": "mps",
+  "seed": 34,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "gradient_clip_norm": 5.0,
+  "requested_updates": 200,
+  "completed_updates": 200,
+  "max_loop_seconds": 180,
+  "loop_and_final_measure_seconds": 24.357521207999525,
+  "stop_reason": "requested_updates_completed",
+  "image_preprocessing": "RGB / 255; no resizing or augmentation",
+  "mask_to_target": {
+    "0": "ignore",
+    "1": 0,
+    "2": 1,
+    "255": "ignore"
+  },
+  "output_channels": [
+    "Periderm",
+    "Endoderm"
+  ],
+  "ignore_target": 255,
+  "before_training": {
+    "loss": 0.7626115679740906,
+    "labelled_pixel_agreement": 0.3648736007621381
+  },
+  "after_training": {
+    "loss": 1.83135944098467e-05,
+    "labelled_pixel_agreement": 1.0
+  },
+  "limitations": [
+    "All measurements use the training pair; they do not measure new-image performance.",
+    "No background class is learned. Predictions outside annotations are not assessed.",
+    "This run starts fresh; saved weights support later prediction, not exact optimizer resumption.",
+    "A seed improves repeatability but does not guarantee identical results across devices/versions."
+  ]
+}

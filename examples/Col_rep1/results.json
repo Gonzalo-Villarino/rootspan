@@ -1,0 +1,681 @@
+{
+  "source_name": "79b5bca6f8c44c0795fd79d4b6a88cb4.tif",
+  "source_sha256": "452b09a3db5ee322ddba05875e9da0df7654ea6653de1d7bcb7fce8372acc67a",
+  "source_dimensions_xy": [
+    12794,
+    9597
+  ],
+  "pixels_per_micrometre": 0.5299,
+  "checkpoint": "Transition_v1_20261116",
+  "geometry_version": "automatic_geometry_prototype_0.2.1",
+  "pipeline_version": "automatic_pipeline_v2.0_context",
+  "rows": [
+    {
+      "track_id": 1,
+      "periderm_length_um": 11114.171265241639,
+      "segment_to_visible_end_um": null,
+      "length_pixels": 5889.399353451545,
+      "transition_xy": [
+        6194.40855116927,
+        501.5448914889429
+      ],
+      "endpoint_xy": [
+        11824.380529533584,
+        1753.6004287731716
+      ],
+      "status": "provisional",
+      "notes": [
+        "Automatic widening-based endpoint; anatomical junction and transition need validation."
+      ],
+      "endpoint_method": "width_based_junction_candidate",
+      "separation": {
+        "parallel_lane_count": 1,
+        "lane_count_support": 0.967741935483871,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          136,
+          2,
+          3125,
+          491
+        ],
+        "split_applied": false
+      },
+      "detection_bbox_xyxy": [
+        544,
+        8,
+        12500,
+        1964
+      ],
+      "parallel_intervals_fraction": 0.03225806451612903,
+      "inspection_extension_pixels": 981.7824646406534,
+      "T_path_pixels": 5824.0,
+      "image": "track_01/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": 0.0,
+        "validated_blur_classifier": false
+      },
+      "closeup": "track_01/transition.png"
+    },
+    {
+      "track_id": 2,
+      "periderm_length_um": 16535.5683631375,
+      "segment_to_visible_end_um": null,
+      "length_pixels": 8762.197675626561,
+      "transition_xy": [
+        4392.122697479617,
+        1135.446642621926
+      ],
+      "endpoint_xy": [
+        11878.148076618565,
+        2106.8242112281696
+      ],
+      "status": "provisional",
+      "notes": [
+        "Automatic widening-based endpoint; anatomical junction and transition need validation."
+      ],
+      "endpoint_method": "width_based_junction_candidate",
+      "separation": {
+        "parallel_lane_count": 3,
+        "lane_count_support": 0.5806451612903226,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          2,
+          251,
+          3132,
+          1547
+        ],
+        "split_applied": true,
+        "lane_in_group": 1
+      },
+      "detection_bbox_xyxy": [
+        8,
+        1004,
+        12528,
+        3468
+      ],
+      "parallel_intervals_fraction": 0.12903225806451613,
+      "inspection_extension_pixels": 770.1691587256628,
+      "T_path_pixels": 4736.0,
+      "image": "track_02/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": 0.0,
+        "validated_blur_classifier": false
+      },
+      "closeup": "track_02/transition.png"
+    },
+    {
+      "track_id": 3,
+      "periderm_length_um": 11094.233914799039,
+      "segment_to_visible_end_um": null,
+      "length_pixels": 5878.8345514520115,
+      "transition_xy": [
+        6071.45577667274,
+        2183.842979407247
+      ],
+      "endpoint_xy": [
+        11472.712119228956,
+        3194.5666184259458
+      ],
+      "status": "provisional",
+      "notes": [
+        "Automatic widening-based endpoint; anatomical junction and transition need validation."
+      ],
+      "endpoint_method": "width_based_junction_candidate",
+      "separation": {
+        "parallel_lane_count": 3,
+        "lane_count_support": 0.5806451612903226,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          2,
+          251,
+          3132,
+          1547
+        ],
+        "split_applied": true,
+        "lane_in_group": 2
+      },
+      "detection_bbox_xyxy": [
+        568,
+        1996,
+        12396,
+        3996
+      ],
+      "parallel_intervals_fraction": 0.1935483870967742,
+      "inspection_extension_pixels": 952.7011817014973,
+      "T_path_pixels": 5696.0,
+      "image": "track_03/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": 0.0,
+        "validated_blur_classifier": false
+      },
+      "closeup": "track_03/transition.png"
+    },
+    {
+      "track_id": 4,
+      "periderm_length_um": 15004.962122819576,
+      "segment_to_visible_end_um": null,
+      "length_pixels": 7951.129428882094,
+      "transition_xy": [
+        3676.337031620489,
+        4440.336177557342
+      ],
+      "endpoint_xy": [
+        11255.478596088284,
+        5316.251783794021
+      ],
+      "status": "provisional",
+      "notes": [
+        "Automatic widening-based endpoint; anatomical junction and transition need validation."
+      ],
+      "endpoint_method": "width_based_junction_candidate",
+      "separation": {
+        "parallel_lane_count": 3,
+        "lane_count_support": 0.5806451612903226,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          2,
+          251,
+          3132,
+          1547
+        ],
+        "split_applied": true,
+        "lane_in_group": 3
+      },
+      "detection_bbox_xyxy": [
+        8,
+        3392,
+        12236,
+        6188
+      ],
+      "parallel_intervals_fraction": 0.12903225806451613,
+      "inspection_extension_pixels": 1189.3145797060497,
+      "T_path_pixels": 4224.0,
+      "image": "track_04/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": 0.0,
+        "validated_blur_classifier": false
+      },
+      "closeup": "track_04/transition.png"
+    },
+    {
+      "track_id": 5,
+      "periderm_length_um": 15197.808385876346,
+      "segment_to_visible_end_um": null,
+      "length_pixels": 8053.318663675876,
+      "transition_xy": [
+        5101.803798885536,
+        6779.636526666472
+      ],
+      "endpoint_xy": [
+        12268.917165177614,
+        6915.934237421853
+      ],
+      "status": "provisional",
+      "notes": [
+        "Automatic widening-based endpoint; anatomical junction and transition need validation."
+      ],
+      "endpoint_method": "width_based_junction_candidate",
+      "separation": {
+        "parallel_lane_count": 2,
+        "lane_count_support": 0.6129032258064516,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          189,
+          1487,
+          3197,
+          2244
+        ],
+        "split_applied": true,
+        "lane_in_group": 1
+      },
+      "detection_bbox_xyxy": [
+        2176,
+        5948,
+        12788,
+        8044
+      ],
+      "parallel_intervals_fraction": 0.25806451612903225,
+      "inspection_extension_pixels": 704.3888726525402,
+      "T_path_pixels": 3136.0,
+      "image": "track_05/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": 0.0,
+        "validated_blur_classifier": false
+      },
+      "closeup": "track_05/transition.png"
+    },
+    {
+      "track_id": 6,
+      "periderm_length_um": 8846.606168295139,
+      "segment_to_visible_end_um": null,
+      "length_pixels": 4687.816608579595,
+      "transition_xy": [
+        7213.15067609455,
+        6984.6811185666
+      ],
+      "endpoint_xy": [
+        11652.672502222078,
+        8152.154561298751
+      ],
+      "status": "provisional",
+      "notes": [
+        "Automatic widening-based endpoint; anatomical junction and transition need validation."
+      ],
+      "endpoint_method": "width_based_junction_candidate",
+      "separation": {
+        "parallel_lane_count": 2,
+        "lane_count_support": 0.6129032258064516,
+        "split_method": "background_seams",
+        "source_group_bbox_coarse": [
+          189,
+          1487,
+          3197,
+          2244
+        ],
+        "split_applied": true,
+        "lane_in_group": 2
+      },
+      "detection_bbox_xyxy": [
+        756,
+        6672,
+        12596,
+        8976
+      ],
+      "parallel_intervals_fraction": 0.1935483870967742,
+      "inspection_extension_pixels": 1180.4325145118928,
+      "T_path_pixels": 6912.0,
+      "image": "track_06/overlay.png",
+      "image_quality": {
+        "version": "low_detail_screen_0.1",
+        "status": "no_low_detail_flag",
+        "withhold_measurement": false,
+        "reason": "No severe low-detail flag; image adequacy is not established by this check.",
+        "detail_limit": 0.001,
+        "contrast_limit": 4.0,
+        "low_detail_fraction": 0.0,
+        "near_transition_low_detail_fraction": 0.0,
+        "validated_blur_classifier": false
+      },
+      "closeup": "track_06/transition.png"
+    }
+  ],
+  "model_version": "V1 weights and rule; V2 full-track inspection pipeline",
+  "detected_groups": 6,
+  "individual_tracks": 6,
+  "provisional_lengths": 6,
+  "training_occurred": false,
+  "human_paths_or_transition_points_used": false,
+  "results_are_provisional": true,
+  "scope": "Automatic processing of horizontal RGB fluorescence roots, hypocotyl to right. Track count is not a verified root count.",
+  "integrity_before": {
+    "passed": true,
+    "files": 40,
+    "version": "Transition_v1_20261116",
+    "read_only_checked": false,
+    "manifest_sha256": "d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb"
+  },
+  "integrity_after": {
+    "passed": true,
+    "files": 40,
+    "version": "Transition_v1_20261116",
+    "read_only_checked": false,
+    "manifest_sha256": "d0eda2a780d4cd925d427698a72500d256ff4acf83cceb7b04d89d5c99c910cb"
+  },
+  "model_diagnostics": {
+    "version": "pat_path_diagnostics_1.1",
+    "source_sha256": "452b09a3db5ee322ddba05875e9da0df7654ea6653de1d7bcb7fce8372acc67a",
+    "model": "Original PAT weights with adapted class-safe tiling; raw argmax and original 2D PAT cleanup. Not original stitching or FilFinder measurement.",
+    "mask_source": "${ROOTSPAN_PROJECT}/09_Periderm_GUI/runs/20261117T155137Z_7d3c3a7d/results/pat_prediction",
+    "raw_mask_sha256": "ae736f6956da5ef4084ad1344246367cad8465fc22537d0729ab03e149ca8663",
+    "pixels_per_micrometre": 0.5299,
+    "postprocessing_record": {
+      "source_code": {
+        "src/segmentation_patch_cor_mac.py": "d9c9673349713eaad4490232b56f945efb7637439de7e9a7058c5280c065bea2",
+        "src/new_post_processing_for_measurement.py": "961b50f3c6502654ed07b5a9b3de10291115abf412c2875b05ef4d718061a273"
+      },
+      "original_repo_commit": "51cdf8966f6da17b711aeb5625205a8a2ca39467",
+      "input_mask_sha256": "ae736f6956da5ef4084ad1344246367cad8465fc22537d0729ab03e149ca8663",
+      "output_mask_sha256": "335f119af83d4d64c84bd098d4466d2911647e0bd38035b881123cdd12de14b0",
+      "scope": "Original cleanup stages applied to adapted inference. No original channel-max stitch. No original FilFinder lengths.",
+      "cv2": "5.0.0",
+      "numpy": "2.5.5",
+      "training": false,
+      "validated": false
+    },
+    "scope": "Not anatomical periderm lengths. Raw and 2D-cleaned P-labelled path sums are not used by the main measurement table.",
+    "training_occurred": false,
+    "rows": [
+      {
+        "track_id": 1,
+        "diagnostic_status": "computed_unvalidated_endpoint",
+        "diagnostic_reason": "Label statistics on the detected left-end-to-automatic-endpoint path; not anatomical periderm length.",
+        "path_start_type": "detected_left_end",
+        "path_end_type": "width_based_junction_candidate",
+        "endpoint_anatomically_verified": false,
+        "sampled_path_um": 22104.924237500545,
+        "raw_P_labelled_path_um": 14766.125454015433,
+        "raw_E_labelled_path_um": 6635.109922695553,
+        "raw_Background_path_um": 703.6888607895202,
+        "raw_LR_path_um": 0.0,
+        "background_fraction": 0.03183403178535788,
+        "P_run_count": 12,
+        "longest_P_run_um": 11024.090991027593,
+        "first_P_path_um": 5744.444662823013,
+        "last_P_path_um": 22104.924237500527,
+        "max_sample_step_pixels": 0.9999629100394145,
+        "path_length_pixels": 11713.39935345154,
+        "P_detection_state": "P_detected",
+        "pipeline_version": "automatic_pipeline_v2.0_context",
+        "source_sha256": "452b09a3db5ee322ddba05875e9da0df7654ea6653de1d7bcb7fce8372acc67a",
+        "diagnostic_version": "pat_path_diagnostics_1.1",
+        "diagnostic_workflow": "Original PAT weights; adapted class-safe tiling; original 2D cleanup; V2 sampled path, not FilFinder",
+        "raw_mask_sha256": "ae736f6956da5ef4084ad1344246367cad8465fc22537d0729ab03e149ca8663",
+        "pixels_per_micrometre": 0.5299,
+        "PAT_cleanup_detection_state": "P_retained",
+        "scope": "Not anatomical periderm length. Sum of model-labelled portions of a detected path. Zero is not confirmed biological absence; the automatic endpoint can include hypocotyl.",
+        "image": "model_diagnostics/track_01_labelled_path.png",
+        "PAT_cleanup_P_labelled_path_um": 15024.352748888476,
+        "P_sample_membership_unchanged_by_PAT_cleanup": false,
+        "PAT_cleanup_image": "model_diagnostics/track_01_PAT_cleanup_path.png"
+      },
+      {
+        "track_id": 2,
+        "diagnostic_status": "computed_unvalidated_endpoint",
+        "diagnostic_reason": "Label statistics on the detected left-end-to-automatic-endpoint path; not anatomical periderm length.",
+        "path_start_type": "detected_left_end",
+        "path_end_type": "width_based_junction_candidate",
+        "endpoint_anatomically_verified": false,
+        "sampled_path_um": 25473.103747172216,
+        "raw_P_labelled_path_um": 17890.913308912106,
+        "raw_E_labelled_path_um": 7321.78082177566,
+        "raw_Background_path_um": 260.4096164845186,
+        "raw_LR_path_um": 0.0,
+        "background_fraction": 0.010222924503788701,
+        "P_run_count": 7,
+        "longest_P_run_um": 12218.077983467045,
+        "first_P_path_um": 1751.6849749034056,
+        "last_P_path_um": 25473.103747172292,
+        "max_sample_step_pixels": 0.9999663926904149,
+        "path_length_pixels": 13498.197675626558,
+        "P_detection_state": "P_detected",
+        "pipeline_version": "automatic_pipeline_v2.0_context",
+        "source_sha256": "452b09a3db5ee322ddba05875e9da0df7654ea6653de1d7bcb7fce8372acc67a",
+        "diagnostic_version": "pat_path_diagnostics_1.1",
+        "diagnostic_workflow": "Original PAT weights; adapted class-safe tiling; original 2D cleanup; V2 sampled path, not FilFinder",
+        "raw_mask_sha256": "ae736f6956da5ef4084ad1344246367cad8465fc22537d0729ab03e149ca8663",
+        "pixels_per_micrometre": 0.5299,
+        "PAT_cleanup_detection_state": "P_retained",
+        "scope": "Not anatomical periderm length. Sum of model-labelled portions of a detected path. Zero is not confirmed biological absence; the automatic endpoint can include hypocotyl.",
+        "image": "model_diagnostics/track_02_labelled_path.png",
+        "PAT_cleanup_P_labelled_path_um": 17658.900382088585,
+        "P_sample_membership_unchanged_by_PAT_cleanup": false,
+        "PAT_cleanup_image": "model_diagnostics/track_02_PAT_cleanup_path.png"
+      },
+      {
+        "track_id": 3,
+        "diagnostic_status": "computed_unvalidated_endpoint",
+        "diagnostic_reason": "Label statistics on the detected left-end-to-automatic-endpoint path; not anatomical periderm length.",
+        "path_start_type": "detected_left_end",
+        "path_end_type": "width_based_junction_candidate",
+        "endpoint_anatomically_verified": false,
+        "sampled_path_um": 21843.43187667857,
+        "raw_P_labelled_path_um": 16125.307698250755,
+        "raw_E_labelled_path_um": 5106.518185988637,
+        "raw_Background_path_um": 611.6059924389864,
+        "raw_LR_path_um": 0.0,
+        "background_fraction": 0.027999537613499995,
+        "P_run_count": 10,
+        "longest_P_run_um": 10035.21876716359,
+        "first_P_path_um": 662.4319058889026,
+        "last_P_path_um": 21843.43187667845,
+        "max_sample_step_pixels": 0.9999937335706449,
+        "path_length_pixels": 11574.834551451975,
+        "P_detection_state": "P_detected",
+        "pipeline_version": "automatic_pipeline_v2.0_context",
+        "source_sha256": "452b09a3db5ee322ddba05875e9da0df7654ea6653de1d7bcb7fce8372acc67a",
+        "diagnostic_version": "pat_path_diagnostics_1.1",
+        "diagnostic_workflow": "Original PAT weights; adapted class-safe tiling; original 2D cleanup; V2 sampled path, not FilFinder",
+        "raw_mask_sha256": "ae736f6956da5ef4084ad1344246367cad8465fc22537d0729ab03e149ca8663",
+        "pixels_per_micrometre": 0.5299,
+        "PAT_cleanup_detection_state": "P_retained",
+        "scope": "Not anatomical periderm length. Sum of model-labelled portions of a detected path. Zero is not confirmed biological absence; the automatic endpoint can include hypocotyl.",
+        "image": "model_diagnostics/track_03_labelled_path.png",
+        "PAT_cleanup_P_labelled_path_um": 10035.218767163697,
+        "P_sample_membership_unchanged_by_PAT_cleanup": false,
+        "PAT_cleanup_image": "model_diagnostics/track_03_PAT_cleanup_path.png"
+      },
+      {
+        "track_id": 4,
+        "diagnostic_status": "computed_unvalidated_endpoint",
+        "diagnostic_reason": "Label statistics on the detected left-end-to-automatic-endpoint path; not anatomical periderm length.",
+        "path_start_type": "detected_left_end",
+        "path_end_type": "width_based_junction_candidate",
+        "endpoint_anatomically_verified": false,
+        "sampled_path_um": 22976.277465337058,
+        "raw_P_labelled_path_um": 15124.110038496066,
+        "raw_E_labelled_path_um": 7433.9923075861625,
+        "raw_Background_path_um": 418.17511925490976,
+        "raw_LR_path_um": 0.0,
+        "background_fraction": 0.018200298977316304,
+        "P_run_count": 16,
+        "longest_P_run_um": 8548.413434107622,
+        "first_P_path_um": 177.45141894015575,
+        "last_P_path_um": 22976.2774653369,
+        "max_sample_step_pixels": 0.9999625162819303,
+        "path_length_pixels": 12175.129428882108,
+        "P_detection_state": "P_detected",
+        "pipeline_version": "automatic_pipeline_v2.0_context",
+        "source_sha256": "452b09a3db5ee322ddba05875e9da0df7654ea6653de1d7bcb7fce8372acc67a",
+        "diagnostic_version": "pat_path_diagnostics_1.1",
+        "diagnostic_workflow": "Original PAT weights; adapted class-safe tiling; original 2D cleanup; V2 sampled path, not FilFinder",
+        "raw_mask_sha256": "ae736f6956da5ef4084ad1344246367cad8465fc22537d0729ab03e149ca8663",
+        "pixels_per_micrometre": 0.5299,
+        "PAT_cleanup_detection_state": "P_retained",
+        "scope": "Not anatomical periderm length. Sum of model-labelled portions of a detected path. Zero is not confirmed biological absence; the automatic endpoint can include hypocotyl.",
+        "image": "model_diagnostics/track_04_labelled_path.png",
+        "PAT_cleanup_P_labelled_path_um": 12373.54607417309,
+        "P_sample_membership_unchanged_by_PAT_cleanup": false,
+        "PAT_cleanup_image": "model_diagnostics/track_04_PAT_cleanup_path.png"
+      },
+      {
+        "track_id": 5,
+        "diagnostic_status": "computed_unvalidated_endpoint",
+        "diagnostic_reason": "Label statistics on the detected left-end-to-automatic-endpoint path; not anatomical periderm length.",
+        "path_start_type": "detected_left_end",
+        "path_end_type": "width_based_junction_candidate",
+        "endpoint_anatomically_verified": false,
+        "sampled_path_um": 21115.906140169554,
+        "raw_P_labelled_path_um": 15260.898324842276,
+        "raw_E_labelled_path_um": 5842.78645860936,
+        "raw_Background_path_um": 12.221356717940749,
+        "raw_LR_path_um": 0.0,
+        "background_fraction": 0.0005787749119935525,
+        "P_run_count": 3,
+        "longest_P_run_um": 12451.832208348076,
+        "first_P_path_um": 4410.301026027312,
+        "last_P_path_um": 21115.906140169678,
+        "max_sample_step_pixels": 0.9999803616767978,
+        "path_length_pixels": 11189.318663675847,
+        "P_detection_state": "P_detected",
+        "pipeline_version": "automatic_pipeline_v2.0_context",
+        "source_sha256": "452b09a3db5ee322ddba05875e9da0df7654ea6653de1d7bcb7fce8372acc67a",
+        "diagnostic_version": "pat_path_diagnostics_1.1",
+        "diagnostic_workflow": "Original PAT weights; adapted class-safe tiling; original 2D cleanup; V2 sampled path, not FilFinder",
+        "raw_mask_sha256": "ae736f6956da5ef4084ad1344246367cad8465fc22537d0729ab03e149ca8663",
+        "pixels_per_micrometre": 0.5299,
+        "PAT_cleanup_detection_state": "P_retained",
+        "scope": "Not anatomical periderm length. Sum of model-labelled portions of a detected path. Zero is not confirmed biological absence; the automatic endpoint can include hypocotyl.",
+        "image": "model_diagnostics/track_05_labelled_path.png",
+        "PAT_cleanup_P_labelled_path_um": 12451.832208348009,
+        "P_sample_membership_unchanged_by_PAT_cleanup": false,
+        "PAT_cleanup_image": "model_diagnostics/track_05_PAT_cleanup_path.png"
+      },
+      {
+        "track_id": 6,
+        "diagnostic_status": "computed_unvalidated_endpoint",
+        "diagnostic_reason": "Label statistics on the detected left-end-to-automatic-endpoint path; not anatomical periderm length.",
+        "path_start_type": "detected_left_end",
+        "path_end_type": "width_based_junction_candidate",
+        "endpoint_anatomically_verified": false,
+        "sampled_path_um": 21890.57672877829,
+        "raw_P_labelled_path_um": 14087.064168229357,
+        "raw_E_labelled_path_um": 7803.512560548953,
+        "raw_Background_path_um": 0.0,
+        "raw_LR_path_um": 0.0,
+        "background_fraction": 0.0,
+        "P_run_count": 8,
+        "longest_P_run_um": 10569.337885240408,
+        "first_P_path_um": 0.0,
+        "last_P_path_um": 21890.576728778637,
+        "max_sample_step_pixels": 0.9999879942191867,
+        "path_length_pixels": 11599.816608579617,
+        "P_detection_state": "P_detected",
+        "pipeline_version": "automatic_pipeline_v2.0_context",
+        "source_sha256": "452b09a3db5ee322ddba05875e9da0df7654ea6653de1d7bcb7fce8372acc67a",
+        "diagnostic_version": "pat_path_diagnostics_1.1",
+        "diagnostic_workflow": "Original PAT weights; adapted class-safe tiling; original 2D cleanup; V2 sampled path, not FilFinder",
+        "raw_mask_sha256": "ae736f6956da5ef4084ad1344246367cad8465fc22537d0729ab03e149ca8663",
+        "pixels_per_micrometre": 0.5299,
+        "PAT_cleanup_detection_state": "P_retained",
+        "scope": "Not anatomical periderm length. Sum of model-labelled portions of a detected path. Zero is not confirmed biological absence; the automatic endpoint can include hypocotyl.",
+        "image": "model_diagnostics/track_06_labelled_path.png",
+        "PAT_cleanup_P_labelled_path_um": 10654.234754614636,
+        "P_sample_membership_unchanged_by_PAT_cleanup": false,
+        "PAT_cleanup_image": "model_diagnostics/track_06_PAT_cleanup_path.png"
+      }
+    ]
+  },
+  "per_root_report": {
+    "version": "per_root_mask_estimates_1.0",
+    "rows": [
+      {
+        "root": 1,
+        "periderm_length_um": 15024.352748888476,
+        "value_source": "PAT mask estimate",
+        "automatic_mask_estimate_um": 15024.352748888476,
+        "status": "estimated",
+        "review_note": "Estimated from the mask and automatic root path; check against the image.",
+        "expert_reference_id": "",
+        "source_sha256": "452b09a3db5ee322ddba05875e9da0df7654ea6653de1d7bcb7fce8372acc67a",
+        "pixels_per_micrometre": 0.5299,
+        "report_version": "per_root_mask_estimates_1.0",
+        "diagnostic_version": "pat_path_diagnostics_1.1",
+        "raw_mask_sha256": "ae736f6956da5ef4084ad1344246367cad8465fc22537d0729ab03e149ca8663",
+        "measurement_definition": "Estimated length of cleaned Periderm-labelled portions of the detected root path. Path extent is automatic, without requiring a confirmed junction. May include hypocotyl or omit tissue; not validated T-to-J length."
+      },
+      {
+        "root": 2,
+        "periderm_length_um": 17658.900382088585,
+        "value_source": "PAT mask estimate",
+        "automatic_mask_estimate_um": 17658.900382088585,
+        "status": "estimated",
+        "review_note": "Estimated from the mask and automatic root path; check against the image.",
+        "expert_reference_id": "",
+        "source_sha256": "452b09a3db5ee322ddba05875e9da0df7654ea6653de1d7bcb7fce8372acc67a",
+        "pixels_per_micrometre": 0.5299,
+        "report_version": "per_root_mask_estimates_1.0",
+        "diagnostic_version": "pat_path_diagnostics_1.1",
+        "raw_mask_sha256": "ae736f6956da5ef4084ad1344246367cad8465fc22537d0729ab03e149ca8663",
+        "measurement_definition": "Estimated length of cleaned Periderm-labelled portions of the detected root path. Path extent is automatic, without requiring a confirmed junction. May include hypocotyl or omit tissue; not validated T-to-J length."
+      },
+      {
+        "root": 3,
+        "periderm_length_um": 10035.218767163697,
+        "value_source": "PAT mask estimate",
+        "automatic_mask_estimate_um": 10035.218767163697,
+        "status": "estimated",
+        "review_note": "Estimated from the mask and automatic root path; check against the image.",
+        "expert_reference_id": "",
+        "source_sha256": "452b09a3db5ee322ddba05875e9da0df7654ea6653de1d7bcb7fce8372acc67a",
+        "pixels_per_micrometre": 0.5299,
+        "report_version": "per_root_mask_estimates_1.0",
+        "diagnostic_version": "pat_path_diagnostics_1.1",
+        "raw_mask_sha256": "ae736f6956da5ef4084ad1344246367cad8465fc22537d0729ab03e149ca8663",
+        "measurement_definition": "Estimated length of cleaned Periderm-labelled portions of the detected root path. Path extent is automatic, without requiring a confirmed junction. May include hypocotyl or omit tissue; not validated T-to-J length."
+      },
+      {
+        "root": 4,
+        "periderm_length_um": 12373.54607417309,
+        "value_source": "PAT mask estimate",
+        "automatic_mask_estimate_um": 12373.54607417309,
+        "status": "estimated",
+        "review_note": "Estimated from the mask and automatic root path; check against the image.",
+        "expert_reference_id": "",
+        "source_sha256": "452b09a3db5ee322ddba05875e9da0df7654ea6653de1d7bcb7fce8372acc67a",
+        "pixels_per_micrometre": 0.5299,
+        "report_version": "per_root_mask_estimates_1.0",
+        "diagnostic_version": "pat_path_diagnostics_1.1",
+        "raw_mask_sha256": "ae736f6956da5ef4084ad1344246367cad8465fc22537d0729ab03e149ca8663",
+        "measurement_definition": "Estimated length of cleaned Periderm-labelled portions of the detected root path. Path extent is automatic, without requiring a confirmed junction. May include hypocotyl or omit tissue; not validated T-to-J length."
+      },
+      {
+        "root": 5,
+        "periderm_length_um": 12451.832208348009,
+        "value_source": "PAT mask estimate",
+        "automatic_mask_estimate_um": 12451.832208348009,
+        "status": "estimated",
+        "review_note": "Estimated from the mask and automatic root path; check against the image.",
+        "expert_reference_id": "",
+        "source_sha256": "452b09a3db5ee322ddba05875e9da0df7654ea6653de1d7bcb7fce8372acc67a",
+        "pixels_per_micrometre": 0.5299,
+        "report_version": "per_root_mask_estimates_1.0",
+        "diagnostic_version": "pat_path_diagnostics_1.1",
+        "raw_mask_sha256": "ae736f6956da5ef4084ad1344246367cad8465fc22537d0729ab03e149ca8663",
+        "measurement_definition": "Estimated length of cleaned Periderm-labelled portions of the detected root path. Path extent is automatic, without requiring a confirmed junction. May include hypocotyl or omit tissue; not validated T-to-J length."
+      },
+      {
+        "root": 6,
+        "periderm_length_um": 10654.234754614636,
+        "value_source": "PAT mask estimate",
+        "automatic_mask_estimate_um": 10654.234754614636,
+        "status": "estimated",
+        "review_note": "Estimated from the mask and automatic root path; check against the image.",
+        "expert_reference_id": "",
+        "source_sha256": "452b09a3db5ee322ddba05875e9da0df7654ea6653de1d7bcb7fce8372acc67a",
+        "pixels_per_micrometre": 0.5299,
+        "report_version": "per_root_mask_estimates_1.0",
+        "diagnostic_version": "pat_path_diagnostics_1.1",
+        "raw_mask_sha256": "ae736f6956da5ef4084ad1344246367cad8465fc22537d0729ab03e149ca8663",
+        "measurement_definition": "Estimated length of cleaned Periderm-labelled portions of the detected root path. Path extent is automatic, without requiring a confirmed junction. May include hypocotyl or omit tissue; not validated T-to-J length."
+      }
+    ],
+    "numeric_count": 6,
+    "measurement_definition": "Estimated length of cleaned Periderm-labelled portions of the detected root path. Path extent is automatic, without requiring a confirmed junction. May include hypocotyl or omit tissue; not validated T-to-J length.",
+    "training_occurred": false
+  }
+}

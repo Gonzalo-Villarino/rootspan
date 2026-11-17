@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-11-16T11:52:24.448785+00:00",
+  "old_v7": {
+    "path": "${ROOTSPAN_PROJECT}/04_Results/54_Refinement_Experiments/rule_derived_endoderm_v7/best_weights.pt",
+    "sha256": "a25051b69f214d8c3c34952636356562d30f78a0885f9af2055a41d821af5e08"
+  },
+  "same_v6_initial": {
+    "path": "${ROOTSPAN_PROJECT}/04_Results/54_Refinement_Experiments/expanded_transition_balancing_v6/best_weights.pt",
+    "sha256": "1d666a577f63fc0da7c6b8d6d19338557ec1ce3d854b3b7071a7f59a522f67d4"
+  },
+  "default_working_model": {
+    "path": "${ROOTSPAN_PROJECT}/06_Models/working_model.pt",
+    "resolved": "${ROOTSPAN_PROJECT}/04_Results/39_PAT_Transfer_Learning/run_20261115T140159Z/model_weights.pt",
+    "sha256": "234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633"
+  },
+  "historical_trainer": {
+    "path": "${ROOTSPAN_PROJECT}/08_Model_Refinement_20261116/train_rule_teaching.py",
+    "sha256": "438b252f140ab20c14e69c96aba5fb4094123aca4a47158d7e63babcb7549329"
+  },
+  "new_trainer": {
+    "path": "${ROOTSPAN_PROJECT}/08_Model_Refinement_20261116/train_reviewed_root3.py",
+    "sha256": "581f5fb5ee482cd586ecb1ccc3daa1f1d56674388ed286beb8c26e3d2d2359c7"
+  },
+  "approved_manifest": {
+    "path": "${ROOTSPAN_PROJECT}/04_Results/61_Reviewed_Root3_Teaching_Correction/manifest_approved.json",
+    "sha256": "60f4bf446dca3e43a6664973e803da8952222b90d609434b4ec6176a74ac7661"
+  },
+  "declared_steps": 1200,
+  "seed": 1611,
+  "learning_rate_decoder": 0.0001,
+  "augmentation": "mild",
+  "contrast": "none",
+  "reference_for_selection": "Familiar20_29developmentexample",
+  "root3_reference_role": "Teaching-fit diagnostic, not independent test",
+  "reserved_images_used_for_selection": false,
+  "model_selection": "Best 20_29 mean tissue IoU among every50updates; same rule as v7.",
+  "success_gate": "P/E recall and precision>=.85; labelledBG recall>=.98; meanP/EIoU>=.75. Familiar development only.",
+  "default_change_authorized_or_planned": false
+}

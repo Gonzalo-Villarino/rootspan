@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-11-16T14:15:10.720166+00:00",
+  "requested_by": "Gonzalo Villarino",
+  "T_line_color": "#28b7ff",
+  "T_line_orientation": "vertical",
+  "required_caption": "Always identify reference T versus model T. An expert confirming a line is inside the zone does not establish its exact left edge.",
+  "reference_and_model_together": "Blue dashed reference, blue solid model, both explicitly labelled.",
+  "existing_historical_figures": "Retained as historical records; new figures follow this convention."
+}

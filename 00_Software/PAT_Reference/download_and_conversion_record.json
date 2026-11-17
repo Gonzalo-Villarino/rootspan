@@ -1,0 +1,40 @@
+{
+  "paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10981931/",
+  "repository": "https://github.com/Salk-Harnessing-Plants-Initiative/PAT-Pipeline-for-Analysis-of-Periderm",
+  "released_model_url": "https://drive.google.com/file/d/1E5f0Heav8L_k9WxvvEQoBxC_J_zLH-J4/view",
+  "released_filename": "best_model_unet_plusplus_resnet34_periderm4classes_Lin_0301_1024_6.pth",
+  "source_bytes": 104549253,
+  "source_sha256": "fb07dc1f1a254f7ba067de7f9b8b491bc7bb7f1c8da4564159ad23bcbc208f90",
+  "tensor_state_sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+  "original_saved_training_flag": false,
+  "strict_state_match": true,
+  "allowed_globals": [
+    "torch.nn.modules.linear.Identity",
+    "torch.nn.modules.container.ModuleDict",
+    "torchvision.models.resnet.BasicBlock",
+    "segmentation_models_pytorch.decoders.unetplusplus.decoder.UnetPlusPlusDecoder",
+    "torch.nn.modules.container.Sequential",
+    "segmentation_models_pytorch.decoders.unetplusplus.decoder.DecoderBlock",
+    "segmentation_models_pytorch.base.modules.Attention",
+    "segmentation_models_pytorch.base.modules.Activation",
+    "segmentation_models_pytorch.encoders.resnet.ResNetEncoder",
+    "segmentation_models_pytorch.base.modules.Conv2dReLU",
+    "torch.nn.parallel.data_parallel.DataParallel",
+    "torch.nn.modules.activation.ReLU",
+    "torch.nn.modules.conv.Conv2d",
+    "torch.nn.modules.pooling.MaxPool2d",
+    "torch.nn.modules.activation.Sigmoid",
+    "torch.nn.modules.batchnorm.BatchNorm2d",
+    "segmentation_models_pytorch.decoders.unetplusplus.model.UnetPlusPlus",
+    "segmentation_models_pytorch.base.heads.SegmentationHead"
+  ],
+  "output_channels": [
+    "background",
+    "periderm",
+    "endodermis",
+    "lateral_root"
+  ],
+  "preprocessing": "RGB/255, mean[.485,.456,.406], std[.229,.224,.225], matching official ResNet34 ImageNet preprocessing.",
+  "source_code_license": "See LICENSE; scripts copied from public repository for inspection, not run. Model redistribution license not separately established.",
+  "training_membership_of_MT25_rep3": "Unknown; cannot claim independent evaluation."
+}

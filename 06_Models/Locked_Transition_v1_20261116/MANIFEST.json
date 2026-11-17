@@ -1,0 +1,158 @@
+{
+  "files": {
+    "ACCEPTANCE.json": {
+      "bytes": 826,
+      "sha256": "3845cab88b4a107c0b45fc76b4da8430940324de71c4e0d190915220a484da15"
+    },
+    "LOCK_RECORD.json": {
+      "bytes": 489,
+      "sha256": "afe747164cbf35f446a4376058e7b651f485181e532a63c0e31916f9ee41b73b"
+    },
+    "READ_ME_FIRST.txt": {
+      "bytes": 3840,
+      "sha256": "9e9fcde9548bc45dbb815a279cc76b6f8f40d2ad6fc280866fc8fbdf7e54c856"
+    },
+    "environment.json": {
+      "bytes": 1004,
+      "sha256": "d5810355e0f46b820f9f67cfd8e6c9a810ee4eb8878680671b4e6e9f6e260b5b"
+    },
+    "evidence/A04_acceptance.json": {
+      "bytes": 1078,
+      "sha256": "f88c64dd76221115a68a96fd836756f72d8f8f6d47ac2cf1eff542cb7a363447"
+    },
+    "evidence/COL0_acceptance.json": {
+      "bytes": 732,
+      "sha256": "a03a41e1feed36c3b4331edea406ea69d898ffe1a6862c576bf3c0f976ad0537"
+    },
+    "evidence/approved_result.png": {
+      "bytes": 367389,
+      "sha256": "e98441c1985430c5767d91a529557e379b7fd3742170a58fe4a66107f7659b6c"
+    },
+    "evidence/biological_definition.json": {
+      "bytes": 818,
+      "sha256": "3eec847246d2b0548919f777ea49aeec5935ca5647313d76f7b191b8954edfec"
+    },
+    "evidence/comparison_results.json": {
+      "bytes": 31015,
+      "sha256": "f8517c5e62756ae1753f70d2d1c29c503bb80b2aa0d096b7e92cfbca390f52e0"
+    },
+    "evidence/development_verification.json": {
+      "bytes": 1754,
+      "sha256": "ab7ae6c91a25fce5290f65339b616eafee0ef3f32d6478d2923e8c4884897dab"
+    },
+    "evidence/experiment_plan.json": {
+      "bytes": 2902,
+      "sha256": "b2871e0b422af48ef660c939542008f7e3386dd30348835aca3ca14517e620da"
+    },
+    "evidence/review_status.json": {
+      "bytes": 537,
+      "sha256": "b3ef94ac02fed9b6347842d8257155f0179c0624bb2c20ace5ed6b81db39be6f"
+    },
+    "evidence/self_check.json": {
+      "bytes": 631,
+      "sha256": "9fd899b6febd2a56ff5a30931db926c7c6f039b1e972a85c1bec3dc311ce2920"
+    },
+    "fixtures/212_approved_decoder.json": {
+      "bytes": 8006,
+      "sha256": "ec0e04200eaa8d06f71d59e1c97a2945e09f2433ddb2941a73651d632b94d7db"
+    },
+    "fixtures/212_image.png": {
+      "bytes": 2618533,
+      "sha256": "695454ce33d049a66860e72fe45c0055c549e819afdca502608bbbdaae50cbe5"
+    },
+    "fixtures/212_original_prediction.json": {
+      "bytes": 20958,
+      "sha256": "84b00fd786743a4b5aa083fdd81e4111e60a3f0146656b454b5c94ecf2877738"
+    },
+    "fixtures/212_route.json": {
+      "bytes": 174218,
+      "sha256": "00f965f6362e59482423e125205db76c5e63e06b15be09773b918b4caa7e846e"
+    },
+    "fixtures/profiles/20_29_root4.json": {
+      "bytes": 4002,
+      "sha256": "1582b4f5c7ab789f5f3e71a0d3408f3c55550dba35204287a344910e9cd23e89"
+    },
+    "fixtures/profiles/2_12_root1.json": {
+      "bytes": 23702,
+      "sha256": "1dca3d5956fb1cfd4618bfdfff23950d62df6a1a9b2b4eae42bd2e17c7b13fa5"
+    },
+    "fixtures/profiles/A04_root3.json": {
+      "bytes": 14767,
+      "sha256": "688774407d147183d8aaef85ac1bcc56e47e30b0028ff5ac6ef966f5b88c85bf"
+    },
+    "fixtures/profiles/COL0_root3.json": {
+      "bytes": 32692,
+      "sha256": "7a5d8d523b44958a70926918f0bdc82e04549f6a243df3eeea9ccd6f4bef2cae"
+    },
+    "frozen_core.py": {
+      "bytes": 6519,
+      "sha256": "075ef03bbf6f1a3f31bb83ed74063855624647716101605de8eb004de140725b"
+    },
+    "provenance.json": {
+      "bytes": 979,
+      "sha256": "85ccba68f0ea0d9cb8d0b4e178f82b0016fa6ef641c6a996306013275f1cc3ba"
+    },
+    "requirements.freeze.txt": {
+      "bytes": 563,
+      "sha256": "171587b807908aac3dd9acd511cac2606ba45390b25e9f5a1ba0eb70c3b94fc4"
+    },
+    "run_checkpoint.py": {
+      "bytes": 7304,
+      "sha256": "54b651a332aed2f90a3e6774be7771628d98f3b6175ab12375d15d583d2f15b0"
+    },
+    "settings.json": {
+      "bytes": 1253,
+      "sha256": "5a5ab846c9003618fc14829832c9115750be999f9cd9d79af851d8dbd7b1b8ec"
+    },
+    "source_snapshot/appearance_experiment.py": {
+      "bytes": 21031,
+      "sha256": "5cca34ed765ccef56e77c55c0b7a7a330a7d7cce2df1dd53ee05b626cee82e81"
+    },
+    "source_snapshot/build_locked_transition_v1.py": {
+      "bytes": 10554,
+      "sha256": "1e44df543a19a17799594e205bfb94d5c7f9806a7a1e80753cb31a273f2e7bc6"
+    },
+    "source_snapshot/check_frozen_212_root1.py": {
+      "bytes": 12495,
+      "sha256": "f4a377a89a15649fed227557f185a601e083e2aed95ccfede9c1a3cbfde98521"
+    },
+    "source_snapshot/check_frozen_a04_root3.py": {
+      "bytes": 16874,
+      "sha256": "b37c45308eca96ca96844c61d887bab0d55139faa8122017687b8e9e85a4d1c2"
+    },
+    "source_snapshot/check_transition_continuity.py": {
+      "bytes": 6964,
+      "sha256": "9153dae39d5eeca402e5b90ca93172ea30845d6327b196ed6c623ea4410701c0"
+    },
+    "source_snapshot/extend_root3_reference_route.py": {
+      "bytes": 10601,
+      "sha256": "c18ae6a89cfc7c8c704a08c8cee8403ba512e27c5aa17a731e82386af008afc7"
+    },
+    "source_snapshot/finalize_locked_transition_v1.py": {
+      "bytes": 9148,
+      "sha256": "2840671ddfcf5ba928e80db16d8c7c7e9905b3880f7875794d8d84adf23491f4"
+    },
+    "source_snapshot/test_both_appearances.py": {
+      "bytes": 11637,
+      "sha256": "c2e6f858cf847dce609a959c9a95a4793b774d2766658922a5f7a1b00d25ff1f"
+    },
+    "source_snapshot/transition_continuity_rule.py": {
+      "bytes": 4458,
+      "sha256": "57c0e0c2b1d06d9b19e28b77fe85e88d381a54379e3cd62fce28f6988a60f379"
+    },
+    "verify_checkpoint.py": {
+      "bytes": 1580,
+      "sha256": "b0f33464c47d20c5236d295de9d4efbe17dc38d8fc010c24da70bccf6ee04d73"
+    },
+    "weights/pat_state_dict.pt": {
+      "bytes": 104522943,
+      "sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348"
+    },
+    "weights/presence_head.pt": {
+      "bytes": 10133,
+      "sha256": "6cce6ef74330a9de4422cdb738144f972cedff41f07d4de3e9c9869b6e4054b9"
+    }
+  },
+  "note": "Publication packaging changes only. Original local checkpoint preserved separately.",
+  "version": "Transition_v1_20261116_public_copy"
+}

@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.pyc
+~$*
+.env
+.venv/
+00_Software/*-env
+00_Software/PAT_Reference/*.pt
+00_Software/PAT_Reference/*.pth
+06_Models/**/weights/pat_state_dict.pt
+09_Periderm_GUI/runs/
+09_Periderm_GUI/uploads/
+*.log
+_local_checks/

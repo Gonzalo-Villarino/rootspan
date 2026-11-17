@@ -1,0 +1,132 @@
+{
+  "purpose": "Compare effect of added lower Background labels on the same root-5 training example",
+  "baseline_prediction": "${ROOTSPAN_PROJECT}/04_Results/24_Root5_Prediction/view_20261115T115753Z_patbp50t",
+  "updated_prediction": "${ROOTSPAN_PROJECT}/04_Results/28_Root5_Lower_Background_Prediction/view_20261115T121105Z_xwp5xe8f",
+  "baseline_run": "${ROOTSPAN_PROJECT}/04_Results/23_Root5_Training/run_20261115T115502Z_skjaqsca",
+  "updated_run": "${ROOTSPAN_PROJECT}/04_Results/27_Root5_Lower_Background_Training/run_20261115T121005Z_d_v61wde",
+  "image_patch": "${ROOTSPAN_PROJECT}/04_Results/26_Root5_Lower_Background_Patch/MT25_rep3_root5_x6976_y6016_image.png",
+  "numeric_updated_mask": "${ROOTSPAN_PROJECT}/04_Results/26_Root5_Lower_Background_Patch/MT25_rep3_root5_x6976_y6016_mask.png",
+  "only_input_change": "193,215 formerly unlabelled pixels become Background; identical image and tissue labels",
+  "same_code_and_settings_verified": true,
+  "completed_updates_each": 600,
+  "baseline_scored_against_updated_reference": {
+    "confusion_rows_reference_columns_prediction": [
+      [
+        34949,
+        1,
+        0
+      ],
+      [
+        0,
+        14130,
+        0
+      ],
+      [
+        710,
+        10403,
+        535268
+      ]
+    ],
+    "labelled_pixels": 595461,
+    "correct": 584347,
+    "per_class": {
+      "Periderm": {
+        "reference_pixels": 34950,
+        "correct_pixels": 34949,
+        "percent_matched": 99.99713876967095
+      },
+      "Endoderm": {
+        "reference_pixels": 14130,
+        "correct_pixels": 14130,
+        "percent_matched": 100.0
+      },
+      "Background": {
+        "reference_pixels": 546381,
+        "correct_pixels": 535268,
+        "percent_matched": 97.96607129457283
+      }
+    }
+  },
+  "updated_scored_against_updated_reference": {
+    "confusion_rows_reference_columns_prediction": [
+      [
+        34947,
+        3,
+        0
+      ],
+      [
+        1,
+        14129,
+        0
+      ],
+      [
+        0,
+        0,
+        546381
+      ]
+    ],
+    "labelled_pixels": 595461,
+    "correct": 595457,
+    "per_class": {
+      "Periderm": {
+        "reference_pixels": 34950,
+        "correct_pixels": 34947,
+        "percent_matched": 99.99141630901288
+      },
+      "Endoderm": {
+        "reference_pixels": 14130,
+        "correct_pixels": 14129,
+        "percent_matched": 99.99292285916489
+      },
+      "Background": {
+        "reference_pixels": 546381,
+        "correct_pixels": 546381,
+        "percent_matched": 100.0
+      }
+    }
+  },
+  "lower_band": {
+    "definition": "In columns with labelled Periderm, pixels below its bottommost labelled pixel",
+    "old_green_pixels": 11454,
+    "new_green_pixels": 2285,
+    "green_pixel_reduction_percent": 80.05063733193644,
+    "updated_reference_codes_at_old_green_pixels": {
+      "0": 2757,
+      "3": 8697
+    },
+    "updated_reference_codes_at_new_green_pixels": {
+      "0": 2285
+    },
+    "new_predictions_at_old_green_pixels": {
+      "1": 371,
+      "2": 830,
+      "3": 10253
+    },
+    "new_green_not_present_before": 1455
+  },
+  "newly_labelled_background": {
+    "pixels": 193215,
+    "before_predictions": {
+      "1": 710,
+      "2": 10403,
+      "3": 182102
+    },
+    "after_predictions": {
+      "3": 193215
+    }
+  },
+  "reference_counts": {
+    "0": 453109,
+    "1": 34950,
+    "2": 14130,
+    "3": 546381,
+    "255": 6
+  },
+  "labelled_percent": 56.7875862121582,
+  "limits": [
+    "No new slide or root was tested; this is the same training example.",
+    "Unlabelled edge pixels have no confirmed answer; a colour change alone does not establish biological correctness.",
+    "One fresh run per label set, same seed and settings; not replicated evidence of general performance."
+  ],
+  "further_training_or_inference_in_this_analysis": false
+}

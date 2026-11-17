@@ -1,0 +1,130 @@
+{
+  "source_image": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/02_Images_For_Labelme/20_29_evaluation.png",
+  "source_sha256": "df2ccc184dcbd52cdc35b8c6b8b92f32a863e678ca2a24d25aa2ba41ec11abd0",
+  "candidate_box_xyxy_exclusive": [
+    5440,
+    4256,
+    6464,
+    5280
+  ],
+  "detail_box_in_candidate_xyxy_exclusive": [
+    0,
+    210,
+    1024,
+    700
+  ],
+  "wider_context_box_xyxy_exclusive": [
+    5100,
+    4370,
+    6900,
+    5070
+  ],
+  "original_pixel_values_preserved": true,
+  "brightness_adjustment": false,
+  "resizing": false,
+  "slide": "20_29",
+  "location": "Different root; fourth primary-root band from top at source x6000. Number is a visual location description, not a specimen ID.",
+  "selection_basis": "Visible cell-wall definition and variation in cell shape; no model predictions used. Compare with previously ambiguous area.",
+  "biological_transition_confirmed": true,
+  "next": "User runs program29 to predict the selected crop with the same frozen model.",
+  "model_used": false,
+  "training_performed": false,
+  "frozen_model_weights": "${ROOTSPAN_PROJECT}/04_Results/39_PAT_Transfer_Learning/run_20261115T140159Z/model_weights.pt",
+  "frozen_weights_sha256": "234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633",
+  "source_only_survey": [
+    {
+      "slide": "20_29",
+      "xcentre": 6000,
+      "candidate_boxes": [
+        [
+          5300,
+          271,
+          6700,
+          731
+        ],
+        [
+          5300,
+          1301,
+          6700,
+          1761
+        ],
+        [
+          5300,
+          3104,
+          6700,
+          3564
+        ],
+        [
+          5300,
+          4528,
+          6700,
+          4988
+        ],
+        [
+          5300,
+          5260,
+          6700,
+          5720
+        ],
+        [
+          5300,
+          6374,
+          6700,
+          6834
+        ],
+        [
+          5300,
+          7445,
+          6700,
+          7905
+        ]
+      ]
+    },
+    {
+      "slide": "2_12",
+      "xcentre": 10500,
+      "candidate_boxes": [
+        [
+          9800,
+          560,
+          11200,
+          1020
+        ],
+        [
+          9800,
+          1821,
+          11200,
+          2281
+        ],
+        [
+          9800,
+          2790,
+          11200,
+          3250
+        ],
+        [
+          9800,
+          3587,
+          11200,
+          4047
+        ],
+        [
+          9800,
+          5127,
+          11200,
+          5587
+        ],
+        [
+          9800,
+          5935,
+          11200,
+          6395
+        ]
+      ]
+    }
+  ],
+  "confirmation_scope": "Qualitative biological review by Gonzalo before model prediction; not a pixel reference or precise measured boundary.",
+  "user_assessment_before_prediction": "yes this is clearer, endoderm on the left and periderm on the right, transition around the middle.",
+  "assessment_used_as_model_input": false,
+  "pixel_reference_mask_exists": false
+}

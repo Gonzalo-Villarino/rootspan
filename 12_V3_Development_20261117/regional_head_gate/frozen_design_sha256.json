@@ -1,0 +1,8 @@
+{
+  "12_V3_Development_20261117/HEAD_PLAN.txt": "29f985824c80b910515a54c385c6f9a28c625ff04f2c03d32c79a9c8c9b4acc3",
+  "12_V3_Development_20261117/decoder.py": "9540e2a0f1a4aecc20ad86b30d155d2d893e22d84ae368c6a5447eb4a78cc31f",
+  "12_V3_Development_20261117/train_region_candidate.py": "3ad7b751f039a5a62702e8719244aafb782d34d6ffe0de1abee6fcc981fd92d7",
+  "04_Results/65_Mixed_Appearance_Evidence_Check/three_way_five_windows/frozen_features.npz": "7cb6d1f6f3b3cfe3ac6a7e38b00393b94369798c52a8ae3ca0127300f642617f",
+  "04_Results/67_Fixed_A04_Root3_Check/frozen_features_and_scores.npz": "d5b2062715f92d72bc0f4cdcecea99bd00c889b93a527c506c5b7bfcbcc0252b",
+  "04_Results/68_Fixed_212_Root1_Check/frozen_features_and_scores.npz": "429ca2ecfda020e735e81ce372b439332e48bc515cff3b15a364eefe3d8f932f"
+}

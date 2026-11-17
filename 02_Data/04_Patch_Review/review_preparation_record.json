@@ -1,0 +1,20 @@
+{
+  "purpose": "Separate microscopy-only copy for a human review of one whole training patch",
+  "source_image": "${ROOTSPAN_PROJECT}/04_Results/18_Extra_Background_Patch/MT25_rep3_practice_r000_c007_image.png",
+  "source_patch_details": "${ROOTSPAN_PROJECT}/04_Results/18_Extra_Background_Patch/patch_details.json",
+  "image_sha256": "0efb453e036ce7ae39d775c87e8d4886c950ae5f352b6738d004bd309cacaa3c",
+  "copied_image": "${ROOTSPAN_PROJECT}/02_Data/04_Patch_Review/MT25_rep3_patch_review_GV.png",
+  "copied_pixels_changed": false,
+  "source_crop_box_in_slide": [
+    7168,
+    0,
+    8192,
+    1024
+  ],
+  "width": 1024,
+  "height": 1024,
+  "coordinates_note": "Any new Labelme annotations here will use local patch coordinates, from 0 to 1023, not full-slide coordinates.",
+  "annotation_status": "No annotations created by this preparation. User has not yet reviewed the patch.",
+  "training_status": "No new mask or training in this step.",
+  "caution": "Do not treat unlabelled pixels as Background automatically. Review tissue, clearly empty space, and ambiguous edges first."
+}

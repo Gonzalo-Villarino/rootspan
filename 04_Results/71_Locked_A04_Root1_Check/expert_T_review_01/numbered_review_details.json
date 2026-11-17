@@ -1,0 +1,50 @@
+{
+  "source": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png",
+  "source_sha256": "529ad2cf67513b8a4a4bae737261ff068fca498c166a5bf2d073d59ad713fe4c",
+  "source_box_xyxy": [
+    4800,
+    80,
+    6500,
+    740
+  ],
+  "markers": [
+    {
+      "number": 1,
+      "source_x": 5100,
+      "main_root_center_source_y": 440.25972197374057,
+      "biological_meaning": null
+    },
+    {
+      "number": 2,
+      "source_x": 5400,
+      "main_root_center_source_y": 375.4400816949057,
+      "biological_meaning": null
+    },
+    {
+      "number": 3,
+      "source_x": 5700,
+      "main_root_center_source_y": 308.2679550941897,
+      "biological_meaning": null
+    },
+    {
+      "number": 4,
+      "source_x": 6000,
+      "main_root_center_source_y": 258.6881554825632,
+      "biological_meaning": null
+    },
+    {
+      "number": 5,
+      "source_x": 6300,
+      "main_root_center_source_y": 198.94946892883894,
+      "biological_meaning": null
+    }
+  ],
+  "display": "Native source pixels, no brightness change or rescaling.",
+  "selection": "Source area between the rejected model T and the already-reviewed mixed field B, with right context. Guides do not define new biological labels.",
+  "model_T_preserved": [
+    4897.161375117229,
+    500.1738895984186
+  ],
+  "expert_reference_pending": true,
+  "guide_center_geometry": "Previously checked fluorescence-derived main-root path; no tissue class inferred."
+}

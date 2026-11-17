@@ -1,0 +1,18 @@
+{
+  "slide_id": "20_29",
+  "role": "development_check",
+  "source_image": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/02_Images_For_Labelme/20_29_evaluation.png",
+  "image_sha256": "df2ccc184dcbd52cdc35b8c6b8b92f32a863e678ca2a24d25aa2ba41ec11abd0",
+  "decoded_pixels_sha256": "3db828533fe4007646e1203813dd680501d43fffd6e0d52600e8cfc4fb0d23cb",
+  "reference_status": "No full-slide human Labelme JSON found. Two assistant sparse training masks are not certified evaluation ground truth.",
+  "readiness": "needs reviewed reference boundaries and basal endpoints; first review region is root4 box[5440,4256,6464,5280]",
+  "why": "Different slide with variable clarity, plus a user-identified clearer transition. Already used for diagnosis and rejected adaptation training; suitable as a familiar development challenge, never a pristine final test.",
+  "historical_exposure": "Gradient updates on assistant20_29 masks occurred in rejected runs45/46. Baseline39 did not use20_29 in local gradient training.",
+  "next_run_rule": "No20_29 pixels or labels in next training loss; do not initialize from45/46 or their descendants if reporting this as a development holdout. Existing39 baseline or an audited pre-20_29 checkpoint only.",
+  "first_reference_review_box": [
+    5440,
+    4256,
+    6464,
+    5280
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "method": "Published PAT model, then separate experimental single-transition rule; not a reproduction of the exact PAT postprocessor.",
+  "image_only_inference": true,
+  "full_roi_box": [
+    1000,
+    4800,
+    14200,
+    6500
+  ],
+  "root4_comparison_box": [
+    8928,
+    5264,
+    9952,
+    6288
+  ],
+  "transition_x_full_image": 10073,
+  "raw_metrics": {
+    "per_class": {
+      "Periderm": {
+        "correct": 551,
+        "reference": 27268,
+        "recall": 0.020206835851547603,
+        "precision": 1.0,
+        "iou": 0.020206835851547603
+      },
+      "Endoderm": {
+        "correct": 24304,
+        "reference": 24802,
+        "recall": 0.9799209741149907,
+        "precision": 0.4811625190552553,
+        "iou": 0.47646493756003844
+      },
+      "Background": {
+        "correct": 712186,
+        "reference": 712186,
+        "recall": 1.0,
+        "precision": 0.9985866398203014,
+        "iou": 0.9985866398203014
+      }
+    },
+    "confusion_4x4_P_E_B_LR": [
+      [
+        551,
+        26207,
+        510,
+        0
+      ],
+      [
+        0,
+        24304,
+        498,
+        0
+      ],
+      [
+        0,
+        0,
+        712186,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "tissue_mean_iou": 0.248335886705793,
+    "scope": "Labelled root4 pixels only; PAT training membership unknown."
+  },
+  "postprocessed_metrics": {
+    "per_class": {
+      "Periderm": {
+        "correct": 0,
+        "reference": 27268,
+        "recall": 0.0,
+        "precision": 0.0,
+        "iou": 0.0
+      },
+      "Endoderm": {
+        "correct": 24304,
+        "reference": 24802,
+        "recall": 0.9799209741149907,
+        "precision": 0.475970388938937,
+        "iou": 0.4713731574864236
+      },
+      "Background": {
+        "correct": 712186,
+        "reference": 712186,
+        "recall": 1.0,
+        "precision": 0.9985866398203014,
+        "iou": 0.9985866398203014
+      }
+    },
+    "confusion_4x4_P_E_B_LR": [
+      [
+        0,
+        26758,
+        510,
+        0
+      ],
+      [
+        0,
+        24304,
+        498,
+        0
+      ],
+      [
+        0,
+        0,
+        712186,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "tissue_mean_iou": 0.2356865787432118,
+    "scope": "Labelled root4 pixels only; PAT training membership unknown."
+  },
+  "model_sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+  "reference_sha256": "93f8831cc67d3acc75d355a30914aecd7c0a452e13145692941233b0c4be0a63",
+  "source_sha256": "8b60e04adb22e4a474c77613253f9d165de0dc64cd739a0e4008fec73c75cf87",
+  "disclaimer": "PAT training-image membership unknown. Scores are only against labelled reference pixels. Whole-root rule assumes mature Periderm to the right. No labels used in inference or transition choice."
+}

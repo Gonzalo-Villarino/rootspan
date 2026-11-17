@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-11-16T15:49:12.047380+00:00",
+  "expert": "Gonzalo Villarino",
+  "verbatim": "is too far left",
+  "case": "A04 root 1",
+  "checkpoint": "Transition_v1_20261116",
+  "model_T_source_xy": [
+    4897.161375117229,
+    500.1738895984186
+  ],
+  "expert_judgement": "Automatic T is too far left; its position is not accepted.",
+  "exact_reference_T": null,
+  "reference_interval": null,
+  "earlier_appearance_labels_retained": "A Endoderm; B mixed/transition; C Periderm.",
+  "scope": "Directional position correction, not a new exact coordinate or pixel annotation.",
+  "status": "Does not pass expert T-placement check on this root.",
+  "model_unchanged": true,
+  "prediction_unchanged": true,
+  "training_occurred": false,
+  "next": "Ask for a reference position or range using source-only numbered guides. Any future method change must be in a separate version and this root then counts as development data for that change."
+}

@@ -1,0 +1,93 @@
+{
+  "status": "PROPOSALS_ONLY_NOT_TRAINING_DATA",
+  "source_slide": "COL0_Slide1",
+  "reason": "Additional archived slide has P outlines only. Main-root tissue to the left is a proposed Endoderm source; classification needs biological confirmation.",
+  "inference": "No model prediction or checking image used to draw these drafts.",
+  "review_rule": "Confirm tissue identity and that cyan stays within the main root. Reject uncertain or branch regions. Do not approve solely because the outline is left of P.",
+  "drafts": [
+    {
+      "root": 1,
+      "image": "${ROOTSPAN_PROJECT}/02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root1_Endoderm_DRAFT.png",
+      "draft_json": "${ROOTSPAN_PROJECT}/02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root1_Endoderm_DRAFT.json",
+      "source_box_xyxy": [
+        11792,
+        226,
+        12816,
+        738
+      ],
+      "draft_class": "PROPOSED_Endoderm_NEEDS_REVIEW",
+      "biological_identity_confirmed": false,
+      "used_in_training": false
+    },
+    {
+      "root": 2,
+      "image": "${ROOTSPAN_PROJECT}/02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root2_Endoderm_DRAFT.png",
+      "draft_json": "${ROOTSPAN_PROJECT}/02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root2_Endoderm_DRAFT.json",
+      "source_box_xyxy": [
+        13401,
+        3210,
+        14425,
+        3722
+      ],
+      "draft_class": "PROPOSED_Endoderm_NEEDS_REVIEW",
+      "biological_identity_confirmed": false,
+      "used_in_training": false
+    },
+    {
+      "root": 3,
+      "image": "${ROOTSPAN_PROJECT}/02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root3_Endoderm_DRAFT.png",
+      "draft_json": "${ROOTSPAN_PROJECT}/02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root3_Endoderm_DRAFT.json",
+      "source_box_xyxy": [
+        12421,
+        5828,
+        13445,
+        6340
+      ],
+      "draft_class": "PROPOSED_Endoderm_NEEDS_REVIEW",
+      "biological_identity_confirmed": false,
+      "used_in_training": false
+    },
+    {
+      "root": 4,
+      "image": "${ROOTSPAN_PROJECT}/02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root4_Endoderm_DRAFT.png",
+      "draft_json": "${ROOTSPAN_PROJECT}/02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root4_Endoderm_DRAFT.json",
+      "source_box_xyxy": [
+        9171,
+        6993,
+        10195,
+        7505
+      ],
+      "draft_class": "PROPOSED_Endoderm_NEEDS_REVIEW",
+      "biological_identity_confirmed": false,
+      "used_in_training": false
+    },
+    {
+      "root": 5,
+      "image": "${ROOTSPAN_PROJECT}/02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root5_Endoderm_DRAFT.png",
+      "draft_json": "${ROOTSPAN_PROJECT}/02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root5_Endoderm_DRAFT.json",
+      "source_box_xyxy": [
+        10031,
+        8639,
+        11055,
+        9151
+      ],
+      "draft_class": "PROPOSED_Endoderm_NEEDS_REVIEW",
+      "biological_identity_confirmed": false,
+      "used_in_training": false
+    },
+    {
+      "root": 6,
+      "image": "${ROOTSPAN_PROJECT}/02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root6_Endoderm_DRAFT.png",
+      "draft_json": "${ROOTSPAN_PROJECT}/02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root6_Endoderm_DRAFT.json",
+      "source_box_xyxy": [
+        11100,
+        10477,
+        12124,
+        10989
+      ],
+      "draft_class": "PROPOSED_Endoderm_NEEDS_REVIEW",
+      "biological_identity_confirmed": false,
+      "used_in_training": false
+    }
+  ]
+}

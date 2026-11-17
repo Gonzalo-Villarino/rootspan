@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use RootSpan, cite this repository version and the original PAT methods and software."
+title: "RootSpan: periderm length estimates from root microscopy images"
+authors:
+  - family-names: Villarino
+    given-names: Gonzalo
+version: 0.6.0-rootspan.1
+date-released: 2026-11-17
+repository-code: "https://github.com/Gonzalo-Villarino/rootspan"
+license: MIT
+keywords:
+  - plant phenotyping
+  - periderm
+  - microscopy
+  - image segmentation
+  - root measurement
+references:
+  - type: software
+    title: "PAT: Pipeline for Analysis of Periderm"
+    authors:
+      - name: "Salk Harnessing Plants Initiative"
+    repository-code: "https://github.com/Salk-Harnessing-Plants-Initiative/PAT-Pipeline-for-Analysis-of-Periderm"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10981931/"

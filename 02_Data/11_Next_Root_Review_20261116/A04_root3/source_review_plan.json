@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-11-16T14:15:10.720166+00:00",
+  "source_image": "${ROOTSPAN_PROJECT}/02_Data/07_Additional_Archived_Annotations_20261116/A04_Slide2.png",
+  "source_sha256": "529ad2cf67513b8a4a4bae737261ff068fca498c166a5bf2d073d59ad713fe4c",
+  "root": 3,
+  "source_box_xyxy": [
+    6800,
+    4580,
+    11100,
+    5630
+  ],
+  "review_fields": [
+    {
+      "name": "A",
+      "source_box_xyxy": [
+        8200,
+        5058,
+        8600,
+        5338
+      ],
+      "biological_label": null
+    },
+    {
+      "name": "B",
+      "source_box_xyxy": [
+        9200,
+        4963,
+        9600,
+        5243
+      ],
+      "biological_label": null
+    },
+    {
+      "name": "C",
+      "source_box_xyxy": [
+        10000,
+        4906,
+        10400,
+        5186
+      ],
+      "biological_label": null
+    }
+  ],
+  "selection": "Root 3 chosen from source-only six-root overview for a comparatively straight main root near the archived Periderm outline start. Wider context is included. Selection did not use current detector predictions.",
+  "source_status": "Familiar A04 slide used in earlier U-Net checks; not a new blind test. This appearance head was taught on COL0. Published PAT encoder exposure unknown.",
+  "pending": "Expert appearance review and transition interval before inference; insufficient/uncertain source can be excluded with recorded reason.",
+  "frozen_head_sha256": "6cce6ef74330a9de4422cdb738144f972cedff41f07d4de3e9c9869b6e4054b9",
+  "frozen_encoder_sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+  "model_settings_change_planned": false,
+  "new_training": false,
+  "inference_done": false,
+  "calibration": "A04 calibration not confirmed; do not report micrometre lengths.",
+  "reserved_2_12_used": false
+}

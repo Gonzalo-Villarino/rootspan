@@ -1,0 +1,31 @@
+{
+  "all_passed": true,
+  "checks": [
+    "Euclidean diagonal uses sqrt(dx2+dy2)",
+    "Translation does not alter length",
+    "Calibration is pixels divided by pixels per micrometre",
+    "Nonpositive or nonfinite calibration rejected",
+    "Straight 500-pixel centreline recovered within 2 pixels",
+    "Smooth curved centreline recovered within 3 percent",
+    "Only enclosed short gaps filled; outer background not filled",
+    "Exactly six numbered roots",
+    "Root 1 saved length matches its coordinates",
+    "Root 1 no invented manual measurement",
+    "Root 1 path within image",
+    "Root 2 saved length matches its coordinates",
+    "Root 2 no invented manual measurement",
+    "Root 2 path within image",
+    "Root 3 saved length matches its coordinates",
+    "Root 3 no invented manual measurement",
+    "Root 3 path within image",
+    "Root 4 saved length matches its coordinates",
+    "Root 4 no invented manual measurement",
+    "Root 4 path within image",
+    "Root 5 saved length matches its coordinates",
+    "Root 5 no invented manual measurement",
+    "Root 5 path within image",
+    "Root 6 saved length matches its coordinates",
+    "Root 6 no invented manual measurement",
+    "Root 6 path within image"
+  ]
+}

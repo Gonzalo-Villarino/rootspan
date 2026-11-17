@@ -1,0 +1,25 @@
+{
+  "reference_image": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/03_Your_Annotations/20_29_root4_reference_GV.png",
+  "reference_image_sha256": "0a0ce535a2caaf6de5ae13971b29da297734d32503cb3e79787ca8df2b3b22ad",
+  "copied_from": "${ROOTSPAN_PROJECT}/04_Results/43_20_29_Clearer_Transition_Prediction/view_20261115T155056Z_vbrbuhdb/20_29_x5440_y4256_image.png",
+  "saved_prediction_folder": "${ROOTSPAN_PROJECT}/04_Results/43_20_29_Clearer_Transition_Prediction/view_20261115T155056Z_vbrbuhdb",
+  "saved_prediction_sha256": "e0b3e79cbf1ac9fcf832a6ad2fbe77121ffd4ead5f56975585c9fcf47d1a2200",
+  "source_crop_xyxy_exclusive": [
+    5440,
+    4256,
+    6464,
+    5280
+  ],
+  "dimensions": [
+    1024,
+    1024
+  ],
+  "identical_to_model_input": true,
+  "purpose": "Small human reference for assessment of the already-saved prediction; not training.",
+  "annotation_json_expected": "${ROOTSPAN_PROJECT}/02_Data/05_Training_and_Evaluation/02_Evaluation_Images/03_Your_Annotations/20_29_root4_reference_GV.json",
+  "annotation_json_present_at_preparation": false,
+  "human_shapes_created_by_assistant": 0,
+  "model_weights_unchanged": true,
+  "new_inference_or_training": false,
+  "reference_independence": "Qualitative tissue identity was recorded before prediction; detailed boundaries will be drawn after the user has seen prediction. This is an exploratory diagnostic reference, not blinded independent validation."
+}

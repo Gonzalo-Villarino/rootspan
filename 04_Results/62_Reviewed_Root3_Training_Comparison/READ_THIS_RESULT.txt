@@ -1,0 +1,36 @@
+NEW TRAINING RESULT — MIXED; AUTOMATIC LENGTH MEASUREMENT IS NOT READY
+
+Gonzalo approved the corrected COL0 root3 teaching mask: Endoderm left of T, Periderm right including transition. This run completed1200updates using the corrected teaching set of20selected roots on4slides. There are357patch fields, not357independent roots.
+
+Same starting model, seed, update budget, augmentation and learning rates as v7. The data correction changes labels and adds one T-centred crop; sample selection consequently also changes. A single run is not proof of a general causal effect.
+
+Root3 labelled teaching pixels:
+  Periderm recall: 0.03% to72.63% (5/16542 to12014/16542).
+  Endoderm recall:98.53% to73.28% (3090/3136 to2298/3136).
+  Mean tissue IoU:0.0787 to0.4955.
+The answer key covers only19678pixels inside the root. No Background or lateral-root reference pixels exist in this crop. Unknown pixels are not scored.
+
+Familiar20_29development pixels:
+  Periderm recall:79.88% to99.38%.
+  Endoderm recall:73.30% to56.83%.
+  Labelled Background recall stays100%.
+  Mean tissue IoU:0.6219 to0.6460.
+Periderm precision decreases77.94% to73.11%; Endoderm precision increases75.52% to98.73%. The new model calls more pixels Periderm and misses more Endoderm.
+
+The new selected checkpoint is update800, selected with the same development mean-IoU rule as before. Earlier v7 selected update500. Matched-step and final-step comparisons are retained in comparison_results.json. The stated development acceptance gate fails. This is not a new independent test;20_29has been repeatedly used for model selection.
+
+The separate image-only single-transition rule did not find an internal transition on root3: it put the boundary at the crop edge for both models (opposite extremes). This diagnostic is not the raw network output and was not used to choose the checkpoint.
+
+Default working model unchanged. Prior models and source data preserved. Predictions were computed from images before reading masks for scoring; rerun20_29predictions exactly match the saved checkpoint outputs. No automatic Periderm length claim is justified by this run.
+
+Next small learning step: check another existing teaching transition for a similar label inconsistency before further training. This result does not demonstrate that microscopy quality is the cause, and does not justify automatically adding more iterations.
+
+Files:
+ ROOT3_BEFORE_AND_AFTER.png — corrected teaching example, four panels.
+ 20_29_BEFORE_AND_AFTER.png — familiar development comparison.
+ comparison_results.json — complete metrics, scope and provenance.
+ predictions/ — raw predictions, probabilities and separate rule diagnostics.
+ REPRODUCE_AND_LEARN.txt — commands and simple explanation.
+ training_terminal_log.txt — full training output.
+
+Current Word manual not edited. This result is saved in the project learning notes and in this separate review folder.

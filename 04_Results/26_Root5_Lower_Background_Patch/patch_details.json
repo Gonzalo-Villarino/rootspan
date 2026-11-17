@@ -1,0 +1,63 @@
+{
+  "purpose": "New root-5 practice pair; exact matching crops; no training",
+  "patch_id": "MT25_rep3_root5_x6976_y6016",
+  "source_crop_box": [
+    6976,
+    6016,
+    8000,
+    7040
+  ],
+  "size": [
+    1024,
+    1024
+  ],
+  "crop_convention": "Zero-based left/top included; right/bottom excluded",
+  "source_image": "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_practice.png",
+  "full_mask": "${ROOTSPAN_PROJECT}/04_Results/25_Root5_Lower_Background_Mask/MT25_rep3_root5_refined_GV_mask.png",
+  "mask_details": "${ROOTSPAN_PROJECT}/04_Results/25_Root5_Lower_Background_Mask/mask_details.json",
+  "annotation_file": "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json",
+  "annotation_sha256": "d1d0213b73df742a58cf19e7924823c448ca94d245e44d69feadc181d7d1b313",
+  "crop_review_record": "${ROOTSPAN_PROJECT}/05_Notes/Visual_Guides/Root5_Patch_Review/proposal_20261115T105528Z/proposal_record.json",
+  "inputs_sha256": {
+    "${ROOTSPAN_PROJECT}/04_Results/25_Root5_Lower_Background_Mask/mask_details.json": "f9f6724bdc360b9f7ca659b020ce3897c414941a4cf9e6e90a7e17c7a28f37fe",
+    "${ROOTSPAN_PROJECT}/05_Notes/Visual_Guides/Root5_Patch_Review/proposal_20261115T105528Z/proposal_record.json": "686b389abb759994b506763c7d288b4edcb460d593d734c4e2fb6b5cb61added",
+    "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_practice.png": "8b60e04adb22e4a474c77613253f9d165de0dc64cd739a0e4008fec73c75cf87",
+    "${ROOTSPAN_PROJECT}/02_Data/02_My_First_Annotations/MT25_rep3_root5_refined_GV.json": "d1d0213b73df742a58cf19e7924823c448ca94d245e44d69feadc181d7d1b313",
+    "${ROOTSPAN_PROJECT}/04_Results/25_Root5_Lower_Background_Mask/MT25_rep3_root5_refined_GV_mask.png": "234a6088b0edf181de1b224dbc0ef15a6d55bba3bac27cacd50d1d971a0417c2"
+  },
+  "pixel_codes": {
+    "0": "Unannotated (ignored)",
+    "1": "Periderm",
+    "2": "Endoderm",
+    "3": "Background",
+    "255": "Conflicting labels (ignored)"
+  },
+  "pixel_counts": {
+    "0": 453109,
+    "1": 34950,
+    "2": 14130,
+    "3": 546381,
+    "255": 6
+  },
+  "trainable_class_codes": [
+    1,
+    2,
+    3
+  ],
+  "ignore_codes": [
+    0,
+    255
+  ],
+  "labelled_percent": 56.7875862121582,
+  "change_rule": "Exact crops; no resizing, padding or automatic labelling",
+  "mask_reading": "Use numeric mask codes, not colour-preview RGB values",
+  "model_trained": false,
+  "limitation": "Root 5 is from the same slide; not an independent test. Only labelled pixels can be scored.",
+  "script_file": "${ROOTSPAN_PROJECT}/03_Notebooks/16_make_root5_patch.py",
+  "script_sha256": "f85214e9b1bd29b0a5e481e7546dfc3c196b2708a47dce672f8ec6558196d3ad",
+  "image_file": "MT25_rep3_root5_x6976_y6016_image.png",
+  "mask_file": "MT25_rep3_root5_x6976_y6016_mask.png",
+  "mask_preview_file": "MT25_rep3_root5_x6976_y6016_mask_preview.png",
+  "image_sha256": "0d55359899aa2478dc8cf8eac5eaec728077d9b207b785bcf36ecc779ecff755",
+  "mask_sha256": "8b4f1c78e72d50b1914e031330f5601b1a0aaefeffbe2ff6d73ff377dc918bbb"
+}

@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-11-16T12:49:57.398288+00:00",
+  "labels": "${ROOTSPAN_PROJECT}/02_Data/10_Cell_Appearance_Review/confirmed_appearance_labels_01.json",
+  "labels_sha256": "dd92c2fef1ee153804721e087e5e4daa1846eba888009902758148f43cae27a1",
+  "purpose": "Feasibility experiment; NOT a validated replacement U-Net or automatic length pipeline",
+  "training_unique_windows": 3,
+  "training_unique_roots": 1,
+  "training_unique_slides": 1,
+  "encoder_weights": "${ROOTSPAN_PROJECT}/00_Software/PAT_Reference/pat_state_dict.pt",
+  "encoder_sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+  "encoder_training": false,
+  "public_encoder_original_training_membership": "unknown",
+  "model": "Frozen PAT ResNet34 multilevel pooled features plus linear 3-appearance head",
+  "features": "L2-normalized global mean for encoder stages 1-5, concatenated and normalized",
+  "preprocessing": "320x256 native pixels, vertical intensity-centering, p99.5 green scaled to160; no geometric resizing; zero-pad outside reviewed window",
+  "augmentation": "48 photometric/flip versions per reviewed window; gain0.8-1.2; gamma0.9-1.1. Not independent examples.",
+  "updates": 500,
+  "optimizer": "AdamW lr0.02 weight_decay0.05",
+  "seed": 1617,
+  "selection": "Final head; no checkpoint selection. Expert error correction is part of development when root3 supplies a teaching field.",
+  "class_balance": "Each appearance class contributes1/3of loss; windows within a class share its weight equally.",
+  "class_window_counts": [
+    1,
+    1,
+    1
+  ],
+  "scan_stride_native_pixels": 64,
+  "sequence_rule": "Monotonic E/M/P with0.25 log-score transition penalty. Any state may be absent. Candidate requires>=3 successive samples in every state.",
+  "reference_use": "Only after prediction. Route is human-assisted. No expert T used in features or decoding.",
+  "comparison_status": "Familiar same-slide development, not blind evaluation. No new-slide test.",
+  "limitations": [
+    "Very few fields; root thickness, intensity and context can confound appearance.",
+    "Frozen features are not demonstrated explicit cell-shape measurements.",
+    "Window labels do not establish a pixel-precise boundary. 320-pixel field limits localization.",
+    "Main-root path is supplied, not independently detected. No automatic lengths reported."
+  ],
+  "default_model_sha256_before": "234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633"
+}

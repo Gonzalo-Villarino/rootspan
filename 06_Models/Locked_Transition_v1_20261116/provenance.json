@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-11-16T15:25:36.021478+00:00",
+  "original_head": "${ROOTSPAN_PROJECT}/06_Models/20261116_Two_Appearance_Candidate/presence_head.pt",
+  "original_encoder": "${ROOTSPAN_PROJECT}/00_Software/PAT_Reference/pat_state_dict.pt",
+  "head_sha256": "6cce6ef74330a9de4422cdb738144f972cedff41f07d4de3e9c9869b6e4054b9",
+  "encoder_sha256": "71ba82d7eab40c0b8489f47ee373fd0ea08f2e2e33457c62152a1f8240d68348",
+  "source_experiment": "${ROOTSPAN_PROJECT}/04_Results/69_Transition_Continuity_Check",
+  "training_examples_source": "${ROOTSPAN_PROJECT}/02_Data/10_Cell_Appearance_Review/confirmed_appearance_labels_03.json",
+  "model_lineage": "Published PAT encoder frozen; linear head taught on five reviewed fields from two roots on COL0. New continuity decoder developed with2_12feedback.",
+  "working_U_Net_sha256": "234b7de1969d80dd1523ce52afc89d5952b5e9ba4a63cdd7b3c8bff5b1c13633",
+  "source_images_unmodified": true,
+  "requires_installed_python_libraries": true
+}

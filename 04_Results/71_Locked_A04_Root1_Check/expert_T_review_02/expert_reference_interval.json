@@ -1,0 +1,44 @@
+{
+  "recorded_utc": "2026-11-16T15:52:52.776569+00:00",
+  "expert": "Gonzalo Villarino",
+  "verbatim": "Btw 4-5",
+  "interpretation": "Approximate left edge of the mixed-cell zone lies between numbered guides 4 and 5 on the main root.",
+  "reference_T_source_x_interval": [
+    6000,
+    6300
+  ],
+  "reference_T_source_endpoints": [
+    [
+      6000,
+      258.6881554825632
+    ],
+    [
+      6300,
+      198.94946892883894
+    ]
+  ],
+  "reference_T_local_path_interval_pixels": [
+    2667.1641519420837,
+    2973.636057368675
+  ],
+  "exact_reference_T": null,
+  "no_midpoint_chosen": true,
+  "interval_kind": "Expert approximate position range; not a statistical confidence interval or the full width of the mixed zone.",
+  "model_T_source_xy": [
+    4897.161375117229,
+    500.1738895984186
+  ],
+  "model_T_local_path_pixels": 1536.0,
+  "model_is_too_far_left_by_path_pixels": [
+    1131.1641519420837,
+    1437.6360573686752
+  ],
+  "distance_scope": "Along the checked crop-local main-root route. No complete-root length or micrometre conversion; A04 calibration unconfirmed.",
+  "model_status_on_this_case": "T placement rejected by expert; outside the supplied reference interval.",
+  "earlier_A_B_C_review": "Retained as qualitative field descriptions. B overlaps only part of the approximate reference interval; its whole rectangle is not automatically relabelled.",
+  "no_new_pixel_annotations": true,
+  "model_changed": false,
+  "training_occurred": false,
+  "reference_used_to_move_model_T": false,
+  "next": "Retain as a failed fixed-v1 check. Before a future v2, review representative false-mixed appearances and maintain separate evaluation roots. This correction is not a new model prediction."
+}

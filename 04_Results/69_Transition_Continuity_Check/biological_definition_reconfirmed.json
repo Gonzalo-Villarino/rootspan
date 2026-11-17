@@ -1,0 +1,8 @@
+{
+  "recorded_utc": "2026-11-16T15:17:45.801775+00:00",
+  "user_statement": "good idea - but keep in mind in T zone u see both long square cells and periderm cell, if the model only see long square then that is endo",
+  "expert": "Gonzalo Villarino",
+  "definition": "Mixed/T-zone appearance requires both elongated orderly Endoderm cells and shorter irregular Periderm cells on the main root. Long orderly rectangular cells alone are Endoderm. T is the left edge of the mixed zone. Lateral-root cells do not define main-root T.",
+  "implementation_limit": "Current appearance head predicts the presence of each appearance in windows; it does not explicitly segment, identify or count individual cells. Both predicted scores must pass0.5 for a mixed call. Those scores can be wrong.",
+  "new_training_labels": false
+}

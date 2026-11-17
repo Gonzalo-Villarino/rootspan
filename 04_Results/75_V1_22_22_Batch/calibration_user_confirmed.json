@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-17",
+  "slide": "22_22",
+  "scale_pixels_per_micrometre": 0.5299,
+  "basis": "User confirmation in chat",
+  "verbatim": "Yes, the same scale",
+  "native_size_xy": [
+    16772,
+    8528
+  ],
+  "source_sha256": "74d1fa19155819af5c9a8c7c0e5c49b0f6ff373af656c174fc7558e0792571ee",
+  "not_inferred_from_TIFF_print_dpi": true
+}

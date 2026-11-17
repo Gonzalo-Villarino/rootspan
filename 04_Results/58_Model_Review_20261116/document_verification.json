@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-11-16T10:21:16.325101+00:00",
+  "artifact": "${ROOTSPAN_PROJECT}/05_Notes/07_Model_Refinement_Review_20261116.docx",
+  "sha256": "e95b2b145ec033b2d035d35a4605bb2333446df564164d590e66fa2b40822519",
+  "rendered_pages": 4,
+  "all_four_pages_visually_inspected": true,
+  "layout": "Clean four-page layout; no title border, clipped content, extra spill page or broken tables.",
+  "qa_directory": "${ROOTSPAN_PROJECT}/04_Results/58_Model_Review_20261116/word_qa_final",
+  "main_manual_edited": false,
+  "biological_review_included": true,
+  "reproducibility_test_passed": true,
+  "candidate_passed_automatic_measurement_gate": false,
+  "claude_review": "Unavailable: login required. No feedback received."
+}

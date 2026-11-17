@@ -1,0 +1,20 @@
+{
+  "prediction_folder": "${ROOTSPAN_PROJECT}/04_Results/24_Root5_Prediction/view_20261115T115753Z_patbp50t",
+  "roi_definition": "In columns containing reference Periderm, pixels below the bottommost reference Periderm pixel",
+  "predicted_endoderm_pixels_in_roi": 11454,
+  "reference_codes_at_those_pixels": {
+    "0": 11454
+  },
+  "green_bbox_patch_xyxy_exclusive": [
+    274,
+    781,
+    1024,
+    869
+  ],
+  "maximum_distance_below_reference_periderm_pixels": 30,
+  "background_reference_pixels_within_40_pixels_below_reference_periderm": 0,
+  "saved_prediction_confusion_matches_training_record": true,
+  "interpretation": "The extra green band below the Periderm outline is in ignored, unannotated space, so its predictions receive no direct training correction. Missing lower Background supervision is a plausible explanation; no causal claim about its exact predicted class or guarantee of a fix. Biological membership must be judged from microscopy.",
+  "source_annotations_changed": false,
+  "additional_training": false
+}

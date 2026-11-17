@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-11-17T09:56:04.462415+00:00",
+  "slide": "22_22",
+  "root_ids": [
+    1,
+    2
+  ],
+  "numbering": "Topmost and second from top main roots; selected by image geometry before predictions",
+  "source": "${ROOTSPAN_PROJECT}/02_Data/15_Additional_Slides_20261117/02_Reserved_Evaluation/22_22.tif",
+  "source_sha256": "74d1fa19155819af5c9a8c7c0e5c49b0f6ff373af656c174fc7558e0792571ee",
+  "source_endpoint_review_box": [
+    13200,
+    0,
+    16000,
+    2400
+  ],
+  "fixed_model": "Transition_v1_20261116",
+  "scale_confirmed": true,
+  "right_endpoints": "project tooling will select provisional image-based measuring junctions; expert confirmation still needed. Not detected by v1.",
+  "manual_T_input": false,
+  "new_training": false,
+  "purpose": "Small assisted batch-inference exercise, not an accuracy comparison; no new manual ground truth."
+}

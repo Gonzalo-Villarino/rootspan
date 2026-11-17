@@ -1,0 +1,94 @@
+ROOT 4 REPAIR SESSION — 15 NOVEMBER 2026
+Status: completed; substantially improved development result, with remaining errors.
+
+WHY WE CHANGED DIRECTION
+The first model learned one root5 patch almost perfectly but confused tissues
+on root4. We should not keep moving biological boundaries to make a prediction
+look correct. Root4's reference mask is fixed throughout this session.
+
+WHAT PAT DOES
+Source: Villarino et al. (2024), PAT, doi:10.34133/plantphenomics.0156.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10981931/
+The paper trained UNet++ with a ResNet encoder using9 slides/54 roots, cropped
+into1471 patches. Training included flipped/rotated examples. Predicted patches
+were stitched before rules connected periderm fragments and closed gaps.
+Post-processing means changing predictions by explicit rules AFTER prediction;
+it is not training and is not a new human annotation. Table2 shows that cleanup
+did not improve every metric on every slide. Its benefits must be measured.
+Our small teaching U-Net is not the published PAT architecture or weights.
+
+ACTION RECORD (CODEx RAN THESE AFTER GONZALO AUTHORISED AUTONOMOUS REPAIR)
+1. Read the PAT paper and public pipeline code. Checked the old root4 result.
+2. Program20 prepared167 overlapping512px fields from roots1/2/3/5. Every
+   training crop excludes the entire bounding boxes of roots4/6. These are
+   repeated views of4 roots, not167 independent biological samples.
+3. Trained the original small U-Net with paired rotations/flips, brightness
+   changes, balanced supervision and masked loss. Root4 selects checkpoints.
+4. Program21 tested a wider-context U-Net. This alone was not a useful fix.
+5. Program22 added446 fields from2 archived slides already copied from the
+   SALK backup:20#MT28_gfp and25717_gfp. They have saved human annotations;
+   the individual annotator is not established. Sources matched the copy
+   manifest. Only Periderm/Endoderm outlines were reused. Lateral-root labels
+   and conflicts are ignored; outside outlines remains unlabelled. Background
+   still comes only from Gonzalo's explicit Background examples.
+6. Program23 excluded disputed training tissue pixels where early practice
+   outlines disagreed with archived training-root outlines. Disputed pixels
+   became ignored, never a different tissue. The review did not rasterize
+   archived root4/6 shapes or change their reference labels. Original JSONs
+   were not edited. The resulting dataset has613 fields from16 roots/3 slides.
+7. Trained with matched256px training/inference fields and overlap blending.
+   This did not fix the tissue distinction. The unsuccessful run is preserved.
+8. Downloaded the public PAT model linked by the authors' repository. Verified
+   a strict state-dictionary match to UNet++/ResNet34; converted the saved object
+   to tensor-only weights. Preserved source file, hashes, class order and code.
+   Added torchvision,segmentation-models-pytorch and scipy; pip check passed.
+9. Checked the released PAT model on root4 and on longer root context. Tested
+   a separate, explicitly experimental single-transition continuity rule.
+   This is NOT Ling's exact150px postprocessor. It also failed here and was
+   rejected. No reference labels were used to choose its transition.
+10. Program25 adapts PAT's learned features to our three categories. Root4/6
+    stay out of the new training. Broad sampling showed little improvement;
+    stopped after900 recorded updates. Saved STOPPED_EARLY.json.
+11. Only23/613 fields contain both tissue labels. A separate run now prioritises
+    those mixed fields to teach transitions, alongside explicit Background.
+
+IMPORTANT LIMITS AND SIMPLE CONCEPTS
+Validation: checking a model version on a labelled example that is not used
+for its training updates. Because we repeatedly use root4 to choose settings,
+it is a development/validation example. It is not a final independent test.
+
+Transfer learning: start with useful features learned earlier, then adapt them
+using our own training examples. This is different from training from scratch.
+The public PAT model's exposure to MT25_rep3 is UNKNOWN, so a PAT-derived
+model cannot claim an independent test on this slide. A separately acquired
+slide is needed later. Root6 remains reserved in our new training workflow.
+
+Recall: of the pixels the human labelled as a category, how many received that
+same prediction? It does not count all false positives. IoU also penalises
+extra incorrectly predicted pixels. Background is very common; overall pixel
+accuracy can look high even when the tissue distinction is poor.
+
+Brightness/blur may matter, but these runs do not isolate image quality as the
+cause. The archived root4 boundary is close to Gonzalo's revised boundary; that
+does not justify moving the human reference to fit the model. The problematic
+region is near the Periderm/Endoderm transition, not just a few boundary pixels.
+
+WHERE THINGS ARE SAVED
+04_Results/33_Multiple_Roots_Data — four-root dataset and provenance.
+04_Results/34_Multiple_Roots_Training — initial two new training attempts.
+04_Results/35_Multiple_Slides_Data — expanded, reviewed training dataset.
+04_Results/36_Multiple_Slides_Training — wider-context multi-slide trial.
+04_Results/37_PAT_Benchmark — public PAT weights on the same root4 patch.
+04_Results/38_PAT_Root_Context — longer-context prediction and rejected cleanup.
+04_Results/39_PAT_Transfer_Learning — broad and transition-focused adaptation.
+00_Software/PAT_Reference — released weights, provenance and reference code.
+
+Word manual has not been edited in this session. These notes are saved for
+later integration; they are not a claim that the Word file is up to date.
+
+
+FINAL CHECKED RESULT — 15 NOVEMBER2026
+Transition-focused transfer learning completed800 updates; best development checkpoint200. Raw root4 class recalls:Periderm84.11%,Endoderm73.39%,Background99.85%. Raw tissue IoU mean64.04%, versus24.14% for the old one-patch model. A separate image-score-only continuity rule further improved tissue IoU mean to76.85%:Periderm IoU81.09%,Endoderm IoU72.60%. Endoderm recall75.17%; Periderm recall100% but with6158 Endoderm false positives. This is not perfect segmentation. The transition starts too early; some artefact pixels remain misclassified.
+The selected rule was the same single-transition type rejected on the initial PAT benchmark; it became helpful after transition-focused adaptation improved the raw predictions. It is not the original PAT150px postprocessor. Root4 is development validation; original PAT training exposure unknown.
+Verified saved weights by hash/reload, exact reproduction of raw numeric prediction, unchanged reference hash, independent confusion-matrix recount, expected1024x1024 class codes, and synthetic checks of the rule (known transition recovered, Background unchanged, all-one-tissue allowed). No new annotations were drawn or overwritten. Reviewed both rendered comparisons.
+Open04_Results/40_Current_Improved_Result/OPEN_ME_root4_before_after.png. READ_ME_FIRST.txt explains the result, limitations and next step. Full metrics/weights/code/failed trials remain saved. Next:freeze this improved development version and use a separate source slide for independent evaluation, with biological labels confirmed before prediction. Word manual not edited.

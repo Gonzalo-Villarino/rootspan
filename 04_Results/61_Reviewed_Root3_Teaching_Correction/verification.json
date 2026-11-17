@@ -1,0 +1,16 @@
+{
+  "source_image_hash_unchanged": true,
+  "source_annotation_hash_unchanged": true,
+  "old_manifest_hash_unchanged": true,
+  "old_patch_masks_hashes_unchanged": true,
+  "only_2_to_1_within_reviewed_strip_changed": true,
+  "new_patch_retains_both_tissues": true,
+  "no_unknown_pixels_relabelled": true,
+  "no_background_or_lateral_root_labels_changed": true,
+  "old_patch_count": 356,
+  "candidate_patch_count": 357,
+  "changed_old_patch_copies": 4,
+  "unique_source_pixels_relabelled": 16542,
+  "new_training": false,
+  "figure_visually_inspected": "Three panels aligned to the same native crop: microscopy, historical all-Endoderm strip, corrected Endoderm-left/Periderm-right strip at expert T. Legend and explanatory text fit; no morphology or image adjustment. No full-root or background annotation implied."
+}

@@ -1,0 +1,61 @@
+{
+  "created_utc": "2026-11-16T12:10:45.001775+00:00",
+  "slide": "COL0_Slide1",
+  "root": 2,
+  "native_source_crop_xyxy": [
+    13401,
+    3210,
+    14425,
+    3722
+  ],
+  "crop_file": "${ROOTSPAN_PROJECT}/02_Data/08_Endoderm_Drafts_NEED_REVIEW/COL0_root2_Endoderm_DRAFT.png",
+  "crop_sha256": "917dac4855a656730d2941e17df0791513e9d9ca9085806fc045f5e374a58b89",
+  "guide_figure": "${ROOTSPAN_PROJECT}/02_Data/09_Transition_Endpoint_Review/COL0_root2_cell_shape_review_01.png",
+  "guide_photo_offset_xy": [
+    20,
+    115
+  ],
+  "numbered_positions": [
+    {
+      "number": 1,
+      "crop_x": 128,
+      "source_x": 13529
+    },
+    {
+      "number": 2,
+      "crop_x": 256,
+      "source_x": 13657
+    },
+    {
+      "number": 3,
+      "crop_x": 384,
+      "source_x": 13785
+    },
+    {
+      "number": 4,
+      "crop_x": 512,
+      "source_x": 13913
+    },
+    {
+      "number": 5,
+      "crop_x": 640,
+      "source_x": 14041
+    },
+    {
+      "number": 6,
+      "crop_x": 768,
+      "source_x": 14169
+    },
+    {
+      "number": 7,
+      "crop_x": 896,
+      "source_x": 14297
+    }
+  ],
+  "image_processing": "Original native-pixel crop reused with no brightness, contrast or resizing changes. Numbers are outside the photograph. No model predictions or old tissue labels displayed.",
+  "question": "Where is the left edge of the mixed-cell zone on the main root? A range or not clear are valid answers.",
+  "expert_transition_confirmation_pending": true,
+  "teaching_context": "This root supplied archive Periderm and derived interior Endoderm examples earlier; this detailed cell-shape/transition review is new. Old draft metadata remains historical.",
+  "new_labels": false,
+  "new_training": false
+}
